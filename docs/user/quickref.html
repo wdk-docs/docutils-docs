@@ -1,0 +1,885 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quick reStructuredText &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="The reStructuredText Cheat Sheet: Syntax Reminders" href="cheatsheet.html" />
+    <link rel="prev" title="A ReStructuredText Primer" href="quickstart.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../README.html">README: Docutils 0.15b.dev</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst.html">Markup Syntax and Parser Component of Docutils</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">User Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html">A ReStructuredText Primer</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Quick reStructuredText</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#contents">Contents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#inline-markup">Inline Markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#escaping-with-backslashes">Escaping with Backslashes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#section-structure">Section Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#paragraphs">Paragraphs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bullet-lists">Bullet Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#enumerated-lists">Enumerated Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#definition-lists">Definition Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#field-lists">Field Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#option-lists">Option Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#literal-blocks">Literal Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#line-blocks">Line Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#block-quotes">Block Quotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#doctest-blocks">Doctest Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tables">Tables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transitions">Transitions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#footnotes">Footnotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citations">Citations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hyperlink-targets">Hyperlink Targets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#indirect-hyperlink-targets">Indirect Hyperlink Targets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#implicit-hyperlink-targets">Implicit Hyperlink Targets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#directives">Directives</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#substitution-references-and-definitions">Substitution References and Definitions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comments">Comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cheatsheet.html">The reStructuredText Cheat Sheet: Syntax Reminders</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">Reference Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-To’s</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">User Documentation</a> &raquo;</li>
+        
+      <li>Quick reStructuredText</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/user/quickref.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quick-restructuredtext">
+<h1>Quick reStructuredText<a class="headerlink" href="#quick-restructuredtext" title="永久链接至标题">¶</a></h1>
+<p><a class="reference external" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">http://docutils.sourceforge.net/docs/user/rst/quickref.html</a></p>
+<p>Being a cheat-sheet for reStructuredText</p>
+<p>Updated $Date: 2009-07-14 16:05:34 +0200 (Di, 14. Jul 2009) $</p>
+<p>Copyright: This document has been placed in the public domain.</p>
+<p>The full details of the markup may be found on the reStructuredText page. This document is just intended as a reminder.</p>
+<p>Links that look like “(details)” point into the HTML version of the full reStructuredText specification document. These are relative links; if they don’t work, please use the master “Quick reStructuredText” document.</p>
+<div class="section" id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="永久链接至标题">¶</a></h2>
+<p>Inline Markup
+Escaping with Backslashes
+Section Structure
+Paragraphs
+Bullet Lists
+Enumerated Lists
+Definition Lists
+Field Lists
+Option Lists
+Literal Blocks
+Line Blocks
+Block Quotes
+Doctest Blocks
+Tables
+Transitions
+Explicit Markup
+Footnotes
+Citations
+Hyperlink Targets
+External Hyperlink Targets
+Internal Hyperlink Targets
+Indirect Hyperlink Targets
+Implicit Hyperlink Targets
+Directives
+Substitution References and Definitions
+Comments
+Getting Help</p>
+</div>
+<div class="section" id="inline-markup">
+<h2>Inline Markup<a class="headerlink" href="#inline-markup" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Inline markup allows words and phrases within text to have character styles (like italics and boldface) and functionality (like hyperlinks).</p>
+<p>Plain text      Typical result  Notes
+<em>emphasis</em>      emphasis        Normally rendered as italics.
+<strong>strong emphasis</strong>     strong emphasis Normally rendered as boldface.
+<cite>interpreted text</cite>      (see note at right)     The rendering and meaning of interpreted text is domain- or application-dependent. It can be used for things like index entries or explicit descriptive markup (like program identifiers).
+<code class="docutils literal notranslate"><span class="pre">inline</span> <span class="pre">literal</span></code>      inline literal  Normally rendered as monospaced text. Spaces should be preserved, but line breaks will not be.
+<a href="#id32"><span class="problematic" id="id33">reference_</span></a>      reference       A simple, one-word hyperlink reference. See Hyperlink Targets.
+<a href="#id34"><span class="problematic" id="id35">`phrase reference`_</span></a>     phrase reference        A hyperlink reference with spaces or punctuation needs to be quoted with backquotes. See Hyperlink Targets.
+<a href="#id21"><span class="problematic" id="id22">anonymous__</span></a>     anonymous       With two underscores instead of one, both simple and phrase references may be anonymous (the reference text is not repeated at the target). See Hyperlink Targets.
+<span class="target" id="inline-internal-target">inline internal target</span>       inline internal target  A crossreference target within text. See Hyperlink Targets.
+<a href="#id15"><span class="problematic" id="id16">|substitution reference|</span></a>        (see note at right)     The result is substituted in from the substitution definition. It could be text, an image, a hyperlink, or a combination of these and others.
+footnote reference <a href="#id36"><span class="problematic" id="id1">[1]_</span></a> footnote reference 1    See Footnotes.
+citation reference <a class="reference internal" href="cheatsheet.html#cit2002" id="id2"><span>[CIT2002]</span></a>   citation reference [CIT2002]    See Citations.
+<a class="reference external" href="http://docutils.sf.net/">http://docutils.sf.net/</a> <a class="reference external" href="http://docutils.sf.net/">http://docutils.sf.net/</a> A standalone hyperlink.
+Asterisk, backquote, vertical bar, and underscore are inline delimiter characters. Asterisk, backquote, and vertical bar act like quote marks; matching characters surround the marked-up word or phrase, whitespace or other quoting is required outside them, and there can’t be whitespace just inside them. If you want to use inline delimiter characters literally, escape (with backslash) or quote them (with double backquotes; i.e. use inline literals).</p>
+<p>In detail, the reStructuredText specification says that in inline markup, the following rules apply to start-strings and end-strings (inline markup delimiters):</p>
+<p>The start-string must start a text block or be immediately preceded by whitespace or any of  ‘ ” ( [ { or &lt;.
+The start-string must be immediately followed by non-whitespace.
+The end-string must be immediately preceded by non-whitespace.
+The end-string must end a text block (end of document or followed by a blank line) or be immediately followed by whitespace or any of ‘ ” . , : ; ! ? - ) ] } / or &gt;.
+If a start-string is immediately preceded by one of  ‘ ” ( [ { or &lt;, it must not be immediately followed by the corresponding character from  ‘ ” ) ] } or &gt;.
+An end-string must be separated by at least one character from the start-string.
+An unescaped backslash preceding a start-string or end-string will disable markup recognition, except for the end-string of inline literals.
+Also remember that inline markup may not be nested (well, except that inline literals can contain any of the other inline markup delimiter characters, but that doesn’t count because nothing is processed).</p>
+</div>
+<div class="section" id="escaping-with-backslashes">
+<h2>Escaping with Backslashes<a class="headerlink" href="#escaping-with-backslashes" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>reStructuredText uses backslashes (“”) to override the special meaning given to markup characters and get the literal characters themselves. To get a literal backslash, use an escaped backslash (“&quot;). For example:</p>
+<p>Raw reStructuredText    Typical result
+<em>escape</em> <code class="docutils literal notranslate"><span class="pre">with</span></code> “”   escape with “”
+*escape* ``with`` “&quot;        <em>escape</em> <code class="docutils literal notranslate"><span class="pre">with</span></code> “”
+In Python strings it will, of course, be necessary to escape any backslash characters so that they actually reach reStructuredText. The simplest way to do this is to use raw strings:</p>
+<p>Python string   Typical result
+r”“”*escape* `with` “&quot;”“”   <em>escape</em> <cite>with</cite> “”</p>
+<blockquote>
+<div><p>“”“\*escape* `with` “\”“””       <em>escape</em> <cite>with</cite> “”
+“”“*escape* `with` “&quot;”“”   escape with “”</p>
+</div></blockquote>
+</div>
+<div class="section" id="section-structure">
+<h2>Section Structure<a class="headerlink" href="#section-structure" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=====</span>
+<span class="n">Title</span>
+<span class="o">=====</span>
+<span class="n">Subtitle</span>
+<span class="o">--------</span>
+<span class="n">Titles</span> <span class="n">are</span> <span class="n">underlined</span> <span class="p">(</span><span class="ow">or</span> <span class="n">over</span><span class="o">-</span>
+<span class="ow">and</span> <span class="n">underlined</span><span class="p">)</span> <span class="k">with</span> <span class="n">a</span> <span class="n">printing</span>
+<span class="n">nonalphanumeric</span> <span class="mi">7</span><span class="o">-</span><span class="n">bit</span> <span class="n">ASCII</span>
+<span class="n">character</span><span class="o">.</span> <span class="n">Recommended</span> <span class="n">choices</span>
+<span class="n">are</span> <span class="s2">&quot;``= - ` : &#39; &quot;</span> <span class="o">~</span> <span class="o">^</span> <span class="n">_</span> <span class="o">*</span> <span class="o">+</span> <span class="c1"># &lt; &gt;``&quot;.</span>
+<span class="n">The</span> <span class="n">underline</span><span class="o">/</span><span class="n">overline</span> <span class="n">must</span> <span class="n">be</span> <span class="n">at</span>
+<span class="n">least</span> <span class="k">as</span> <span class="n">long</span> <span class="k">as</span> <span class="n">the</span> <span class="n">title</span> <span class="n">text</span><span class="o">.</span>
+
+<span class="n">A</span> <span class="n">lone</span> <span class="n">top</span><span class="o">-</span><span class="n">level</span> <span class="p">(</span><span class="n">sub</span><span class="p">)</span><span class="n">section</span>
+<span class="ow">is</span> <span class="n">lifted</span> <span class="n">up</span> <span class="n">to</span> <span class="n">be</span> <span class="n">the</span> <span class="n">document</span><span class="s1">&#39;s</span>
+<span class="p">(</span><span class="n">sub</span><span class="p">)</span><span class="n">title</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Typical result:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Title
+Subtitle
+
+Titles are underlined (or over- and underlined) with a printing nonalphanumeric 7-bit ASCII character. Recommended choices are ``= - ` : &#39; &quot; ~ ^ _ * + # &lt; &gt;``. The underline/overline must be at least as long as the title text.
+
+A lone top-level (sub)section is lifted up to be the document&#39;s (sub)title.
+</pre></div>
+</div>
+</div>
+<div class="section" id="paragraphs">
+<h2>Paragraphs<a class="headerlink" href="#paragraphs" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+This is a paragraph.</p>
+<p>Paragraphs line up at their left
+edges, and are normally separated
+by blank lines.</p>
+<p>This is a paragraph.</p>
+<p>Paragraphs line up at their left edges, and are normally separated by blank lines.</p>
+</div>
+<div class="section" id="bullet-lists">
+<h2>Bullet Lists<a class="headerlink" href="#bullet-lists" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Bullet lists:
+- This is item 1
+- This is item 2</p>
+<ul class="simple">
+<li><p>Bullets are “-“, “*” or “+”.
+Continuing text must be aligned
+after the bullet and whitespace.</p></li>
+</ul>
+<p>Note that a blank line is required
+before the first item and after the
+last, but is optional between items.</p>
+<p>Bullet lists:
+This is item 1
+This is item 2
+Bullets are “-“, “*” or “+”. Continuing text must be aligned after the bullet and whitespace.
+Note that a blank line is required before the first item and after the last, but is optional between items.</p>
+</div>
+<div class="section" id="enumerated-lists">
+<h2>Enumerated Lists<a class="headerlink" href="#enumerated-lists" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Enumerated lists:
+3. This is the first item
+4. This is the second item
+5. Enumerators are arabic numbers,</p>
+<blockquote>
+<div><p>single letters, or roman numerals</p>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li><p>List items should be sequentially
+numbered, but need not start at 1
+(although not all formatters will
+honour the first index).</p></li>
+<li><p>This item is auto-enumerated</p></li>
+</ol>
+<p>Enumerated lists:
+This is the first item
+This is the second item
+Enumerators are arabic numbers, single letters, or roman numerals
+List items should be sequentially numbered, but need not start at 1 (although not all formatters will honour the first index).
+This item is auto-enumerated</p>
+</div>
+<div class="section" id="definition-lists">
+<h2>Definition Lists<a class="headerlink" href="#definition-lists" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Definition lists:</p>
+<dl class="simple">
+<dt>what</dt><dd><p>Definition lists associate a term with
+a definition.</p>
+</dd>
+<dt>how</dt><dd><p>The term is a one-line phrase, and the
+definition is one or more paragraphs or
+body elements, indented relative to the
+term. Blank lines are not allowed
+between term and definition.  Definition lists:</p>
+</dd>
+</dl>
+<p>what
+Definition lists associate a term with a definition.
+how
+The term is a one-line phrase, and the definition is one or more paragraphs or body elements, indented relative to the term. Blank lines are not allowed between term and definition.</p>
+</div>
+<div class="section" id="field-lists">
+<h2>Field Lists<a class="headerlink" href="#field-lists" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+:Authors:</p>
+<blockquote>
+<div><p>Tony J. (Tibs) Ibbs,
+David Goodger
+(and sundry other good-natured folks)</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Version</dt>
+<dd class="field-odd"><p>1.0 of 2001/08/08</p>
+</dd>
+<dt class="field-even">Dedication</dt>
+<dd class="field-even"><p>To my father.</p>
+</dd>
+</dl>
+<p>Authors:        Tony J. (Tibs) Ibbs, David Goodger
+(and sundry other good-natured folks)
+Version:        1.0 of 2001/08/08
+Dedication:     To my father.
+Field lists are used as part of an extension syntax, such as options for directives, or database-like records meant for further processing. Field lists may also be used as generic two-column table constructs in documents.</p>
+</div>
+<div class="section" id="option-lists">
+<h2>Option Lists<a class="headerlink" href="#option-lists" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+-a            command-line option “a”
+-b file       options can have arguments</p>
+<blockquote>
+<div><p>and long descriptions</p>
+</div></blockquote>
+<dl class="option-list">
+<dt><kbd><span class="option">--long</span></kbd></dt>
+<dd><p>options can be long also</p>
+</dd>
+<dt><kbd><span class="option">--input=<var>file</var></span></kbd></dt>
+<dd><p>long options can also have
+arguments</p>
+</dd>
+<dt><kbd><span class="option">/V</span></kbd></dt>
+<dd><p>DOS/VMS-style options too</p>
+</dd>
+<dt><kbd><span class="option">-a</span></kbd></dt>
+<dd><p>command-line option “a”</p>
+</dd>
+</dl>
+<p>-b file options can have arguments and long descriptions
+–long  options can be long also
+–input=file    long options can also have arguments
+/V      DOS/VMS-style options too
+There must be at least two spaces between the option and the description.</p>
+</div>
+<div class="section" id="literal-blocks">
+<h2>Literal Blocks<a class="headerlink" href="#literal-blocks" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+A paragraph containing only two colons
+indicates that the following indented
+or quoted text is a literal block.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Whitespace</span><span class="p">,</span> <span class="n">newlines</span><span class="p">,</span> <span class="n">blank</span> <span class="n">lines</span><span class="p">,</span> <span class="ow">and</span>
+<span class="nb">all</span> <span class="n">kinds</span> <span class="n">of</span> <span class="n">markup</span> <span class="p">(</span><span class="n">like</span> <span class="o">*</span><span class="n">this</span><span class="o">*</span> <span class="ow">or</span>
+\<span class="n">this</span><span class="p">)</span> <span class="ow">is</span> <span class="n">preserved</span> <span class="n">by</span> <span class="n">literal</span> <span class="n">blocks</span><span class="o">.</span>
+
+<span class="n">The</span> <span class="n">paragraph</span> <span class="n">containing</span> <span class="n">only</span> <span class="s1">&#39;::&#39;</span>
+<span class="n">will</span> <span class="n">be</span> <span class="n">omitted</span> <span class="kn">from</span> <span class="nn">the</span> <span class="n">result</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">::</span></code> may be tacked onto the very
+end of any paragraph. The <code class="docutils literal notranslate"><span class="pre">::</span></code> will be
+omitted if it is preceded by whitespace.
+The <code class="docutils literal notranslate"><span class="pre">::</span></code> will be converted to a single
+colon if preceded by text, like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">It</span><span class="s1">&#39;s very convenient to use this form.</span>
+</pre></div>
+</div>
+<p>Literal blocks end when text returns to
+the preceding paragraph’s indentation.
+This means that something like this
+is possible:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="n">We</span> <span class="n">start</span> <span class="n">here</span>
+  <span class="ow">and</span> <span class="k">continue</span> <span class="n">here</span>
+<span class="ow">and</span> <span class="n">end</span> <span class="n">here</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Per-line quoting can also be used on
+unindented literal blocks:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">Useful</span> <span class="k">for</span> <span class="n">quotes</span> <span class="kn">from</span> <span class="nn">email</span> <span class="ow">and</span>
+<span class="o">&gt;</span> <span class="k">for</span> <span class="n">Haskell</span> <span class="n">literate</span> <span class="n">programming</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>A paragraph containing only two colons indicates that the following indented or quoted text is a literal block.</p>
+<blockquote>
+<div><p>Whitespace, newlines, blank lines, and
+all kinds of markup (like <em>this</em> or
+this) is preserved by literal blocks.</p>
+<p>The paragraph containing only ‘::’
+will be omitted from the result.</p>
+</div></blockquote>
+<p>The :: may be tacked onto the very end of any paragraph. The :: will be omitted if it is preceded by whitespace. The :: will be converted to a single colon if preceded by text, like this:</p>
+<blockquote>
+<div><p>It’s very convenient to use this form.</p>
+</div></blockquote>
+<p>Literal blocks end when text returns to the preceding paragraph’s indentation. This means that something like this is possible:</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><p>We start here</p>
+</div></blockquote>
+<p>and continue here</p>
+</div></blockquote>
+<p>and end here.</p>
+</div></blockquote>
+<p>Per-line quoting can also be used on unindented literal blocks:</p>
+<blockquote>
+<div><p>&gt; Useful for quotes from email and
+&gt; for Haskell literate programming.</p>
+</div></blockquote>
+</div>
+<div class="section" id="line-blocks">
+<h2>Line Blocks<a class="headerlink" href="#line-blocks" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+| Line blocks are useful for addresses,
+| verse, and adornment-free lists.
+|
+| Each new line begins with a
+| vertical bar (“|”).
+|     Line breaks and initial indents
+|     are preserved.
+| Continuation lines are wrapped</p>
+<blockquote>
+<div><p>portions of long lines; they begin
+with spaces in place of vertical bars.</p>
+</div></blockquote>
+<p>Line blocks are useful for addresses,
+verse, and adornment-free lists.</p>
+<p>Each new line begins with a
+vertical bar (“|”).
+Line breaks and initial indents
+are preserved.
+Continuation lines are wrapped portions of long lines; they begin with spaces in place of vertical bars.</p>
+</div>
+<div class="section" id="block-quotes">
+<h2>Block Quotes<a class="headerlink" href="#block-quotes" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Block quotes are just:</p>
+<blockquote>
+<div><p>Indented paragraphs,</p>
+<blockquote>
+<div><p>and they may nest.</p>
+</div></blockquote>
+</div></blockquote>
+<p>Block quotes are just:
+Indented paragraphs,</p>
+<p>and they may nest.</p>
+<p>Use empty comments to separate indentation contexts, such as block quotes and directive contents.</p>
+</div>
+<div class="section" id="doctest-blocks">
+<h2>Doctest Blocks<a class="headerlink" href="#doctest-blocks" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Doctest blocks are interactive
+Python sessions. They begin with
+“<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt;</span></code>” and end with a blank line.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="s2">&quot;This is a doctest block.&quot;</span>
+<span class="go">This is a doctest block.</span>
+</pre></div>
+</div>
+<p>Doctest blocks are interactive Python sessions. They begin with “&gt;&gt;&gt;” and end with a blank line.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="s2">&quot;This is a doctest block.&quot;</span>
+<span class="go">This is a doctest block.</span>
+</pre></div>
+</div>
+<p>“The doctest module searches a module’s docstrings for text that looks like an interactive Python session, then executes all such sessions to verify they still work exactly as shown.” (From the doctest docs.)</p>
+</div>
+<div class="section" id="tables">
+<h2>Tables<a class="headerlink" href="#tables" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>There are two syntaxes for tables in reStructuredText. Grid tables are complete but cumbersome to create. Simple tables are easy to create but limited (no row spans, etc.).</p>
+<p>Plain text      Typical result
+Grid table:</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 34%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Header 1</p></th>
+<th class="head"><p>Header 2</p></th>
+<th class="head"><p>Header 3</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>body row 1</p></td>
+<td><p>column 2</p></td>
+<td><p>column 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>body row 2</p></td>
+<td colspan="2"><p>Cells may span columns.</p></td>
+</tr>
+<tr class="row-even"><td><p>body row 3</p></td>
+<td rowspan="2"><p>Cells may
+span rows.</p></td>
+<td rowspan="2"><ul class="simple">
+<li><p>Cells</p></li>
+<li><p>contain</p></li>
+<li><p>blocks.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>body row 4</p></td>
+</tr>
+</tbody>
+</table>
+<p>Grid table:</p>
+<p>Header 1        Header 2        Header 3
+body row 1      column 2        column 3
+body row 2      Cells may span columns.
+body row 3      Cells may
+span rows.
+Cells
+contain
+blocks.
+body row 4
+Simple table:</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Inputs</p></th>
+<th class="head"><p>Output</p></th>
+</tr>
+<tr class="row-even"><th class="head"><p>A</p></th>
+<th class="head"><p>B</p></th>
+<th class="head"><p>A or B</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-odd"><td><p>False</p></td>
+<td><p>False</p></td>
+<td><p>False</p></td>
+</tr>
+<tr class="row-even"><td><p>True</p></td>
+<td><p>False</p></td>
+<td><p>True</p></td>
+</tr>
+<tr class="row-odd"><td><p>False</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
+</tr>
+<tr class="row-even"><td><p>True</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
+</tr>
+</tbody>
+</table>
+<p>Simple table:</p>
+<p>Inputs  Output
+A       B       A or B
+False   False   False
+True    False   True
+False   True    True
+True    True    True</p>
+</div>
+<div class="section" id="transitions">
+<h2>Transitions<a class="headerlink" href="#transitions" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+A transition marker is a horizontal line
+of 4 or more repeated punctuation
+characters.</p>
+<hr class="docutils" />
+<p>A transition should not begin or end a
+section or document, nor should two
+transitions be immediately adjacent.</p>
+<p>A transition marker is a horizontal line of 4 or more repeated punctuation characters.</p>
+<p>A transition should not begin or end a section or document, nor should two transitions be immediately adjacent.</p>
+<p>Transitions are commonly seen in novels and short fiction, as a gap spanning one or more lines, marking text divisions or signaling changes in subject, time, point of view, or emphasis.</p>
+<p>Explicit Markup
+Explicit markup blocks are used for constructs which float (footnotes), have no direct paper-document representation (hyperlink targets, comments), or require specialized processing (directives). They all begin with two periods and whitespace, the “explicit markup start”.</p>
+</div>
+<div class="section" id="footnotes">
+<h2>Footnotes<a class="headerlink" href="#footnotes" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Footnote references, like <a href="#id37"><span class="problematic" id="id3">[5]_</span></a>.
+Note that footnotes may get
+rearranged, e.g., to the bottom of
+the “page”.
+.. [5] A numerical footnote. Note</p>
+<blockquote>
+<div><p>there’s no colon after the <code class="docutils literal notranslate"><span class="pre">]</span></code>.</p>
+</div></blockquote>
+<p>Footnote references, like 5. Note that footnotes may get rearranged, e.g., to the bottom of the “page”.
+[5]     A numerical footnote. Note there’s no colon after the ].
+Autonumbered footnotes are
+possible, like using <a href="#id24"><span class="problematic" id="id25"><span id="id4"></span>[#]_</span></a> and <a href="#id24"><span class="problematic" id="id26"><span id="id5"></span>[#]_</span></a>.
+.. [#] This is the first one.
+.. [#] This is the second one.</p>
+<p>They may be assigned ‘autonumber
+labels’ - for instance,
+<a class="footnote-reference brackets" href="#fourth" id="id6">2</a> and <a class="footnote-reference brackets" href="#third" id="id7">1</a>.</p>
+<dl class="footnote brackets">
+<dt class="label" id="third"><span class="brackets"><a class="fn-backref" href="#id7">1</a></span></dt>
+<dd><p>a.k.a. <a class="reference internal" href="#third">third</a></p>
+</dd>
+<dt class="label" id="fourth"><span class="brackets"><a class="fn-backref" href="#id6">2</a></span></dt>
+<dd><p>a.k.a. <a class="reference internal" href="#fourth">fourth</a></p>
+</dd>
+</dl>
+<p>Autonumbered footnotes are possible, like using 1 and 2.
+They may be assigned ‘autonumber labels’ - for instance, 4 and 3.</p>
+<p>[1]     This is the first one.
+[2]     This is the second one.
+[3]     a.k.a. third
+[4]     a.k.a. fourth
+Auto-symbol footnotes are also
+possible, like this: <a href="#id28"><span class="problematic" id="id29"><span id="id8"></span>[*]_</span></a> and <a href="#id28"><span class="problematic" id="id30"><span id="id9"></span>[*]_</span></a>.
+.. [*] This is the first one.
+.. [*] This is the second one.</p>
+<p>Auto-symbol footnotes are also possible, like this: * and †.
+[*]     This is the first symbol footnote
+[†]     This is the second one.
+The numbering of auto-numbered footnotes is determined by the order of the footnotes, not of the references. For auto-numbered footnote references without autonumber labels (“<a href="#id24"><span class="problematic" id="id27"><span id="id10"></span>[#]_</span></a>”), the references and footnotes must be in the same relative order. Similarly for auto-symbol footnotes (“<a href="#id28"><span class="problematic" id="id31"><span id="id11"></span>[*]_</span></a>”).</p>
+</div>
+<div class="section" id="citations">
+<h2>Citations<a class="headerlink" href="#citations" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+Citation references, like <a class="reference internal" href="cheatsheet.html#cit2002" id="id12"><span>[CIT2002]</span></a>.
+Note that citations may get
+rearranged, e.g., to the bottom of
+the “page”.
+.. [CIT2002] A citation</p>
+<blockquote>
+<div><p>(as often used in journals).</p>
+</div></blockquote>
+<p>Citation labels contain alphanumerics,
+underlines, hyphens and fullstops.
+Case is not significant.</p>
+<p>Given a citation like <a class="reference internal" href="#this" id="id13"><span>[this]</span></a>, one
+can also refer to it like <a class="reference internal" href="#this">this</a>.</p>
+<dl class="citation">
+<dt class="label" id="this"><span class="brackets"><a class="fn-backref" href="#id13">this</a></span></dt>
+<dd><p>here.</p>
+</dd>
+</dl>
+<p>Citation references, like [CIT2002]. Note that citations may get rearranged, e.g., to the bottom of the “page”.
+Citation labels contain alphanumerics, underlines, hyphens and fullstops. Case is not significant.</p>
+<p>Given a citation like [this], one can also refer to it like this.</p>
+<p>[CIT2002]       A citation (as often used in journals).
+[this]  here.</p>
+</div>
+<div class="section" id="hyperlink-targets">
+<h2>Hyperlink Targets<a class="headerlink" href="#hyperlink-targets" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>External Hyperlink Targets
+Plain text      Typical result
+External hyperlinks, like <a class="reference external" href="http://www.python.org/">Python</a>.
+.. _Python: <a class="reference external" href="http://www.python.org/">http://www.python.org/</a></p>
+<p>Fold-in form
+External hyperlinks, like Python.
+Call-out form
+External hyperlinks, like Python.
+Python: <a class="reference external" href="http://www.python.org/">http://www.python.org/</a>
+“Fold-in” is the representation typically used in HTML documents (think of the indirect hyperlink being “folded in” like ingredients into a cake), and “call-out” is more suitable for printed documents, where the link needs to be presented explicitly, for example as a footnote. You can force usage of the call-out form by using the “target-notes” directive.</p>
+<p>reStructuredText also provides for embedded URIs (details), a convenience at the expense of readability. A hyperlink reference may directly embed a target URI inline, within angle brackets. The following is exactly equivalent to the example above:</p>
+<p>Plain text      Typical result
+External hyperlinks, like <a class="reference external" href="http://www.python.org/">Python</a>.     External hyperlinks, like Python.
+Internal Hyperlink Targets
+Plain text      Typical result
+Internal crossreferences, like <a href="#id38"><span class="problematic" id="id39">example_</span></a>.
+.. _example:</p>
+<p>This is an example crossreference target.</p>
+<p>Fold-in form
+Internal crossreferences, like example
+This is an example crossreference target.</p>
+<p>Call-out form
+Internal crossreferences, like example
+example:
+This is an example crossreference target.</p>
+</div>
+<div class="section" id="indirect-hyperlink-targets">
+<h2>Indirect Hyperlink Targets<a class="headerlink" href="#indirect-hyperlink-targets" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Plain text      Typical result
+<a class="reference external" href="http://www.python.org/">Python</a> is <a href="#id21"><span class="problematic" id="id23">`my favourite
+programming language`__</span></a>.
+.. _Python: <a class="reference external" href="http://www.python.org/">http://www.python.org/</a></p>
+<p>Python is my favourite programming language.</p>
+<p>The second hyperlink target (the line beginning with “__”) is both an indirect hyperlink target (indirectly pointing at the Python website via the “<a class="reference external" href="http://www.python.org/">Python</a>” reference) and an anonymous hyperlink target. In the text, a double-underscore suffix is used to indicate an anonymous hyperlink reference. In an anonymous hyperlink target, the reference text is not repeated. This is useful for references with long text or throw-away references, but the target should be kept close to the reference to prevent them going out of sync.</p>
+</div>
+<div class="section" id="implicit-hyperlink-targets">
+<h2>Implicit Hyperlink Targets<a class="headerlink" href="#implicit-hyperlink-targets" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Section titles, footnotes, and citations automatically generate hyperlink targets (the title text or footnote/citation label is used as the hyperlink name).</p>
+<p>Plain text      Typical result
+Titles are targets, too
+=======================
+Implict references, like <a href="#id40"><span class="problematic" id="id41">`Titles are
+targets, too`_</span></a>. Titles are targets, too
+Implict references, like Titles are targets, too.</p>
+</div>
+<div class="section" id="directives">
+<h2>Directives<a class="headerlink" href="#directives" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Directives are a general-purpose extension mechanism, a way of adding support for new constructs without adding new syntax. For a description of all standard directives, see reStructuredText Directives.</p>
+<p>Plain text      Typical result
+For instance:
+.. image:: images/ball1.gif</p>
+<p>For instance:
+ball1</p>
+</div>
+<div class="section" id="substitution-references-and-definitions">
+<h2>Substitution References and Definitions<a class="headerlink" href="#substitution-references-and-definitions" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Substitutions are like inline directives, allowing graphics and arbitrary constructs within text.</p>
+<p>Plain text      Typical result
+The <a href="#id17"><span class="problematic" id="id18">|biohazard|</span></a> symbol must be used on containers used to dispose of medical waste.
+.. <a href="#id19"><span class="problematic" id="id20">|biohazard|</span></a> image:: biohazard.png</p>
+<p>The biohazard symbol must be used on containers used to dispose of medical waste.</p>
+</div>
+<div class="section" id="comments">
+<h2>Comments<a class="headerlink" href="#comments" title="永久链接至标题">¶</a></h2>
+<p>(details)</p>
+<p>Any text which begins with an explicit markup start but doesn’t use the syntax of any of the constructs above, is a comment.</p>
+<p>Plain text      Typical result
+.. This text will not be shown</p>
+<blockquote>
+<div><p>(but, for instance, in HTML might be
+rendered as an HTML comment)</p>
+</div></blockquote>
+<p>An “empty comment” does not
+consume following blocks.
+(An empty comment is “..” with
+blank lines before and after.)
+..</p>
+<blockquote>
+<div><p>So this block is not “lost”,
+despite its indentation.</p>
+</div></blockquote>
+<p>An “empty comment” does not consume following blocks. (An empty comment is “..” with blank lines before and after.)
+So this block is not “lost”, despite its indentation.
+Getting Help
+Users who have questions or need assistance with Docutils or reStructuredText should post a message to the Docutils-Users mailing list. The Docutils project web site has more information.</p>
+<p>Authors: Tibs (<a class="reference external" href="mailto:tibs&#37;&#52;&#48;tibsnjoan&#46;co&#46;uk">tibs<span>&#64;</span>tibsnjoan<span>&#46;</span>co<span>&#46;</span>uk</a>) and David Goodger (<a class="reference external" href="mailto:goodger&#37;&#52;&#48;python&#46;org">goodger<span>&#64;</span>python<span>&#46;</span>org</a>)</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="cheatsheet.html" class="btn btn-neutral float-right" title="The reStructuredText Cheat Sheet: Syntax Reminders" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="quickstart.html" class="btn btn-neutral float-left" title="A ReStructuredText Primer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

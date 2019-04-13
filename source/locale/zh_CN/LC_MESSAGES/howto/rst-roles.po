@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/howto/rst-roles.rst:3
+msgid "Creating reStructuredText Interpreted Text Roles"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst
+msgid "Authors"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:5
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst
+msgid "Contact"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:7
+msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst
+msgid "Revision"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:8
+msgid "$Revision: 7302 $"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:11
+msgid ""
+"Interpreted text roles are an extension mechanism for inline markup in "
+"reStructuredText.  This document aims to make the creation of new roles "
+"as easy and understandable as possible."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:15
+msgid ""
+"Standard roles are described in `reStructuredText Interpreted Text "
+"Roles`_.  See the `Interpreted Text`_ section in the `reStructuredText "
+"Markup Specification`_ for syntax details."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:27
+msgid "目录"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:30
+msgid "Define the Role Function"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:32
+msgid ""
+"The role function creates and returns inline elements (nodes) and does "
+"any additional processing required.  Its signature is as follows::"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:43
+msgid ""
+"Function attributes are described below (see `Specify Role Function "
+"Options and Content`_).  The role function parameters are as follows:"
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:46
+msgid ""
+"``name``: The local name of the interpreted role, the role name actually "
+"used in the document."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:49
+msgid ""
+"``rawtext``: A string containing the enitre interpreted text input, "
+"including the role and markup.  Return it as a ``problematic`` node "
+"linked to a system message if a problem is encountered."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:53
+msgid "``text``: The interpreted text content."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:55
+msgid "``lineno``: The line number where the interpreted text begins."
+msgstr ""
+
+#: ../../source/howto/rst-roles.rst:57
+msgid "``inliner``: The ``docutils.parsers.rst.sta"
+msgstr ""
+

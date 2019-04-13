@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>文档实用程序 &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="Docutils 的标记语法和解析器组件" href="rst.html" />
+    <link rel="prev" title="自述: Docutils 0.15b.dev" href="README.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">内容:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="README.html">自述: Docutils 0.15b.dev</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">文档实用程序</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#written-in-python-for-general-and-special-purpose-use">用Python编写，用于通用和专用</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">概观</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#download">下载</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rst.html">Docutils 的标记语法和解析器组件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/index.html">用户文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref/index.html">参考文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">开发者文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="howto/index.html">基本知识</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>文档实用程序</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/doc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="docutils-documentation-utilities">
+<h1>文档实用程序<a class="headerlink" href="#docutils-documentation-utilities" title="永久链接至标题">¶</a></h1>
+<div class="section" id="written-in-python-for-general-and-special-purpose-use">
+<h2>用Python编写，用于通用和专用<a class="headerlink" href="#written-in-python-for-general-and-special-purpose-use" title="永久链接至标题">¶</a></h2>
+<p>Docutils是一个开源文本处理系统，用于将明文文档处理成有用的格式，例如HTML，LaTeX，手册页，开放文档或XML。它包括 <a class="reference external" href="rst.html">reStructuredText</a> ，易于阅读，易于使用，你看到的是什么，你得到的纯文本标记语言。</p>
+<hr class="docutils" />
+<div class="section" id="overview">
+<h3>概观<a class="headerlink" href="#overview" title="永久链接至标题">¶</a></h3>
+<p><strong>要快速启动和运行</strong> ，请参阅 <a class="reference external" href="README.html">README</a> 文件的 <a class="reference external" href="README.html#quick-start">Quick-Start</a> 部分。</p>
+<p>所有 <strong>文档</strong> 都可以从 <a class="reference external" href="docs/index.html">Docutils项目文档概述</a> 获得。</p>
+<p>对于开源项目的开发人员来说，<strong>反馈</strong> 是一个很好的激励因素，非常受欢迎。我们还依靠反馈来确定要实现的功能。因此，如果你告诉我们你需要什么，你可能会得到它！请将任何反馈发布到 <a class="reference external" href="docs/user/mailing-lists.html#docutils-users">Docutils-users</a> 邮件列表。</p>
+<p>关于Docutils的所有 <strong>讨论</strong> 都发生在 <a class="reference external" href="docs/user/mailing-lists.html">邮件列表</a> 上。</p>
+<p>如果您发现 <strong>错误</strong> ，请提交 <a class="reference external" href="http://sourceforge.net/p/docutils/patches/">错误报告</a> 或发送电子邮件至Docutils-users_邮件列表。 <strong>补丁</strong> 提交应该在 <a class="reference external" href="http://docutils.sourceforge.net/BUGS.html">补丁跟踪器</a> (首选)中提交或发送到 <a class="reference external" href="docs/user/mailing-lists.html#docutils-develop">Docutils-develop</a> (您将被要求将它们发送到 <a class="reference external" href="docs/user/mailing-lists.html#docutils-users">补丁跟踪器</a>)。</p>
+<p>我们欢迎各种 <strong>贡献</strong> 。有一个 <a class="reference external" href="docs/dev/todo.html">待办事项列表</a> 充满了等待冠军的有趣想法。如果您对如何扩展Docutils有任何疑问，请随时在 <a class="reference external" href="docs/user/mailing-lists.html#docutils-develop">Docutils-develop</a> 邮件列表上询问。</p>
+<p>运行Docutils的唯一 <strong>要求</strong> 是 <a class="reference external" href="http://www.python.org/">Python</a></p>
+<ul class="simple">
+<li><p>在Docutil 0.14之后，Python 2.4和Python 2.5支持将被删除。</p></li>
+<li><p>Docutils 0.10放弃了Python 2.3支持。</p></li>
+<li><p>对于Docutils 0.5，需要Python 2.2.1+。</p></li>
+<li><p>最高为Docutils 0.4，需要Python 2.1。</p></li>
+<li><p>从版本0.6开始，Docutils与Python 3兼容(有关详细信息，请参阅 <a class="reference external" href="README.html">README</a>)。</p></li>
+</ul>
+<p>Docutils正在积极开发中，API应被视为 <strong>实验</strong> ，可随时更改。虽然 <em>任何时候</em> 是经过认真思考和讨论的时间。</p>
+</div>
+<div class="section" id="download">
+<h3>下载<a class="headerlink" href="#download" title="永久链接至标题">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<blockquote>
+<div><p>sourceforge直接支持快照。整个主干包装了docutils，sandbox，perst/perl和web：</p>
+<blockquote>
+<div><p><a class="reference external" href="https://sourceforge.net/p/docutils/code/HEAD/tarball">https://sourceforge.net/p/docutils/code/HEAD/tarball</a></p>
+</div></blockquote>
+<p>或者只有docutils包:</p>
+<blockquote>
+<div><p><a class="reference external" href="http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/">http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/</a></p>
+</div></blockquote>
+</div></blockquote>
+<p>单击下载快照按钮。</p>
+<p>下面列出的snapshosts是在网站更新中创建的。</p>
+</div>
+<p>我们建议您使用来自 <a class="reference external" href="docs/dev/repository.html">Docutils’ Subversion 存储库</a> 的 <a class="reference external" href="http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/">snapshot</a> 。快照通常包含 <em>更多功能</em> 和 <em>更少的错误</em> 比 “官方” 发布—他们不仅仅是开发人员！</p>
+<p>最新的 <strong>发布包</strong> 是 <a class="reference external" href="https://sourceforge.net/projects/docutils/files/docutils/0.14/docutils-0.14.tar.gz/download">docutils-0.14.tar.gz</a> 。它于2017年8月3日发布，主要供分销商使用。请参阅 <a class="reference external" href="RELEASE-NOTES.html">发行说明</a> 以获取自上一版本以来的更改列表。</p>
+<p><a class="reference external" href="sandbox/README.html">Sandbox</a> 包含实验性的贡献代码。您可以下载完整的 <a class="reference external" href="http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/sandbox/">沙盒快照</a> 或 <a class="reference external" href="http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/sandbox/">浏览沙盒</a> 来下载子集。</p>
+<dl class="class">
+<dt id="credits">
+<em class="property">class </em><code class="descname">credits</code><a class="headerlink" href="#credits" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<p>由 <a class="reference external" href="http://sourceforge.net/"><img alt="SourceForge Logo" class="borderless align-middle" src="http://sourceforge.net/sflogo.php?group_id=38414" style="width: 88px; height: 31px;" /></a> 托管的网站，跟踪器和邮件列表以及subversion存储库。由 <a class="reference external" href="http://www.python.org/"><img alt="Python Logo" class="borderless align-middle" src="python.png" style="width: 193px; height: 32px;" /></a> 提供支持。</p>
+<dl class="class">
+<dt id="hidden">
+<em class="property">class </em><code class="descname">hidden</code><a class="headerlink" href="#hidden" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<p>谷歌应该索引邮件列表: <a class="reference external" href="http://news.gmane.org/group/gmane.text.docutils.user/last=/force_load=t">docutils的用户</a>, <a class="reference external" href="http://news.gmane.org/group/gmane.text.docutils.devel/last=/force_load=t">docutils的发展</a>, 和 <a class="reference external" href="http://news.gmane.org/group/gmane.text.docutils.cvs/last=/force_load=t">docutils的签入</a>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="rst.html" class="btn btn-neutral float-right" title="Docutils 的标记语法和解析器组件" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="README.html" class="btn btn-neutral float-left" title="自述: Docutils 0.15b.dev" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

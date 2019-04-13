@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/howto/rst-directives.rst:3
+msgid "Creating reStructuredText_ Directives"
+msgstr "创建 reStructuredText_ 指令"
+
+#: ../../source/howto/rst-directives.rst
+msgid "Authors"
+msgstr "Authors"
+
+#: ../../source/howto/rst-directives.rst:5
+msgid "Dethe Elza, David Goodger, Lea Wiemann"
+msgstr "Dethe Elza, David Goodger, Lea Wiemann"
+
+#: ../../source/howto/rst-directives.rst
+msgid "Contact"
+msgstr "Contact"
+
+#: ../../source/howto/rst-directives.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr "docutils-develop@lists.sourceforge.net"
+
+#: ../../source/howto/rst-directives.rst
+msgid "Date"
+msgstr "Date"
+
+#: ../../source/howto/rst-directives.rst:7
+msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
+
+#: ../../source/howto/rst-directives.rst
+msgid "Revision"
+msgstr "Revision"
+
+#: ../../source/howto/rst-directives.rst:8
+msgid "$Revision: 7302 $"
+msgstr "$Revision: 7302 $"
+
+#: ../../source/howto/rst-directives.rst
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../../source/howto/rst-directives.rst:9
+msgid "This document has been placed in the public domain."
+msgstr "本文档已置于公共领域。"
+
+#: ../../source/howto/rst-directives.rst:14
+msgid ""
+"Directives are the primary extension mechanism of reStructuredText. This "
+"document aims to make the creation of new directives as easy and "
+"understandable as possible.  There are only a couple of reStructuredText-"
+"specific features the developer needs to know to create a basic "
+"directive."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:20
+msgid ""
+"The syntax of directives is detailed in the `reStructuredText Markup "
+"Specification`_, and standard directives are described in "
+"`reStructuredText Directives`_."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:24
+msgid ""
+"Directives are a reStructuredText markup/parser concept.  There is no "
+"\"directive\" document tree element, no single element that corresponds "
+"exactly to the concept of directives.  Instead, choose the most "
+"appropriate elements from the existing Docutils elements.  Directives "
+"build structures using the existing building blocks.  See `The Docutils "
+"Document Tree`_ and the ``docutils.nodes`` module for more about the "
+"building blocks of Docutils documents."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:39
+msgid "Table of Contents"
+msgstr "目录"
+
+#: ../../source/howto/rst-directives.rst:42
+msgid "The Directive Class"
+msgstr "指令类"
+
+#: ../../source/howto/rst-directives.rst:44
+msgid ""
+"Directives are created by defining a directive class that inherits from "
+"``docutils.parsers.rst.Directive``::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:53
+msgid ""
+"To understand how to implement the directive, let's have a look at the "
+"docstring of the ``Directive`` base class::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:146
+msgid "Option Conversion Functions"
+msgstr "选项转换功能"
+
+#: ../../source/howto/rst-directives.rst:148
+msgid ""
+"An option specification (``Directive.option_spec``) must be defined "
+"detailing the options available to the directive.  An option spec is a "
+"mapping of option name to conversion function; conversion functions are "
+"applied to each option value to check validity and convert them to the "
+"expected type.  Python's built-in conversion functions are often usable "
+"for this, such as ``int``, ``float``.  Other useful conversion functions "
+"are included in the ``docutils.parsers.rst.directives`` package (in the "
+"``__init__.py`` module):"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:157
+msgid ""
+"``flag``: For options with no option arguments.  Checks for an argument "
+"(raises ``ValueError`` if found), returns ``None`` for valid flag "
+"options."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:161
+msgid ""
+"``unchanged_required``: Returns the text argument, unchanged. Raises "
+"``ValueError`` if no argument is found."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:164
+msgid ""
+"``unchanged``: Returns the text argument, unchanged.  Returns an empty "
+"string (\"\") if no argument is found."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:167
+msgid ""
+"``path``: Returns the path argument unwrapped (with newlines removed).  "
+"Raises ``ValueError`` if no argument is found."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:170
+msgid ""
+"``uri``: Returns the URI argument with whitespace removed.  Raises "
+"``ValueError`` if no argument is found."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:173
+msgid ""
+"``nonnegative_int``: Checks for a nonnegative integer argument, and "
+"raises ``ValueError`` if not."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:176
+msgid ""
+"``class_option``: Converts the argument into an ID-compatible string and "
+"returns it.  Raises ``ValueError`` if no argument is found."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:180
+msgid "``unicode_code``: Convert a Unicode character code to a Unicode character."
+msgstr "``unicode_code``: 将Unicode字符代码转换为Unicode字符。"
+
+#: ../../source/howto/rst-directives.rst:183
+msgid ""
+"``single_char_or_unicode``: A single character is returned as-is. Unicode"
+" characters codes are converted as in ``unicode_code``."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:186
+msgid ""
+"``single_char_or_whitespace_or_unicode``: As with "
+"``single_char_or_unicode``, but \"tab\" and \"space\" are also supported."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:190
+msgid ""
+"``positive_int``: Converts the argument into an integer.  Raises "
+"ValueError for negative, zero, or non-integer values."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:193
+msgid ""
+"``positive_int_list``: Converts a space- or comma-separated list of "
+"integers into a Python list of integers.  Raises ValueError for non-"
+"positive-integer values."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:197
+msgid ""
+"``encoding``: Verfies the encoding argument by lookup.  Raises ValueError"
+" for unknown encodings."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:200
+msgid ""
+"A further utility function, ``choice``, is supplied to enable options "
+"whose argument must be a member of a finite set of possible values.  A "
+"custom conversion function must be written to use it. For example::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:210
+msgid ""
+"For example, here is an option spec for a directive which allows two "
+"options, \"name\" and \"value\", each with an option argument::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:217
+msgid "Error Handling"
+msgstr "错误处理"
+
+#: ../../source/howto/rst-directives.rst:219
+msgid ""
+"If your directive implementation encounters an error during processing, "
+"you should call ``self.error()`` inside the ``run()`` method::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:226
+msgid ""
+"The ``self.error()`` method will immediately raise an exception that will"
+" be caught by the reStructuredText directive handler.  The directive "
+"handler will then insert an error-level system message in the document at"
+" the place where the directive occurred."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:231
+msgid ""
+"Instead of ``self.error``, you can also use ``self.severe`` and "
+"``self.warning`` for more or less severe problems."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:234
+msgid ""
+"If you want to return a system message *and* document contents, you need "
+"to create the system message yourself instead of using the ``self.error``"
+" convenience method::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:253
+msgid "Register the Directive"
+msgstr "注册指令"
+
+#: ../../source/howto/rst-directives.rst:255
+msgid ""
+"If the directive is a general-use **addition to the Docutils core**, it "
+"must be registered with the parser and language mappings added:"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:258
+msgid ""
+"Register the new directive using its canonical name in "
+"``docutils/parsers/rst/directives/__init__.py``, in the "
+"``_directive_registry`` dictionary.  This allows the reStructuredText "
+"parser to find and use the directive."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:263
+msgid ""
+"Add an entry to the ``directives`` dictionary in "
+"``docutils/parsers/rst/languages/en.py`` for the directive, mapping the "
+"English name to the canonical name (both lowercase).  Usually the English"
+" name and the canonical name are the same."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:268
+msgid ""
+"Update all the other language modules as well.  For languages in which "
+"you are proficient, please add translations.  For other languages, add "
+"the English directive name plus \"(translation required)\"."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:273
+msgid ""
+"If the directive is **application-specific**, use the "
+"``register_directive`` function::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:281
+msgid "Examples"
+msgstr "例子"
+
+#: ../../source/howto/rst-directives.rst:283
+msgid ""
+"For the most direct and accurate information, \"Use the Source, Luke!\". "
+"All standard directives are documented in `reStructuredText Directives`_,"
+" and the source code implementing them is located in the "
+"``docutils/parsers/rst/directives`` package.  The ``__init__.py`` module "
+"contains a mapping of directive name to module and function name.  "
+"Several representative directives are described below."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:292
+msgid "Admonitions"
+msgstr "忠告"
+
+#: ../../source/howto/rst-directives.rst:294
+msgid ""
+"`Admonition directives`__, such as \"note\" and \"caution\", are quite "
+"simple.  They have no directive arguments or options.  Admonition "
+"directive content is interpreted as ordinary reStructuredText."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:300
+msgid ""
+"The resulting document tree for a simple reStructuredText line \"``.. "
+"note:: This is a note.``\" looks as follows:"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:305
+msgid "<note>"
+msgstr "<note>"
+
+#: ../../source/howto/rst-directives.rst:305
+msgid "<paragraph>"
+msgstr "<paragraph>"
+
+#: ../../source/howto/rst-directives.rst:305
+msgid "This is a note."
+msgstr "这是一张纸条。"
+
+#: ../../source/howto/rst-directives.rst:307
+msgid ""
+"The directive class for the \"note\" directive simply derives from a "
+"generic admonition directive class::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:314
+msgid ""
+"Note that the only thing distinguishing the various admonition directives"
+" is the element (node class) generated.  In the code above, the node "
+"class is set as a class attribute and is read by the ``run()`` method of "
+"``BaseAdmonition``, where the actual processing takes place::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:347
+msgid "Three things are noteworthy in the ``run()`` method above:"
+msgstr "Three things are noteworthy in the ``run()`` method above:"
+
+#: ../../source/howto/rst-directives.rst:349
+msgid ""
+"The ``admonition_node = self.node_class(text)`` line creates the wrapper "
+"element, using the class set by the specific admonition subclasses (as in"
+" note, ``node_class = nodes.note``)."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:353
+msgid ""
+"The call to ``state.nested_parse()`` is what does the actual processing."
+"  It parses the directive content and adds any generated elements as "
+"child elements of ``admonition_node``."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:357
+msgid ""
+"If there was no directive content, the ``assert_has_content()`` "
+"convenience method raises an error exception by calling ``self.error()`` "
+"(see `Error Handling`_ above)."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:363
+msgid "\"image\""
+msgstr "\"image\""
+
+#: ../../source/howto/rst-directives.rst:367
+msgid ""
+"The \"image_\" directive is used to insert a picture into a document. "
+"This directive has one argument, the path to the image file, and supports"
+" several options.  There is no directive content.  Here's an early "
+"version of the image directive class::"
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:403
+msgid "Several things are noteworthy in the code above:"
+msgstr "上面的代码中有几点值得注意:"
+
+#: ../../source/howto/rst-directives.rst:405
+msgid ""
+"The \"image\" directive requires a single argument, which is allowed to "
+"contain whitespace (``final_argument_whitespace = True``).  This is to "
+"allow for long URLs which may span multiple lines.  The first line of the"
+" ``run()`` method joins the URL, discarding any embedded whitespace."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:411
+msgid ""
+"The reference is added to the ``options`` dictionary under the \"uri\" "
+"key; this becomes an attribute of the ``nodes.image`` element object.  "
+"Any other attributes have already been set explicitly in the "
+"reStructuredText source text."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:418
+msgid "The Pending Element"
+msgstr "待定元素"
+
+#: ../../source/howto/rst-directives.rst:420
+msgid ""
+"Directives that cause actions to be performed *after* the complete "
+"document tree has been generated can be implemented using a ``pending`` "
+"node.  The ``pending`` node causes a transform_ to be run after the "
+"document has been parsed."
+msgstr ""
+
+#: ../../source/howto/rst-directives.rst:425
+msgid ""
+"For an example usage of the ``pending`` node, see the implementation of "
+"the ``contents`` directive in docutils.parsers.rst.directives.parts__."
+msgstr "有关 ``pending`` 节点的示例用法，请参阅 docutils.parsers.rst.directives.parts__ 中 ``contents`` 指令的实现。"
+

@@ -1,0 +1,594 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/README.rst:3
+msgid "README: Docutils 0.15b.dev"
+msgstr "自述: Docutils 0.15b.dev"
+
+#: ../../source/README.rst
+msgid "Author"
+msgstr "作者"
+
+#: ../../source/README.rst:5
+msgid "David Goodger"
+msgstr "David Goodger"
+
+#: ../../source/README.rst
+msgid "Contact"
+msgstr "联系"
+
+#: ../../source/README.rst:6
+msgid "goodger@python.org"
+msgstr "goodger@python.org"
+
+#: ../../source/README.rst
+msgid "Date"
+msgstr "日期"
+
+#: ../../source/README.rst:7
+msgid "$Date: 2018-06-10 00:22:09 +0200 (So, 10. Jun 2018) $"
+msgstr "$Date: 2018-06-10 00:22:09 +0200 (So, 10. Jun 2018) $"
+
+#: ../../source/README.rst
+msgid "Web site"
+msgstr "网站"
+
+#: ../../source/README.rst:8
+msgid "http://docutils.sourceforge.net/"
+msgstr "http://docutils.sourceforge.net/"
+
+#: ../../source/README.rst
+msgid "Copyright"
+msgstr "版权"
+
+#: ../../source/README.rst:9
+msgid "This document has been placed in the public domain."
+msgstr "本文档已置于公共领域。"
+
+#: ../../source/README.rst:12
+msgid "目录"
+msgstr "目录"
+
+#: ../../source/README.rst:15
+msgid "Quick-Start"
+msgstr "快速开始"
+
+#: ../../source/README.rst:17
+msgid "This is for those who want to get up & running quickly."
+msgstr "这适用于那些想要快速起步和跑步的人。"
+
+#: ../../source/README.rst:19
+msgid "Docutils requires Python (version 2.6 or later), available from"
+msgstr "Docutils需要Python(2.6或更高版本)，可从中获得"
+
+#: ../../source/README.rst:21
+msgid "http://www.python.org/"
+msgstr "http://www.python.org/"
+
+#: ../../source/README.rst:23
+msgid "See Requirements_ below for details."
+msgstr "有关详情，请参阅以下 Requirements_"
+
+#: ../../source/README.rst:25
+msgid ""
+"Use the latest Docutils code.  Get the code from the `Subversion "
+"repository`_ or from the snapshot:"
+msgstr "使用最新的Docutils代码。从 `Subversion存储库`_ 或快照中获取代码:"
+
+#: ../../source/README.rst:28
+msgid "https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/"
+msgstr "https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/"
+
+#: ../../source/README.rst:30
+msgid "See `Releases & Snapshots`_ below for details."
+msgstr "有关详细信息，请参阅下面的 `Releases & Snapshots`_ 。"
+
+#: ../../source/README.rst:32
+msgid ""
+"Unpack the tarball in a temporary directory (**not** directly in Python's"
+" ``site-packages``), go to the directory created by expanding the "
+"archive, and run ``setup.py install``. On Windows systems it may be "
+"sufficient to double-click ``install.py``."
+msgstr "将tarball解压缩到临时目录中(**不** 直接在Python的 ``site-packages`` 中)，转到通过展开存档创建的目录，然后运行 ``setup.py install`` 。在Windows系统上，双击 ``install.py`` 可能就足够了。"
+
+#: ../../source/README.rst:37
+msgid "See Installation_ below for details."
+msgstr "有关详情，请参阅下面的安装_"
+
+#: ../../source/README.rst:39
+msgid ""
+"Use the front-end scripts to convert reStructuredText documents. Try for "
+"example::"
+msgstr "使用前端脚本转换reStructuredText文档。试试这个例子::"
+
+#: ../../source/README.rst:45
+msgid "See Usage_ below for details."
+msgstr "有关详情，请参阅下面的 Usage_ 。"
+
+#: ../../source/README.rst:49
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../source/README.rst:51
+msgid ""
+"The purpose of the Docutils project is to create a set of tools for "
+"processing plaintext documentation into useful formats, such as HTML, "
+"XML, and LaTeX.  Support for the following sources has been implemented:"
+msgstr "Docutils项目的目的是创建一组工具，用于将明文文档处理成有用的格式，例如HTML，XML和LaTeX。已实施对以下来源的支持:"
+
+#: ../../source/README.rst:56
+msgid "Standalone files."
+msgstr "独立文件。"
+
+#: ../../source/README.rst:58
+msgid "`PEPs (Python Enhancement Proposals)`_."
+msgstr "`PEPs (Python增强建议)`_."
+
+#: ../../source/README.rst:60
+msgid "Support for the following sources is planned:"
+msgstr "计划支持以下来源:"
+
+#: ../../source/README.rst:62
+msgid ""
+"Inline documentation from Python modules and packages, extracted with "
+"namespace context."
+msgstr "来自Python模块和包的内联文档，使用命名空间上下文提取。"
+
+#: ../../source/README.rst:65
+msgid "Email (RFC-822 headers, quoted excerpts, signatures, MIME parts)."
+msgstr "电子邮件(RFC-822标题，引用的摘录，签名，MIME部分)。"
+
+#: ../../source/README.rst:67
+msgid "Wikis, with global reference lookups of \"wiki links\"."
+msgstr "Wiki，具有  \"wiki links\" 的全局参考查找。"
+
+#: ../../source/README.rst:69
+msgid "Compound documents, such as multiple chapter files merged into a book."
+msgstr "复合文档，例如多章文件合并到一本书中。"
+
+#: ../../source/README.rst:72
+msgid "And others as discovered."
+msgstr "和其他人一样被发现。"
+
+#: ../../source/README.rst:79
+msgid "Releases & Snapshots"
+msgstr "发布和快照"
+
+#: ../../source/README.rst:81
+msgid ""
+"While we are trying to follow a \"release early & often\" policy, "
+"features are added frequently.  Since the code in the Subversion "
+"repository is usually in a bug-free state, we recommend that you use a "
+"current snapshot."
+msgstr "虽然我们正在尝试遵循 \"早期和经常发布\" 政策，但会经常添加功能。由于Subversion存储库中的代码通常处于无错状态，因此我们建议您使用当前快照。"
+
+#: ../../source/README.rst:86
+msgid ""
+"To get a snapshot, go to the code page and click the download snapshot "
+"button:"
+msgstr "要获取快照，请转到代码页并单击下载快照按钮:"
+
+#: ../../source/README.rst:89
+msgid ""
+"Docutils code, documentation, front-end tools, and tests: "
+"https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/"
+msgstr "Docutils代码，文档，前端工具和测试: https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/"
+
+#: ../../source/README.rst:92
+msgid ""
+"Sandbox (experimental, contributed code): "
+"https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/sandbox/"
+msgstr "沙盒(实验，贡献代码): https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/sandbox/"
+
+#: ../../source/README.rst:95
+msgid ""
+"To keep up to date on the latest developments, download fresh copies of "
+"the snapshots regularly or use a working copy of the `Subversion "
+"repository`_."
+msgstr "要及时了解最新动态，请定期下载快照的新副本或使用 `Subversion存储库`_ 的工作副本。"
+
+#: ../../source/README.rst:103
+msgid "Requirements"
+msgstr "要求"
+
+#: ../../source/README.rst:105
+msgid ""
+"To run the code, Python_ must be installed. Docutils is compatible with "
+"Python versions 2.6, 2.7, and versions 3.3 to 3.5 (cf. `Python聽3 "
+"compatibility`_)."
+msgstr "要运行代码，必须安装 Python_ 。 Docutils兼容Python版本2.6,2.7和版本3.3到3.5(参见 `Python 3兼容性`_ )。"
+
+#: ../../source/README.rst:109
+msgid ""
+"Docutils uses the following packages for enhanced functionality, if they "
+"are installed:"
+msgstr "Docutils使用以下软件包来增强功能(如果已安装):"
+
+#: ../../source/README.rst:112
+msgid ""
+"The `Python Imaging Library`_, or PIL, is used for some image "
+"manipulation operations."
+msgstr "`Python成像库`_ 或PIL用于某些图像处理操作。"
+
+#: ../../source/README.rst:115
+msgid ""
+"The `Pygments`_ syntax highlighter is used for content of `code` "
+"directives and roles."
+msgstr "`Pygments`_ 语法高亮显示器用于 `code` 指令和角色的内容。"
+
+#: ../../source/README.rst:124
+msgid "Python聽3 compatibility"
+msgstr "Python3兼容性"
+
+#: ../../source/README.rst:126
+msgid ""
+"The Docutils codebase is written for Python聽2 and uses \"on-demand\" "
+"translation for `porting to Python聽3`_."
+msgstr "Docutils代码库是为Python 2编写的，并使用 \"按需\" 翻译来 `移植到Python 3`_ 。"
+
+#: ../../source/README.rst:129
+msgid ""
+"The `setup.py` script generates Python聽3 compatible sources in ``build/``"
+" and tests in ``tests3/`` sub-directories during installation_ with "
+"Python聽3."
+msgstr "`setup.py` 脚本在 ``build/`` 中生成Python 3兼容源，并在 安装_ 期间使用Python 3在 ``tests3/`` 子目录中进行测试。"
+
+#: ../../source/README.rst:133
+msgid ""
+"The scripts in the ``tools/`` sub-directory work with all supported "
+"Python versions without conversion."
+msgstr "``tools/`` 子目录中的脚本可以使用所有受支持的Python版本而无需转换。"
+
+#: ../../source/README.rst:136
+msgid ""
+"To convert the sources without installing (e.g. for testing), run "
+"``python3 setup.py build``."
+msgstr "要在不安装的情况下转换源代码(例如进行测试)，请运行 ``python3 setup.py构建`` 。"
+
+#: ../../source/README.rst:139
+msgid ""
+"When editing the source, do changes on the Python聽2 versions of the files"
+" and re-run the build command."
+msgstr "编辑源代码时，请对Python的2个版本的文件进行更改，然后重新运行build命令。"
+
+#: ../../source/README.rst:146
+msgid "Project Files & Directories"
+msgstr "项目文件和目录"
+
+#: ../../source/README.rst:148
+msgid "README.txt: You're reading it."
+msgstr "README.txt：你正在读它。"
+
+#: ../../source/README.rst:150
+msgid ""
+"COPYING.txt: Public Domain Dedication and copyright details for non-"
+"public-domain files (most are PD)."
+msgstr "COPYING.txt: 非公共域文件的公共域专用和版权详细信息(大多数是PD)。"
+
+#: ../../source/README.rst:153
+msgid "FAQ.txt: Frequently Asked Questions (with answers!)."
+msgstr "FAQ.txt: 常见问题(有答案！)。"
+
+#: ../../source/README.rst:155
+msgid "RELEASE-NOTES.txt: Summary of the major changes in recent releases."
+msgstr "RELEASE-NOTES.txt: 最近发布的主要变化摘要。"
+
+#: ../../source/README.rst:157
+msgid ""
+"HISTORY.txt: A detailed change log, for the current and all previous "
+"project releases."
+msgstr "HISTORY.txt: 详细的更改日志，适用于当前和之前的所有项目版本。"
+
+#: ../../source/README.rst:160
+msgid "BUGS.txt: Known bugs, and how to report a bug."
+msgstr "BUGS.txt: 已知的错误，以及如何报告错误。"
+
+#: ../../source/README.rst:162
+msgid "THANKS.txt: List of contributors."
+msgstr "THANKS.txt: 贡献者名单。"
+
+#: ../../source/README.rst:164
+msgid "setup.py: Installation script.  See \"Installation\" below."
+msgstr "setup.py: 安装脚本。  请参阅下面的 \"Installation\"  。"
+
+#: ../../source/README.rst:166
+msgid ""
+"install.py: Quick & dirty installation script.  Just run it.  For any "
+"kind of customization or help though, setup.py must be used."
+msgstr "install.py: 快速和脏的安装脚本。跑吧。但是，对于任何类型的自定义或帮助，必须使用setup.py。"
+
+#: ../../source/README.rst:169
+msgid "docutils: The project source directory, installed as a Python package."
+msgstr "docutils: 项目源目录，作为Python包安装。"
+
+#: ../../source/README.rst:172
+msgid ""
+"docs: The project documentation directory.  Read ``docs/index.txt`` for "
+"an overview."
+msgstr "docs: 项目文档目录。阅读 ``docs/index.txt`` 了解概述。"
+
+#: ../../source/README.rst:175
+msgid ""
+"docs/user: The project user documentation directory.  Contains the "
+"following documents, among others:"
+msgstr "docs/user: 项目用户文档目录。包含以下文档等:"
+
+#: ../../source/README.rst:178
+msgid "docs/user/tools.txt: Docutils Front-End Tools"
+msgstr "docs/user/tools.txt: Docutils前端工具"
+
+#: ../../source/README.rst:179
+msgid "docs/user/latex.txt: Docutils LaTeX Writer"
+msgstr "docs/user/latex.txt: Docutils LaTeX作家"
+
+#: ../../source/README.rst:180
+msgid "docs/user/rst/quickstart.txt: A ReStructuredText Primer"
+msgstr "docs/user/rst/quickstart.txt: ReStructuredText入门"
+
+#: ../../source/README.rst:181
+msgid "docs/user/rst/quickref.html: Quick reStructuredText (HTML only)"
+msgstr "docs/user/rst/quickref.html: 快速reStructuredText(仅限HTML)"
+
+#: ../../source/README.rst:183
+msgid ""
+"docs/ref: The project reference directory. "
+"``docs/ref/rst/restructuredtext.txt`` is the reStructuredText reference."
+msgstr "docs/ref：项目引用目录。 ``docs/ref/rst/restructuredtext.txt`` 是reStructuredText引用。"
+
+#: ../../source/README.rst:187
+msgid ""
+"licenses: Directory containing copies of license files for non-public-"
+"domain files."
+msgstr "许可证：包含非公共域文件的许可证文件副本的目录。"
+
+#: ../../source/README.rst:190
+msgid ""
+"tools: Directory for Docutils front-end tools.  See "
+"``docs/user/tools.txt`` for documentation."
+msgstr "工具：Docutils前端工具的目录。有关文档，请参阅 ``docs/user/tools.txt`` 。"
+
+#: ../../source/README.rst:193
+msgid ""
+"test: Unit tests.  Not required to use the software, but very useful if "
+"you're planning to modify it.  See `Running the Test Suite`_ below."
+msgstr "测试：单元测试。不需要使用该软件，但如果您计划修改它，则非常有用。请参阅下面的“运行测试套件”。"
+
+#: ../../source/README.rst:197
+msgid "Generated directories when installing under Python聽3:"
+msgstr "在Python下安装时生成的目录3:"
+
+#: ../../source/README.rst:199
+msgid "build: Converted sources."
+msgstr "build: 转换来源。"
+
+#: ../../source/README.rst:201
+msgid "test3: Converted tests."
+msgstr "test3: 转换测试。"
+
+#: ../../source/README.rst:205
+msgid "Installation"
+msgstr "安装"
+
+#: ../../source/README.rst:207
+msgid ""
+"The first step is to expand the ``.tgz`` archive in a temporary directory"
+" (**not** directly in Python's ``site-packages``).  It contains a "
+"distutils setup file \"setup.py\".  OS-specific installation instructions"
+" follow."
+msgstr "第一步是在一个临时目录中扩展 ``.tgz`` 存档(**不** 直接在Python的 ``site-packages`` 中)。它包含一个distutils安装文件 \"setup.py\" 。特定于操作系统的安装说明如下"
+
+#: ../../source/README.rst:214
+msgid "GNU/Linux, BSDs, Unix, Mac OS X, etc."
+msgstr "GNU/Linux，BSD，Unix，Mac OS X 等"
+
+#: ../../source/README.rst:216
+msgid "Open a shell."
+msgstr "打开一个shell。"
+
+#: ../../source/README.rst:218 ../../source/README.rst:252
+msgid "Go to the directory created by expanding the archive::"
+msgstr "转到通过展开存档创建的目录::"
+
+#: ../../source/README.rst:222
+msgid ""
+"Install the package (you may need root permissions to complete this "
+"step)::"
+msgstr "安装软件包(您可能需要root权限才能完成此步骤)::"
+
+#: ../../source/README.rst:229
+msgid ""
+"If the python executable isn't on your path, you'll have to specify the "
+"complete path, such as ``/usr/local/bin/python``."
+msgstr "如果python可执行文件不在您的路径上，则必须指定完整路径，例如 ``/usr/local/bin/python`` 。"
+
+#: ../../source/README.rst:232
+msgid ""
+"To install for a specific Python version, use this version in the setup "
+"call, e.g. ::"
+msgstr "要安装特定的Python版本，请在安装调用中使用此版本，例如::"
+
+#: ../../source/README.rst:237
+msgid ""
+"To install for different Python versions, repeat step聽3 for every "
+"required version. The last installed version will be used in the `shebang"
+" line`_ of the ``rst2*.py`` wrapper scripts."
+msgstr "要安装不同的Python版本，请对每个所需版本重复步骤3。最后安装的版本将用于 ``rst2 *.py`` 包装脚本的 `shebang line`_ 。"
+
+#: ../../source/README.rst:244
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../source/README.rst:246
+msgid ""
+"Just double-click ``install.py``.  If this doesn't work, try the "
+"following:"
+msgstr "只需双击 ``install.py`` 即可。如果这不起作用，请尝试以下操作:"
+
+#: ../../source/README.rst:249
+msgid ""
+"Open a DOS Box (Command Shell, MS-DOS Prompt, or whatever they're calling"
+" it these days)."
+msgstr "打开DOS Box(命令外壳，MS-DOS提示符，或者这些天他们称之为的任何东西)。"
+
+#: ../../source/README.rst:256
+msgid "Install the package::"
+msgstr "安装包::"
+
+#: ../../source/README.rst:260
+msgid ""
+"To install for a specific python version, specify the Python executable "
+"for this version."
+msgstr "要安装特定的python版本，请为此版本指定Python可执行文件。"
+
+#: ../../source/README.rst:263
+msgid ""
+"To install for different Python versions, repeat step聽3 for every "
+"required version."
+msgstr "要安装不同的Python版本，请对每个所需版本重复步骤3。"
+
+#: ../../source/README.rst:266
+msgid "Optional steps:"
+msgstr "可选步骤:"
+
+#: ../../source/README.rst:268
+msgid "`running the test suite`_"
+msgstr "`运行测试套件`_"
+
+#: ../../source/README.rst:270
+msgid "`converting the documentation`_"
+msgstr "`转换文档`_"
+
+#: ../../source/README.rst:274
+msgid "Usage"
+msgstr "用法"
+
+#: ../../source/README.rst:276
+msgid ""
+"There are many front-end tools in the unpacked \"tools\" subdirectory. "
+"Installation under Unix places copies in the PATH. You may want to begin "
+"with the \"rst2html.py\" front-end tool.  Most tools take up to two "
+"arguments, the source path and destination path, with STDIN and STDOUT "
+"being the defaults.  Use the \"--help\" option to the front-end tools for"
+" details on options and arguments.  See Docutils Front-End Tools "
+"(``docs/user/tools.txt``) for full documentation."
+msgstr "解压  \"tools\" 子目录中有许多前端工具。在Unix下安装将副本放在PATH中。您可能希望从 \"rst2html.py\" 前端工具开始。大多数工具最多需要两个参数，即源路径和目标路径，STDIN和STDOUT是默认值。使用前端工具的 \"-help\" 选项可获取有关选项和参数的详细信息。有关完整文档，请参阅Docutils前端工具(``docs/user/tools.txt``)。"
+
+#: ../../source/README.rst:284
+msgid ""
+"The package modules are continually growing and evolving.  The "
+"``docutils.statemachine`` module is usable independently.  It contains "
+"extensive inline documentation (in reStructuredText format of course)."
+msgstr "包模块不断发展和发展。 ``docutils.statemachine`` 模块可以独立使用。它包含大量的内联文档(当然是reStructuredText格式)。"
+
+#: ../../source/README.rst:288
+msgid "Contributions are welcome!"
+msgstr "欢迎捐款！"
+
+#: ../../source/README.rst:292
+msgid "Converting the documentation"
+msgstr "转换文档"
+
+#: ../../source/README.rst:294
+msgid ""
+"After unpacking and installing the Docutils package, the following shell "
+"commands will generate HTML for all included documentation::"
+msgstr "解压缩并安装Docutils软件包后，以下shell命令将为所有包含的文档生成HTML::"
+
+#: ../../source/README.rst:300
+msgid "On Windows systems, type::"
+msgstr "在Windows系统上，键入::"
+
+#: ../../source/README.rst:305
+msgid ""
+"The final directory name of the ``<archive_directory_path>`` is "
+"\"docutils\" for snapshots.  For official releases, the directory may be "
+"called \"docutils-X.Y.Z\", where \"X.Y.Z\" is the release version. "
+"Alternatively::"
+msgstr "对于快照，``<archive_directory_path>`` 的最终目录名是 \"docutils\" 。对于正式版本，该目录可以称为 \"docutils-X.Y.Z\" ，其中 \"X.Y.Z\" 是发行版本。另外::"
+
+#: ../../source/README.rst:314
+msgid ""
+"Some files may generate system messages (warnings and errors).  The "
+"``docs/user/rst/demo.txt`` file (under the archive directory) contains "
+"five intentional errors.  (They test the error reporting mechanism!)"
+msgstr "某些文件可能会生成系统消息(警告和错误)。 ``docs/user/rst/demo.txt`` 文件(在归档目录下)包含五个故意错误。 (他们测试错误报告机制！)"
+
+#: ../../source/README.rst:320
+msgid "Running the Test Suite"
+msgstr "运行测试套件"
+
+#: ../../source/README.rst:322
+msgid ""
+"The test suite is documented in `Docutils Testing`_ "
+"(docs/dev/testing.txt)."
+msgstr "测试套件记录在 `Docutils Testing`_ (docs/dev/testing.txt)中。"
+
+#: ../../source/README.rst:324
+msgid ""
+"To run the entire test suite, open a shell and use the following "
+"commands::"
+msgstr "要运行整个测试套件，请打开shell并使用以下命令::"
+
+#: ../../source/README.rst:330
+msgid "Under Windows, type::"
+msgstr "在Windows下，键入::"
+
+#: ../../source/README.rst:335
+msgid "For testing with Python聽3 use the converted test suite::"
+msgstr "对于Python 3的测试，请使用转换后的测试套件::"
+
+#: ../../source/README.rst:341
+msgid ""
+"You should see a long line of periods, one for each test, and then a "
+"summary like this::"
+msgstr "您应该看到一长串的句点，每个测试一个，然后是这样的摘要::"
+
+#: ../../source/README.rst:349
+msgid ""
+"The number of tests will grow over time, and the times reported will "
+"depend on the computer running the tests.  The difference between the two"
+" times represents the time required to set up the tests (import modules, "
+"create data structures, etc.)."
+msgstr "测试次数会随着时间的推移而增加，报告的时间将取决于运行测试的计算机。两次之间的差异表示设置测试所需的时间(导入模块，创建数据结构等)。"
+
+#: ../../source/README.rst:354
+msgid ""
+"If any of the tests fail, please `open a bug report`_ or `send an email`_"
+" (see `Bugs <BUGS.html>`_). Please include all relevant output, "
+"information about your operating system, Python version, and Docutils "
+"version.  To see the Docutils version, use one of the ``rst2*`` front "
+"ends or ``tools/quicktest.py`` with the ``--version`` option, e.g.::"
+msgstr "如果任何测试失败，请 `打开错误报告`_ 或  `发送电子邮件`_ (参见 `Bugs <BUGS.html>`_)。请包括所有相关输出，有关您的操作系统，Python版本和Docutils版本的信息。要查看Docutils版本，请使用 ``rst2*`` 前端之一或 ``tools/quicktest.py`` 和 ``--version`` 选项，例如::"
+
+#: ../../source/README.rst:364
+msgid "Windows users type these commands::"
+msgstr "Windows用户键入这些命令::"
+
+#: ../../source/README.rst:379
+msgid "Getting Help"
+msgstr "获得帮助"
+
+#: ../../source/README.rst:381
+msgid ""
+"If you have questions or need assistance with Docutils or "
+"reStructuredText, please post a message to the Docutils-users_ mailing "
+"list."
+msgstr "如果您对Docutils或reStructuredText有任何疑问或需要帮助，请发送邮件至 Docutils-users_ 邮件列表。"
+

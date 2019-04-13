@@ -1,0 +1,501 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/ref/roles.rst:3
+msgid "reStructuredText Interpreted Text Roles"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Author"
+msgstr ""
+
+#: ../../source/ref/roles.rst:5
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Contact"
+msgstr ""
+
+#: ../../source/ref/roles.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Revision"
+msgstr ""
+
+#: ../../source/ref/roles.rst:7
+msgid "$Revision: 7307 $"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/ref/roles.rst:8
+msgid "$Date: 2012-01-06 12:11:51 +0100 (Fr, 06. J盲n 2012) $"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/ref/roles.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/ref/roles.rst:11
+msgid ""
+"This document describes the interpreted text roles implemented in the "
+"reference reStructuredText parser."
+msgstr ""
+
+#: ../../source/ref/roles.rst:14
+msgid ""
+"Interpreted text uses backquotes (`) around the text.  An explicit role "
+"marker may optionally appear before or after the text, delimited with "
+"colons.  For example::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:22
+msgid ""
+"A default role may be defined by applications of reStructuredText; it is "
+"used if no explicit ``:role:`` prefix or suffix is given.  The \"default "
+"default role\" is `:title-reference:`_.  It can be changed using the "
+"default-role_ directive."
+msgstr ""
+
+#: ../../source/ref/roles.rst:27
+msgid ""
+"See the `Interpreted Text`_ section in the `reStructuredText Markup "
+"Specification`_ for syntax details.  For details on the hierarchy of "
+"elements, please see `The Docutils Document Tree`_ and the `Docutils "
+"Generic DTD`_ XML document type definition.  For interpreted text role "
+"implementation details, see `Creating reStructuredText Interpreted Text "
+"Roles`_."
+msgstr ""
+
+#: ../../source/ref/roles.rst:45
+msgid "目录"
+msgstr ""
+
+#: ../../source/ref/roles.rst ../../source/ref/roles.rst:49
+msgid "Customization"
+msgstr ""
+
+#: ../../source/ref/roles.rst:51
+msgid ""
+"Custom interpreted text roles may be defined in a document with the "
+"`\"role\" directive`_.  Customization details are listed with each role."
+msgstr ""
+
+#: ../../source/ref/roles.rst:56
+msgid ""
+"A ``class`` option is recognized by the \"role\" directive for most "
+"interpreted text roles.  A description__ is provided in the `\"role\" "
+"directive`_ documentation."
+msgstr ""
+
+#: ../../source/ref/roles.rst:65
+msgid "Standard Roles"
+msgstr ""
+
+#: ../../source/ref/roles.rst:68
+msgid "``:emphasis:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Aliases"
+msgstr ""
+
+#: ../../source/ref/roles.rst:70 ../../source/ref/roles.rst:85
+#: ../../source/ref/roles.rst:110 ../../source/ref/roles.rst:147
+#: ../../source/ref/roles.rst:216 ../../source/ref/roles.rst:328
+#: ../../source/ref/roles.rst:332
+msgid "None"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "DTD Element"
+msgstr ""
+
+#: ../../source/ref/roles.rst:71
+msgid "emphasis"
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Options"
+msgstr ""
+
+#: ../../source/ref/roles.rst:73 ../../source/ref/roles.rst:88
+#: ../../source/ref/roles.rst:175 ../../source/ref/roles.rst:197
+#: ../../source/ref/roles.rst:219 ../../source/ref/roles.rst:234
+#: ../../source/ref/roles.rst:270 ../../source/ref/roles.rst:282
+msgid "class_."
+msgstr ""
+
+#: ../../source/ref/roles.rst
+msgid "Content"
+msgstr ""
+
+#: ../../source/ref/roles.rst:74 ../../source/ref/roles.rst:89
+#: ../../source/ref/roles.rst:114 ../../source/ref/roles.rst:151
+#: ../../source/ref/roles.rst:176 ../../source/ref/roles.rst:198
+#: ../../source/ref/roles.rst:220 ../../source/ref/roles.rst:235
+#: ../../source/ref/roles.rst:271 ../../source/ref/roles.rst:283
+msgid "None."
+msgstr ""
+
+#: ../../source/ref/roles.rst:76
+msgid "Implements emphasis.  These are equivalent::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:83
+msgid "``:literal:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:86 ../../source/ref/roles.rst:111
+msgid "literal"
+msgstr ""
+
+#: ../../source/ref/roles.rst:91
+msgid "Implements inline literal text.  These are equivalent::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:96
+msgid ""
+"Care must be taken with backslash-escapes though.  These are *not* "
+"equivalent::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:102
+msgid ""
+"The backslashes in the first line are preserved (and do nothing), whereas"
+" the backslashes in the second line escape the following spaces."
+msgstr ""
+
+#: ../../source/ref/roles.rst:108
+msgid "``:code:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:113
+msgid "class_, language"
+msgstr ""
+
+#: ../../source/ref/roles.rst:116
+msgid "(New in Docutils 0.9.)"
+msgstr ""
+
+#: ../../source/ref/roles.rst:118
+msgid "The ``code`` role marks its content as code in a formal language."
+msgstr ""
+
+#: ../../source/ref/roles.rst:120
+msgid ""
+"For syntax highlight of inline code, the `\"role\" directive`_ can be "
+"used to build custom roles with the code language specified in the "
+"\"language\" option."
+msgstr ""
+
+#: ../../source/ref/roles.rst:124
+msgid "For example, the following creates a LaTeX-specific \"latex\" role::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:129
+msgid ""
+"Content of the new role is parsed and tagged by the Pygments_ syntax "
+"highlighter. See the `code directive`_ for more info on parsing and "
+"display of code in reStructuredText."
+msgstr ""
+
+#: ../../source/ref/roles.rst:133 ../../source/ref/roles.rst:377
+msgid "In addition to \"class_\", the following option is recognized:"
+msgstr ""
+
+#: ../../source/ref/roles.rst:137
+msgid "``language``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:136 ../../source/ref/roles.rst:378
+msgid "text"
+msgstr ""
+
+#: ../../source/ref/roles.rst:136
+msgid ""
+"Name of the code's language. See `supported languages and markup "
+"formats`_ for recognized values."
+msgstr ""
+
+#: ../../source/ref/roles.rst:145
+msgid "``:math:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:148
+msgid "math"
+msgstr ""
+
+#: ../../source/ref/roles.rst:150
+msgid "class_"
+msgstr ""
+
+#: ../../source/ref/roles.rst:153
+msgid "(New in Docutils 0.8.)"
+msgstr ""
+
+#: ../../source/ref/roles.rst:155
+msgid ""
+"The ``math`` role marks its content as mathematical notation (inline "
+"formula)."
+msgstr ""
+
+#: ../../source/ref/roles.rst:158
+msgid ""
+"The input format is LaTeX math syntax without the 鈥渕ath delimiters鈥� (``$"
+" $``), for example::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:163
+msgid ""
+"See the `math directive`_ (producing display formulas) for more info on "
+"mathematical notation in reStructuredText."
+msgstr ""
+
+#: ../../source/ref/roles.rst:170
+msgid "``:pep-reference:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:172
+msgid "``:PEP:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:173 ../../source/ref/roles.rst:195
+msgid "reference"
+msgstr ""
+
+#: ../../source/ref/roles.rst:178
+msgid ""
+"The ``:pep-reference:`` role is used to create an HTTP reference to a PEP"
+" (Python Enhancement Proposal).  The ``:PEP:`` alias is usually used.  "
+"For example::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:184 ../../source/ref/roles.rst:206
+msgid "This is equivalent to::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:192
+msgid "``:rfc-reference:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:194
+msgid "``:RFC:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:200
+msgid ""
+"The ``:rfc-reference:`` role is used to create an HTTP reference to an "
+"RFC (Internet Request for Comments).  The ``:RFC:`` alias is usually "
+"used.  For example::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:214
+msgid "``:strong:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:217
+msgid "strong"
+msgstr ""
+
+#: ../../source/ref/roles.rst:222
+msgid "Implements strong emphasis.  These are equivalent::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:229
+msgid "``:subscript:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:231
+msgid "``:sub:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:232
+msgid "subscript"
+msgstr ""
+
+#: ../../source/ref/roles.rst:237
+msgid "Implements subscripts."
+msgstr ""
+
+#: ../../source/ref/roles.rst:241
+msgid ""
+"Whitespace or punctuation is required around interpreted text, but often "
+"not desired with subscripts & superscripts. Backslash-escaped whitespace "
+"can be used; the whitespace will be removed from the processed document::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:249
+msgid ""
+"In such cases, readability of the plain text can be greatly improved with"
+" substitutions::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:256
+msgid ""
+"See `the reStructuredText spec`__ for further information on `character-"
+"level markup`__ and `the substitution mechanism`__."
+msgstr ""
+
+#: ../../source/ref/roles.rst:265
+msgid "``:superscript:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:267
+msgid "``:sup:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:268
+msgid "superscript"
+msgstr ""
+
+#: ../../source/ref/roles.rst:273
+msgid "Implements superscripts.  See the tip in `:subscript:`_ above."
+msgstr ""
+
+#: ../../source/ref/roles.rst:277
+msgid "``:title-reference:``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:279
+msgid "``:title:``, ``:t:``."
+msgstr ""
+
+#: ../../source/ref/roles.rst:280
+msgid "title_reference"
+msgstr ""
+
+#: ../../source/ref/roles.rst:285
+msgid ""
+"The ``:title-reference:`` role is used to describe the titles of books, "
+"periodicals, and other materials.  It is the equivalent of the HTML "
+"\"cite\" element, and it is expected that HTML writers will typically "
+"render \"title_reference\" elements using \"cite\"."
+msgstr ""
+
+#: ../../source/ref/roles.rst:290
+msgid ""
+"Since title references are typically rendered with italics, they are "
+"often marked up using ``*emphasis*``, which is misleading and vague. The "
+"\"title_reference\" element provides accurate and unambiguous descriptive"
+" markup."
+msgstr ""
+
+#: ../../source/ref/roles.rst:295
+msgid ""
+"Let's assume ``:title-reference:`` is the default interpreted text role "
+"(see below) for this example::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:300
+msgid ""
+"The following document fragment (pseudo-XML_) will result from "
+"processing::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:311
+msgid ""
+"``:title-reference:`` is the default interpreted text role in the "
+"standard reStructuredText parser.  This means that no explicit role is "
+"required.  Applications of reStructuredText may designate a different "
+"default role, in which case the explicit ``:title-reference:`` role must "
+"be used to obtain a ``title_reference`` element."
+msgstr ""
+
+#: ../../source/ref/roles.rst:323
+msgid "Specialized Roles"
+msgstr ""
+
+#: ../../source/ref/roles.rst:326
+msgid "``raw``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:329
+msgid "raw"
+msgstr ""
+
+#: ../../source/ref/roles.rst:331
+msgid "class_, format"
+msgstr ""
+
+#: ../../source/ref/roles.rst:336
+msgid ""
+"The \"raw\" role is a stop-gap measure allowing the author to bypass "
+"reStructuredText's markup.  It is a \"power-user\" feature that should "
+"not be overused or abused.  The use of \"raw\" ties documents to specific"
+" output formats and makes them less portable."
+msgstr ""
+
+#: ../../source/ref/roles.rst:341
+msgid ""
+"If you often need to use \"raw\"-derived interpreted text roles or the "
+"\"raw\" directive, that is a sign either of overuse/abuse or that "
+"functionality may be missing from reStructuredText.  Please describe your"
+" situation in a message to the Docutils-users_ mailing list."
+msgstr ""
+
+#: ../../source/ref/roles.rst:349
+msgid ""
+"The \"raw\" role indicates non-reStructuredText data that is to be passed"
+" untouched to the Writer.  It is the inline equivalent of the `\"raw\" "
+"directive`_; see its documentation for details on the semantics."
+msgstr ""
+
+#: ../../source/ref/roles.rst:356
+msgid ""
+"The \"raw\" role cannot be used directly.  The `\"role\" directive`_ must"
+" first be used to build custom roles based on the \"raw\" role.  One or "
+"more formats (Writer names) must be provided in a \"format\" option."
+msgstr ""
+
+#: ../../source/ref/roles.rst:360
+msgid "For example, the following creates an HTML-specific \"raw-html\" role::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:365
+msgid ""
+"This role can now be used directly to pass data untouched to the HTML "
+"Writer.  For example::"
+msgstr ""
+
+#: ../../source/ref/roles.rst:373
+msgid ""
+"Roles based on \"raw\" should clearly indicate their origin, so they are "
+"not mistaken for reStructuredText markup.  Using a \"raw-\" prefix for "
+"role names is recommended."
+msgstr ""
+
+#: ../../source/ref/roles.rst:379
+msgid "``format``"
+msgstr ""
+
+#: ../../source/ref/roles.rst:380
+msgid "One or more space-separated output format names (Writer names)."
+msgstr ""
+

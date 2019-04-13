@@ -1,0 +1,998 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user/quickref.rst:3
+msgid "Quick reStructuredText"
+msgstr ""
+
+#: ../../source/user/quickref.rst:5
+msgid "http://docutils.sourceforge.net/docs/user/rst/quickref.html"
+msgstr ""
+
+#: ../../source/user/quickref.rst:7
+msgid "Being a cheat-sheet for reStructuredText"
+msgstr ""
+
+#: ../../source/user/quickref.rst:9
+msgid "Updated $Date: 2009-07-14 16:05:34 +0200 (Di, 14. Jul 2009) $"
+msgstr ""
+
+#: ../../source/user/quickref.rst:11
+msgid "Copyright: This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/user/quickref.rst:13
+msgid ""
+"The full details of the markup may be found on the reStructuredText page."
+" This document is just intended as a reminder."
+msgstr ""
+
+#: ../../source/user/quickref.rst:15
+msgid ""
+"Links that look like \"(details)\" point into the HTML version of the "
+"full reStructuredText specification document. These are relative links; "
+"if they don't work, please use the master \"Quick reStructuredText\" "
+"document."
+msgstr ""
+
+#: ../../source/user/quickref.rst:18
+msgid "Contents"
+msgstr ""
+
+#: ../../source/user/quickref.rst:20
+msgid ""
+"Inline Markup Escaping with Backslashes Section Structure Paragraphs "
+"Bullet Lists Enumerated Lists Definition Lists Field Lists Option Lists "
+"Literal Blocks Line Blocks Block Quotes Doctest Blocks Tables Transitions"
+" Explicit Markup Footnotes Citations Hyperlink Targets External Hyperlink"
+" Targets Internal Hyperlink Targets Indirect Hyperlink Targets Implicit "
+"Hyperlink Targets Directives Substitution References and Definitions "
+"Comments Getting Help"
+msgstr ""
+
+#: ../../source/user/quickref.rst:49
+msgid "Inline Markup"
+msgstr ""
+
+#: ../../source/user/quickref.rst:51 ../../source/user/quickref.rst:83
+#: ../../source/user/quickref.rst:99 ../../source/user/quickref.rst:131
+#: ../../source/user/quickref.rst:146 ../../source/user/quickref.rst:169
+#: ../../source/user/quickref.rst:192 ../../source/user/quickref.rst:214
+#: ../../source/user/quickref.rst:233 ../../source/user/quickref.rst:253
+#: ../../source/user/quickref.rst:314 ../../source/user/quickref.rst:338
+#: ../../source/user/quickref.rst:355 ../../source/user/quickref.rst:374
+#: ../../source/user/quickref.rst:428 ../../source/user/quickref.rst:452
+#: ../../source/user/quickref.rst:496 ../../source/user/quickref.rst:525
+#: ../../source/user/quickref.rst:562 ../../source/user/quickref.rst:577
+#: ../../source/user/quickref.rst:590 ../../source/user/quickref.rst:603
+#: ../../source/user/quickref.rst:615
+msgid "(details)"
+msgstr ""
+
+#: ../../source/user/quickref.rst:53
+msgid ""
+"Inline markup allows words and phrases within text to have character "
+"styles (like italics and boldface) and functionality (like hyperlinks)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:55
+msgid ""
+"Plain text      Typical result  Notes *emphasis*      emphasis        "
+"Normally rendered as italics. **strong emphasis**     strong emphasis "
+"Normally rendered as boldface. `interpreted text`      (see note at "
+"right)     The rendering and meaning of interpreted text is domain- or "
+"application-dependent. It can be used for things like index entries or "
+"explicit descriptive markup (like program identifiers). ``inline "
+"literal``      inline literal  Normally rendered as monospaced text. "
+"Spaces should be preserved, but line breaks will not be. reference_      "
+"reference       A simple, one-word hyperlink reference. See Hyperlink "
+"Targets. `phrase reference`_     phrase reference        A hyperlink "
+"reference with spaces or punctuation needs to be quoted with backquotes. "
+"See Hyperlink Targets. anonymous__     anonymous       With two "
+"underscores instead of one, both simple and phrase references may be "
+"anonymous (the reference text is not repeated at the target). See "
+"Hyperlink Targets. _`inline internal target`       inline internal target"
+"  A crossreference target within text. See Hyperlink Targets. "
+"|substitution reference|        (see note at right)     The result is "
+"substituted in from the substitution definition. It could be text, an "
+"image, a hyperlink, or a combination of these and others. footnote "
+"reference [1]_ footnote reference 1    See Footnotes. citation reference "
+"[CIT2002]_   citation reference [CIT2002]    See Citations. "
+"http://docutils.sf.net/ http://docutils.sf.net/ A standalone hyperlink. "
+"Asterisk, backquote, vertical bar, and underscore are inline delimiter "
+"characters. Asterisk, backquote, and vertical bar act like quote marks; "
+"matching characters surround the marked-up word or phrase, whitespace or "
+"other quoting is required outside them, and there can't be whitespace "
+"just inside them. If you want to use inline delimiter characters "
+"literally, escape (with backslash) or quote them (with double backquotes;"
+" i.e. use inline literals)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:70
+msgid ""
+"In detail, the reStructuredText specification says that in inline markup,"
+" the following rules apply to start-strings and end-strings (inline "
+"markup delimiters):"
+msgstr ""
+
+#: ../../source/user/quickref.rst:72
+msgid ""
+"The start-string must start a text block or be immediately preceded by "
+"whitespace or any of  ' \" ( [ { or <. The start-string must be "
+"immediately followed by non-whitespace. The end-string must be "
+"immediately preceded by non-whitespace. The end-string must end a text "
+"block (end of document or followed by a blank line) or be immediately "
+"followed by whitespace or any of ' \" . , : ; ! ? - ) ] } / \\ or >. If a"
+" start-string is immediately preceded by one of  ' \" ( [ { or <, it must"
+" not be immediately followed by the corresponding character from  ' \" ) "
+"] } or >. An end-string must be separated by at least one character from "
+"the start-string. An unescaped backslash preceding a start-string or end-"
+"string will disable markup recognition, except for the end-string of "
+"inline literals. Also remember that inline markup may not be nested "
+"(well, except that inline literals can contain any of the other inline "
+"markup delimiter characters, but that doesn't count because nothing is "
+"processed)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:82
+msgid "Escaping with Backslashes"
+msgstr ""
+
+#: ../../source/user/quickref.rst:85
+msgid ""
+"reStructuredText uses backslashes (\"\\\") to override the special "
+"meaning given to markup characters and get the literal characters "
+"themselves. To get a literal backslash, use an escaped backslash "
+"(\"\\\\\"). For example:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:87
+msgid ""
+"Raw reStructuredText    Typical result *escape* ``with`` \"\\\"   escape "
+"with \"\" \\*escape* \\``with`` \"\\\\\"        *escape* ``with`` \"\\\" "
+"In Python strings it will, of course, be necessary to escape any "
+"backslash characters so that they actually reach reStructuredText. The "
+"simplest way to do this is to use raw strings:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:92
+msgid ""
+"Python string   Typical result r\"\"\"\\*escape* \\`with` \"\\\\\"\"\"\""
+"   *escape* `with` \"\\\""
+msgstr ""
+
+#: ../../source/user/quickref.rst:94
+msgid ""
+"\"\"\"\\\\*escape* \\\\`with` \"\\\\\\\\\"\"\"\"       *escape* `with` "
+"\"\\\" \"\"\"\\*escape* \\`with` \"\\\\\"\"\"\"   escape with \"\""
+msgstr ""
+
+#: ../../source/user/quickref.rst:98
+msgid "Section Structure"
+msgstr ""
+
+#: ../../source/user/quickref.rst:101
+msgid "Plain text::"
+msgstr ""
+
+#: ../../source/user/quickref.rst:120
+msgid "Typical result::"
+msgstr ""
+
+#: ../../source/user/quickref.rst:130
+msgid "Paragraphs"
+msgstr ""
+
+#: ../../source/user/quickref.rst:133
+msgid "Plain text      Typical result This is a paragraph."
+msgstr ""
+
+#: ../../source/user/quickref.rst:136 ../../source/user/quickref.rst:142
+msgid ""
+"Paragraphs line up at their left edges, and are normally separated by "
+"blank lines."
+msgstr ""
+
+#: ../../source/user/quickref.rst:140
+msgid "This is a paragraph."
+msgstr ""
+
+#: ../../source/user/quickref.rst:145
+msgid "Bullet Lists"
+msgstr ""
+
+#: ../../source/user/quickref.rst:148
+msgid ""
+"Plain text      Typical result Bullet lists: - This is item 1 - This is "
+"item 2"
+msgstr ""
+
+#: ../../source/user/quickref.rst:153
+msgid ""
+"Bullets are \"-\", \"*\" or \"+\". Continuing text must be aligned after "
+"the bullet and whitespace."
+msgstr ""
+
+#: ../../source/user/quickref.rst:157
+msgid ""
+"Note that a blank line is required before the first item and after the "
+"last, but is optional between items."
+msgstr ""
+
+#: ../../source/user/quickref.rst:161
+msgid ""
+"Bullet lists: This is item 1 This is item 2 Bullets are \"-\", \"*\" or "
+"\"+\". Continuing text must be aligned after the bullet and whitespace. "
+"Note that a blank line is required before the first item and after the "
+"last, but is optional between items."
+msgstr ""
+
+#: ../../source/user/quickref.rst:168
+msgid "Enumerated Lists"
+msgstr ""
+
+#: ../../source/user/quickref.rst:171
+msgid ""
+"Plain text      Typical result Enumerated lists: 3. This is the first "
+"item 4. This is the second item 5. Enumerators are arabic numbers,"
+msgstr ""
+
+#: ../../source/user/quickref.rst:176
+msgid "single letters, or roman numerals"
+msgstr ""
+
+#: ../../source/user/quickref.rst:177
+msgid ""
+"List items should be sequentially numbered, but need not start at 1 "
+"(although not all formatters will honour the first index)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:181
+msgid "This item is auto-enumerated"
+msgstr ""
+
+#: ../../source/user/quickref.rst:183
+msgid ""
+"Enumerated lists: This is the first item This is the second item "
+"Enumerators are arabic numbers, single letters, or roman numerals List "
+"items should be sequentially numbered, but need not start at 1 (although "
+"not all formatters will honour the first index). This item is auto-"
+"enumerated"
+msgstr ""
+
+#: ../../source/user/quickref.rst:191
+msgid "Definition Lists"
+msgstr ""
+
+#: ../../source/user/quickref.rst:194
+msgid "Plain text      Typical result Definition lists:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:199
+msgid "what"
+msgstr ""
+
+#: ../../source/user/quickref.rst:198
+msgid "Definition lists associate a term with a definition."
+msgstr ""
+
+#: ../../source/user/quickref.rst:205
+msgid "how"
+msgstr ""
+
+#: ../../source/user/quickref.rst:202
+msgid ""
+"The term is a one-line phrase, and the definition is one or more "
+"paragraphs or body elements, indented relative to the term. Blank lines "
+"are not allowed between term and definition.  Definition lists:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:207
+msgid ""
+"what Definition lists associate a term with a definition. how The term is"
+" a one-line phrase, and the definition is one or more paragraphs or body "
+"elements, indented relative to the term. Blank lines are not allowed "
+"between term and definition."
+msgstr ""
+
+#: ../../source/user/quickref.rst:213
+msgid "Field Lists"
+msgstr ""
+
+#: ../../source/user/quickref.rst:216
+msgid "Plain text      Typical result :Authors:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:218
+msgid "Tony J. (Tibs) Ibbs, David Goodger (and sundry other good-natured folks)"
+msgstr ""
+
+#: ../../source/user/quickref.rst
+msgid "Version"
+msgstr ""
+
+#: ../../source/user/quickref.rst:222
+msgid "1.0 of 2001/08/08"
+msgstr ""
+
+#: ../../source/user/quickref.rst
+msgid "Dedication"
+msgstr ""
+
+#: ../../source/user/quickref.rst:223
+msgid "To my father."
+msgstr ""
+
+#: ../../source/user/quickref.rst:225
+msgid ""
+"Authors:        Tony J. (Tibs) Ibbs, David Goodger (and sundry other "
+"good-natured folks) Version:        1.0 of 2001/08/08 Dedication:     To "
+"my father. Field lists are used as part of an extension syntax, such as "
+"options for directives, or database-like records meant for further "
+"processing. Field lists may also be used as generic two-column table "
+"constructs in documents."
+msgstr ""
+
+#: ../../source/user/quickref.rst:232
+msgid "Option Lists"
+msgstr ""
+
+#: ../../source/user/quickref.rst:235
+msgid ""
+"Plain text      Typical result -a            command-line option \"a\" -b"
+" file       options can have arguments"
+msgstr ""
+
+#: ../../source/user/quickref.rst:238
+msgid "and long descriptions"
+msgstr ""
+
+#: ../../source/user/quickref.rst:239
+msgid "options can be long also"
+msgstr ""
+
+#: ../../source/user/quickref.rst:240
+msgid "long options can also have arguments"
+msgstr ""
+
+#: ../../source/user/quickref.rst:242
+msgid "DOS/VMS-style options too"
+msgstr ""
+
+#: ../../source/user/quickref.rst:244
+msgid "command-line option \"a\""
+msgstr ""
+
+#: ../../source/user/quickref.rst:245
+msgid ""
+"-b file options can have arguments and long descriptions --long  options "
+"can be long also --input=file    long options can also have arguments /V"
+"      DOS/VMS-style options too There must be at least two spaces between"
+" the option and the description."
+msgstr ""
+
+#: ../../source/user/quickref.rst:252
+msgid "Literal Blocks"
+msgstr ""
+
+#: ../../source/user/quickref.rst:255
+msgid ""
+"Plain text      Typical result A paragraph containing only two colons "
+"indicates that the following indented or quoted text is a literal block."
+msgstr ""
+
+#: ../../source/user/quickref.rst:269
+msgid ""
+"The ``::`` may be tacked onto the very end of any paragraph. The ``::`` "
+"will be omitted if it is preceded by whitespace. The ``::`` will be "
+"converted to a single colon if preceded by text, like this::"
+msgstr ""
+
+#: ../../source/user/quickref.rst:277
+msgid ""
+"Literal blocks end when text returns to the preceding paragraph's "
+"indentation. This means that something like this is possible::"
+msgstr ""
+
+#: ../../source/user/quickref.rst:286
+msgid "Per-line quoting can also be used on unindented literal blocks::"
+msgstr ""
+
+#: ../../source/user/quickref.rst:291
+msgid ""
+"A paragraph containing only two colons indicates that the following "
+"indented or quoted text is a literal block."
+msgstr ""
+
+#: ../../source/user/quickref.rst:293
+msgid ""
+"Whitespace, newlines, blank lines, and all kinds of markup (like *this* "
+"or \\this) is preserved by literal blocks."
+msgstr ""
+
+#: ../../source/user/quickref.rst:297
+msgid "The paragraph containing only '::' will be omitted from the result."
+msgstr ""
+
+#: ../../source/user/quickref.rst:299
+msgid ""
+"The :: may be tacked onto the very end of any paragraph. The :: will be "
+"omitted if it is preceded by whitespace. The :: will be converted to a "
+"single colon if preceded by text, like this:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:301
+msgid "It's very convenient to use this form."
+msgstr ""
+
+#: ../../source/user/quickref.rst:302
+msgid ""
+"Literal blocks end when text returns to the preceding paragraph's "
+"indentation. This means that something like this is possible:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:304
+msgid "We start here"
+msgstr ""
+
+#: ../../source/user/quickref.rst:305
+msgid "and continue here"
+msgstr ""
+
+#: ../../source/user/quickref.rst:306
+msgid "and end here."
+msgstr ""
+
+#: ../../source/user/quickref.rst:307
+msgid "Per-line quoting can also be used on unindented literal blocks:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:309
+msgid "> Useful for quotes from email and > for Haskell literate programming."
+msgstr ""
+
+#: ../../source/user/quickref.rst:313
+msgid "Line Blocks"
+msgstr ""
+
+#: ../../source/user/quickref.rst:316
+msgid ""
+"Plain text      Typical result | Line blocks are useful for addresses, | "
+"verse, and adornment-free lists. | | Each new line begins with a | "
+"vertical bar (\"|\"). |     Line breaks and initial indents |     are "
+"preserved. | Continuation lines are wrapped"
+msgstr ""
+
+#: ../../source/user/quickref.rst:325
+msgid "portions of long lines; they begin with spaces in place of vertical bars."
+msgstr ""
+
+#: ../../source/user/quickref.rst:327
+msgid "Line blocks are useful for addresses, verse, and adornment-free lists."
+msgstr ""
+
+#: ../../source/user/quickref.rst:330
+msgid ""
+"Each new line begins with a vertical bar (\"|\"). Line breaks and initial"
+" indents are preserved. Continuation lines are wrapped portions of long "
+"lines; they begin with spaces in place of vertical bars."
+msgstr ""
+
+#: ../../source/user/quickref.rst:337
+msgid "Block Quotes"
+msgstr ""
+
+#: ../../source/user/quickref.rst:340
+msgid "Plain text      Typical result Block quotes are just:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:342
+msgid "Indented paragraphs,"
+msgstr ""
+
+#: ../../source/user/quickref.rst:344 ../../source/user/quickref.rst:349
+msgid "and they may nest."
+msgstr ""
+
+#: ../../source/user/quickref.rst:346
+msgid "Block quotes are just: Indented paragraphs,"
+msgstr ""
+
+#: ../../source/user/quickref.rst:351
+msgid ""
+"Use empty comments to separate indentation contexts, such as block quotes"
+" and directive contents."
+msgstr ""
+
+#: ../../source/user/quickref.rst:354
+msgid "Doctest Blocks"
+msgstr ""
+
+#: ../../source/user/quickref.rst:357
+msgid ""
+"Plain text      Typical result Doctest blocks are interactive Python "
+"sessions. They begin with \"``>>>``\" and end with a blank line."
+msgstr ""
+
+#: ../../source/user/quickref.rst:365
+msgid ""
+"Doctest blocks are interactive Python sessions. They begin with \">>>\" "
+"and end with a blank line."
+msgstr ""
+
+#: ../../source/user/quickref.rst:370
+msgid ""
+"\"The doctest module searches a module's docstrings for text that looks "
+"like an interactive Python session, then executes all such sessions to "
+"verify they still work exactly as shown.\" (From the doctest docs.)"
+msgstr ""
+
+#: ../../source/user/quickref.rst:373
+msgid "Tables"
+msgstr ""
+
+#: ../../source/user/quickref.rst:376
+msgid ""
+"There are two syntaxes for tables in reStructuredText. Grid tables are "
+"complete but cumbersome to create. Simple tables are easy to create but "
+"limited (no row spans, etc.)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:378
+msgid "Plain text      Typical result Grid table:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:382
+msgid "Header 1"
+msgstr ""
+
+#: ../../source/user/quickref.rst:382
+msgid "Header 2"
+msgstr ""
+
+#: ../../source/user/quickref.rst:382
+msgid "Header 3"
+msgstr ""
+
+#: ../../source/user/quickref.rst:384
+msgid "body row 1"
+msgstr ""
+
+#: ../../source/user/quickref.rst:384
+msgid "column 2"
+msgstr ""
+
+#: ../../source/user/quickref.rst:384
+msgid "column 3"
+msgstr ""
+
+#: ../../source/user/quickref.rst:386
+msgid "body row 2"
+msgstr ""
+
+#: ../../source/user/quickref.rst:386
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../source/user/quickref.rst:388
+msgid "body row 3"
+msgstr ""
+
+#: ../../source/user/quickref.rst:388
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../source/user/quickref.rst:388
+msgid "Cells"
+msgstr ""
+
+#: ../../source/user/quickref.rst:389
+msgid "contain"
+msgstr ""
+
+#: ../../source/user/quickref.rst:390
+msgid "blocks."
+msgstr ""
+
+#: ../../source/user/quickref.rst:390
+msgid "body row 4"
+msgstr ""
+
+#: ../../source/user/quickref.rst:393
+msgid "Grid table:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:395
+msgid ""
+"Header 1        Header 2        Header 3 body row 1      column 2        "
+"column 3 body row 2      Cells may span columns. body row 3      Cells "
+"may span rows. Cells contain blocks. body row 4 Simple table:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:407
+msgid "Inputs"
+msgstr ""
+
+#: ../../source/user/quickref.rst:407
+msgid "Output"
+msgstr ""
+
+#: ../../source/user/quickref.rst:409
+msgid "A"
+msgstr ""
+
+#: ../../source/user/quickref.rst:409
+msgid "B"
+msgstr ""
+
+#: ../../source/user/quickref.rst:409
+msgid "A or B"
+msgstr ""
+
+#: ../../source/user/quickref.rst:411 ../../source/user/quickref.rst:412
+#: ../../source/user/quickref.rst:413
+msgid "False"
+msgstr ""
+
+#: ../../source/user/quickref.rst:412 ../../source/user/quickref.rst:413
+#: ../../source/user/quickref.rst:414
+msgid "True"
+msgstr ""
+
+#: ../../source/user/quickref.rst:417
+msgid "Simple table:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:419
+msgid ""
+"Inputs  Output A       B       A or B False   False   False True    False"
+"   True False   True    True True    True    True"
+msgstr ""
+
+#: ../../source/user/quickref.rst:427
+msgid "Transitions"
+msgstr ""
+
+#: ../../source/user/quickref.rst:430
+msgid ""
+"Plain text      Typical result A transition marker is a horizontal line "
+"of 4 or more repeated punctuation characters."
+msgstr ""
+
+#: ../../source/user/quickref.rst:437 ../../source/user/quickref.rst:443
+msgid ""
+"A transition should not begin or end a section or document, nor should "
+"two transitions be immediately adjacent."
+msgstr ""
+
+#: ../../source/user/quickref.rst:441
+msgid ""
+"A transition marker is a horizontal line of 4 or more repeated "
+"punctuation characters."
+msgstr ""
+
+#: ../../source/user/quickref.rst:445
+msgid ""
+"Transitions are commonly seen in novels and short fiction, as a gap "
+"spanning one or more lines, marking text divisions or signaling changes "
+"in subject, time, point of view, or emphasis."
+msgstr ""
+
+#: ../../source/user/quickref.rst:447
+msgid ""
+"Explicit Markup Explicit markup blocks are used for constructs which "
+"float (footnotes), have no direct paper-document representation "
+"(hyperlink targets, comments), or require specialized processing "
+"(directives). They all begin with two periods and whitespace, the "
+"\"explicit markup start\"."
+msgstr ""
+
+#: ../../source/user/quickref.rst:451
+msgid "Footnotes"
+msgstr ""
+
+#: ../../source/user/quickref.rst:454
+msgid ""
+"Plain text      Typical result Footnote references, like [5]_. Note that "
+"footnotes may get rearranged, e.g., to the bottom of the \"page\". .. [5]"
+" A numerical footnote. Note"
+msgstr ""
+
+#: ../../source/user/quickref.rst:460
+msgid "there's no colon after the ``]``."
+msgstr ""
+
+#: ../../source/user/quickref.rst:462
+msgid ""
+"Footnote references, like 5. Note that footnotes may get rearranged, "
+"e.g., to the bottom of the \"page\". [5]     A numerical footnote. Note "
+"there's no colon after the ]. Autonumbered footnotes are possible, like "
+"using [#]_ and [#]_. .. [#] This is the first one. .. [#] This is the "
+"second one."
+msgstr ""
+
+#: ../../source/user/quickref.rst:469
+msgid ""
+"They may be assigned 'autonumber labels' - for instance, [#fourth]_ and "
+"[#third]_."
+msgstr ""
+
+#: ../../source/user/quickref.rst:473
+msgid "a.k.a. third_"
+msgstr ""
+
+#: ../../source/user/quickref.rst:475
+msgid "a.k.a. fourth_"
+msgstr ""
+
+#: ../../source/user/quickref.rst:477
+msgid ""
+"Autonumbered footnotes are possible, like using 1 and 2. They may be "
+"assigned 'autonumber labels' - for instance, 4 and 3."
+msgstr ""
+
+#: ../../source/user/quickref.rst:480
+msgid ""
+"[1]     This is the first one. [2]     This is the second one. [3]     "
+"a.k.a. third [4]     a.k.a. fourth Auto-symbol footnotes are also "
+"possible, like this: [*]_ and [*]_. .. [*] This is the first one. .. [*] "
+"This is the second one."
+msgstr ""
+
+#: ../../source/user/quickref.rst:489
+msgid ""
+"Auto-symbol footnotes are also possible, like this: * and †. [*]     This"
+" is the first symbol footnote [†]     This is the second one. The "
+"numbering of auto-numbered footnotes is determined by the order of the "
+"footnotes, not of the references. For auto-numbered footnote references "
+"without autonumber labels (\"[#]_\"), the references and footnotes must "
+"be in the same relative order. Similarly for auto-symbol footnotes "
+"(\"[*]_\")."
+msgstr ""
+
+#: ../../source/user/quickref.rst:495
+msgid "Citations"
+msgstr ""
+
+#: ../../source/user/quickref.rst:498
+msgid ""
+"Plain text      Typical result Citation references, like [CIT2002]_. Note"
+" that citations may get rearranged, e.g., to the bottom of the \"page\". "
+".. [CIT2002] A citation"
+msgstr ""
+
+#: ../../source/user/quickref.rst:504
+msgid "(as often used in journals)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:506
+msgid ""
+"Citation labels contain alphanumerics, underlines, hyphens and fullstops."
+" Case is not significant."
+msgstr ""
+
+#: ../../source/user/quickref.rst:510
+msgid "Given a citation like [this]_, one can also refer to it like this_."
+msgstr ""
+
+#: ../../source/user/quickref.rst:513
+msgid "here."
+msgstr ""
+
+#: ../../source/user/quickref.rst:515
+msgid ""
+"Citation references, like [CIT2002]. Note that citations may get "
+"rearranged, e.g., to the bottom of the \"page\". Citation labels contain "
+"alphanumerics, underlines, hyphens and fullstops. Case is not "
+"significant."
+msgstr ""
+
+#: ../../source/user/quickref.rst:518
+msgid "Given a citation like [this], one can also refer to it like this."
+msgstr ""
+
+#: ../../source/user/quickref.rst:520
+msgid "[CIT2002]       A citation (as often used in journals). [this]  here."
+msgstr ""
+
+#: ../../source/user/quickref.rst:524
+msgid "Hyperlink Targets"
+msgstr ""
+
+#: ../../source/user/quickref.rst:527
+msgid ""
+"External Hyperlink Targets Plain text      Typical result External "
+"hyperlinks, like Python_. .. _Python: http://www.python.org/"
+msgstr ""
+
+#: ../../source/user/quickref.rst:532
+msgid ""
+"Fold-in form External hyperlinks, like Python. Call-out form External "
+"hyperlinks, like Python. Python: http://www.python.org/ \"Fold-in\" is "
+"the representation typically used in HTML documents (think of the "
+"indirect hyperlink being \"folded in\" like ingredients into a cake), and"
+" \"call-out\" is more suitable for printed documents, where the link "
+"needs to be presented explicitly, for example as a footnote. You can "
+"force usage of the call-out form by using the \"target-notes\" directive."
+msgstr ""
+
+#: ../../source/user/quickref.rst:539
+msgid ""
+"reStructuredText also provides for embedded URIs (details), a convenience"
+" at the expense of readability. A hyperlink reference may directly embed "
+"a target URI inline, within angle brackets. The following is exactly "
+"equivalent to the example above:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:541
+msgid ""
+"Plain text      Typical result External hyperlinks, like `Python "
+"<http://www.python.org/>`_.     External hyperlinks, like Python. "
+"Internal Hyperlink Targets Plain text      Typical result Internal "
+"crossreferences, like example_. .. _example:"
+msgstr ""
+
+#: ../../source/user/quickref.rst:549
+msgid "This is an example crossreference target."
+msgstr ""
+
+#: ../../source/user/quickref.rst:551
+msgid ""
+"Fold-in form Internal crossreferences, like example This is an example "
+"crossreference target."
+msgstr ""
+
+#: ../../source/user/quickref.rst:555
+msgid ""
+"Call-out form Internal crossreferences, like example example: This is an "
+"example crossreference target."
+msgstr ""
+
+#: ../../source/user/quickref.rst:561
+msgid "Indirect Hyperlink Targets"
+msgstr ""
+
+#: ../../source/user/quickref.rst:564
+msgid ""
+"Plain text      Typical result Python_ is `my favourite programming "
+"language`__. .. _Python: http://www.python.org/"
+msgstr ""
+
+#: ../../source/user/quickref.rst:571
+msgid "Python is my favourite programming language."
+msgstr ""
+
+#: ../../source/user/quickref.rst:573
+msgid ""
+"The second hyperlink target (the line beginning with \"__\") is both an "
+"indirect hyperlink target (indirectly pointing at the Python website via "
+"the \"Python_\" reference) and an anonymous hyperlink target. In the "
+"text, a double-underscore suffix is used to indicate an anonymous "
+"hyperlink reference. In an anonymous hyperlink target, the reference text"
+" is not repeated. This is useful for references with long text or throw-"
+"away references, but the target should be kept close to the reference to "
+"prevent them going out of sync."
+msgstr ""
+
+#: ../../source/user/quickref.rst:576
+msgid "Implicit Hyperlink Targets"
+msgstr ""
+
+#: ../../source/user/quickref.rst:579
+msgid ""
+"Section titles, footnotes, and citations automatically generate hyperlink"
+" targets (the title text or footnote/citation label is used as the "
+"hyperlink name)."
+msgstr ""
+
+#: ../../source/user/quickref.rst:581
+msgid ""
+"Plain text      Typical result Titles are targets, too "
+"======================= Implict references, like `Titles are targets, "
+"too`_. Titles are targets, too Implict references, like Titles are "
+"targets, too."
+msgstr ""
+
+#: ../../source/user/quickref.rst:589
+msgid "Directives"
+msgstr ""
+
+#: ../../source/user/quickref.rst:592
+msgid ""
+"Directives are a general-purpose extension mechanism, a way of adding "
+"support for new constructs without adding new syntax. For a description "
+"of all standard directives, see reStructuredText Directives."
+msgstr ""
+
+#: ../../source/user/quickref.rst:594
+msgid "Plain text      Typical result For instance: .. image:: images/ball1.gif"
+msgstr ""
+
+#: ../../source/user/quickref.rst:598
+msgid "For instance: ball1"
+msgstr ""
+
+#: ../../source/user/quickref.rst:602
+msgid "Substitution References and Definitions"
+msgstr ""
+
+#: ../../source/user/quickref.rst:605
+msgid ""
+"Substitutions are like inline directives, allowing graphics and arbitrary"
+" constructs within text."
+msgstr ""
+
+#: ../../source/user/quickref.rst:607
+msgid ""
+"Plain text      Typical result The |biohazard| symbol must be used on "
+"containers used to dispose of medical waste. .. |biohazard| image:: "
+"biohazard.png"
+msgstr ""
+
+#: ../../source/user/quickref.rst:611
+msgid ""
+"The biohazard symbol must be used on containers used to dispose of "
+"medical waste."
+msgstr ""
+
+#: ../../source/user/quickref.rst:614
+msgid "Comments"
+msgstr ""
+
+#: ../../source/user/quickref.rst:617
+msgid ""
+"Any text which begins with an explicit markup start but doesn't use the "
+"syntax of any of the constructs above, is a comment."
+msgstr ""
+
+#: ../../source/user/quickref.rst:619
+msgid "Plain text      Typical result .. This text will not be shown"
+msgstr ""
+
+#: ../../source/user/quickref.rst:621
+msgid "(but, for instance, in HTML might be rendered as an HTML comment)"
+msgstr ""
+
+#: ../../source/user/quickref.rst:623
+msgid ""
+"An \"empty comment\" does not consume following blocks. (An empty comment"
+" is \"..\" with blank lines before and after.) .."
+msgstr ""
+
+#: ../../source/user/quickref.rst:629
+msgid "So this block is not \"lost\", despite its indentation."
+msgstr ""
+
+#: ../../source/user/quickref.rst:632
+msgid ""
+"An \"empty comment\" does not consume following blocks. (An empty comment"
+" is \"..\" with blank lines before and after.) So this block is not "
+"\"lost\", despite its indentation. Getting Help Users who have questions "
+"or need assistance with Docutils or reStructuredText should post a "
+"message to the Docutils-Users mailing list. The Docutils project web site"
+" has more information."
+msgstr ""
+
+#: ../../source/user/quickref.rst:637
+msgid ""
+"Authors: Tibs (tibs@tibsnjoan.co.uk) and David Goodger "
+"(goodger@python.org)"
+msgstr ""
+

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/doc.rst:3
+msgid "Docutils: Documentation Utilities"
+msgstr ""
+
+#: ../../source/doc.rst:6
+msgid "Written in Python, for General- and Special-Purpose Use"
+msgstr ""
+
+#: ../../source/doc.rst:8
+msgid "Docutils is an open-source text processing system for processing plaintext documentation into useful formats, such as HTML, LaTeX, man-pages, open-document or XML. It includes reStructuredText_, the easy to read, easy to use, what-you-see-is-what-you-get plaintext markup language."
+msgstr ""
+
+#: ../../source/doc.rst:17
+msgid "Overview"
+msgstr ""
+
+#: ../../source/doc.rst:19
+msgid "**To get up & running quickly**, see the Quick-Start_ section of the README_ file."
+msgstr ""
+
+#: ../../source/doc.rst:22
+msgid "All **documentation** can be reached from the `Docutils Project Documentation Overview`_."
+msgstr ""
+
+#: ../../source/doc.rst:25
+msgid "To the developers of an open source project, **feedback** is a great motivator and is very welcome.  We also rely on feedback for determining what features to implement.  Thus, if you tell us what you need, you may just get it!  Please post any feedback to the Docutils-users_ mailing list."
+msgstr ""
+
+#: ../../source/doc.rst:31
+msgid "All **discussion** about Docutils takes place on the `mailing lists`_."
+msgstr ""
+
+#: ../../source/doc.rst:33
+msgid "If you find a **bug**, please file a `bug report`_ or send email to the Docutils-users_ mailing list.  **Patch** submissions should be filed in the `patch tracker`_ (preferred) or sent to Docutils-develop_ (where you will be asked to send them to the `patch tracker`_)."
+msgstr ""
+
+#: ../../source/doc.rst:38
+msgid "We welcome all kinds of **contributions**.  There's a `To Do list`_ full of interesting ideas awaiting a champion.  If you have any questions regarding how to extend Docutils, please feel free to ask on the Docutils-develop_ mailing list."
+msgstr ""
+
+#: ../../source/doc.rst:46
+msgid "The only **requirement** for running Docutils is Python_"
+msgstr ""
+
+#: ../../source/doc.rst:48
+msgid "After Docutil 0.14 Python 2.4 and Python 2.5 support will be dropped."
+msgstr ""
+
+#: ../../source/doc.rst:49
+msgid "Docutils 0.10 dropped Python 2.3 support."
+msgstr ""
+
+#: ../../source/doc.rst:50
+msgid "For Docutils 0.5, Python 2.2.1+ is required."
+msgstr ""
+
+#: ../../source/doc.rst:51
+msgid "Up to Docutils 0.4, Python 2.1 is required."
+msgstr ""
+
+#: ../../source/doc.rst:53
+msgid "From version 0.6, Docutils is compatible with Python 3 (see README_ for details)."
+msgstr ""
+
+#: ../../source/doc.rst:56
+msgid "Docutils is in active development and APIs should be considered **experimental** subject to change at any time.  Although *any time* is a time after serious thought and discussion."
+msgstr ""
+
+#: ../../source/doc.rst:62
+msgid "Download"
+msgstr ""
+
+#: ../../source/doc.rst:66
+msgid "Snapshots are supported by sourceforge directly. The whole trunk is packed docutils, sandbox, prest/perl and web:"
+msgstr ""
+
+#: ../../source/doc.rst:69
+msgid "https://sourceforge.net/p/docutils/code/HEAD/tarball"
+msgstr ""
+
+#: ../../source/doc.rst:71
+msgid "or only the docutils package:"
+msgstr ""
+
+#: ../../source/doc.rst:73
+msgid "http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/"
+msgstr ""
+
+#: ../../source/doc.rst:75
+msgid "Click the download snapshot button."
+msgstr ""
+
+#: ../../source/doc.rst:77
+msgid "The snapshosts listed below are created on website updates."
+msgstr ""
+
+#: ../../source/doc.rst:79
+msgid "We recommend that you use a snapshot_ from `Docutils' Subversion repository`_. The snapshots usually contain *more features* and *fewer bugs* than the \"official\" releases |---| they're not only for developers!"
+msgstr ""
+
+#: ../../source/doc.rst:83
+msgid "The latest **release package** is `docutils-0.14.tar.gz`__.  It was released on 2017-08-03 and is mostly intended for distributors.  See the `release notes`_ for a list of changes since the previous release."
+msgstr ""
+
+#: ../../source/doc.rst:91
+msgid "The Sandbox_ contains experimental, contributed code. You can download a complete `snapshot of the Sandbox`_ or `browse the Sandbox`_ to download a subset."
+msgstr ""
+
+#: ../../source/doc.rst:97
+msgid "Web site, tracker and mailing lists and subversion repository hosted by |SourceForge|_. Powered by |Python|_."
+msgstr ""
+
+#: ../../source/doc.rst:102
+msgid "Google should index the mailing lists: `Docutils-users <http://news.gmane.org/group/gmane.text.docutils.user/last=/force_load=t>`__, `Docutils-develop <http://news.gmane.org/group/gmane.text.docutils.devel/last=/force_load=t>`__, and `Docutils-checkins <http://news.gmane.org/group/gmane.text.docutils.cvs/last=/force_load=t>`__."
+msgstr ""
+

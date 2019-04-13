@@ -1,0 +1,498 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>自述: Docutils 0.15b.dev &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="Markup Syntax and Parser Component of Docutils" href="rst.html" />
+    <link rel="prev" title="Welcome to docutils-docs’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">自述: Docutils 0.15b.dev</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#quick-start">快速开始</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#purpose">目的</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#releases-snapshots">发布和快照</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">要求</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#python3-compatibility">Python3兼容性</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#project-files-directories">项目文件和目录</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">安装</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#gnu-linux-bsds-unix-mac-os-x-etc">GNU/Linux，BSD，Unix，Mac OS X 等</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#windows">Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">用法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#converting-the-documentation">转换文档</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-test-suite">运行测试套件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#getting-help">获得帮助</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rst.html">Markup Syntax and Parser Component of Docutils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/index.html">User Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref/index.html">Reference Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="howto/index.html">How-To’s</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>自述: Docutils 0.15b.dev</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/README.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="readme-docutils-0-15b-dev">
+<h1><a class="toc-backref" href="#id2">自述: Docutils 0.15b.dev</a><a class="headerlink" href="#readme-docutils-0-15b-dev" title="永久链接至标题">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">作者</dt>
+<dd class="field-odd"><p>David Goodger</p>
+</dd>
+<dt class="field-even">联系</dt>
+<dd class="field-even"><p><a class="reference external" href="mailto:goodger&#37;&#52;&#48;python&#46;org">goodger<span>&#64;</span>python<span>&#46;</span>org</a></p>
+</dd>
+<dt class="field-odd">日期</dt>
+<dd class="field-odd"><p>$Date: 2018-06-10 00:22:09 +0200 (So, 10. Jun 2018) $</p>
+</dd>
+<dt class="field-even">网站</dt>
+<dd class="field-even"><p><a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a></p>
+</dd>
+<dt class="field-odd">版权</dt>
+<dd class="field-odd"><p>本文档已置于公共领域。</p>
+</dd>
+</dl>
+<div class="contents topic" id="id1">
+<p class="topic-title first">目录</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#readme-docutils-0-15b-dev" id="id2">自述: Docutils 0.15b.dev</a></p>
+<ul>
+<li><p><a class="reference internal" href="#quick-start" id="id3">快速开始</a></p></li>
+<li><p><a class="reference internal" href="#purpose" id="id4">目的</a></p></li>
+<li><p><a class="reference internal" href="#releases-snapshots" id="id5">发布和快照</a></p></li>
+<li><p><a class="reference internal" href="#requirements" id="id6">要求</a></p>
+<ul>
+<li><p><a class="reference internal" href="#python3-compatibility" id="id7">Python3兼容性</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#project-files-directories" id="id8">项目文件和目录</a></p></li>
+<li><p><a class="reference internal" href="#installation" id="id9">安装</a></p>
+<ul>
+<li><p><a class="reference internal" href="#gnu-linux-bsds-unix-mac-os-x-etc" id="id10">GNU/Linux，BSD，Unix，Mac OS X 等</a></p></li>
+<li><p><a class="reference internal" href="#windows" id="id11">Windows</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#usage" id="id12">用法</a></p></li>
+<li><p><a class="reference internal" href="#converting-the-documentation" id="id13">转换文档</a></p></li>
+<li><p><a class="reference internal" href="#running-the-test-suite" id="id14">运行测试套件</a></p></li>
+<li><p><a class="reference internal" href="#getting-help" id="id15">获得帮助</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="quick-start">
+<h2><a class="toc-backref" href="#id3">快速开始</a><a class="headerlink" href="#quick-start" title="永久链接至标题">¶</a></h2>
+<p>这适用于那些想要快速起步和跑步的人。</p>
+<ol class="arabic">
+<li><p>Docutils需要Python(2.6或更高版本)，可从中获得</p>
+<blockquote>
+<div><p><a class="reference external" href="http://www.python.org/">http://www.python.org/</a></p>
+</div></blockquote>
+<p>有关详情，请参阅以下 <a class="reference internal" href="#requirements">Requirements</a></p>
+</li>
+<li><p>使用最新的Docutils代码。从 <a class="reference external" href="docs/dev/repository.html">Subversion存储库</a> 或快照中获取代码:</p>
+<blockquote>
+<div><p><a class="reference external" href="https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/">https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/</a></p>
+</div></blockquote>
+<p>有关详细信息，请参阅下面的 <a class="reference internal" href="#releases-snapshots">Releases &amp; Snapshots</a> 。</p>
+</li>
+<li><p>将tarball解压缩到临时目录中(<strong>不</strong> 直接在Python的 <code class="docutils literal notranslate"><span class="pre">site-packages</span></code> 中)，转到通过展开存档创建的目录，然后运行 <code class="docutils literal notranslate"><span class="pre">setup.py</span> <span class="pre">install</span></code> 。在Windows系统上，双击 <code class="docutils literal notranslate"><span class="pre">install.py</span></code> 可能就足够了。</p>
+<p>有关详情，<a class="reference internal" href="#installation">请参阅下面的安装</a></p>
+</li>
+<li><p>使用前端脚本转换reStructuredText文档。试试这个例子:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rst2html</span><span class="o">.</span><span class="n">py</span> <span class="n">FAQ</span><span class="o">.</span><span class="n">txt</span> <span class="n">FAQ</span><span class="o">.</span><span class="n">html</span>         <span class="p">(</span><span class="n">Unix</span><span class="p">)</span>
+<span class="n">python</span> <span class="n">tools</span><span class="o">/</span><span class="n">rst2html</span><span class="o">.</span><span class="n">py</span> <span class="n">FAQ</span><span class="o">.</span><span class="n">txt</span> <span class="n">FAQ</span><span class="o">.</span><span class="n">html</span>  <span class="p">(</span><span class="n">Windows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>有关详情，请参阅下面的 <a class="reference internal" href="#usage">Usage</a> 。</p>
+</li>
+</ol>
+</div>
+<div class="section" id="purpose">
+<h2><a class="toc-backref" href="#id4">目的</a><a class="headerlink" href="#purpose" title="永久链接至标题">¶</a></h2>
+<p>Docutils项目的目的是创建一组工具，用于将明文文档处理成有用的格式，例如HTML，XML和LaTeX。已实施对以下来源的支持:</p>
+<ul class="simple">
+<li><p>独立文件。</p></li>
+<li><p><a class="reference external" href="http://www.python.org/peps/pep-0012.html">PEPs (Python增强建议)</a>.</p></li>
+</ul>
+<p>计划支持以下来源:</p>
+<ul class="simple">
+<li><p>来自Python模块和包的内联文档，使用命名空间上下文提取。</p></li>
+<li><p>电子邮件(RFC-822标题，引用的摘录，签名，MIME部分)。</p></li>
+<li><p>Wiki，具有  “wiki links” 的全局参考查找。</p></li>
+<li><p>复合文档，例如多章文件合并到一本书中。</p></li>
+<li><p>和其他人一样被发现。</p></li>
+</ul>
+</div>
+<div class="section" id="releases-snapshots">
+<h2><a class="toc-backref" href="#id5">发布和快照</a><a class="headerlink" href="#releases-snapshots" title="永久链接至标题">¶</a></h2>
+<p>虽然我们正在尝试遵循 “早期和经常发布” 政策，但会经常添加功能。由于Subversion存储库中的代码通常处于无错状态，因此我们建议您使用当前快照。</p>
+<p>要获取快照，请转到代码页并单击下载快照按钮:</p>
+<ul class="simple">
+<li><p>Docutils代码，文档，前端工具和测试: <a class="reference external" href="https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/">https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/</a></p></li>
+<li><p>沙盒(实验，贡献代码): <a class="reference external" href="https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/sandbox/">https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/sandbox/</a></p></li>
+</ul>
+<p>要及时了解最新动态，请定期下载快照的新副本或使用 <a class="reference external" href="docs/dev/repository.html">Subversion存储库</a> 的工作副本。</p>
+</div>
+<div class="section" id="requirements">
+<h2><a class="toc-backref" href="#id6">要求</a><a class="headerlink" href="#requirements" title="永久链接至标题">¶</a></h2>
+<p>要运行代码，必须安装 <a class="reference external" href="http://www.python.org/.">Python</a> 。 Docutils兼容Python版本2.6,2.7和版本3.3到3.5(参见 <a class="reference internal" href="#python3-compatibility">Python 3兼容性</a> )。</p>
+<p>Docutils使用以下软件包来增强功能(如果已安装):</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.pythonware.com/products/pil/">Python成像库</a> 或PIL用于某些图像处理操作。</p></li>
+<li><p><a class="reference external" href="http://pygments.org/">Pygments</a> 语法高亮显示器用于 <cite>code</cite> 指令和角色的内容。</p></li>
+</ul>
+<div class="section" id="python3-compatibility">
+<h3><a class="toc-backref" href="#id7">Python3兼容性</a><a class="headerlink" href="#python3-compatibility" title="永久链接至标题">¶</a></h3>
+<p>Docutils代码库是为Python 2编写的，并使用 “按需” 翻译来 <a class="reference external" href="http://docs.python.org/py3k/howto/pyporting.html">移植到Python 3</a> 。</p>
+<ul class="simple">
+<li><p><cite>setup.py</cite> 脚本在 <code class="docutils literal notranslate"><span class="pre">build/</span></code> 中生成Python 3兼容源，并在 <a class="reference internal" href="#installation">安装</a> 期间使用Python 3在 <code class="docutils literal notranslate"><span class="pre">tests3/</span></code> 子目录中进行测试。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tools/</span></code> 子目录中的脚本可以使用所有受支持的Python版本而无需转换。</p></li>
+<li><p>要在不安装的情况下转换源代码(例如进行测试)，请运行 <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">setup.py构建</span></code> 。</p></li>
+<li><p>编辑源代码时，请对Python的2个版本的文件进行更改，然后重新运行build命令。</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="project-files-directories">
+<h2><a class="toc-backref" href="#id8">项目文件和目录</a><a class="headerlink" href="#project-files-directories" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>README.txt：你正在读它。</p></li>
+<li><p>COPYING.txt: 非公共域文件的公共域专用和版权详细信息(大多数是PD)。</p></li>
+<li><p>FAQ.txt: 常见问题(有答案！)。</p></li>
+<li><p>RELEASE-NOTES.txt: 最近发布的主要变化摘要。</p></li>
+<li><p>HISTORY.txt: 详细的更改日志，适用于当前和之前的所有项目版本。</p></li>
+<li><p>BUGS.txt: 已知的错误，以及如何报告错误。</p></li>
+<li><p>THANKS.txt: 贡献者名单。</p></li>
+<li><p>setup.py: 安装脚本。  请参阅下面的 “Installation”  。</p></li>
+<li><p>install.py: 快速和脏的安装脚本。跑吧。但是，对于任何类型的自定义或帮助，必须使用setup.py。</p></li>
+<li><p>docutils: 项目源目录，作为Python包安装。</p></li>
+<li><p>docs: 项目文档目录。阅读 <code class="docutils literal notranslate"><span class="pre">docs/index.txt</span></code> 了解概述。</p></li>
+<li><p>docs/user: 项目用户文档目录。包含以下文档等:</p>
+<ul>
+<li><p>docs/user/tools.txt: Docutils前端工具</p></li>
+<li><p>docs/user/latex.txt: Docutils LaTeX作家</p></li>
+<li><p>docs/user/rst/quickstart.txt: ReStructuredText入门</p></li>
+<li><p>docs/user/rst/quickref.html: 快速reStructuredText(仅限HTML)</p></li>
+</ul>
+</li>
+<li><p>docs/ref：项目引用目录。 <code class="docutils literal notranslate"><span class="pre">docs/ref/rst/restructuredtext.txt</span></code> 是reStructuredText引用。</p></li>
+<li><p>许可证：包含非公共域文件的许可证文件副本的目录。</p></li>
+<li><p>工具：Docutils前端工具的目录。有关文档，请参阅 <code class="docutils literal notranslate"><span class="pre">docs/user/tools.txt</span></code> 。</p></li>
+<li><p>测试：单元测试。不需要使用该软件，但如果您计划修改它，则非常有用。请参阅下面的“运行测试套件”。</p></li>
+</ul>
+<p>在Python下安装时生成的目录3:</p>
+<ul class="simple">
+<li><p>build: 转换来源。</p></li>
+<li><p>test3: 转换测试。</p></li>
+</ul>
+</div>
+<div class="section" id="installation">
+<h2><a class="toc-backref" href="#id9">安装</a><a class="headerlink" href="#installation" title="永久链接至标题">¶</a></h2>
+<p>第一步是在一个临时目录中扩展 <code class="docutils literal notranslate"><span class="pre">.tgz</span></code> 存档(<strong>不</strong> 直接在Python的 <code class="docutils literal notranslate"><span class="pre">site-packages</span></code> 中)。它包含一个distutils安装文件 “setup.py” 。特定于操作系统的安装说明如下</p>
+<div class="section" id="gnu-linux-bsds-unix-mac-os-x-etc">
+<h3><a class="toc-backref" href="#id10">GNU/Linux，BSD，Unix，Mac OS X 等</a><a class="headerlink" href="#gnu-linux-bsds-unix-mac-os-x-etc" title="永久链接至标题">¶</a></h3>
+<ol class="arabic">
+<li><p>打开一个shell。</p></li>
+<li><p>转到通过展开存档创建的目录:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</li>
+<li><p>安装软件包(您可能需要root权限才能完成此步骤):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">su</span>
+<span class="p">(</span><span class="n">enter</span> <span class="n">admin</span> <span class="n">password</span><span class="p">)</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>如果python可执行文件不在您的路径上，则必须指定完整路径，例如 <code class="docutils literal notranslate"><span class="pre">/usr/local/bin/python</span></code> 。</p>
+<p>要安装特定的Python版本，请在安装调用中使用此版本，例如:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span><span class="o">.</span><span class="mi">1</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>要安装不同的Python版本，请对每个所需版本重复步骤3。最后安装的版本将用于 <code class="docutils literal notranslate"><span class="pre">rst2</span> <span class="pre">*.py</span></code> 包装脚本的 <a class="reference external" href="http://en.wikipedia.org/wiki/Shebang_%28Unix%29">shebang line</a> 。</p>
+</li>
+</ol>
+</div>
+<div class="section" id="windows">
+<h3><a class="toc-backref" href="#id11">Windows</a><a class="headerlink" href="#windows" title="永久链接至标题">¶</a></h3>
+<p>只需双击 <code class="docutils literal notranslate"><span class="pre">install.py</span></code> 即可。如果这不起作用，请尝试以下操作:</p>
+<ol class="arabic">
+<li><p>打开DOS Box(命令外壳，MS-DOS提示符，或者这些天他们称之为的任何东西)。</p></li>
+<li><p>转到通过展开存档创建的目录:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</li>
+<li><p>安装包:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">path_to_python</span><span class="o">.</span><span class="n">exe</span><span class="o">&gt;</span>\<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>要安装特定的python版本，请为此版本指定Python可执行文件。</p>
+<p>要安装不同的Python版本，请对每个所需版本重复步骤3。</p>
+</li>
+</ol>
+<p>可选步骤:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#running-the-test-suite">运行测试套件</a></p></li>
+<li><p><a class="reference internal" href="#converting-the-documentation">转换文档</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="usage">
+<h2><a class="toc-backref" href="#id12">用法</a><a class="headerlink" href="#usage" title="永久链接至标题">¶</a></h2>
+<p>解压  “tools” 子目录中有许多前端工具。在Unix下安装将副本放在PATH中。您可能希望从 “rst2html.py” 前端工具开始。大多数工具最多需要两个参数，即源路径和目标路径，STDIN和STDOUT是默认值。使用前端工具的 “-help” 选项可获取有关选项和参数的详细信息。有关完整文档，请参阅Docutils前端工具(<code class="docutils literal notranslate"><span class="pre">docs/user/tools.txt</span></code>)。</p>
+<p>包模块不断发展和发展。 <code class="docutils literal notranslate"><span class="pre">docutils.statemachine</span></code> 模块可以独立使用。它包含大量的内联文档(当然是reStructuredText格式)。</p>
+<p>欢迎捐款！</p>
+</div>
+<div class="section" id="converting-the-documentation">
+<h2><a class="toc-backref" href="#id13">转换文档</a><a class="headerlink" href="#converting-the-documentation" title="永久链接至标题">¶</a></h2>
+<p>解压缩并安装Docutils软件包后，以下shell命令将为所有包含的文档生成HTML:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;/</span><span class="n">tools</span>
+<span class="o">./</span><span class="n">buildhtml</span><span class="o">.</span><span class="n">py</span> <span class="o">../</span>
+</pre></div>
+</div>
+<p>在Windows系统上，键入:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;</span>\<span class="n">tools</span>
+<span class="n">python</span> <span class="n">buildhtml</span><span class="o">.</span><span class="n">py</span> <span class="o">..</span>
+</pre></div>
+</div>
+<p>对于快照，<code class="docutils literal notranslate"><span class="pre">&lt;archive_directory_path&gt;</span></code> 的最终目录名是 “docutils” 。对于正式版本，该目录可以称为 “docutils-X.Y.Z” ，其中 “X.Y.Z” 是发行版本。另外:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;</span>
+<span class="n">tools</span><span class="o">/</span><span class="n">buildhtml</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">config</span><span class="o">=</span><span class="n">tools</span><span class="o">/</span><span class="n">docutils</span><span class="o">.</span><span class="n">conf</span>          <span class="p">(</span><span class="n">Unix</span><span class="p">)</span>
+<span class="n">python</span> <span class="n">tools</span>\<span class="n">buildhtml</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">config</span><span class="o">=</span><span class="n">tools</span>\<span class="n">docutils</span><span class="o">.</span><span class="n">conf</span>   <span class="p">(</span><span class="n">Windows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>某些文件可能会生成系统消息(警告和错误)。 <code class="docutils literal notranslate"><span class="pre">docs/user/rst/demo.txt</span></code> 文件(在归档目录下)包含五个故意错误。 (他们测试错误报告机制！)</p>
+</div>
+<div class="section" id="running-the-test-suite">
+<h2><a class="toc-backref" href="#id14">运行测试套件</a><a class="headerlink" href="#running-the-test-suite" title="永久链接至标题">¶</a></h2>
+<p>测试套件记录在 <a class="reference external" href="http://docutils.sourceforge.net/docs/dev/testing.html">Docutils Testing</a> (docs/dev/testing.txt)中。</p>
+<p>要运行整个测试套件，请打开shell并使用以下命令:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;/</span><span class="n">test</span>
+<span class="o">./</span><span class="n">alltests</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>在Windows下，键入:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;</span>\<span class="n">test</span>
+<span class="n">python</span> <span class="n">alltests</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>对于Python 3的测试，请使用转换后的测试套件:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">archive_directory_path</span><span class="o">&gt;/</span><span class="n">test3</span>
+<span class="n">python3</span> <span class="n">alltests</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>您应该看到一长串的句点，每个测试一个，然后是这样的摘要:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ran</span> <span class="mi">1111</span> <span class="n">tests</span> <span class="ow">in</span> <span class="mf">24.653</span><span class="n">s</span>
+
+<span class="n">OK</span>
+<span class="n">Elapsed</span> <span class="n">time</span><span class="p">:</span> <span class="mf">26.189</span> <span class="n">seconds</span>
+</pre></div>
+</div>
+<p>测试次数会随着时间的推移而增加，报告的时间将取决于运行测试的计算机。两次之间的差异表示设置测试所需的时间(导入模块，创建数据结构等)。</p>
+<p>如果任何测试失败，请 <a class="reference external" href="http://sourceforge.net/p/docutils/bugs/">打开错误报告</a> 或  <a class="reference external" href="mailto:docutils-users&#37;&#52;&#48;lists&#46;sourceforge&#46;net?subject=Test%20suite%20failure">发送电子邮件</a> (参见 <a class="reference external" href="BUGS.html">Bugs</a>)。请包括所有相关输出，有关您的操作系统，Python版本和Docutils版本的信息。要查看Docutils版本，请使用 <code class="docutils literal notranslate"><span class="pre">rst2*</span></code> 前端之一或 <code class="docutils literal notranslate"><span class="pre">tools/quicktest.py</span></code> 和 <code class="docutils literal notranslate"><span class="pre">--version</span></code> 选项，例如:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">../</span><span class="n">tools</span>
+<span class="o">./</span><span class="n">quicktest</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>Windows用户键入这些命令:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">..</span>\<span class="n">tools</span>
+<span class="n">python</span> <span class="n">quicktest</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getting-help">
+<h2><a class="toc-backref" href="#id15">获得帮助</a><a class="headerlink" href="#getting-help" title="永久链接至标题">¶</a></h2>
+<p>如果您对Docutils或reStructuredText有任何疑问或需要帮助，请发送邮件至 <a class="reference external" href="docs/user/mailing-lists.html#docutils-users">Docutils-users</a> 邮件列表。</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="rst.html" class="btn btn-neutral float-right" title="Markup Syntax and Parser Component of Docutils" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to docutils-docs’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
