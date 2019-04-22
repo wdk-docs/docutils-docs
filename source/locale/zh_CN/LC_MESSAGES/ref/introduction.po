@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:3
 msgid "An Introduction to reStructuredText"
-msgstr ""
+msgstr "reStructuredText简介"
 
 #: ../../source/ref/introduction.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/ref/introduction.rst:4
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/introduction.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/ref/introduction.rst:5
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/introduction.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/ref/introduction.rst:6
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/ref/introduction.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/introduction.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/ref/introduction.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/ref/introduction.rst:8
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/ref/introduction.rst:10
 msgid ""
@@ -91,11 +91,11 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:29
 msgid "ReStructuredText's web page is http://docutils.sourceforge.net/rst.html."
-msgstr ""
+msgstr "ReStructuredText's web page is http://docutils.sourceforge.net/rst.html."
 
 #: ../../source/ref/introduction.rst:44
 msgid "Goals"
-msgstr ""
+msgstr "Goals"
 
 #: ../../source/ref/introduction.rst:46
 msgid ""
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:54
 msgid "the conversion of such documents into useful structured data formats."
-msgstr ""
+msgstr "the conversion of such documents into useful structured data formats."
 
 #: ../../source/ref/introduction.rst:57
 msgid ""
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:62
 msgid "Python's creator and \"Benevolent Dictator For Life\", Guido van Rossum."
-msgstr ""
+msgstr "Python's creator and \"Benevolent Dictator For Life\", Guido van Rossum."
 
 #: ../../source/ref/introduction.rst:65
 msgid ""
@@ -176,7 +176,7 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:95
 msgid "Easy.  It should be easy to mark up text using any ordinary text editor."
-msgstr ""
+msgstr "Easy.  It should be easy to mark up text using any ordinary text editor."
 
 #: ../../source/ref/introduction.rst:98
 msgid ""
@@ -232,7 +232,7 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:127
 msgid "Author's note:"
-msgstr ""
+msgstr "Author's note:"
 
 #: ../../source/ref/introduction.rst:129
 msgid ""
@@ -256,11 +256,11 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:145
 msgid "David Goodger (goodger@python.org), 2001-04-20"
-msgstr ""
+msgstr "David Goodger (goodger@python.org), 2001-04-20"
 
 #: ../../source/ref/introduction.rst:151
 msgid "History"
-msgstr ""
+msgstr "History"
 
 #: ../../source/ref/introduction.rst:153
 msgid ""
@@ -355,15 +355,15 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:217
 msgid "`A Plan for Structured Text`__"
-msgstr ""
+msgstr "`A Plan for Structured Text`__"
 
 #: ../../source/ref/introduction.rst:218 ../../source/ref/introduction.rst:267
 msgid "`Problems With StructuredText`__"
-msgstr ""
+msgstr "`Problems With StructuredText`__"
 
 #: ../../source/ref/introduction.rst:219
 msgid "`reStructuredText: Revised Structured Text Specification`__"
-msgstr ""
+msgstr "`reStructuredText: Revised Structured Text Specification`__"
 
 #: ../../source/ref/introduction.rst:225
 msgid ""
@@ -418,35 +418,35 @@ msgstr ""
 
 #: ../../source/ref/introduction.rst:264
 msgid "The second draft of the spec:"
-msgstr ""
+msgstr "The second draft of the spec:"
 
 #: ../../source/ref/introduction.rst:266
 msgid "`An Introduction to reStructuredText`__"
-msgstr ""
+msgstr "`An Introduction to reStructuredText`__"
 
 #: ../../source/ref/introduction.rst:268
 msgid "`reStructuredText Markup Specification`__"
-msgstr ""
+msgstr "`reStructuredText Markup Specification`__"
 
 #: ../../source/ref/introduction.rst:269
 msgid "`Python Extensions to the reStructuredText Markup Specification`__"
-msgstr ""
+msgstr "`Python Extensions to the reStructuredText Markup Specification`__"
 
 #: ../../source/ref/introduction.rst:277
 msgid "First drafts of the PEPs:"
-msgstr ""
+msgstr "First drafts of the PEPs:"
 
 #: ../../source/ref/introduction.rst:279
 msgid "`PEP 256: Docstring Processing System Framework`__"
-msgstr ""
+msgstr "`PEP 256: Docstring Processing System Framework`__"
 
 #: ../../source/ref/introduction.rst:280
 msgid "`PEP 258: DPS Generic Implementation Details`__"
-msgstr ""
+msgstr "`PEP 258: DPS Generic Implementation Details`__"
 
 #: ../../source/ref/introduction.rst:281
 msgid "`PEP 257: Docstring Conventions`__"
-msgstr ""
+msgstr "`PEP 257: Docstring Conventions`__"
 
 #: ../../source/ref/introduction.rst:283
 msgid ""

@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/api/cmdline-tool.rst:3
+msgid "Inside A Docutils Command-Line Front-End Tool"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:0
+msgid "Author"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:5
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:7
+msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:8
+msgid "$Revision: 7302 $"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:11
+msgid "`The Docutils Publisher`_ class was set up to make building command-line tools easy.  All that's required is to choose components and supply settings for variations.  Let's take a look at a typical command-line front-end tool, ``tools/rst2html.py``, from top to bottom."
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:17
+msgid "On Unixish systems, it's best to make the file executable (``chmod +x file``), and supply an interpreter on the first line, the \"shebang\" or \"hash-bang\" line::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:23
+msgid "Windows systems can be set up to associate the Python interpreter with the ``.py`` extension."
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:26
+msgid "Next are some comments providing metadata::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:32
+msgid "The module docstring describes the purpose of the tool::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:38
+msgid "This next block attempts to invoke locale support for internationalization services, specifically text encoding.  It's not supported on all platforms though, so it's forgiving::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:48
+msgid "The real work will be done by the code that's imported here::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:52
+msgid "We construct a description of the tool, for command-line help::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:57
+msgid "Now we call the Publisher convenience function, which takes over. Most of its defaults are used (\"standalone\" Reader, \"reStructuredText\" Parser, etc.).  The HTML Writer is chosen by name, and a description for command-line help is passed in::"
+msgstr ""
+
+#: ../../source/api/cmdline-tool.rst:64
+msgid "That's it!  `The Docutils Publisher`_ takes care of the rest."
+msgstr ""
+

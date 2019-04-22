@@ -1,0 +1,2464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/user/config.rst:3
+msgid "Docutils Configuration"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "Author"
+msgstr ""
+
+#: ../../source/user/config.rst:5
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/user/config.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/user/config.rst:7
+msgid "$Revision: 8202 $"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/user/config.rst:8
+msgid "$Date: 2017-11-08 12:25:10 +0100 (Mi, 08. Nov 2017) $"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/user/config.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/user/config.rst:None
+msgid "Docutils Security for Web Applications"
+msgstr ""
+
+#: ../../source/user/config.rst:13
+msgid "For details about securing web applications, please see `Deploying Docutils Securely <../howto/security.html>`_."
+msgstr ""
+
+#: ../../source/user/config.rst:17
+msgid "目录"
+msgstr ""
+
+#: ../../source/user/config.rst:21
+msgid "Configuration Files"
+msgstr ""
+
+#: ../../source/user/config.rst:23
+msgid "Configuration files are used for persistent customization; they can be set once and take effect every time you use a front-end tool. Configuration file settings override the built-in defaults, and command-line options override all."
+msgstr ""
+
+#: ../../source/user/config.rst:28
+msgid "By default, Docutils checks the following places for configuration files, in the following order:"
+msgstr ""
+
+#: ../../source/user/config.rst:31
+msgid "``/etc/docutils.conf``: This is a system-wide configuration file, applicable to all Docutils processing on the system."
+msgstr ""
+
+#: ../../source/user/config.rst:34
+msgid "``./docutils.conf``: This is a project-specific configuration file, located in the current directory.  The Docutils front end has to be executed from the directory containing this configuration file for it to take effect (note that this may have nothing to do with the location of the source files).  Settings in the project-specific configuration file will override corresponding settings in the system-wide file."
+msgstr ""
+
+#: ../../source/user/config.rst:42
+msgid "``~/.docutils``: This is a user-specific configuration file, located in the user's home directory.  Settings in this file will override corresponding settings in both the system-wide and project-specific configuration files."
+msgstr ""
+
+#: ../../source/user/config.rst:47
+msgid "If more than one configuration file is found, all will be read but later entries will override earlier ones.  For example, a \"stylesheet\" entry in a user-specific configuration file will override a \"stylesheet\" entry in the system-wide file."
+msgstr ""
+
+#: ../../source/user/config.rst:52
+msgid "The default implicit config file paths can be overridden by the ``DOCUTILSCONFIG`` environment variable.  ``DOCUTILSCONFIG`` should contain a colon-separated (semicolon-separated on Windows) sequence of config file paths to search for; leave it empty to disable implicit config files altogether.  Tilde-expansion is performed on paths. Paths are interpreted relative to the current working directory. Empty path items are ignored."
+msgstr ""
+
+#: ../../source/user/config.rst:60
+msgid "In addition, a configuration file may be explicitly specified with the \"--config\" command-line option.  This configuration file is read after the three implicit ones listed above (or the ones defined by the ``DOCUTILSCONFIG`` environment variable), and its entries will have priority."
+msgstr ""
+
+#: ../../source/user/config.rst:69
+msgid "Configuration File Syntax"
+msgstr ""
+
+#: ../../source/user/config.rst:71
+msgid "Configuration files are UTF-8-encoded text files.  The ConfigParser.py_ module from Python_'s standard library is used to read them.  From its documentation:"
+msgstr ""
+
+#: ../../source/user/config.rst:75
+msgid "The configuration file consists of sections, lead by a \"[section]\" header and followed by \"name: value\" entries, with continuations in the style of `RFC 822`_; \"name=value\" is also accepted.  Note that leading whitespace is removed from values.  ...  Lines beginning with \"#\" or \";\" are ignored and may be used to provide comments."
+msgstr ""
+
+#: ../../source/user/config.rst:82
+msgid "No format string interpolation is done."
+msgstr ""
+
+#: ../../source/user/config.rst:84
+msgid "Configuration file entry names correspond to internal runtime settings.  Underscores (\"_\") and hyphens (\"-\") can be used interchangably in entry names; hyphens are automatically converted to underscores."
+msgstr ""
+
+#: ../../source/user/config.rst:89
+msgid "For on/off switch settings (_`booleans`), the following values are recognized:"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "On"
+msgstr ""
+
+#: ../../source/user/config.rst:92
+msgid "\"true\", \"yes\", \"on\", \"1\""
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "Off"
+msgstr ""
+
+#: ../../source/user/config.rst:93
+msgid "\"false\", \"no\", \"off\", \"0\", \"\" (no value)"
+msgstr ""
+
+#: ../../source/user/config.rst:97
+msgid "List values can be comma- or colon-delimited."
+msgstr ""
+
+#: ../../source/user/config.rst:99
+msgid "strip_classes_, strip_elements_with_classes_, stylesheet, and stylesheet_path use the comma as delimiter, whitespace around list values is stripped. ::"
+msgstr ""
+
+#: ../../source/user/config.rst:110
+msgid "expose_internals_, ignore_ and prune_ use the colon as delimiter and do not strip whitespace::"
+msgstr ""
+
+#: ../../source/user/config.rst:117
+msgid "Example"
+msgstr ""
+
+#: ../../source/user/config.rst:119
+msgid "This is the contents of the ``tools/docutils.conf`` configuration file supplied with Docutils::"
+msgstr ""
+
+#: ../../source/user/config.rst:135
+msgid "Individual configuration sections and settings are described in the following section."
+msgstr ""
+
+#: ../../source/user/config.rst:141
+msgid "Configuration File Sections & Entries"
+msgstr ""
+
+#: ../../source/user/config.rst:143
+msgid "Below are the Docutils runtime settings, listed by config file section.  Any setting may be specified in any section, but only settings from active sections will be used.  Sections correspond to Docutils components (module name or alias; section names are always in lowercase letters).  Each `Docutils application`_ uses a specific set of components; corresponding configuration file sections are applied when the application is used.  Configuration sections are applied in general-to-specific order, as follows:"
+msgstr ""
+
+#: ../../source/user/config.rst:152
+msgid "`[general]`_"
+msgstr ""
+
+#: ../../source/user/config.rst:154
+msgid "`[parsers]`_, parser dependencies, and the section specific to the Parser used (\"[... parser]\").  Currently, only `[restructuredtext parser]`_ is applicable."
+msgstr ""
+
+#: ../../source/user/config.rst:158
+msgid "`[readers]`_, reader dependencies, and the section specific to the Reader used (\"[... reader]\").  For example, `[pep reader]`_ depends on `[standalone reader]`_."
+msgstr ""
+
+#: ../../source/user/config.rst:162
+msgid "`[writers]`_, writer dependencies, and the section specific to the Writer used (\"[... writer]\").  For example, `[pep_html writer]`_ depends on `[html4css1 writer]`_."
+msgstr ""
+
+#: ../../source/user/config.rst:168
+msgid "`[applications]`_, application dependencies, and the section"
+msgstr ""
+
+#: ../../source/user/config.rst:167
+msgid "specific to the Application (front-end tool) in use (\"[... application]\")."
+msgstr ""
+
+#: ../../source/user/config.rst:170
+msgid "Since any setting may be specified in any section, this ordering allows component- or application-specific overrides of earlier settings.  For example, there may be Reader-specific overrides of general settings; Writer-specific overrides of Parser settings; Application-specific overrides of Writer settings; and so on."
+msgstr ""
+
+#: ../../source/user/config.rst:176
+msgid "If multiple configuration files are applicable, the process is completed (all sections are applied in the order given) for each one before going on to the next.  For example, a \"[pep_html writer] stylesheet\" setting in an earlier configuration file would be overridden by an \"[html4css1 writer] stylesheet\" setting in a later file."
+msgstr ""
+
+#: ../../source/user/config.rst:183
+msgid "Some knowledge of Python_ is assumed for some attributes."
+msgstr ""
+
+#: ../../source/user/config.rst:193
+msgid "[general]"
+msgstr ""
+
+#: ../../source/user/config.rst:195
+msgid "Settings in the \"[general]\" section are always applied."
+msgstr ""
+
+#: ../../source/user/config.rst:198
+msgid "auto_id_prefix"
+msgstr ""
+
+#: ../../source/user/config.rst:200
+msgid "Prefix prepended to all auto-generated IDs generated within the document, after id_prefix_."
+msgstr ""
+
+#: ../../source/user/config.rst:203
+msgid "Default: \"id\". Options: ``--auto-id-prefix`` (hidden, intended mainly for programmatic use)."
+msgstr ""
+
+#: ../../source/user/config.rst:207
+msgid "datestamp"
+msgstr ""
+
+#: ../../source/user/config.rst:209
+msgid "Include a time/datestamp in the document footer.  Contains a format string for Python's ``time.strftime``.  See the `time module documentation`__."
+msgstr ""
+
+#: ../../source/user/config.rst:213
+msgid "Default: None. Options: ``--date, -d, --time, -t, --no-datestamp``."
+msgstr ""
+
+#: ../../source/user/config.rst:216
+msgid "Configuration file entry examples::"
+msgstr ""
+
+#: ../../source/user/config.rst:232
+msgid "debug"
+msgstr ""
+
+#: ../../source/user/config.rst:234
+msgid "Report debug-level system messages."
+msgstr ""
+
+#: ../../source/user/config.rst:236
+msgid "Default: don't (None).  Options: ``--debug, --no-debug``."
+msgstr ""
+
+#: ../../source/user/config.rst:239
+msgid "dump_internals"
+msgstr ""
+
+#: ../../source/user/config.rst:241
+msgid "At the end of processing, write all internal attributes of the document (``document.__dict__``) to stderr."
+msgstr ""
+
+#: ../../source/user/config.rst:244
+msgid "Default: don't (None). Options: ``--dump-internals`` (hidden, for development use only)."
+msgstr ""
+
+#: ../../source/user/config.rst:248
+msgid "dump_pseudo_xml"
+msgstr ""
+
+#: ../../source/user/config.rst:250
+msgid "At the end of processing, write the pseudo-XML representation of the document to stderr."
+msgstr ""
+
+#: ../../source/user/config.rst:253
+msgid "Default: don't (None). Options: ``--dump-pseudo-xml`` (hidden, for development use only)."
+msgstr ""
+
+#: ../../source/user/config.rst:257
+msgid "dump_settings"
+msgstr ""
+
+#: ../../source/user/config.rst:259
+msgid "At the end of processing, write all Docutils settings to stderr."
+msgstr ""
+
+#: ../../source/user/config.rst:261
+msgid "Default: don't (None). Options: ``--dump-settings`` (hidden, for development use only)."
+msgstr ""
+
+#: ../../source/user/config.rst:265
+msgid "dump_transforms"
+msgstr ""
+
+#: ../../source/user/config.rst:267
+msgid "At the end of processing, write a list of all transforms applied to the document to stderr."
+msgstr ""
+
+#: ../../source/user/config.rst:270
+msgid "Default: don't (None). Options: ``--dump-transforms`` (hidden, for development use only)."
+msgstr ""
+
+#: ../../source/user/config.rst:274
+msgid "error_encoding"
+msgstr ""
+
+#: ../../source/user/config.rst:276
+msgid "The text encoding for error output."
+msgstr ""
+
+#: ../../source/user/config.rst:278
+msgid "Default: \"ascii\".  Options: ``--error-encoding, -e``."
+msgstr ""
+
+#: ../../source/user/config.rst:281
+msgid "error_encoding_error_handler"
+msgstr ""
+
+#: ../../source/user/config.rst:283
+msgid "The error handler for unencodable characters in error output.  See output_encoding_error_handler_ for acceptable values."
+msgstr ""
+
+#: ../../source/user/config.rst:286
+msgid "Default: \"backslashreplace\" Options: ``--error-encoding-error-handler, --error-encoding, -e``."
+msgstr ""
+
+#: ../../source/user/config.rst:290
+msgid "exit_status_level"
+msgstr ""
+
+#: ../../source/user/config.rst:292
+msgid "A system message level threshold; non-halting system messages at or above this level will produce a non-zero exit status at normal exit.  Exit status is the maximum system message level plus 10 (11 for INFO, etc.)."
+msgstr ""
+
+#: ../../source/user/config.rst:297
+msgid "Default: disabled (5).  Options: ``--exit-status``."
+msgstr ""
+
+#: ../../source/user/config.rst:300
+msgid "expose_internals"
+msgstr ""
+
+#: ../../source/user/config.rst:302
+msgid "List_ of internal attribues to expose as external attributes (with \"internal:\" namespace prefix).  To specify multiple attributes in configuration files, use colons to separate names; on the command line, the option may be used more than once."
+msgstr ""
+
+#: ../../source/user/config.rst:307
+msgid "Default: don't (None). Options: ``--expose-internal-attribute`` (hidden, for development use only)."
+msgstr ""
+
+#: ../../source/user/config.rst:311
+msgid "footnote_backlinks"
+msgstr ""
+
+#: ../../source/user/config.rst:313
+msgid "Enable or disable backlinks from footnotes_ and citations_ to their references."
+msgstr ""
+
+#: ../../source/user/config.rst:316
+msgid "Default: enabled (True). Options: ``--footnote-backlinks, --no-footnote-backlinks``."
+msgstr ""
+
+#: ../../source/user/config.rst:320
+msgid "generator"
+msgstr ""
+
+#: ../../source/user/config.rst:322
+msgid "Include a \"Generated by Docutils\" credit and link in the document footer."
+msgstr ""
+
+#: ../../source/user/config.rst:324
+msgid "Default: off (None).  Options: ``--generator, -g, --no-generator``."
+msgstr ""
+
+#: ../../source/user/config.rst:327
+msgid "halt_level"
+msgstr ""
+
+#: ../../source/user/config.rst:329
+msgid "The threshold at or above which system messages are converted to exceptions, halting execution immediately.  If `traceback`_ is set, the exception will propagate; otherwise, Docutils will exit."
+msgstr ""
+
+#: ../../source/user/config.rst:333
+msgid "Default: severe (4).  Options: ``--halt, --strict``."
+msgstr ""
+
+#: ../../source/user/config.rst:336
+msgid "id_prefix"
+msgstr ""
+
+#: ../../source/user/config.rst:338
+msgid "Prefix prepended to all IDs generated within the document.  See also auto_id_prefix_."
+msgstr ""
+
+#: ../../source/user/config.rst:341
+msgid "Default: \"\" (empty). Options: ``--id-prefix`` (hidden, intended mainly for programmatic use)."
+msgstr ""
+
+#: ../../source/user/config.rst:345
+msgid "input_encoding"
+msgstr ""
+
+#: ../../source/user/config.rst:347
+msgid "The text encoding for input."
+msgstr ""
+
+#: ../../source/user/config.rst:349
+msgid "Default: auto-detect (None).  Options: ``--input-encoding, -i``."
+msgstr ""
+
+#: ../../source/user/config.rst:352
+msgid "input_encoding_error_handler"
+msgstr ""
+
+#: ../../source/user/config.rst:354
+msgid "The error handler for undecodable characters in the input. Acceptable values include:"
+msgstr ""
+
+#: ../../source/user/config.rst:357
+#: ../../source/user/config.rst:410
+msgid "strict"
+msgstr ""
+
+#: ../../source/user/config.rst:358
+#: ../../source/user/config.rst:411
+msgid "Raise an exception in case of an encoding error."
+msgstr ""
+
+#: ../../source/user/config.rst:360
+#: ../../source/user/config.rst:413
+msgid "replace"
+msgstr ""
+
+#: ../../source/user/config.rst:360
+msgid "Replace malformed data with the official Unicode replacement character, U+FFFD."
+msgstr ""
+
+#: ../../source/user/config.rst:363
+#: ../../source/user/config.rst:415
+#: ../../source/user/config.rst:1835
+msgid "ignore"
+msgstr ""
+
+#: ../../source/user/config.rst:363
+#: ../../source/user/config.rst:416
+msgid "Ignore malformed data and continue without further notice."
+msgstr ""
+
+#: ../../source/user/config.rst:365
+msgid "Acceptable values are the same as for the \"error\" parameter of Python's ``unicode`` function; other values may be defined in applications or in future versions of Python."
+msgstr ""
+
+#: ../../source/user/config.rst:369
+msgid "Default: \"strict\". Options: ``--input-encoding-error-handler, --input-encoding, -i``."
+msgstr ""
+
+#: ../../source/user/config.rst:373
+msgid "language_code"
+msgstr ""
+
+#: ../../source/user/config.rst:375
+msgid "Case-insensitive `language tag`_ as defined in `BCP 47`_."
+msgstr ""
+
+#: ../../source/user/config.rst:377
+msgid "Sets the document language, also used for localized directive and role names as well as Docutils-generated text."
+msgstr ""
+
+#: ../../source/user/config.rst:380
+msgid "A typical language identifier consists of a 2-letter language code from `ISO 639`_ (3-letter codes can be used if no 2-letter code exists). The language identifier can have an optional subtag, typically for variations based on country (from `ISO 3166`_ 2-letter country codes).  Avoid subtags except where they add useful distinguishing information. Examples of language tags include \"fr\", \"en-GB\", \"pt-br\" (the same as \"pt-BR\"), and \"de-1901\" (German with pre-1996 spelling)."
+msgstr ""
+
+#: ../../source/user/config.rst:389
+msgid "The language of document parts can be specified with a \"language-<language tag>\" `class attribute`_, e.g. ``.. class:: language-el-polyton`` for a quote in polytonic Greek."
+msgstr ""
+
+#: ../../source/user/config.rst:393
+msgid "Default: English (\"en\").  Options: ``--language, -l``."
+msgstr ""
+
+#: ../../source/user/config.rst:398
+msgid "output_encoding"
+msgstr ""
+
+#: ../../source/user/config.rst:400
+msgid "The text encoding for output."
+msgstr ""
+
+#: ../../source/user/config.rst:402
+msgid "Default: \"UTF-8\".  Options: ``--output-encoding, -o``."
+msgstr ""
+
+#: ../../source/user/config.rst:405
+msgid "output_encoding_error_handler"
+msgstr ""
+
+#: ../../source/user/config.rst:407
+msgid "The error handler for unencodable characters in the output. Acceptable values include:"
+msgstr ""
+
+#: ../../source/user/config.rst:413
+msgid "Replace malformed data with a suitable replacement marker, such as \"?\"."
+msgstr ""
+
+#: ../../source/user/config.rst:418
+msgid "xmlcharrefreplace"
+msgstr ""
+
+#: ../../source/user/config.rst:418
+msgid "Replace with the appropriate XML character reference, such as \"``&#8224;``\"."
+msgstr ""
+
+#: ../../source/user/config.rst:421
+msgid "backslashreplace"
+msgstr ""
+
+#: ../../source/user/config.rst:421
+msgid "Replace with backslashed escape sequences, such as \"``\\u2020``\"."
+msgstr ""
+
+#: ../../source/user/config.rst:423
+msgid "Acceptable values are the same as for the \"error\" parameter of Python's ``encode`` string method; other values may be defined in applications or in future versions of Python."
+msgstr ""
+
+#: ../../source/user/config.rst:427
+msgid "Default: \"strict\". Options: ``--output-encoding-error-handler, --output-encoding, -o``."
+msgstr ""
+
+#: ../../source/user/config.rst:431
+msgid "record_dependencies"
+msgstr ""
+
+#: ../../source/user/config.rst:433
+msgid "Path to a file where Docutils will write a list of files that were required to generate the output, e.g. included files or embedded stylesheets [#dependencies]_. [#pwd]_ The format is one path per line with forward slashes as separator, the encoding is ``utf8``."
+msgstr ""
+
+#: ../../source/user/config.rst:438
+msgid "Set to ``-`` in order to write dependencies to stdout."
+msgstr ""
+
+#: ../../source/user/config.rst:440
+msgid "This option is particularly useful in conjunction with programs like ``make`` using ``Makefile`` rules like::"
+msgstr ""
+
+#: ../../source/user/config.rst:446
+msgid "If the filesystem encoding differs from utf8, replace the ``cat`` command with a call to a converter, e.g.::"
+msgstr ""
+
+#: ../../source/user/config.rst:451
+msgid "Default: None.  Option: ``--record-dependencies``."
+msgstr ""
+
+#: ../../source/user/config.rst:454
+msgid "report_level"
+msgstr ""
+
+#: ../../source/user/config.rst:456
+msgid "Report system messages at or higher than <level>:"
+msgstr ""
+
+#: ../../source/user/config.rst:458
+msgid "1  info 2  warning 3  error 4  severe 5  none"
+msgstr ""
+
+#: ../../source/user/config.rst:464
+msgid "Default: warning (2). Options: ``--report, -r, --verbose, -v, --quiet, -q``."
+msgstr ""
+
+#: ../../source/user/config.rst:468
+msgid "sectnum_xform"
+msgstr ""
+
+#: ../../source/user/config.rst:470
+msgid "Enable or disable automatic section numbering by Docutils (docutils.transforms.parts.SectNum) associated with the `sectnum directive`_."
+msgstr ""
+
+#: ../../source/user/config.rst:474
+msgid "If disabled, section numbers might be added to the output by the renderer (e.g. by LaTeX or via a CSS style definition)."
+msgstr ""
+
+#: ../../source/user/config.rst:477
+msgid "Default: enabled (True). Options: ``--section-numbering``, ``--no-section-numbering``."
+msgstr ""
+
+#: ../../source/user/config.rst:483
+msgid "source_link"
+msgstr ""
+
+#: ../../source/user/config.rst:485
+msgid "Include a \"View document source\" link in the document footer.  URL will be relative to the destination."
+msgstr ""
+
+#: ../../source/user/config.rst:488
+msgid "Default: don't (None). Options: ``--source-link, -s, --no-source-link``."
+msgstr ""
+
+#: ../../source/user/config.rst:492
+msgid "source_url"
+msgstr ""
+
+#: ../../source/user/config.rst:494
+msgid "An explicit URL for a \"View document source\" link, used verbatim."
+msgstr ""
+
+#: ../../source/user/config.rst:496
+msgid "Default: compute if source_link (None). Options: ``--source-url, --no-source-link``."
+msgstr ""
+
+#: ../../source/user/config.rst:500
+msgid "strict_visitor"
+msgstr ""
+
+#: ../../source/user/config.rst:502
+msgid "When processing a document tree with the Visitor pattern, raise an error if a writer does not support a node type listed as optional. For transitional development use."
+msgstr ""
+
+#: ../../source/user/config.rst:506
+msgid "Default: disabled (None). Option: ``--strict-visitor`` (hidden, for development use only)."
+msgstr ""
+
+#: ../../source/user/config.rst:510
+msgid "strip_classes"
+msgstr ""
+
+#: ../../source/user/config.rst:512
+msgid "Comma-separated list_ of \"classes\" attribute values to remove from all elements in the document tree. The command line option may be used more than once."
+msgstr ""
+
+#: ../../source/user/config.rst:516
+#: ../../source/user/config.rst:535
+#: ../../source/user/config.rst:601
+msgid "Potentially dangerous; use with caution."
+msgstr ""
+
+#: ../../source/user/config.rst:518
+msgid "Default: disabled (None).  Option: ``--strip-class``."
+msgstr ""
+
+#: ../../source/user/config.rst:521
+msgid "strip_comments"
+msgstr ""
+
+#: ../../source/user/config.rst:523
+msgid "Enable the removal of comment elements from the document tree."
+msgstr ""
+
+#: ../../source/user/config.rst:525
+msgid "Default: disabled (None). Options: ``--strip-comments``, ``--leave-comments``."
+msgstr ""
+
+#: ../../source/user/config.rst:529
+msgid "strip_elements_with_classes"
+msgstr ""
+
+#: ../../source/user/config.rst:531
+msgid "Comma-separated list_ of \"classes\" attribute values; matching elements are removed from the document tree. The command line option may be used more than once."
+msgstr ""
+
+#: ../../source/user/config.rst:537
+msgid "Default: disabled (None).  Option: ``--strip-element-with-class``."
+msgstr ""
+
+#: ../../source/user/config.rst:540
+msgid "title"
+msgstr ""
+
+#: ../../source/user/config.rst:542
+msgid "The `document title`_ as metadata, which does not become part of the document body.  It overrides a document-supplied title.  For example, in HTML output the metadata document title appears in the title bar of the browser window."
+msgstr ""
+
+#: ../../source/user/config.rst:547
+msgid "Default: none.  Option: ``--title``."
+msgstr ""
+
+#: ../../source/user/config.rst:552
+msgid "toc_backlinks"
+msgstr ""
+
+#: ../../source/user/config.rst:554
+msgid "Enable backlinks from section titles to table of contents entries (\"entry\"), to the top of the TOC (\"top\"), or disable (\"none\")."
+msgstr ""
+
+#: ../../source/user/config.rst:557
+msgid "Default: \"entry\". Options: ``--toc-entry-backlinks, --toc-top-backlinks, --no-toc-backlinks``."
+msgstr ""
+
+#: ../../source/user/config.rst:561
+msgid "traceback"
+msgstr ""
+
+#: ../../source/user/config.rst:563
+msgid "Enable Python tracebacks when halt-level system messages and other exceptions occur.  Useful for debugging, and essential for issue reports.  Exceptions are allowed to propagate, instead of being caught and reported (in a user-friendly way) by Docutils."
+msgstr ""
+
+#: ../../source/user/config.rst:568
+msgid "Default: disabled (None) unless Docutils is run programmatically using the `Publisher Interface`_. Options: ``--traceback, --no-traceback``."
+msgstr ""
+
+#: ../../source/user/config.rst:575
+msgid "warning_stream"
+msgstr ""
+
+#: ../../source/user/config.rst:577
+msgid "Path to a file for the output of system messages (warnings). [#pwd]_"
+msgstr ""
+
+#: ../../source/user/config.rst:579
+msgid "Default: stderr (None).  Options: ``--warnings``."
+msgstr ""
+
+#: ../../source/user/config.rst:583
+msgid "[parsers]"
+msgstr ""
+
+#: ../../source/user/config.rst:585
+msgid "Docutils currently supports only one parser, for reStructuredText."
+msgstr ""
+
+#: ../../source/user/config.rst:589
+msgid "[restructuredtext parser]"
+msgstr ""
+
+#: ../../source/user/config.rst:592
+msgid "character_level_inline_markup"
+msgstr ""
+
+#: ../../source/user/config.rst:594
+msgid "Experimental setting to relax the `inline markup recognition rules`_ requiring whitespace or punctuation around inline markup."
+msgstr ""
+
+#: ../../source/user/config.rst:597
+msgid "Allows character level inline markup without escaped whithespace and is especially suited for langauges that do not use whitespace to separate words (e.g. Japanese, Chinese)."
+msgstr ""
+
+#: ../../source/user/config.rst:603
+msgid "When changing this setting to \"True\", inline markup charactes in URLs, names and formulas must be escaped to prevent recognition and possible errors. Examples::"
+msgstr ""
+
+#: ../../source/user/config.rst:612
+msgid "Default: disabled (False). Options: ``--character-level-inline-markup, --word-level-inline-markup``."
+msgstr ""
+
+#: ../../source/user/config.rst:615
+#: ../../source/user/config.rst:1348
+msgid "New in Docutils 0.13."
+msgstr ""
+
+#: ../../source/user/config.rst:618
+msgid "file_insertion_enabled"
+msgstr ""
+
+#: ../../source/user/config.rst:620
+msgid "Enable or disable directives that insert the contents of external files, such as the \"include_\" & \"raw_\".  A \"warning\" system message (including the directive text) is inserted instead.  (See also raw_enabled_ for another security-relevant setting.)"
+msgstr ""
+
+#: ../../source/user/config.rst:625
+msgid "Default: enabled (True). Options: ``--file-insertion-enabled, --no-file-insertion``."
+msgstr ""
+
+#: ../../source/user/config.rst:632
+msgid "pep_references"
+msgstr ""
+
+#: ../../source/user/config.rst:634
+msgid "Recognize and link to standalone PEP references (like \"PEP 258\")."
+msgstr ""
+
+#: ../../source/user/config.rst:636
+msgid "Default: disabled (None); enabled (True) in PEP Reader. Options: ``--pep-references``."
+msgstr ""
+
+#: ../../source/user/config.rst:640
+msgid "pep_base_url"
+msgstr ""
+
+#: ../../source/user/config.rst:641
+msgid "Base URL for PEP references."
+msgstr ""
+
+#: ../../source/user/config.rst:643
+msgid "Default: \"http://www.python.org/peps/\". Option: ``--pep-base-url``."
+msgstr ""
+
+#: ../../source/user/config.rst:647
+msgid "pep_file_url_template"
+msgstr ""
+
+#: ../../source/user/config.rst:649
+msgid "Template for PEP file part of URL, interpolated with the PEP number and appended to pep_base_url_."
+msgstr ""
+
+#: ../../source/user/config.rst:652
+msgid "Default: \"pep-%04d\".  Option: ``--pep-file-url``."
+msgstr ""
+
+#: ../../source/user/config.rst:655
+msgid "raw_enabled"
+msgstr ""
+
+#: ../../source/user/config.rst:657
+msgid "Enable or disable the \"raw_\" directive.  A \"warning\" system message (including the directive text) is inserted instead.  (See also file_insertion_enabled_ for another security-relevant setting.)"
+msgstr ""
+
+#: ../../source/user/config.rst:661
+msgid "Default: enabled (True).  Options: ``--raw-enabled, --no-raw``."
+msgstr ""
+
+#: ../../source/user/config.rst:664
+msgid "rfc_references"
+msgstr ""
+
+#: ../../source/user/config.rst:666
+msgid "Recognize and link to standalone RFC references (like \"RFC 822\")."
+msgstr ""
+
+#: ../../source/user/config.rst:668
+msgid "Default: disabled (None); enabled (True) in PEP Reader. Options: ``--rfc-references``."
+msgstr ""
+
+#: ../../source/user/config.rst:672
+msgid "rfc_base_url"
+msgstr ""
+
+#: ../../source/user/config.rst:674
+msgid "Base URL for RFC references."
+msgstr ""
+
+#: ../../source/user/config.rst:676
+msgid "Default: \"http://www.faqs.org/rfcs/\".  Option: ``--rfc-base-url``."
+msgstr ""
+
+#: ../../source/user/config.rst:679
+msgid "smart_quotes"
+msgstr ""
+
+#: ../../source/user/config.rst:681
+msgid "Activate the experimental SmartQuotes_ transform to change straight quotation marks to typographic form. `Quote characters`_ are selected according to the language of the current block element (see language_code_, smartquotes_locales_, and the `pre-defined quote sets`__)."
+msgstr ""
+
+#: ../../source/user/config.rst:686
+msgid "Also changes consecutive runs of hyphen-minus and full stops (``---``, ``--``, ``...``) to em-dash, en-dash and ellipsis Unicode characters respectively."
+msgstr ""
+
+#: ../../source/user/config.rst:690
+#: ../../source/user/config.rst:736
+#: ../../source/user/config.rst:1632
+msgid "Supported values:"
+msgstr ""
+
+#: ../../source/user/config.rst:693
+msgid "booleans_ (yes/no)"
+msgstr ""
+
+#: ../../source/user/config.rst:693
+msgid "Use smart quotes?"
+msgstr ""
+
+#: ../../source/user/config.rst:696
+msgid "alt (or \"alternative\")"
+msgstr ""
+
+#: ../../source/user/config.rst:696
+msgid "Use alternative quote set (if defined for the language)."
+msgstr ""
+
+#: ../../source/user/config.rst:698
+msgid "Default: \"no\". Option: ``--smart-quotes``."
+msgstr ""
+
+#: ../../source/user/config.rst:700
+msgid "New in Docutils 0.10."
+msgstr ""
+
+#: ../../source/user/config.rst:709
+msgid "smartquotes_locales"
+msgstr ""
+
+#: ../../source/user/config.rst:711
+msgid "Typographical quotes used by the SmartQuotes_ transform."
+msgstr ""
+
+#: ../../source/user/config.rst:713
+msgid "A comma-separated list_ with language tag and a set of four quotes (primary open/close, secondary open/close)smartquotes_locales. (If more than one character shall be used for a quote (e.g. padding in French quotes), a colon-separated list may be used.)"
+msgstr ""
+
+#: ../../source/user/config.rst:724
+msgid "Example:"
+msgstr ""
+
+#: ../../source/user/config.rst:719
+msgid "Ensure a correct leading apostrophe in ``'s Gravenhage`` in Dutch (at the cost of incorrect opening single quotes) and set French quotes to double and single guillemets with inner padding::"
+msgstr ""
+
+#: ../../source/user/config.rst:726
+msgid "Default: None. Option: ``--smartquotes-locales``."
+msgstr ""
+
+#: ../../source/user/config.rst:728
+msgid "New in Docutils 0.14."
+msgstr ""
+
+#: ../../source/user/config.rst:731
+msgid "syntax_highlight"
+msgstr ""
+
+#: ../../source/user/config.rst:733
+msgid "Token type names used by Pygments_ when parsing contents of the code_ directive and role."
+msgstr ""
+
+#: ../../source/user/config.rst:738
+msgid "long"
+msgstr ""
+
+#: ../../source/user/config.rst:739
+msgid "Use hierarchy of long token type names."
+msgstr ""
+
+#: ../../source/user/config.rst:741
+msgid "short"
+msgstr ""
+
+#: ../../source/user/config.rst:741
+msgid "Use short token type names. (For use with `Pygments-generated stylesheets`_.)"
+msgstr ""
+
+#: ../../source/user/config.rst:745
+msgid "none"
+msgstr ""
+
+#: ../../source/user/config.rst:744
+msgid "No code parsing. Use this to avoid the \"Pygments not found\" warning when Pygments is not installed."
+msgstr ""
+
+#: ../../source/user/config.rst:747
+msgid "Default: \"long\".  Option: ``--syntax-highlight``."
+msgstr ""
+
+#: ../../source/user/config.rst:749
+msgid "New in Docutils 0.9."
+msgstr ""
+
+#: ../../source/user/config.rst:757
+msgid "tab_width"
+msgstr ""
+
+#: ../../source/user/config.rst:759
+msgid "Number of spaces for hard tab expansion."
+msgstr ""
+
+#: ../../source/user/config.rst:761
+msgid "Default: 8.  Options: ``--tab-width``."
+msgstr ""
+
+#: ../../source/user/config.rst:764
+msgid "trim_footnote_reference_space"
+msgstr ""
+
+#: ../../source/user/config.rst:766
+msgid "Remove spaces before `footnote references`_."
+msgstr ""
+
+#: ../../source/user/config.rst:768
+msgid "Default: don't (None); may be overriden by a writer-specific footnote_references__ default though."
+msgstr ""
+
+#: ../../source/user/config.rst:771
+msgid "Options: ``--trim-footnote-reference-space, --leave-footnote-reference-space``."
+msgstr ""
+
+#: ../../source/user/config.rst:777
+msgid "[readers]"
+msgstr ""
+
+#: ../../source/user/config.rst:781
+msgid "[standalone reader]"
+msgstr ""
+
+#: ../../source/user/config.rst:784
+msgid "docinfo_xform"
+msgstr ""
+
+#: ../../source/user/config.rst:786
+msgid "Enable or disable the `bibliographic field list`_ transform (docutils.transforms.frontmatter.DocInfo)."
+msgstr ""
+
+#: ../../source/user/config.rst:789
+msgid "Default: enabled (True).  Options: ``--no-doc-info``."
+msgstr ""
+
+#: ../../source/user/config.rst:792
+msgid "doctitle_xform"
+msgstr ""
+
+#: ../../source/user/config.rst:794
+msgid "Enable or disable the promotion of a lone top-level section title to `document title`_ (and subsequent section title to document subtitle promotion; docutils.transforms.frontmatter.DocTitle)."
+msgstr ""
+
+#: ../../source/user/config.rst:798
+msgid "Default: enabled (True).  Options: ``--no-doc-title``."
+msgstr ""
+
+#: ../../source/user/config.rst:801
+msgid "sectsubtitle_xform"
+msgstr ""
+
+#: ../../source/user/config.rst:803
+msgid "Enable or disable the promotion of the title of a lone subsection to a subtitle (docutils.transforms.frontmatter.SectSubTitle)."
+msgstr ""
+
+#: ../../source/user/config.rst:806
+msgid "Default: disabled (0).  Options: ``--section-subtitles, --no-section-subtitles``."
+msgstr ""
+
+#: ../../source/user/config.rst:811
+msgid "[pep reader]"
+msgstr ""
+
+#: ../../source/user/config.rst:813
+msgid "The `pep_references`_ and `rfc_references`_ settings (`[restructuredtext parser]`_) are set on by default."
+msgstr ""
+
+#: ../../source/user/config.rst:824
+msgid "[writers]"
+msgstr ""
+
+#: ../../source/user/config.rst:827
+msgid "[docutils_xml writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:831
+msgid "In Python versions older than 2.7.3 and 3.2.3, the newlines_ and indents_ options may adversely affect whitespace; use them only for reading convenience (see http://bugs.python.org/issue4147)."
+msgstr ""
+
+#: ../../source/user/config.rst:835
+msgid "The XML declaration carries text encoding information. If the encoding is not UTF-8 or ASCII and the XML declaration is missing, standard tools may be unable to read the generated XML."
+msgstr ""
+
+#: ../../source/user/config.rst:840
+msgid "doctype_declaration"
+msgstr ""
+
+#: ../../source/user/config.rst:842
+msgid "Generate XML with a DOCTYPE declaration."
+msgstr ""
+
+#: ../../source/user/config.rst:844
+msgid "Default: do (1).  Options: ``--no-doctype``."
+msgstr ""
+
+#: ../../source/user/config.rst:847
+msgid "indents"
+msgstr ""
+
+#: ../../source/user/config.rst:849
+msgid "Generate XML with indents and newlines."
+msgstr ""
+
+#: ../../source/user/config.rst:851
+msgid "Default: don't (None).  Options: ``--indents``."
+msgstr ""
+
+#: ../../source/user/config.rst:854
+msgid "newlines"
+msgstr ""
+
+#: ../../source/user/config.rst:856
+msgid "Generate XML with newlines before and after tags."
+msgstr ""
+
+#: ../../source/user/config.rst:858
+msgid "Default: don't (None).  Options: ``--newlines``."
+msgstr ""
+
+#: ../../source/user/config.rst:863
+#: ../../source/user/config.rst:1199
+msgid "xml_declaration"
+msgstr ""
+
+#: ../../source/user/config.rst:865
+msgid "Generate XML with an XML declaration.  Also defined for the `HTML Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:868
+#: ../../source/user/config.rst:1208
+msgid "Default: do (1).  Options: ``--no-xml-declaration``."
+msgstr ""
+
+#: ../../source/user/config.rst:874
+msgid "[html4css1 writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:879
+#: ../../source/user/config.rst:1568
+msgid "attribution"
+msgstr ""
+
+#: ../../source/user/config.rst:881
+msgid "Format for `block quote`_ attributions: one of \"dash\" (em-dash prefix), \"parentheses\"/\"parens\", or \"none\".  Also defined for the `LaTeX Writer <attribution [latex2e writer]_>`__."
+msgstr ""
+
+#: ../../source/user/config.rst:885
+msgid "Default: \"dash\".  Options: ``--attribution``."
+msgstr ""
+
+#: ../../source/user/config.rst:888
+msgid "cloak_email_addresses"
+msgstr ""
+
+#: ../../source/user/config.rst:890
+msgid "Scramble email addresses to confuse harvesters.  In the reference URI, the \"@\" will be replaced by %-escapes (as of RFC 1738).  In the visible text (link text) of an email reference, the \"@\" and all periods (\".\") will be surrounded by ``<span>`` tags. Furthermore, HTML entities are used to encode these characters in order to further complicate decoding the email address.  For example, \"abc@example.org\" will be output as::"
+msgstr ""
+
+#: ../../source/user/config.rst:901
+msgid "While cloaking email addresses will have little to no impact on the rendering and usability of email links in most browsers, some browsers (e.g. the ``links`` browser) may decode cloaked email addresses incorrectly."
+msgstr ""
+
+#: ../../source/user/config.rst:906
+msgid "Default: don't cloak (None).  Option: ``--cloak-email-addresses``."
+msgstr ""
+
+#: ../../source/user/config.rst:909
+msgid "compact_lists"
+msgstr ""
+
+#: ../../source/user/config.rst:911
+msgid "Remove extra vertical whitespace between items of bullet lists and enumerated lists, when list items are all \"simple\" (i.e., items each contain one paragraph and/or one \"simple\" sublist only).  The behaviour can be specified directly via \"class\" attributes (values \"compact\" and \"open\") in the document."
+msgstr ""
+
+#: ../../source/user/config.rst:917
+msgid "Default: enabled (True). Options: ``--compact-lists, --no-compact-lists``."
+msgstr ""
+
+#: ../../source/user/config.rst:921
+msgid "compact_field_lists"
+msgstr ""
+
+#: ../../source/user/config.rst:923
+msgid "Remove extra vertical whitespace between items of `field lists`_ that are \"simple\" (i.e., all field bodies each contain at most one paragraph).  The behaviour can be specified directly via \"class\" attributes (values \"compact\" and \"open\") in the document."
+msgstr ""
+
+#: ../../source/user/config.rst:928
+msgid "Default: enabled (True). Options: ``--compact-field-lists, --no-compact-field-lists``."
+msgstr ""
+
+#: ../../source/user/config.rst:934
+#: ../../source/user/config.rst:1451
+msgid "embed_stylesheet"
+msgstr ""
+
+#: ../../source/user/config.rst:936
+msgid "Embed the stylesheet in the output HTML file.  The stylesheet file must specified by the stylesheet_path__ setting and must be accessible during processing. Also defined for the `LaTeX Writer <embed_stylesheet [latex2e writer]_>`__."
+msgstr ""
+
+#: ../../source/user/config.rst:941
+msgid "Default: enabled.  Options: ``--embed-stylesheet, --link-stylesheet``."
+msgstr ""
+
+#: ../../source/user/config.rst:947
+msgid "field_name_limit"
+msgstr ""
+
+#: ../../source/user/config.rst:949
+msgid "The maximum width (in characters) for one-column `field names`_. Longer field names will span an entire row of the table used to render the field list.  0 indicates \"no limit\".  See also option_limit_."
+msgstr ""
+
+#: ../../source/user/config.rst:953
+msgid "Default: 14 (i.e. 14 characters).  Option: ``--field-name-limit``."
+msgstr ""
+
+#: ../../source/user/config.rst:958
+#: ../../source/user/config.rst:1553
+msgid "footnote_references"
+msgstr ""
+
+#: ../../source/user/config.rst:960
+msgid "Format for `footnote references`_, one of \"superscript\" or \"brackets\". Also defined for the `LaTeX Writer <footnote_references [latex2e writer]_>`__."
+msgstr ""
+
+#: ../../source/user/config.rst:963
+msgid "Overrides [#override]_ trim_footnote_reference_space_, if applicable. [#footnote_space]_"
+msgstr ""
+
+#: ../../source/user/config.rst:966
+msgid "Default: \"brackets\".  Option: ``--footnote-references``."
+msgstr ""
+
+#: ../../source/user/config.rst:969
+msgid "initial_header_level"
+msgstr ""
+
+#: ../../source/user/config.rst:971
+msgid "The initial level for header elements.  This does not affect the document title & subtitle; see doctitle_xform_."
+msgstr ""
+
+#: ../../source/user/config.rst:974
+msgid "Default: 1 (for \"<h1>\").  Option: ``--initial-header-level``."
+msgstr ""
+
+#: ../../source/user/config.rst:977
+msgid "math_output"
+msgstr ""
+
+#: ../../source/user/config.rst:979
+msgid "The format of mathematical content (`math directive`_ and role) in the output document. Supported values are (case insensitive):"
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "HTML"
+msgstr ""
+
+#: ../../source/user/config.rst:983
+msgid "Format math in standard HTML enhanced by CSS rules. Requires the ``math.css`` stylesheet (in the system `stylesheet directory <stylesheet_dirs [html4css1 writer]_>`_)"
+msgstr ""
+
+#: ../../source/user/config.rst:987
+msgid "A `stylesheet_path <stylesheet_path [html4css1 writer]_>`_ can be appended after whitespace, the specified stylesheet(s) will only be referenced or embedded, if required (i.e. if there is mathematical content in the document)."
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "MathJax"
+msgstr ""
+
+#: ../../source/user/config.rst:993
+msgid "Format math for display with MathJax_, a JavaScript-based math rendering engine."
+msgstr ""
+
+#: ../../source/user/config.rst:1001
+#: ../../source/user/config.rst:1046
+msgid "Pro:"
+msgstr ""
+
+#: ../../source/user/config.rst:997
+msgid "Works across multiple browsers and platforms."
+msgstr ""
+
+#: ../../source/user/config.rst:999
+msgid "Large set of `supported LaTeX math commands and constructs`__"
+msgstr ""
+
+#: ../../source/user/config.rst:1005
+#: ../../source/user/config.rst:1054
+msgid "Con:"
+msgstr ""
+
+#: ../../source/user/config.rst:1004
+msgid "Rendering requires JavaScript and an Internet connection or local MathJax installation."
+msgstr ""
+
+#: ../../source/user/config.rst:1007
+msgid "A URL pointing to a MathJax library should be appended after whitespace. A warning is given if this is missing."
+msgstr ""
+
+#: ../../source/user/config.rst:1010
+msgid "It is recommended to install__ the MathJax library on the same server as the rest of the deployed site files."
+msgstr ""
+
+#: ../../source/user/config.rst:1015
+msgid "Example: Install the library at the top level of the web serverâ€™s hierarchy in the directory ``MathJax`` and set::"
+msgstr ""
+
+#: ../../source/user/config.rst:1020
+msgid "The easiest way to use MathJax is to link directly to a public installation. In that case, there is no need to install MathJax locally."
+msgstr ""
+
+#: ../../source/user/config.rst:1023
+msgid "Downside: Downloads JavaScript code from a third-party site --- opens the door to cross-site scripting attacs!"
+msgstr ""
+
+#: ../../source/user/config.rst:1026
+msgid "Example: MathJax.org recommends ``cdnjs.cloudflare.com``::"
+msgstr ""
+
+#: ../../source/user/config.rst:1031
+msgid "See https://cdnjs.com/about and https://www.cloudflare.com/terms/ for details and terms of use."
+msgstr ""
+
+#: ../../source/user/config.rst:1034
+msgid "Use a local MathJax installation on the *client* machine, e.g.::"
+msgstr ""
+
+#: ../../source/user/config.rst:1038
+msgid "This is the fallback if no URL is specified."
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "MathML"
+msgstr ""
+
+#: ../../source/user/config.rst:1041
+msgid "Embed math content as presentational MathML_."
+msgstr ""
+
+#: ../../source/user/config.rst:1044
+msgid "The W3C recommendation for math on the web."
+msgstr ""
+
+#: ../../source/user/config.rst:1046
+msgid "Self-contained documents (no JavaScript, no external downloads)."
+msgstr ""
+
+#: ../../source/user/config.rst:1049
+msgid "Docutil's latex2mathml converter supports only a small subset of LaTeX syntax."
+msgstr ""
+
+#: ../../source/user/config.rst:1052
+msgid "With the \"html4css1\" writer, the resulting HTML document does not validate, as there is no DTD for `MathML + XHTMLÂ Transitional`. However, MathML-enabled browsers will render it fine."
+msgstr ""
+
+#: ../../source/user/config.rst:1056
+msgid "An external converter can be appended after whitespace, e.g., ``--math-output=\"MathML latexml\"``:"
+msgstr ""
+
+#: ../../source/user/config.rst:1061
+msgid "blahtexml_"
+msgstr ""
+
+#: ../../source/user/config.rst:1060
+msgid "Fast conversion, support for many symbols and environments, but no \"align\" (or other equation-aligning) environment. (C++)"
+msgstr ""
+
+#: ../../source/user/config.rst:1064
+msgid "LaTeXML_"
+msgstr ""
+
+#: ../../source/user/config.rst:1064
+msgid "Comprehensive macro support but very slow. (Perl)"
+msgstr ""
+
+#: ../../source/user/config.rst:1067
+msgid "TtM_"
+msgstr ""
+
+#: ../../source/user/config.rst:1067
+msgid "No \"matrix\", \"align\" and  \"cases\" environments. Support may be removed."
+msgstr ""
+
+#: ../../source/user/config.rst:0
+msgid "LaTeX"
+msgstr ""
+
+#: ../../source/user/config.rst:1070
+msgid "Include literal LaTeX code."
+msgstr ""
+
+#: ../../source/user/config.rst:1072
+msgid "The failsave fallback."
+msgstr ""
+
+#: ../../source/user/config.rst:1074
+msgid "Default: \"HTML math.css\" (The `[html5 writer]`_ defaults to \"MathML\"). Option: ``--math-output``."
+msgstr ""
+
+#: ../../source/user/config.rst:1077
+msgid "New in Docutils 0.8."
+msgstr ""
+
+#: ../../source/user/config.rst:1088
+msgid "option_limit"
+msgstr ""
+
+#: ../../source/user/config.rst:1090
+msgid "The maximum width (in characters) for options in `option lists`_. Longer options will span an entire row of the table used to render the option list.  0 indicates \"no limit\".  See also field_name_limit_."
+msgstr ""
+
+#: ../../source/user/config.rst:1095
+msgid "Default: 14 (i.e. 14 characters).  Option: ``--option-limit``."
+msgstr ""
+
+#: ../../source/user/config.rst:1100
+#: ../../source/user/config.rst:1466
+#: ../../source/user/config.rst:1713
+msgid "stylesheet"
+msgstr ""
+
+#: ../../source/user/config.rst:1102
+msgid "A comma-separated list of CSS stylesheet URLs, used verbatim. Also defined for the `LaTeX Writer <stylesheet [latex2e writer]_>`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1105
+msgid "Overrides also stylesheet-path__. [#override]_"
+msgstr ""
+
+#: ../../source/user/config.rst:1107
+msgid "Default: None.  Options: ``--stylesheet``."
+msgstr ""
+
+#: ../../source/user/config.rst:1114
+#: ../../source/user/config.rst:1491
+msgid "stylesheet_dirs"
+msgstr ""
+
+#: ../../source/user/config.rst:1116
+msgid "A comma-separated list of directories where stylesheets can be found. Used by the stylesheet_path__ setting when expanding relative path arguments."
+msgstr ""
+
+#: ../../source/user/config.rst:1119
+#: ../../source/user/config.rst:1496
+msgid "Note: This setting defines a \"search path\" (similar to the PATH variable for executables). However, the term \"path\" is already used in the stylesheet_path__ setting with the meaning of a file location."
+msgstr ""
+
+#: ../../source/user/config.rst:1126
+#: ../../source/user/config.rst:1503
+msgid "Default: the working directory of the process at launch and the directory with default stylesheet files (writer and installation specific). Use the ``--help`` option to get the exact value. Option: ``--stylesheet-directories``."
+msgstr ""
+
+#: ../../source/user/config.rst:1134
+#: ../../source/user/config.rst:1511
+msgid "stylesheet_path"
+msgstr ""
+
+#: ../../source/user/config.rst:1136
+msgid "A comma-separated list of paths to CSS stylesheets. Relative paths are expanded if a matching file is found in the stylesheet_dirs__. If embed_stylesheet__ is False, paths are rewritten relative to the output HTML file. Also defined for the `LaTeX Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1141
+msgid "Also overrides \"stylesheet\". [#override]_ Pass an empty string (to either \"stylesheet\" or \"stylesheet_path\") to deactivate stylesheet inclusion."
+msgstr ""
+
+#: ../../source/user/config.rst:1145
+msgid "Default: \"html4css1.css\". Options: ``--stylesheet-path``."
+msgstr ""
+
+#: ../../source/user/config.rst:1155
+#: ../../source/user/config.rst:1627
+msgid "table_style"
+msgstr ""
+
+#: ../../source/user/config.rst:1157
+msgid "Class value(s) added to all tables_. Also defined for the `LaTeX Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1160
+msgid "The default CSS sylesheet defines:"
+msgstr ""
+
+#: ../../source/user/config.rst:1163
+#: ../../source/user/config.rst:1639
+msgid "borderless"
+msgstr ""
+
+#: ../../source/user/config.rst:1163
+msgid "No borders around the table."
+msgstr ""
+
+#: ../../source/user/config.rst:1166
+#: ../../source/user/config.rst:1636
+msgid "booktabs"
+msgstr ""
+
+#: ../../source/user/config.rst:1166
+msgid "Lines above and below the table and a thin line after the head."
+msgstr ""
+
+#: ../../source/user/config.rst:1169
+#: ../../source/user/config.rst:1642
+msgid "align-left, align-center, align-right"
+msgstr ""
+
+#: ../../source/user/config.rst:1169
+msgid "Align the tables"
+msgstr ""
+
+#: ../../source/user/config.rst:1175
+msgid "colwidths-auto"
+msgstr ""
+
+#: ../../source/user/config.rst:1172
+msgid "Delegate the determination of table column widths to the backend (Leave out the ``<colgroup>`` column specification.)"
+msgstr ""
+
+#: ../../source/user/config.rst:1175
+msgid "Cf. the `table directive`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1177
+msgid "Default: \"\".  Option: ``--table-style``."
+msgstr ""
+
+#: ../../source/user/config.rst:1185
+#: ../../source/user/config.rst:1664
+msgid "template"
+msgstr ""
+
+#: ../../source/user/config.rst:1187
+msgid "Path to template file, which must be encoded in UTF-8. [#pwd]_ Also defined for the `LaTeX Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1190
+msgid "Default: \"template.txt\" in the docutils/writers/html4css1/ directory (installed automatically; for the exact machine-specific path, use the ``--help`` option).  Options: ``--template``."
+msgstr ""
+
+#: ../../source/user/config.rst:1201
+msgid "Generate XML with an XML declaration.  Also defined for the `Docutils XML Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1204
+msgid "The XML declaration carries text encoding information.  If the encoding is not UTF-8 or ASCII and the XML declaration is missing, standard tools may be unable to read the generated XHTML."
+msgstr ""
+
+#: ../../source/user/config.rst:1214
+msgid "[pep_html writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1216
+msgid "The PEP/HTML Writer derives from the standard HTML Writer, and shares all settings defined in the `[html4css1 writer]`_ section.  The \"[html4css1 writer]\" section of configuration files is processed before the \"[pep_html writer]\" section."
+msgstr ""
+
+#: ../../source/user/config.rst:1221
+msgid "The PEP/HTML Writer's default for the following settings differ from those of the standard HTML Writer:"
+msgstr ""
+
+#: ../../source/user/config.rst:1225
+#: ../../source/user/config.rst:1342
+msgid "`stylesheet_path <stylesheet_path [html4css1 writer]_>`_:"
+msgstr ""
+
+#: ../../source/user/config.rst:1225
+msgid "Default: \"pep.css\""
+msgstr ""
+
+#: ../../source/user/config.rst:1230
+msgid "`template <template [html4css1 writer]_>`_:"
+msgstr ""
+
+#: ../../source/user/config.rst:1228
+msgid "Default: ``docutils/writers/pep_html/template.txt`` in the installation directory.  For the exact machine-specific path, use the ``--help`` option."
+msgstr ""
+
+#: ../../source/user/config.rst:1233
+msgid "no_random"
+msgstr ""
+
+#: ../../source/user/config.rst:1234
+msgid "Do not use a random banner image.  Mainly used to get predictable results when testing."
+msgstr ""
+
+#: ../../source/user/config.rst:1237
+msgid "Default: random enabled (None).  Options: ``--no-random`` (hidden)."
+msgstr ""
+
+#: ../../source/user/config.rst:1240
+msgid "pep_home"
+msgstr ""
+
+#: ../../source/user/config.rst:1242
+msgid "Home URL prefix for PEPs."
+msgstr ""
+
+#: ../../source/user/config.rst:1244
+msgid "Default: current directory (\".\").  Options: ``--pep-home``."
+msgstr ""
+
+#: ../../source/user/config.rst:1247
+msgid "python_home"
+msgstr ""
+
+#: ../../source/user/config.rst:1248
+msgid "Python's home URL."
+msgstr ""
+
+#: ../../source/user/config.rst:1250
+msgid "Default: parent directory (\"..\").  Options: ``--python-home``."
+msgstr ""
+
+#: ../../source/user/config.rst:1254
+msgid "[s5_html writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1256
+msgid "The S5/HTML Writer derives from the standard HTML Writer, and shares all settings defined in the `[html4css1 writer]`_ section.  The \"[html4css1 writer]\" section of configuration files is processed before the \"[s5_html writer]\" section."
+msgstr ""
+
+#: ../../source/user/config.rst:1261
+msgid "The S5/HTML Writer's default for the following settings differ from those of the standard HTML Writer:"
+msgstr ""
+
+#: ../../source/user/config.rst:1265
+msgid "compact_lists_:"
+msgstr ""
+
+#: ../../source/user/config.rst:1265
+msgid "Default: disable compact lists."
+msgstr ""
+
+#: ../../source/user/config.rst:1271
+msgid "template_:"
+msgstr ""
+
+#: ../../source/user/config.rst:1268
+msgid "Default: ``docutils/writers/s5_html/template.txt`` in the installation directory.  For the exact machine-specific path, use the ``--help`` option."
+msgstr ""
+
+#: ../../source/user/config.rst:1274
+msgid "hidden_controls"
+msgstr ""
+
+#: ../../source/user/config.rst:1276
+msgid "Auto-hide the presentation controls in slideshow mode, or or keep them visible at all times."
+msgstr ""
+
+#: ../../source/user/config.rst:1279
+msgid "Default: auto-hide (1).  Options: ``--hidden-controls``, ``--visible-controls``."
+msgstr ""
+
+#: ../../source/user/config.rst:1283
+msgid "current_slide"
+msgstr ""
+
+#: ../../source/user/config.rst:1285
+msgid "Enable or disable the current slide indicator (\"1/15\")."
+msgstr ""
+
+#: ../../source/user/config.rst:1287
+msgid "Default: disabled (None).  Options: ``--current-slide``, ``--no-current-slide``."
+msgstr ""
+
+#: ../../source/user/config.rst:1291
+msgid "overwrite_theme_files"
+msgstr ""
+
+#: ../../source/user/config.rst:1293
+msgid "Allow or prevent the overwriting of existing theme files in the ``ui/<theme>`` directory.  This has no effect if \"theme_url_\" is used."
+msgstr ""
+
+#: ../../source/user/config.rst:1297
+msgid "Default: keep existing theme files (None).  Options: ``--keep-theme-files``, ``--overwrite-theme-files``."
+msgstr ""
+
+#: ../../source/user/config.rst:1301
+msgid "theme"
+msgstr ""
+
+#: ../../source/user/config.rst:1303
+msgid "Name of an installed S5 theme, to be copied into a ``ui/<theme>`` subdirectory, beside the destination file (output HTML).  Note that existing theme files will not be overwritten; the existing theme directory must be deleted manually. Also overrides the \"theme_url_\" setting. [#override]_"
+msgstr ""
+
+#: ../../source/user/config.rst:1309
+msgid "Default: \"default\".  Option: ``--theme``."
+msgstr ""
+
+#: ../../source/user/config.rst:1312
+msgid "theme_url"
+msgstr ""
+
+#: ../../source/user/config.rst:1313
+msgid "The URL of an S5 theme directory.  The destination file (output HTML) will link to this theme; nothing will be copied.  Also overrides the \"theme_\" setting. [#override]_"
+msgstr ""
+
+#: ../../source/user/config.rst:1317
+msgid "Default: None.  Option: ``--theme-url``."
+msgstr ""
+
+#: ../../source/user/config.rst:1320
+msgid "view_mode"
+msgstr ""
+
+#: ../../source/user/config.rst:1322
+msgid "The initial view mode, either \"slideshow\" or \"outline\"."
+msgstr ""
+
+#: ../../source/user/config.rst:1324
+msgid "Default: \"slidewhow\".  Option: ``--view-mode``."
+msgstr ""
+
+#: ../../source/user/config.rst:1328
+msgid "[html5 writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1330
+msgid "The `html5` writer uses the settings described in the `[html4css1 writer]`_ section with the following exceptions:"
+msgstr ""
+
+#: ../../source/user/config.rst:1334
+msgid "Removed options:"
+msgstr ""
+
+#: ../../source/user/config.rst:1334
+msgid "`field_name_limit`_, `option_limit`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1336
+msgid "Different default for:"
+msgstr ""
+
+#: ../../source/user/config.rst:1339
+msgid "`math_output`_"
+msgstr ""
+
+#: ../../source/user/config.rst:1339
+msgid "Default: \"MathML\""
+msgstr ""
+
+#: ../../source/user/config.rst:1342
+msgid "Default: \"minimal.css,plain.css\""
+msgstr ""
+
+#: ../../source/user/config.rst:1346
+msgid "`stylesheet_dirs <stylesheet_dirs [html4css1 writer]_>`_:"
+msgstr ""
+
+#: ../../source/user/config.rst:1345
+msgid "Default: Installation-dependent. Use the --help option to get the exact value."
+msgstr ""
+
+#: ../../source/user/config.rst:1352
+msgid "[latex2e writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1355
+msgid "use_latex_toc"
+msgstr ""
+
+#: ../../source/user/config.rst:1357
+msgid "To get pagenumbers in the `table of contents`_, it must be generated by LaTeX. Usually latex must be run twice to get numbers correct."
+msgstr ""
+
+#: ../../source/user/config.rst:1361
+msgid "Default: on.  Options: ``--use-latex-toc, --use-docutils-toc``."
+msgstr ""
+
+#: ../../source/user/config.rst:1364
+msgid "use_latex_docinfo"
+msgstr ""
+
+#: ../../source/user/config.rst:1366
+msgid "Attach author and date to the `document title`_ instead of the `bibliographic fields`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1369
+msgid "Default: off.  Options: ``--use-latex-docinfo, --use-docutils-docinfo``."
+msgstr ""
+
+#: ../../source/user/config.rst:1372
+msgid "docutils_footnotes"
+msgstr ""
+
+#: ../../source/user/config.rst:1373
+msgid "Use the Docutils-specific macros ``\\DUfootnote`` and ``\\DUfootnotetext`` for footnotes_."
+msgstr ""
+
+#: ../../source/user/config.rst:1376
+msgid "Default: on.  Option: ``--docutils-footnotes``."
+msgstr ""
+
+#: ../../source/user/config.rst:1379
+msgid "use_latex_citations"
+msgstr ""
+
+#: ../../source/user/config.rst:1381
+msgid "Use \\cite for citations_ instead of a simulation with figure-floats."
+msgstr ""
+
+#: ../../source/user/config.rst:1383
+msgid "Default: off.  Options: ``--use-latex-citations, --figure-citations``."
+msgstr ""
+
+#: ../../source/user/config.rst:1386
+msgid "use_latex_abstract"
+msgstr ""
+
+#: ../../source/user/config.rst:1388
+msgid "Use LaTeX abstract environment for the document's abstract_."
+msgstr ""
+
+#: ../../source/user/config.rst:1390
+msgid "Default: off.  Options: ``--use-latex-abstract, --topic-abstract``."
+msgstr ""
+
+#: ../../source/user/config.rst:1393
+msgid "hyperlink_color"
+msgstr ""
+
+#: ../../source/user/config.rst:1395
+msgid "Color of any hyperlinks embedded in text."
+msgstr ""
+
+#: ../../source/user/config.rst:1397
+msgid "\"0\" or \"false\" disable coloring of links. (Links will be marked by red boxes that are not printed),"
+msgstr ""
+
+#: ../../source/user/config.rst:1399
+msgid "\"black\" results in â€œinvisibleâ€œ links,"
+msgstr ""
+
+#: ../../source/user/config.rst:1401
+msgid "Set hyperref_options_ to \"draft\" to completely disable hyperlinking."
+msgstr ""
+
+#: ../../source/user/config.rst:1403
+msgid "Default: \"blue\".  Option: ``--hyperlink-color``."
+msgstr ""
+
+#: ../../source/user/config.rst:1406
+msgid "hyperref_options"
+msgstr ""
+
+#: ../../source/user/config.rst:1408
+msgid "Options for the `hyperref TeX package`_. If hyperlink_color_ is not \"false\", the expansion of ::"
+msgstr ""
+
+#: ../../source/user/config.rst:1414
+msgid "is prepended."
+msgstr ""
+
+#: ../../source/user/config.rst:1416
+msgid "Default: \"\".   Option: ``--hyperref-options``."
+msgstr ""
+
+#: ../../source/user/config.rst:1421
+msgid "documentclass"
+msgstr ""
+
+#: ../../source/user/config.rst:1423
+msgid "Specify LaTeX documentclass."
+msgstr ""
+
+#: ../../source/user/config.rst:1425
+msgid "Default: \"article\".  Option: ``--documentclass``."
+msgstr ""
+
+#: ../../source/user/config.rst:1428
+msgid "documentoptions"
+msgstr ""
+
+#: ../../source/user/config.rst:1430
+msgid "Specify document options.  Multiple options can be given, separated by commas."
+msgstr ""
+
+#: ../../source/user/config.rst:1433
+msgid "Default: \"a4paper\".  Option: ``--documentoptions``."
+msgstr ""
+
+#: ../../source/user/config.rst:1436
+msgid "font_encoding"
+msgstr ""
+
+#: ../../source/user/config.rst:1438
+msgid "Specify LaTeX font encoding. Multiple options can be given, separated by commas. The last value becomes the document default. Possible values are \"\", \"T1\", \"OT1\", \"LGR,T1\" or any other combination of `LaTeX font encodings`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1443
+msgid "Default: \"T1\".  Option: ``--font-encoding``."
+msgstr ""
+
+#: ../../source/user/config.rst:1453
+msgid "Embed the stylesheet(s) in the header of the output file.  The stylesheets must be accessible during processing.  Currently, this fails if the file is not available via the given path (i.e. the file is *not* searched in the `TeX input path`_). Also defined for the `HTML Writer`__ (with default *on*)."
+msgstr ""
+
+#: ../../source/user/config.rst:1459
+msgid "Default: off.  Options: ``--embed-stylesheet, --link-stylesheet``."
+msgstr ""
+
+#: ../../source/user/config.rst:1468
+msgid "A comma-separated list_ of style files. Also defined for the `HTML Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1471
+msgid "Overrides also stylesheet_path__. [#override]_"
+msgstr ""
+
+#: ../../source/user/config.rst:1473
+msgid "If `embed_stylesheet`__ is False (default), the stylesheet files are referenced with ``\\usepackage`` (extension ``.sty`` or no extension) or ``\\input`` (any other extension)."
+msgstr ""
+
+#: ../../source/user/config.rst:1477
+msgid "LaTeX will search the specified files in the `TeX input path`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1479
+msgid "Default: no stylesheet (\"\").  Option: ``--stylesheet``."
+msgstr ""
+
+#: ../../source/user/config.rst:1493
+msgid "A comma-separated list of directories where stylesheets can be found. Used by the stylesheet_path__ setting."
+msgstr ""
+
+#: ../../source/user/config.rst:1513
+msgid "A comma-separated list of style files. Relative paths are expanded if a matching file is found in the stylesheet_dirs__. If embed_stylesheet__ is False, paths are rewritten relative to the output file path. Run ``latex`` from the directory containing the output file."
+msgstr ""
+
+#: ../../source/user/config.rst:1519
+msgid "The stylesheet__  option is preferred for files in the `TeX input path`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1521
+msgid "Also defined for the `HTML Writer <stylesheet_path [html4css1 writer]_>`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1524
+msgid "Also overrides stylesheet__. [#override]_"
+msgstr ""
+
+#: ../../source/user/config.rst:1526
+msgid "Default: no stylesheet (\"\").  Option: ``--stylesheet-path``."
+msgstr ""
+
+#: ../../source/user/config.rst:1535
+msgid "latex_preamble"
+msgstr ""
+
+#: ../../source/user/config.rst:1537
+msgid "LaTeX code that will be inserted in the document preamble. Can be used to load packages with options or (re-) define LaTeX macros without writing a custom style file (new in Docutils 0.7)."
+msgstr ""
+
+#: ../../source/user/config.rst:1541
+msgid "Default: Load the \"PDF standard fonts\" (Times, Helvetica, Courier)::"
+msgstr ""
+
+#: ../../source/user/config.rst:1548
+msgid "Option: ``--latex-preamble``."
+msgstr ""
+
+#: ../../source/user/config.rst:1555
+msgid "Format for `footnote references`_: one of \"superscript\" or \"brackets\".  Also defined for the `HTML Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1558
+msgid "Overrides [#override]_ trim_footnote_reference_space_, if applicable [#footnote_space]_."
+msgstr ""
+
+#: ../../source/user/config.rst:1561
+msgid "Default: \"superscript\".  Option: ``--footnote-references``."
+msgstr ""
+
+#: ../../source/user/config.rst:1570
+msgid "See `attribution [html4css1 writer]`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1573
+msgid "compound_enumerators"
+msgstr ""
+
+#: ../../source/user/config.rst:1575
+msgid "Enable or disable compound enumerators for nested `enumerated lists`_ (e.g. \"1.2.a.ii\")."
+msgstr ""
+
+#: ../../source/user/config.rst:1578
+msgid "Default: disabled (None). Options: ``--compound-enumerators``, ``--no-compound-enumerators``."
+msgstr ""
+
+#: ../../source/user/config.rst:1582
+msgid "literal_block_env"
+msgstr ""
+
+#: ../../source/user/config.rst:1584
+msgid "When possibile\\ [#]_, use the specified environment for `literal blocks`_."
+msgstr ""
+
+#: ../../source/user/config.rst:1586
+msgid "Default: \"\" (quoting of whitespace and special chars). Option: ``--literal-block-env``."
+msgstr ""
+
+#: ../../source/user/config.rst:1589
+msgid "A literal-block element, when processed by a Docutils writer might have it's origin in literal block following \"::\" or a ``.. parsed-literal::`` directive."
+msgstr ""
+
+#: ../../source/user/config.rst:1593
+msgid "A LaTeX verbatim environment is only usable if there is no other markup contained in the literal-block."
+msgstr ""
+
+#: ../../source/user/config.rst:1598
+msgid "section_prefix_for_enumerators"
+msgstr ""
+
+#: ../../source/user/config.rst:1600
+msgid "Enable or disable section (\".\" subsection ...) prefixes for compound enumerators.  This has no effect unless `compound_enumerators`_ are enabled."
+msgstr ""
+
+#: ../../source/user/config.rst:1604
+msgid "Default: disabled (None). Options: ``--section-prefix-for-enumerators``, ``--no-section-prefix-for-enumerators``."
+msgstr ""
+
+#: ../../source/user/config.rst:1609
+msgid "section_enumerator_separator"
+msgstr ""
+
+#: ../../source/user/config.rst:1611
+msgid "The separator between section number prefix and enumerator for compound enumerated lists (see `compound_enumerators`_)."
+msgstr ""
+
+#: ../../source/user/config.rst:1614
+msgid "Generally it isn't recommended to use both sub-sections and nested enumerated lists with compound enumerators.  This setting avoids ambiguity in the situation where a section \"1\" has a list item enumerated \"1.1\", and subsection \"1.1\" has list item \"1\".  With a separator of \".\", these both would translate into a final compound enumerator of \"1.1.1\".  With a separator of \"-\", we get the unambiguous \"1-1.1\" and \"1.1-1\"."
+msgstr ""
+
+#: ../../source/user/config.rst:1622
+msgid "Default: \"-\".  Option: ``--section-enumerator-separator``."
+msgstr ""
+
+#: ../../source/user/config.rst:1629
+msgid "Specify the default style for tables_ Also defined for the `HTML Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1634
+msgid "standard"
+msgstr ""
+
+#: ../../source/user/config.rst:1635
+msgid "Borders around all cells."
+msgstr ""
+
+#: ../../source/user/config.rst:1637
+msgid "A line above and below the table and one after the head."
+msgstr ""
+
+#: ../../source/user/config.rst:1639
+msgid "No borders."
+msgstr ""
+
+#: ../../source/user/config.rst:1642
+msgid "Align tables."
+msgstr ""
+
+#: ../../source/user/config.rst:1654
+msgid "colwidths-auto, colwidths-given"
+msgstr ""
+
+#: ../../source/user/config.rst:1645
+msgid "Default value for column width determination by LaTeX or Docutils. Override with the `table directive`_'s :widths: option."
+msgstr ""
+
+#: ../../source/user/config.rst:1651
+msgid "``colwidths-auto`` is only suited for tables with simple cell content."
+msgstr ""
+
+#: ../../source/user/config.rst:1653
+msgid "LaTeX puts the content of auto-sized columns on one line (merging paragraphs) and may fail with complex content."
+msgstr ""
+
+#: ../../source/user/config.rst:1656
+msgid "Default: \"standard\".  Option: ``--table-style``."
+msgstr ""
+
+#: ../../source/user/config.rst:1666
+msgid "Path to template file, which must be encoded in UTF-8. [#pwd]_ Also defined for the `HTML Writer`__."
+msgstr ""
+
+#: ../../source/user/config.rst:1669
+msgid "Default: \"default.tex\" in the docutils/writers/latex2e/ directory (installed automatically; for the exact machine-specific path, use the ``--help`` option).  Options: ``--template``."
+msgstr ""
+
+#: ../../source/user/config.rst:1677
+msgid "[xetex writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1679
+msgid "The xetex writer derives from the latex2e writer, and shares all settings defined in the `[latex2e writer]`_ section.  The \"[latex2e writer]\" section of configuration files is processed before the \"[xetex writer]\" section."
+msgstr ""
+
+#: ../../source/user/config.rst:1684
+msgid "The following settings differ from those of the latex2e writer:"
+msgstr ""
+
+#: ../../source/user/config.rst:1687
+msgid "font_encoding_"
+msgstr ""
+
+#: ../../source/user/config.rst:1687
+msgid "Disabled  (Use Unicode-encoded fonts)."
+msgstr ""
+
+#: ../../source/user/config.rst:1698
+msgid "latex_preamble_"
+msgstr ""
+
+#: ../../source/user/config.rst:1690
+msgid "Default: Font setup for `Linux Libertine`_,::"
+msgstr ""
+
+#: ../../source/user/config.rst:1697
+msgid "The optional argument ``HyphenChar=None`` to the monospace font prevents word hyphenation in literal text."
+msgstr ""
+
+#: ../../source/user/config.rst:1701
+msgid "template__"
+msgstr ""
+
+#: ../../source/user/config.rst:1701
+msgid "Default: \"xelatex.tex\""
+msgstr ""
+
+#: ../../source/user/config.rst:1708
+msgid "[odf_odt writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1710
+msgid "The following command line options are specific to ``odtwriter``:"
+msgstr ""
+
+#: ../../source/user/config.rst:1715
+msgid "Specify a stylesheet URL, used verbatim."
+msgstr ""
+
+#: ../../source/user/config.rst:1717
+msgid "Default: writers/odf_odt/styles.odt in the installation directory."
+msgstr ""
+
+#: ../../source/user/config.rst:1720
+msgid "odf-config-file"
+msgstr ""
+
+#: ../../source/user/config.rst:1722
+msgid "Specify a configuration/mapping file relative to the current working directory for additional ODF options. In particular, this file may contain a section named \"Formats\" that maps default style names to names to be used in the resulting output file allowing for adhering to external standards. For more info and the format of the configuration/mapping file, see the `Odt Writer for Docutils`_ document."
+msgstr ""
+
+#: ../../source/user/config.rst:1730
+msgid "cloak-email-addresses"
+msgstr ""
+
+#: ../../source/user/config.rst:1732
+msgid "Obfuscate email addresses to confuse harvesters while still keeping email links usable with standards-compliant browsers."
+msgstr ""
+
+#: ../../source/user/config.rst:1736
+msgid "no-cloak-email-addresses"
+msgstr ""
+
+#: ../../source/user/config.rst:1737
+msgid "Do not obfuscate email addresses."
+msgstr ""
+
+#: ../../source/user/config.rst:1740
+msgid "table-border-thickness"
+msgstr ""
+
+#: ../../source/user/config.rst:1742
+msgid "Specify the thickness of table borders in thousands of a cm. Default is 35."
+msgstr ""
+
+#: ../../source/user/config.rst:1746
+msgid "add-syntax-highlighting"
+msgstr ""
+
+#: ../../source/user/config.rst:1748
+msgid "Add syntax highlighting in literal code blocks."
+msgstr ""
+
+#: ../../source/user/config.rst:1751
+msgid "no-syntax-highlighting"
+msgstr ""
+
+#: ../../source/user/config.rst:1753
+msgid "Do not add syntax highlighting in literal code blocks. (default)"
+msgstr ""
+
+#: ../../source/user/config.rst:1757
+msgid "create-sections"
+msgstr ""
+
+#: ../../source/user/config.rst:1759
+msgid "Create sections for headers.  (default)"
+msgstr ""
+
+#: ../../source/user/config.rst:1762
+msgid "no-sections"
+msgstr ""
+
+#: ../../source/user/config.rst:1764
+msgid "Do not create sections for headers."
+msgstr ""
+
+#: ../../source/user/config.rst:1767
+msgid "create-links"
+msgstr ""
+
+#: ../../source/user/config.rst:1768
+msgid "Create links."
+msgstr ""
+
+#: ../../source/user/config.rst:1771
+msgid "no-links"
+msgstr ""
+
+#: ../../source/user/config.rst:1773
+msgid "Do not create links.  (default)"
+msgstr ""
+
+#: ../../source/user/config.rst:1776
+msgid "endnotes-end-doc"
+msgstr ""
+
+#: ../../source/user/config.rst:1778
+msgid "Generate endnotes at end of document, not footnotes at bottom of page."
+msgstr ""
+
+#: ../../source/user/config.rst:1781
+msgid "no-endnotes-end-doc"
+msgstr ""
+
+#: ../../source/user/config.rst:1783
+msgid "Generate footnotes at bottom of page, not endnotes at end of document. (default)"
+msgstr ""
+
+#: ../../source/user/config.rst:1787
+msgid "generate-list-toc"
+msgstr ""
+
+#: ../../source/user/config.rst:1789
+msgid "Generate a bullet list table of contents, not an ODF/``oowriter`` table of contents."
+msgstr ""
+
+#: ../../source/user/config.rst:1793
+msgid "generate-oowriter-toc"
+msgstr ""
+
+#: ../../source/user/config.rst:1795
+msgid "Generate an ODF/``oowriter`` table of contents, not a bullet list.  (default) **Note:** ``odtwriter`` is not able to determine page numbers, so you will need to open the generated document in ``oowriter``, then right-click on the table of contents and select \"Update\" to insert page numbers."
+msgstr ""
+
+#: ../../source/user/config.rst:1802
+msgid "custom-odt-header"
+msgstr ""
+
+#: ../../source/user/config.rst:1804
+msgid "Specify the contents of a custom header line.  For details about custom headers and about special field character sequences, see section \"Custom header/footers: inserting page numbers, date, time, etc\" in the `Odt Writer for Docutils`_ document for details."
+msgstr ""
+
+#: ../../source/user/config.rst:1811
+msgid "custom-odt-footer"
+msgstr ""
+
+#: ../../source/user/config.rst:1813
+msgid "Specify the contents of a custom footer line.  For details about custom footers and about special field character sequences, see section \"Custom header/footers: inserting page numbers, date, time, etc\" in the `Odt Writer for Docutils`_ document for details."
+msgstr ""
+
+#: ../../source/user/config.rst:1823
+msgid "[pseudoxml writer]"
+msgstr ""
+
+#: ../../source/user/config.rst:1825
+msgid "This writer does not define specific settings."
+msgstr ""
+
+#: ../../source/user/config.rst:1829
+msgid "[applications]"
+msgstr ""
+
+#: ../../source/user/config.rst:1832
+msgid "[buildhtml application]"
+msgstr ""
+
+#: ../../source/user/config.rst:1837
+msgid "List_ of wildcard (shell globing) patterns, specifying files to silently ignore.  To specify multiple patterns, use colon-separated patterns (in configuration files or on the command line); on the command line, the option may also be used more than once."
+msgstr ""
+
+#: ../../source/user/config.rst:1842
+msgid "Default: none.  Options: ``--ignore``."
+msgstr ""
+
+#: ../../source/user/config.rst:1845
+msgid "prune"
+msgstr ""
+
+#: ../../source/user/config.rst:1847
+msgid "List_ of directories not to process.  To specify multiple directories, use colon-separated paths (in configuration files or on the command line); on the command line, the option may also be used more than once."
+msgstr ""
+
+#: ../../source/user/config.rst:1852
+msgid "Default: ['.hg', '.bzr', '.git', '.svn', 'CVS'].  Options: ``--prune``."
+msgstr ""
+
+#: ../../source/user/config.rst:1856
+msgid "recurse"
+msgstr ""
+
+#: ../../source/user/config.rst:1858
+msgid "Recursively scan subdirectories, or ignore subdirectories."
+msgstr ""
+
+#: ../../source/user/config.rst:1860
+msgid "Default: recurse (1).  Options: ``--recurse, --local``."
+msgstr ""
+
+#: ../../source/user/config.rst:1863
+msgid "silent"
+msgstr ""
+
+#: ../../source/user/config.rst:1865
+msgid "Work silently (no progress messages).  Independent of \"report_level\"."
+msgstr ""
+
+#: ../../source/user/config.rst:1868
+msgid "Default: show progress (None).  Options: ``--silent``."
+msgstr ""
+
+#: ../../source/user/config.rst:1872
+msgid "[docfactory application]"
+msgstr ""
+
+#: ../../source/user/config.rst:1874
+msgid "(To be completed.)"
+msgstr ""
+
+#: ../../source/user/config.rst:1878
+msgid "Other Settings"
+msgstr ""
+
+#: ../../source/user/config.rst:1881
+msgid "Command-Line Only"
+msgstr ""
+
+#: ../../source/user/config.rst:1883
+msgid "These settings are only effective as command-line options; setting them in configuration files has no effect."
+msgstr ""
+
+#: ../../source/user/config.rst:1887
+msgid "config"
+msgstr ""
+
+#: ../../source/user/config.rst:1889
+msgid "Path to a configuration file to read (if it exists). [#pwd]_ Settings may override defaults and earlier settings.  The config file is processed immediately.  Multiple ``--config`` options may be specified; each will be processed in turn."
+msgstr ""
+
+#: ../../source/user/config.rst:1894
+msgid "Filesystem path settings contained within the config file will be interpreted relative to the config file's location (*not* relative to the current working directory)."
+msgstr ""
+
+#: ../../source/user/config.rst:1898
+msgid "Default: None.  Options: ``--config``."
+msgstr ""
+
+#: ../../source/user/config.rst:1902
+msgid "Internal Settings"
+msgstr ""
+
+#: ../../source/user/config.rst:1904
+msgid "These settings are for internal use only; setting them in configuration files has no effect, and there are no corresponding command-line options."
+msgstr ""
+
+#: ../../source/user/config.rst:1909
+msgid "_config_files"
+msgstr ""
+
+#: ../../source/user/config.rst:1911
+msgid "List of paths of applied configuration files."
+msgstr ""
+
+#: ../../source/user/config.rst:1913
+msgid "Default: None.  No command-line options."
+msgstr ""
+
+#: ../../source/user/config.rst:1916
+msgid "_directories"
+msgstr ""
+
+#: ../../source/user/config.rst:1918
+msgid "(``buildhtml.py`` front end.)  List of paths to source directories, set from positional arguments."
+msgstr ""
+
+#: ../../source/user/config.rst:1921
+msgid "Default: current working directory (None).  No command-line options."
+msgstr ""
+
+#: ../../source/user/config.rst:1925
+msgid "_disable_config"
+msgstr ""
+
+#: ../../source/user/config.rst:1927
+msgid "Prevent standard configuration files from being read.  For programmatic use only."
+msgstr ""
+
+#: ../../source/user/config.rst:1930
+msgid "Default: config files enabled (None).  No command-line options."
+msgstr ""
+
+#: ../../source/user/config.rst:1933
+msgid "_destination"
+msgstr ""
+
+#: ../../source/user/config.rst:1935
+msgid "Path to output destination, set from positional arguments."
+msgstr ""
+
+#: ../../source/user/config.rst:1937
+msgid "Default: stdout (None).  No command-line options."
+msgstr ""
+
+#: ../../source/user/config.rst:1940
+msgid "_source"
+msgstr ""
+
+#: ../../source/user/config.rst:1942
+msgid "Path to input source, set from positional arguments."
+msgstr ""
+
+#: ../../source/user/config.rst:1944
+msgid "Default: stdin (None).  No command-line options."
+msgstr ""
+
+#: ../../source/user/config.rst:1953
+msgid "Path relative to the working directory of the process at launch."
+msgstr ""
+
+#: ../../source/user/config.rst:1956
+msgid "The overridden setting will automatically be set to ``None`` for command-line options and config file settings.  Client programs which specify defaults that override other settings must do the overriding explicitly, by assigning ``None`` to the other settings."
+msgstr ""
+
+#: ../../source/user/config.rst:1962
+msgid "Images are only added to the dependency list if the reStructuredText parser extracted image dimensions from the file."
+msgstr ""
+
+#: ../../source/user/config.rst:1965
+msgid "The footnote space is trimmed if the reference style is \"superscript\", and it is left if the reference style is \"brackets\"."
+msgstr ""
+
+#: ../../source/user/config.rst:1969
+msgid "The overriding only happens if the parser supports the trim_footnote_reference_space option."
+msgstr ""
+
+#: ../../source/user/config.rst:1975
+msgid "Old-Format Configuration Files"
+msgstr ""
+
+#: ../../source/user/config.rst:1977
+msgid "Formerly, Docutils configuration files contained a single \"[options]\" section only.  This was found to be inflexible, and in August 2003 Docutils adopted the current component-based configuration file sections as described above.  Docutils will still recognize the old \"[options]\" section, but complains with a deprecation warning."
+msgstr ""
+
+#: ../../source/user/config.rst:1983
+msgid "To convert existing config files, the easiest way is to change the section title: change \"[options]\" to \"[general]\".  Most settings haven't changed.  The only ones to watch out for are these:"
+msgstr ""
+
+#: ../../source/user/config.rst:1988
+msgid "Old-Format Setting"
+msgstr ""
+
+#: ../../source/user/config.rst:1988
+msgid "New Section & Setting"
+msgstr ""
+
+#: ../../source/user/config.rst:1990
+msgid "pep_stylesheet"
+msgstr ""
+
+#: ../../source/user/config.rst:1990
+msgid "[pep_html writer] stylesheet"
+msgstr ""
+
+#: ../../source/user/config.rst:1991
+msgid "pep_stylesheet_path"
+msgstr ""
+
+#: ../../source/user/config.rst:1991
+msgid "[pep_html writer] stylesheet_path"
+msgstr ""
+
+#: ../../source/user/config.rst:1992
+msgid "pep_template"
+msgstr ""
+
+#: ../../source/user/config.rst:1992
+msgid "[pep_html writer] template"
+msgstr ""
+

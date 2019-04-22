@@ -1,0 +1,4427 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 20:48+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/release/HISTORY.rst:5
+msgid "Docutils History"
+msgstr "Docutils历史"
+
+#: ../../source/release/HISTORY.rst
+msgid "Author"
+msgstr "Author"
+
+#: ../../source/release/HISTORY.rst:7
+msgid "David Goodger; open to all Docutils developers"
+msgstr "David Goodger; open to all Docutils developers"
+
+#: ../../source/release/HISTORY.rst
+msgid "Contact"
+msgstr "Contact"
+
+#: ../../source/release/HISTORY.rst:8
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr "docutils-develop@lists.sourceforge.net"
+
+#: ../../source/release/HISTORY.rst
+msgid "Date"
+msgstr "Date"
+
+#: ../../source/release/HISTORY.rst:9
+msgid "$Date: 2018-07-12 12:17:15 +0200 (Do, 12. Jul 2018) $"
+msgstr "$Date: 2018-07-12 12:17:15 +0200 (Do, 12. Jul 2018) $"
+
+#: ../../source/release/HISTORY.rst
+msgid "Revision"
+msgstr "Revision"
+
+#: ../../source/release/HISTORY.rst:10
+msgid "$Revision: 8224 $"
+msgstr "$Revision: 8224 $"
+
+#: ../../source/release/HISTORY.rst
+msgid "Web site"
+msgstr "网站"
+
+#: ../../source/release/HISTORY.rst:11
+msgid "http://docutils.sourceforge.net/"
+msgstr "http://docutils.sourceforge.net/"
+
+#: ../../source/release/HISTORY.rst
+msgid "Copyright"
+msgstr "版权"
+
+#: ../../source/release/HISTORY.rst:12
+msgid "This document has been placed in the public domain."
+msgstr "本文档已置于公共领域。"
+
+#: ../../source/release/HISTORY.rst:14
+msgid "目录"
+msgstr "目录"
+
+#: ../../source/release/HISTORY.rst:17
+msgid "Changes Since 0.14"
+msgstr "自0.14以来的变化"
+
+#: ../../source/release/HISTORY.rst:19 ../../source/release/HISTORY.rst:354
+#: ../../source/release/HISTORY.rst:421
+msgid "General"
+msgstr "一般"
+
+#: ../../source/release/HISTORY.rst:21
+msgid "Dropped support for Python 2.4, 2.5, 3.1, and 3.2."
+msgstr "不再支持Python 2.4,2.5,3.1和3.2。"
+
+#: ../../source/release/HISTORY.rst:22
+msgid "Infrastructure automation."
+msgstr "基建自动化。"
+
+#: ../../source/release/HISTORY.rst:24 ../../source/release/HISTORY.rst:96
+#: ../../source/release/HISTORY.rst:1749
+msgid "docs/ref/rst/restructuredtext.txt:"
+msgstr "docs/ref/rst/restructuredtext.txt:"
+
+#: ../../source/release/HISTORY.rst:26
+msgid ""
+"Document rST syntax change: Tokens like ``:this:example:`` are now valid "
+"field list names (instead of ordinary text)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:29 ../../source/release/HISTORY.rst:199
+#: ../../source/release/HISTORY.rst:361 ../../source/release/HISTORY.rst:747
+#: ../../source/release/HISTORY.rst:793
+msgid "docutils/nodes.py"
+msgstr "docutils/nodes.py"
+
+#: ../../source/release/HISTORY.rst:31
+msgid "Fix [ 251 ] system_message.copy() TypeError."
+msgstr "Fix [ 251 ] system_message.copy() TypeError."
+
+#: ../../source/release/HISTORY.rst:32
+msgid "Element.copy() also copies `document`, `line`, and `source` attributes."
+msgstr "Element.copy() also copies `document`, `line`, and `source` attributes."
+
+#: ../../source/release/HISTORY.rst:34 ../../source/release/HISTORY.rst:101
+#: ../../source/release/HISTORY.rst:857 ../../source/release/HISTORY.rst:988
+#: ../../source/release/HISTORY.rst:1203 ../../source/release/HISTORY.rst:1468
+#: ../../source/release/HISTORY.rst:1634 ../../source/release/HISTORY.rst:1856
+#: ../../source/release/HISTORY.rst:2031
+msgid "docutils/parsers/rst/states.py:"
+msgstr "docutils/parsers/rst/states.py:"
+
+#: ../../source/release/HISTORY.rst:36
+msgid "Allow embedded colons in field list field names."
+msgstr "允许在字段列表字段名称中嵌入冒号。"
+
+#: ../../source/release/HISTORY.rst:37
+msgid ""
+"Add `rawsource` attribute for text of inline elements and definition list"
+" terms."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:39
+msgid "Fix: definition list term classifier starting with a reference crash."
+msgstr "Fix: definition list term classifier starting with a reference crash."
+
+#: ../../source/release/HISTORY.rst:41
+msgid "docutils/parsers/rst/directives/html.py:"
+msgstr "docutils/parsers/rst/directives/html.py:"
+
+#: ../../source/release/HISTORY.rst:43
+msgid "Fix bug #281: Remove escaping backslashes in meta directive content."
+msgstr "Fix bug #281: Remove escaping backslashes in meta directive content."
+
+#: ../../source/release/HISTORY.rst:45 ../../source/release/HISTORY.rst:111
+#: ../../source/release/HISTORY.rst:1515 ../../source/release/HISTORY.rst:1672
+msgid "docutils/parsers/rst/directives/tables.py:"
+msgstr "docutils/parsers/rst/directives/tables.py:"
+
+#: ../../source/release/HISTORY.rst:47
+msgid "Apply patch #121: Add \"width\" option for the table directives."
+msgstr "Apply patch #121: Add \"width\" option for the table directives."
+
+#: ../../source/release/HISTORY.rst:49 ../../source/release/HISTORY.rst:116
+#: ../../source/release/HISTORY.rst:1262 ../../source/release/HISTORY.rst:1532
+msgid "docutils/transforms/frontmatter.py:"
+msgstr "docutils/transforms/frontmatter.py:"
+
+#: ../../source/release/HISTORY.rst:51
+msgid ""
+"Add field name as class argument to generic docinfo fields "
+"unconditionally."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:52
+msgid ""
+"Ignore backslash-escaped separators when extracting authors from a "
+"paragraph."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:55 ../../source/release/HISTORY.rst:120
+#: ../../source/release/HISTORY.rst:1274 ../../source/release/HISTORY.rst:1537
+#: ../../source/release/HISTORY.rst:1684 ../../source/release/HISTORY.rst:2116
+msgid "docutils/transforms/references.py:"
+msgstr "docutils/transforms/references.py:"
+
+#: ../../source/release/HISTORY.rst:57
+msgid "Fix bug #331: fixed the \"trim\" options of the \"unicode\" directive."
+msgstr "Fix bug #331: fixed the \"trim\" options of the \"unicode\" directive."
+
+#: ../../source/release/HISTORY.rst:59 ../../source/release/HISTORY.rst:138
+msgid "docutils/utils/smartquotes.py:"
+msgstr "docutils/utils/smartquotes.py:"
+
+#: ../../source/release/HISTORY.rst:61
+msgid "Fix bug #332: use open quote after whitespace, ZWSP, and ZWNJ."
+msgstr "Fix bug #332: use open quote after whitespace, ZWSP, and ZWNJ."
+
+#: ../../source/release/HISTORY.rst:63 ../../source/release/HISTORY.rst:247
+msgid "docutils/writers/html5_polyglot/"
+msgstr "docutils/writers/html5_polyglot/"
+
+#: ../../source/release/HISTORY.rst:65
+msgid ""
+"automatically add HTML5-compatible meta tags for docinfo items "
+"\"authors\", \"date\", and \"copyright\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:68 ../../source/release/HISTORY.rst:159
+#: ../../source/release/HISTORY.rst:1059
+msgid "docutils/writers/latex2e/__init__.py:"
+msgstr "docutils/writers/latex2e/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:70
+msgid ""
+"Fix bug #323: spurious ``\\phantomsection`` and whitespace in "
+"``parts['title']``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:72
+msgid "Fix bug #324: Invalid LaTeX for table with empty multicolumn cell."
+msgstr "Fix bug #324: Invalid LaTeX for table with empty multicolumn cell."
+
+#: ../../source/release/HISTORY.rst:73
+msgid "Fixes to literal block handling."
+msgstr "Fixes to literal block handling."
+
+#: ../../source/release/HISTORY.rst:75 ../../source/release/HISTORY.rst:129
+msgid "docutils/utils/__init__.py:"
+msgstr "docutils/utils/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:77
+msgid "Deprecate `unique_combinations` (obsoleted by `itertools.combinations`)."
+msgstr "Deprecate `unique_combinations` (obsoleted by `itertools.combinations`)."
+
+#: ../../source/release/HISTORY.rst:78
+msgid "New function `unescape_rawsource`."
+msgstr "New function `unescape_rawsource`."
+
+#: ../../source/release/HISTORY.rst:82
+msgid "Release 0.14 (2017-08-03)"
+msgstr "Release 0.14 (2017-08-03)"
+
+#: ../../source/release/HISTORY.rst:84 ../../source/release/HISTORY.rst:1359
+#: ../../source/release/HISTORY.rst:1588 ../../source/release/HISTORY.rst:1733
+msgid "docs/ref/docutils.dtd:"
+msgstr "docs/ref/docutils.dtd:"
+
+#: ../../source/release/HISTORY.rst:86
+msgid "Enable validation of Docutils XML documents against the DTD:"
+msgstr "Enable validation of Docutils XML documents against the DTD:"
+
+#: ../../source/release/HISTORY.rst:88
+msgid ""
+"Use attribute type NMTOKEN instead of REFID for the `refid` attribute and"
+" NMTOKENS for `backrefs`: REFID refers to an ID type instance, however, "
+"the `ids` attribute cannot use the ID type because `XML only allows one "
+"ID per Element Type`__ and doesn't support a multiple-ID \"IDS\" "
+"attribute type."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:98
+msgid "Added documentation for escaped whitespace in URI contexts."
+msgstr "Added documentation for escaped whitespace in URI contexts."
+
+#: ../../source/release/HISTORY.rst:99
+msgid "Clarify use of Unicode character categories."
+msgstr "Clarify use of Unicode character categories."
+
+#: ../../source/release/HISTORY.rst:103
+msgid "Added functionality: escaped whitespace in URI contexts."
+msgstr "Added functionality: escaped whitespace in URI contexts."
+
+#: ../../source/release/HISTORY.rst:104
+msgid ""
+"Consistent handling of all whitespace characters in inline markup "
+"recognition. Fixes [ 307 ] and [ 3402314 ] (now [ 173 ])."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:107 ../../source/release/HISTORY.rst:1229
+#: ../../source/release/HISTORY.rst:1489 ../../source/release/HISTORY.rst:2075
+msgid "docutils/parsers/rst/directives/images.py:"
+msgstr "docutils/parsers/rst/directives/images.py:"
+
+#: ../../source/release/HISTORY.rst:109
+msgid "Added support for escaped whitespace in URI contexts."
+msgstr "Added support for escaped whitespace in URI contexts."
+
+#: ../../source/release/HISTORY.rst:113
+msgid ""
+"Rework patch [ 120 ] (revert change to ``Table.get_column_widths()`` that"
+" led to problems in an application with a custom table directive)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:118
+msgid "Fix [ 320 ] Russian docinfo fields not recognized."
+msgstr "Fix [ 320 ] Russian docinfo fields not recognized."
+
+#: ../../source/release/HISTORY.rst:122
+msgid "Don't add a second ID to problematic references."
+msgstr "Don't add a second ID to problematic references."
+
+#: ../../source/release/HISTORY.rst:124 ../../source/release/HISTORY.rst:876
+#: ../../source/release/HISTORY.rst:1021 ../../source/release/HISTORY.rst:1283
+#: ../../source/release/HISTORY.rst:1689 ../../source/release/HISTORY.rst:2127
+msgid "docutils/transforms/universal.py:"
+msgstr "docutils/transforms/universal.py:"
+
+#: ../../source/release/HISTORY.rst:126
+msgid ""
+"Fix SmartQuotes: warn only once if language is unsupported, keep "
+"\"rawsource\" when \"educating\" quotes."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:131
+msgid ""
+"Added ``split_escaped_whitespace`` function, support for escaped "
+"whitespace in URI contexts."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:134
+msgid "docutils/utils/error_reporting.py:"
+msgstr "docutils/utils/error_reporting.py:"
+
+#: ../../source/release/HISTORY.rst:136
+msgid "Fix [ 321 ] Import block might cause name error."
+msgstr "Fix [ 321 ] Import block might cause name error."
+
+#: ../../source/release/HISTORY.rst:140
+msgid "Update quote definitions for languages et, fi, fr, ro, sv, tr, uk."
+msgstr "Update quote definitions for languages et, fi, fr, ro, sv, tr, uk."
+
+#: ../../source/release/HISTORY.rst:141
+msgid "New quote definitions for hr, hsb, hu, lv, sh, sl, sr."
+msgstr "New quote definitions for hr, hsb, hu, lv, sh, sl, sr."
+
+#: ../../source/release/HISTORY.rst:142
+msgid ""
+"Fix [ 313 ] Differentiate apostrophe from closing single quote (if "
+"possible)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:144
+msgid "Fix [ 317 ] Extra space inserted with French smartquotes."
+msgstr "Fix [ 317 ] Extra space inserted with French smartquotes."
+
+#: ../../source/release/HISTORY.rst:145
+msgid "Add command line interface for stand-alone use (requires 2.7)."
+msgstr "Add command line interface for stand-alone use (requires 2.7)."
+
+#: ../../source/release/HISTORY.rst:147
+msgid "docutils/writers/_html_base.py:"
+msgstr "docutils/writers/_html_base.py:"
+
+#: ../../source/release/HISTORY.rst:149
+msgid "Provide default title in metadata (required by HTML5)."
+msgstr "Provide default title in metadata (required by HTML5)."
+
+#: ../../source/release/HISTORY.rst:150
+msgid "Fix [ 312 ] HTML writer generates invalid HTML if the table has two tags."
+msgstr "Fix [ 312 ] HTML writer generates invalid HTML if the table has two tags."
+
+#: ../../source/release/HISTORY.rst:151
+msgid ""
+"Fix [ 319 ] The MathJax CDN shut down on April 30, 2017. For security "
+"reasons, we don't use a third party public installation as default but "
+"warn if math-output_ is set to MathJax without specifying a URL."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:155 ../../source/release/HISTORY.rst:881
+#: ../../source/release/HISTORY.rst:1034
+msgid "docutils/writers/html4css1/__init__.py:"
+msgstr "docutils/writers/html4css1/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:157
+msgid "Apply [ 125 ] HTML writer: respect automatic table column sizing."
+msgstr "Apply [ 125 ] HTML writer: respect automatic table column sizing."
+
+#: ../../source/release/HISTORY.rst:161
+msgid ""
+"Handle class arguments for block-level elements by wrapping them in a "
+"\"DUclass\" environment. This replaces the special handling for "
+"\"epigraph\" and \"topic\" elements."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:165
+msgid "docutils/writers/manpage.py:"
+msgstr "docutils/writers/manpage.py:"
+
+#: ../../source/release/HISTORY.rst:167
+msgid "Apply [ 141 ] Handling inline in manpage writer."
+msgstr "Apply [ 141 ] Handling inline in manpage writer."
+
+#: ../../source/release/HISTORY.rst:169
+msgid "docutils/writers/odf_odt/__init__.py:"
+msgstr "docutils/writers/odf_odt/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:171
+msgid ""
+"Command setting ``language`` now sets the default language of the "
+"generated ODF document."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:173
+msgid ""
+"The use of image directive options :width: (%), :scale:, etc now set the "
+"width/height/size of images in the generated ODF documents."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:176
+msgid ""
+"The heading/title of admonitions now reflects the language specified by "
+"the ``language`` setting."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:178
+msgid ""
+"Fixed [ 306 ] only first of multiple \"image\" directives with the same "
+"URL shown in output."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:180
+msgid "Fixed [ 282 ] python3: AttributeError."
+msgstr "Fixed [ 282 ] python3: AttributeError."
+
+#: ../../source/release/HISTORY.rst:182
+msgid "tools/rst2html4.py: New front-end."
+msgstr "tools/rst2html4.py: New front-end."
+
+#: ../../source/release/HISTORY.rst:184
+msgid ""
+"tools/dev/generate_punctuation_chars.py: New skript to test and update "
+"utils.punctuation_chars."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:189
+msgid "Release 0.13.1 (2016-12-09)"
+msgstr "Release 0.13.1 (2016-12-09)"
+
+#: ../../source/release/HISTORY.rst:191
+msgid ""
+"docutils/languages/fa.py docutils/parsers/rst/languages/fa.py "
+"docutils/languages/la.py docutils/parsers/rst/languages/la.py:"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:196
+msgid "Apply [ 133 ] Persian mappings by Shahin Azad."
+msgstr "Apply [ 133 ] Persian mappings by Shahin Azad."
+
+#: ../../source/release/HISTORY.rst:197
+msgid "Apply [ 135 ] Language modules for Latvian by Alexander Smishlajev"
+msgstr "Apply [ 135 ] Language modules for Latvian by Alexander Smishlajev"
+
+#: ../../source/release/HISTORY.rst:201
+msgid "Fix [ 253 ] Attribute key without value not allowed in XML."
+msgstr "Fix [ 253 ] Attribute key without value not allowed in XML."
+
+#: ../../source/release/HISTORY.rst:203
+msgid "docutils/parsers/"
+msgstr "docutils/parsers/"
+
+#: ../../source/release/HISTORY.rst:205
+msgid "Apply [ 103 ] Recognize inline markups without word boundaries."
+msgstr "Apply [ 103 ] Recognize inline markups without word boundaries."
+
+#: ../../source/release/HISTORY.rst:206
+msgid "Enable escaping in embedded URIs and aliases (fixes [ 284 ])."
+msgstr "Enable escaping in embedded URIs and aliases (fixes [ 284 ])."
+
+#: ../../source/release/HISTORY.rst:208
+msgid "docutils/parsers/rst/__init__.py"
+msgstr "docutils/parsers/rst/__init__.py"
+
+#: ../../source/release/HISTORY.rst:210
+msgid "Fix [ 233 ] Change the base URL for the :rfc: role."
+msgstr "Fix [ 233 ] Change the base URL for the :rfc: role."
+
+#: ../../source/release/HISTORY.rst:212 ../../source/release/HISTORY.rst:373
+msgid "docutils/parsers/rst/directives/tables.py"
+msgstr "docutils/parsers/rst/directives/tables.py"
+
+#: ../../source/release/HISTORY.rst:214
+msgid ""
+"Apply [ 120 ] tables accept option widths: list of relative widths, "
+"'auto' or 'grid'."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:217
+msgid ""
+"Implement feature request [ 48 ] Add :align: option to the table "
+"directives. Thanks to Takeshi KOMIYA for the patch."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:221
+msgid "docutils/parsers/rst/roles.py"
+msgstr "docutils/parsers/rst/roles.py"
+
+#: ../../source/release/HISTORY.rst:223
+msgid "Fix [ 295 ] Class argument for custom role inheriting from math."
+msgstr "Fix [ 295 ] Class argument for custom role inheriting from math."
+
+#: ../../source/release/HISTORY.rst:225 ../../source/release/HISTORY.rst:587
+msgid "docutils/parsers/rst/tableparser.py"
+msgstr "docutils/parsers/rst/tableparser.py"
+
+#: ../../source/release/HISTORY.rst:227
+msgid "Really fix [ 159 ] Spurious table column alignment errors."
+msgstr "Really fix [ 159 ] Spurious table column alignment errors."
+
+#: ../../source/release/HISTORY.rst:229
+msgid "docutils/transforms/frontmatter.py"
+msgstr "docutils/transforms/frontmatter.py"
+
+#: ../../source/release/HISTORY.rst:231
+msgid ""
+"Add name of generic bibliographic fields as a \"classes\" attribute value"
+" (after conversion to a valid identifier form)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:234
+msgid "docutils/utils/error_reporting.py"
+msgstr "docutils/utils/error_reporting.py"
+
+#: ../../source/release/HISTORY.rst:236
+msgid "Fix [ 130 ] support streams expectiong byte-strings in ErrorOutput."
+msgstr "Fix [ 130 ] support streams expectiong byte-strings in ErrorOutput."
+
+#: ../../source/release/HISTORY.rst:238
+msgid "docutils/utils/math/math2html.py"
+msgstr "docutils/utils/math/math2html.py"
+
+#: ../../source/release/HISTORY.rst:240
+msgid "Add ``\\colon`` macro, fix spacing around colons. Fixes [ 246 ]."
+msgstr "Add ``\\colon`` macro, fix spacing around colons. Fixes [ 246 ]."
+
+#: ../../source/release/HISTORY.rst:241
+msgid "New upstream version (additional macros, piecewise integrals and sums)."
+msgstr "New upstream version (additional macros, piecewise integrals and sums)."
+
+#: ../../source/release/HISTORY.rst:243
+msgid "docutils/writers/_html_base.py"
+msgstr "docutils/writers/_html_base.py"
+
+#: ../../source/release/HISTORY.rst:245
+msgid "New auxiliary module for definitions common to all HTML writers."
+msgstr "New auxiliary module for definitions common to all HTML writers."
+
+#: ../../source/release/HISTORY.rst:249
+msgid ""
+"New HTML writer generating clean, polyglot_ markup conforming to `HTML "
+"5`_."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:252
+msgid ""
+"The CSS stylesheets ``minimal.css`` and ``plain.css`` contain required "
+"and recommended layout rules."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:255 ../../source/release/HISTORY.rst:329
+#: ../../source/release/HISTORY.rst:390 ../../source/release/HISTORY.rst:453
+#: ../../source/release/HISTORY.rst:606 ../../source/release/HISTORY.rst:678
+#: ../../source/release/HISTORY.rst:755
+msgid "docutils/writers/html4css1/__init__.py"
+msgstr "docutils/writers/html4css1/__init__.py"
+
+#: ../../source/release/HISTORY.rst:257
+msgid ""
+"Add \"docutils\" to class values for \"container\" object to address [ "
+"267 ]."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:258
+msgid ""
+"Apply patch [ 119 ] by Anatoly Techtonik: use absolute paths for "
+"``default_stylesheet_path`` and ``default_template_path``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:260
+msgid "Fix [ 266 ] creating labels/class values in description list items."
+msgstr "Fix [ 266 ] creating labels/class values in description list items."
+
+#: ../../source/release/HISTORY.rst:261
+msgid "Do not use <sup> and <sub> tags inside <pre> (parsed-literal blocks)."
+msgstr "Do not use <sup> and <sub> tags inside <pre> (parsed-literal blocks)."
+
+#: ../../source/release/HISTORY.rst:262
+msgid "Fix footnotes with content that does not start with a paragraph."
+msgstr "Fix footnotes with content that does not start with a paragraph."
+
+#: ../../source/release/HISTORY.rst:263
+msgid "Use https in default MathJax URL (report Alan G Isaac)."
+msgstr "Use https in default MathJax URL (report Alan G Isaac)."
+
+#: ../../source/release/HISTORY.rst:264
+msgid "Outsourcing of common code to _html_base.py."
+msgstr "Outsourcing of common code to _html_base.py."
+
+#: ../../source/release/HISTORY.rst:266 ../../source/release/HISTORY.rst:334
+#: ../../source/release/HISTORY.rst:402 ../../source/release/HISTORY.rst:592
+#: ../../source/release/HISTORY.rst:633 ../../source/release/HISTORY.rst:684
+#: ../../source/release/HISTORY.rst:761
+msgid "docutils/writers/latex2e/__init__.py"
+msgstr "docutils/writers/latex2e/__init__.py"
+
+#: ../../source/release/HISTORY.rst:268
+msgid ""
+"Fix [ 262 ] Use ``\\linewidth`` instead of ``\\textwidth`` for figures, "
+"admonitions and docinfo."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:271
+msgid "Use absolute path for ``default_template_path``."
+msgstr "Use absolute path for ``default_template_path``."
+
+#: ../../source/release/HISTORY.rst:273
+msgid ""
+"Removed deprecated options ``--use-latex-footnotes`` and ``--figure-"
+"footnotes``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:276
+msgid "Cleaner LaTeX code for enumerations and literal blocks."
+msgstr "Cleaner LaTeX code for enumerations and literal blocks."
+
+#: ../../source/release/HISTORY.rst:278
+msgid ""
+"Use \"hyperref\" package together with \"bookmark\" (improved "
+"hyperlinking by the same author)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:281
+msgid "Fix [ 286 ] Empty column title cause invalid latex file."
+msgstr "Fix [ 286 ] Empty column title cause invalid latex file."
+
+#: ../../source/release/HISTORY.rst:283
+msgid "Fix [ 224 ] Fix rowspan support for tables."
+msgstr "Fix [ 224 ] Fix rowspan support for tables."
+
+#: ../../source/release/HISTORY.rst:285
+msgid ""
+"Let LaTeX determine the column widths in tables with \"colwidths-auto\". "
+"Not suited for multi-paragraph cells!"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:288 ../../source/release/HISTORY.rst:339
+msgid "docutils/writers/odf_odt/__init__.py"
+msgstr "docutils/writers/odf_odt/__init__.py"
+
+#: ../../source/release/HISTORY.rst:290
+msgid "remove decode.encode of filename stored in zip."
+msgstr "remove decode.encode of filename stored in zip."
+
+#: ../../source/release/HISTORY.rst:292 ../../source/release/HISTORY.rst:465
+#: ../../source/release/HISTORY.rst:602 ../../source/release/HISTORY.rst:701
+msgid "docutils/writers/xetex/__init__.py"
+msgstr "docutils/writers/xetex/__init__.py"
+
+#: ../../source/release/HISTORY.rst:294
+msgid "LuaLaTex compatibility: do not load \"xunicode\"."
+msgstr "LuaLaTex compatibility: do not load \"xunicode\"."
+
+#: ../../source/release/HISTORY.rst:296 ../../source/release/HISTORY.rst:508
+msgid "tools/"
+msgstr "tools/"
+
+#: ../../source/release/HISTORY.rst:298
+msgid "New front-end ``rst2html5.py``."
+msgstr "New front-end ``rst2html5.py``."
+
+#: ../../source/release/HISTORY.rst:300
+msgid "tox.ini"
+msgstr "tox.ini"
+
+#: ../../source/release/HISTORY.rst:302
+msgid "Test py26, py27, py33 and py34."
+msgstr "Test py26, py27, py33 and py34."
+
+#: ../../source/release/HISTORY.rst:304
+msgid ""
+"To use, install the ``tox`` package via pip or easy_install and use tox "
+"from the project root directory."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:313
+msgid "Release 0.12 (2014-07-06)"
+msgstr "Release 0.12 (2014-07-06)"
+
+#: ../../source/release/HISTORY.rst:315 ../../source/release/HISTORY.rst:1742
+msgid "docs/ref/rst/directives.txt"
+msgstr "docs/ref/rst/directives.txt"
+
+#: ../../source/release/HISTORY.rst:317
+msgid "Update \"math\" and \"csv-table\" descriptions."
+msgstr "Update \"math\" and \"csv-table\" descriptions."
+
+#: ../../source/release/HISTORY.rst:319 ../../source/release/HISTORY.rst:369
+msgid "docutils/parsers/rst/directives/images.py"
+msgstr "docutils/parsers/rst/directives/images.py"
+
+#: ../../source/release/HISTORY.rst:321
+msgid "Fix [ 258 ] figwidth=\"image\" generates unitless width value."
+msgstr "Fix [ 258 ] figwidth=\"image\" generates unitless width value."
+
+#: ../../source/release/HISTORY.rst:323 ../../source/release/HISTORY.rst:377
+#: ../../source/release/HISTORY.rst:580
+msgid "docutils/parsers/rst/states.py"
+msgstr "docutils/parsers/rst/states.py"
+
+#: ../../source/release/HISTORY.rst:325
+msgid ""
+"Improve error report when a non-ASCII character is specified as "
+"delimiter, quote or escape character under Python 2. Fixes [ 249 ] and [ "
+"250 ]."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:331
+msgid ""
+"Don't add newline after inline math. Thanks to Yury G. Kudryashov for the"
+" patch."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:336
+msgid "Fix [ 239 ] Latex writer glues paragraphs with figure floats."
+msgstr "Fix [ 239 ] Latex writer glues paragraphs with figure floats."
+
+#: ../../source/release/HISTORY.rst:337
+msgid "Apply [ 116 ] by Kirill Smelkov. Don't hardcode \\large for subtitle."
+msgstr "Apply [ 116 ] by Kirill Smelkov. Don't hardcode \\large for subtitle."
+
+#: ../../source/release/HISTORY.rst:341
+msgid "Apply patch by Jakub Wilk to fix bug [ 100 ]."
+msgstr "Apply patch by Jakub Wilk to fix bug [ 100 ]."
+
+#: ../../source/release/HISTORY.rst:343
+msgid "test/test_error_reporting.py"
+msgstr "test/test_error_reporting.py"
+
+#: ../../source/release/HISTORY.rst:345
+msgid "Fix [ 223 ] by removing redundant tests we do not have control over."
+msgstr "Fix [ 223 ] by removing redundant tests we do not have control over."
+
+#: ../../source/release/HISTORY.rst:347
+msgid "test/test_nodes.py"
+msgstr "test/test_nodes.py"
+
+#: ../../source/release/HISTORY.rst:349
+msgid "Apply [ 115 ] respect fixed 2to3 string literal conversion behavior."
+msgstr "Apply [ 115 ] respect fixed 2to3 string literal conversion behavior."
+
+#: ../../source/release/HISTORY.rst:352
+msgid "Release 0.11 (2013-07-22)"
+msgstr "Release 0.11 (2013-07-22)"
+
+#: ../../source/release/HISTORY.rst:356
+msgid "Apply [ 2714873 ] Fix for the overwritting of document attributes."
+msgstr "Apply [ 2714873 ] Fix for the overwritting of document attributes."
+
+#: ../../source/release/HISTORY.rst:357
+msgid "Support embedded aliases within hyperlink references."
+msgstr "Support embedded aliases within hyperlink references."
+
+#: ../../source/release/HISTORY.rst:358
+msgid ""
+"Fix [ 228 ] try local import of docutils components (reader, writer, "
+"parser, language module) before global search."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:363
+msgid "Fix [ 3601607 ] node.__repr__() must return `str` instance."
+msgstr "Fix [ 3601607 ] node.__repr__() must return `str` instance."
+
+#: ../../source/release/HISTORY.rst:365
+msgid "docutils/parsers/rst/directives/__init__.py"
+msgstr "docutils/parsers/rst/directives/__init__.py"
+
+#: ../../source/release/HISTORY.rst:367
+msgid "Fix [ 3606028 ] ``assert`` is skipped with ``python -O``."
+msgstr "Fix [ 3606028 ] ``assert`` is skipped with ``python -O``."
+
+#: ../../source/release/HISTORY.rst:371
+msgid "Apply [ 3599485 ] node source/line information for sphinx translation."
+msgstr "Apply [ 3599485 ] node source/line information for sphinx translation."
+
+#: ../../source/release/HISTORY.rst:375
+msgid "Fix [ 210 ] Python 3.3 checks CVS syntax only if \"strict\" is True."
+msgstr "Fix [ 210 ] Python 3.3 checks CVS syntax only if \"strict\" is True."
+
+#: ../../source/release/HISTORY.rst:379
+msgid "Fix [ 157 ] Line block parsing doesn't like system message."
+msgstr "Fix [ 157 ] Line block parsing doesn't like system message."
+
+#: ../../source/release/HISTORY.rst:380
+msgid "Always import our local copy of roman.py (report Larry Hastings)."
+msgstr "Always import our local copy of roman.py (report Larry Hastings)."
+
+#: ../../source/release/HISTORY.rst:382
+msgid "docutils/transforms/references.py"
+msgstr "docutils/transforms/references.py"
+
+#: ../../source/release/HISTORY.rst:384
+msgid "Fix [ 3607029 ] traceback with embedded alias pointing to missing target."
+msgstr "Fix [ 3607029 ] traceback with embedded alias pointing to missing target."
+
+#: ../../source/release/HISTORY.rst:386 ../../source/release/HISTORY.rst:448
+msgid "docutils/utils/__init__.py"
+msgstr "docutils/utils/__init__.py"
+
+#: ../../source/release/HISTORY.rst:388
+msgid "Fix [ 3596884 ] exception importing ``docutils.io``."
+msgstr "Fix [ 3596884 ] exception importing ``docutils.io``."
+
+#: ../../source/release/HISTORY.rst:392
+msgid "Fix [ 3600051 ] for tables in a list, table cells are not compacted."
+msgstr "Fix [ 3600051 ] for tables in a list, table cells are not compacted."
+
+#: ../../source/release/HISTORY.rst:393
+msgid ""
+"New setting `stylesheet_dirs`: Comma-separated list of directories where "
+"stylesheets are found. Used by `stylesheet_path` when expanding relative "
+"path arguments."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:396
+msgid "New default for math-output_: ``HTML math.css``."
+msgstr "New default for math-output_: ``HTML math.css``."
+
+#: ../../source/release/HISTORY.rst:397
+msgid ""
+"Avoid repeated class declarations in html4css1 writer (modified version "
+"of patch [ 104 ])."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:404
+msgid ""
+"Drop the simple algorithm replacing straight double quotes with English "
+"typographic ones. Activate the SmartQuotes_ transform if you want this "
+"feature."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:407
+msgid "Fix literal use of babel shorthands (straight quote, tilde, ...)."
+msgstr "Fix literal use of babel shorthands (straight quote, tilde, ...)."
+
+#: ../../source/release/HISTORY.rst:408
+msgid "Fix [ 3603246 ] Bug in option \"--graphicx-option=auto\"."
+msgstr "Fix [ 3603246 ] Bug in option \"--graphicx-option=auto\"."
+
+#: ../../source/release/HISTORY.rst:409
+msgid "New setting `stylesheet_dirs`."
+msgstr "New setting `stylesheet_dirs`."
+
+#: ../../source/release/HISTORY.rst:413 ../../source/release/HISTORY.rst:460
+#: ../../source/release/HISTORY.rst:617 ../../source/release/HISTORY.rst:708
+#: ../../source/release/HISTORY.rst:786 ../../source/release/HISTORY.rst:950
+msgid "docutils/writers/manpage.py"
+msgstr "docutils/writers/manpage.py"
+
+#: ../../source/release/HISTORY.rst:415
+msgid "Fix [3607063] handle lines starting with a period."
+msgstr "Fix [3607063] handle lines starting with a period."
+
+#: ../../source/release/HISTORY.rst:416
+msgid "Fix option separating comma was bold (thanks to Bill Morris)."
+msgstr "Fix option separating comma was bold (thanks to Bill Morris)."
+
+#: ../../source/release/HISTORY.rst:419
+msgid "Release 0.10 (2012-12-16)"
+msgstr "Release 0.10 (2012-12-16)"
+
+#: ../../source/release/HISTORY.rst:423
+msgid "Dropped support for Python 2.3."
+msgstr "Dropped support for Python 2.3."
+
+#: ../../source/release/HISTORY.rst:424
+msgid ""
+"``docutils/math``, ``docutils/error_reporting.py``, and "
+"``docutils/urischemes.py`` moved to the utils package."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:426
+msgid "Fix [3541369] Relative __import__ also with Python 3.3."
+msgstr "Fix [3541369] Relative __import__ also with Python 3.3."
+
+#: ../../source/release/HISTORY.rst:427
+msgid ""
+"Fix [3559988] and [3560841] __import__ local writer, reader, languages "
+"and parsers for Python 2.7 up."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:429
+msgid "Fix import of PIL.Image."
+msgstr "Fix import of PIL.Image."
+
+#: ../../source/release/HISTORY.rst:430
+msgid ""
+"Change default of \"syntax highlight\" option to \"long\", basic syntax "
+"highlight styles for LaTeX and HTML."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:433 ../../source/release/HISTORY.rst:512
+#: ../../source/release/HISTORY.rst:551 ../../source/release/HISTORY.rst:742
+msgid "docutils/io.py"
+msgstr "docutils/io.py"
+
+#: ../../source/release/HISTORY.rst:435
+msgid ""
+"FileInput/FileOutput: no system-exit on IOError.  The `handle_io_errors` "
+"option is ignored and will be removed in a future release."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:437
+msgid "Fix Py3k error writing to stdout with encoding differing from default."
+msgstr "Fix Py3k error writing to stdout with encoding differing from default."
+
+#: ../../source/release/HISTORY.rst:438
+msgid "Fix opening binary files under Py3k (thanks to Dominic Fitzpatrick)."
+msgstr "Fix opening binary files under Py3k (thanks to Dominic Fitzpatrick)."
+
+#: ../../source/release/HISTORY.rst:440 ../../source/release/HISTORY.rst:517
+msgid "docutils/parsers/rst/directives/misc.py"
+msgstr "docutils/parsers/rst/directives/misc.py"
+
+#: ../../source/release/HISTORY.rst:442
+msgid "Fix [ 3546533 ] Unicode error with `date` directive."
+msgstr "Fix [ 3546533 ] Unicode error with `date` directive."
+
+#: ../../source/release/HISTORY.rst:444
+msgid "docutils/transforms/universal.py"
+msgstr "docutils/transforms/universal.py"
+
+#: ../../source/release/HISTORY.rst:446
+msgid "SmartQuotes transform for typographic quotes and dashes."
+msgstr "SmartQuotes transform for typographic quotes and dashes."
+
+#: ../../source/release/HISTORY.rst:450
+msgid ""
+"normalize_language_tag() now returns `BCP 47`_ conformant tags with "
+"subtags separated by ``-``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:455
+msgid ""
+"Use ``<code>`` tag for inline \"code\", do not drop nested inline nodes "
+"(syntax highlight tokens)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:457
+msgid "Customizable MathJax URL (based on patch by Dmitry Shachnev)."
+msgstr "Customizable MathJax URL (based on patch by Dmitry Shachnev)."
+
+#: ../../source/release/HISTORY.rst:458
+msgid "No line break after opening inline math tag."
+msgstr "No line break after opening inline math tag."
+
+#: ../../source/release/HISTORY.rst:462
+msgid "Apply [ 3527401 ] addmonition's don't preserve indentation"
+msgstr "Apply [ 3527401 ] addmonition's don't preserve indentation"
+
+#: ../../source/release/HISTORY.rst:463
+msgid "Apply [ 3527397 ] Add indentation to literal blocks in manpage writer."
+msgstr "Apply [ 3527397 ] Add indentation to literal blocks in manpage writer."
+
+#: ../../source/release/HISTORY.rst:467
+msgid "Apply [ 3555160 ] ensure order of \"otherlanguages\"."
+msgstr "Apply [ 3555160 ] ensure order of \"otherlanguages\"."
+
+#: ../../source/release/HISTORY.rst:468
+msgid "Fix section numbering by LaTeX."
+msgstr "Fix section numbering by LaTeX."
+
+#: ../../source/release/HISTORY.rst:470
+msgid "docutils/writers/s5_html/__init__.py"
+msgstr "docutils/writers/s5_html/__init__.py"
+
+#: ../../source/release/HISTORY.rst:472
+msgid "Fix [ 3556388 ] Mathjax does not work with rst2s5."
+msgstr "Fix [ 3556388 ] Mathjax does not work with rst2s5."
+
+#: ../../source/release/HISTORY.rst:474
+msgid "docutils/writers/s5_html/docutils_xml.py"
+msgstr "docutils/writers/s5_html/docutils_xml.py"
+
+#: ../../source/release/HISTORY.rst:476
+msgid "Fix [ 3552403 ] Prevent broken PyXML replacing stdlibs xml module."
+msgstr "Fix [ 3552403 ] Prevent broken PyXML replacing stdlibs xml module."
+
+#: ../../source/release/HISTORY.rst:477
+msgid "Fix/improve output with ``--indent`` option."
+msgstr "Fix/improve output with ``--indent`` option."
+
+#: ../../source/release/HISTORY.rst:479 ../../source/release/HISTORY.rst:492
+#: ../../source/release/HISTORY.rst:542
+msgid "setup.py"
+msgstr "setup.py"
+
+#: ../../source/release/HISTORY.rst:481
+msgid "Tag ``math.css`` stylesheet as data file (patch by Dmitry Shachnev)."
+msgstr "Tag ``math.css`` stylesheet as data file (patch by Dmitry Shachnev)."
+
+#: ../../source/release/HISTORY.rst:483
+msgid "tools/test/test_buildhtml.py"
+msgstr "tools/test/test_buildhtml.py"
+
+#: ../../source/release/HISTORY.rst:485
+msgid "Fix [ 3521167 ] allow running in any directory."
+msgstr "Fix [ 3521167 ] allow running in any directory."
+
+#: ../../source/release/HISTORY.rst:486
+msgid "Fix [ 3521168 ] allow running with Python 3."
+msgstr "Fix [ 3521168 ] allow running with Python 3."
+
+#: ../../source/release/HISTORY.rst:490
+msgid "Release 0.9.1 (2012-06-17)"
+msgstr "Release 0.9.1 (2012-06-17)"
+
+#: ../../source/release/HISTORY.rst:494
+msgid ""
+"Fix [ 3527842 ]. Under Python聽3, converted tests and tools were installed"
+" in the PYTHONPATH. Converted tests are now stored in ``test3/``, tools "
+"no longer need conversion."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:498
+msgid ""
+"If you installed one of Docutils versions 0.7 ... 0.9 with ``setup.py "
+"install`` under Python聽3, remove the spurious ``test/`` and ``tools/`` "
+"directories in the site library root."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:502 ../../source/release/HISTORY.rst:629
+msgid "test/"
+msgstr "test/"
+
+#: ../../source/release/HISTORY.rst:504
+msgid "Make tests independent from the location of the ``test/`` directory."
+msgstr "Make tests independent from the location of the ``test/`` directory."
+
+#: ../../source/release/HISTORY.rst:505
+msgid ""
+"Use converted sources (from the ``build/`` directory) for tests under "
+"Python聽3."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:510
+msgid "Make tools compatible with both, Python 2 and 3 without 2to3-conversion."
+msgstr "Make tools compatible with both, Python 2 and 3 without 2to3-conversion."
+
+#: ../../source/release/HISTORY.rst:514
+msgid ""
+"Fix writing binary data to sys.stdout under Python聽3 (allows "
+"``rst2odt.py`` to be used with output redirection)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:519
+msgid ""
+"Fix [ 3525847 ]. Catch and report UnicodeEncodeError with ``locale == C``"
+" and 8-bit char in path argument of `include` directive."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:522
+msgid "test/alltests.py"
+msgstr "test/alltests.py"
+
+#: ../../source/release/HISTORY.rst:524
+msgid ""
+"class `Tee`: catch UnicodeError when writing to \"ascii\" stream or file "
+"under Python聽3."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:528
+msgid "Release 0.9 (2012-05-02)"
+msgstr "Release 0.9 (2012-05-02)"
+
+#: ../../source/release/HISTORY.rst:530 ../../source/release/HISTORY.rst:624
+#: ../../source/release/HISTORY.rst:640 ../../source/release/HISTORY.rst:737
+#: ../../source/release/HISTORY.rst:807 ../../source/release/HISTORY.rst:1140
+#: ../../source/release/HISTORY.rst:1416 ../../source/release/HISTORY.rst:1767
+msgid "General:"
+msgstr "General:"
+
+#: ../../source/release/HISTORY.rst:532
+msgid ""
+"New reStructuredText \"code\" role and directive and \"code\" option of "
+"the \"include\" directive with syntax highlighting by Pygments_."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:534
+msgid "Fix parse_option_marker for option arguments containing ``=``."
+msgstr "Fix parse_option_marker for option arguments containing ``=``."
+
+#: ../../source/release/HISTORY.rst:535
+msgid ""
+"Fix [ 2993756 ]: import Python Imaging Library's Image module via "
+"``import PIL`` as starting with PIL 1.2, \"PIL lives in the PIL namespace"
+" only\" (announcement__)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:544
+msgid ""
+"Fix [ 2971827 ] and [ 3442827 ] extras/roman.py moved to "
+"docutils/utils/roman.py"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:547
+msgid "docutils/frontend.py"
+msgstr "docutils/frontend.py"
+
+#: ../../source/release/HISTORY.rst:549
+msgid "Fix [ 3481980 ] Use os.getcwdu() in make_paths_absolute()."
+msgstr "Fix [ 3481980 ] Use os.getcwdu() in make_paths_absolute()."
+
+#: ../../source/release/HISTORY.rst:553
+msgid "Fix [ 3395948 ] (Work around encoding problems in Py3k)."
+msgstr "Fix [ 3395948 ] (Work around encoding problems in Py3k)."
+
+#: ../../source/release/HISTORY.rst:554
+msgid ""
+"`mode` argument for FileOutput avoids code replication in "
+"BinaryFileOutput."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:556
+msgid ""
+"New exceptions InputError and OutputError for IO errors in "
+"FileInput/FileOutput."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:559 ../../source/release/HISTORY.rst:1152
+#: ../../source/release/HISTORY.rst:1423 ../../source/release/HISTORY.rst:1828
+#: ../../source/release/HISTORY.rst:1952
+msgid "docutils/core.py:"
+msgstr "docutils/core.py:"
+
+#: ../../source/release/HISTORY.rst:561
+msgid ""
+"No \"hard\" system exit on file IO errors: catch and report them in "
+"`Publisher.reportException` instead. Allows handling by a calling "
+"application if the configuration setting `traceback` is True."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:565
+msgid "docutils/utils.py -> docutils/utils/__init__.py"
+msgstr "docutils/utils.py -> docutils/utils/__init__.py"
+
+#: ../../source/release/HISTORY.rst:567
+msgid "docutils.utils is now a package (providing a place for sub-modules)"
+msgstr "docutils.utils is now a package (providing a place for sub-modules)"
+
+#: ../../source/release/HISTORY.rst:569
+msgid ""
+"docutils/math, docutils/error_reporting.py, and docutils/urischemes.py "
+"will move to the utils package in the next release, too. See RELEASE-"
+"NOTES__"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:575
+msgid ""
+"DependencyList uses io.FileOutput and 'utf8' encoding to prevent errors "
+"recording non-ASCII filenames (fixes [ 3434355 ])."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:578
+msgid "Fix relative_path() with source=None and `unicode` target."
+msgstr "Fix relative_path() with source=None and `unicode` target."
+
+#: ../../source/release/HISTORY.rst:582
+msgid ""
+"Fix [ 3402314 ] allow non-ASCII whitespace, punctuation characters and "
+"\"international\" quotes around inline markup."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:584
+msgid ""
+"Use `field_marker` pattern to look for start of a directive option block "
+"(fixes [ 3484857 ])."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:589
+msgid ""
+"Fix [ 2926161 ] for simple tables. (Combining chars in grid tables still "
+"contribute to cell width.)"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:594
+msgid "Support the `abbreviation` and `acronym` standard roles."
+msgstr "Support the `abbreviation` and `acronym` standard roles."
+
+#: ../../source/release/HISTORY.rst:595
+msgid "Record only files required to generate the LaTeX source as dependencies."
+msgstr "Record only files required to generate the LaTeX source as dependencies."
+
+#: ../../source/release/HISTORY.rst:596 ../../source/release/HISTORY.rst:609
+msgid "Fix handling of missing stylesheets."
+msgstr "Fix handling of missing stylesheets."
+
+#: ../../source/release/HISTORY.rst:597
+msgid ""
+"Use ``\\setcounter{secnumdepth}{0}`` instead of ``*``-versions when "
+"suppressing LaTeX section numbering."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:599
+msgid "Use ``\\DUtitle`` for unsupported section levels"
+msgstr "Use ``\\DUtitle`` for unsupported section levels"
+
+#: ../../source/release/HISTORY.rst:600
+msgid "Apply [ 3512791 ] do not compare string literals with \"is\""
+msgstr "Apply [ 3512791 ] do not compare string literals with \"is\""
+
+#: ../../source/release/HISTORY.rst:604
+msgid "Avoid code duplication with latex2e writer (solves [ 3512728 ])."
+msgstr "Avoid code duplication with latex2e writer (solves [ 3512728 ])."
+
+#: ../../source/release/HISTORY.rst:608
+msgid "Change default for `math-output` setting to MathJax."
+msgstr "Change default for `math-output` setting to MathJax."
+
+#: ../../source/release/HISTORY.rst:611
+msgid "docutils/writers/docutils_xml.py"
+msgstr "docutils/writers/docutils_xml.py"
+
+#: ../../source/release/HISTORY.rst:613
+msgid ""
+"Use the visitor pattern with default_visit()/default_depart() methods "
+"instead of minidom to facilitate special handling of selected nodes."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:615
+msgid "Support raw XML (inserted as-is inside a <raw></raw> node)."
+msgstr "Support raw XML (inserted as-is inside a <raw></raw> node)."
+
+#: ../../source/release/HISTORY.rst:619
+msgid "Do not emit comment line with trailing blank. Problematic for VCS."
+msgstr "Do not emit comment line with trailing blank. Problematic for VCS."
+
+#: ../../source/release/HISTORY.rst:622
+msgid "Release 0.8.1 (2011-08-30)"
+msgstr "Release 0.8.1 (2011-08-30)"
+
+#: ../../source/release/HISTORY.rst:626
+msgid ""
+"Fix [ 3364658 ] (Change last file with Apache license to BSD-2-Clause) "
+"and [ 3395920 ] (correct copyright info for rst.el)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:631
+msgid "Apply [ 3303733 ] and [ 3365041 ] to fix tests under Py3k."
+msgstr "Apply [ 3303733 ] and [ 3365041 ] to fix tests under Py3k."
+
+#: ../../source/release/HISTORY.rst:635
+msgid "Clean up Babel language setting. Restores Sphinx compatibility."
+msgstr "Clean up Babel language setting. Restores Sphinx compatibility."
+
+#: ../../source/release/HISTORY.rst:638
+msgid "Release 0.8 (2011-07-07)"
+msgstr "Release 0.8 (2011-07-07)"
+
+#: ../../source/release/HISTORY.rst:642
+msgid "Handle language codes according to `BCP 47`_."
+msgstr "Handle language codes according to `BCP 47`_."
+
+#: ../../source/release/HISTORY.rst:643
+msgid ""
+"If the specified language is not supported by Docutils, warn and fall "
+"back to English."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:645
+msgid ""
+"Math support: reStructuredText \"math\" role and directive, ``math`` and "
+"``math_block`` doctree elements."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:647
+msgid ""
+"Decode command line arguments with the locale's preferred encoding (to "
+"allow, e.g., ``--title=Dornr枚schen``)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:649
+msgid "Orphaned \"python\" reader and \"newlatex2e\" writer moved to the sandbox."
+msgstr "Orphaned \"python\" reader and \"newlatex2e\" writer moved to the sandbox."
+
+#: ../../source/release/HISTORY.rst:650
+msgid ""
+"New sub-module `error_reporting`: handle encoding/decoding errors when "
+"reporting exceptions."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:652
+msgid ""
+"Some additions to the Docutils core are released under the 2-Clause BSD "
+"license, see COPYING_ for details."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:658 ../../source/release/HISTORY.rst:842
+msgid "reStructuredText:"
+msgstr "reStructuredText:"
+
+#: ../../source/release/HISTORY.rst:660
+msgid ""
+"Most directives now support a \"name\" option that attaches a reference "
+"name."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:663
+msgid ""
+"Directive content may start on the first line also when the directive "
+"type accepts options."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:666
+msgid "docs/dev/policies.txt:"
+msgstr "docs/dev/policies.txt:"
+
+#: ../../source/release/HISTORY.rst:668
+msgid ""
+"Recommend the 2-Clause BSD license "
+"(http://www.spdx.org/licenses/BSD-2-Clause) for code that is kept under "
+"the author's copyright."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:672 ../../source/release/HISTORY.rst:1115
+msgid "tools/buildhtml.py:"
+msgstr "tools/buildhtml.py:"
+
+#: ../../source/release/HISTORY.rst:674
+msgid "Fix ``--local`` switch."
+msgstr "Fix ``--local`` switch."
+
+#: ../../source/release/HISTORY.rst:676
+msgid "Fix [ 3018371 ] Added Lithuanian mappings by Dalius Dobravolskas."
+msgstr "Fix [ 3018371 ] Added Lithuanian mappings by Dalius Dobravolskas."
+
+#: ../../source/release/HISTORY.rst:680
+msgid ""
+"Set \"lang\" argument for objects with class argument "
+"\"language-<language tag>\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:682
+msgid "New setting \"math-output\" with support for HTML, MathML, and LaTeX."
+msgstr "New setting \"math-output\" with support for HTML, MathML, and LaTeX."
+
+#: ../../source/release/HISTORY.rst:686
+msgid "Fix [ 3043986 ] AttributeError using :local: with table of content."
+msgstr "Fix [ 3043986 ] AttributeError using :local: with table of content."
+
+#: ../../source/release/HISTORY.rst:687
+msgid "Place title data in the document preamble."
+msgstr "Place title data in the document preamble."
+
+#: ../../source/release/HISTORY.rst:688
+msgid "Load `babel` package only if required."
+msgstr "Load `babel` package only if required."
+
+#: ../../source/release/HISTORY.rst:689
+msgid "Update list of supported languages."
+msgstr "Update list of supported languages."
+
+#: ../../source/release/HISTORY.rst:690
+msgid ""
+"New config setting \"hyperref-options\". No hard-coded \"unicode\" "
+"hyperref option (clash with xetex)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:692
+msgid ""
+"Set language for custom roles, paragraphs, block-quotes, and line-quotes "
+"with class argument \"language-<language tag>\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:694
+msgid "Fix [ 3095603 ] wrong quotes output for russian and other languages."
+msgstr "Fix [ 3095603 ] wrong quotes output for russian and other languages."
+
+#: ../../source/release/HISTORY.rst:695
+msgid "Convert image URI to a local file path."
+msgstr "Convert image URI to a local file path."
+
+#: ../../source/release/HISTORY.rst:696
+msgid ""
+"Apply [ 3148141 ] fix multicolumn support when a colspanning cell has "
+"more than one paragraph (Wolfgang Scherer)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:698
+msgid "\\leavevmode before longtable only when needed (prevents spurious vspace)"
+msgstr "\\leavevmode before longtable only when needed (prevents spurious vspace)"
+
+#: ../../source/release/HISTORY.rst:699
+msgid "do not advance table counter for tables without caption"
+msgstr "do not advance table counter for tables without caption"
+
+#: ../../source/release/HISTORY.rst:703
+msgid "New writer generating LaTeX code for compiling with ``xelatex``."
+msgstr "New writer generating LaTeX code for compiling with ``xelatex``."
+
+#: ../../source/release/HISTORY.rst:705
+msgid ""
+"A separate writer (inheriting from latex2e) instead of a ``--xetex`` "
+"option allows separate config options for XeTeX vs. LaTeX2e."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:710
+msgid "Fix: BUG#3219183 - vertical space in definition lists containing markup."
+msgstr "Fix: BUG#3219183 - vertical space in definition lists containing markup."
+
+#: ../../source/release/HISTORY.rst:711
+msgid "Fix: vertical space cleaning for option group ``.``."
+msgstr "Fix: vertical space cleaning for option group ``.``."
+
+#: ../../source/release/HISTORY.rst:713 ../../source/release/HISTORY.rst:1120
+msgid "tools/editors/emacs/rst.el:"
+msgstr "tools/editors/emacs/rst.el:"
+
+#: ../../source/release/HISTORY.rst:715
+msgid "Fix [ 3001100 ] does not handle spaces in filenames (thanks to Jakub Wilk)"
+msgstr "Fix [ 3001100 ] does not handle spaces in filenames (thanks to Jakub Wilk)"
+
+#: ../../source/release/HISTORY.rst:718 ../../source/release/HISTORY.rst:871
+#: ../../source/release/HISTORY.rst:1185 ../../source/release/HISTORY.rst:1455
+#: ../../source/release/HISTORY.rst:1623 ../../source/release/HISTORY.rst:2007
+msgid "docutils/utils.py:"
+msgstr "docutils/utils.py:"
+
+#: ../../source/release/HISTORY.rst:720
+msgid "strip whitespace from stylesheet arguments"
+msgstr "strip whitespace from stylesheet arguments"
+
+#: ../../source/release/HISTORY.rst:721
+msgid "exclude combining chars from column_width() (partial fix for [ 2926161 ])"
+msgstr "exclude combining chars from column_width() (partial fix for [ 2926161 ])"
+
+#: ../../source/release/HISTORY.rst:724 ../../source/release/HISTORY.rst:1223
+#: ../../source/release/HISTORY.rst:1501 ../../source/release/HISTORY.rst:1661
+#: ../../source/release/HISTORY.rst:2081
+msgid "docutils/parsers/rst/directives/misc.py:"
+msgstr "docutils/parsers/rst/directives/misc.py:"
+
+#: ../../source/release/HISTORY.rst:726
+msgid ""
+"Fix [ 1830389 ] Replace not breaking on getting system_messages from "
+"nested_parse"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:729 ../../source/release/HISTORY.rst:978
+#: ../../source/release/HISTORY.rst:1157 ../../source/release/HISTORY.rst:1434
+#: ../../source/release/HISTORY.rst:1610 ../../source/release/HISTORY.rst:1985
+msgid "docutils/io.py:"
+msgstr "docutils/io.py:"
+
+#: ../../source/release/HISTORY.rst:731
+msgid ""
+"Do not close() sys.stdin, sys.stdout, or sys.stderr. Prevents ``Exception"
+" ValueError: 'I/O operation on closed file.'`` with Python聽3."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:735
+msgid "Release 0.7 (2010-07-07)"
+msgstr "Release 0.7 (2010-07-07)"
+
+#: ../../source/release/HISTORY.rst:739
+msgid "Fix [ 2881769 ] setup configuration."
+msgstr "Fix [ 2881769 ] setup configuration."
+
+#: ../../source/release/HISTORY.rst:740
+msgid "Fix [ 2788716 ] reporting problems in included files."
+msgstr "Fix [ 2788716 ] reporting problems in included files."
+
+#: ../../source/release/HISTORY.rst:744
+msgid ""
+"FileInput opens files as text files with universal newline support (mode "
+"\"rU\", configurable with the new optional argument \"mode\")."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:749
+msgid "Fix [ 2975987 ] repr(Text) failed with long string (Jeffrey C. Jacobs)."
+msgstr "Fix [ 2975987 ] repr(Text) failed with long string (Jeffrey C. Jacobs)."
+
+#: ../../source/release/HISTORY.rst:751
+msgid "docutils/utils.py"
+msgstr "docutils/utils.py"
+
+#: ../../source/release/HISTORY.rst:753
+msgid "Fix [ 2923723 ] let decode_path() tolerate path == None"
+msgstr "Fix [ 2923723 ] let decode_path() tolerate path == None"
+
+#: ../../source/release/HISTORY.rst:757
+msgid "Support SVG and SWF images (thanks to Stefan Rank)."
+msgstr "Support SVG and SWF images (thanks to Stefan Rank)."
+
+#: ../../source/release/HISTORY.rst:758
+msgid ""
+"Generate valid XHTML for centered images with targets. Use CSS classes "
+"instead of \"align\" tags for image alignment."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:763
+msgid ""
+"Use `transforms.writer_aux.Admonitions` to \"normalize\" special "
+"admonitions."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:765
+msgid ""
+"Use the ``\\url`` command for URLs (breaks long URLs instead of writing "
+"into the margin)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:767
+msgid "Preserve runs of spaces in `inline literals`__."
+msgstr "Preserve runs of spaces in `inline literals`__."
+
+#: ../../source/release/HISTORY.rst:768
+msgid "Deprecate ``figure_footnotes`` setting."
+msgstr "Deprecate ``figure_footnotes`` setting."
+
+#: ../../source/release/HISTORY.rst:769
+msgid "Rename ``use_latex_footnotes`` setting to `docutils_footnotes`__."
+msgstr "Rename ``use_latex_footnotes`` setting to `docutils_footnotes`__."
+
+#: ../../source/release/HISTORY.rst:770
+msgid "New ``latex_preamble`` setting."
+msgstr "New ``latex_preamble`` setting."
+
+#: ../../source/release/HISTORY.rst:771
+msgid "Use PDF standard fonts (Times/Helvetica/Courier) as default."
+msgstr "Use PDF standard fonts (Times/Helvetica/Courier) as default."
+
+#: ../../source/release/HISTORY.rst:772
+msgid "Fix hyperlink targets (labels) for images, figures, and tables."
+msgstr "Fix hyperlink targets (labels) for images, figures, and tables."
+
+#: ../../source/release/HISTORY.rst:773
+msgid "Apply [ 2961988 ] Load babel after inputenc and fontenc."
+msgstr "Apply [ 2961988 ] Load babel after inputenc and fontenc."
+
+#: ../../source/release/HISTORY.rst:774
+msgid "Apply [ 2961991 ] Call hyperref with unicode option."
+msgstr "Apply [ 2961991 ] Call hyperref with unicode option."
+
+#: ../../source/release/HISTORY.rst:775
+msgid ""
+"Drop the special `output_encoding`__ default (\"latin-1\"). The Docutils "
+"wide default (usually \"UTF-8\") is used instead."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:777
+msgid "Render inline markup in document title and subtitle."
+msgstr "Render inline markup in document title and subtitle."
+
+#: ../../source/release/HISTORY.rst:778
+msgid "Fix numbering depth with LaTeX section numbering."
+msgstr "Fix numbering depth with LaTeX section numbering."
+
+#: ../../source/release/HISTORY.rst:779
+msgid "Update Unicode -> LaTeX translations."
+msgstr "Update Unicode -> LaTeX translations."
+
+#: ../../source/release/HISTORY.rst:780
+msgid "Fix bug with topic directive (thanks to Alan G Isaac for reporting)."
+msgstr "Fix bug with topic directive (thanks to Alan G Isaac for reporting)."
+
+#: ../../source/release/HISTORY.rst:788
+msgid "Fix: supported attribute (thanks to peter2108)."
+msgstr "Fix: supported attribute (thanks to peter2108)."
+
+#: ../../source/release/HISTORY.rst:789
+msgid "Remove trailing blanks in code (keep in sync with mercurial version)."
+msgstr "Remove trailing blanks in code (keep in sync with mercurial version)."
+
+#: ../../source/release/HISTORY.rst:790
+msgid "Titles level 1, that is ``.SH``, always uppercase."
+msgstr "Titles level 1, that is ``.SH``, always uppercase."
+
+#: ../../source/release/HISTORY.rst:791
+msgid "Apply patch from mg: literal text should be bold in man-pages."
+msgstr "Apply patch from mg: literal text should be bold in man-pages."
+
+#: ../../source/release/HISTORY.rst:795
+msgid ""
+"Fix: encoding ``'ascii'`` must be lowercase to prevent problems for "
+"turkish locale."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:798 ../../source/release/HISTORY.rst:1132
+msgid "setup.py:"
+msgstr "setup.py:"
+
+#: ../../source/release/HISTORY.rst:800
+msgid ""
+"Python聽3 support: copy test/ and tools/ to the build-dir and convert "
+"Python sources with 2to3."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:805
+msgid "Release 0.6 (2009-10-11)"
+msgstr "Release 0.6 (2009-10-11)"
+
+#: ../../source/release/HISTORY.rst:809
+msgid ""
+"Docutils is now compatible with Python versions from 2.3 up to 2.6 and "
+"convertible to 3.1 code."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:812
+msgid "Node.__nonzero__ returns True instead of 1."
+msgstr "Node.__nonzero__ returns True instead of 1."
+
+#: ../../source/release/HISTORY.rst:813
+msgid "use os.walk instead os.path.walk."
+msgstr "use os.walk instead os.path.walk."
+
+#: ../../source/release/HISTORY.rst:814
+msgid "minimize \"types\" module where possible."
+msgstr "minimize \"types\" module where possible."
+
+#: ../../source/release/HISTORY.rst:815
+msgid "Backwards-compatible changes to remove python2.6 -3 deprecation warnings"
+msgstr "Backwards-compatible changes to remove python2.6 -3 deprecation warnings"
+
+#: ../../source/release/HISTORY.rst:816
+msgid ""
+"Text nodes now subclass unicode rather than UserString (which is gone in "
+"python 3.0)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:818
+msgid "3.0 compatibility module docutils._compat"
+msgstr "3.0 compatibility module docutils._compat"
+
+#: ../../source/release/HISTORY.rst:820
+msgid "Drop 2.2 compatibility workarounds."
+msgstr "Drop 2.2 compatibility workarounds."
+
+#: ../../source/release/HISTORY.rst:821
+msgid "Drop extras/optparse.py and extras/textwrap.py (stdlib modules since 2.3)."
+msgstr "Drop extras/optparse.py and extras/textwrap.py (stdlib modules since 2.3)."
+
+#: ../../source/release/HISTORY.rst:824
+msgid "OpenOffice export: ODT writer moved from sandbox to Doctutils core."
+msgstr "OpenOffice export: ODT writer moved from sandbox to Doctutils core."
+
+#: ../../source/release/HISTORY.rst:825
+msgid "Unix man page export: manpage writer moved from sandbox to Doctutils core."
+msgstr "Unix man page export: manpage writer moved from sandbox to Doctutils core."
+
+#: ../../source/release/HISTORY.rst:828
+msgid "Apply [ 1719345 ] Galician translation"
+msgstr "Apply [ 1719345 ] Galician translation"
+
+#: ../../source/release/HISTORY.rst:829
+msgid "Apply [ 1905741 ] Polish translation"
+msgstr "Apply [ 1905741 ] Polish translation"
+
+#: ../../source/release/HISTORY.rst:830
+msgid "Apply [ 1878977 ] make_id(): deaccent characters."
+msgstr "Apply [ 1878977 ] make_id(): deaccent characters."
+
+#: ../../source/release/HISTORY.rst:831
+msgid "Apply [ 2029251 ] return nonzero when tests fail."
+msgstr "Apply [ 2029251 ] return nonzero when tests fail."
+
+#: ../../source/release/HISTORY.rst:832
+msgid "Fix [ 1692788 ] allow UTF-8 in style sheets."
+msgstr "Fix [ 1692788 ] allow UTF-8 in style sheets."
+
+#: ../../source/release/HISTORY.rst:833
+msgid "Fix [ 2781629 ] support non-ASCII chars in file names."
+msgstr "Fix [ 2781629 ] support non-ASCII chars in file names."
+
+#: ../../source/release/HISTORY.rst:834
+msgid "Apply [ 2845002 ] let ``--no-raw`` disable raw *roles* too."
+msgstr "Apply [ 2845002 ] let ``--no-raw`` disable raw *roles* too."
+
+#: ../../source/release/HISTORY.rst:835
+msgid "Fix [ 2831643 ] by renaming DirectiveError.message to DirectiveError.msg"
+msgstr "Fix [ 2831643 ] by renaming DirectiveError.message to DirectiveError.msg"
+
+#: ../../source/release/HISTORY.rst:836
+msgid "Fix [ 2821266 ] --strict option works now like --halt=info."
+msgstr "Fix [ 2821266 ] --strict option works now like --halt=info."
+
+#: ../../source/release/HISTORY.rst:837
+msgid "Fix [ 2788716 ] DirectiveError now correctly reports source and line."
+msgstr "Fix [ 2788716 ] DirectiveError now correctly reports source and line."
+
+#: ../../source/release/HISTORY.rst:838
+msgid "Fix [ 1627229 ] hyperlink references in substitutions."
+msgstr "Fix [ 1627229 ] hyperlink references in substitutions."
+
+#: ../../source/release/HISTORY.rst:840
+msgid "The \"newlatex\" writer is orphaned."
+msgstr "The \"newlatex\" writer is orphaned."
+
+#: ../../source/release/HISTORY.rst:844
+msgid ""
+"Documented Unicode characters allowed as inline markup openers, closers, "
+"and delimiters."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:846
+msgid "Allow units for all length specifications."
+msgstr "Allow units for all length specifications."
+
+#: ../../source/release/HISTORY.rst:847
+msgid ""
+"Allow percent sign in \"scale\" argument of \"figure\" and \"image\" "
+"directives."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:848
+msgid ""
+"Bugfix: The \"figalign\" argument of a figure now works as intended "
+"(aligning the figure, not its contents)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:850
+msgid ""
+"Align images with class \"align-[right|center|left]\" (allows setting the"
+" alignment of an image in a figure)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:853 ../../source/release/HISTORY.rst:984
+#: ../../source/release/HISTORY.rst:1162 ../../source/release/HISTORY.rst:1442
+#: ../../source/release/HISTORY.rst:1614 ../../source/release/HISTORY.rst:1991
+msgid "docutils/nodes.py:"
+msgstr "docutils/nodes.py:"
+
+#: ../../source/release/HISTORY.rst:855
+msgid "Added ``Element.__contains__`` method, for the in-operator."
+msgstr "Added ``Element.__contains__`` method, for the in-operator."
+
+#: ../../source/release/HISTORY.rst:859
+msgid "Apply [ 1994493 ] Patch to support all kinds of quotes in inline markup."
+msgstr "Apply [ 1994493 ] Patch to support all kinds of quotes in inline markup."
+
+#: ../../source/release/HISTORY.rst:860
+msgid ""
+"Added support for Unicode inline markup delimiters \"鈥� 鈥� 鈥� 鈥� 鈥�\" and"
+" \"聽\" (non-breaking space), and \"隆 驴\" openers."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:863 ../../source/release/HISTORY.rst:1016
+msgid "docutils/parsers/directives/misc.py:"
+msgstr "docutils/parsers/directives/misc.py:"
+
+#: ../../source/release/HISTORY.rst:865
+msgid ""
+"Added ``start-line`` and ``end-line`` options to \"include\" directive to"
+" select a range of lines."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:867
+msgid ""
+"Hard tabs in literal inclusions are replaced by spaces. This is "
+"configurable via the new ``tab-width`` option of the \"include\" "
+"directive (a negative tab-width prevents tab expansion)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:873
+msgid "Add ``get_stylesheet_list`` function."
+msgstr "Add ``get_stylesheet_list`` function."
+
+#: ../../source/release/HISTORY.rst:874
+msgid "Apply [ 2834836 ] print info at halt"
+msgstr "Apply [ 2834836 ] print info at halt"
+
+#: ../../source/release/HISTORY.rst:878
+msgid ""
+"Raise default priority of StripClasses to exclude stripped classes from "
+"the ToC."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:883
+msgid ""
+"``--stylesheet`` and ``--stylesheet-path`` options support a comma "
+"separated list of stylesheets."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:885
+msgid ""
+"Address [ 1938891 ] Inline literal text creates \"pre\" span only when "
+"needed to prevent inter-word line wraps."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:887
+msgid "Use `translate` method instead of repeated `replace` calls."
+msgstr "Use `translate` method instead of repeated `replace` calls."
+
+#: ../../source/release/HISTORY.rst:888
+msgid ""
+"Fix [ 1757105 ] New ``table-style`` option. Added to standard table "
+"classes to allow CSS styling that does not interfere with other table-"
+"using constructs (field lists, citations, ...)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:892
+msgid "docutils/writers/newlatex2e/__init__.py:"
+msgstr "docutils/writers/newlatex2e/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:894
+msgid "Apply [ 1612821 ] Double quotes in literal text in Italian/German"
+msgstr "Apply [ 1612821 ] Double quotes in literal text in Italian/German"
+
+#: ../../source/release/HISTORY.rst:896
+msgid ""
+"docutils/writers/latex2e/__init__.py (see also "
+"`<docs/user/docutils-05-compat.sty.html>`__) :"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:899
+msgid "Add ``--embed-stylesheet`` option."
+msgstr "Add ``--embed-stylesheet`` option."
+
+#: ../../source/release/HISTORY.rst:900
+msgid "Apply [ 1474017 ] image vertical alignment is reversed."
+msgstr "Apply [ 1474017 ] image vertical alignment is reversed."
+
+#: ../../source/release/HISTORY.rst:901
+msgid "Apply [ 2051599 ] multi-page tables in latex writer (from pabigot)."
+msgstr "Apply [ 2051599 ] multi-page tables in latex writer (from pabigot)."
+
+#: ../../source/release/HISTORY.rst:902
+msgid "Change: has_key for dictionaries (not Nodes) to in-operator."
+msgstr "Change: has_key for dictionaries (not Nodes) to in-operator."
+
+#: ../../source/release/HISTORY.rst:903
+msgid "Merge adjacent citations into one latex cite command."
+msgstr "Merge adjacent citations into one latex cite command."
+
+#: ../../source/release/HISTORY.rst:904
+msgid ""
+"Failsave implementation of custom roles. LaTeX compilation now ignores "
+"unknown classes instead of aborting with an error."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:906
+msgid "Support custom roles based on standard roles."
+msgstr "Support custom roles based on standard roles."
+
+#: ../../source/release/HISTORY.rst:907
+msgid ""
+"LaTeX packages can be used as ``--stylesheet`` arguments without "
+"restriction. (A style sheet is now referenced with the ``\\usepackage`` "
+"command, if it ends with ``.sty`` or has no extension.)"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:910
+msgid "Add ``bp`` to lenghts without unit (prevents LaTex errors)."
+msgstr "Add ``bp`` to lenghts without unit (prevents LaTex errors)."
+
+#: ../../source/release/HISTORY.rst:911
+msgid "Correctly write length unit ``pt`` as ``bp`` in LaTeX."
+msgstr "Correctly write length unit ``pt`` as ``bp`` in LaTeX."
+
+#: ../../source/release/HISTORY.rst:912
+msgid ""
+"Do not convert ``px`` to ``pt`` (``px`` is supported by pdfTeX since "
+"2005-02-04 as a configurable length unit)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:914
+msgid ""
+"Do not use fontenc, nor the obsolete 'ae' and 'aeguill' packages if font-"
+"encoding is set to ''. LaTeX defaults to OT1 then."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:916
+msgid ""
+"Set sub- and superscript role argument in text mode not as math. Use a "
+"custom role based on sub-/superscript if you want italic shape."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:918
+msgid ""
+"Shorter preamble and less dependencies: Load packages and define macros "
+"only if required in the document."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:920
+msgid "Use the name prefix ``DU`` for all Docutils specific LaTeX macros."
+msgstr "Use the name prefix ``DU`` for all Docutils specific LaTeX macros."
+
+#: ../../source/release/HISTORY.rst:921
+msgid "New custom environments and commands with optional \"classes\" argument."
+msgstr "New custom environments and commands with optional \"classes\" argument."
+
+#: ../../source/release/HISTORY.rst:922
+msgid "Simpler LaTeX encoding, e.g. \"\\%\" instead of \"{\\%}\"."
+msgstr "Simpler LaTeX encoding, e.g. \"\\%\" instead of \"{\\%}\"."
+
+#: ../../source/release/HISTORY.rst:923
+msgid ""
+"Better conformance to Docutils specifications with ``--use-latex-toc``. "
+"Support for LaTeX generated ToC also with unnumbered sections."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:925
+msgid ""
+"If 'sectnum_xform' is False, the 'sectnum' directive triggers section "
+"numbering by LaTeX."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:927
+msgid "Use default font in admonitions and sidebar."
+msgstr "Use default font in admonitions and sidebar."
+
+#: ../../source/release/HISTORY.rst:928
+msgid "Align of image in a figure defaults to 'center'."
+msgstr "Align of image in a figure defaults to 'center'."
+
+#: ../../source/release/HISTORY.rst:929
+msgid ""
+"Bugfix: Newlines around targets and references prevent run-together "
+"paragraphs."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:931
+msgid "Fix internal hyperlinks."
+msgstr "Fix internal hyperlinks."
+
+#: ../../source/release/HISTORY.rst:932
+msgid "Use class defaults for page margins ('typearea' now optional)."
+msgstr "Use class defaults for page margins ('typearea' now optional)."
+
+#: ../../source/release/HISTORY.rst:933
+msgid "Float placement made configurable, default changed to \"here definitely\"."
+msgstr "Float placement made configurable, default changed to \"here definitely\"."
+
+#: ../../source/release/HISTORY.rst:934
+msgid "Typeset generic topic as \"quote block with title\"."
+msgstr "Typeset generic topic as \"quote block with title\"."
+
+#: ../../source/release/HISTORY.rst:935
+msgid "Use template (file and configuration option)."
+msgstr "Use template (file and configuration option)."
+
+#: ../../source/release/HISTORY.rst:936
+msgid ""
+"In the default template, load cmap.sty (fix text extraction in PDF) and "
+"fixltx2e.sty (LaTeX patches, \\textsubscript)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:938
+msgid "Render doctest blocks as literal blocks (fixes [ 1586058 ])."
+msgstr "Render doctest blocks as literal blocks (fixes [ 1586058 ])."
+
+#: ../../source/release/HISTORY.rst:939
+msgid "Use `translate` instead of repeated `replace` calls for text encoding."
+msgstr "Use `translate` instead of repeated `replace` calls for text encoding."
+
+#: ../../source/release/HISTORY.rst:940
+msgid ""
+"Hyperlinked footnotes and support for symbol footnotes and ``--footnote-"
+"references=brackets`` with ``--use-latex-footnotes``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:942
+msgid ""
+"Complete pairs of binary options (``--figure-footnotes, --figure-"
+"citations, --link-stylesheet``, ``--use-docutils-toc, --use-docutils-"
+"docinfo, --topic-abstract``)"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:945
+msgid ""
+"New defaults: - font-encoding: \"T1\" (formerly implicitely set by 'ae')."
+" - use-latex-toc: true (ToC with page numbers). - use-latex-footnotes: "
+"true (no mixup with figures)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:952
+msgid "Do not print version at document end, this is done by the viewer."
+msgstr "Do not print version at document end, this is done by the viewer."
+
+#: ../../source/release/HISTORY.rst:953
+msgid "Do not print date at document end, this is done by the viewer."
+msgstr "Do not print date at document end, this is done by the viewer."
+
+#: ../../source/release/HISTORY.rst:954
+msgid "Fix storage of docinfo fields for none standard fields."
+msgstr "Fix storage of docinfo fields for none standard fields."
+
+#: ../../source/release/HISTORY.rst:956
+msgid "docutils/tools/rst2man.py"
+msgstr "docutils/tools/rst2man.py"
+
+#: ../../source/release/HISTORY.rst:959
+msgid "Release 0.5 (2008-06-25)"
+msgstr "Release 0.5 (2008-06-25)"
+
+#: ../../source/release/HISTORY.rst:961
+msgid ""
+"docutils/languages/he.py: Added to project: Hebrew mappings by Meir "
+"Kriheli."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:964
+msgid ""
+"docutils/parsers/rst/languages/he.py: Added to project: Hebrew mappings "
+"by Meir Kriheli."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:967 ../../source/release/HISTORY.rst:1602
+#: ../../source/release/HISTORY.rst:1845 ../../source/release/HISTORY.rst:1966
+msgid "docutils/frontend.py:"
+msgstr "docutils/frontend.py:"
+
+#: ../../source/release/HISTORY.rst:969
+msgid "Configuration files are now assumed and required to be UTF-8-encoded."
+msgstr "Configuration files are now assumed and required to be UTF-8-encoded."
+
+#: ../../source/release/HISTORY.rst:971
+msgid ""
+"Paths of applied configuration files are now recorded in the runtime "
+"setting ``_config_files`` (accessible via ``--dump-settings``)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:974
+msgid ""
+"Added ``--strip-elements-with-class`` and ``--strip-class`` options "
+"(``strip_elements_with_classes`` and ``strip_classes`` settings)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:980
+msgid ""
+"Added code to determine the input encoding from data: encoding "
+"declarations or the presence of byte order marks (UTF-8 & UTF-16)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:982
+msgid "Added support for IronPython 1.0."
+msgstr "Added support for IronPython 1.0."
+
+#: ../../source/release/HISTORY.rst:986
+msgid "Added ``document.__getstate__`` method, for pickling."
+msgstr "Added ``document.__getstate__`` method, for pickling."
+
+#: ../../source/release/HISTORY.rst:990
+msgid "Allow ``+`` and ``:`` in reference names."
+msgstr "Allow ``+`` and ``:`` in reference names."
+
+#: ../../source/release/HISTORY.rst:991
+msgid ""
+"Unquoted targets beginning with an underscore (``.. __target: URI``) are "
+"no longer accepted."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:993
+msgid ""
+"Added support for multiple attributions in a physical block quote "
+"(indented text block), dividing it into multiple logical block quotes."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:996
+msgid ""
+"Added support for unicode bullets in bullet lists: \"鈥�\", \"鈥�\", and "
+"\"鈦�\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:998
+msgid ""
+"Added support for new object-oriented directive interface, retaining "
+"compatibility to the old functional interface."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1000
+msgid ""
+"Added support for throwing ``DirectiveError``'s from within directive "
+"code."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1003 ../../source/release/HISTORY.rst:1198
+#: ../../source/release/HISTORY.rst:1464 ../../source/release/HISTORY.rst:1852
+msgid "docutils/parsers/rst/__init__.py:"
+msgstr "docutils/parsers/rst/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1005
+msgid "Added ``Directive`` base class."
+msgstr "Added ``Directive`` base class."
+
+#: ../../source/release/HISTORY.rst:1006
+msgid "Added ``DirectiveError`` base class."
+msgstr "Added ``DirectiveError`` base class."
+
+#: ../../source/release/HISTORY.rst:1007
+msgid "Fixed ``file_insertion_enabled`` & ``raw_enabled`` setting definitions."
+msgstr "Fixed ``file_insertion_enabled`` & ``raw_enabled`` setting definitions."
+
+#: ../../source/release/HISTORY.rst:1010
+msgid "docutils/parsers/directives/:"
+msgstr "docutils/parsers/directives/:"
+
+#: ../../source/release/HISTORY.rst:1012
+msgid ""
+"Refactored all reStructuredText directives to use the new object-oriented"
+" directive interface.  Errors are now (mostly) thrown using the new "
+"``DirectiveError`` class."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1018
+msgid ""
+"Added ``start-after`` and ``end-before`` options to ``include`` "
+"directive; thanks to Stefan Rank."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1023
+msgid ""
+"Added ``StripClassesAndElements`` transform to remove from the document "
+"tree all elements with classes in "
+"``settings.strip_elements_with_classes`` and all \"classes\" attribute "
+"values in ``self.document.settings.strip_classes``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1028
+msgid "docutils/transforms/writer_aux.py:"
+msgstr "docutils/transforms/writer_aux.py:"
+
+#: ../../source/release/HISTORY.rst:1030
+msgid ""
+"Added ``Admonitions`` transform to transform specific admonitions (like "
+"``note``, ``warning``, etc.) into generic admonitions with a localized "
+"title."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1036
+msgid "Moved template functionality from the PEP/HTML writer here."
+msgstr "Moved template functionality from the PEP/HTML writer here."
+
+#: ../../source/release/HISTORY.rst:1037
+msgid "Expanded the fragments available in the ``parts`` attribute."
+msgstr "Expanded the fragments available in the ``parts`` attribute."
+
+#: ../../source/release/HISTORY.rst:1038
+msgid "Moved ``id`` attributes from titles to surrounding ``div`` elements."
+msgstr "Moved ``id`` attributes from titles to surrounding ``div`` elements."
+
+#: ../../source/release/HISTORY.rst:1040
+msgid ""
+"Dropped all ``name`` attributes of ``a`` elements (``id`` is universally "
+"supported now)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1042
+msgid ""
+"``template.txt`` is now opened in text mode instead of binary mode (to "
+"ensure Windows compatibility)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1044
+msgid ""
+"``a`` elements now have an \"internal\" or \"external\" class, depending "
+"on reference type."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1047
+msgid "docutils/writers/html4css1/template.txt: Added to project."
+msgstr "docutils/writers/html4css1/template.txt: Added to project."
+
+#: ../../source/release/HISTORY.rst:1049
+msgid "docutils/writers/pep_html/:"
+msgstr "docutils/writers/pep_html/:"
+
+#: ../../source/release/HISTORY.rst:1051
+msgid "Moved template functionality to the HTML writer."
+msgstr "Moved template functionality to the HTML writer."
+
+#: ../../source/release/HISTORY.rst:1053
+msgid "docutils/writers/s5_html/__init__.py:"
+msgstr "docutils/writers/s5_html/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1055
+msgid ""
+"Added ``view_mode`` & ``hidden_controls`` settings (``--view-mode`` & "
+"``--hidden-controls/--visible-controls`` options)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1061
+msgid "Add ``--literal-block-env``"
+msgstr "Add ``--literal-block-env``"
+
+#: ../../source/release/HISTORY.rst:1062
+msgid "Fix: escaping ``%`` in href urls."
+msgstr "Fix: escaping ``%`` in href urls."
+
+#: ../../source/release/HISTORY.rst:1063
+msgid "Move usepackage hyperref after stylesheet inclusion."
+msgstr "Move usepackage hyperref after stylesheet inclusion."
+
+#: ../../source/release/HISTORY.rst:1064
+msgid "Fix: scrartcl does not have chapter but scrreprt."
+msgstr "Fix: scrartcl does not have chapter but scrreprt."
+
+#: ../../source/release/HISTORY.rst:1065
+msgid "Add newline after ``\\end{verbatim}``."
+msgstr "Add newline after ``\\end{verbatim}``."
+
+#: ../../source/release/HISTORY.rst:1066
+msgid "Merge smaller differences from latex2e_adaptive_preamble."
+msgstr "Merge smaller differences from latex2e_adaptive_preamble."
+
+#: ../../source/release/HISTORY.rst:1067
+msgid "Add ``use-part-section``."
+msgstr "Add ``use-part-section``."
+
+#: ../../source/release/HISTORY.rst:1068
+msgid ""
+"Put leavevmode before longtable to avoid having it moved before "
+"sub/pargraph."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1069
+msgid ""
+"Using leavemode option_list no longer needs to check if parent is a "
+"definition list."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1071
+msgid "Append ``\\leavemode`` to definition list terms."
+msgstr "Append ``\\leavemode`` to definition list terms."
+
+#: ../../source/release/HISTORY.rst:1072
+msgid "No longer write visit\\_/depart_definition_list_item comments to output."
+msgstr "No longer write visit\\_/depart_definition_list_item comments to output."
+
+#: ../../source/release/HISTORY.rst:1074
+msgid "Table column width with 3 decimal places."
+msgstr "Table column width with 3 decimal places."
+
+#: ../../source/release/HISTORY.rst:1075
+msgid "Add table stubs support (boldfont)."
+msgstr "Add table stubs support (boldfont)."
+
+#: ../../source/release/HISTORY.rst:1076
+msgid "Add assemble_parts to writer."
+msgstr "Add assemble_parts to writer."
+
+#: ../../source/release/HISTORY.rst:1077
+msgid "Add simply support for nested tables."
+msgstr "Add simply support for nested tables."
+
+#: ../../source/release/HISTORY.rst:1078
+msgid "Fix verbatim in tables if use-verbatim-when-possible."
+msgstr "Fix verbatim in tables if use-verbatim-when-possible."
+
+#: ../../source/release/HISTORY.rst:1079
+msgid "Use section commands down to subparagraph."
+msgstr "Use section commands down to subparagraph."
+
+#: ../../source/release/HISTORY.rst:1080
+msgid "Put ensuremath around some latin1 chars."
+msgstr "Put ensuremath around some latin1 chars."
+
+#: ../../source/release/HISTORY.rst:1081
+msgid "Set ``usepackage[utf8x]{inputenc}`` for utf-8."
+msgstr "Set ``usepackage[utf8x]{inputenc}`` for utf-8."
+
+#: ../../source/release/HISTORY.rst:1082
+msgid "New option ``--use-bibtex=style,db1,db2``."
+msgstr "New option ``--use-bibtex=style,db1,db2``."
+
+#: ../../source/release/HISTORY.rst:1083
+msgid ""
+"New option ``--reference-label`` to allow usage of LaTeX ref for labels "
+"in section references."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1085
+msgid ""
+"Add a label after every section to support sectionnumbers as reference "
+"labels."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1087
+msgid "Fix: bug# 1605376 rst2latex: bad options group list"
+msgstr "Fix: bug# 1605376 rst2latex: bad options group list"
+
+#: ../../source/release/HISTORY.rst:1088
+msgid "Remove inactive code for use_optionlist_for_option_list."
+msgstr "Remove inactive code for use_optionlist_for_option_list."
+
+#: ../../source/release/HISTORY.rst:1089
+msgid "Remove latex comments from option_list output."
+msgstr "Remove latex comments from option_list output."
+
+#: ../../source/release/HISTORY.rst:1090
+msgid "Fix: bug# 1612270 double qoutes in italian literal."
+msgstr "Fix: bug# 1612270 double qoutes in italian literal."
+
+#: ../../source/release/HISTORY.rst:1091
+msgid "Fix: output ``hypertarget{ node.get(refid) }{}`` from visit_target."
+msgstr "Fix: output ``hypertarget{ node.get(refid) }{}`` from visit_target."
+
+#: ../../source/release/HISTORY.rst:1092
+msgid "Add option --use-latex-abstract."
+msgstr "Add option --use-latex-abstract."
+
+#: ../../source/release/HISTORY.rst:1093
+msgid "Image width unit ``px`` is translated to ``pt``."
+msgstr "Image width unit ``px`` is translated to ``pt``."
+
+#: ../../source/release/HISTORY.rst:1094
+msgid "Add image height support."
+msgstr "Add image height support."
+
+#: ../../source/release/HISTORY.rst:1095
+msgid "Fix: image width ``70%`` is converted ``0.700\\linewidth``. bug #1457388"
+msgstr "Fix: image width ``70%`` is converted ``0.700\\linewidth``. bug #1457388"
+
+#: ../../source/release/HISTORY.rst:1097
+msgid ""
+"Fix: Do not escape underscores in citation reference labels if use-latex-"
+"citations is set."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1099
+msgid ""
+"Use centering instead of center for figure contents, to avoid vertical "
+"space."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1101
+msgid "Recognize table class: borderless, nolines, booktabs, standard."
+msgstr "Recognize table class: borderless, nolines, booktabs, standard."
+
+#: ../../source/release/HISTORY.rst:1102
+msgid ""
+"Fix: Renaming contents section does not work with latex writer; SF bug "
+"#1487405."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1104
+msgid "Applied patch for custom roles with classes from Edward Loper."
+msgstr "Applied patch for custom roles with classes from Edward Loper."
+
+#: ../../source/release/HISTORY.rst:1105
+msgid "Fixed bug that caused crashes with more than 256 lists."
+msgstr "Fixed bug that caused crashes with more than 256 lists."
+
+#: ../../source/release/HISTORY.rst:1107
+msgid "docutils/writers/pep_html/__init__.py:"
+msgstr "docutils/writers/pep_html/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1109
+msgid "Changed to support new python.org website structure and pep2pyramid.py."
+msgstr "Changed to support new python.org website structure and pep2pyramid.py."
+
+#: ../../source/release/HISTORY.rst:1112
+msgid ""
+"docs/howto/security.txt: \"Deploying Docutils Securely\", added to "
+"project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1118
+msgid "-- Added ``ignore`` setting to exclude a list of shell patterns"
+msgstr "-- Added ``ignore`` setting to exclude a list of shell patterns"
+
+#: ../../source/release/HISTORY.rst:1118
+msgid "(default: ``.svn:CVS``)."
+msgstr "(default: ``.svn:CVS``)."
+
+#: ../../source/release/HISTORY.rst:1122
+msgid "Changed license to \"GPL\"."
+msgstr "Changed license to \"GPL\"."
+
+#: ../../source/release/HISTORY.rst:1123
+msgid "Added ``rst-straighten-decorations`` function."
+msgstr "Added ``rst-straighten-decorations`` function."
+
+#: ../../source/release/HISTORY.rst:1124
+msgid "The ``compile`` module is now always loaded."
+msgstr "The ``compile`` module is now always loaded."
+
+#: ../../source/release/HISTORY.rst:1125
+msgid "Added ``rst-toggle-line-block`` function."
+msgstr "Added ``rst-toggle-line-block`` function."
+
+#: ../../source/release/HISTORY.rst:1126
+msgid ""
+"Headings consisting only of non-ASCII characters are now recognized by "
+"``rst-toc`` and ``rst-adjust``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1128
+msgid ""
+"Added font-lock support for multi-line comments where the first comment "
+"line is empty."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1130
+msgid "Added ``(require 'font-lock)``."
+msgstr "Added ``(require 'font-lock)``."
+
+#: ../../source/release/HISTORY.rst:1134
+msgid "Provide descriptive error message if distutils is missing."
+msgstr "Provide descriptive error message if distutils is missing."
+
+#: ../../source/release/HISTORY.rst:1138
+msgid "Release 0.4 (2006-01-09)"
+msgstr "Release 0.4 (2006-01-09)"
+
+#: ../../source/release/HISTORY.rst:1142
+msgid ""
+"Updated the project policies for trunk/branch development & version "
+"numbering."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1145 ../../source/release/HISTORY.rst:1824
+#: ../../source/release/HISTORY.rst:1944
+msgid "docutils/__init__.py:"
+msgstr "docutils/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1147
+msgid ""
+"Added ``__version_details__`` attribute to describe code source "
+"(repository/snapshot/release)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1149
+msgid ""
+"Replaced ``default_transforms`` attribute of TransformSpec with "
+"``get_transforms()`` method."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1154
+msgid ""
+"Added ``publish_doctree`` and ``publish_from_doctree`` convenience "
+"functions, for document tree extraction and reprocessing."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1159
+msgid "Added ``DocTreeInput`` class, for reprocessing existing documents."
+msgstr "Added ``DocTreeInput`` class, for reprocessing existing documents."
+
+#: ../../source/release/HISTORY.rst:1160
+msgid "Added support for non-Unicode (e.g. binary) writer output."
+msgstr "Added support for non-Unicode (e.g. binary) writer output."
+
+#: ../../source/release/HISTORY.rst:1164
+msgid ""
+"Re-introduced ``Targetable.indirect_reference_name``, for MoinMoin/reST "
+"compatibility (removed in r3124/r3129)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1166
+msgid ""
+"Added ``serial_escape`` function; escapes string values that are elements"
+" of a list, for serialization.  Modified Docutils-XML writing "
+"(``Element._dom_node``) and pseudo-XML writing (``Element.starttag``) to "
+"use ``serial_escape``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1170
+msgid "Added ``Node.deepcopy()`` method."
+msgstr "Added ``Node.deepcopy()`` method."
+
+#: ../../source/release/HISTORY.rst:1171
+msgid ""
+"Removed the internal lists ``document.substitution_refs``, "
+"``document.anonymous_refs``, and ``document.anonymous_targets``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1173
+msgid "Added a \"container\" element."
+msgstr "Added a \"container\" element."
+
+#: ../../source/release/HISTORY.rst:1174
+msgid ""
+"Fixed bug where values of list-valued attributes of elements originating "
+"from custom interpreted text roles (i.e., with custom classes) were being"
+" shared between element instances.  Reported by Shmuel Zeigerman."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1179 ../../source/release/HISTORY.rst:2002
+msgid "docutils/statemachine.py:"
+msgstr "docutils/statemachine.py:"
+
+#: ../../source/release/HISTORY.rst:1181
+msgid "Added trailing whitespace stripping to ``string2lines()``."
+msgstr "Added trailing whitespace stripping to ``string2lines()``."
+
+#: ../../source/release/HISTORY.rst:1182
+msgid ""
+"Added ``StringList.pad_double_width()`` & ``.replace()`` for East Asian "
+"double-width character support."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1187
+msgid "Added ``east_asian_column_width()`` for double-width character support."
+msgstr "Added ``east_asian_column_width()`` for double-width character support."
+
+#: ../../source/release/HISTORY.rst:1190
+msgid ""
+"docutils/languages/ja.py: Added to project: Japanese mappings by Hisashi "
+"Morita."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1193
+msgid ""
+"docutils/languages/zh_cn.py: Added to project: Simplified Chinese "
+"mappings by Panjunyong."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1196
+msgid "docutils/parsers/null.py: Added to project; a do-nothing parser."
+msgstr "docutils/parsers/null.py: Added to project; a do-nothing parser."
+
+#: ../../source/release/HISTORY.rst:1200
+msgid ""
+"Added validator to tab_width setting, with test.  Closes SF bug #1212515,"
+" report from Wu Wei."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1205
+msgid "Fixed bug with escaped colons indicating a literal block."
+msgstr "Fixed bug with escaped colons indicating a literal block."
+
+#: ../../source/release/HISTORY.rst:1206
+msgid "Fixed bug with enumerated lists (SF#1254145)."
+msgstr "Fixed bug with enumerated lists (SF#1254145)."
+
+#: ../../source/release/HISTORY.rst:1207
+msgid "Backslash-escaped colons inside of field names are now allowed."
+msgstr "Backslash-escaped colons inside of field names are now allowed."
+
+#: ../../source/release/HISTORY.rst:1208
+msgid ""
+"Targets (implicit and explicit), anonymous hyperlink references and auto-"
+"numbered footnote references inside of substitution definitions are now "
+"disallowed."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1211
+msgid "Fixed bug: list items with blank first lines."
+msgstr "Fixed bug: list items with blank first lines."
+
+#: ../../source/release/HISTORY.rst:1212
+msgid "Fixed bug: block quote attributions with indented second lines."
+msgstr "Fixed bug: block quote attributions with indented second lines."
+
+#: ../../source/release/HISTORY.rst:1213 ../../source/release/HISTORY.rst:1217
+msgid "Added East Asian double-width character support (Python 2.4 only)."
+msgstr "Added East Asian double-width character support (Python 2.4 only)."
+
+#: ../../source/release/HISTORY.rst:1215 ../../source/release/HISTORY.rst:2059
+msgid "docutils/parsers/rst/tableparser.py:"
+msgstr "docutils/parsers/rst/tableparser.py:"
+
+#: ../../source/release/HISTORY.rst:1219 ../../source/release/HISTORY.rst:1484
+#: ../../source/release/HISTORY.rst:1654 ../../source/release/HISTORY.rst:1864
+#: ../../source/release/HISTORY.rst:2071
+msgid "docutils/parsers/rst/directives/body.py:"
+msgstr "docutils/parsers/rst/directives/body.py:"
+
+#: ../../source/release/HISTORY.rst:1221
+msgid "Added the \"container\" directive."
+msgstr "Added the \"container\" directive."
+
+#: ../../source/release/HISTORY.rst:1225
+msgid "Added the \"default-role\", \"title\", and \"date\" directives."
+msgstr "Added the \"default-role\", \"title\", and \"date\" directives."
+
+#: ../../source/release/HISTORY.rst:1226
+msgid "Added standard data file syntax to the \"include\" directive."
+msgstr "Added standard data file syntax to the \"include\" directive."
+
+#: ../../source/release/HISTORY.rst:1227
+msgid "Added support for \"class\" directive content."
+msgstr "Added support for \"class\" directive content."
+
+#: ../../source/release/HISTORY.rst:1231
+msgid "Added ``indirect_reference_name`` support for images with a target option."
+msgstr "Added ``indirect_reference_name`` support for images with a target option."
+
+#: ../../source/release/HISTORY.rst:1233 ../../source/release/HISTORY.rst:1322
+msgid "Added support for image width and height units."
+msgstr "Added support for image width and height units."
+
+#: ../../source/release/HISTORY.rst:1234
+msgid "Fixed bug with image \"target\" options."
+msgstr "Fixed bug with image \"target\" options."
+
+#: ../../source/release/HISTORY.rst:1236
+msgid "docutils/parsers/rst/directives/references.py:"
+msgstr "docutils/parsers/rst/directives/references.py:"
+
+#: ../../source/release/HISTORY.rst:1238
+msgid ""
+"Added \"class\" attribute to \"target-notes\" directive, for "
+"footnote_reference classes."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1241
+msgid ""
+"docutils/parsers/rst/include/: Directory added to project; contains "
+"standard data files for the \"include\" directive.  Initial contents: "
+"character entity substitution definition sets, and a set of definitions "
+"for S5/HTML presentations."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1246
+msgid ""
+"docutils/parsers/rst/languages/ja.py: Added to project: Japanese mappings"
+" by David Goodger."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1249
+msgid ""
+"docutils/parsers/rst/languages/zh_cn.py: Added to project: Simplified "
+"Chinese mappings by Panjunyong."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1252
+msgid "docutils/readers/__init__.py:"
+msgstr "docutils/readers/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1254
+msgid ""
+"Added universal.Decorations and universal.ExposeInternals transforms as "
+"default transforms for all readers."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1256
+msgid ""
+"Added ``ReReader`` base class for readers that reread an existing "
+"document tree."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1259
+msgid ""
+"docutils/readers/doctree.py: Added to project; a reader for existing "
+"document trees."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1264
+msgid ""
+"Fixed the DocInfo transform to handle SVN-style expansion of the \"Date\""
+" keyword."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1266
+msgid ""
+"In ``DocInfo.extract_authors``, treat the contents of \"authors\" fields "
+"uniformly."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1269 ../../source/release/HISTORY.rst:1678
+msgid "docutils/transforms/misc.py:"
+msgstr "docutils/transforms/misc.py:"
+
+#: ../../source/release/HISTORY.rst:1271
+msgid "Added misc.Transitions transform, extracted from universal.FinalChecks."
+msgstr "Added misc.Transitions transform, extracted from universal.FinalChecks."
+
+#: ../../source/release/HISTORY.rst:1276
+msgid ""
+"Added references.DanglingReferences transform, extracted from "
+"universal.FinalChecks."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1278
+msgid "Fixed bug with doubly-indirect substitutions."
+msgstr "Fixed bug with doubly-indirect substitutions."
+
+#: ../../source/release/HISTORY.rst:1279
+msgid "Added footnote_reference classes attribute to \"TargetNotes\"."
+msgstr "Added footnote_reference classes attribute to \"TargetNotes\"."
+
+#: ../../source/release/HISTORY.rst:1280
+msgid ""
+"Fixed bug with circular substitution definitions that put Docutils into "
+"an infinite loop."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1285
+msgid ""
+"Added universal.ExposeInternals transform, extracted from "
+"universal.FinalChecks."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1287
+msgid ""
+"Removed universal.FinalChecks transform (logic has been moved to several "
+"new transforms)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1289
+msgid ""
+"Fixed bug with the \"expose_internals\" setting and Text nodes (exposed "
+"by the \"rawsource\" internal attribute)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1291
+msgid ""
+"Added the universal.StripComments transform, implementation of the "
+"\"strip_comments\" setting."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1294
+msgid ""
+"docutils/transforms/writer_aux.py: Added to project; auxiliary transforms"
+" for writers."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1297
+msgid "Added ``Compound`` transform, which flattens compound paragraphs."
+msgstr "Added ``Compound`` transform, which flattens compound paragraphs."
+
+#: ../../source/release/HISTORY.rst:1299
+msgid ""
+"docutils/writers/: Several writer modules (html4css1.py) were converted "
+"into packages.  Support modules and data files have been moved into the "
+"packages.  The stylesheets for the HTML writers are now installed along "
+"with the code, the code knows where to find them, and the default is to "
+"use them (actually, to embed them). Some adjustments to configuration "
+"files may be necessary.  The easiest way to obtain the new default "
+"behavior is to remove all settings whose name includes \"stylesheet\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1308 ../../source/release/HISTORY.rst:2136
+msgid "docutils/writers/__init__.py:"
+msgstr "docutils/writers/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1310
+msgid ""
+"Added universal.Messages and universal.FilterMessages transforms as "
+"default transforms for all writers."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1312
+msgid ""
+"Added ``UnfilteredWriter`` base class for writers that pass the document "
+"tree on unchanged."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1315
+msgid "docutils/writers/docutils_xml.py:"
+msgstr "docutils/writers/docutils_xml.py:"
+
+#: ../../source/release/HISTORY.rst:1317 ../../source/release/HISTORY.rst:1323
+msgid "Made ``xmlcharrefreplace`` the default output encoding error handler."
+msgstr "Made ``xmlcharrefreplace`` the default output encoding error handler."
+
+#: ../../source/release/HISTORY.rst:1320
+msgid "docutils/writers/html4css1/:"
+msgstr "docutils/writers/html4css1/:"
+
+#: ../../source/release/HISTORY.rst:1325
+msgid "Made ``--embed-stylesheet`` the default rather than ``--link-stylesheet``."
+msgstr "Made ``--embed-stylesheet`` the default rather than ``--link-stylesheet``."
+
+#: ../../source/release/HISTORY.rst:1327
+msgid ""
+"Moved \"id\" attribute from container (section etc.) to title's <a> tag, "
+"to be on the same tag as \"name\". (!!! To be reverted in Docutils 0.5.)"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1330
+msgid "Added vertical space between fields of field lists."
+msgstr "Added vertical space between fields of field lists."
+
+#: ../../source/release/HISTORY.rst:1331
+msgid ""
+"Added ``--compact-field-lists`` option to remove vertical space in simple"
+" field lists."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1333
+msgid ""
+"Made cloaking of email addresses with ``--cloak-email-addresses`` less "
+"obtrusive."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1335
+msgid "Fixed support for centered images."
+msgstr "Fixed support for centered images."
+
+#: ../../source/release/HISTORY.rst:1336
+msgid "Added support for class=\"compact\" & class=\"open\" lists."
+msgstr "Added support for class=\"compact\" & class=\"open\" lists."
+
+#: ../../source/release/HISTORY.rst:1338
+msgid "docutils/writers/latex2e/:"
+msgstr "docutils/writers/latex2e/:"
+
+#: ../../source/release/HISTORY.rst:1340
+msgid "Underscores in citekeys are no longer escaped."
+msgstr "Underscores in citekeys are no longer escaped."
+
+#: ../../source/release/HISTORY.rst:1342
+msgid ""
+"docutils/writers/newlatex2e/unicode_map.py: Added to project; mapping of "
+"Unicode characters to LaTeX equivalents."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1345
+msgid ""
+"docutils/writers/s5_html/: Package added to project; writer for S5/HTML "
+"slide shows."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1348
+msgid ""
+"docs/dev/distributing.txt: Added to project; guide for distributors "
+"(package maintainers)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1351
+msgid "docs/dev/hacking.txt: Added to project; guide for developers."
+msgstr "docs/dev/hacking.txt: Added to project; guide for developers."
+
+#: ../../source/release/HISTORY.rst:1353
+msgid "docs/ref/doctree.txt:"
+msgstr "docs/ref/doctree.txt:"
+
+#: ../../source/release/HISTORY.rst:1355 ../../source/release/HISTORY.rst:1361
+msgid ""
+"Updated for plural attributes \"classes\", \"ids\", \"names\", "
+"\"dupnames\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1357
+msgid "Added the \"container\" element."
+msgstr "Added the \"container\" element."
+
+#: ../../source/release/HISTORY.rst:1364
+msgid ""
+"docs/user/emacs.txt: Added to project; a document about Emacs support for"
+" reStructuredText and Docutils."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1367
+msgid "docs/user/links.txt: Added to project; lists of Docutils-related links."
+msgstr "docs/user/links.txt: Added to project; lists of Docutils-related links."
+
+#: ../../source/release/HISTORY.rst:1370
+msgid ""
+"docs/user/mailing-lists.txt: Added to project; information about "
+"Docutils-related mailing lists and how to access them."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1373
+msgid ""
+"docs/user/slide-shows.txt: Added to project; example of and docs for the "
+"S5/HTML writer (``rst2s5.py`` front end)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1376
+msgid ""
+"docs/ref/rst/definitions.txt: \"reStructuredText Standard Definition "
+"Files\", added to project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1379
+msgid "test/coverage.sh: Added to project; test coverage script."
+msgstr "test/coverage.sh: Added to project; test coverage script."
+
+#: ../../source/release/HISTORY.rst:1381
+msgid "test/DocutilsTestSupport.py:"
+msgstr "test/DocutilsTestSupport.py:"
+
+#: ../../source/release/HISTORY.rst:1383
+msgid "Added support for specifying runtime settings at the suite level."
+msgstr "Added support for specifying runtime settings at the suite level."
+
+#: ../../source/release/HISTORY.rst:1385
+msgid "test/test_functional.py:"
+msgstr "test/test_functional.py:"
+
+#: ../../source/release/HISTORY.rst:1387
+msgid "Added the ``clear_output_directory`` function."
+msgstr "Added the ``clear_output_directory`` function."
+
+#: ../../source/release/HISTORY.rst:1388
+msgid ""
+"Added support for ``_test_more`` functions in functional test config "
+"files."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1391
+msgid "tools/rst2s5.py: Added to project; front end for the S5/HTML writer."
+msgstr "tools/rst2s5.py: Added to project; front end for the S5/HTML writer."
+
+#: ../../source/release/HISTORY.rst:1393
+msgid "tools/rstpep2html.py: Renamed from pep.py."
+msgstr "tools/rstpep2html.py: Renamed from pep.py."
+
+#: ../../source/release/HISTORY.rst:1395
+msgid ""
+"tools/dev/create_unimap.py: Added to project; script to create the "
+"docutils/writers/unimap_latex.py mapping file."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1398
+msgid "tools/dev/profile_docutils.py: Added to project; profiler script."
+msgstr "tools/dev/profile_docutils.py: Added to project; profiler script."
+
+#: ../../source/release/HISTORY.rst:1400
+msgid "tools/dev/unicode2rstsubs.py: Moved from tools/unicode2rstsubs.py."
+msgstr "tools/dev/unicode2rstsubs.py: Moved from tools/unicode2rstsubs.py."
+
+#: ../../source/release/HISTORY.rst:1402
+msgid ""
+"tools/editors/emacs/restructuredtext.el, tools/editors/emacs/rst-html.el,"
+" tools/editors/emacs/rst-mode.el: Removed from project; the functionality"
+" is now contained in rst.el."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1406
+msgid ""
+"tools/editors/emacs/rst.el: Added to project.  Added many features and "
+"fixed many bugs.  See docs/user/emacs.txt for details."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1409
+msgid ""
+"tools/stylesheets: Removed from project.  Stylesheets have been renamed "
+"and moved into writer packages."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1414
+msgid "Release 0.3.9 (2005-05-26)"
+msgstr "Release 0.3.9 (2005-05-26)"
+
+#: ../../source/release/HISTORY.rst:1418
+msgid ""
+"Eliminated and replaced all uses of the old string attributes ``id``, "
+"``name``, ``dupname`` and ``class`` with references to the new list "
+"attributes ``ids``, ``names``, ``dupnames`` and ``classes`` throughout "
+"the whole source tree."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1425
+msgid ""
+"Enabled ``--dump-*`` options when ``--traceback`` specified, allowing for"
+" easier debugging."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1427
+msgid ""
+"In ``Publisher.publish()``, expanded the generic top-level exception "
+"catching."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1430
+msgid "docutils/examples.py:"
+msgstr "docutils/examples.py:"
+
+#: ../../source/release/HISTORY.rst:1432
+msgid "Added ``internals`` function for exploration."
+msgstr "Added ``internals`` function for exploration."
+
+#: ../../source/release/HISTORY.rst:1436
+msgid ""
+"Fixed ``Input.decode`` method to apply heuristics only if no encoding is "
+"explicitly given, and to provide better reporting of decoding errors."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1439
+msgid ""
+"The ``Input.decode`` method now removes byte order marks (BOMs) from "
+"input streams."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1444
+msgid ""
+"``image`` element class changed to subclass of Element, not TextElement "
+"(it's an empty element, and cannot contain text)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1446
+msgid "Added ``attr_defaults`` dictionary for default attribute values."
+msgstr "Added ``attr_defaults`` dictionary for default attribute values."
+
+#: ../../source/release/HISTORY.rst:1447
+msgid ""
+"Added empty list as default value for the following attributes: ``ids``, "
+"``names``, ``dupnames``, ``classes``, and ``backrefs``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1449
+msgid ""
+"Added ``document.decoration`` attribute, ``document.get_decoration`` "
+"method, and ``decoration.get_header`` & ``.get_footer`` methods."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1452
+msgid ""
+"Added ``Element.update_basic_atts()`` and ``Element.substitute()`` "
+"methods."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1457
+msgid ""
+"Removed ``docutils.utils.Reporter.categories``, "
+"``docutils.utils.ConditionSet``, and all references to them, to simplify "
+"error reporting."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1461
+msgid ""
+"docutils/languages/nl.py: Added to project; Dutch mappings by Martijn "
+"Pieters."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1466
+msgid "Added settings: ``file_insertion_enabled`` & ``raw_enabled``."
+msgstr "Added settings: ``file_insertion_enabled`` & ``raw_enabled``."
+
+#: ../../source/release/HISTORY.rst:1470
+msgid "Added check for escaped at-mark to prevent email address recognition."
+msgstr "Added check for escaped at-mark to prevent email address recognition."
+
+#: ../../source/release/HISTORY.rst:1471
+msgid ""
+"Fixed option lists to allow spaces inside ``<angle-bracketed option "
+"arguments>``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1473
+msgid "Allowed whitespace in paths and URLs."
+msgstr "Allowed whitespace in paths and URLs."
+
+#: ../../source/release/HISTORY.rst:1474
+msgid "Added auto-enumerated list items."
+msgstr "Added auto-enumerated list items."
+
+#: ../../source/release/HISTORY.rst:1475
+msgid ""
+"Fixed bug that assumed ``.. _`` and ``.. |`` were invariably followed by "
+"text."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1477 ../../source/release/HISTORY.rst:1556
+msgid "Added support for table stub columns."
+msgstr "Added support for table stub columns."
+
+#: ../../source/release/HISTORY.rst:1479 ../../source/release/HISTORY.rst:1649
+#: ../../source/release/HISTORY.rst:1860 ../../source/release/HISTORY.rst:2064
+msgid "docutils/parsers/rst/directives/__init__.py:"
+msgstr "docutils/parsers/rst/directives/__init__.py:"
+
+#: ../../source/release/HISTORY.rst:1481
+msgid "Allowed whitespace in paths (``path`` function)."
+msgstr "Allowed whitespace in paths (``path`` function)."
+
+#: ../../source/release/HISTORY.rst:1482
+msgid "Added ``uri`` directive option conversion function."
+msgstr "Added ``uri`` directive option conversion function."
+
+#: ../../source/release/HISTORY.rst:1486
+msgid ""
+"Fixed illegal context bug with \"topic\" directive (allowed within "
+"sidebars; not within body elements)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1491
+msgid "Allowed whitespace (stripped) in \"image\" & \"figure\" directive URLs."
+msgstr "Allowed whitespace (stripped) in \"image\" & \"figure\" directive URLs."
+
+#: ../../source/release/HISTORY.rst:1492
+msgid ""
+"Added support for the ``file_insertion_enabled`` setting in the "
+"\"figure\" directive (disables \"figwidth\" option)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1494
+msgid ""
+"\"image\" directive: added checks for valid values of \"align\" option, "
+"depending on context.  \"figure\" directive: added specialized \"align\" "
+"option and attribute on \"figure\" element."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1497
+msgid "Made \":figwidth: image\" option of \"figure\" directive work again."
+msgstr "Made \":figwidth: image\" option of \"figure\" directive work again."
+
+#: ../../source/release/HISTORY.rst:1498
+msgid ""
+"Fixed bug with reference names containing uppercase letters (e.g. "
+"``Name_``) in \"target\" option of \"image\" directive."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1503
+msgid "Fixed \"include\" and \"raw\" directives to catch text decoding errors."
+msgstr "Fixed \"include\" and \"raw\" directives to catch text decoding errors."
+
+#: ../../source/release/HISTORY.rst:1505
+msgid "Allowed whitespace in \"include\" & \"raw\" directive paths."
+msgstr "Allowed whitespace in \"include\" & \"raw\" directive paths."
+
+#: ../../source/release/HISTORY.rst:1506
+msgid ""
+"Added support for ``file_insertion_enabled`` & ``raw_enabled`` settings "
+"in \"include\" & \"raw\" directives."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1509 ../../source/release/HISTORY.rst:1667
+#: ../../source/release/HISTORY.rst:2088
+msgid "docutils/parsers/rst/directives/parts.py:"
+msgstr "docutils/parsers/rst/directives/parts.py:"
+
+#: ../../source/release/HISTORY.rst:1511
+msgid "Added \"header\" & \"footer\" directives."
+msgstr "Added \"header\" & \"footer\" directives."
+
+#: ../../source/release/HISTORY.rst:1512
+msgid ""
+"Fixed illegal context bug with \"contents\" directive (topics allowed "
+"within sidebars; not within body elements)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1517
+msgid "Added \"list-table\" directive."
+msgstr "Added \"list-table\" directive."
+
+#: ../../source/release/HISTORY.rst:1518
+msgid "Caught empty CSV table bug."
+msgstr "Caught empty CSV table bug."
+
+#: ../../source/release/HISTORY.rst:1519
+msgid ""
+"Added support for the ``file_insertion_enabled`` setting in the \"csv-"
+"table\" directive."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1521
+msgid ""
+"Added ``stub-columns`` option to \"csv-table\" and \"list-table\" "
+"directives."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1524
+msgid ""
+"docutils/parsers/rst/languages/nl.py: Added to project; Dutch mappings by"
+" Martijn Pieters."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1527
+msgid "docutils/readers/standalone.py:"
+msgstr "docutils/readers/standalone.py:"
+
+#: ../../source/release/HISTORY.rst:1529
+msgid ""
+"Added ``--section-subtitles`` and ``--no-section-subtitles`` options to "
+"activate or deactivate the SectSubTitle transform."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1534
+msgid ""
+"Added SectSubTitle transform to promote titles of lone subsections to "
+"subtitles."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1539
+msgid ""
+"Fixed mislocated internal targets bug, by propagating internal targets to"
+" the next node, making use of the newly added support for multiple names "
+"and IDs."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1542
+msgid "Fixed duplicate footnote label bug."
+msgstr "Fixed duplicate footnote label bug."
+
+#: ../../source/release/HISTORY.rst:1543
+msgid ""
+"Replaced ``ChainedTargets`` with more generic ``PropagateTargets`` "
+"transform."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1546 ../../source/release/HISTORY.rst:1694
+#: ../../source/release/HISTORY.rst:2142
+msgid "docutils/writers/html4css1.py:"
+msgstr "docutils/writers/html4css1.py:"
+
+#: ../../source/release/HISTORY.rst:1548
+msgid ""
+"Fixed unencoded stylesheet reference bug (characters like \"&\" in "
+"stylesheet references)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1550
+msgid "``target`` nodes now appear as ``span`` tags (instead of ``a`` tags)."
+msgstr "``target`` nodes now appear as ``span`` tags (instead of ``a`` tags)."
+
+#: ../../source/release/HISTORY.rst:1552
+msgid "Added support for multiple IDs per node by creating empty ``span`` tags."
+msgstr "Added support for multiple IDs per node by creating empty ``span`` tags."
+
+#: ../../source/release/HISTORY.rst:1554
+msgid "Added the ``field_name_limit`` & ``option_limit`` settings & support."
+msgstr "Added the ``field_name_limit`` & ``option_limit`` settings & support."
+
+#: ../../source/release/HISTORY.rst:1557
+msgid "Added support for the ``align`` attribute on ``figure`` elements."
+msgstr "Added support for the ``align`` attribute on ``figure`` elements."
+
+#: ../../source/release/HISTORY.rst:1558
+msgid "Added the ``cloak_email_addresses`` setting & support."
+msgstr "Added the ``cloak_email_addresses`` setting & support."
+
+#: ../../source/release/HISTORY.rst:1559
+msgid ""
+"Added ``html_prolog``, ``html_head``, ``html_body``, ``html_title``, & "
+"``html_subtitle`` to parts dictionary exposed by "
+"``docutils.core.publish_parts``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1562 ../../source/release/HISTORY.rst:1574
+msgid "Added support for section subtitles."
+msgstr "Added support for section subtitles."
+
+#: ../../source/release/HISTORY.rst:1564 ../../source/release/HISTORY.rst:1719
+#: ../../source/release/HISTORY.rst:1871 ../../source/release/HISTORY.rst:2162
+msgid "docutils/writers/latex2e.py:"
+msgstr "docutils/writers/latex2e.py:"
+
+#: ../../source/release/HISTORY.rst:1566
+msgid "Fixed tables starting with more than one multirow cell."
+msgstr "Fixed tables starting with more than one multirow cell."
+
+#: ../../source/release/HISTORY.rst:1567
+msgid ""
+"Improved --use-latex-docinfo so that organization/contact/address fields "
+"are lumped with the last author field and appear on the titlepage."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1570
+msgid ""
+"Made sure the titlepage is always shown with --use-latex-docinfo, even if"
+" the document has no title."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1572
+msgid ""
+"Made sure that latex doesn't fill in today's date if no date field was "
+"given."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1576
+msgid ""
+"docutils/writers/newlatex2e.py: Added to project; a new LaTeX writer "
+"(under development)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1579
+msgid "docutils/writers/null.py: Added to project; a do-nothing Writer."
+msgstr "docutils/writers/null.py: Added to project; a do-nothing Writer."
+
+#: ../../source/release/HISTORY.rst:1581
+msgid "docs/api/publisher.txt:"
+msgstr "docs/api/publisher.txt:"
+
+#: ../../source/release/HISTORY.rst:1583
+msgid "Added \"``publish_parts`` Details\" section."
+msgstr "Added \"``publish_parts`` Details\" section."
+
+#: ../../source/release/HISTORY.rst:1585
+msgid ""
+"docutils/dev/repository.txt: Added to project; information about the "
+"Docutils Subversion repository."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1590
+msgid ""
+"Added a ``stub`` attribute to the ``colspec`` element via the "
+"``tbl.colspec.att`` parameter entity."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1592
+msgid "Allowed topic elements within sidebars"
+msgstr "Allowed topic elements within sidebars"
+
+#: ../../source/release/HISTORY.rst:1593
+msgid "Added an ``align`` attribute to the ``figure`` element."
+msgstr "Added an ``align`` attribute to the ``figure`` element."
+
+#: ../../source/release/HISTORY.rst:1595
+msgid ""
+"tools/rst2newlatex.py: Added to project; front end for the new LaTeX "
+"writer."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1600
+msgid "Release 0.3.7 (2004-12-24)"
+msgstr "Release 0.3.7 (2004-12-24)"
+
+#: ../../source/release/HISTORY.rst:1604
+msgid ""
+"Added options: --input-encoding-error-handler, --record-dependencies, "
+"--leave-footnote-reference-space, --strict-visitor."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1607
+msgid ""
+"Added command-line and config file support for \"overrides\" setting "
+"parameter."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1612
+msgid "Added support for input encoding error handler."
+msgstr "Added support for input encoding error handler."
+
+#: ../../source/release/HISTORY.rst:1616
+msgid ""
+"Added dispatch_visit and dispatch_departure methods to NodeVisitor; "
+"useful as a hook for Visitors."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1618
+msgid "Changed structure of ``line_block``; added ``line``."
+msgstr "Changed structure of ``line_block``; added ``line``."
+
+#: ../../source/release/HISTORY.rst:1619
+msgid "Added ``compound`` node class."
+msgstr "Added ``compound`` node class."
+
+#: ../../source/release/HISTORY.rst:1620
+msgid "Added a mechanism for Visitors to transitionally ignore new node classes."
+msgstr "Added a mechanism for Visitors to transitionally ignore new node classes."
+
+#: ../../source/release/HISTORY.rst:1625
+msgid ""
+"Moved ``escape2null`` and ``unescape`` functions from "
+"docutils/parsers/rst/states.py."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1628
+msgid "docutils/parsers/rst/roles.py:"
+msgstr "docutils/parsers/rst/roles.py:"
+
+#: ../../source/release/HISTORY.rst:1630 ../../source/release/HISTORY.rst:1756
+msgid "Added \"raw\" role."
+msgstr "Added \"raw\" role."
+
+#: ../../source/release/HISTORY.rst:1631 ../../source/release/HISTORY.rst:1645
+msgid ""
+"Changed role function API: the \"text\" parameter now takes null-escaped "
+"interpreted text content."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1636
+msgid ""
+"Fixed bug where a \"role\" directive in a nested parse would crash the "
+"parser; the state machine's \"language\" attribute was not being copied "
+"over."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1639
+msgid "Added support for line block syntax."
+msgstr "Added support for line block syntax."
+
+#: ../../source/release/HISTORY.rst:1640
+msgid ""
+"Fixed directive parsing bug: argument-less directives didn't notice that "
+"arguments were present."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1642
+msgid "Removed error checking for transitions."
+msgstr "Removed error checking for transitions."
+
+#: ../../source/release/HISTORY.rst:1643
+msgid "Added support for multiple classifiers in definition list items."
+msgstr "Added support for multiple classifiers in definition list items."
+
+#: ../../source/release/HISTORY.rst:1644
+msgid "Moved ``escape2null`` and ``unescape`` functions to docutils/utils.py."
+msgstr "Moved ``escape2null`` and ``unescape`` functions to docutils/utils.py."
+
+#: ../../source/release/HISTORY.rst:1647
+msgid "Empty sections and documents are allowed now."
+msgstr "Empty sections and documents are allowed now."
+
+#: ../../source/release/HISTORY.rst:1651
+msgid "Added ``encoding`` directive option conversion function."
+msgstr "Added ``encoding`` directive option conversion function."
+
+#: ../../source/release/HISTORY.rst:1652
+msgid "Allow multiple class names in class_option conversion function."
+msgstr "Allow multiple class names in class_option conversion function."
+
+#: ../../source/release/HISTORY.rst:1656
+msgid "Converted the line-block directive to use the new structure."
+msgstr "Converted the line-block directive to use the new structure."
+
+#: ../../source/release/HISTORY.rst:1657
+msgid ""
+"Extracted the old line-block functionality to the ``block`` function "
+"(still used)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1659
+msgid "Added ``compound`` directive (thanks to Lea Wiemann)."
+msgstr "Added ``compound`` directive (thanks to Lea Wiemann)."
+
+#: ../../source/release/HISTORY.rst:1663
+msgid "Added \"encoding\" option to \"include\" and \"raw\" directives."
+msgstr "Added \"encoding\" option to \"include\" and \"raw\" directives."
+
+#: ../../source/release/HISTORY.rst:1664
+msgid "Added \"trim\", \"ltrim\", and \"rtrim\" options to \"unicode\" directive."
+msgstr "Added \"trim\", \"ltrim\", and \"rtrim\" options to \"unicode\" directive."
+
+#: ../../source/release/HISTORY.rst:1665
+msgid "Allow multiple class names in the \"class\" directive."
+msgstr "Allow multiple class names in the \"class\" directive."
+
+#: ../../source/release/HISTORY.rst:1669
+msgid ""
+"Directive \"sectnum\" now accepts \"prefix\", \"suffix\", and \"start\" "
+"options.  Thanks to Lele Gaifax."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1674
+msgid "Added \"encoding\" directive to \"csv-table\" directive."
+msgstr "Added \"encoding\" directive to \"csv-table\" directive."
+
+#: ../../source/release/HISTORY.rst:1675
+msgid ""
+"Added workaround for lack of Unicode support in csv.py, for non-ASCII CSV"
+" input."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1680
+msgid ""
+"Fixed bug when multiple \"class\" directives are applied to a single "
+"element."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1682 ../../source/release/HISTORY.rst:1703
+#: ../../source/release/HISTORY.rst:1731
+msgid "Enabled multiple format names for \"raw\" directive."
+msgstr "Enabled multiple format names for \"raw\" directive."
+
+#: ../../source/release/HISTORY.rst:1686
+msgid "Added support for trimming whitespace from beside substitution references."
+msgstr "Added support for trimming whitespace from beside substitution references."
+
+#: ../../source/release/HISTORY.rst:1691
+msgid ""
+"FinalChecks now checks for illegal transitions and moves transitions "
+"between sections."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1696
+msgid "HTMLTranslator.encode now converts U+00A0 to \"&nbsp;\"."
+msgstr "HTMLTranslator.encode now converts U+00A0 to \"&nbsp;\"."
+
+#: ../../source/release/HISTORY.rst:1697 ../../source/release/HISTORY.rst:1724
+msgid ""
+"\"stylesheet\" and \"stylesheet_path\" settings are now mutually "
+"exclusive."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1699
+msgid "Added support for the new line_block/line structure."
+msgstr "Added support for the new line_block/line structure."
+
+#: ../../source/release/HISTORY.rst:1700 ../../source/release/HISTORY.rst:1726
+msgid ""
+"--footnote-references now overrides --trim-footnote-reference-space, if "
+"applicable."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1702 ../../source/release/HISTORY.rst:1730
+msgid "Added support for ``compound`` elements."
+msgstr "Added support for ``compound`` elements."
+
+#: ../../source/release/HISTORY.rst:1704
+msgid ""
+"``<p>`` tags of a paragraph which is the only visible child of the "
+"document node are no longer stripped."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1706
+msgid ""
+"Moved paragraph-compacting logic (for stripping ``<p>`` tags) to new "
+"method ``should_be_compact_paragraph()``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1708
+msgid "Added class=\"docutils\" to ``dl``, ``hr``, ``table`` and ``tt`` elements."
+msgstr "Added class=\"docutils\" to ``dl``, ``hr``, ``table`` and ``tt`` elements."
+
+#: ../../source/release/HISTORY.rst:1710
+msgid ""
+"\"raw\" elements are now surrounded by ``span`` or ``div`` tags in the "
+"output if they have their ``class`` attribute set."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1712
+msgid ""
+"The whole document is now surrounded by a ``<div class=\"document\">`` "
+"element."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1714
+msgid ""
+"Body-level images are now wrapped by their own ``<div>`` elements, with "
+"image classes copied to the wrapper, and for images which have the "
+"``:align:`` option set, the surrounding ``<div>`` now receives a class "
+"attribute (like ``class=\"align-left\"``)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1721
+msgid "no newline after depart_term."
+msgstr "no newline after depart_term."
+
+#: ../../source/release/HISTORY.rst:1722
+msgid "Added translations for some Unicode quotes."
+msgstr "Added translations for some Unicode quotes."
+
+#: ../../source/release/HISTORY.rst:1723
+msgid "Added option \"font-encoding\", made package AE the default."
+msgstr "Added option \"font-encoding\", made package AE the default."
+
+#: ../../source/release/HISTORY.rst:1728
+msgid ""
+"The footnote label style now matches the footnote reference style "
+"(\"brackets\" or \"superscript\")."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1735
+msgid "Changed structure of the ``line_block`` element; added ``line``."
+msgstr "Changed structure of the ``line_block`` element; added ``line``."
+
+#: ../../source/release/HISTORY.rst:1736
+msgid "Added ``compound`` element."
+msgstr "Added ``compound`` element."
+
+#: ../../source/release/HISTORY.rst:1737
+msgid ""
+"Added \"ltrim\" and \"rtrim\" attributes to ``substitution_definition`` "
+"element."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1739
+msgid "Enabled multiple format names for ``raw`` element."
+msgstr "Enabled multiple format names for ``raw`` element."
+
+#: ../../source/release/HISTORY.rst:1740
+msgid "Enabled multiple classifiers in ``definition_list_item`` elements."
+msgstr "Enabled multiple classifiers in ``definition_list_item`` elements."
+
+#: ../../source/release/HISTORY.rst:1744
+msgid "Marked \"line-block\" as deprecated."
+msgstr "Marked \"line-block\" as deprecated."
+
+#: ../../source/release/HISTORY.rst:1745
+msgid "\"Class\" directive now allows multiple class names."
+msgstr "\"Class\" directive now allows multiple class names."
+
+#: ../../source/release/HISTORY.rst:1746
+msgid "Added \"Rationale for Class Attribute Value Conversion\"."
+msgstr "Added \"Rationale for Class Attribute Value Conversion\"."
+
+#: ../../source/release/HISTORY.rst:1747
+msgid "Added warning about \"raw\" overuse/abuse."
+msgstr "Added warning about \"raw\" overuse/abuse."
+
+#: ../../source/release/HISTORY.rst:1751
+msgid "Added syntax for line blocks."
+msgstr "Added syntax for line blocks."
+
+#: ../../source/release/HISTORY.rst:1752
+msgid "Definition list items may have multiple classifiers."
+msgstr "Definition list items may have multiple classifiers."
+
+#: ../../source/release/HISTORY.rst:1754
+msgid "docs/ref/rst/roles.txt:"
+msgstr "docs/ref/rst/roles.txt:"
+
+#: ../../source/release/HISTORY.rst:1758
+msgid "tools/stylesheets/default.css:"
+msgstr "tools/stylesheets/default.css:"
+
+#: ../../source/release/HISTORY.rst:1760
+msgid "Added support for the new line_block structure."
+msgstr "Added support for the new line_block structure."
+
+#: ../../source/release/HISTORY.rst:1761
+msgid "Added \"docutils\" class to ``dl``, ``hr``, ``table`` and ``tt``."
+msgstr "Added \"docutils\" class to ``dl``, ``hr``, ``table`` and ``tt``."
+
+#: ../../source/release/HISTORY.rst:1765
+msgid "Release 0.3.5 (2004-07-29)"
+msgstr "Release 0.3.5 (2004-07-29)"
+
+#: ../../source/release/HISTORY.rst:1769
+msgid "_`Documentation cleanup/reorganization`."
+msgstr "_`Documentation cleanup/reorganization`."
+
+#: ../../source/release/HISTORY.rst:1771
+msgid "Created new subdirectories of docs/:"
+msgstr "Created new subdirectories of docs/:"
+
+#: ../../source/release/HISTORY.rst:1773
+msgid "``docs/user/``: introductory/tutorial material for end-users"
+msgstr "``docs/user/``: introductory/tutorial material for end-users"
+
+#: ../../source/release/HISTORY.rst:1774
+msgid "``docs/dev/``: for core-developers (development notes, plans, etc.)"
+msgstr "``docs/dev/``: for core-developers (development notes, plans, etc.)"
+
+#: ../../source/release/HISTORY.rst:1775
+msgid "``docs/api/``: API reference material for client-developers"
+msgstr "``docs/api/``: API reference material for client-developers"
+
+#: ../../source/release/HISTORY.rst:1776
+msgid "``docs/ref/``: reference material for all groups"
+msgstr "``docs/ref/``: reference material for all groups"
+
+#: ../../source/release/HISTORY.rst:1777
+msgid "``docs/howto/``: for component-developers and core-developers"
+msgstr "``docs/howto/``: for component-developers and core-developers"
+
+#: ../../source/release/HISTORY.rst:1778
+msgid "``docs/peps/``: Python Enhancement Proposals"
+msgstr "``docs/peps/``: Python Enhancement Proposals"
+
+#: ../../source/release/HISTORY.rst:1780
+msgid "Moved ``docs/*`` to ``docs/user/``."
+msgstr "Moved ``docs/*`` to ``docs/user/``."
+
+#: ../../source/release/HISTORY.rst:1781
+msgid ""
+"Moved ``pysource.dtd``, ``pysource.txt``, ``semantics.txt`` from "
+"``spec/`` to ``docs/dev``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1783
+msgid ""
+"Moved ``doctree.txt``, ``docutils.dtd``, ``soextblx.dtd``, "
+"``transforms.txt`` from ``spec/`` to ``docs/ref/``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1785
+msgid ""
+"Moved ``alternatives.txt``, and ``problems.txt`` from ``spec/rst/`` to "
+"``docs/dev/rst/``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1787
+msgid ""
+"Moved ``reStructuredText.txt``, ``directives.txt``, ``interpreted.txt``, "
+"and ``introduction.txt`` from ``spec/rst/`` to ``docs/ref/rst/``.  "
+"Renamed ``interpreted.txt`` to ``roles.txt``, ``reStructuredText.txt`` to"
+" ``restructuredtext.txt``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1792
+msgid "Moved ``spec/howto/`` to ``docs/howto``."
+msgstr "Moved ``spec/howto/`` to ``docs/howto``."
+
+#: ../../source/release/HISTORY.rst:1794
+msgid ""
+"In order to keep the CVS history of moved files, we supplied SourceForge "
+"with a `script for modifying the Docutils CVS repository`__."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1800
+msgid "After running the cleanup script:"
+msgstr "After running the cleanup script:"
+
+#: ../../source/release/HISTORY.rst:1802
+msgid "Added ``docs/index.txt``."
+msgstr "Added ``docs/index.txt``."
+
+#: ../../source/release/HISTORY.rst:1803
+msgid ""
+"Added a ``.htaccess`` file to the ``web`` module, containing redirects "
+"for all old paths to new paths.  They'll preserve fragments (the "
+"\"#name\" part of a URL), and won't clutter up the file system, and will "
+"correct the URL in the user's browser."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1807
+msgid ""
+"Added ``BUGS.txt``, ``docs/dev/policies.txt``, ``docs/dev/website.txt``, "
+"``docs/dev/release.txt`` from all but the \"To Do\" list itself in "
+"``docs/dev/todo.txt``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1810
+msgid ""
+"Moved \"Future Plans\" from ``HISTORY.txt`` to new \"Priorities\" section"
+" of ``docs/dev/todo.txt``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1812
+msgid "Added ``THANKS.txt`` from \"Acknowledgements\" in ``HISTORY.txt``."
+msgstr "Added ``THANKS.txt`` from \"Acknowledgements\" in ``HISTORY.txt``."
+
+#: ../../source/release/HISTORY.rst:1813
+msgid "Added \"How To Report Bugs\" to ``BUGS.txt``."
+msgstr "Added \"How To Report Bugs\" to ``BUGS.txt``."
+
+#: ../../source/release/HISTORY.rst:1814
+msgid ""
+"Went through all the sources and docs (including under web/) and updated "
+"links.  Mostly done by Lea Wiemann; thanks Lea! (Still need to update "
+"links in the sandboxes.)"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1818
+msgid "Specific:"
+msgstr "Specific:"
+
+#: ../../source/release/HISTORY.rst:1820
+msgid "BUGS.txt: Added to project."
+msgstr "BUGS.txt: Added to project."
+
+#: ../../source/release/HISTORY.rst:1822
+msgid "THANKS.txt: Added to project."
+msgstr "THANKS.txt: Added to project."
+
+#: ../../source/release/HISTORY.rst:1826
+msgid "0.3.4: Post-release."
+msgstr "0.3.4: Post-release."
+
+#: ../../source/release/HISTORY.rst:1830
+msgid "Added special error handling & advice for UnicodeEncodeError."
+msgstr "Added special error handling & advice for UnicodeEncodeError."
+
+#: ../../source/release/HISTORY.rst:1831
+msgid ""
+"Refactored Publisher.publish (simplified exception handling & extracted "
+"debug dumps)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1833
+msgid ""
+"Renamed \"enable_exit\" parameter of convenience functions to "
+"\"enable_exit_status\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1835
+msgid ""
+"Enabled traceback (exception propagation) by default in programmatic "
+"convenience functions."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1837
+msgid ""
+"Now publish_file and publish_cmdline convenience functions return the "
+"encoded string results in addition to their regular I/O."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1839
+msgid ""
+"Extracted common code from publish_file, publish_string, and "
+"publish_parts, into new publish_programmatically.  Extracted settings "
+"code to ``Publisher.process_programmatic_settings``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1842
+msgid ""
+"In Publisher.publish, disabled ``settings_overrides`` when ``settings`` "
+"is supplied; redundant."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1847
+msgid ""
+"Added help text for \"--output-encoding-error-handler\" and \"--error-"
+"encoding-error-handler\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1849
+msgid "Renamed \"--exit\" to \"--exit-status\"."
+msgstr "Renamed \"--exit\" to \"--exit-status\"."
+
+#: ../../source/release/HISTORY.rst:1850
+msgid "Simplified default-setting code."
+msgstr "Simplified default-setting code."
+
+#: ../../source/release/HISTORY.rst:1854
+msgid "Added \"--pep-base-url\" and \"--rfc-base-url\" options."
+msgstr "Added \"--pep-base-url\" and \"--rfc-base-url\" options."
+
+#: ../../source/release/HISTORY.rst:1858
+msgid "Made URI recognition more aggressive and intelligent."
+msgstr "Made URI recognition more aggressive and intelligent."
+
+#: ../../source/release/HISTORY.rst:1862
+msgid "Added several directive option conversion functions."
+msgstr "Added several directive option conversion functions."
+
+#: ../../source/release/HISTORY.rst:1866
+msgid "Moved \"table\" directive to tables.py."
+msgstr "Moved \"table\" directive to tables.py."
+
+#: ../../source/release/HISTORY.rst:1868
+msgid ""
+"docutils/parsers/rst/directives/tables.py: Table-related directives, "
+"added to project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1873
+msgid "Added \"--table-style=(standard|booktabs|nolines)\""
+msgstr "Added \"--table-style=(standard|booktabs|nolines)\""
+
+#: ../../source/release/HISTORY.rst:1874
+msgid ""
+"figures get \"here\" option (LaTeX per default puts them at bottom), and "
+"figure content is centered."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1876
+msgid "Rowspan support for tables."
+msgstr "Rowspan support for tables."
+
+#: ../../source/release/HISTORY.rst:1877
+msgid "Fix: admonition titles before first section."
+msgstr "Fix: admonition titles before first section."
+
+#: ../../source/release/HISTORY.rst:1878
+msgid "Replace ``--`` in literal by ``-{}-`` because fontencoding T1 has endash."
+msgstr "Replace ``--`` in literal by ``-{}-`` because fontencoding T1 has endash."
+
+#: ../../source/release/HISTORY.rst:1879
+msgid ""
+"Replave ``_`` in literal by an underlined blank, because it has the "
+"correct width."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1881
+msgid "Fix: encode pdfbookmark titles, ``#`` broke pdflatex."
+msgstr "Fix: encode pdfbookmark titles, ``#`` broke pdflatex."
+
+#: ../../source/release/HISTORY.rst:1882
+msgid "A few unicode replacements, if output_encoding != utf"
+msgstr "A few unicode replacements, if output_encoding != utf"
+
+#: ../../source/release/HISTORY.rst:1883
+msgid "Add \"--graphicx-option\"."
+msgstr "Add \"--graphicx-option\"."
+
+#: ../../source/release/HISTORY.rst:1884
+msgid "Indent literal-blocks."
+msgstr "Indent literal-blocks."
+
+#: ../../source/release/HISTORY.rst:1885
+msgid "Fix: omit ``\\maketitle`` when there is no document title."
+msgstr "Fix: omit ``\\maketitle`` when there is no document title."
+
+#: ../../source/release/HISTORY.rst:1887
+msgid ""
+"docs/index.txt: \"Docutils Project Documentation Overview\", added to "
+"project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1890
+msgid ""
+"docs/api/cmdline-tool.txt: \"Inside A Docutils Command-Line Front-End "
+"Tool\", added to project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1893
+msgid "docs/api/publisher.txt: \"The Docutils Publisher\", added to project."
+msgstr "docs/api/publisher.txt: \"The Docutils Publisher\", added to project."
+
+#: ../../source/release/HISTORY.rst:1895
+msgid ""
+"docs/api/runtime-settings.txt: \"Docutils Runtime Settings\", added to "
+"project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1897
+msgid ""
+"docs/dev/policies.txt: Added to project (extracted from "
+"``docs/dev/todo.txt``, formerly ``spec/notes.txt``)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1900
+msgid ""
+"docs/dev/release.txt: Added to project (extracted from "
+"``docs/dev/todo.txt``, formerly ``spec/notes.txt``)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1903
+msgid "docs/dev/testing.txt: Added to project."
+msgstr "docs/dev/testing.txt: Added to project."
+
+#: ../../source/release/HISTORY.rst:1905
+msgid ""
+"docs/dev/website.txt: Added to project (extracted from "
+"``docs/dev/todo.txt``, formerly ``spec/notes.txt``)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1908
+msgid "docs/ref/rst/directives.txt:"
+msgstr "docs/ref/rst/directives.txt:"
+
+#: ../../source/release/HISTORY.rst:1910
+msgid "Added directives: \"table\", \"csv-table\"."
+msgstr "Added directives: \"table\", \"csv-table\"."
+
+#: ../../source/release/HISTORY.rst:1912
+msgid ""
+"docs/user/rst/cheatsheet.txt: \"The reStructuredText Cheat Sheet\" added "
+"to project.  1 page for syntax, and a 1 page reference for directives and"
+" roles.  Source text to be used as-is; not meant to be converted to HTML."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1917
+msgid ""
+"docs/user/rst/demo.txt: Added to project; moved from tools/test.txt with "
+"a change of title."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1920
+msgid "test/functional/, contents, and test/test_functional.py: Added to project."
+msgstr "test/functional/, contents, and test/test_functional.py: Added to project."
+
+#: ../../source/release/HISTORY.rst:1923
+msgid "tools/buildhtml.py: Fixed bug with config file handling."
+msgstr "tools/buildhtml.py: Fixed bug with config file handling."
+
+#: ../../source/release/HISTORY.rst:1925
+msgid "tools/html.py: Removed from project (duplicate of rst2html.py)."
+msgstr "tools/html.py: Removed from project (duplicate of rst2html.py)."
+
+#: ../../source/release/HISTORY.rst:1927
+msgid ""
+"tools/pep2html.py: Removed from project (duplicate of Python's "
+"nondist/peps/pep2html.py; Docutils' tools/pep.py can be used for "
+"Docutils-related PEPs in docs/peps/)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1931
+msgid "tools/rst2pseudoxml.py: Renamed from publish.py."
+msgstr "tools/rst2pseudoxml.py: Renamed from publish.py."
+
+#: ../../source/release/HISTORY.rst:1933
+msgid "tools/rst2xml.py: Renamed from docutils-xml.py."
+msgstr "tools/rst2xml.py: Renamed from docutils-xml.py."
+
+#: ../../source/release/HISTORY.rst:1935
+msgid "tools/test.txt: Removed from project; moved to docs/user/rst/demo.txt."
+msgstr "tools/test.txt: Removed from project; moved to docs/user/rst/demo.txt."
+
+#: ../../source/release/HISTORY.rst:1938
+msgid "setup.py: Now also installs ``rst2latex.py``."
+msgstr "setup.py: Now also installs ``rst2latex.py``."
+
+#: ../../source/release/HISTORY.rst:1942
+msgid "Release 0.3.3 (2004-05-09)"
+msgstr "Release 0.3.3 (2004-05-09)"
+
+#: ../../source/release/HISTORY.rst:1946
+msgid ""
+"0.3.1: Reorganized config file format (multiple sections); see "
+"docs/config.txt."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1948
+msgid "Added unknown_reference_resolvers attribute to TransformSpec."
+msgstr "Added unknown_reference_resolvers attribute to TransformSpec."
+
+#: ../../source/release/HISTORY.rst:1949
+msgid "0.3.2: Interpreted text reorganization."
+msgstr "0.3.2: Interpreted text reorganization."
+
+#: ../../source/release/HISTORY.rst:1950
+msgid "0.3.3: Released."
+msgstr "0.3.3: Released."
+
+#: ../../source/release/HISTORY.rst:1954
+msgid "Catch system messages to stop tracebacks from parsing errors."
+msgstr "Catch system messages to stop tracebacks from parsing errors."
+
+#: ../../source/release/HISTORY.rst:1955
+msgid ""
+"Catch exceptions during processing report & exit without tracebacks, "
+"except when \"--traceback\" used."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1957
+msgid "Reordered components for OptionParser; application comes last."
+msgstr "Reordered components for OptionParser; application comes last."
+
+#: ../../source/release/HISTORY.rst:1958
+msgid ""
+"Added \"config_section\" parameter to several methods and functions, "
+"allowing front ends to easily specify their config file sections."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1960
+msgid ""
+"Added publish_parts convenience function to allow access to individual "
+"parts of a document."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1963
+msgid ""
+"docutils/examples.py: Added to project; practical examples of Docutils "
+"client code, to be used as-is or as models for variations."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1968
+msgid ""
+"Added \"--traceback\" & \"--no-traceback\" options (\"traceback\" "
+"setting)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1970
+msgid ""
+"Implemented support for config file reorganization: "
+"``standard_config_files`` moved from ``ConfigParser`` to "
+"``OptionParser``; added ``OptionParser.get_config_file_settings()`` and "
+"``.get_standard_config_settings()``; support for old \"[options]\" "
+"section (with deprecation warning) and mapping from old to new settings."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1977
+msgid "Reimplemented setting validation."
+msgstr "Reimplemented setting validation."
+
+#: ../../source/release/HISTORY.rst:1978
+msgid "Enabled flexible boolean values: yes/no, true/false, on/off."
+msgstr "Enabled flexible boolean values: yes/no, true/false, on/off."
+
+#: ../../source/release/HISTORY.rst:1979
+msgid ""
+"Added ``Values``, a subclass of ``optparse.Values``, with support for "
+"list setting attributes."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1981
+msgid ""
+"Added support for new ``DOCUTILSCONFIG`` environment variable; thanks to "
+"Beni Cherniavsky."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1983
+msgid "Added \"--no-section-numbering\" option."
+msgstr "Added \"--no-section-numbering\" option."
+
+#: ../../source/release/HISTORY.rst:1987
+msgid ""
+"Catch IOErrors when opening source & destination files, report & exit "
+"without tracebacks.  Added ``handle_io_errors`` parameter to "
+"``FileInput`` & ``FileOutput`` to enable caller error handling."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1993
+msgid ""
+"Changed ``SparseNodeVisitor`` and ``GenericNodeVisitor`` dynamic method "
+"definitions (via ``exec``) to dynamic assignments (via ``setattr``); "
+"thanks to Roman Suzi."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1996
+msgid ""
+"Encapsulated visitor dynamic assignments in a function; thanks to Ian "
+"Bicking."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:1998
+msgid ""
+"Added indirect_reference_name attribute to the Targetable class. This "
+"attribute holds the whitespace_normalized_name (contains mixed case) of a"
+" target."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2004
+msgid "Renamed ``StringList.strip_indent`` to ``.trim_left``."
+msgstr "Renamed ``StringList.strip_indent`` to ``.trim_left``."
+
+#: ../../source/release/HISTORY.rst:2005
+msgid "Added ``StringList.get_2D_block``."
+msgstr "Added ``StringList.get_2D_block``."
+
+#: ../../source/release/HISTORY.rst:2009
+msgid "Added \"level\" attribute to SystemMessage exceptions."
+msgstr "Added \"level\" attribute to SystemMessage exceptions."
+
+#: ../../source/release/HISTORY.rst:2011
+msgid ""
+"docutils/languages/af.py: Added to project; Afrikaans mappings by Jannie "
+"Hofmeyr."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2014
+msgid "docutils/languages/cs.py: Added to project; Czech mappings by Marek Blaha."
+msgstr "docutils/languages/cs.py: Added to project; Czech mappings by Marek Blaha."
+
+#: ../../source/release/HISTORY.rst:2017
+msgid ""
+"docutils/languages/eo.py: Added to project; Esperanto mappings by Marcelo"
+" Huerta San Martin."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2020
+msgid ""
+"docutils/languages/pt_br.py: Added to project; Brazilian Portuguese "
+"mappings by Lalo Martins."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2023
+msgid ""
+"docutils/languages/ru.py: Added to project; Russian mappings by Roman "
+"Suzi."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2026
+msgid ""
+"docutils/parsers/rst/roles.py: Added to project.  Contains interpreted "
+"text role functions, a registry for interpreted text roles, and an API "
+"for adding to and retrieving from the registry. Contributed by Edward "
+"Loper."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2033
+msgid "Updated ``RSTState.nested_parse`` for \"include\" in table cells."
+msgstr "Updated ``RSTState.nested_parse`` for \"include\" in table cells."
+
+#: ../../source/release/HISTORY.rst:2034
+msgid ""
+"Allowed true em-dash character and \"---\" as block quote attribution "
+"marker."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2036
+msgid ""
+"Added support for <angle-bracketed> complex option arguments (option "
+"lists)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2038
+msgid "Fixed handling of backslashes in substitution definitions."
+msgstr "Fixed handling of backslashes in substitution definitions."
+
+#: ../../source/release/HISTORY.rst:2039
+msgid ""
+"Fixed off-by-1 error with extra whitespace after substitution definition "
+"directive."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2041
+msgid "Added inline markup parsing to field lists' field names."
+msgstr "Added inline markup parsing to field lists' field names."
+
+#: ../../source/release/HISTORY.rst:2042
+msgid ""
+"Added support for quoted (and unindented) literal blocks. Driven in part "
+"by a bribe from Frank Siebenlist (thanks!)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2044
+msgid "Parser now handles escapes in URIs correctly."
+msgstr "Parser now handles escapes in URIs correctly."
+
+#: ../../source/release/HISTORY.rst:2045
+msgid "Made embedded-URIs' reference text omittable.  Idea from Beni Cherniavsky."
+msgstr "Made embedded-URIs' reference text omittable.  Idea from Beni Cherniavsky."
+
+#: ../../source/release/HISTORY.rst:2047
+msgid "Refactored explicit target processing code."
+msgstr "Refactored explicit target processing code."
+
+#: ../../source/release/HISTORY.rst:2048 ../../source/release/HISTORY.rst:2078
+msgid ""
+"Added name attribute to references containing the reference name only "
+"through whitespace_normalize_name (no case changes)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2050
+msgid ""
+"parse_target no longer returns the refname after going through "
+"normalize_name. This is now handled in make_target."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2052
+msgid "Fixed bug relating to role-less interpreted text in non-English contexts."
+msgstr "Fixed bug relating to role-less interpreted text in non-English contexts."
+
+#: ../../source/release/HISTORY.rst:2054
+msgid ""
+"Reorganized interpreted text processing; moved code into the new roles.py"
+" module.  Contributed by Edward Loper."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2056
+msgid ""
+"Refactored ``Body.parse_directive`` into ``run_directive`` and "
+"``parse_directive_block``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2061
+msgid ""
+"Reworked for ``StringList``, to support \"include\" directives in table "
+"cells."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2066
+msgid ""
+"Renamed ``unchanged()`` directive option conversion function to "
+"``unchanged_required``, and added a new ``unchanged``."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2068
+msgid "Catch unicode value too high error; fixes bug 781766."
+msgstr "Catch unicode value too high error; fixes bug 781766."
+
+#: ../../source/release/HISTORY.rst:2069
+msgid "Beefed up directive error reporting."
+msgstr "Beefed up directive error reporting."
+
+#: ../../source/release/HISTORY.rst:2073
+msgid "Added basic \"table\" directive."
+msgstr "Added basic \"table\" directive."
+
+#: ../../source/release/HISTORY.rst:2077
+msgid "Added \"target\" option to \"image\" directive."
+msgstr "Added \"target\" option to \"image\" directive."
+
+#: ../../source/release/HISTORY.rst:2083
+msgid ""
+"Isolated the import of the ``urllib2`` module; was causing problems on "
+"SourceForge (``libssl.so.2`` unavailable?)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2085
+msgid "Added the \"role\" directive for declaring custom interpreted text roles."
+msgstr "Added the \"role\" directive for declaring custom interpreted text roles."
+
+#: ../../source/release/HISTORY.rst:2090 ../../source/release/HISTORY.rst:2111
+msgid ""
+"The \"contents\" directive does more work up-front, creating the "
+"\"topic\" and \"title\", and leaving the \"pending\" node for the "
+"transform.  Allows earlier reference resolution; fixes subtle bug."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2094
+msgid ""
+"docutils/parsers/rst/languages/af.py: Added to project; Afrikaans "
+"mappings by Jannie Hofmeyr."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2097
+msgid ""
+"docutils/parsers/rst/languages/cs.py: Added to project; Czech mappings by"
+" Marek Blaha."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2100
+msgid ""
+"docutils/parsers/rst/languages/eo.py: Added to project; Esperanto "
+"mappings by Marcelo Huerta San Martin."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2103
+msgid ""
+"docutils/parsers/rst/languages/pt_br.py: Added to project; Brazilian "
+"Portuguese mappings by Lalo Martins."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2106
+msgid ""
+"docutils/parsers/rst/languages/ru.py: Added to project; Russian mappings "
+"by Roman Suzi."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2109
+msgid "docutils/transforms/parts.py:"
+msgstr "docutils/transforms/parts.py:"
+
+#: ../../source/release/HISTORY.rst:2114
+msgid "Added support for disabling of section numbering."
+msgstr "Added support for disabling of section numbering."
+
+#: ../../source/release/HISTORY.rst:2118
+msgid ""
+"Verifying that external targets are truly targets and not indirect "
+"references. This is because we are now adding a \"name\" attribute to "
+"references in addition to targets. Note sure if this is correct!"
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2121
+msgid ""
+"Added code to hook into the unknown_reference_resolvers list for a "
+"transformer in resolve_indirect_target. This allows the "
+"unknown_reference_resolvers to keep around indirect targets which "
+"docutils doesn't know about."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2125 ../../source/release/HISTORY.rst:2134
+msgid "Added specific error message for duplicate targets."
+msgstr "Added specific error message for duplicate targets."
+
+#: ../../source/release/HISTORY.rst:2129
+msgid ""
+"Added FilterMessages transform (removes system messages below the "
+"verbosity threshold)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2131
+msgid ""
+"Added hook (via docutils.TransformSpec.unknown_reference_resolvers) to "
+"FinalCheckVisitor for application-specific handling of unresolvable "
+"references."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2138
+msgid ""
+"Added assemble_parts method to the Writer class to allow for access to a "
+"documents individual parts."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2140
+msgid "Documented & set default for ``Writer.output`` attribute."
+msgstr "Documented & set default for ``Writer.output`` attribute."
+
+#: ../../source/release/HISTORY.rst:2144
+msgid "Fixed unicode handling of attribute values (bug 760673)."
+msgstr "Fixed unicode handling of attribute values (bug 760673)."
+
+#: ../../source/release/HISTORY.rst:2145
+msgid ""
+"Prevent duplication of \"class\" attribute values (bug report from Kirill"
+" Lapshin)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2147
+msgid ""
+"Improved table grid/border handling (prompted by report from Bob "
+"Marshall)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2149
+msgid "Added support for table titles."
+msgstr "Added support for table titles."
+
+#: ../../source/release/HISTORY.rst:2150
+msgid ""
+"Added \"<title />\" for untitled docs, for XHTML conformance; thanks to "
+"Darek Suchojad."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2152
+msgid ""
+"Added functionality to keep track of individual parts of a document and "
+"store them in a dictionary as the \"parts\" attribute of the writer. "
+"Contributed by Reggie Dugard at the Docutils sprint at PyCon DC 2004."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2155
+msgid ""
+"Added proper support for the \"scale\" attribute of the \"image\" "
+"element.  Contributed by Brent Cook."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2157
+msgid "Added ``--initial-header-level`` option."
+msgstr "Added ``--initial-header-level`` option."
+
+#: ../../source/release/HISTORY.rst:2158
+msgid ""
+"Fixed bug: the body_pre_docinfo segment depended on there being a "
+"docinfo; if no docinfo, the document title was incorporated into the body"
+" segment.  Adversely affected the publish_parts interface."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2164
+msgid ""
+"Changed default stylesheet to \"no stylesheet\" to avoid latex "
+"complaining about a missing file."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2166
+msgid ""
+"Added options and support: ``--compound-enumerators``, ``--section-"
+"prefix-for-enumerators``, and ``--section-enumerator-separator``.  By "
+"John F Meinel Jr (SF patch 934322)."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2170
+msgid ""
+"Added option ``--use-verbatim-when-possible``, to avoid problematic "
+"characters (eg, '~' in italian) in literal blocks."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2172
+msgid ""
+"It's now possible to use four section levels in the `book` and `report` "
+"LaTeX classes.  The default `article` class still has three levels limit."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2176
+msgid ""
+"docs/config.txt: \"Docutils Configuration Files\", added to project. "
+"Moved config file entry descriptions from tools.txt."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2179
+msgid "docs/tools.txt:"
+msgstr "docs/tools.txt:"
+
+#: ../../source/release/HISTORY.rst:2181
+msgid "Moved config file entry descriptions to config.txt."
+msgstr "Moved config file entry descriptions to config.txt."
+
+#: ../../source/release/HISTORY.rst:2183
+msgid ""
+"spec/notes.txt: Continual updates.  Added \"Setting Up For Docutils "
+"Development\"."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2186
+msgid ""
+"spec/howto/rst-roles.txt: \"Creating reStructuredText Interpreted Text "
+"Roles\", added to project."
+msgstr ""
+
+#: ../../source/release/HISTORY.rst:2189
+msgid "spec/rst/reStructuredText.txt:"
+msgstr "spec/rst/reStructuredText.txt:"
+
+#: ../../source/release/HISTORY.rst:2191
+msgid ""
+"Added description of support for <angle-bracketed> complex option "
+"arguments to"
+msgstr ""
+
+#~ msgid "history"
+#~ msgstr ""
+

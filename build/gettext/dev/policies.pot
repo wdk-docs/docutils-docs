@@ -1,0 +1,899 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/dev/policies.rst:3
+msgid "Docutils Project Policies"
+msgstr ""
+
+#: ../../source/dev/policies.rst:0
+msgid "Author"
+msgstr ""
+
+#: ../../source/dev/policies.rst:5
+msgid "David Goodger; open to all Docutils developers"
+msgstr ""
+
+#: ../../source/dev/policies.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/dev/policies.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/dev/policies.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/dev/policies.rst:7
+msgid "$Date: 2017-08-18 18:44:27 +0200 (Fr, 18. Aug 2017) $"
+msgstr ""
+
+#: ../../source/dev/policies.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/dev/policies.rst:8
+msgid "$Revision: 8173 $"
+msgstr ""
+
+#: ../../source/dev/policies.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/dev/policies.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/dev/policies.rst:11
+msgid "目录"
+msgstr ""
+
+#: ../../source/dev/policies.rst:13
+msgid "The Docutils project group is a meritocracy based on code contribution and lots of discussion [#bcs]_.  A few quotes sum up the policies of the Docutils project.  The IETF's classic credo (by MIT professor Dave Clark) is an ideal we can aspire to:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:18
+msgid "We reject: kings, presidents, and voting.  We believe in: rough consensus and running code."
+msgstr ""
+
+#: ../../source/dev/policies.rst:21
+msgid "As architect, chief cook and bottle-washer, David Goodger currently functions as BDFN (Benevolent Dictator For Now).  (But he would happily abdicate the throne given a suitable candidate.  Any takers?)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:25
+msgid "Eric S. Raymond, anthropologist of the hacker subculture, writes in his essay `The Magic Cauldron`_:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:28
+msgid "The number of contributors [to] projects is strongly and inversely correlated with the number of hoops each project makes a user go through to contribute."
+msgstr ""
+
+#: ../../source/dev/policies.rst:32
+msgid "We will endeavour to keep the barrier to entry as low as possible. The policies below should not be thought of as barriers, but merely as a codification of experience to date.  These are \"best practices\"; guidelines, not absolutes.  Exceptions are expected, tolerated, and used as a source of improvement.  Feedback and criticism is welcome."
+msgstr ""
+
+#: ../../source/dev/policies.rst:38
+msgid "As for control issues, Emmett Plant (CEO of the Xiph.org Foundation, originators of Ogg Vorbis) put it well when he said:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:41
+msgid "Open source dictates that you lose a certain amount of control over your codebase, and that's okay with us."
+msgstr ""
+
+#: ../../source/dev/policies.rst:44
+msgid "Phrase borrowed from `Ben Collins-Sussman of the Subversion project <http://www.red-bean.com/sussman/svn-anti-fud.html>`__."
+msgstr ""
+
+#: ../../source/dev/policies.rst:52
+msgid "How to get a new feature into Docutils"
+msgstr ""
+
+#: ../../source/dev/policies.rst:56
+msgid "Question:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:55
+msgid "I would very much like to have this new feature in the Docutils core. What exactly do I have to do to make this possible?"
+msgstr ""
+
+#: ../../source/dev/policies.rst:58
+msgid "Present your idea at the Docutils-develop_ mailing list,"
+msgstr ""
+
+#: ../../source/dev/policies.rst:60
+msgid "usually triggers a fast response,"
+msgstr ""
+
+#: ../../source/dev/policies.rst:61
+msgid "may be forgotten later,"
+msgstr ""
+
+#: ../../source/dev/policies.rst:63
+msgid "and/or file a ticket at Docutils' `feature request tracker`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:65
+msgid "there is a permanent record,"
+msgstr ""
+
+#: ../../source/dev/policies.rst:66
+msgid "it may stay forgotten among all the other feature requests."
+msgstr ""
+
+#: ../../source/dev/policies.rst:68
+msgid "Convince a Docutils developer that this is a valuable addition worth the effort."
+msgstr ""
+
+#: ../../source/dev/policies.rst:71
+msgid "Contribute. The developers will make sure that the contribution fits nicely into Docutils (cf. the `review criteria`_). This might involve discussing (and compromising on) design and implementation details. It might also lead to the conclusion that the addition fits better in the `extensions and related projects`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:77
+msgid "Be patient, and be persistent.  None of us are paid to do this, it's all in our spare time -- which is precious and rare."
+msgstr ""
+
+#: ../../source/dev/policies.rst:80
+msgid "How to make code contributions that are easily accepted:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:82
+msgid "Have a look at the `Python coding conventions`_ and `documentation conventions`_ below."
+msgstr ""
+
+#: ../../source/dev/policies.rst:85
+msgid "**Prepare test cases.** This vastly helps when integrating new code. Test cases are also examples and showcases for new features. See `Docutils Testing`_ for a description of the test suite in ``docutils/test/``."
+msgstr ""
+
+#: ../../source/dev/policies.rst:89
+msgid "Ensure the addition works with all `supported Python versions`__."
+msgstr ""
+
+#: ../../source/dev/policies.rst:93
+msgid "Look at the Docutils sources to see how similar features are implemented, learn to do it \"the Docutils way\"."
+msgstr ""
+
+#: ../../source/dev/policies.rst:96
+msgid "Prepare the a patch or an addition to the existing documentation. Include links."
+msgstr ""
+
+#: ../../source/dev/policies.rst:99
+msgid "If you are familiar with version control, consider creating a `feature branch`_ in a Docutils repository_ checkout. (Working with branches is *much* easier with git_. You can get a git clone of the repository from http://repo.or.cz/w/docutils.git or with git-svn.)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:113
+msgid "Python Coding Conventions"
+msgstr ""
+
+#: ../../source/dev/policies.rst:115
+msgid "Contributed code will not be refused merely because it does not strictly adhere to these conditions; as long as it's internally consistent, clean, and correct, it probably will be accepted.  But don't be surprised if the \"offending\" code gets fiddled over time to conform to these conventions."
+msgstr ""
+
+#: ../../source/dev/policies.rst:121
+msgid "The Docutils project shall follow the generic coding conventions as specified in the `Style Guide for Python Code`_ and `Docstring Conventions`_ PEPs, summarized, clarified, and extended as follows:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:125
+msgid "4 spaces per indentation level.  No hard tabs."
+msgstr ""
+
+#: ../../source/dev/policies.rst:127
+msgid "Use only 7-bit ASCII, no 8-bit strings.  See `Docutils Internationalization`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:130
+msgid "No one-liner compound statements (i.e., no ``if x: return``: use two lines & indentation), except for degenerate class or method definitions (i.e., ``class X: pass`` is OK.)."
+msgstr ""
+
+#: ../../source/dev/policies.rst:134
+msgid "Lines should be no more than 78 characters long."
+msgstr ""
+
+#: ../../source/dev/policies.rst:136
+msgid "Use \"StudlyCaps\" for class names (except for element classes in docutils.nodes)."
+msgstr ""
+
+#: ../../source/dev/policies.rst:139
+msgid "Use \"lowercase\" or \"lowercase_with_underscores\" for function, method, and variable names.  For short names, maximum two words, joined lowercase may be used (e.g. \"tagname\").  For long names with three or more words, or where it's hard to parse the split between two words, use lowercase_with_underscores (e.g., \"note_explicit_target\", \"explicit_target\").  If in doubt, use underscores."
+msgstr ""
+
+#: ../../source/dev/policies.rst:147
+msgid "Avoid lambda expressions, which are inherently difficult to understand.  Named functions are preferable and superior: they're faster (no run-time compilation), and well-chosen names serve to document and aid understanding."
+msgstr ""
+
+#: ../../source/dev/policies.rst:152
+msgid "Avoid functional constructs (filter, map, etc.).  Use list comprehensions instead."
+msgstr ""
+
+#: ../../source/dev/policies.rst:155
+msgid "Avoid ``from __future__ import`` constructs.  They are inappropriate for production code."
+msgstr ""
+
+#: ../../source/dev/policies.rst:158
+msgid "Use 'single quotes' for string literals, and \"\"\"triple double quotes\"\"\" for docstrings."
+msgstr ""
+
+#: ../../source/dev/policies.rst:168
+msgid "Documentation Conventions"
+msgstr ""
+
+#: ../../source/dev/policies.rst:170
+msgid "Docutils documentation is written using reStructuredText, of course."
+msgstr ""
+
+#: ../../source/dev/policies.rst:172
+msgid "Use 7-bit ASCII if at all possible, and Unicode substitutions when necessary."
+msgstr ""
+
+#: ../../source/dev/policies.rst:175
+msgid "Use the following section title adornment styles::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:197
+msgid "Use two blank lines before each section/subsection/etc. title.  One blank line is sufficient between immediately adjacent titles."
+msgstr ""
+
+#: ../../source/dev/policies.rst:200
+msgid "Add a bibliographic field list immediately after the document title/subtitle.  See the beginning of this document for an example."
+msgstr ""
+
+#: ../../source/dev/policies.rst:203
+msgid "Add an Emacs \"local variables\" block in a comment at the end of the document.  See the end of this document for an example."
+msgstr ""
+
+#: ../../source/dev/policies.rst:208
+msgid "Copyrights and Licensing"
+msgstr ""
+
+#: ../../source/dev/policies.rst:210
+msgid "The majority of the Docutils project code and documentation has been placed in the public domain.  Unless clearly and explicitly indicated otherwise, any patches (modifications to existing files) submitted to the project for inclusion (via Subversion, SourceForge trackers, mailing lists, or private email) are assumed to be in the public domain as well."
+msgstr ""
+
+#: ../../source/dev/policies.rst:217
+msgid "Any new files contributed to the project should clearly state their intentions regarding copyright, in one of the following ways:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:220
+msgid "Public domain (preferred): include the statement \"This module/document has been placed in the public domain.\""
+msgstr ""
+
+#: ../../source/dev/policies.rst:223
+msgid "Copyright & open source license: include a copyright notice, along with either an embedded license statement, a reference to an accompanying license file, or a license URL."
+msgstr ""
+
+#: ../../source/dev/policies.rst:227
+msgid "The license should be well known, simple and compatible with other open source software licenses. To keep the number of different licenses at a minimum, using the `2-Clause BSD license`_ is recommended."
+msgstr ""
+
+#: ../../source/dev/policies.rst:233
+msgid "2-Clause BSD license"
+msgstr ""
+
+#: ../../source/dev/policies.rst:235
+msgid "(also known as \"Simplified\" or `FreeBSD license`)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:237
+msgid "If you want a simple, permissive non-copyleft free software license, the FreeBSD license is a reasonable choice. However, please don't call it a â€œBSDâ€ or â€œBSD-styleâ€ license, because that is likely to cause confusion which could lead to use of the flawed original BSD license."
+msgstr ""
+
+#: ../../source/dev/policies.rst:248
+msgid "`Various Licenses and Comments about Them`_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:248
+msgid "Pros:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:245
+msgid "clear wording, structured text"
+msgstr ""
+
+#: ../../source/dev/policies.rst:246
+msgid "license used by the closely related Sphinx project"
+msgstr ""
+
+#: ../../source/dev/policies.rst:247
+msgid "\"2-Clause BSD license\" is a non-ambiguous name, used by both, OSI and GNU."
+msgstr ""
+
+#: ../../source/dev/policies.rst:253
+msgid "References:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:251
+msgid "http://www.freebsd.org/copyright/freebsd-license.html"
+msgstr ""
+
+#: ../../source/dev/policies.rst:252
+msgid "http://www.opensource.org/licenses/BSD-2-Clause"
+msgstr ""
+
+#: ../../source/dev/policies.rst:253
+msgid "http://www.spdx.org/licenses/BSD-2-Clause"
+msgstr ""
+
+#: ../../source/dev/policies.rst:264
+msgid "Repository"
+msgstr ""
+
+#: ../../source/dev/policies.rst:266
+msgid "Please see the `repository documentation`_ for details on how to access Docutils' Subversion repository.  Anyone can access the repository anonymously.  Only project developers can make changes. (If you would like to become a project developer, just ask!)  Also see `Setting Up For Docutils Development`_ below for some useful info."
+msgstr ""
+
+#: ../../source/dev/policies.rst:272
+msgid "Unless you really *really* know what you're doing, please do *not* use ``svn import``.  It's quite easy to mess up the repository with an import."
+msgstr ""
+
+#: ../../source/dev/policies.rst:280
+msgid "Branches"
+msgstr ""
+
+#: ../../source/dev/policies.rst:282
+msgid "(These branch policies go into effect with Docutils 0.4.)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:284
+msgid "The \"docutils\" directory of the **trunk** (a.k.a. the **Docutils core**) is used for active -- but stable, fully tested, and reviewed -- development."
+msgstr ""
+
+#: ../../source/dev/policies.rst:288
+msgid "If we need to cut a bugfix release, we'll create a **maintenance branch** based on the latest feature release.  For example, when Docutils 0.5 is released, this would be ``branches/docutils-0.5``, and any existing 0.4.x maintenance branches may be retired.  Maintenance branches will receive bug fixes only; no new features will be allowed here."
+msgstr ""
+
+#: ../../source/dev/policies.rst:294
+msgid "Obvious and uncontroversial bug fixes *with tests* can be checked in directly to the core and to the maintenance branches.  Don't forget to add test cases!  Many (but not all) bug fixes will be applicable both to the core and to the maintenance branches; these should be applied to both.  No patches or dedicated branches are required for bug fixes, but they may be used.  It is up to the discretion of project developers to decide which mechanism to use for each case."
+msgstr ""
+
+#: ../../source/dev/policies.rst:305
+msgid "Feature additions and API changes will be done in **feature branches**.  Feature branches will not be managed in any way. Frequent small checkins are encouraged here.  Feature branches must be discussed on the `docutils-develop mailing list`_ and reviewed before being merged into the core."
+msgstr ""
+
+#: ../../source/dev/policies.rst:316
+msgid "Review Criteria"
+msgstr ""
+
+#: ../../source/dev/policies.rst:318
+msgid "Before a new feature, an API change, or a complex, disruptive, or controversial bug fix can be checked in to the core or into a maintenance branch, it must undergo review.  These are the criteria:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:322
+msgid "The branch must be complete, and include full documentation and tests."
+msgstr ""
+
+#: ../../source/dev/policies.rst:325
+msgid "There should ideally be one branch merge commit per feature or change.  In other words, each branch merge should represent a coherent change set."
+msgstr ""
+
+#: ../../source/dev/policies.rst:329
+msgid "The code must be stable and uncontroversial.  Moving targets and features under debate are not ready to be merged."
+msgstr ""
+
+#: ../../source/dev/policies.rst:332
+msgid "The code must work.  The test suite must complete with no failures. See `Docutils Testing`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:335
+msgid "The review process will ensure that at least one other set of eyeballs & brains sees the code before it enters the core.  In addition to the above, the general `Check-ins`_ policy (below) also applies."
+msgstr ""
+
+#: ../../source/dev/policies.rst:341
+msgid "Check-ins"
+msgstr ""
+
+#: ../../source/dev/policies.rst:343
+msgid "Changes or additions to the Docutils core and maintenance branches carry a commitment to the Docutils user community.  Developers must be prepared to fix and maintain any code they have committed."
+msgstr ""
+
+#: ../../source/dev/policies.rst:347
+msgid "The Docutils core (``trunk/docutils`` directory) and maintenance branches should always be kept in a stable state (usable and as problem-free as possible).  All changes to the Docutils core or maintenance branches must be in `good shape`_, usable_, documented_, tested_, and `reasonably complete`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:353
+msgid "_`Good shape` means that the code is clean, readable, and free of junk code (unused legacy code; by analogy to \"junk DNA\")."
+msgstr ""
+
+#: ../../source/dev/policies.rst:356
+msgid "_`Usable` means that the code does what it claims to do.  An \"XYZ Writer\" should produce reasonable XYZ output."
+msgstr ""
+
+#: ../../source/dev/policies.rst:359
+msgid "_`Documented`: The more complete the documentation the better. Modules & files must be at least minimally documented internally. `Docutils Front-End Tools`_ should have a new section for any front-end tool that is added.  `Docutils Configuration Files`_ should be modified with any settings/options defined.  For any non-trivial change, the HISTORY.txt_ file should be updated."
+msgstr ""
+
+#: ../../source/dev/policies.rst:366
+msgid "_`Tested` means that unit and/or functional tests, that catch all bugs fixed and/or cover all new functionality, have been added to the test suite.  These tests must be checked by running the test suite under all supported Python versions, and the entire test suite must pass.  See `Docutils Testing`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:372
+msgid "_`Reasonably complete` means that the code must handle all input. Here \"handle\" means that no input can cause the code to fail (cause an exception, or silently and incorrectly produce nothing). \"Reasonably complete\" does not mean \"finished\" (no work left to be done).  For example, a writer must handle every standard element from the Docutils document model; for unimplemented elements, it must *at the very least* warn that \"Output for element X is not yet implemented in writer Y\"."
+msgstr ""
+
+#: ../../source/dev/policies.rst:381
+msgid "If you really want to check code directly into the Docutils core, you can, but you must ensure that it fulfills the above criteria first.  People will start to use it and they will expect it to work! If there are any issues with your code, or if you only have time for gradual development, you should put it on a branch or in the sandbox first.  It's easy to move code over to the Docutils core once it's complete."
+msgstr ""
+
+#: ../../source/dev/policies.rst:389
+msgid "It is the responsibility and obligation of all developers to keep the Docutils core and maintenance branches stable.  If a commit is made to the core or maintenance branch which breaks any test, the solution is simply to revert the change.  This is not vindictive; it's practical. We revert first, and discuss later."
+msgstr ""
+
+#: ../../source/dev/policies.rst:395
+msgid "Docutils will pursue an open and trusting policy for as long as possible, and deal with any aberrations if (and hopefully not when) they happen.  We'd rather see a torrent of loose contributions than just a trickle of perfect-as-they-stand changes.  The occasional mistake is easy to fix.  That's what version control is for!"
+msgstr ""
+
+#: ../../source/dev/policies.rst:409
+msgid "Version Identification"
+msgstr ""
+
+#: ../../source/dev/policies.rst:411
+msgid "The state of development of the current Docutils codebase is stored in two forms: a `docutils.__version_info__`_ namedtuple, and a `docutils.__version__`_ text string."
+msgstr ""
+
+#: ../../source/dev/policies.rst:415
+msgid "See also the `Docutils Release Procedure`_, and ``docutils.__version__`` & ``docutils.__version_info__`` in docutils/__init__.py."
+msgstr ""
+
+#: ../../source/dev/policies.rst:423
+msgid "``docutils.__version_info__``"
+msgstr ""
+
+#: ../../source/dev/policies.rst:425
+msgid "Detailed version information is available in ``docutils.__version_info__``, an instance of the namedtuple_ ``docutils.VersionInfo``. It is modelled on `sys.version_info`_ and has the following attributes:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:437
+msgid "major"
+msgstr ""
+
+#: ../../source/dev/policies.rst:436
+#: ../../source/dev/policies.rst:441
+#: ../../source/dev/policies.rst:447
+#: ../../source/dev/policies.rst:480
+msgid "non-negative integer"
+msgstr ""
+
+#: ../../source/dev/policies.rst:431
+msgid "**Major releases** (x.0, e.g. 1.0) will be rare, and will represent major changes in API, functionality, or commitment.  The major number will be bumped to 1 when the project is feature-complete, and may be incremented later if there is a major change in the design or API.  When Docutils reaches version 1.0, the major APIs will be considered frozen and backward compatibility will become of paramount importance."
+msgstr ""
+
+#: ../../source/dev/policies.rst:442
+msgid "minor"
+msgstr ""
+
+#: ../../source/dev/policies.rst:440
+msgid "Releases that change the minor number (x.y, e.g. 0.5) will be **feature releases**; new features from the `Docutils core`_ will be included."
+msgstr ""
+
+#: ../../source/dev/policies.rst:448
+msgid "micro"
+msgstr ""
+
+#: ../../source/dev/policies.rst:445
+msgid "Releases that change the micro number (x.y.z, e.g. 0.4.1) will be **bug-fix releases**.  No new features will be introduced in these releases; only bug fixes will be included.  The micro number is omitted from ``docutils.__version__`` when micro=0."
+msgstr ""
+
+#: ../../source/dev/policies.rst:477
+msgid "releaselevel"
+msgstr ""
+
+#: ../../source/dev/policies.rst:476
+msgid "text string"
+msgstr ""
+
+#: ../../source/dev/policies.rst:451
+msgid "The release level indicates the `development status`_ (or phase) of the project's codebase:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:455
+#: ../../source/dev/policies.rst:554
+msgid "Release Level"
+msgstr ""
+
+#: ../../source/dev/policies.rst:455
+msgid "Label"
+msgstr ""
+
+#: ../../source/dev/policies.rst:455
+msgid "Description"
+msgstr ""
+
+#: ../../source/dev/policies.rst:457
+msgid "alpha"
+msgstr ""
+
+#: ../../source/dev/policies.rst:457
+msgid "``a``"
+msgstr ""
+
+#: ../../source/dev/policies.rst:457
+msgid "Reserved for use after major experimental changes, to indicate an unstable codebase."
+msgstr ""
+
+#: ../../source/dev/policies.rst:460
+msgid "beta"
+msgstr ""
+
+#: ../../source/dev/policies.rst:460
+msgid "``b``"
+msgstr ""
+
+#: ../../source/dev/policies.rst:460
+msgid "Indicates active development, between releases. Used with serial = 0."
+msgstr ""
+
+#: ../../source/dev/policies.rst:463
+msgid "candidate"
+msgstr ""
+
+#: ../../source/dev/policies.rst:463
+msgid "``rcN``"
+msgstr ""
+
+#: ../../source/dev/policies.rst:463
+msgid "Release candidate: indicates that the codebase is ready to release unless significant bugs emerge. Serial N starts at 1."
+msgstr ""
+
+#: ../../source/dev/policies.rst:468
+msgid "final"
+msgstr ""
+
+#: ../../source/dev/policies.rst:468
+msgid "Indicates an official project release. There is no pre-release segment for final releases (no label)."
+msgstr ""
+
+#: ../../source/dev/policies.rst:473
+msgid "The abbreviations in the \"Label\" column are used in the `docutils.__version__`_ identifier text."
+msgstr ""
+
+#: ../../source/dev/policies.rst:481
+msgid "serial"
+msgstr ""
+
+#: ../../source/dev/policies.rst:480
+msgid "The serial number is incremented whenever a new pre-release is begun."
+msgstr ""
+
+#: ../../source/dev/policies.rst:485
+msgid "release"
+msgstr ""
+
+#: ../../source/dev/policies.rst:484
+msgid "boolean"
+msgstr ""
+
+#: ../../source/dev/policies.rst:484
+msgid "True for official releases and pre-releases, False during development."
+msgstr ""
+
+#: ../../source/dev/policies.rst:487
+msgid "One of *{major, minor, micro}* is incremented after each official release, and the lower-order numbers are reset to 0."
+msgstr ""
+
+#: ../../source/dev/policies.rst:490
+msgid "The default state of the repository during active development and between releases is: release level \"beta\", serial = 0, release = False."
+msgstr ""
+
+#: ../../source/dev/policies.rst:494
+msgid "``docutils.__version_info__`` can be used to test for a minimally required version, e.g.::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:503
+msgid "For practical purposes it may suffice to test against a truncated tuple, e.g.::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:508
+msgid "is True for all versions \"larger\" than ``\"0.13\"``."
+msgstr ""
+
+#: ../../source/dev/policies.rst:510
+msgid "Mind, however, that a test like ::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:514
+msgid "is True also for development versions and pre-releases of the 0.14 series although, according to PEP 440, these must be sorted before 0.14."
+msgstr ""
+
+#: ../../source/dev/policies.rst:522
+msgid "``docutils.__version__``"
+msgstr ""
+
+#: ../../source/dev/policies.rst:524
+msgid "``docutils.__version__`` contains the version identifier as a text string: a concise, `PEP 440`_-conforming representation of ``docutils.__version_info__``."
+msgstr ""
+
+#: ../../source/dev/policies.rst:528
+msgid "For version comparison operations, use `docutils.__version_info__`_. Do not parse the text of ``docutils.__version__``."
+msgstr ""
+
+#: ../../source/dev/policies.rst:531
+msgid "``docutils.__version__`` takes the following form::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:538
+msgid "The abbreviated forms of each release level, found in the \"Label\" column in the table above (\"a\" or \"b\" or \"rc\"), are used in the pre-release segment."
+msgstr ""
+
+#: ../../source/dev/policies.rst:542
+msgid "When the serial number is 0, it is omitted from the pre-release segment."
+msgstr ""
+
+#: ../../source/dev/policies.rst:545
+msgid "The development segment is present during active development (as \"``.dev``\", when ``docutils.__version_info__.release`` is False), and absent for official releases and pre-releases (when ``docutils.__version_info__.release`` is True)."
+msgstr ""
+
+#: ../../source/dev/policies.rst:550
+msgid "Examples of ``docutils.__version__`` identifiers, over the course of normal development (without branches), in ascending order:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:554
+msgid "Version Identifier"
+msgstr ""
+
+#: ../../source/dev/policies.rst:556
+#: ../../source/dev/policies.rst:564
+msgid "final (release)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:556
+msgid "0.14"
+msgstr ""
+
+#: ../../source/dev/policies.rst:557
+msgid "beta (development)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:557
+msgid "0.15b.dev [2]_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:558
+msgid "beta (release)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:558
+msgid "0.15b [1]_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:559
+msgid "candidate 1 (dev.)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:559
+msgid "0.15rc1.dev"
+msgstr ""
+
+#: ../../source/dev/policies.rst:560
+msgid "candidate 1 (release)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:560
+msgid "0.15rc1"
+msgstr ""
+
+#: ../../source/dev/policies.rst:561
+msgid "candidate 2 (dev.)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:561
+msgid "0.15rc2.dev [1]_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:562
+msgid "candidate 2 (release)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:562
+msgid "0.15rc2 [1]_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:563
+msgid "... candidate N"
+msgstr ""
+
+#: ../../source/dev/policies.rst:563
+msgid "0.15rcN.dev [1]_, 0.15rcN [1]_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:564
+msgid "0.15"
+msgstr ""
+
+#: ../../source/dev/policies.rst:565
+msgid "beta (dev.)"
+msgstr ""
+
+#: ../../source/dev/policies.rst:565
+msgid "0.16b.dev [2]_"
+msgstr ""
+
+#: ../../source/dev/policies.rst:568
+msgid "These steps may be skipped."
+msgstr ""
+
+#: ../../source/dev/policies.rst:570
+msgid "Default active development state between releases."
+msgstr ""
+
+#: ../../source/dev/policies.rst:574
+msgid "Policy History"
+msgstr ""
+
+#: ../../source/dev/policies.rst:576
+msgid "Prior to version 0.4, Docutils didn't have an official version numbering policy, and micro releases contained both bug fixes and new features."
+msgstr ""
+
+#: ../../source/dev/policies.rst:580
+msgid "An earlier version of this policy was adopted in October 2005, and took effect with Docutils version 0.4."
+msgstr ""
+
+#: ../../source/dev/policies.rst:583
+msgid "This policy was updated in June 2017 for Docutils version 0.14. See `Feature Request #50`_ and the `discussion on docutils-devel`__ from May 28 to June 20 2017."
+msgstr ""
+
+#: ../../source/dev/policies.rst:593
+msgid "Snapshots"
+msgstr ""
+
+#: ../../source/dev/policies.rst:595
+msgid "Snapshot tarballs can be downloaded from the repository (see the \"download snapshot\" button in the head of the code listing table)."
+msgstr ""
+
+#: ../../source/dev/policies.rst:598
+msgid "the `Docutils core`_, representing the current cutting-edge state of development;"
+msgstr ""
+
+#: ../../source/dev/policies.rst:601
+msgid "the `sandbox directory`_ with contributed projects and extensions from `the Sandbox`_;"
+msgstr ""
+
+#: ../../source/dev/policies.rst:610
+msgid "`development branches`_, representing ongoing development efforts to bring new features into Docutils."
+msgstr ""
+
+#: ../../source/dev/policies.rst:620
+msgid "Setting Up For Docutils Development"
+msgstr ""
+
+#: ../../source/dev/policies.rst:622
+msgid "When making changes to the code, testing is a must.  The code should be run to verify that it produces the expected results, and the entire test suite should be run too.  The modified Docutils code has to be accessible to Python for the tests to have any meaning.  There are two ways to keep the Docutils code accessible during development:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:628
+msgid "Update your ``PYTHONPATH`` environment variable so that Python picks up your local working copy of the code.  This is the recommended method."
+msgstr ""
+
+#: ../../source/dev/policies.rst:632
+msgid "We'll assume that the Docutils trunk is checked out under your ~/projects/ directory as follows::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:638
+msgid "For the bash shell, add this to your ``~/.profile``::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:644
+msgid "The first line points to the directory containing the ``docutils`` package.  The second line adds the directory containing the third-party modules Docutils depends on.  The third line exports this environment variable.  You may also wish to add the ``tools`` directory to your ``PATH``::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:653
+msgid "Before you run anything, every time you make a change, reinstall Docutils::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:660
+msgid "This method is **not** recommended for day-to-day development; it's too easy to forget.  Confusion inevitably ensues."
+msgstr ""
+
+#: ../../source/dev/policies.rst:663
+msgid "If you install Docutils this way, Python will always pick up the last-installed copy of the code.  If you ever forget to reinstall the \"docutils\" package, Python won't see your latest changes."
+msgstr ""
+
+#: ../../source/dev/policies.rst:668
+msgid "A useful addition to the ``docutils`` top-level directory in branches and alternate copies of the code is a ``set-PATHS`` file containing the following lines::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:676
+msgid "Open a shell for this branch, ``cd`` to the ``docutils`` top-level directory, and \"source\" this file.  For example, using the bash shell::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:685
+msgid "Mailing Lists"
+msgstr ""
+
+#: ../../source/dev/policies.rst:687
+msgid "Developers are recommended to subscribe to all `Docutils mailing lists`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:694
+msgid "The Wiki"
+msgstr ""
+
+#: ../../source/dev/policies.rst:696
+msgid "There is a development wiki at http://docutils.python-hosting.com/ as a scratchpad for transient notes.  Please use the repository for permament document storage."
+msgstr ""
+
+#: ../../source/dev/policies.rst:701
+msgid "Extensions and Related Projects"
+msgstr ""
+
+#: ../../source/dev/policies.rst:704
+msgid "The Sandbox"
+msgstr ""
+
+#: ../../source/dev/policies.rst:706
+msgid "The `sandbox directory`_ is a place to play around, to try out and share ideas.  It's a part of the Subversion repository but it isn't distributed as part of Docutils releases.  Feel free to check in code to the sandbox; that way people can try it out but you won't have to worry about it working 100% error-free, as is the goal of the Docutils core.  A project-specific subdirectory should be created for each new project.  Any developer who wants to play in the sandbox may do so, but project directories are recommended over personal directories, which discourage collaboration.  It's OK to make a mess in the sandbox!  But please, play nice."
+msgstr ""
+
+#: ../../source/dev/policies.rst:717
+msgid "Please update the `sandbox README`_ file with links and a brief description of your work."
+msgstr ""
+
+#: ../../source/dev/policies.rst:720
+msgid "In order to minimize the work necessary for others to install and try out new, experimental components, the following sandbox directory structure is recommended::"
+msgstr ""
+
+#: ../../source/dev/policies.rst:746
+msgid "Some sandbox projects are destined to move to the Docutils core once completed.  Others, such as add-ons to Docutils or applications of Docutils, may graduate to become `parallel projects`_."
+msgstr ""
+
+#: ../../source/dev/policies.rst:758
+msgid "Parallel Projects"
+msgstr ""
+
+#: ../../source/dev/policies.rst:760
+msgid "Parallel projects contain useful code that is not central to the functioning of Docutils.  Examples are specialized add-ons or plug-ins, and applications of Docutils.  They use Docutils, but Docutils does not require their presence to function."
+msgstr ""
+
+#: ../../source/dev/policies.rst:765
+msgid "An official parallel project will have its own directory beside (or parallel to) the main ``docutils`` directory in the Subversion repository.  It can have its own web page in the docutils.sourceforge.net domain, its own file releases and downloadable snapshots, and even a mailing list if that proves useful. However, an official parallel project has implications: it is expected to be maintained and continue to work with changes to the core Docutils."
+msgstr ""
+
+#: ../../source/dev/policies.rst:774
+msgid "A parallel project requires a project leader, who must commit to coordinate and maintain the implementation:"
+msgstr ""
+
+#: ../../source/dev/policies.rst:777
+msgid "Answer questions from users and developers."
+msgstr ""
+
+#: ../../source/dev/policies.rst:778
+msgid "Review suggestions, bug reports, and patches."
+msgstr ""
+
+#: ../../source/dev/policies.rst:779
+msgid "Monitor changes and ensure the quality of the code and documentation."
+msgstr ""
+
+#: ../../source/dev/policies.rst:781
+msgid "Coordinate with Docutils to ensure interoperability."
+msgstr ""
+
+#: ../../source/dev/policies.rst:782
+msgid "Put together official project releases."
+msgstr ""
+
+#: ../../source/dev/policies.rst:784
+msgid "Of course, related projects may be created independently of Docutils. The advantage of a parallel project is that the SourceForge environment and the developer and user communities are already established.  Core Docutils developers are available for consultation and may contribute to the parallel project.  It's easier to keep the projects in sync when there are changes made to the core Docutils code."
+msgstr ""
+
+#: ../../source/dev/policies.rst:793
+msgid "Other related projects"
+msgstr ""
+
+#: ../../source/dev/policies.rst:795
+msgid "Many related but independent projects are listed in the Docutils `link list`_. If you want your project to appear there, drop a note at the Docutils-develop_ mailing list."
+msgstr ""
+

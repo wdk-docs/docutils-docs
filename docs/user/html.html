@@ -1,0 +1,529 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Docutils HTML编写者 &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="Docutils Link List" href="links.html" />
+    <link rel="prev" title="Emacs Support for reStructuredText" href="emacs.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../contents.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release/index.html">版本发布</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doc.html">文档实用程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst.html">Docutils 的标记语法和解析器组件</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">用户文档</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rst/config.html">config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rst/demo.html"><span class="sectnum">1</span> reStructuredText Demonstration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rst/quickref.html">Quick reStructuredText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rst/quickstart.html">A ReStructuredText Primer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="emacs.html">Emacs Support for reStructuredText</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Docutils HTML编写者</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#html">html</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#html4css1">html4css1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pep-html">pep_html</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#s5-html">s5_html</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#html5-polyglot">html5_polyglot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#html-writers-in-the-sandbox">HTML writers in the sandbox</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#xhtml11">xhtml11</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#html4trans">html4trans</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">Docutils Link List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mailing-lists.html">Docutils Mailing Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="odt.html"><span class="sectnum">1</span> Odt Writer for Docutils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="slide-shows.html">Easy Slide Shows With reST &amp; S5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools.html">Docutils Front-End Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="latex.html"><span class="sectnum">1</span> Generating LaTeX with Docutils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">参考文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">基本知识</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../contents.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../contents.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">用户文档</a> &raquo;</li>
+        
+      <li>Docutils HTML编写者</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/user/html.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="docutils-html-writers">
+<h1><a class="toc-backref" href="#id7">Docutils HTML编写者</a><a class="headerlink" href="#docutils-html-writers" title="永久链接至标题">¶</a></h1>
+<div class="contents topic" id="id1">
+<p class="topic-title first">目录</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#docutils-html-writers" id="id7">Docutils HTML编写者</a></p>
+<ul>
+<li><p><a class="reference internal" href="#html" id="id8">html</a></p></li>
+<li><p><a class="reference internal" href="#html4css1" id="id9">html4css1</a></p>
+<ul>
+<li><p><a class="reference internal" href="#pep-html" id="id10">pep_html</a></p></li>
+<li><p><a class="reference internal" href="#s5-html" id="id11">s5_html</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#html5-polyglot" id="id12">html5_polyglot</a></p></li>
+<li><p><a class="reference internal" href="#html-writers-in-the-sandbox" id="id13">HTML writers in the sandbox</a></p>
+<ul>
+<li><p><a class="reference internal" href="#xhtml11" id="id14">xhtml11</a></p></li>
+<li><p><a class="reference internal" href="#html4trans" id="id15">html4trans</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#overview" id="id16">Overview</a></p></li>
+<li><p><a class="reference internal" href="#references" id="id17">References</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="html">
+<h2><a class="toc-backref" href="#id8">html</a><a class="headerlink" href="#html" title="永久链接至标题">¶</a></h2>
+<p><cite>html</cite> is an alias for the default Docutils HTML writer.
+Currently, <cite>html</cite> is mapped to <a class="reference internal" href="#html4css1">html4css1</a>.</p>
+<p>The target may change with the development of HTML, browsers, Docutils, and
+the web.</p>
+<ul class="simple">
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">get_writer_by_name('html')</span></code> or the <a class="reference external" href="tools.html#rst2html-py">rst2html.py</a> front end, if you
+want the output to be up-to-date automatically.</p></li>
+<li><p>Use a specific writer name or front end, if you depend on stability of the
+generated HTML code, e.g. because you use a custom style sheet or
+post-processing that may break otherwise.</p></li>
+</ul>
+</div>
+<div class="section" id="html4css1">
+<h2><a class="toc-backref" href="#id9">html4css1</a><a class="headerlink" href="#html4css1" title="永久链接至标题">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">aliases</dt>
+<dd class="field-odd"><p>html4, <a class="reference internal" href="#html">html</a></p>
+</dd>
+<dt class="field-even">front-ends</dt>
+<dd class="field-even"><p>rst2html4.py, <a class="reference external" href="tools.html#rst2html-py">rst2html.py</a></p>
+</dd>
+<dt class="field-odd">config</dt>
+<dd class="field-odd"><p><a class="reference external" href="config.html#html4css1-writer">[html4css1 writer]</a></p>
+</dd>
+</dl>
+<p>The HTML Writer module, <code class="docutils literal notranslate"><span class="pre">docutils/writers/html4css1.py</span></code>, was the first
+Docutils writer and up to release 0.13 the only official HTML writer.</p>
+<p>The output conforms to the <a href="#id18"><span class="problematic" id="id19">`XHTML聽1 Transitional`_</span></a> specification. It does
+not validate as <a href="#id20"><span class="problematic" id="id21">`HTML聽4.01聽Transitional`_</span></a> due to the closing of empty tags
+required in XML but not allowed in HTML聽4. However, the output follows the
+<a class="reference external" href="http://www.w3.org/TR/xhtml1/#guidelines">HTML Compatibility Guidelines</a> for proper rendering on most HTML user
+agents.</p>
+<p>Correct rendering depends on a <a class="reference external" href="http://www.w3.org/TR/CSS/">CSS</a> style sheet. A reference style sheet,
+<a class="reference external" href="../../docutils/writers/html4css1/html4css1.css">html4css1.css</a>, is provided and used by default.</p>
+<p>To support the <cite>Internet Explorer</cite> (with a market share of about 90% around
+2002, the time this writer was written), documents contain some hard-coded
+formatting hints and are tagged as “text/html” (instead of
+“application/xhtml+xml”). <a class="footnote-reference brackets" href="#ie" id="id2">1</a></p>
+<dl class="footnote brackets">
+<dt class="label" id="ie"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p>Conformance to <a class="reference internal" href="#css-2-1">CSS 2.1</a> has been added in IE聽8 (2009), support
+for XHTML in IE聽9 (2011).</p>
+</dd>
+</dl>
+<div class="section" id="pep-html">
+<h3><a class="toc-backref" href="#id10">pep_html</a><a class="headerlink" href="#pep-html" title="永久链接至标题">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">front-end</dt>
+<dd class="field-odd"><p><a class="reference external" href="tools.html#rstpep2html-py">rstpep2html.py</a></p>
+</dd>
+<dt class="field-even">config</dt>
+<dd class="field-even"><p><a class="reference external" href="config.html#pep-html-writer">[pep_html writer]</a></p>
+</dd>
+</dl>
+<p>This is a special writer for the generation of <a class="reference external" href="https://www.python.org/dev/peps/">Python Enhancement
+Proposals</a> (PEPs). It inherits from <a class="reference internal" href="#html4css1">html4css1</a> and adds some <a class="reference external" href="config.html#pep-html-writer">PEP-specific
+options</a>, a style sheet and template. The front-end uses also a specialised
+reader.</p>
+</div>
+<div class="section" id="s5-html">
+<h3><a class="toc-backref" href="#id11">s5_html</a><a class="headerlink" href="#s5-html" title="永久链接至标题">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">alias</dt>
+<dd class="field-odd"><p>s5</p>
+</dd>
+<dt class="field-even">front-end</dt>
+<dd class="field-even"><p><a class="reference external" href="tools.html#rst2s5-py">rst2s5.py</a></p>
+</dd>
+<dt class="field-odd">config</dt>
+<dd class="field-odd"><p><a class="reference external" href="config.html#s5-html-writer">[s5_html writer]</a></p>
+</dd>
+</dl>
+<p>The <cite>s5</cite> writer inherits from <a class="reference internal" href="#html4css1">html4css1</a>. It produces XHTML for use with
+<a class="reference external" href="http://meyerweb.com/eric/tools/s5/">S5</a>, the 鈥淪imple Standards-based Slide Show System鈥� by Eric Meyer.  See
+<a class="reference external" href="slide-shows.html">Easy Slide Shows With reST &amp; S5</a> for details.</p>
+</div>
+</div>
+<div class="section" id="html5-polyglot">
+<h2><a class="toc-backref" href="#id12">html5_polyglot</a><a class="headerlink" href="#html5-polyglot" title="永久链接至标题">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">aliases</dt>
+<dd class="field-odd"><p>html5</p>
+</dd>
+<dt class="field-even">front-end</dt>
+<dd class="field-even"><p><a class="reference external" href="tools.html#rst2html5-py">rst2html5.py</a></p>
+</dd>
+<dt class="field-odd">config</dt>
+<dd class="field-odd"><p><a class="reference external" href="config.html#html5-writer">[html5 writer]</a></p>
+</dd>
+</dl>
+<p>The <code class="docutils literal notranslate"><span class="pre">html5_polyglot</span></code> writer generates <a class="reference external" href="http://www.w3.org/TR/html-polyglot/">polyglot HTML</a> <a class="footnote-reference brackets" href="#id6" id="id3">2</a> output, valid
+XML <a class="footnote-reference brackets" href="#safetext" id="id4">3</a> that is compatible with <a class="reference internal" href="#html5">HTML5</a>. New features and elements
+will only be used if they are widely supported to make documents <a class="reference external" href="http://www.anybrowser.org/campaign">viewable
+with any browser</a>.</p>
+<p>There is no hard-coded formatting information in the HTML document. Correct
+rendering of elements not directly supported by HTML depends on a <a class="reference external" href="http://www.w3.org/TR/CSS/">CSS</a> style
+sheet. The provided style sheets <a class="reference external" href="../../docutils/writers/html5_polyglot/minimal.css">minimal.css</a> and <a class="reference external" href="../../docutils/writers/html5_polyglot/plain.css">plain.css</a> define required
+and optional styling rules respectively. Adaption of the layout is possible
+with <a class="reference external" href="../howto/html-stylesheets.html">custom style sheets</a>. <a class="footnote-reference brackets" href="#safetext" id="id5">3</a></p>
+<p>New in Docutils 0.13</p>
+<dl class="footnote brackets">
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dd><p>see also <a class="reference external" href="http://xmlplease.com/xhtml/xhtml5polyglot/">Benefits of polyglot XHTML5</a></p>
+</dd>
+<dt class="label" id="safetext"><span class="brackets">3</span><span class="fn-backref">(<a href="#id4">1</a>,<a href="#id5">2</a>)</span></dt>
+<dd><p>The validity of raw HTML and custom stylesheets must be
+ensured by the author (e.g. using <a class="reference external" href="https://www.w3.org/TR/html-polyglot/#dfn-safe-text-content">safe text content</a>).</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="html-writers-in-the-sandbox">
+<h2><a class="toc-backref" href="#id13">HTML writers in the sandbox</a><a class="headerlink" href="#html-writers-in-the-sandbox" title="永久链接至标题">¶</a></h2>
+<p>There are two more HTML writers in the <a class="reference external" href="../dev/policies.html#the-sandbox">sandbox</a>:</p>
+<div class="section" id="xhtml11">
+<h3><a class="toc-backref" href="#id14">xhtml11</a><a class="headerlink" href="#xhtml11" title="永久链接至标题">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">aliases</dt>
+<dd class="field-odd"><p>xhtml, html4strict</p>
+</dd>
+<dt class="field-even">front-end</dt>
+<dd class="field-even"><p>rst2xhtml.py</p>
+</dd>
+<dt class="field-odd">config</dt>
+<dd class="field-odd"><p><cite>[xhtml11 writer]</cite></p>
+</dd>
+</dl>
+<p><a href="#id22"><span class="problematic" id="id23">`XHTML 1.1`_</span></a> is the latest version of the XML based <cite>extensible
+Hypertext Markup Language</cite> with an official DTD.</p>
+<p>The <a class="reference external" href="../../../sandbox/html4strict/README.html">xhtml11 writer</a> lives in the Docutils <a class="reference external" href="../dev/policies.html#the-sandbox">sandbox</a> since 2008. The output
+conforms to the strict requirements of <a class="reference internal" href="#xhtml1-1">XHTML聽1.1</a>.</p>
+</div>
+<div class="section" id="html4trans">
+<h3><a class="toc-backref" href="#id15">html4trans</a><a class="headerlink" href="#html4trans" title="永久链接至标题">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">front-end</dt>
+<dd class="field-odd"><p><a class="reference external" href="../../../sandbox/html4trans/tools/rst2html_trans.py">rst2html_trans.py</a></p>
+</dd>
+</dl>
+<p>The <a class="reference external" href="../../../sandbox/html4trans/README.html">HTML writer for lightweight browsers</a> lives in the Docutils sandbox
+(<a class="reference external" href="../../../sandbox/html4trans">sandbox/html4trans</a>) since 2008. It removes the dependency on CSS. The
+output conforms to <a href="#id24"><span class="problematic" id="id25">`XHTML聽1 Transitional`_</span></a> and contains sufficient
+formatting information for rendering without style sheet. (Of course, this
+has some <a class="reference external" href="../../../sandbox/html4trans/README.html#drawbacks">drawbacks</a>.)</p>
+</div>
+</div>
+<div class="section" id="overview">
+<h2><a class="toc-backref" href="#id16">Overview</a><a class="headerlink" href="#overview" title="永久链接至标题">¶</a></h2>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 16%" />
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>name</p></th>
+<th class="head"><p>alias(es)</p></th>
+<th class="head"><p><a class="reference external" href="tools.html">front-end</a></p></th>
+<th class="head"><p>HTML version</p></th>
+<th class="head"><p>CSS version</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="#html4css1">html4css1</a></p></td>
+<td><p>html4,
+<a class="reference internal" href="#html">html</a></p></td>
+<td><p>rst2html4.py,
+rst2html.py</p></td>
+<td><p><a href="#id26"><span class="problematic" id="id27">`XHTML聽1
+Transitional`_</span></a></p></td>
+<td><p><a class="reference internal" href="#css1">CSS聽1</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#pep-html">pep_html</a></p></td>
+<td></td>
+<td><p>rstpep2html.py</p></td>
+<td><p><a href="#id28"><span class="problematic" id="id29">`XHTML聽1
+Transitional`_</span></a></p></td>
+<td><p><a class="reference internal" href="#css1">CSS聽1</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#s5-html">s5_html</a></p></td>
+<td><p>s5</p></td>
+<td><p>rst2s5.py</p></td>
+<td><p><a href="#id30"><span class="problematic" id="id31">`XHTML聽1
+Transitional`_</span></a></p></td>
+<td><p><a class="reference internal" href="#css1">CSS聽1</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#html5-polyglot">html5_polyglot</a></p></td>
+<td><p>html5</p></td>
+<td><p>rst2html5.py</p></td>
+<td><p><a class="reference internal" href="#html5">HTML5</a></p></td>
+<td><p><a class="reference internal" href="#css-3">CSS 3</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#xhtml11">xhtml11</a></p></td>
+<td><p>xhtml,
+html4strict</p></td>
+<td><p>rst2xhtml.py</p></td>
+<td><p><a class="reference internal" href="#xhtml1-1">XHTML聽1.1</a></p></td>
+<td><p><a class="reference internal" href="#css-3">CSS 3</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#html4trans">html4trans</a> ..</p></td>
+<td></td>
+<td><p>rst2html_trans</p></td>
+<td><p><a href="#id32"><span class="problematic" id="id33">`XHTML聽1
+Transitional`_</span></a></p></td>
+<td><blockquote>
+<div><p>no CSS</p>
+</div></blockquote>
+<p>required</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="references">
+<h2><a class="toc-backref" href="#id17">References</a><a class="headerlink" href="#references" title="永久链接至标题">¶</a></h2>
+<dl class="simple">
+<dt><span class="target" id="html5">HTML5</span></dt><dd><p><cite>HTML5, A vocabulary and associated APIs for HTML and XHTML</cite>,
+W3C Recommendation, 28聽October 2014.
+<a class="reference external" href="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</a></p>
+</dd>
+<dt><span class="target" id="xhtml1-1">XHTML聽1.1</span></dt><dd><p><cite>XHTML鈩� 1.1 - Module-based XHTML - Second Edition</cite>,
+W3C Recommendation, 23聽November 2010.
+<a class="reference external" href="http://www.w3.org/TR/xhtml11/">http://www.w3.org/TR/xhtml11/</a></p>
+</dd>
+<dt><span class="target" id="xhtml-1-transitional">XHTML 1 Transitional</span></dt><dd><p><a class="reference external" href="http://www.w3.org/TR/xhtml1/#a_dtd_XHTML-1.0-Transitional">Transitional version</a> of:
+<cite>XHTML鈩� 1.0 The Extensible HyperText Markup Language (Second
+Edition)</cite>, <cite>A Reformulation of HTML 4 in XML 1.0</cite>,
+W3C Recommendation, 26 January 2000, revised 1 August 2002.
+<a class="reference external" href="http://www.w3.org/TR/xhtml1/">http://www.w3.org/TR/xhtml1/</a></p>
+</dd>
+<dt><span class="target" id="xhtml-basic">XHTML Basic</span></dt><dd><p><cite>XHTML鈩� Basic 1.1 - Second Edition</cite>,
+W3C Recommendation, 23 November 2010.
+<a class="reference external" href="http://www.w3.org/TR/xhtml-basic/">http://www.w3.org/TR/xhtml-basic/</a></p>
+</dd>
+</dl>
+<dl class="simple">
+<dt><span class="target" id="html4-01-transitional">HTML聽4.01 Transitional</span></dt><dd><p>Transitional version of:
+<cite>HTML 4.01 Specification</cite>, W3C Recommendation 24 December 1999.
+<a class="reference external" href="http://www.w3.org/TR/html4/">http://www.w3.org/TR/html4/</a></p>
+</dd>
+</dl>
+<dl id="css1">
+<dt><span class="target" id="css-level-1">CSS Level 1</span>:</dt><dd><p>The features defined in the <a class="reference external" href="http://www.w3.org/TR/2008/REC-CSS1-20080411/">CSS1 specification</a>, but using the syntax
+and definitions in the <a href="#id34"><span class="problematic" id="id35">`CSS聽2.1`_</span></a> specification.</p>
+</dd>
+<dt><span class="target" id="css-2-1">CSS 2.1</span> <cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite>,</dt><dd><p>W3C Recommendation 07 June 2011.
+<a class="reference external" href="http://www.w3.org/TR/CSS21/">http://www.w3.org/TR/CSS21/</a></p>
+</dd>
+<dt><span class="target" id="css-3">CSS 3</span>:</dt><dd><p>CSS Level 3 builds on CSS Level 2 module by module, using the CSS2.1
+specification as its core.</p>
+<p>Specifications: <a class="reference external" href="http://www.w3.org/Style/CSS/specs.en.html">http://www.w3.org/Style/CSS/specs.en.html</a></p>
+<p>Validator: <a class="reference external" href="http://jigsaw.w3.org/css-validator/">http://jigsaw.w3.org/css-validator/</a></p>
+</dd>
+</dl>
+<blockquote>
+<div></div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="links.html" class="btn btn-neutral float-right" title="Docutils Link List" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="emacs.html" class="btn btn-neutral float-left" title="Emacs Support for reStructuredText" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

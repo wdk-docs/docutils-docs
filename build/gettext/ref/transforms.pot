@@ -1,0 +1,727 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ref/transforms.rst:3
+msgid "Docutils Transforms"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "Author"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:5
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:7
+msgid "$Revision: 7530 $"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:8
+msgid "$Date: 2012-10-16 14:40:36 +0200 (Di, 16. Okt 2012) $"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/ref/transforms.rst:12
+msgid "目录"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:14
+msgid "Transforms change the document tree in-place, add to the tree, or prune it. Transforms resolve references and footnote numbers, process interpreted text, and do other context-sensitive processing. Each transform is a subclass of ``docutils.tranforms.Transform``."
+msgstr ""
+
+#: ../../source/ref/transforms.rst:19
+msgid "There are `transforms added by components`_, others (e.g. ``parts.Contents``) are added by the parser, if a corresponding directive is found in the document."
+msgstr ""
+
+#: ../../source/ref/transforms.rst:23
+msgid "To add a transform, components (objects inheriting from Docutils.Component like Readers, Parsers, Writers, Input, Output) overwrite the ``get_transforms()`` method of their base class. After the Reader has finished processing, the Publisher calls ``Transformer.populate_from_components()`` with a list of components and all transforms returned by the component's ``get_transforms()`` method are stored in a `transformer object` attached to the document tree."
+msgstr ""
+
+#: ../../source/ref/transforms.rst:32
+msgid "For more about transforms and the Transformer object, see also `PEP 258`_. (The ``default_transforms()`` attribute of component classes mentioned there is deprecated. Use the ``get_transforms()`` method instead.)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:40
+msgid "Transforms Listed in Priority Order"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:42
+msgid "Transform classes each have a default_priority attribute which is used by the Transformer to apply transforms in order (low to high). The default priority can be overridden when adding transforms to the Transformer object."
+msgstr ""
+
+#: ../../source/ref/transforms.rst:48
+msgid "Transform: module.Class"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:48
+msgid "Added By"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:48
+#: ../../source/ref/transforms.rst:134
+msgid "Priority"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:50
+msgid "misc.class"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:50
+msgid "\"class\" (d/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:50
+msgid "210"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:52
+msgid "references.Substitutions"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:52
+#: ../../source/ref/transforms.rst:54
+#: ../../source/ref/transforms.rst:68
+#: ../../source/ref/transforms.rst:70
+#: ../../source/ref/transforms.rst:80
+#: ../../source/ref/transforms.rst:82
+#: ../../source/ref/transforms.rst:84
+#: ../../source/ref/transforms.rst:99
+#: ../../source/ref/transforms.rst:103
+msgid "standalone (r), pep (r)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:52
+msgid "220"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:54
+msgid "references.PropagateTargets"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:54
+msgid "260"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:56
+msgid "frontmatter.DocTitle"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:56
+#: ../../source/ref/transforms.rst:58
+#: ../../source/ref/transforms.rst:60
+msgid "standalone (r)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:56
+msgid "320"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:58
+msgid "frontmatter.DocInfo"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:58
+msgid "340"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:60
+msgid "frontmatter.SectSubTitle"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:60
+msgid "350"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:62
+msgid "peps.Headers"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:62
+#: ../../source/ref/transforms.rst:64
+#: ../../source/ref/transforms.rst:72
+msgid "pep (r)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:62
+msgid "360"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:64
+msgid "peps.Contents"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:64
+msgid "380"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:66
+msgid "universal.StripClasses..."
+msgstr ""
+
+#: ../../source/ref/transforms.rst:66
+#: ../../source/ref/transforms.rst:105
+#: ../../source/ref/transforms.rst:107
+msgid "Writer (w)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:66
+msgid "420"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:68
+msgid "references.AnonymousHyperlinks"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:68
+msgid "440"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:70
+msgid "references.IndirectHyperlinks"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:70
+msgid "460"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:72
+#: ../../source/ref/transforms.rst:0
+msgid "peps.TargetNotes"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:72
+msgid "520"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:74
+#: ../../source/ref/transforms.rst:78
+msgid "references.TargetNotes"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:74
+#: ../../source/ref/transforms.rst:76
+msgid "peps.TargetNotes (t/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:74
+#: ../../source/ref/transforms.rst:138
+msgid "0"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:76
+#: ../../source/ref/transforms.rst:118
+msgid "misc.CallBack"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:76
+msgid "1"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:78
+msgid "\"target-notes\" (d/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:78
+msgid "540"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:80
+msgid "references.Footnotes"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:80
+msgid "620"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:82
+msgid "references.ExternalTargets"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:82
+msgid "640"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:84
+msgid "references.InternalTargets"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:84
+msgid "660"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:86
+msgid "parts.SectNum"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:86
+msgid "\"sectnum\" (d/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:86
+msgid "710"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:88
+msgid "parts.Contents"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:88
+msgid "\"contents\" (d/p), peps.Contents (t/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:88
+msgid "720"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:91
+#: ../../source/ref/transforms.rst:0
+msgid "universal.StripComments"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:91
+#: ../../source/ref/transforms.rst:97
+#: ../../source/ref/transforms.rst:101
+msgid "Reader (r)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:91
+msgid "740"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:93
+msgid "peps.PEPZero"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:93
+msgid "peps.Headers (t/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:93
+msgid "760"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:95
+msgid "components.Filter"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:95
+msgid "\"meta\" (d/p)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:95
+msgid "780"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:97
+msgid "universal.Decorations"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:97
+msgid "820"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:99
+#: ../../source/ref/transforms.rst:0
+msgid "misc.Transitions"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:99
+msgid "830"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:101
+msgid "universal.ExposeInternals"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:101
+msgid "840"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:103
+msgid "references.DanglingReferences"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:103
+#: ../../source/ref/transforms.rst:109
+msgid "850"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:105
+msgid "universal.Messages"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:105
+msgid "860"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:107
+msgid "universal.FilterMessages"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:107
+msgid "870"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:109
+#: ../../source/ref/transforms.rst:190
+msgid "universal.SmartQuotes"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:109
+msgid "Parser"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:111
+msgid "universal.TestMessages"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:111
+msgid "DocutilsTestSupport"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:111
+msgid "880"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:113
+msgid "writer_aux.Compound"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:113
+msgid "newlatex2e (w)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:113
+msgid "910"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:115
+#: ../../source/ref/transforms.rst:201
+#: ../../source/ref/transforms.rst:204
+msgid "writer_aux.Admonitions"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:115
+msgid "html4css1 (w), latex2e (w)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:115
+msgid "920"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:118
+msgid "n/a"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:118
+msgid "990"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:121
+msgid "Key:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:123
+msgid "(r): Reader"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:124
+msgid "(w): Writer"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:125
+msgid "(d): Directive"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:126
+msgid "(t): Transform"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:127
+msgid "(/p): Via a \"pending\" node"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:131
+msgid "Transform Priority Range Categories"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:136
+msgid "From"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:136
+msgid "To"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:136
+msgid "Category"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:138
+msgid "99"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:138
+msgid "immediate execution (added by another transform)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:139
+msgid "100"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:139
+msgid "199"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:139
+msgid "very early (non-standard)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:140
+msgid "200"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:140
+msgid "299"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:140
+msgid "very early"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:141
+msgid "300"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:141
+msgid "399"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:141
+msgid "early"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:142
+msgid "400"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:142
+msgid "699"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:142
+msgid "main"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:143
+msgid "700"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:143
+msgid "799"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:143
+msgid "late"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:144
+msgid "800"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:144
+msgid "899"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:144
+msgid "very late"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:145
+msgid "900"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:145
+msgid "999"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:145
+msgid "very late (non-standard)"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:150
+msgid "Transforms added by components"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:156
+msgid "readers.Reader:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "universal.Decorations,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "universal.ExposeInternals,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:159
+msgid "readers.ReReader:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:159
+#: ../../source/ref/transforms.rst:198
+msgid "None"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:173
+msgid "readers.standalone.Reader:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.Substitutions,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.PropagateTargets,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "frontmatter.DocTitle,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "frontmatter.SectionSubTitle,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "frontmatter.DocInfo,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.AnonymousHyperlinks,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.IndirectHyperlinks,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.Footnotes,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.ExternalTargets,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.InternalTargets,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+#: ../../source/ref/transforms.rst:0
+msgid "references.DanglingReferences,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:187
+msgid "readers.pep.Reader:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "misc.Transitions,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "peps.Headers,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "peps.Contents,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:190
+msgid "parsers.rst.Parser"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:195
+msgid "writers.Writer:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "universal.Messages,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "universal.FilterMessages,"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:0
+msgid "universal.StripClassesAndElements"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:198
+msgid "writers.UnfilteredWriter"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:201
+msgid "writers.latex2e.Writer"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:204
+msgid "writers.html4css1.Writer:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:206
+msgid "writers.odf_odt.Writer:"
+msgstr ""
+
+#: ../../source/ref/transforms.rst:207
+msgid "removes references.DanglingReferences"
+msgstr ""
+

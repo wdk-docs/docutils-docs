@@ -1,0 +1,1033 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/peps/pep-0258.rst:1
+msgid "PEP: 258 Title: Docutils Design Specification Version: $Revision: 6154 $ Last-Modified: $Date: 2009-10-05 21:08:10 +0200 (Mo, 05. Okt 2009) $ Author: David Goodger <goodger@python.org> Discussions-To: <doc-sig@python.org> Status: Draft Type: Standards Track Content-Type: text/x-rst Requires: 256, 257 Created: 31-May-2001 Post-History: 13-Jun-2001"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:17
+msgid "Abstract"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:19
+msgid "This PEP documents design issues and implementation details for Docutils, a Python Docstring Processing System (DPS).  The rationale and high-level concepts of a DPS are documented in PEP 256, \"Docstring Processing System Framework\" [#PEP-256]_.  Also see PEP 256 for a \"Road Map to the Docstring PEPs\"."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:25
+msgid "Docutils is being designed modularly so that any of its components can be replaced easily.  In addition, Docutils is not limited to the processing of Python docstrings; it processes standalone documents as well, in several contexts."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:30
+msgid "No changes to the core Python language are required by this PEP.  Its deliverables consist of a package for the standard library and its documentation."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:37
+msgid "Specification"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:40
+msgid "Docutils Project Model"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:42
+msgid "Project components and data flow::"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:62
+msgid "The numbers above each component indicate the path a document's data takes.  Double-width lines between Reader & Parser and between Transformer & Writer indicate that data sent along these paths should be standard (pure & unextended) Docutils doc trees.  Single-width lines signify that internal tree extensions or completely unrelated representations are possible, but they must be supported at both ends."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:71
+msgid "Publisher"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:73
+msgid "The ``docutils.core`` module contains a \"Publisher\" facade class and several convenience functions: \"publish_cmdline()\" (for command-line front ends), \"publish_file()\" (for programmatic use with file-like I/O), and \"publish_string()\" (for programmatic use with string I/O). The Publisher class encapsulates the high-level logic of a Docutils system.  The Publisher class has overall responsibility for processing, controlled by the ``Publisher.publish()`` method:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:81
+msgid "Set up internal settings (may include config files & command-line options) and I/O objects."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:84
+msgid "Call the Reader object to read data from the source Input object and parse the data with the Parser object.  A document object is returned."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:88
+msgid "Set up and apply transforms via the Transformer object attached to the document."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:91
+msgid "Call the Writer object which translates the document to the final output format and writes the formatted data to the destination Output object.  Depending on the Output object, the output may be returned from the Writer, and then from the ``publish()`` method."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:96
+msgid "Calling the \"publish\" function (or instantiating a \"Publisher\" object) with component names will result in default behavior.  For custom behavior (customizing component settings), create custom component objects first, and pass *them* to the Publisher or ``publish_*`` convenience functions."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:104
+msgid "Readers"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:106
+msgid "Readers understand the input context (where the data is coming from), send the whole input or discrete \"chunks\" to the parser, and provide the context to bind the chunks together back into a cohesive whole."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:110
+msgid "Each reader is a module or package exporting a \"Reader\" class with a \"read\" method.  The base \"Reader\" class can be found in the ``docutils/readers/__init__.py`` module."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:114
+msgid "Most Readers will have to be told what parser to use.  So far (see the list of examples below), only the Python Source Reader (\"PySource\"; still incomplete) will be able to determine the parser on its own."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:118
+#: ../../source/peps/pep-0258.rst:259
+#: ../../source/peps/pep-0258.rst:309
+msgid "Responsibilities:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:120
+msgid "Get input text from the source I/O."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:122
+msgid "Pass the input text to the parser, along with a fresh `document tree`_ root."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:125
+#: ../../source/peps/pep-0258.rst:267
+msgid "Examples:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:127
+msgid "Standalone (Raw/Plain): Just read a text file and process it. The reader needs to be told which parser to use."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:130
+msgid "The \"Standalone Reader\" has been implemented in module ``docutils.readers.standalone``."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:133
+msgid "Python Source: See `Python Source Reader`_ below.  This Reader is currently in development in the Docutils sandbox."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:136
+msgid "Email: RFC-822 headers, quoted excerpts, signatures, MIME parts."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:138
+msgid "PEP: RFC-822 headers, \"PEP xxxx\" and \"RFC xxxx\" conversion to URIs. The \"PEP Reader\" has been implemented in module ``docutils.readers.pep``; see PEP 287 and PEP 12."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:142
+msgid "Wiki: Global reference lookups of \"wiki links\" incorporated into transforms.  (CamelCase only or unrestricted?)  Lazy indentation?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:146
+msgid "Web Page: As standalone, but recognize meta fields as meta tags. Support for templates of some sort?  (After ``<body>``, before ``</body>``?)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:150
+msgid "FAQ: Structured \"question & answer(s)\" constructs."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:152
+msgid "Compound document: Merge chapters into a book.  Master manifest file?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:157
+msgid "Parsers"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:159
+msgid "Parsers analyze their input and produce a Docutils `document tree`_. They don't know or care anything about the source or destination of the data."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:163
+msgid "Each input parser is a module or package exporting a \"Parser\" class with a \"parse\" method.  The base \"Parser\" class can be found in the ``docutils/parsers/__init__.py`` module."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:167
+msgid "Responsibilities: Given raw input text and a doctree root node, populate the doctree by parsing the input text."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:170
+msgid "Example: The only parser implemented so far is for the reStructuredText markup.  It is implemented in the ``docutils/parsers/rst/`` package."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:174
+msgid "The development and integration of other parsers is possible and encouraged."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:181
+msgid "Transformer"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:183
+msgid "The Transformer class, in ``docutils/transforms/__init__.py``, stores transforms and applies them to documents.  A transformer object is attached to every new document tree.  The Publisher_ calls ``Transformer.apply_transforms()`` to apply all stored transforms to the document tree.  Transforms change the document tree from one form to another, add to the tree, or prune it.  Transforms resolve references and footnote numbers, process interpreted text, and do other context-sensitive processing."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:192
+msgid "Some transforms are specific to components (Readers, Parser, Writers, Input, Output).  Standard component-specific transforms are specified in the ``default_transforms`` attribute of component classes.  After the Reader has finished processing, the Publisher_ calls ``Transformer.populate_from_components()`` with a list of components and all default transforms are stored."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:199
+msgid "Each transform is a class in a module in the ``docutils/transforms/`` package, a subclass of ``docutils.tranforms.Transform``.  Transform classes each have a ``default_priority`` attribute which is used by the Transformer to apply transforms in order (low to high).  The default priority can be overridden when adding transforms to the Transformer object."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:206
+msgid "Transformer responsibilities:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:208
+msgid "Apply transforms to the document tree, in priority order."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:210
+msgid "Store a mapping of component type name ('reader', 'writer', etc.) to component objects.  These are used by certain transforms (such as \"components.Filter\") to determine suitability."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:214
+msgid "Transform responsibilities:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:216
+msgid "Modify a doctree in-place, either purely transforming one structure into another, or adding new structures based on the doctree and/or external data."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:220
+msgid "Examples of transforms (in the ``docutils/transforms/`` package):"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:222
+msgid "frontmatter.DocInfo: Conversion of document metadata (bibliographic information)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:225
+msgid "references.AnonymousHyperlinks: Resolution of anonymous references to corresponding targets."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:228
+msgid "parts.Contents: Generates a table of contents for a document."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:230
+msgid "document.Merger: Combining multiple populated doctrees into one. (Not yet implemented or fully understood.)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:233
+msgid "document.Splitter: Splits a document into a tree-structure of subdocuments, perhaps by section.  It will have to transform references appropriately.  (Neither implemented not remotely understood.)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:238
+msgid "components.Filter: Includes or excludes elements which depend on a specific Docutils component."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:243
+msgid "Writers"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:245
+msgid "Writers produce the final output (HTML, XML, TeX, etc.).  Writers translate the internal `document tree`_ structure into the final data format, possibly running Writer-specific transforms_ first."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:249
+msgid "By the time the document gets to the Writer, it should be in final form.  The Writer's job is simply (and only) to translate from the Docutils doctree structure to the target format.  Some small transforms may be required, but they should be local and format-specific."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:255
+msgid "Each writer is a module or package exporting a \"Writer\" class with a \"write\" method.  The base \"Writer\" class can be found in the ``docutils/writers/__init__.py`` module."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:261
+msgid "Translate doctree(s) into specific output formats."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:263
+msgid "Transform references into format-native forms."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:265
+msgid "Write the translated output to the destination I/O."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:269
+msgid "XML: Various forms, such as:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:271
+msgid "Docutils XML (an expression of the internal document tree, implemented as ``docutils.writers.docutils_xml``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:274
+msgid "DocBook (being implemented in the Docutils sandbox)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:276
+msgid "HTML (XHTML implemented as ``docutils.writers.html4css1``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:278
+msgid "PDF (a ReportLabs interface is being developed in the Docutils sandbox)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:281
+msgid "TeX (a LaTeX Writer is being implemented in the sandbox)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:283
+msgid "Docutils-native pseudo-XML (implemented as ``docutils.writers.pseudoxml``, used for testing)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:286
+msgid "Plain text"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:288
+msgid "reStructuredText?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:292
+msgid "Input/Output"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:294
+msgid "I/O classes provide a uniform API for low-level input and output. Subclasses will exist for a variety of input/output mechanisms. However, they can be considered an implementation detail.  Most applications should be satisfied using one of the convenience functions associated with the Publisher_."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:300
+msgid "I/O classes are currently in the preliminary stages; there's a lot of work yet to be done.  Issues:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:303
+msgid "How to represent multi-file input (files & directories) in the API?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:305
+msgid "How to represent multi-file output?  Perhaps \"Writer\" variants, one for each output distribution type?  Or Output objects with associated transforms?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:311
+msgid "Read data from the input source (Input objects) or write data to the output destination (Output objects)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:314
+msgid "Examples of input sources:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:316
+msgid "A single file on disk or a stream (implemented as ``docutils.io.FileInput``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:319
+msgid "Multiple files on disk (``MultiFileInput``?)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:321
+msgid "Python source files: modules and packages."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:323
+msgid "Python strings, as received from a client application (implemented as ``docutils.io.StringInput``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:326
+msgid "Examples of output destinations:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:328
+msgid "A single file on disk or a stream (implemented as ``docutils.io.FileOutput``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:331
+msgid "A tree of directories and files on disk."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:333
+msgid "A Python string, returned to a client application (implemented as ``docutils.io.StringOutput``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:336
+msgid "No output; useful for programmatic applications where only a portion of the normal output is to be used (implemented as ``docutils.io.NullOutput``)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:340
+msgid "A single tree-shaped data structure in memory."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:342
+msgid "Some other set of data structures in memory."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:346
+msgid "Docutils Package Structure"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:348
+msgid "Package \"docutils\"."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:350
+msgid "Module \"__init__.py\" contains: class \"Component\", a base class for Docutils components; class \"SettingsSpec\", a base class for specifying runtime settings (used by docutils.frontend); and class \"TransformSpec\", a base class for specifying transforms."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:355
+msgid "Module \"docutils.core\" contains facade class \"Publisher\" and convenience functions.  See `Publisher`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:358
+msgid "Module \"docutils.frontend\" provides runtime settings support, for programmatic use and front-end tools (including configuration file support, and command-line argument and option processing)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:362
+msgid "Module \"docutils.io\" provides a uniform API for low-level input and output.  See `Input/Output`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:365
+msgid "Module \"docutils.nodes\" contains the Docutils document tree element class library plus tree-traversal Visitor pattern base classes.  See `Document Tree`_ below."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:369
+msgid "Module \"docutils.statemachine\" contains a finite state machine specialized for regular-expression-based text filters and parsers. The reStructuredText parser implementation is based on this module."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:374
+msgid "Module \"docutils.urischemes\" contains a mapping of known URI schemes (\"http\", \"ftp\", \"mail\", etc.)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:377
+msgid "Module \"docutils.utils\" contains utility functions and classes, including a logger class (\"Reporter\"; see `Error Handling`_ below)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:381
+msgid "Package \"docutils.parsers\": markup parsers_."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:383
+msgid "Function \"get_parser_class(parser_name)\" returns a parser module by name.  Class \"Parser\" is the base class of specific parsers. (``docutils/parsers/__init__.py``)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:387
+msgid "Package \"docutils.parsers.rst\": the reStructuredText parser."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:389
+msgid "Alternate markup parsers may be added."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:391
+msgid "See `Parsers`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:393
+msgid "Package \"docutils.readers\": context-aware input readers."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:395
+msgid "Function \"get_reader_class(reader_name)\" returns a reader module by name or alias.  Class \"Reader\" is the base class of specific readers.  (``docutils/readers/__init__.py``)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:399
+msgid "Module \"docutils.readers.standalone\" reads independent document files."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:402
+msgid "Module \"docutils.readers.pep\" reads PEPs (Python Enhancement Proposals)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:405
+msgid "Module \"docutils.readers.doctree\" is used to re-read a previously stored document tree for reprocessing."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:408
+msgid "Readers to be added for: Python source code (structure & docstrings), email, FAQ, and perhaps Wiki and others."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:411
+msgid "See `Readers`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:413
+msgid "Package \"docutils.writers\": output format writers."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:415
+msgid "Function \"get_writer_class(writer_name)\" returns a writer module by name.  Class \"Writer\" is the base class of specific writers. (``docutils/writers/__init__.py``)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:419
+msgid "Package \"docutils.writers.html4css1\" is a simple HyperText Markup Language document tree writer for HTML 4.01 and CSS1."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:422
+msgid "Package \"docutils.writers.pep_html\" generates HTML from reStructuredText PEPs."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:425
+msgid "Package \"docutils.writers.s5_html\" generates S5/HTML slide shows."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:428
+msgid "Package \"docutils.writers.latex2e\" writes LaTeX."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:430
+msgid "Package \"docutils.writers.newlatex2e\" also writes LaTeX; it is a new implementation."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:433
+msgid "Module \"docutils.writers.docutils_xml\" writes the internal document tree in XML form."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:436
+msgid "Module \"docutils.writers.pseudoxml\" is a simple internal document tree writer; it writes indented pseudo-XML."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:439
+msgid "Module \"docutils.writers.null\" is a do-nothing writer; it is used for specialized purposes such as storing the internal document tree."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:443
+msgid "Writers to be added: HTML 3.2 or 4.01-loose, XML (various forms, such as DocBook), PDF, plaintext, reStructuredText, and perhaps others."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:447
+msgid "Subpackages of \"docutils.writers\" contain modules and data files (such as stylesheets) that support the individual writers."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:450
+msgid "See `Writers`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:452
+msgid "Package \"docutils.transforms\": tree transform classes."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:454
+msgid "Class \"Transformer\" stores transforms and applies them to document trees.  (``docutils/transforms/__init__.py``)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:457
+msgid "Class \"Transform\" is the base class of specific transforms. (``docutils/transforms/__init__.py``)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:460
+msgid "Each module contains related transform classes."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:462
+msgid "See `Transforms`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:464
+msgid "Package \"docutils.languages\": Language modules contain language-dependent strings and mappings.  They are named for their language identifier (as defined in `Choice of Docstring Format`_ below), converting dashes to underscores."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:469
+msgid "Function \"get_language(language_code)\", returns matching language module.  (``docutils/languages/__init__.py``)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:472
+msgid "Modules: en.py (English), de.py (German), fr.py (French), it.py (Italian), sk.py (Slovak), sv.py (Swedish)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:475
+msgid "Other languages to be added."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:477
+msgid "Third-party modules: \"extras\" directory.  These modules are installed only if they're not already present in the Python installation."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:481
+msgid "``extras/roman.py`` contains Roman numeral conversion routines."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:485
+msgid "Front-End Tools"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:487
+msgid "The ``tools/`` directory contains several front ends for common Docutils processing.  See `Docutils Front-End Tools`_ for details."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:495
+msgid "Document Tree"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:497
+msgid "A single intermediate data structure is used internally by Docutils, in the interfaces between components; it is defined in the ``docutils.nodes`` module.  It is not required that this data structure be used *internally* by any of the components, just *between* components as outlined in the diagram in the `Docutils Project Model`_ above."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:504
+msgid "Custom node types are allowed, provided that either (a) a transform converts them to standard Docutils nodes before they reach the Writer proper, or (b) the custom node is explicitly supported by certain Writers, and is wrapped in a filtered \"pending\" node.  An example of condition (a) is the `Python Source Reader`_ (see below), where a \"stylist\" transform converts custom nodes.  The HTML ``<meta>`` tag is an example of condition (b); it is supported by the HTML Writer but not by others.  The reStructuredText \"meta\" directive creates a \"pending\" node, which contains knowledge that the embedded \"meta\" node can only be handled by HTML-compatible writers.  The \"pending\" node is resolved by the ``docutils.transforms.components.Filter`` transform, which checks that the calling writer supports HTML; if it doesn't, the \"pending\" node (and enclosed \"meta\" node) is removed from the document."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:519
+msgid "The document tree data structure is similar to a DOM tree, but with specific node names (classes) instead of DOM's generic nodes. The schema is documented in an XML DTD (eXtensible Markup Language Document Type Definition), which comes in two parts:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:524
+msgid "the Docutils Generic DTD, docutils.dtd_, and"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:526
+msgid "the OASIS Exchange Table Model, soextbl.dtd_."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:528
+msgid "The DTD defines a rich set of elements, suitable for many input and output formats.  The DTD retains all information necessary to reconstruct the original input text, or a reasonable facsimile thereof."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:533
+msgid "See `The Docutils Document Tree`_ for details (incomplete)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:537
+msgid "Error Handling"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:539
+msgid "When the parser encounters an error in markup, it inserts a system message (DTD element \"system_message\").  There are five levels of system messages:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:543
+msgid "Level-0, \"DEBUG\": an internal reporting issue.  There is no effect on the processing.  Level-0 system messages are handled separately from the others."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:547
+msgid "Level-1, \"INFO\": a minor issue that can be ignored.  There is little or no effect on the processing.  Typically level-1 system messages are not reported."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:551
+msgid "Level-2, \"WARNING\": an issue that should be addressed.  If ignored, there may be minor problems with the output.  Typically level-2 system messages are reported but do not halt processing."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:555
+msgid "Level-3, \"ERROR\": a major issue that should be addressed.  If ignored, the output will contain unpredictable errors.  Typically level-3 system messages are reported but do not halt processing."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:559
+msgid "Level-4, \"SEVERE\": a critical error that must be addressed. Typically level-4 system messages are turned into exceptions which do halt processing.  If ignored, the output will contain severe errors."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:564
+msgid "Although the initial message levels were devised independently, they have a strong correspondence to `VMS error condition severity levels`_; the names in quotes for levels 1 through 4 were borrowed from VMS.  Error handling has since been influenced by the `log4j project`_."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:572
+msgid "Python Source Reader"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:574
+msgid "The Python Source Reader (\"PySource\") is the Docutils component that reads Python source files, extracts docstrings in context, then parses, links, and assembles the docstrings into a cohesive whole.  It is a major and non-trivial component, currently under experimental development in the Docutils sandbox.  High-level design issues are presented here."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:583
+msgid "Processing Model"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:585
+msgid "This model will evolve over time, incorporating experience and discoveries."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:588
+msgid "The PySource Reader uses an Input class to read in Python packages and modules, into a tree of strings."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:591
+msgid "The Python modules are parsed, converting the tree of strings into a tree of abstract syntax trees with docstring nodes."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:594
+msgid "The abstract syntax trees are converted into an internal representation of the packages/modules.  Docstrings are extracted, as well as code structure details.  See `AST Mining`_ below. Namespaces are constructed for lookup in step 6."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:599
+msgid "One at a time, the docstrings are parsed, producing standard Docutils doctrees."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:602
+msgid "PySource assembles all the individual docstrings' doctrees into a Python-specific custom Docutils tree paralleling the package/module/class structure; this is a custom Reader-specific internal representation (see the `Docutils Python Source DTD`_). Namespaces must be merged: Python identifiers, hyperlink targets."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:608
+msgid "Cross-references from docstrings (interpreted text) to Python identifiers are resolved according to the Python namespace lookup rules.  See `Identifier Cross-References`_ below."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:612
+msgid "A \"Stylist\" transform is applied to the custom doctree (by the Transformer_), custom nodes are rendered using standard nodes as primitives, and a standard document tree is emitted.  See `Stylist Transforms`_ below."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:617
+msgid "Other transforms are applied to the standard doctree by the Transformer_."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:620
+msgid "The standard doctree is sent to a Writer, which translates the document into a concrete format (HTML, PDF, etc.)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:623
+msgid "The Writer uses an Output class to write the resulting data to its destination (disk file, directories and files, etc.)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:628
+msgid "AST Mining"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:630
+msgid "Abstract Syntax Tree mining code will be written (or adapted) that scans a parsed Python module, and returns an ordered tree containing the names, docstrings (including attribute and additional docstrings; see below), and additional info (in parentheses below) of all of the following objects:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:636
+msgid "packages"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:637
+msgid "modules"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:638
+msgid "module attributes (+ initial values)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:639
+msgid "classes (+ inheritance)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:640
+msgid "class attributes (+ initial values)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:641
+msgid "instance attributes (+ initial values)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:642
+msgid "methods (+ parameters & defaults)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:643
+msgid "functions (+ parameters & defaults)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:645
+msgid "(Extract comments too?  For example, comments at the start of a module would be a good place for bibliographic field lists.)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:648
+msgid "In order to evaluate interpreted text cross-references, namespaces for each of the above will also be required."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:651
+msgid "See the python-dev/docstring-develop thread \"AST mining\", started on 2001-08-14."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:656
+msgid "Docstring Extraction Rules"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:658
+msgid "What to examine:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:660
+msgid "If the \"``__all__``\" variable is present in the module being documented, only identifiers listed in \"``__all__``\" are examined for docstrings."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:664
+msgid "In the absence of \"``__all__``\", all identifiers are examined, except those whose names are private (names begin with \"_\" but don't begin and end with \"__\")."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:668
+msgid "1a and 1b can be overridden by runtime settings."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:670
+msgid "Where:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:672
+msgid "Docstrings are string literal expressions, and are recognized in the following places within Python modules:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:675
+msgid "At the beginning of a module, function definition, class definition, or method definition, after any comments.  This is the standard for Python ``__doc__`` attributes."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:679
+msgid "Immediately following a simple assignment at the top level of a module, class definition, or ``__init__`` method definition, after any comments.  See `Attribute Docstrings`_ below."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:683
+msgid "Additional string literals found immediately after the docstrings in (a) and (b) will be recognized, extracted, and concatenated.  See `Additional Docstrings`_ below."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:687
+msgid "@@@ 2.2-style \"properties\" with attribute docstrings?  Wait for syntax?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:690
+msgid "How:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:692
+msgid "Whenever possible, Python modules should be parsed by Docutils, not imported.  There are several reasons:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:695
+msgid "Importing untrusted code is inherently insecure."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:697
+msgid "Information from the source is lost when using introspection to examine an imported module, such as comments and the order of definitions."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:701
+msgid "Docstrings are to be recognized in places where the byte-code compiler ignores string literal expressions (2b and 2c above), meaning importing the module will lose these docstrings."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:705
+msgid "Of course, standard Python parsing tools such as the \"parser\" library module should be used."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:708
+msgid "When the Python source code for a module is not available (i.e. only the ``.pyc`` file exists) or for C extension modules, to access docstrings the module can only be imported, and any limitations must be lived with."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:713
+msgid "Since attribute docstrings and additional docstrings are ignored by the Python byte-code compiler, no namespace pollution or runtime bloat will result from their use.  They are not assigned to ``__doc__`` or to any other attribute.  The initial parsing of a module may take a slight performance hit."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:721
+msgid "Attribute Docstrings"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:723
+msgid "(This is a simplified version of PEP 224 [#PEP-224]_.)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:725
+msgid "A string literal immediately following an assignment statement is interpreted by the docstring extraction machinery as the docstring of the target of the assignment statement, under the following conditions:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:730
+msgid "The assignment must be in one of the following contexts:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:732
+msgid "At the top level of a module (i.e., not nested inside a compound statement such as a loop or conditional): a module attribute."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:735
+msgid "At the top level of a class definition: a class attribute."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:737
+msgid "At the top level of the \"``__init__``\" method definition of a class: an instance attribute.  Instance attributes assigned in other methods are assumed to be implementation details.  (@@@ ``__new__`` methods?)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:742
+msgid "A function attribute assignment at the top level of a module or class definition."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:745
+msgid "Since each of the above contexts are at the top level (i.e., in the outermost suite of a definition), it may be necessary to place dummy assignments for attributes assigned conditionally or in a loop."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:750
+msgid "The assignment must be to a single target, not to a list or a tuple of targets."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:753
+msgid "The form of the target:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:755
+msgid "For contexts 1a and 1b above, the target must be a simple identifier (not a dotted identifier, a subscripted expression, or a sliced expression)."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:759
+msgid "For context 1c above, the target must be of the form \"``self.attrib``\", where \"``self``\" matches the \"``__init__``\" method's first parameter (the instance parameter) and \"attrib\" is a simple identifier as in 3a."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:764
+msgid "For context 1d above, the target must be of the form \"``name.attrib``\", where \"``name``\" matches an already-defined function or method name and \"attrib\" is a simple identifier as in 3a."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:769
+msgid "Blank lines may be used after attribute docstrings to emphasize the connection between the assignment and the docstring."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:772
+msgid "Examples::"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:797
+msgid "Additional Docstrings"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:799
+msgid "(This idea was adapted from PEP 216 [#PEP-216]_.)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:801
+msgid "Many programmers would like to make extensive use of docstrings for API documentation.  However, docstrings do take up space in the running program, so some programmers are reluctant to \"bloat up\" their code.  Also, not all API documentation is applicable to interactive environments, where ``__doc__`` would be displayed."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:807
+msgid "Docutils' docstring extraction tools will concatenate all string literal expressions which appear at the beginning of a definition or after a simple assignment.  Only the first strings in definitions will be available as ``__doc__``, and can be used for brief usage text suitable for interactive sessions; subsequent string literals and all attribute docstrings are ignored by the Python byte-code compiler and may contain more extensive API information."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:815
+msgid "Example::"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:827
+msgid "This would break \"``from __future__ import``\" statements introduced in Python 2.1 for multiple module docstrings (main docstring plus additional docstring(s)).  The Python Reference Manual specifies:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:831
+msgid "A future statement must appear near the top of the module.  The only lines that can appear before a future statement are:"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:834
+msgid "the module docstring (if any),"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:835
+msgid "comments,"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:836
+msgid "blank lines, and"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:837
+msgid "other future statements."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:839
+msgid "Resolution?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:841
+msgid "Should we search for docstrings after a ``__future__`` statement?  Very ugly."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:844
+msgid "Redefine ``__future__`` statements to allow multiple preceding string literals?"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:847
+msgid "Or should we not even worry about this?  There probably shouldn't be ``__future__`` statements in production code, after all.  Perhaps modules with ``__future__`` statements will simply have to put up with the single-docstring limitation."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:854
+msgid "Choice of Docstring Format"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:856
+msgid "Rather than force everyone to use a single docstring format, multiple input formats are allowed by the processing system.  A special variable, ``__docformat__``, may appear at the top level of a module before any function or class definitions.  Over time or through decree, a standard format or set of formats should emerge."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:862
+msgid "A module's ``__docformat__`` variable only applies to the objects defined in the module's file.  In particular, the ``__docformat__`` variable in a package's ``__init__.py`` file does not apply to objects defined in subpackages and submodules."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:867
+msgid "The ``__docformat__`` variable is a string containing the name of the format being used, a case-insensitive string matching the input parser's module or package name (i.e., the same name as required to \"import\" the module or package), or a registered alias.  If no ``__docformat__`` is specified, the default format is \"plaintext\" for now; this may be changed to the standard format if one is ever established."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:875
+msgid "The ``__docformat__`` string may contain an optional second field, separated from the format name (first field) by a single space: a case-insensitive language identifier as defined in RFC 1766.  A typical language identifier consists of a 2-letter language code from `ISO 639`_ (3-letter codes used only if no 2-letter code exists; RFC 1766 is currently being revised to allow 3-letter codes).  If no language identifier is specified, the default is \"en\" for English. The language identifier is passed to the parser and can be used for language-dependent markup features."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:887
+msgid "Identifier Cross-References"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:889
+msgid "In Python docstrings, interpreted text is used to classify and mark up program identifiers, such as the names of variables, functions, classes, and modules.  If the identifier alone is given, its role is inferred implicitly according to the Python namespace lookup rules. For functions and methods (even when dynamically assigned), parentheses ('()') may be included::"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:898
+msgid "For class, instance and module attributes, dotted identifiers are used when necessary.  For example (using reStructuredText markup)::"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:930
+msgid "Each of the identifiers quoted with backquotes (\"`\") will become references to the definitions of the identifiers themselves."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:935
+msgid "Stylist Transforms"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:937
+msgid "Stylist transforms are specialized transforms specific to the PySource Reader.  The PySource Reader doesn't have to make any decisions as to style; it just produces a logically constructed document tree, parsed and linked, including custom node types.  Stylist transforms understand the custom nodes created by the Reader and convert them into standard Docutils nodes."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:944
+msgid "Multiple Stylist transforms may be implemented and one can be chosen at runtime (through a \"--style\" or \"--stylist\" command-line option). Each Stylist transform implements a different layout or style; thus the name.  They decouple the context-understanding part of the Reader from the layout-generating part of processing, resulting in a more flexible and robust system.  This also serves to \"separate style from content\", the SGML/XML ideal."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:952
+msgid "By keeping the piece of code that does the styling small and modular, it becomes much easier for people to roll their own styles.  The \"barrier to entry\" is too high with existing tools; extracting the stylist code will lower the barrier considerably."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:960
+msgid "References and Footnotes"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:962
+msgid "PEP 256, Docstring Processing System Framework, Goodger (http://www.python.org/peps/pep-0256.html)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:965
+msgid "PEP 224, Attribute Docstrings, Lemburg (http://www.python.org/peps/pep-0224.html)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:968
+msgid "PEP 216, Docstring Format, Zadka (http://www.python.org/peps/pep-0216.html)"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:997
+msgid "Project Web Site"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:999
+msgid "A SourceForge project has been set up for this work at http://docutils.sourceforge.net/."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:1005
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:1007
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:1012
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../../source/peps/pep-0258.rst:1014
+msgid "This document borrows ideas from the archives of the `Python Doc-SIG`_.  Thanks to all members past & present."
+msgstr ""
+

@@ -1,0 +1,1023 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user/rst/demo.rst:6
+msgid "reStructuredText Demonstration"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:13
+msgid "Examples of Syntax Constructs"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Author"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:17
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Address"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:18
+msgid "123 Example Street Example, EX  Canada A1B 2C3"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Contact"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:21
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Authors"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:22
+msgid "Me; Myself; I"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "organization"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:23
+msgid "humankind"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "date"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:24
+msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "status"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:25
+msgid "This is a \"work in progress\""
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "revision"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:26
+msgid "$Revision: 7302 $"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "version"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:27
+msgid "1"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "copyright"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:28
+msgid ""
+"This document has been placed in the public domain. You may do with it as"
+" you wish. You may copy, modify, redistribute, reattribute, sell, buy, "
+"rent, lease, destroy, or improve it, quote it at length, excerpt, "
+"incorporate, collate, fold, staple, or mutilate it, or do anything else "
+"to it that your or anyone else's heart desires."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "field name"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:35
+msgid "This is a generic bibliographic field."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "field name 2"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:37
+msgid "Generic bibliographic fields may contain multiple body elements."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:39
+msgid "Like this."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Dedication"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:43
+msgid "For Docutils users & co-developers."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "abstract"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:47
+msgid ""
+"This document is a demonstration of the reStructuredText markup language,"
+" containing examples of all basic reStructuredText constructs and many "
+"advanced constructs."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:51
+msgid "reStructuredText, demonstration, demo, parser"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:51
+msgid ""
+"A demonstration of the reStructuredText markup language, containing "
+"examples of all basic constructs and many advanced constructs."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:56
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:62
+msgid "Structural Elements"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:65
+msgid "Section Title"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:67
+msgid "That's it, the text just above this line."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:70
+msgid "Transitions"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:72
+msgid "Here's a transition:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:76
+msgid "It divides the section."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:79
+msgid "Body Elements"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:82
+msgid "Paragraphs"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:84
+msgid "A paragraph."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:87
+msgid "Inline Markup"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:89
+msgid ""
+"Paragraphs contain text and may contain inline markup: *emphasis*, "
+"**strong emphasis**, ``inline literals``, standalone hyperlinks "
+"(http://www.python.org), external hyperlinks (Python_), internal cross-"
+"references (example_), external hyperlinks with embedded URIs (`Python "
+"web site <http://www.python.org>`__), footnote references (manually "
+"numbered [1]_, anonymous auto-numbered [#]_, labeled auto-numbered "
+"[#label]_, or symbolic [*]_), citation references ([CIT2002]_), "
+"substitution references (|example|), and _`inline hyperlink targets` (see"
+" Targets_ below for a reference back to here). Character-level inline "
+"markup is also possible (although exceedingly ugly!) in *re*\\ "
+"``Structured``\\ *Text*.  Problems are indicated by |problematic| text "
+"(generated by processing errors; this one is intentional)."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:103
+msgid ""
+"The default role for interpreted text is `Title Reference`.  Here are "
+"some explicit interpreted text roles: a PEP reference (:PEP:`287`); an "
+"RFC reference (:RFC:`2822`); a :sub:`subscript`; a :sup:`superscript`; "
+"and explicit roles for :emphasis:`standard` :strong:`inline` "
+":literal:`markup`."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:111
+msgid ""
+"Let's test wrapping and whitespace significance in inline literals: "
+"``This is an example of --inline-literal --text, --including some-- "
+"strangely--hyphenated-words.  Adjust-the-width-of-your-browser-window to "
+"see how the text is wrapped.  -- ---- --------  Now note    the spacing"
+"    between the    words of    this sentence    (words should    be "
+"grouped    in pairs).``"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:118
+msgid ""
+"If the ``--pep-references`` option was supplied, there should be a live "
+"link to PEP 258 here."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:122
+msgid "Bullet Lists"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:124
+msgid "A bullet list"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:126 ../../source/user/rst/demo.rst:133
+msgid "Nested bullet list."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:127 ../../source/user/rst/demo.rst:134
+msgid "Nested item 2."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:129 ../../source/user/rst/demo.rst:137
+msgid "Item 2."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:131
+msgid "Paragraph 2 of item 2."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:136
+msgid "Third level."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:139
+msgid "Nested item 3."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:142
+msgid "Enumerated Lists"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:144
+msgid "Arabic numerals."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:146
+msgid "lower alpha)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:148
+msgid "(lower roman)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:150
+msgid "upper alpha."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:152
+msgid "upper roman)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:154
+msgid "Lists that don't start at 1:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:156
+msgid "Three"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:158
+msgid "Four"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:160
+msgid "C"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:162
+msgid "D"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:164
+msgid "iii"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:166
+msgid "iv"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:168
+msgid "List items may also be auto-enumerated."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:171
+msgid "Definition Lists"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:173 ../../source/user/rst/demo.rst:177
+#: ../../source/user/rst/demo.rst:180
+msgid "Term"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:174 ../../source/user/rst/demo.rst:180
+msgid "Definition"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:176
+msgid "classifier"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:176
+msgid "Definition paragraph 1."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:178
+msgid "Definition paragraph 2."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:183
+msgid "Field Lists"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "what"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:185
+msgid ""
+"Field lists map field names to field bodies, like database records.  They"
+" are often part of an extension syntax.  They are an unambiguous variant "
+"of RFC 2822 fields."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "how arg1 arg2"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:191
+msgid "The field marker is a colon, the field name, and a colon."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:193
+msgid ""
+"The field body may contain one or more body elements, indented relative "
+"to the field marker."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:197
+msgid "Option Lists"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:199
+msgid "For listing command-line options:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:201
+msgid "command-line option \"a\""
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:202
+msgid "options can have arguments and long descriptions"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:204
+msgid "options can be long also"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:205
+msgid "long options can also have arguments"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:209
+msgid "The description can also start on the next line."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:211
+msgid ""
+"The description may contain multiple body elements, regardless of where "
+"it starts."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:214
+msgid "Multiple options are an \"option group\"."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:215
+msgid "Commonly-seen: short & long options."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:217
+msgid "Multiple options with arguments."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:218
+msgid "DOS/VMS-style options too"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:220
+msgid "There must be at least two spaces between the option and the description."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:224
+msgid "Literal Blocks"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:226
+msgid ""
+"Literal blocks are indicated with a double-colon (\"::\") at the end of "
+"the preceding paragraph (over there ``-->``).  They can be indented::"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:234
+msgid "Or they can be quoted without indentation::"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:241
+msgid "Line Blocks"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:243
+msgid "This is a line block.  It ends with a blank line."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:244
+msgid "Each new line begins with a vertical bar (\"|\")."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:245
+msgid "Line breaks and initial indents are preserved."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:247
+msgid ""
+"Continuation lines are wrapped portions of long lines; they begin with a "
+"space in place of the vertical bar."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:249
+msgid ""
+"The left edge of a continuation line need not be aligned with the left "
+"edge of the text above it."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:251
+msgid "This is a second line block."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:253
+msgid "Blank lines are permitted internally, but they must begin with a \"|\"."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:255
+msgid "Take it away, Eric the Orchestra Leader!"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "A one, two, a one two three four"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Half a bee, philosophically,"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "must, *ipso facto*, half not be."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "But half the bee has got to be,"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "*vis a vis* its entity.  D'you see?"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "But can a bee be said to be"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "or not to be an entire bee,"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "when half the bee is not a bee,"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "due to some ancient injury?"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "Singing..."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:272
+msgid "Block Quotes"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:274
+msgid "Block quotes consist of indented body elements:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:276
+msgid ""
+"My theory by A. Elk.  Brackets Miss, brackets.  This theory goes as "
+"follows and begins now.  All brontosauruses are thin at one end, much "
+"much thicker in the middle and then thin again at the far end.  That is "
+"my theory, it is mine, and belongs to me and I own it, and what it is "
+"too."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:289
+msgid "Anne Elk (Miss)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:285
+msgid "Doctest Blocks"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:293
+msgid "Tables"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:295
+msgid "Here's a grid table followed by a simple table:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:298
+msgid "Header row, column 1 (header rows optional)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:298
+msgid "Header 2"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:298
+msgid "Header 3"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:298
+msgid "Header 4"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:301
+msgid "body row 1, column 1"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:301
+msgid "column 2"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:301
+msgid "column 3"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:301
+msgid "column 4"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:303
+msgid "body row 2"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:303
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:305
+msgid "body row 3"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:305
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:305
+msgid "Table cells"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:306
+msgid "contain"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:307
+msgid "body elements."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:307
+msgid "body row 4"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:309
+msgid "body row 5"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:309
+msgid "Cells may also be empty: ``-->``"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:314
+msgid "Inputs"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:314
+msgid "Output"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:316
+msgid "A"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:316
+msgid "B"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:316
+msgid "A or B"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:318 ../../source/user/rst/demo.rst:319
+#: ../../source/user/rst/demo.rst:320
+msgid "False"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:319 ../../source/user/rst/demo.rst:320
+#: ../../source/user/rst/demo.rst:321
+msgid "True"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:325
+msgid "Footnotes"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:327
+msgid ""
+"A footnote contains body elements, consistently indented by at least 3 "
+"spaces."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:330
+msgid "This is the footnote's second paragraph."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:332
+msgid ""
+"Footnotes may be numbered, either manually (as in [1]_) or automatically "
+"using a \"#\"-prefixed label.  This footnote has a label so it can be "
+"referred to from multiple places, both as a footnote reference "
+"([#label]_) and as a hyperlink reference (label_)."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:338
+msgid ""
+"This footnote is numbered automatically and anonymously using a label of "
+"\"#\" only."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:341
+msgid ""
+"Footnotes may also use symbols, specified with a \"*\" label. Here's a "
+"reference to the next footnote: [*]_."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:344
+msgid "This footnote shows the next symbol in the sequence."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:346
+msgid ""
+"Here's an unreferenced footnote, with a reference to a nonexistent "
+"footnote: [5]_."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:350
+msgid "Citations"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:352
+msgid ""
+"Citations are text-labeled footnotes. They may be rendered separately and"
+" differently from footnotes."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:355
+msgid ""
+"Here's a reference to the above, [CIT2002]_, and a [nonexistent]_ "
+"citation."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:359
+msgid "Targets"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:363
+msgid ""
+"This paragraph is pointed to by the explicit \"example\" target. A "
+"reference can be found under `Inline Markup`_, above. `Inline hyperlink "
+"targets`_ are also possible."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:367
+msgid ""
+"Section headers are implicit targets, referred to by name. See Targets_, "
+"which is a subsection of `Body Elements`_."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:370
+msgid ""
+"Explicit external targets are interpolated into references such as "
+"\"Python_\"."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:375
+msgid ""
+"Targets may be indirect and anonymous.  Thus `this phrase`__ may also "
+"refer to the Targets_ section."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:380
+msgid ""
+"Here's a `hyperlink reference without a target`_, which generates an "
+"error."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:384 ../../source/user/rst/demo.rst:391
+msgid "Duplicate Target Names"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:386
+msgid ""
+"Duplicate names in section headers or other implicit targets will "
+"generate \"info\" (level-1) system messages.  Duplicate names in explicit"
+" targets will generate \"warning\" (level-2) system messages."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:393
+msgid ""
+"Since there are two \"Duplicate Target Names\" section headers, we cannot"
+" uniquely refer to either of them by name.  If we try to (like this: "
+"`Duplicate Target Names`_), an error is generated."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:398
+msgid "Directives"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:402
+msgid ""
+"These are just a sample of the many reStructuredText Directives.  For "
+"others, please see "
+"http://docutils.sourceforge.net/docs/ref/rst/directives.html."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:407
+msgid "Document Parts"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:409
+msgid ""
+"An example of the \"contents\" directive can be seen above this section "
+"(a local, untitled table of contents_) and at the beginning of the "
+"document (a document-wide `table of contents`_)."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:414
+msgid "Images"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:416
+msgid "An image directive (also clickable -- a hyperlink reference):"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:421
+msgid "A figure directive:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:426
+msgid "A figure is an image with a caption and/or a legend:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:429
+msgid "re"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:429
+msgid "Revised, revisited, based on 're' module."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:431
+msgid "Structured"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:431
+msgid "Structure-enhanced text, structuredtext."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:433
+msgid "Text"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:433
+msgid "Well it is, isn't it?"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:436
+msgid "This paragraph is also part of the legend."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:439
+msgid "Admonitions"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:441
+msgid "Directives at large."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:445
+msgid "Don't take any wooden nickels."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:447
+msgid "Mad scientist at work!"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:449
+msgid "Does not compute."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:451
+msgid "It's bigger than a bread box."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:454
+msgid "Wash behind your ears."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:455
+msgid "Clean up your room."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:456
+msgid "Call your mother."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:457
+msgid "Back up your data."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:459
+msgid "This is a note."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:461
+#, python-format
+msgid "15% if the service is good."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:463
+msgid ""
+"Strong prose may provoke extreme mental exertion. Reader discretion is "
+"strongly advised."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:466
+msgid "And, by the way..."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:468
+msgid "You can make up your own admonition too."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:471
+msgid "Topics, Sidebars, and Rubrics"
+msgstr ""
+
+msgid "Sidebar Title"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:476
+msgid "This is a sidebar.  It is for text outside the flow of the main text."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst
+msgid "This is a rubric inside a sidebar"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:481
+msgid ""
+"Sidebars often appears beside the main text with a border and background "
+"color."
+msgstr ""
+
+msgid "Topic Title"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:486
+msgid "This is a topic."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:489
+msgid "This is a rubric"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:491
+msgid "Target Footnotes"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:496
+msgid "Replacement Text"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:498
+msgid "I recommend you try |Python|_."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:503
+msgid "Compound Paragraph"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:507
+msgid "This paragraph contains a literal block::"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:513
+msgid ""
+"and thus consists of a simple paragraph, a literal block, and another "
+"simple paragraph.  Nonetheless it is semantically *one* paragraph."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:517
+msgid ""
+"This construct is called a *compound paragraph* and can be produced with "
+"the \"compound\" directive."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:521
+msgid "Substitution Definitions"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:523
+msgid "An inline image (|example|) example:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:527
+msgid "(Substitution definitions are not visible in the HTML source.)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:530
+msgid "Comments"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:532
+msgid "Here's one:"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:540
+msgid "(View the HTML source to see the comment.)"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:543
+msgid "Error Handling"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:545
+msgid "Any errors caught during processing will generate system messages."
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:547
+msgid "|*** Expect 6 errors (including this one). ***|"
+msgstr ""
+
+#: ../../source/user/rst/demo.rst:549
+msgid ""
+"There should be six messages in the following, auto-generated section, "
+"\"Docutils System Messages\":"
+msgstr ""
+
+#~ msgid "demo"
+#~ msgstr ""
+

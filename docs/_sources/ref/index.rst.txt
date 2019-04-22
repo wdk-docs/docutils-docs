@@ -4,7 +4,9 @@ Reference Documentation
 .. toctree::
    :maxdepth: 2
 
-   introduction
-   restructuredtext
-   directives
-   roles
+   transforms
+   rst/introduction
+   rst/restructuredtext
+   rst/directives
+   rst/roles
+   rst/definitions

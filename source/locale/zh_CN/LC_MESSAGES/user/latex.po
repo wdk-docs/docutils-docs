@@ -1,0 +1,2866 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user/latex.rst:3
+msgid "Generating LaTeX with Docutils"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "Author"
+msgstr ""
+
+#: ../../source/user/latex.rst:5
+msgid "Engelbert Gruber, Guenter Milde"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "Contact"
+msgstr ""
+
+#: ../../source/user/latex.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "Revision"
+msgstr ""
+
+#: ../../source/user/latex.rst:7
+msgid "$Revision: 8205 $"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/user/latex.rst:8
+msgid "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/user/latex.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "Abstract"
+msgstr ""
+
+#: ../../source/user/latex.rst:10
+msgid "This document covers topics specific to Docutils' LaTeX_ export."
+msgstr ""
+
+#: ../../source/user/latex.rst:11
+msgid "目录"
+msgstr ""
+
+#: ../../source/user/latex.rst:17 ../../source/user/latex.rst:775
+#: ../../source/user/latex.rst:786 ../../source/user/latex.rst:841
+msgid "LaTeX"
+msgstr ""
+
+#: ../../source/user/latex.rst:19
+msgid ""
+"LaTeX__, is a document preparation system for high-quality typesetting. "
+"It is most often used for medium-to-large technical or scientific "
+"documents but it can be used for almost any form of publishing. There "
+"exists a wide selecton of `LaTeX Documentation on the net`_ and `books on"
+" LaTeX and related topics`_. For an introduction to LaTeX see, e.g., "
+"`LaTeX2e for authors`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:38
+msgid "LaTeX classes and packages"
+msgstr ""
+
+#: ../../source/user/latex.rst:40
+msgid ""
+"Unlike HTML with CSS, LaTeX uses one common language for markup and style"
+" definitions. Separation of content and style is realized by collecting "
+"style definitions in LaTeX classes and packages, or the `document "
+"preamble <LaTeX preamble_>`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:45
+msgid ""
+"LaTeX document classes and packages (similar to Python modules or C "
+"libraries) provide means to extend or modify the LaTeX language by "
+"redefining macros or providing new ones."
+msgstr ""
+
+#: ../../source/user/latex.rst:49
+msgid ""
+"Using the `document class`_ and `style sheet`_ configuration options, you"
+" can select from a *huge* selection of classes and packages (standard as "
+"well as user contributed) coming with your TeX distribution or available "
+"at CTAN_ as well as custom style sheets."
+msgstr ""
+
+#: ../../source/user/latex.rst:58
+msgid "Docutils specific LaTeX macros"
+msgstr ""
+
+#: ../../source/user/latex.rst:60
+msgid ""
+"Some Docutils objects have no LaTeX counterpart, they will be typeset "
+"using a Docutils specific LaTeX *macro* (command, environment, or length)"
+" to allow customization. By convention, special macros use the prefix "
+"``\\DU``\\ [#]_."
+msgstr ""
+
+#: ../../source/user/latex.rst:65
+msgid ""
+"The generated LaTeX documents should be kept processable by a standard "
+"LaTeX installation. Therefore fallback definitions are included after the"
+" `custom style sheets`_, if a macro is required in the document."
+msgstr ""
+
+#: ../../source/user/latex.rst:69
+msgid ""
+"Custom `style sheets`_ can define alternative implementations with "
+"``\\newcommand``, ``\\newenvironment``, and ``\\newlength`` followed by "
+"``\\setlength``."
+msgstr ""
+
+#: ../../source/user/latex.rst:73
+msgid ""
+"Definitions with `raw LaTeX`_ are part of the document body. Use "
+"``\\def``, ``\\renewcommand`` or ``\\renewenvironment``, and "
+"``\\setlength``."
+msgstr ""
+
+#: ../../source/user/latex.rst:76
+msgid ""
+"See the test output standalone_rst_latex.tex_ for an example of the "
+"fallback definitions and their use in the document."
+msgstr ""
+
+#: ../../source/user/latex.rst:79
+msgid "DU for Documentation Utilities = Docutils"
+msgstr ""
+
+#: ../../source/user/latex.rst:83
+msgid "Length units"
+msgstr ""
+
+#: ../../source/user/latex.rst:85
+msgid ""
+"LaTeX supports all `length units`_ defined for Docutils plus the "
+"following less common units:"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "pt"
+msgstr ""
+
+#: ../../source/user/latex.rst:88
+msgid "typewriter's (or LaTeX) point (1 pt = 1/72.27 in)"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "dd"
+msgstr ""
+
+#: ../../source/user/latex.rst:89
+msgid "didÃ´t (1 dd = 1238/1157 pt)"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "cc"
+msgstr ""
+
+#: ../../source/user/latex.rst:90
+msgid "cÃ®cero (1 cc = 12 dd)"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "sp"
+msgstr ""
+
+#: ../../source/user/latex.rst:91
+msgid "scaled point (1sp = 1/65536pt)"
+msgstr ""
+
+#: ../../source/user/latex.rst:93
+msgid "Different definitions of the unit \"pt\"!"
+msgstr ""
+
+#: ../../source/user/latex.rst:95
+msgid ""
+"In Docutils (as well as CSS) the unit symbol \"pt\" denotes the "
+"`Postscript point` or `DTP point`."
+msgstr ""
+
+#: ../../source/user/latex.rst:98
+#, python-format
+msgid ""
+"LaTeX uses \"pt\" for the `LaTeX point`, which is unknown to Docutils and"
+" 0.3Â % smaller."
+msgstr ""
+
+#: ../../source/user/latex.rst:101
+msgid "The `DTP point` is available in LaTeX as \"bp\" (big point):"
+msgstr ""
+
+#: ../../source/user/latex.rst:103
+msgid "1 pt = 1/72.25 in < 1 bp  = 1/72 in"
+msgstr ""
+
+#: ../../source/user/latex.rst:105
+msgid ""
+"Lengths specified in the document with unit \"pt\" will be given the unit"
+" \"bp\" in the LaTeX source."
+msgstr ""
+
+#: ../../source/user/latex.rst:108
+msgid ""
+"In `raw LaTeX`_ and `custom style sheets`_, the `DTP point` must be "
+"specified as \"bp\", while \"pt\" is interpreted as `LaTeX point`."
+msgstr ""
+
+#: ../../source/user/latex.rst:111
+msgid ""
+"The default length unit (added by Docutils to length specifications "
+"without unit) is the \"DTP point\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:118
+msgid "PDF generation"
+msgstr ""
+
+#: ../../source/user/latex.rst:120
+msgid ""
+"In most cases, LaTeX code is not the desired end-format of the document. "
+"LaTeX offers many ways to generate PDF documents from the LaTeX source, "
+"including:"
+msgstr ""
+
+#: ../../source/user/latex.rst:125
+msgid "_`pdflatex`"
+msgstr ""
+
+#: ../../source/user/latex.rst:125
+msgid "Generates a PDF document directly from the LaTeX file."
+msgstr ""
+
+#: ../../source/user/latex.rst:130
+msgid "_`xelatex` or _`lualatex`"
+msgstr ""
+
+#: ../../source/user/latex.rst:128
+msgid ""
+"The `XeTeX`_ and LuaTeX_ engines work with input files in UTF-8 encoding "
+"and system fonts. Export your document with the `xetex` writer "
+"(``rst2xetex``), if you want to go this route."
+msgstr ""
+
+#: ../../source/user/latex.rst:132
+msgid ""
+"You may need to call latex two or three times to get internal references "
+"correct."
+msgstr ""
+
+#: ../../source/user/latex.rst:144
+msgid "_`rubber`"
+msgstr ""
+
+#: ../../source/user/latex.rst:141
+msgid ""
+"The Rubber__ wrapper for LaTeX and friends can be used to automatically "
+"run all programs the required number of times and delete \"spurious\" "
+"files. This includes processing bibliographic references or indices, as "
+"well as compilation or conversion of figures."
+msgstr ""
+
+#: ../../source/user/latex.rst:150
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/user/latex.rst:157
+msgid "Options/Settings"
+msgstr ""
+
+#: ../../source/user/latex.rst:159
+msgid "Options can be specified as"
+msgstr ""
+
+#: ../../source/user/latex.rst:161
+msgid "command-line options, or"
+msgstr ""
+
+#: ../../source/user/latex.rst:163
+msgid "configuration settings."
+msgstr ""
+
+#: ../../source/user/latex.rst:165
+msgid ""
+"Run ``rst2latex.py --help`` to get a list of available options; see "
+"`Docutils Configuration`_ for details."
+msgstr ""
+
+#: ../../source/user/latex.rst:172
+msgid "Classes"
+msgstr ""
+
+#: ../../source/user/latex.rst:174
+msgid ""
+"The `\"classes\" attribute`_ is one of the common attributes, shared by "
+"all Docutils elements. In HTML, the common use is to provide selection "
+"criteria for style rules in CSS stylesheets. As there is no comparable "
+"framework for LaTeX, Docutils mimics some of this behaviour via `Docutils"
+" specific LaTeX macros`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:183 ../../source/user/latex.rst:199
+msgid "*Inline elements*"
+msgstr ""
+
+#: ../../source/user/latex.rst:181
+msgid ""
+"are handled via the ``\\DUrole{}`` macro, that calls the optional styling"
+" command ``\\DUroleÂ«classargumentÂ»`` with one argument (the role "
+"content). See `custom interpreted text roles`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:189
+msgid "*Block level elements*"
+msgstr ""
+
+#: ../../source/user/latex.rst:186
+msgid ""
+"are wrapped in \"class environments\": ``\\begin{DUclass}`` calls the "
+"optional styling command ``\\DUCLASSeÂ«classargumentÂ»{}``, "
+"``\\end{DUclass}`` tries ``\\endDUCLASSÂ«classargumentÂ»``."
+msgstr ""
+
+#: ../../source/user/latex.rst:191
+msgid "Customization is done by defining matching macros or environments."
+msgstr ""
+
+#: ../../source/user/latex.rst:206 ../../source/user/latex.rst:303
+#: ../../source/user/latex.rst:466 ../../source/user/latex.rst:520
+#: ../../source/user/latex.rst:744 ../../source/user/latex.rst:816
+#: ../../source/user/latex.rst:1038 ../../source/user/latex.rst:1104
+#: ../../source/user/latex.rst:1241 ../../source/user/latex.rst:1414
+#: ../../source/user/latex.rst:1520 ../../source/user/latex.rst:1666
+#: ../../source/user/latex.rst:1810
+msgid "Example 1:"
+msgstr ""
+
+#: ../../source/user/latex.rst:194
+msgid "Use small caps font inside elements with class value \"custom\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:197
+msgid "The LaTeX function ``\\textsc`` sets the argument in small caps::"
+msgstr ""
+
+#: ../../source/user/latex.rst:206
+msgid "*Block-level elements*"
+msgstr ""
+
+#: ../../source/user/latex.rst:202
+msgid ""
+"The LaTeX directive (macro without argument) ``\\scshape`` switches to "
+"the small caps font. Its effect is confined to the wrapper ``DUclass`` "
+"environment::"
+msgstr ""
+
+#: ../../source/user/latex.rst:216 ../../source/user/latex.rst:309
+#: ../../source/user/latex.rst:477 ../../source/user/latex.rst:530
+#: ../../source/user/latex.rst:752 ../../source/user/latex.rst:827
+#: ../../source/user/latex.rst:1045 ../../source/user/latex.rst:1112
+#: ../../source/user/latex.rst:1247 ../../source/user/latex.rst:1421
+#: ../../source/user/latex.rst:1532 ../../source/user/latex.rst:1679
+#: ../../source/user/latex.rst:1816
+msgid "Example 2:"
+msgstr ""
+
+#: ../../source/user/latex.rst:209
+msgid ""
+"It is even possible to locally redefine other LaTeX macros, e.g. to turn "
+"bullet lists with class value \"enumerateitems\" into enumerated lists::"
+msgstr ""
+
+#: ../../source/user/latex.rst:219
+msgid "Notes"
+msgstr ""
+
+#: ../../source/user/latex.rst:221
+msgid ""
+"Class arguments may contain numbers and hyphens, which need special "
+"treatment in LaTeX command names (see `class directive`_). The commands "
+"``\\csname`` and ``\\endcsname`` or the special command ``\\@namedef`` "
+"can help with the definition of corresponding macros or environments, "
+"e.g.::"
+msgstr ""
+
+#: ../../source/user/latex.rst:228
+msgid "or ::"
+msgstr ""
+
+#: ../../source/user/latex.rst:234
+msgid ""
+"Elements can have multiple class arguments. In contrast to HTML/CSS, the "
+"order of the class arguments cannot be ignored in LaTeX"
+msgstr ""
+
+#: ../../source/user/latex.rst:237
+msgid ""
+"For \"historical reasons\", class handling differs for some elements and "
+"class values:"
+msgstr ""
+
+#: ../../source/user/latex.rst:240
+msgid ""
+"The special macros ``\\DUadmonition``, ``\\DUtitle``, and ``\\DUtopic`` "
+"are written with a comma separated list of class values as optional "
+"argument.  See http://www.ctan.org/topic/keyval for LaTeX packages that "
+"help parsing value lists."
+msgstr ""
+
+#: ../../source/user/latex.rst:245
+msgid ""
+"See the sections on admonitions_, titles_, and the `topic element`_ for "
+"customization examples."
+msgstr ""
+
+#: ../../source/user/latex.rst:248
+msgid ""
+"Class argument values starting with ``align-`` are transformed to "
+"\"align\" argument values. Class argument values starting with "
+"``language-`` set the elements language property."
+msgstr ""
+
+#: ../../source/user/latex.rst:252
+msgid ""
+"The table element recognizes some special class values. See section "
+"table_."
+msgstr ""
+
+#: ../../source/user/latex.rst:259
+msgid "LaTeX code"
+msgstr ""
+
+#: ../../source/user/latex.rst:261
+msgid ""
+"Custom LaTeX code can be placed in `style sheets`_, the `LaTeX "
+"preamble`_, the document body (`raw LaTeX`_), or custom templates_."
+msgstr ""
+
+#: ../../source/user/latex.rst:264
+msgid "The functional tests that come with Docutils, can serve as example."
+msgstr ""
+
+#: ../../source/user/latex.rst:266
+msgid "input:"
+msgstr ""
+
+#: ../../source/user/latex.rst:267
+msgid ""
+"standalone_rst_latex.txt_ (includes files from "
+"`tests/functional/input/data`_)"
+msgstr ""
+
+#: ../../source/user/latex.rst:269
+msgid "expected output:"
+msgstr ""
+
+#: ../../source/user/latex.rst:269
+msgid "standalone_rst_latex.tex_"
+msgstr ""
+
+#: ../../source/user/latex.rst:283
+msgid "Style sheets"
+msgstr ""
+
+#: ../../source/user/latex.rst:285
+msgid ""
+"A common way of LaTeX customization is the preparation of custom style "
+"sheets, either as simple files with LaTeX code snippets or as home-made "
+"`LaTeX packages`_ (see the clsguide_ for an introduction on LaTeX package"
+" writing)."
+msgstr ""
+
+#: ../../source/user/latex.rst:294 ../../source/user/latex.rst:618
+#: ../../source/user/latex.rst:658 ../../source/user/latex.rst:1150
+msgid "Options:"
+msgstr ""
+
+#: ../../source/user/latex.rst:291
+msgid "stylesheet_"
+msgstr ""
+
+#: ../../source/user/latex.rst:293
+msgid ""
+"It is possible to specify multiple style sheets and mix `LaTeX packages`_"
+" with custom style sheets."
+msgstr ""
+
+#: ../../source/user/latex.rst:296
+msgid ""
+"You cannot specify package options with the stylesheet_ setting. If you "
+"need to pass options to the package, use the ``\\usepackage`` command in "
+"the `LaTeX preamble`_ or a custom style sheet."
+msgstr ""
+
+#: ../../source/user/latex.rst:301
+msgid "Select Latin Modern fonts with the `lmodern` package::"
+msgstr ""
+
+#: ../../source/user/latex.rst:306
+msgid ""
+"Use the `preamble.tex` home-made custom style sheet together with the "
+"package `kerkis` (Bookman fonts)::"
+msgstr ""
+
+#: ../../source/user/latex.rst:317 ../../source/user/latex.rst:552
+#: ../../source/user/latex.rst:841 ../../source/user/latex.rst:1124
+msgid "Example 3:"
+msgstr ""
+
+#: ../../source/user/latex.rst:312
+msgid ""
+"Select Palatino fonts with old-style numbers and true small-caps with the"
+" LaTeX command ::"
+msgstr ""
+
+#: ../../source/user/latex.rst:317
+msgid "in the `LaTeX preamble`_ or `custom style sheets`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:321
+msgid "Stylesheet Repository"
+msgstr ""
+
+#: ../../source/user/latex.rst:320
+msgid ""
+"There is a `repository of user-contributed style sheets`_ in the Docutils"
+" Sandbox_."
+msgstr ""
+
+#: ../../source/user/latex.rst:335
+msgid "LaTeX preamble"
+msgstr ""
+
+#: ../../source/user/latex.rst:337
+msgid ""
+"Configuration by LaTeX code in the document preamble is also possible "
+"without a separate stylesheet. This way, packages can be loaded with "
+"options or commands re-defined without the need to create a separate file"
+" (new in Docutils 0.7)."
+msgstr ""
+
+#: ../../source/user/latex.rst:343 ../../source/user/latex.rst:374
+#: ../../source/user/latex.rst:601 ../../source/user/latex.rst:1021
+#: ../../source/user/latex.rst:1195 ../../source/user/latex.rst:1256
+msgid "Option:"
+msgstr ""
+
+#: ../../source/user/latex.rst:343
+msgid "latex-preamble_"
+msgstr ""
+
+#: ../../source/user/latex.rst:346 ../../source/user/latex.rst:445
+#: ../../source/user/latex.rst:502 ../../source/user/latex.rst:579
+#: ../../source/user/latex.rst:624 ../../source/user/latex.rst:676
+#: ../../source/user/latex.rst:737 ../../source/user/latex.rst:1024
+#: ../../source/user/latex.rst:1217 ../../source/user/latex.rst:1486
+#: ../../source/user/latex.rst:1544 ../../source/user/latex.rst:1588
+#: ../../source/user/latex.rst:1613 ../../source/user/latex.rst:1731
+#: ../../source/user/latex.rst:1756 ../../source/user/latex.rst:1803
+msgid "Default:"
+msgstr ""
+
+#: ../../source/user/latex.rst:346
+msgid "used for `font setup`_"
+msgstr ""
+
+#: ../../source/user/latex.rst:354 ../../source/user/latex.rst:382
+#: ../../source/user/latex.rst:403 ../../source/user/latex.rst:417
+#: ../../source/user/latex.rst:584 ../../source/user/latex.rst:630
+#: ../../source/user/latex.rst:688 ../../source/user/latex.rst:854
+#: ../../source/user/latex.rst:1144 ../../source/user/latex.rst:1176
+#: ../../source/user/latex.rst:1223 ../../source/user/latex.rst:1258
+#: ../../source/user/latex.rst:1318 ../../source/user/latex.rst:1339
+#: ../../source/user/latex.rst:1356 ../../source/user/latex.rst:1385
+#: ../../source/user/latex.rst:1452 ../../source/user/latex.rst:1466
+#: ../../source/user/latex.rst:1503 ../../source/user/latex.rst:1550
+#: ../../source/user/latex.rst:1598 ../../source/user/latex.rst:1620
+#: ../../source/user/latex.rst:1651 ../../source/user/latex.rst:1736
+#: ../../source/user/latex.rst:1762
+msgid "Example:"
+msgstr ""
+
+#: ../../source/user/latex.rst:349
+msgid ""
+"To use the better looking ``txtt`` font for monospaced text define the "
+"latex-preamble_ setting in a configuration file::"
+msgstr ""
+
+#: ../../source/user/latex.rst:365
+msgid "Templates"
+msgstr ""
+
+#: ../../source/user/latex.rst:367
+msgid ""
+"Some customizations require commands at places other than the insertion "
+"point of stylesheets or depend on the deletion/replacement of parts of "
+"the document. This can be done via a custom template. See the `publisher "
+"documentation`_ for a description of the document parts available in a "
+"template file."
+msgstr ""
+
+#: ../../source/user/latex.rst:374
+msgid "template_"
+msgstr ""
+
+#: ../../source/user/latex.rst:376
+msgid ""
+"In addition to the 'default.tex' template, the latex writer directory "
+"contains the alternative 'titlepage.tex'."
+msgstr ""
+
+#: ../../source/user/latex.rst:380
+msgid "Print a title page including docinfo, dedication, and abstract::"
+msgstr ""
+
+#: ../../source/user/latex.rst:389
+msgid "Raw LaTeX"
+msgstr ""
+
+#: ../../source/user/latex.rst:391
+msgid ""
+"By means of the `raw directive`_ or a derived `custom role`_, one can "
+"give commands directly to LaTeX. These can be both, styling as well as "
+"printing commands."
+msgstr ""
+
+#: ../../source/user/latex.rst:396
+msgid "Math formula::"
+msgstr ""
+
+#: ../../source/user/latex.rst:402
+msgid ""
+"(Drawback: the formula will be invisible in other output formats. Better "
+"use the `math directive`_)"
+msgstr ""
+
+#: ../../source/user/latex.rst:405
+msgid ""
+"Most LaTeX code examples also work as raw LaTeX inside the document. An "
+"exception are commands that need to be given in the document preamble "
+"(e.g. package loading with ``\\usepackage``, which can be achieved with "
+"the ``--style-sheet`` or ``--latex-preamble`` command line options "
+"instead). Remember to use *re-defining* commands for customizing "
+"`Docutils specific LaTeX macros`_ with raw LaTeX."
+msgstr ""
+
+#: ../../source/user/latex.rst:413
+msgid "Define the transition command as page break::"
+msgstr ""
+
+#: ../../source/user/latex.rst:421
+msgid "See also:"
+msgstr ""
+
+#: ../../source/user/latex.rst:420
+msgid "Defining a macro for a `custom role`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:421
+msgid "Forcing `page breaks`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:431
+msgid "How to configure the ..."
+msgstr ""
+
+#: ../../source/user/latex.rst:434
+msgid "admonitions"
+msgstr ""
+
+#: ../../source/user/latex.rst:436
+msgid ""
+"Admonitions__ are specially marked \"topics\" that can appear anywhere an"
+" ordinary body element can."
+msgstr ""
+
+#: ../../source/user/latex.rst:442 ../../source/user/latex.rst:576
+#: ../../source/user/latex.rst:729 ../../source/user/latex.rst:1351
+#: ../../source/user/latex.rst:1541 ../../source/user/latex.rst:1585
+#: ../../source/user/latex.rst:1728 ../../source/user/latex.rst:1800
+msgid "Command:"
+msgstr ""
+
+#: ../../source/user/latex.rst:442
+msgid "``\\DUadmonition``"
+msgstr ""
+
+#: ../../source/user/latex.rst:445
+#, python-format
+msgid "Typeset in a frame (90Â % of text width)."
+msgstr ""
+
+#: ../../source/user/latex.rst:447
+msgid ""
+"The admonition title is typeset with the ``\\DUtitle`` command which also"
+" takes a class argument. See `titles`_"
+msgstr ""
+
+#: ../../source/user/latex.rst:451
+msgid "A lighter layout without the frame::"
+msgstr ""
+
+#: ../../source/user/latex.rst:464
+msgid ""
+"The first part of this definition acts as a \"dispatcher\". This way it "
+"is possible to define a special handling of `specific admonitions`_ based"
+" on the \"class\" argument."
+msgstr ""
+
+#: ../../source/user/latex.rst:472
+msgid "Use ``.. note::`` for a margin note::"
+msgstr ""
+
+#: ../../source/user/latex.rst:476
+msgid ""
+"Make sure there is enough space to fit the note. See also the marginnote_"
+" and pdfcomment_ packages."
+msgstr ""
+
+#: ../../source/user/latex.rst:488
+msgid "custom interpreted text roles"
+msgstr ""
+
+#: ../../source/user/latex.rst:490
+msgid ""
+"The rst `role directive`_ allows defining custom `text roles`_ that mark "
+"parts of inline text (spans) with class arguments (see section classes_)."
+msgstr ""
+
+#: ../../source/user/latex.rst:497 ../../source/user/latex.rst:1235
+#: ../../source/user/latex.rst:1331
+msgid "Commands:"
+msgstr ""
+
+#: ../../source/user/latex.rst:494
+msgid "``\\DUrole``: dispatcher command"
+msgstr ""
+
+#: ../../source/user/latex.rst:496
+msgid ""
+"``\\DUroleÂ«classargumentÂ»``: optional styling command with 1 argument "
+"(the role content)."
+msgstr ""
+
+#: ../../source/user/latex.rst:500
+msgid ""
+"The default definition of ``\\DUrole{Â«classargumentÂ»}{}`` calls the "
+"macro named ``\\DUroleÂ«classargumentÂ»{}`` if it is defined and silently"
+" ignores this class argument if not."
+msgstr ""
+
+#: ../../source/user/latex.rst:505
+msgid "Typeset text in small caps::"
+msgstr ""
+
+#: ../../source/user/latex.rst:511
+msgid "This is transformed to the LaTeX code::"
+msgstr ""
+
+#: ../../source/user/latex.rst:515
+msgid "The definition ::"
+msgstr ""
+
+#: ../../source/user/latex.rst:519
+msgid ""
+"as `raw LaTeX`_ or in the custom `style sheet`_ will give the expected "
+"result (if the text font_ supports small caps)."
+msgstr ""
+
+#: ../../source/user/latex.rst:523
+msgid "Subscript text in normal size and *italic* shape::"
+msgstr ""
+
+#: ../../source/user/latex.rst:527
+msgid ""
+"As \"sub\" inherits from the standard \"subscript\" role, the LaTeX macro"
+" only needs to set the size and shape::"
+msgstr ""
+
+#: ../../source/user/latex.rst:533
+msgid "A role with several classes and a converted class name::"
+msgstr ""
+
+#: ../../source/user/latex.rst:538
+msgid "is translated to the nested commands::"
+msgstr ""
+
+#: ../../source/user/latex.rst:542
+msgid "With the definitions::"
+msgstr ""
+
+#: ../../source/user/latex.rst:550
+msgid ""
+"in a `style sheet`_\\ [#]_ or as `raw LaTeX`_ in the document source, "
+"text styled with ``:custom4:`large bold small-caps``` will be typeset "
+"accordingly."
+msgstr ""
+
+#: ../../source/user/latex.rst:554
+msgid ""
+"Leave out the ``\\makeatletter`` - ``\\makeatother`` pair if the style "
+"sheet is a LaTeX package (``*.sty``)."
+msgstr ""
+
+#: ../../source/user/latex.rst:567
+msgid "definition lists"
+msgstr ""
+
+#: ../../source/user/latex.rst:569
+msgid ""
+"ReStructuredText `definition lists`__ correspond to HTML ``<dl>`` list "
+"objects."
+msgstr ""
+
+#: ../../source/user/latex.rst:573 ../../source/user/latex.rst:673
+#: ../../source/user/latex.rst:1211 ../../source/user/latex.rst:1348
+msgid "Environment:"
+msgstr ""
+
+#: ../../source/user/latex.rst:573
+msgid "``description``: LaTeX standard environment"
+msgstr ""
+
+#: ../../source/user/latex.rst:576
+msgid "``\\descriptionlabel``: styling macro for the description term"
+msgstr ""
+
+#: ../../source/user/latex.rst:579
+msgid "bold label text, hanging indent"
+msgstr ""
+
+#: ../../source/user/latex.rst:582
+msgid "A non-bold label can be achieved with::"
+msgstr ""
+
+#: ../../source/user/latex.rst:590
+msgid "document class"
+msgstr ""
+
+#: ../../source/user/latex.rst:592
+msgid ""
+"There are hundreds of LaTeX document classes installed by modern LaTeX "
+"distributions, provided by publishers, or available at CTAN_."
+msgstr ""
+
+#: ../../source/user/latex.rst:598
+msgid "Popular document classes:"
+msgstr ""
+
+#: ../../source/user/latex.rst:596
+msgid "article, report, book: standard document classes"
+msgstr ""
+
+#: ../../source/user/latex.rst:597
+msgid "scrartcl, scrrprt, scrbook: KOMA-script_ classes"
+msgstr ""
+
+#: ../../source/user/latex.rst:598
+msgid "memoir_: highly configurable class for larger documents"
+msgstr ""
+
+#: ../../source/user/latex.rst:601
+msgid "documentclass_"
+msgstr ""
+
+#: ../../source/user/latex.rst:612
+msgid "document info"
+msgstr ""
+
+#: ../../source/user/latex.rst:614
+msgid ""
+"Content of the `bibliographic fields`__ at the top of a document. By "
+"default, docinfo items are typeset as a table."
+msgstr ""
+
+#: ../../source/user/latex.rst:618
+msgid "use-latex-docinfo_, use-latex-abstract_"
+msgstr ""
+
+#: ../../source/user/latex.rst:621 ../../source/user/latex.rst:1214
+msgid "Length:"
+msgstr ""
+
+#: ../../source/user/latex.rst:621
+msgid "``\\DUdocinfowidth``: the width for the `docinfo` table."
+msgstr ""
+
+#: ../../source/user/latex.rst:624
+#, python-format
+msgid "90Â % of text width: ``0.9\\textwidth``"
+msgstr ""
+
+#: ../../source/user/latex.rst:627
+#, python-format
+msgid "set to 70Â % of text width::"
+msgstr ""
+
+#: ../../source/user/latex.rst:641
+msgid "document title"
+msgstr ""
+
+#: ../../source/user/latex.rst:643
+msgid ""
+"A lone top-level section title is (usually) transformed to the document "
+"title (see `section structure`_)."
+msgstr ""
+
+#: ../../source/user/latex.rst:646
+msgid ""
+"The format of the document title is defined by the `document class`_. The"
+" \"article\" document class uses an in-page title and the \"report\" and "
+"\"book\" classes write a separate title page. See the `TeX FAQ`_ on how "
+"to customize the `style of document titles`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:651
+msgid ""
+"The default title page shows only title and subtitle, date and author are"
+" shown in the `document info`_ table."
+msgstr ""
+
+#: ../../source/user/latex.rst:655
+msgid "use-latex-docinfo_"
+msgstr ""
+
+#: ../../source/user/latex.rst:657
+msgid ""
+"``--template=titlepage.tex`` Put docinfo and abstract into the title "
+"page. A separate title page is used also with the \"abstract\" document "
+"class."
+msgstr ""
+
+#: ../../source/user/latex.rst:667
+msgid "field lists"
+msgstr ""
+
+#: ../../source/user/latex.rst:669
+msgid ""
+"`Field lists`__ may be used as generic two-column table constructs in "
+"documents."
+msgstr ""
+
+#: ../../source/user/latex.rst:673
+msgid "``DUfieldlist``"
+msgstr ""
+
+#: ../../source/user/latex.rst:676
+msgid "Indented description list."
+msgstr ""
+
+#: ../../source/user/latex.rst:679
+msgid "Use a description list customized with enumitem_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:687
+msgid ""
+"The `KOMA-script`_ classes provide a similar environment under the name "
+"`labeling`."
+msgstr ""
+
+#: ../../source/user/latex.rst:697
+msgid "figure and table captions"
+msgstr ""
+
+#: ../../source/user/latex.rst:699
+msgid ""
+"The caption_ package provides many ways to customise the captions in "
+"floating environments like figure and table."
+msgstr ""
+
+#: ../../source/user/latex.rst:702
+msgid ""
+"The chngcntr_ package helps to configure the numbering of figure and "
+"table caption numberings."
+msgstr ""
+
+#: ../../source/user/latex.rst:705
+msgid ""
+"Some document classes (e.g. KOMA-script_) provide additional "
+"configuration. Also see the related `LaTeX FAQ entry`__"
+msgstr ""
+
+#: ../../source/user/latex.rst:712
+msgid "Example"
+msgstr ""
+
+#: ../../source/user/latex.rst:722
+msgid "figure placement"
+msgstr ""
+
+#: ../../source/user/latex.rst:724
+msgid ""
+"Figures_ might be typeset at the place of definition (default) or "
+"\"float\" to a suitable place at the top or bottom of a page. This is "
+"implemented using the float_ package."
+msgstr ""
+
+#: ../../source/user/latex.rst:729
+msgid "``\\floatplacement``"
+msgstr ""
+
+#: ../../source/user/latex.rst:731
+msgid ""
+"The placement setting is valid from the point of definition until the "
+"next ``\\floatplacement`` command or the end of the document. See "
+"float.pdf_ for details."
+msgstr ""
+
+#: ../../source/user/latex.rst:736
+msgid ""
+"``\\floatplacement{figure}{H}`` (here definitely). This corresponds most "
+"closely to the source and HTML placement (principle of least surprise)."
+msgstr ""
+
+#: ../../source/user/latex.rst:740
+msgid ""
+"In a custom `style sheet`_, set the default to let LaTeX find a suitable "
+"place for figure floats::"
+msgstr ""
+
+#: ../../source/user/latex.rst:747
+msgid ""
+"To move all following figures to the top or bottom of the page write in "
+"the document source::"
+msgstr ""
+
+#: ../../source/user/latex.rst:763
+msgid "font"
+msgstr ""
+
+#: ../../source/user/latex.rst:765
+msgid ""
+"The selected text font influences the *look*, the *feel*, and the "
+"*readability* of the document (cf. http://www.csarven.ca/web-typography)."
+" Selecting a suitable font also solves the problem with `bad looking PDF "
+"output`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:771
+msgid ""
+"Font selection is one of the main differences between LaTeX and "
+"XeTeX/LuaTeX:"
+msgstr ""
+
+#: ../../source/user/latex.rst:774
+msgid ""
+"cannot use the fonts of the operating system directly but needs specially"
+" installed fonts with additional supporting files."
+msgstr ""
+
+#: ../../source/user/latex.rst:779 ../../source/user/latex.rst:793
+#: ../../source/user/latex.rst:854
+msgid "XeTeX/LuaTeX"
+msgstr ""
+
+#: ../../source/user/latex.rst:778
+msgid ""
+"can use system fonts and provides access to the full feature set of "
+"modern OpenType_ fonts."
+msgstr ""
+
+#: ../../source/user/latex.rst:783
+msgid "The default font setup is done in the latex-preamble_:"
+msgstr ""
+
+#: ../../source/user/latex.rst:786
+msgid "`PDF standard fonts`_ (Times, Helvetica, Courier)"
+msgstr ""
+
+#: ../../source/user/latex.rst:789
+msgid ""
+"`Linux Libertine`_, a free, high quality alternative to Times with a wide"
+" coverage of glyphs, styles, and OpenType features."
+msgstr ""
+
+#: ../../source/user/latex.rst:792
+msgid ""
+"Despite its name, Linux Libertine can be used on any operating system "
+"that can handle OpenType fonts."
+msgstr ""
+
+#: ../../source/user/latex.rst:795
+msgid "Alternative fonts can be selected by"
+msgstr ""
+
+#: ../../source/user/latex.rst:798
+msgid ""
+"specifying the corresponding LaTeX package(s) as argument to the "
+"stylesheet_ option_ or with the ``\\usepackage`` LaTeX command."
+msgstr ""
+
+#: ../../source/user/latex.rst:801
+msgid "packages can be combined,"
+msgstr ""
+
+#: ../../source/user/latex.rst:802
+msgid ""
+"passing options to a package is only possible in a `style sheet`_ or the "
+"`LaTeX preamble`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:805
+msgid ""
+"changing the font-default macros ``\\rmdefault``, ``\\sfdefault`` and/or "
+"``\\ttdefault`` in a custom `style sheet`_, the `LaTeX preamble`_ or `raw"
+" LaTeX`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:810
+msgid "Use `Latin Modern`_. `LaTeX code`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:814
+msgid "Command line argument::"
+msgstr ""
+
+#: ../../source/user/latex.rst:819
+msgid ""
+"The _`Times/Helvetica/Courier` `PDF standard fonts`_ are selected by the "
+"LaTeX code [#]_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:826
+msgid ""
+"Since Docutils 0.7, this is the default value of the `latex-preamble`_ "
+"option."
+msgstr ""
+
+#: ../../source/user/latex.rst:829
+msgid ""
+"When generating PDF-files from LaTeX, the `PDF standard fonts`_ do not "
+"need to be embedded in the document. While this results in smaller files,"
+" the actually used fonts on screen and in print might differ! (For "
+"details see, e.g., the testflow_ package documentation.)"
+msgstr ""
+
+#: ../../source/user/latex.rst:837
+msgid ""
+"Use the teletype font from the txfonts_ package. As there is no package "
+"for this, we re-define the font macro with the `LaTeX code`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:844
+msgid ""
+"using the macros of the fontspec_ package. Use some font-viewer or "
+"-manager (e.g. fontmatrix_) to find out the correct names of the fonts on"
+" your system."
+msgstr ""
+
+#: ../../source/user/latex.rst:849
+msgid ""
+"DejaVu_, very wide coverage, screen optimized. As this font runs wide, "
+"add ``DIV=10`` to the `documentoptions`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:862
+msgid "choice of suitable fonts"
+msgstr ""
+
+#: ../../source/user/latex.rst:864
+msgid ""
+"High quality free fonts suitable for use with XeTeX/LuaTeX are, e.g., "
+"listed at `Good Libre Fonts`_, `25 Best Free Quality Fonts`_ and the "
+"update `19 More Free Quality Fonts`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:868
+msgid ""
+"The `LaTeX Font Catalogue`_ provides information and examples for a wide "
+"range of fonts available for use with LaTeX. Here is just a selection:"
+msgstr ""
+
+#: ../../source/user/latex.rst:871
+msgid ""
+"The `Latin Modern`_ (LM) fonts are extended outline versions of the "
+"standard TeX font Computer Modern (CM)."
+msgstr ""
+
+#: ../../source/user/latex.rst:874
+msgid "simple invocation:  ``--stylesheet=lmodern``"
+msgstr ""
+
+#: ../../source/user/latex.rst:876
+msgid "keeps the traditional TeX \"look and feel\":"
+msgstr ""
+
+#: ../../source/user/latex.rst:878
+msgid "generally accepted as high quality CM replacement,"
+msgstr ""
+
+#: ../../source/user/latex.rst:879
+msgid "comprehensive math support,"
+msgstr ""
+
+#: ../../source/user/latex.rst:880
+msgid "including optical sizes,"
+msgstr ""
+
+#: ../../source/user/latex.rst:881
+msgid "compatible with extensions made to match CM,"
+msgstr ""
+
+#: ../../source/user/latex.rst:882
+msgid "modern types are hard to read at low (screen) resolutions."
+msgstr ""
+
+#: ../../source/user/latex.rst:884 ../../source/user/latex.rst:902
+msgid "not part of a minimal standard TeX installation"
+msgstr ""
+
+#: ../../source/user/latex.rst:886
+msgid "CM-Super_ is another outline CM replacement."
+msgstr ""
+
+#: ../../source/user/latex.rst:888
+msgid ""
+"simple invocation: modern LaTeX distributions use CM-Super automatically "
+"instead of CM if it is installed."
+msgstr ""
+
+#: ../../source/user/latex.rst:891
+msgid "said to be of inferior quality compared to LM."
+msgstr ""
+
+#: ../../source/user/latex.rst:893
+msgid ""
+"not part of a minimal standard TeX installation, bigger download size "
+"than Latin Modern (64 MB)."
+msgstr ""
+
+#: ../../source/user/latex.rst:896
+msgid "`Bera`_ (Bitstream Vera)"
+msgstr ""
+
+#: ../../source/user/latex.rst:898
+msgid "simple invocation:  ``--stylesheet=bera``"
+msgstr ""
+
+#: ../../source/user/latex.rst:900
+msgid "optimized for on-screen viewing with goot hinting"
+msgstr ""
+
+#: ../../source/user/latex.rst:904
+msgid "PSNFSS_ Postscript fonts"
+msgstr ""
+
+#: ../../source/user/latex.rst:906
+msgid "part of every standard TeX installation"
+msgstr ""
+
+#: ../../source/user/latex.rst:908
+msgid "smaller PDF/Postscript document size if standard fonts are not embedded"
+msgstr ""
+
+#: ../../source/user/latex.rst:911
+msgid "restricted set of glyphs in the free versions [#]_"
+msgstr ""
+
+#: ../../source/user/latex.rst:913
+msgid "different fonts for roman, sans-serif and typewriter fonts."
+msgstr ""
+
+#: ../../source/user/latex.rst:915
+msgid ""
+"invocation somewhat more complex, as several packages are required for a "
+"complete font set, sometimes including package options."
+msgstr ""
+
+#: ../../source/user/latex.rst:919
+msgid "Roman (serif) PSNFSS fonts:"
+msgstr ""
+
+#: ../../source/user/latex.rst:922 ../../source/user/latex.rst:968
+msgid "Bookman"
+msgstr ""
+
+#: ../../source/user/latex.rst:922 ../../source/user/latex.rst:929
+msgid "good legibility but very wide."
+msgstr ""
+
+#: ../../source/user/latex.rst:926 ../../source/user/latex.rst:973
+msgid "Charter"
+msgstr ""
+
+#: ../../source/user/latex.rst:925
+msgid "bread-and-butter type optimized for printing on low-resolution printers"
+msgstr ""
+
+#: ../../source/user/latex.rst:929 ../../source/user/latex.rst:970
+msgid "New Century Schoolbook"
+msgstr ""
+
+#: ../../source/user/latex.rst:937 ../../source/user/latex.rst:955
+msgid "Palatino"
+msgstr ""
+
+#: ../../source/user/latex.rst:932 ../../source/user/latex.rst:944
+msgid "recommended by font experts"
+msgstr ""
+
+#: ../../source/user/latex.rst:933
+msgid ""
+"good LaTeX support including matching math fonts, small caps, old-style "
+"figures"
+msgstr ""
+
+#: ../../source/user/latex.rst:935
+msgid ""
+"bad rendering in xpdf viewer (auto-hinting leads to different x-hight for"
+" different characters at some magnifications) (this is fixed in recent "
+"versions)."
+msgstr ""
+
+#: ../../source/user/latex.rst:941 ../../source/user/latex.rst:957
+msgid "Times"
+msgstr ""
+
+#: ../../source/user/latex.rst:940
+msgid "the serif `PDF Standard Font`_,"
+msgstr ""
+
+#: ../../source/user/latex.rst:941
+msgid "overused and quite narrow (devised for multi-column layouts)."
+msgstr ""
+
+#: ../../source/user/latex.rst:945 ../../source/user/latex.rst:975
+#: ../../source/user/latex.rst:977
+msgid "Utopia"
+msgstr ""
+
+#: ../../source/user/latex.rst:947
+msgid ""
+"Font packages for standard Postscript fonts          (cf. `Using common "
+"Postscript fonts with LaTeX`_)"
+msgstr ""
+
+#: ../../source/user/latex.rst:951
+msgid "Package"
+msgstr ""
+
+#: ../../source/user/latex.rst:951
+msgid "Roman"
+msgstr ""
+
+#: ../../source/user/latex.rst:951
+msgid "Sans Serif"
+msgstr ""
+
+#: ../../source/user/latex.rst:951
+msgid "Typewriter"
+msgstr ""
+
+#: ../../source/user/latex.rst:951
+msgid "Math"
+msgstr ""
+
+#: ../../source/user/latex.rst:953
+msgid "(none)"
+msgstr ""
+
+#: ../../source/user/latex.rst:953
+msgid "CM Roman"
+msgstr ""
+
+#: ../../source/user/latex.rst:953
+msgid "CM Sans Serif"
+msgstr ""
+
+#: ../../source/user/latex.rst:953
+msgid "CM Typewriter"
+msgstr ""
+
+#: ../../source/user/latex.rst:953
+msgid "CM Math"
+msgstr ""
+
+#: ../../source/user/latex.rst:955
+msgid "mathpazo"
+msgstr ""
+
+#: ../../source/user/latex.rst:957
+msgid "mathptmx"
+msgstr ""
+
+#: ../../source/user/latex.rst:959
+msgid "helvet"
+msgstr ""
+
+#: ../../source/user/latex.rst:959
+msgid "Helvetica"
+msgstr ""
+
+#: ../../source/user/latex.rst:961
+msgid "avant"
+msgstr ""
+
+#: ../../source/user/latex.rst:961 ../../source/user/latex.rst:968
+#: ../../source/user/latex.rst:970
+msgid "Avant Garde"
+msgstr ""
+
+#: ../../source/user/latex.rst:963
+msgid "courier"
+msgstr ""
+
+#: ../../source/user/latex.rst:963 ../../source/user/latex.rst:968
+#: ../../source/user/latex.rst:970
+msgid "Courier"
+msgstr ""
+
+#: ../../source/user/latex.rst:965
+msgid "chancery"
+msgstr ""
+
+#: ../../source/user/latex.rst:965
+msgid "Zapf Chancery"
+msgstr ""
+
+#: ../../source/user/latex.rst:968
+msgid "bookman"
+msgstr ""
+
+#: ../../source/user/latex.rst:970
+msgid "newcent"
+msgstr ""
+
+#: ../../source/user/latex.rst:973
+msgid "charter"
+msgstr ""
+
+#: ../../source/user/latex.rst:975
+msgid "utopia"
+msgstr ""
+
+#: ../../source/user/latex.rst:977
+msgid "fourier"
+msgstr ""
+
+#: ../../source/user/latex.rst:977
+msgid "Fourier"
+msgstr ""
+
+#: ../../source/user/latex.rst:980
+msgid ""
+"Extended versions of the standard Postscript fonts including accented "
+"chars, as well as real small-caps and old-style numbers are available "
+"with the `TeX Gyre`_ bundle which is part of, e.g., `TeX Live`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1015
+msgid "font encoding"
+msgstr ""
+
+#: ../../source/user/latex.rst:1017
+msgid ""
+"LaTeX font encodings are described in detail in the encguide_ which is "
+"part of the LaTeX base documentation."
+msgstr ""
+
+#: ../../source/user/latex.rst:1021
+msgid "font-encoding_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1024
+msgid "\"T1\""
+msgstr ""
+
+#: ../../source/user/latex.rst:1027
+msgid "Use the (obsolete) LaTeX default encoding \"OT1\"::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1031
+msgid "or (without loading the fontenc_ package)::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1035
+msgid ""
+"This will improve the look on screen with the default Computer Modern "
+"fonts at the expense of problems with `search and text extraction`_ The "
+"recommended way is to select a T1-encoded \"Type 1\" (vector) font, for "
+"example `Latin Modern`_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1041
+msgid ""
+"Support for characters in the Unicode blocks Latin, Latin-1 Supplement, "
+"and Greek together with a T1-encoded \"Type 1\" (vector) font, for "
+"example `Latin Modern`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1056
+msgid "font size"
+msgstr ""
+
+#: ../../source/user/latex.rst:1058
+msgid ""
+"Add font size in points to the document options, e.g. "
+"``--documentoptions=12``, use e.g. the document classes provided by "
+"extsizes_ for values other than [10,11,12]."
+msgstr ""
+
+#: ../../source/user/latex.rst:1067
+msgid "footnotes"
+msgstr ""
+
+#: ../../source/user/latex.rst:1069
+msgid ""
+"By default, footnotes are set with Docutils-specific wrappers around the "
+"standard ``\\footnotemark`` and ``\\footnotetext`` commands.  You can "
+"configure the footnote layout similar to standard LaTeX footnotes in a "
+"custom `style sheet`_ or the `LaTeX preamble`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1074
+msgid ""
+"Further configuration is possible by alternative definitions of "
+"``\\DUfootnotemark`` and ``\\DUfootnotetext``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1078
+msgid "Set footnote text with a hanging indent."
+msgstr ""
+
+#: ../../source/user/latex.rst:1080
+msgid "This is the default with KOMA-script_ classes, e.g::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1084
+msgid "(for further configuration, see the `KOMA-script Guide`_),"
+msgstr ""
+
+#: ../../source/user/latex.rst:1086
+msgid "with package footmisc_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1091
+msgid "(play with the ``\\footnotemargin`` setting),"
+msgstr ""
+
+#: ../../source/user/latex.rst:1093
+msgid "redefine ``\\DUfootnotetext`` inserting `\\hangindent`::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1104
+msgid "(adapt the ``\\hangindent`` value)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1107
+msgid "Footnote marks in normal font size, not superscript::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1112
+msgid "(See the `KOMA-script Guide`_ for details and other options.)"
+msgstr ""
+
+#: ../../source/user/latex.rst:1115
+msgid ""
+"Place the footnote text where it appears in the source document (instead "
+"of at the page bottom). This can be used to get the effect of endnotes "
+"(needs the hanging_ package)::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1133
+msgid "hyphenation"
+msgstr ""
+
+#: ../../source/user/latex.rst:1135
+msgid ""
+"The amount of hyphenation is influenced by ``\\hyphenpenalty``, setting "
+"it to 10000 almost prevents hyphenation. As this produces lines with more"
+" space between words one should increase Latex's ``\\tolerance`` for "
+"this."
+msgstr ""
+
+#: ../../source/user/latex.rst:1147
+msgid "hyperlinks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1150
+msgid "hyperlink-color_, hyperref-options_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1152
+msgid ""
+"Hyperlinks are realized using the hyperref_ package. As it re-defines "
+"many standard LaTeX macros, this package is loaded last, *after* the "
+"style sheets."
+msgstr ""
+
+#: ../../source/user/latex.rst:1156
+msgid ""
+"However, you can load hyperref before a package that requires its "
+"presence in a `style sheet`_ or the `LaTeX preamble`_ (see example "
+"below). This will ignore options set with hyperlink-color_ and hyperref-"
+"options_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1161
+msgid ""
+"URLs are typeset with the \"url\" package (loaded implicitely by "
+"\"hyperref\"). The font of URLs can be defined with the ``\\urlstyle`` "
+"command. Valid arguments are"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "same"
+msgstr ""
+
+#: ../../source/user/latex.rst:1165
+msgid "normal text font, Docutils default,"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "tt"
+msgstr ""
+
+#: ../../source/user/latex.rst:1166
+msgid "teletype (monospaced), LaTeX default,"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "rm"
+msgstr ""
+
+#: ../../source/user/latex.rst:1167
+msgid "roman,"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "sf"
+msgstr ""
+
+#: ../../source/user/latex.rst:1168
+msgid "sans serif"
+msgstr ""
+
+#: ../../source/user/latex.rst:1171
+msgid ""
+"Custom loading of the hyperref package also switches to the LaTeX default"
+" (monospaced fonts for URLs). Reset to use the text font::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1178
+msgid "See also `non-breaking hyperlinks`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1187
+msgid "disable hyperlinks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1189
+msgid ""
+"To suppress the hyper-linking completely (e.g. for printing or to avoid "
+"clashes with other packages), set hyperref-options_ to \"draft\" or load "
+"the \"nohyperref\" package that comes with the \"hyperref\" bundle."
+msgstr ""
+
+#: ../../source/user/latex.rst:1195
+msgid "``--hyperref-options=draft``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1197 ../../source/user/latex.rst:1480
+msgid "`LaTeX code`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1206
+msgid "line blocks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1208
+msgid "In `line blocks`__, newlines and leading whitespace are respected."
+msgstr ""
+
+#: ../../source/user/latex.rst:1211
+msgid "``DUlineblock``: special list environment for line blocks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1214
+msgid "``\\DUlineblockindent``: indentation of indented lineblock parts."
+msgstr ""
+
+#: ../../source/user/latex.rst:1217
+msgid "2.5 times the font hight: ``2.5em``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1220
+msgid "set to the paragraph indentation::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1229
+msgid "line spacing"
+msgstr ""
+
+#: ../../source/user/latex.rst:1232
+msgid "``\\linespread``: for small adjustments"
+msgstr ""
+
+#: ../../source/user/latex.rst:1234
+msgid ""
+"``\\singlespacing``, ``\\onehalfspacing``, and ``\\doublespacing``: from "
+"package `setspace`"
+msgstr ""
+
+#: ../../source/user/latex.rst:1238
+msgid "Get document wide double spacing::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1244
+msgid "Increase line spacing by five percent for better readability::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1250
+msgid "literal blocks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1252
+msgid ""
+"No markup processing is done within a `literal block`__. It is left as-"
+"is, and is typically rendered in a monospaced typeface"
+msgstr ""
+
+#: ../../source/user/latex.rst:1256
+msgid "literal-block-env_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1260
+msgid "``--literal-block-env=lstlisting``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1262
+msgid ""
+"The ``lstlisting`` environment is highly configurable (as documented in "
+"listings.pdf_) and provides syntax highlight for many programming "
+"languages, for instance ::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1279
+msgid "and to get LaTeX syntax highlight for a code block with \"listings\"::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1284
+msgid "The indentation of literal blocks can be reset with ::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1288
+msgid "and/or configured with e.Â g.::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1300
+msgid "lists"
+msgstr ""
+
+#: ../../source/user/latex.rst:1302
+msgid ""
+"Remove extra vertical whitespace between items of bullet lists and "
+"enumerated lists."
+msgstr ""
+
+#: ../../source/user/latex.rst:1306
+msgid "Pass the class argument \"compact\" to the list::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1313
+msgid ""
+"The following lines for the `LaTeX preamble`_ use the enumitem_ package "
+"to remove spacing from all lists with class argument \"compact\"::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1321
+msgid "list of figures/tables"
+msgstr ""
+
+#: ../../source/user/latex.rst:1323
+msgid "Docutils does not support lists of figures or tables."
+msgstr ""
+
+#: ../../source/user/latex.rst:1325
+msgid ""
+"However, with LaTeX, they can be generated using `raw LaTeX`_ in the "
+"document source."
+msgstr ""
+
+#: ../../source/user/latex.rst:1329
+msgid "``\\listoffigures``: a list of figures"
+msgstr ""
+
+#: ../../source/user/latex.rst:1331
+msgid "``\\listoftables``: a list of tables"
+msgstr ""
+
+#: ../../source/user/latex.rst:1342
+msgid "option list"
+msgstr ""
+
+#: ../../source/user/latex.rst:1344
+msgid ""
+"`Option lists`__ are two-column lists of command-line options and "
+"descriptions, documenting a program's options."
+msgstr ""
+
+#: ../../source/user/latex.rst:1348
+msgid "``DUoptionlist``: environment for option lists,"
+msgstr ""
+
+#: ../../source/user/latex.rst:1351
+msgid "``\\DUoptionlistlabel``: set appearance of the options"
+msgstr ""
+
+#: ../../source/user/latex.rst:1354
+msgid "set command options with a bold monospace font::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1362
+msgid "page breaks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1364
+msgid ""
+"Page breaks before top-level sections are the default with a "
+"documentclass that provides \"chapters\", e.g.  \"book\", \"memoir\" or "
+"\"scrbook\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:1368
+msgid ""
+"Redefining the \\section or \\section* command in a style sheet is "
+"possible too."
+msgstr ""
+
+#: ../../source/user/latex.rst:1371
+msgid "`Raw LaTeX`_ or a `custom role`_ can be used."
+msgstr ""
+
+#: ../../source/user/latex.rst:1373
+msgid "The transition element can be re-defined to produce a page break,"
+msgstr ""
+
+#: ../../source/user/latex.rst:1378
+msgid "Commands"
+msgstr ""
+
+#: ../../source/user/latex.rst:1376
+msgid "``\\newpage``:  hard pagebreak at exactly this position"
+msgstr ""
+
+#: ../../source/user/latex.rst:1378
+msgid ""
+"``\\pagebreak[2]``: recommended page break after line end (precedence "
+"1...4)"
+msgstr ""
+
+#: ../../source/user/latex.rst:1381
+msgid "Define the transition command as page break with the `LaTeX code`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1385
+msgid "(use ``\\renewcommand`` with `raw LaTeX`_)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1388
+msgid "page layout"
+msgstr ""
+
+#: ../../source/user/latex.rst:1390
+msgid ""
+"By default, paper size and margin settings are determined by the document"
+" class."
+msgstr ""
+
+#: ../../source/user/latex.rst:1393
+msgid "The following packages help to configure the page layout:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1395
+msgid ""
+"The `typearea`_ package (part of the `KOMA-script`_ bundle) calculates a "
+"*good* page layout (based on rules and recommendations of typography "
+"experts)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1399
+msgid ""
+"See the `KOMA-Script Guide`_ for details on what is a *good* layout and "
+"how this is achieved."
+msgstr ""
+
+#: ../../source/user/latex.rst:1402
+msgid ""
+"The `geometry`_ package is recommended if you have to follow guidelines "
+"with fixed values for the margins. For details see the `geometry "
+"manual`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1407
+msgid ""
+"Let `typearea` determine the type area with ``DIV=calc`` in the "
+"documentoptions::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1412
+msgid ""
+"The ``DIV`` option can also be specified, like ``DIV=10``. It defines how"
+" \"crowded\" a page will be: larger values mean larger text area (at the "
+"expense of readability)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1417
+msgid "`LaTeX code`_ to set margins with the geometry_ package::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1434
+msgid "page headers and footers"
+msgstr ""
+
+#: ../../source/user/latex.rst:1436
+msgid ""
+"With the fancyhdr_ package or the `KOMA-script`_ classes, you can define "
+"custom page head- and foot-lines."
+msgstr ""
+
+#: ../../source/user/latex.rst:1439
+msgid ""
+"The `\"header\" and \"footer\" directives`_ save their content in the "
+"macros ``\\DUheader`` rsp. ``\\DUfooter``. The macros can be used in "
+"LaTeX code and will be replaced by LaTeX with the content of the "
+"directives."
+msgstr ""
+
+#: ../../source/user/latex.rst:1444
+msgid ""
+"`LaTeX code`_ to place left-aligned \"header\" and \"footer\" on every "
+"page with fancyhdr_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1459
+msgid "page numbering"
+msgstr ""
+
+#: ../../source/user/latex.rst:1462
+msgid "Number pages by chapter (using the chappg_ package)::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1466
+msgid "See the `chappg documentation`_ for details."
+msgstr ""
+
+#: ../../source/user/latex.rst:1475
+msgid "paper size"
+msgstr ""
+
+#: ../../source/user/latex.rst:1477
+msgid ""
+"Paper geometry can be changed using ``--documentoptions`` or with the "
+"`geometry`_ package."
+msgstr ""
+
+#: ../../source/user/latex.rst:1486
+msgid "a4paper"
+msgstr ""
+
+#: ../../source/user/latex.rst:1488
+msgid "Some possibilities:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1490
+msgid "a4paper, b3paper, letterpaper, executivepaper, legalpaper"
+msgstr ""
+
+#: ../../source/user/latex.rst:1491
+msgid "landscape, portrait, twoside."
+msgstr ""
+
+#: ../../source/user/latex.rst:1494
+msgid "Choose A5 pager in landscape orientation with command line argument::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1498
+msgid "The same with LaTeX commands in the `style sheet`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1503
+msgid "For details see the `geometry manual`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1506
+msgid "paragraph indent"
+msgstr ""
+
+#: ../../source/user/latex.rst:1510
+msgid "Default (in most document classes):"
+msgstr ""
+
+#: ../../source/user/latex.rst:1509
+msgid ""
+"Indent the first line in a paragraph unless it is the first line of a "
+"chapter, section, subsection, or subsubsection."
+msgstr ""
+
+#: ../../source/user/latex.rst:1513
+msgid ""
+"To set paragraph indentation to zero but add a vertical space between "
+"load the `parskip` package with the command line argument::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1518
+msgid "or in a custom `style sheet`_ with::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1523
+msgid ""
+"To suppress the indentation of a specific paragraph, you may give it the "
+"class \"noindent\" with, e.g. ::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1530
+msgid "and define the `custom role`_ command::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1535
+msgid "rubric"
+msgstr ""
+
+#: ../../source/user/latex.rst:1537
+msgid ""
+"A rubric__ is like an informal heading that doesn't correspond to the "
+"document's structure."
+msgstr ""
+
+#: ../../source/user/latex.rst:1541
+msgid "``\\DUrubric``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1544
+msgid "subsubsection style, italic, centred"
+msgstr ""
+
+#: ../../source/user/latex.rst:1547
+msgid "set flushleft and red::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1556
+msgid "section numbering"
+msgstr ""
+
+#: ../../source/user/latex.rst:1558
+msgid "Sections are numbered if there is a `sectnum directive`_ in the document."
+msgstr ""
+
+#: ../../source/user/latex.rst:1561
+msgid "Option: sectnum_xform_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1561
+msgid "``--section-numbering``, ``--no-section-numbering``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1563
+msgid ""
+"If sectnum_xform_ is False, section numbers are generated by LaTeX. In "
+"this case the \"prefix\" and \"suffix\" arguments of the `sectnum "
+"directive`_ are ignored. The section number style is determined by the "
+"`document class`_ and can be configured in a LaTeX `style sheet`_, e.g.::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1570
+msgid "The LaTeX name is 'secnumdepth' (whithout 't')."
+msgstr ""
+
+#: ../../source/user/latex.rst:1577
+msgid "sidebar"
+msgstr ""
+
+#: ../../source/user/latex.rst:1579
+msgid ""
+"Sidebars__ are like miniature, parallel documents that occur inside other"
+" documents, providing related or reference material. They can be likened "
+"to super-footnotes; their content is outside of the flow of the "
+"document's main text."
+msgstr ""
+
+#: ../../source/user/latex.rst:1585
+msgid "``DUsidebar``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1588
+msgid "Box with grey background."
+msgstr ""
+
+#: ../../source/user/latex.rst:1591
+msgid "Use margin notes::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1595
+msgid "Make sure the margin is wide enough to hold the note."
+msgstr ""
+
+#: ../../source/user/latex.rst:1596
+msgid ""
+"This fails with some constructs inside the `side bar` and where "
+"\\marginpar cannot be used, e.g., inside floats, footnotes, or in frames "
+"made with the framed package (see marginnote_)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1603
+msgid "size of a pixel"
+msgstr ""
+
+#: ../../source/user/latex.rst:1605
+msgid ""
+"The *physical size* of a pixel depends on the resolution of the output "
+"device and is usually specified in *dots per inch* (DPI)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1608
+msgid ""
+"The *length unit* \"px\" is defined by the output format. For LaTeX, it "
+"is `defined in pdfTeX and LuaTeX`__ (the `xetex` writer emulates this "
+"definition)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1613
+msgid "72Â DPI, i.e. 1Â pxÂ =Â 1/72Â in. [#]_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1616
+msgid "Set the value to match the CSS definition with the `LaTeX code`_::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1622
+msgid "The `CSS length unit ``px```_ defaults to 1/96 inch."
+msgstr ""
+
+#: ../../source/user/latex.rst:1630
+msgid "table"
+msgstr ""
+
+#: ../../source/user/latex.rst:1632
+msgid ""
+"A pre-configured table style can be globally selected via the table-"
+"style_ setting or set for individual tables via a `class directive`_ or "
+"the class option of the `table directive`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1640
+msgid "topic element"
+msgstr ""
+
+#: ../../source/user/latex.rst:1642
+msgid ""
+"A topic_ is like a block quote with a title, or a self-contained section "
+"with no subsections. Topics and rubrics can be used at places where a "
+"`section title`_ is not allowed (e.g. inside a directive)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1647
+msgid "Use a standard paragraph for a topic::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1658
+msgid "titles"
+msgstr ""
+
+#: ../../source/user/latex.rst:1660
+msgid ""
+"The titles of admonitions_, sidebar_, and `topic element`_ are defined "
+"with the ``\\DUtitle`` command that also takes a \"class\" argument."
+msgstr ""
+
+#: ../../source/user/latex.rst:1664
+msgid "a centered and somewhat larger title for topcis::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1669
+msgid "a right-pointing hand as title for the \"attention\" directive::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1674
+msgid ""
+"The title argument is \"swallowed\" by the command. To have both, hand "
+"and title use::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1682
+msgid "table of contents"
+msgstr ""
+
+#: ../../source/user/latex.rst:1684
+msgid "A `contents directive`_ is replaced by a table of contents (ToC)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1687
+msgid "Option: use-latex-toc_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1687
+msgid "``--use-latex-toc``, ``--use-docutils-toc``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1689
+msgid "With use-latex-toc (default since release 0.6):"
+msgstr ""
+
+#: ../../source/user/latex.rst:1691
+msgid "The ToC is generated by LaTeX (via the ``\\tableofcontents`` command)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1693
+msgid ""
+"The layout depends on the choosen document class and can be configured in"
+" a custom `style sheet`_ (see e.g. the `KOMA-Script Guide`_ for the "
+"`KOMA-script`_ classes)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1697
+msgid "The depth of the ToC and PDF-bookmarks can be configured"
+msgstr ""
+
+#: ../../source/user/latex.rst:1699
+msgid "with the \"depth\" argument of the `contents directive`_, or"
+msgstr ""
+
+#: ../../source/user/latex.rst:1701
+msgid "in a style sheet with e.g. ``\\setcounter{tocdepth}{5}``."
+msgstr ""
+
+#: ../../source/user/latex.rst:1703
+msgid ""
+"Local ToCs are done with the minitoc_ package. See the `minitoc "
+"documentation`_ for the numerous configuration options."
+msgstr ""
+
+#: ../../source/user/latex.rst:1707
+msgid ""
+"Minitoc supports local ToCs only at \"part\" and top section level "
+"(\"chapter\" or \"section\"). Local `contents` directives at lower levels"
+" are ignored (a warning is issued)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1711
+msgid ""
+"This is an intended feature of the minitoc_ package. If you really "
+"require local ToCs at lower level, turn off the use-latex-toc_ option."
+msgstr ""
+
+#: ../../source/user/latex.rst:1723
+msgid "title reference role"
+msgstr ""
+
+#: ../../source/user/latex.rst:1725
+msgid "`Title reference`_ is the default `default role`_ for `interpreted text`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1728
+msgid "``\\DUroletitlereference``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1731
+msgid "use slanted font (``\\textsl``)"
+msgstr ""
+
+#: ../../source/user/latex.rst:1734
+msgid "set title references with a bold monospace font::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1747
+msgid "text encoding"
+msgstr ""
+
+#: ../../source/user/latex.rst:1749
+msgid ""
+"The encoding of the LaTeX source file is Docutils' *output* encoding but "
+"LaTeX' *input* encoding."
+msgstr ""
+
+#: ../../source/user/latex.rst:1753
+msgid "Option: output-encoding_"
+msgstr ""
+
+#: ../../source/user/latex.rst:1753
+msgid "``--output-encoding=OUTPUT-ENCODING``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1756
+msgid "\"utf8\""
+msgstr ""
+
+#: ../../source/user/latex.rst:1759
+msgid ""
+"Encode the LaTeX source file with the ISO `latin-1` (west european) 8-bit"
+" encoding (the default in Docutils versions up to 0.6.)::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1775
+msgid "Note:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1765
+msgid "LaTeX comes with two options for UTF-8 support,"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "utf8"
+msgstr ""
+
+#: ../../source/user/latex.rst:1767
+msgid ""
+"by the standard `inputenc`_ package with only limited coverage (mainly "
+"accented characters)."
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "utf8x"
+msgstr ""
+
+#: ../../source/user/latex.rst:1770
+msgid ""
+"supported by the `ucs`_ package covers a wider range of Unicode "
+"characters than does \"utf8\".  It is, however, a non-standard extension "
+"and no longer developed."
+msgstr ""
+
+#: ../../source/user/latex.rst:1774
+msgid ""
+"Currently (in version 0.6), \"utf8\" is used if the output-encoding is "
+"any of \"utf_8\", \"U8\", \"UTF\", or \"utf8\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:1793
+msgid "transition element"
+msgstr ""
+
+#: ../../source/user/latex.rst:1795
+msgid ""
+"Transitions__ are commonly seen in novels and short fiction, as a gap "
+"spanning one or more lines, marking text divisions or signaling changes "
+"in subject, time, point of view, or emphasis."
+msgstr ""
+
+#: ../../source/user/latex.rst:1800
+msgid "``\\DUtransition``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1803
+msgid "A horizontal line, 1/3 of text width"
+msgstr ""
+
+#: ../../source/user/latex.rst:1806
+msgid "Use three stars::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1810
+msgid "Alternatively use the more elaborated version in `transition-stars.sty`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1813
+msgid ""
+"If paragraphs are separated by indentation, you can simply use a vertical"
+" space::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1824
+msgid "Changes"
+msgstr ""
+
+#: ../../source/user/latex.rst:1826
+msgid ""
+"The Docutils HISTORY_ lists all changes during the history of docutils. "
+"Important changes are summarized in the RELEASE-NOTES_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1829
+msgid ""
+"docutils-05-compat.sty_ is a `style sheet`_ that provides best possible "
+"backwards compatibility with release 0.5."
+msgstr ""
+
+#: ../../source/user/latex.rst:1840
+msgid "Problems"
+msgstr ""
+
+#: ../../source/user/latex.rst:1843
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/user/latex.rst:1846
+msgid "Bad looking PDF output"
+msgstr ""
+
+#: ../../source/user/latex.rst:1848
+msgid ""
+"What I am looking for when I try Docutils is if the PDF files I can get "
+"are of high quality. Unfortunaltely that never is the case."
+msgstr ""
+
+#: ../../source/user/latex.rst:1851
+msgid ""
+"So am I just stupid or is there a way to get really high quality pdf from"
+" Docutils?"
+msgstr ""
+
+#: ../../source/user/latex.rst:1854
+msgid "Make sure the default font is not a bitmap font."
+msgstr ""
+
+#: ../../source/user/latex.rst:1856
+msgid ""
+"There is `Latin Modern`_ if you like the look of the standard font on "
+"paper, but want nice pdf. Or select something else like Times, Palatino, "
+"... via configuration `options/settings`_. See font_ and font-encoding_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1862
+msgid "footnote mark and text at different pages"
+msgstr ""
+
+#: ../../source/user/latex.rst:1864
+msgid ""
+"Docutils stores the footnote text in a separate node, at the position "
+"where it is specified in the input document. With the default settings, "
+"the footnote is put at the bottom of the page where the footnote text is "
+"located, maybe far away from the footnote mark (see e.g. "
+"`<rst/demo.txt>`_)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1869
+msgid ""
+"To get footnote mark and text at the same page, keep footnote mark and "
+"footnote text close together!"
+msgstr ""
+
+#: ../../source/user/latex.rst:1874
+msgid "non-breaking hyperlinks"
+msgstr ""
+
+#: ../../source/user/latex.rst:1876
+msgid ""
+"If you convert with ``latex`` (as opposed to ``pdflatex``), hyperlinks "
+"will not wrap and sometimes stick into the margin."
+msgstr ""
+
+#: ../../source/user/latex.rst:1885
+msgid "Wrong:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1884
+msgid ""
+"\"breaklinks\" is an internal option that indicates whether the chosen "
+"driver can handle split links. (It might work to *disable* link "
+"breaking.)"
+msgstr ""
+
+#: ../../source/user/latex.rst:1894
+msgid "Right:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1888
+msgid "Use one of the following:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1890
+msgid "compile with pdflatex_,"
+msgstr ""
+
+#: ../../source/user/latex.rst:1892
+msgid "use the package breakurl_,"
+msgstr ""
+
+#: ../../source/user/latex.rst:1894
+msgid "(for printout) `disable hyperlinks`_ using the package \"nohyperref\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:1896
+msgid "See also the `Link text doesnâ€™t break at end line`_ LaTeX FAQ entry."
+msgstr ""
+
+#: ../../source/user/latex.rst:1906
+msgid "Glyph not defined in PD1 encoding"
+msgstr ""
+
+#: ../../source/user/latex.rst:1908
+msgid ""
+"If a section title or other link contains non-Latin (e.g. Cyrillic) "
+"characters, the LaTeX log contains lots of warnings like::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1915
+msgid "This can be solved with the \"unicode\" hyperref_option_ setting::"
+msgstr ""
+
+#: ../../source/user/latex.rst:1919
+msgid ""
+"(works also with non-unicode input/output encoding (e.g. \"koi8r\" or "
+"\"latin1\"). Newer versions of hyperref default to \"unicode=true\" if "
+"the document language is \"russian\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:1927
+msgid "image inclusion"
+msgstr ""
+
+#: ../../source/user/latex.rst:1929
+msgid ""
+"Images__ are included in LaTeX with the help of the `graphicx` package. "
+"The supported file formats depend on the used driver:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1932
+msgid "pdflatex_ and xelatex_ work with PNG, JPG, or PDF, but **not EPS**."
+msgstr ""
+
+#: ../../source/user/latex.rst:1933
+msgid "Standard latex_ can include **only EPS** graphics, no other format."
+msgstr ""
+
+#: ../../source/user/latex.rst:1934
+msgid ""
+"latex + dvipdfmx works with EPS and JPG (add 'dvipdfmx' to the "
+"documentoptions_ and 'bmpsize' to the stylesheet_ setting)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1937
+msgid ""
+"If PDF-image inclusion in PDF files fails, specifying ``--graphicx-"
+"option=pdftex`` or ``--graphicx-option=auto`` might help."
+msgstr ""
+
+#: ../../source/user/latex.rst:1940
+msgid "For details see grfguide.pdf_."
+msgstr ""
+
+#: ../../source/user/latex.rst:1942
+msgid "The Rubber_ wrapper can be used for automatic image conversion."
+msgstr ""
+
+#: ../../source/user/latex.rst:1944
+msgid ""
+"Docutils expects an URI as pointer to the image file. The latex writer "
+"transforms this URI to a local path. By default, LaTeX does not accept "
+"spaces and more than one dot in the filename. If using \"traditional\" "
+"filenames is not an option, adding grffile_ to the `style sheets`_ can "
+"help."
+msgstr ""
+
+#: ../../source/user/latex.rst:1959
+msgid "Why are my images too big?"
+msgstr ""
+
+#: ../../source/user/latex.rst:1961
+msgid "HTML-browsers use the actual screen resolution (usually around 100Â DPI)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1964
+msgid "The CSS specification suggests:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1966
+msgid ""
+"It is recommended that the reference pixel be the visual angle of one "
+"pixel on a device with a pixel density of 96Â DPI and a distance from the"
+" reader of an arm's length."
+msgstr ""
+
+#: ../../source/user/latex.rst:1975
+msgid "http://www.w3.org/TR/CSS2/syndata.html#length-units"
+msgstr ""
+
+#: ../../source/user/latex.rst:1972
+msgid ""
+"This is why pixmap images without size specification or objects with a "
+"size specified in ``px`` tend to come too large in the PDF."
+msgstr ""
+
+#: ../../source/user/latex.rst:1977
+msgid "Solution:"
+msgstr ""
+
+#: ../../source/user/latex.rst:1976
+msgid ""
+"Specify the image size in fixed units (``pt``, ``cm``, ``in``) or "
+"configure the `size of a pixel`_ (length unit px)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1980
+msgid "Error ``illegal unit px``"
+msgstr ""
+
+#: ../../source/user/latex.rst:1982
+msgid ""
+"If you convert the LaTeX source with a legacy program, you might get this"
+" error."
+msgstr ""
+
+#: ../../source/user/latex.rst:1985
+msgid ""
+"The unit \"px\" was introduced by the `pdfTeX` converter on 2005-02-04. "
+"`pdfTeX` is used also for conversion into DVI format in all modern LaTeX "
+"distributions (since ca. 2006)."
+msgstr ""
+
+#: ../../source/user/latex.rst:1989
+msgid ""
+"If updating LaTeX is not an option, just remove the \"px\" from the "
+"length specification. HTML/CSS will default to \"px\" while the `latexe2`"
+" writer will add the fallback unit \"bp\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:1994
+msgid "Error ``Symbol \\textcurrency not provided`` ..."
+msgstr ""
+
+#: ../../source/user/latex.rst:1996
+msgid ""
+"The currency sign (\\\\u00a4) is not supported by all fonts (some have an"
+" Euro sign at its place). You might see an error like::"
+msgstr ""
+
+#: ../../source/user/latex.rst:2003
+msgid "(which in case of font family \"ptm\" is a false positive). Add either"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "warn"
+msgstr ""
+
+#: ../../source/user/latex.rst:2005
+msgid "turn the error in a warning, use the default symbol (bitmap), or"
+msgstr ""
+
+#: ../../source/user/latex.rst
+msgid "force,almostfull"
+msgstr ""
+
+#: ../../source/user/latex.rst:2006
+msgid "use the symbol provided by the font at the users risk,"
+msgstr ""
+
+#: ../../source/user/latex.rst:2009
+msgid "to the document options or use a different font package."
+msgstr ""
+
+#: ../../source/user/latex.rst:2012
+msgid "Search and text extraction"
+msgstr ""
+
+#: ../../source/user/latex.rst:2014
+msgid ""
+"Search for text that contains characters outside the ASCII range (e.g. "
+"umlauts) might fail.  See font_ and `font encoding`_ (as well as "
+"`Searching PDF files`_ for background information)."
+msgstr ""
+
+#: ../../source/user/latex.rst:2018
+msgid ""
+"It may help to load the `cmap` package (via `style sheets`_ or the custom"
+" `LaTeX preamble`_ (see also `Proper use of cmap and mmmap`_)."
+msgstr ""
+
+#: ../../source/user/latex.rst:2028
+msgid "Unicode box drawing and block characters"
+msgstr ""
+
+#: ../../source/user/latex.rst:2030
+msgid "The easiest solution is to use xelatex_ for `PDF generation`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:2032
+msgid "With \"traditional\" TeX engines (e.g. pdflatex_):"
+msgstr ""
+
+#: ../../source/user/latex.rst:2034
+msgid "Generate LaTeX code with `output-encoding`_ \"utf-8\"."
+msgstr ""
+
+#: ../../source/user/latex.rst:2036
+msgid ""
+"Add the pmboxdraw_ package to the `style sheets`_. (For shaded boxes also"
+" add the `color` package.)"
+msgstr ""
+
+#: ../../source/user/latex.rst:2039
+msgid ""
+"Unfortunately, this defines only a subset of the characters (see "
+"pmboxdraw.pdf_ for a list)."
+msgstr ""
+
+#: ../../source/user/latex.rst:2049
+msgid "Bugs and open issues"
+msgstr ""
+
+#: ../../source/user/latex.rst:2051
+msgid "Open to be fixed or open to discussion."
+msgstr ""
+
+#: ../../source/user/latex.rst:2053
+msgid ""
+"See also the entries in the `Docutils TODO list`_, the BUGS_ "
+"documentation and the `SourceForge Bug Tracker`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:2063
+msgid "Footnotes and citations"
+msgstr ""
+
+#: ../../source/user/latex.rst:2065
+msgid ""
+"Initially both were implemented using figure floats, because hyperlinking"
+" back and forth seemed to be impossible. Later the `figure` directive was"
+" added that puts images into figure floats."
+msgstr ""
+
+#: ../../source/user/latex.rst:2069
+msgid ""
+"This results in footnotes, citations, and figures possibly being mixed at"
+" page foot."
+msgstr ""
+
+#: ../../source/user/latex.rst:2074
+msgid "Workaround:"
+msgstr ""
+
+#: ../../source/user/latex.rst:2073
+msgid ""
+"Select footnote and citation handling with the docutils-footnotes_ and "
+"use-latex-citations_ options."
+msgstr ""
+
+#: ../../source/user/latex.rst:2076
+msgid ""
+"If ``use-latex-citations`` is used, a bibliography is inserted right at "
+"the end of the document. *This should be customizable*."
+msgstr ""
+
+#: ../../source/user/latex.rst:2079
+msgid ""
+"If ``use-latex-citations`` is used adjacent citation references "
+"(separated only by a single space or a newline) are combined to a single "
+"citation group, i.e. ``[cite1]_ [cite2]_`` results in "
+"``\\cite{cite1,cite2}``. The appearance in the output can be configured "
+"in a `style sheet`_."
+msgstr ""
+
+#: ../../source/user/latex.rst:2089
+msgid "Tables"
+msgstr ""
+
+#: ../../source/user/latex.rst:2091
+msgid ""
+"reST-documents line length is assumed to be 80 characters. The "
+"*tablewidth* is set relative to this value. If someone produces documents"
+" with line length of 132 this will lead to suboptimal results."
+msgstr ""
+
+#: ../../source/user/latex.rst:2095
+msgid "You may use the `:width:` option to manually set the table column widths."
+msgstr ""
+
+#: ../../source/user/latex.rst:2097
+msgid "Table: multicol cells are always left aligned."
+msgstr ""
+
+#: ../../source/user/latex.rst:2099
+msgid "Table cells with both multirow and multicolumn are currently not possible."
+msgstr ""
+
+#: ../../source/user/latex.rst:2101
+msgid "literal-blocks in table cells:"
+msgstr ""
+
+#: ../../source/user/latex.rst:2103
+msgid "If verbatim or flushleft is used one gets vertical space above and below."
+msgstr ""
+
+#: ../../source/user/latex.rst:2104
+msgid ""
+"This is bad for the topmost paragraph in a cell, therefore the writer "
+"uses raggedright."
+msgstr ""
+
+#: ../../source/user/latex.rst:2106
+msgid ""
+"Ragged right fails on followup paragraphs as the vertical space would be "
+"missing."
+msgstr ""
+
+#: ../../source/user/latex.rst:2109
+msgid ""
+"``--table-style=booktabs``, ``..class:: booktab``: `booktabs` version "
+"1.00 does not work with `longtable`. This is solved in newer versions "
+"(current is 2005/04/14 v1.61803)."
+msgstr ""
+
+#: ../../source/user/latex.rst:2115
+msgid "Figures"
+msgstr ""
+
+#: ../../source/user/latex.rst:2117
+msgid ""
+"Figures are always as wide as the containing text. The \"figwidth\" "
+"argument is currently not supported. As a consequence, the \"align\" "
+"argument has no effect."
+msgstr ""
+
+#: ../../source/user/latex.rst:2121
+msgid ""
+"Wrapping text around figures is currently not supported. (Requires the "
+"`wrapfig`_ package.)"
+msgstr ""
+
+#: ../../source/user/latex.rst:2129
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../source/user/latex.rst:2131
+msgid ""
+"Pdfbookmark level 4 (and greater) does not work (might be settable but "
+"complicated)."
+msgstr ""
+
+#: ../../source/user/latex.rst:2134
+msgid ""
+"Hyperlinks are not hyphenated; this leads to bad spacing. See "
+"docs/user/rst/demo.txt 2.14 directives."
+msgstr ""
+
+#: ../../source/user/latex.rst:2137
+msgid ""
+"Pagestyle headings does not work, when sections are starred. Use LaTeX "
+"for the section numbering with the `options/settings`_ ``--no-section-"
+"numbers`` (command line) or ``sectnum_xform: False`` (config file)."
+msgstr ""
+
+#~ msgid "latex"
+#~ msgstr ""
+

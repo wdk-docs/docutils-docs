@@ -1,0 +1,596 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user/rst/cheatsheet.rst:3
+msgid "The reStructuredText_ Cheat Sheet: Syntax Reminders"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid "Info"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:4
+msgid "See <http://docutils.sf.net/rst.html> for introductory docs."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid "Author"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:5
+msgid "David Goodger <goodger@python.org>"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:6
+msgid "$Date: 2013-02-20 02:10:53 +0100 (Mi, 20. Feb 2013) $"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid "Revision"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:7
+msgid "$Revision: 7612 $"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+#: ../../source/user/rst/cheatsheet.rst:120
+msgid "Description"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:8
+msgid "This is a \"docinfo block\", or bibliographic field list"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:10
+msgid ""
+"If you are reading this as HTML, please read `<cheatsheet.txt>`_ instead "
+"to see the input syntax examples!"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:14
+msgid "Section Structure"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:15
+msgid "Section titles are underlined or overlined & underlined."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:18
+msgid "Body Elements"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:19
+msgid "Grid table:"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:22
+msgid "Paragraphs are flush-left, separated by blank lines."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:25
+msgid "Block quotes are indented."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:22
+msgid "Literal block, preceded by \"::\"::"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:26
+msgid "or::"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid "Line blocks preserve line breaks & indents. [new in 0.3.6]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid ""
+"Useful for addresses, verse, and adornment-free lists; long lines can be "
+"wrapped with continuation lines."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:35
+msgid "Simple tables:"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:38
+msgid "List Type"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:38
+msgid "Examples (syntax in the `text source <cheatsheet.txt>`_)"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:40
+msgid "Bullet list"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:40
+msgid "items begin with \"-\", \"+\", or \"*\""
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:41
+msgid "Enumerated list"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:41
+msgid "items use any variation of \"1.\", \"A)\", and \"(i)\""
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:42
+msgid "also auto-enumerated"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:43
+msgid "Definition list"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:43
+msgid "Term is flush-left"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:42
+msgid "optional classifier"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:44
+msgid "Definition is indented, no blank line between"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:45
+msgid "Field list"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst
+msgid "field name"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:45
+msgid "field body"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:46
+msgid "Option list"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:46
+msgid "at least 2 spaces between option & description"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:50
+msgid "Explicit Markup"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:50
+msgid "Examples (visible in the `text source`_)"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:52
+msgid "Footnote"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:52
+msgid ""
+"Manually numbered or [#] auto-numbered (even [#labelled]) or [*] auto-"
+"symbol"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:54
+msgid "Citation"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:54
+msgid "A citation."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:55
+msgid "Hyperlink Target"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:58
+msgid "Anonymous Target"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:59
+msgid "Directive (\"::\")"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:60
+msgid "Substitution Def"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:61
+msgid "Comment"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:62
+msgid "Empty Comment"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:62
+msgid ""
+"(\"..\" on a line by itself, with blank lines before & after, used to "
+"separate indentation contexts)"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:67
+msgid "Inline Markup"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:68
+msgid ""
+"*emphasis*; **strong emphasis**; `interpreted text`; `interpreted text "
+"with role`:emphasis:; ``inline literal text``; standalone hyperlink, "
+"http://docutils.sourceforge.net; named reference, reStructuredText_; "
+"`anonymous reference`__; footnote reference, [1]_; citation reference, "
+"[CIT2002]_; |substitution|; _`inline internal target`."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:75
+msgid "Directive Quick Reference"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:76
+msgid "See <http://docutils.sf.net/docs/ref/rst/directives.html> for full info."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:79
+msgid "Directive Name"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:79
+msgid "Description (Docutils version added to, in [brackets])"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:81
+msgid "attention"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:81
+msgid ""
+"Specific admonition; also \"caution\", \"danger\", \"error\", \"hint\", "
+"\"important\", \"note\", \"tip\", \"warning\""
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:83
+msgid "admonition"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:83
+msgid "Generic titled admonition: ``.. admonition:: By The Way``"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:84
+msgid "image"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:84
+msgid "``.. image:: picture.png``; many options possible"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:85
+msgid "figure"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:85
+msgid "Like \"image\", but with optional caption and legend"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:86
+msgid "topic"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:86
+msgid "``.. topic:: Title``; like a mini section"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:87
+msgid "sidebar"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:87
+msgid "``.. sidebar:: Title``; like a mini parallel document"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:88
+msgid "parsed-literal"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:88
+msgid "A literal block with parsed inline markup"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:89
+msgid "rubric"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:89
+msgid "``.. rubric:: Informal Heading``"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:90
+msgid "epigraph"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:90
+msgid "Block quote with class=\"epigraph\""
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:91
+msgid "highlights"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:91
+msgid "Block quote with class=\"highlights\""
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:92
+msgid "pull-quote"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:92
+msgid "Block quote with class=\"pull-quote\""
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:93
+msgid "compound"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:93
+msgid "Compound paragraphs [0.3.6]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:94
+msgid "container"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:94
+msgid "Generic block-level container element [0.3.10]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:95
+msgid "table"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:95
+msgid "Create a titled table [0.3.1]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:96
+msgid "list-table"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:96
+msgid "Create a table from a uniform two-level bullet list [0.3.8]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:97
+msgid "csv-table"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:97
+msgid "Create a table from CSV data [0.3.4]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:98
+msgid "contents"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:98
+msgid "Generate a table of contents"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:99
+msgid "sectnum"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:99
+msgid "Automatically number sections, subsections, etc."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:100
+msgid "header, footer"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:100
+msgid "Create document decorations [0.3.8]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:101
+msgid "target-notes"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:101
+msgid "Create an explicit footnote for each external target"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:102
+#: ../../source/user/rst/cheatsheet.rst:124
+msgid "math"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:102
+#: ../../source/user/rst/cheatsheet.rst:124
+msgid "Mathematical notation (input in LaTeX format)"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:103
+msgid "meta"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:103
+msgid "HTML-specific metadata"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:104
+msgid "include"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:104
+msgid "Read an external reST file as if it were inline"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:105
+#: ../../source/user/rst/cheatsheet.rst:127
+msgid "raw"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:105
+msgid "Non-reST data passed untouched to the Writer"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:106
+msgid "replace"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:106
+msgid "Replacement text for substitution definitions"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:107
+msgid "unicode"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:107
+msgid "Unicode character code conversion for substitution defs"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:108
+msgid "date"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:108
+msgid "Generates today's date; for substitution defs"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:109
+msgid "class"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:109
+msgid "Set a \"class\" attribute on the next element"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:110
+msgid "role"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:110
+msgid "Create a custom interpreted text role [0.3.2]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:111
+msgid "default-role"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:111
+msgid "Set the default interpreted text role [0.3.10]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:112
+#: ../../source/user/rst/cheatsheet.rst:131
+msgid "title"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:112
+msgid "Set the metadata document title [0.3.10]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:116
+msgid "Interpreted Text Role Quick Reference"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:117
+msgid "See <http://docutils.sf.net/docs/ref/rst/roles.html> for full info."
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:120
+msgid "Role Name"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:122
+msgid "emphasis"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:122
+msgid "Equivalent to *emphasis*"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:123
+msgid "literal"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:123
+msgid "Equivalent to ``literal`` but processes backslash escapes"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:125
+msgid "PEP"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:125
+msgid "Reference to a numbered Python Enhancement Proposal"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:126
+msgid "RFC"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:126
+msgid "Reference to a numbered Internet Request For Comments"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:127
+msgid "For non-reST data; cannot be used directly (see docs) [0.3.6]"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:128
+msgid "strong"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:128
+msgid "Equivalent to **strong**"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:129
+msgid "sub"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:129
+msgid "Subscript"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:130
+msgid "sup"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:130
+msgid "Superscript"
+msgstr ""
+
+#: ../../source/user/rst/cheatsheet.rst:131
+msgid "Title reference (book, etc.); standard default role"
+msgstr ""
+

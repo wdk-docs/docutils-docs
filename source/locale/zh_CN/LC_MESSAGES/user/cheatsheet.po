@@ -20,89 +20,89 @@ msgstr ""
 
 #: ../../source/user/cheatsheet.rst:3
 msgid "The reStructuredText_ Cheat Sheet: Syntax Reminders"
-msgstr ""
+msgstr "reStructuredText_ 备忘单: 语法提醒"
 
 #: ../../source/user/cheatsheet.rst
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 #: ../../source/user/cheatsheet.rst:4
 msgid "See <http://docutils.sf.net/rst.html> for introductory docs."
-msgstr ""
+msgstr "有关介绍性文档，请参阅<http://docutils.sf.net/rst.html>。"
 
 #: ../../source/user/cheatsheet.rst
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: ../../source/user/cheatsheet.rst:5
 msgid "David Goodger <goodger@python.org>"
-msgstr ""
+msgstr "David Goodger <goodger@python.org>"
 
 #: ../../source/user/cheatsheet.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/cheatsheet.rst:6
 msgid "$Date: 2013-02-20 02:10:53 +0100 (Mi, 20. Feb 2013) $"
-msgstr ""
+msgstr "$Date: 2013-02-20 02:10:53 +0100 (Mi, 20. Feb 2013) $"
 
 #: ../../source/user/cheatsheet.rst
 msgid "Revision"
-msgstr ""
+msgstr "调整"
 
 #: ../../source/user/cheatsheet.rst:7
 msgid "$Revision: 7612 $"
-msgstr ""
+msgstr "$Revision: 7612 $"
 
 #: ../../source/user/cheatsheet.rst ../../source/user/cheatsheet.rst:120
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../source/user/cheatsheet.rst:8
 msgid "This is a \"docinfo block\", or bibliographic field list"
-msgstr ""
+msgstr "这是一个 \"docinfo块\" ，或书目字段列表"
 
 #: ../../source/user/cheatsheet.rst:10
 msgid ""
 "If you are reading this as HTML, please read `<cheatsheet.txt>`_ instead "
 "to see the input syntax examples!"
-msgstr ""
+msgstr "如果您将其作为HTML阅读，请阅读`<cheatsheet.txt>`_而不是查看输入语法示例！"
 
 #: ../../source/user/cheatsheet.rst:14
 msgid "Section Structure"
-msgstr ""
+msgstr "部分结构"
 
 #: ../../source/user/cheatsheet.rst:15
 msgid "Section titles are underlined or overlined & underlined."
-msgstr ""
+msgstr "章节标题带有下划线或带标题和下划线。"
 
 #: ../../source/user/cheatsheet.rst:18
 msgid "Body Elements"
-msgstr ""
+msgstr "身体元素"
 
 #: ../../source/user/cheatsheet.rst:19
 msgid "Grid table:"
-msgstr ""
+msgstr "网格表:"
 
 #: ../../source/user/cheatsheet.rst:22
 msgid "Paragraphs are flush-left, separated by blank lines."
-msgstr ""
+msgstr "Paragraphs are flush-left, separated by blank lines."
 
 #: ../../source/user/cheatsheet.rst:25
 msgid "Block quotes are indented."
-msgstr ""
+msgstr "Block quotes are indented."
 
 #: ../../source/user/cheatsheet.rst:22
 msgid "Literal block, preceded by \"::\"::"
-msgstr ""
+msgstr "Literal block, preceded by \"::\"::"
 
 #: ../../source/user/cheatsheet.rst:26
 msgid "or::"
-msgstr ""
+msgstr "or::"
 
 #: ../../source/user/cheatsheet.rst
 msgid "Line blocks preserve line breaks & indents. [new in 0.3.6]"
-msgstr ""
+msgstr "Line blocks preserve line breaks & indents. [new in 0.3.6]"
 
 #: ../../source/user/cheatsheet.rst
 msgid ""
@@ -112,83 +112,83 @@ msgstr ""
 
 #: ../../source/user/cheatsheet.rst:35
 msgid "Simple tables:"
-msgstr ""
+msgstr "Simple tables:"
 
 #: ../../source/user/cheatsheet.rst:38
 msgid "List Type"
-msgstr ""
+msgstr "List Type"
 
 #: ../../source/user/cheatsheet.rst:38
 msgid "Examples (syntax in the `text source <cheatsheet.txt>`_)"
-msgstr ""
+msgstr "Examples (syntax in the `text source <cheatsheet.txt>`_)"
 
 #: ../../source/user/cheatsheet.rst:40
 msgid "Bullet list"
-msgstr ""
+msgstr "Bullet list"
 
 #: ../../source/user/cheatsheet.rst:40
 msgid "items begin with \"-\", \"+\", or \"*\""
-msgstr ""
+msgstr "items begin with \"-\", \"+\", or \"*\""
 
 #: ../../source/user/cheatsheet.rst:41
 msgid "Enumerated list"
-msgstr ""
+msgstr "Enumerated list"
 
 #: ../../source/user/cheatsheet.rst:41
 msgid "items use any variation of \"1.\", \"A)\", and \"(i)\""
-msgstr ""
+msgstr "items use any variation of \"1.\", \"A)\", and \"(i)\""
 
 #: ../../source/user/cheatsheet.rst:42
 msgid "also auto-enumerated"
-msgstr ""
+msgstr "also auto-enumerated"
 
 #: ../../source/user/cheatsheet.rst:43
 msgid "Definition list"
-msgstr ""
+msgstr "Definition list"
 
 #: ../../source/user/cheatsheet.rst:43
 msgid "Term is flush-left"
-msgstr ""
+msgstr "Term is flush-left"
 
 #: ../../source/user/cheatsheet.rst:42
 msgid "optional classifier"
-msgstr ""
+msgstr "optional classifier"
 
 #: ../../source/user/cheatsheet.rst:44
 msgid "Definition is indented, no blank line between"
-msgstr ""
+msgstr "Definition is indented, no blank line between"
 
 #: ../../source/user/cheatsheet.rst:45
 msgid "Field list"
-msgstr ""
+msgstr "Field list"
 
 #: ../../source/user/cheatsheet.rst
 msgid "field name"
-msgstr ""
+msgstr "field name"
 
 #: ../../source/user/cheatsheet.rst:45
 msgid "field body"
-msgstr ""
+msgstr "field body"
 
 #: ../../source/user/cheatsheet.rst:46
 msgid "Option list"
-msgstr ""
+msgstr "Option list"
 
 #: ../../source/user/cheatsheet.rst:46
 msgid "at least 2 spaces between option & description"
-msgstr ""
+msgstr "at least 2 spaces between option & description"
 
 #: ../../source/user/cheatsheet.rst:50
 msgid "Explicit Markup"
-msgstr ""
+msgstr "Explicit Markup"
 
 #: ../../source/user/cheatsheet.rst:50
 msgid "Examples (visible in the `text source`_)"
-msgstr ""
+msgstr "Examples (visible in the `text source`_)"
 
 #: ../../source/user/cheatsheet.rst:52
 msgid "Footnote"
-msgstr ""
+msgstr "Footnote"
 
 #: ../../source/user/cheatsheet.rst:52
 msgid ""
@@ -198,35 +198,35 @@ msgstr ""
 
 #: ../../source/user/cheatsheet.rst:54
 msgid "Citation"
-msgstr ""
+msgstr "Citation"
 
 #: ../../source/user/cheatsheet.rst:54
 msgid "A citation."
-msgstr ""
+msgstr "A citation."
 
 #: ../../source/user/cheatsheet.rst:55
 msgid "Hyperlink Target"
-msgstr ""
+msgstr "Hyperlink Target"
 
 #: ../../source/user/cheatsheet.rst:58
 msgid "Anonymous Target"
-msgstr ""
+msgstr "Anonymous Target"
 
 #: ../../source/user/cheatsheet.rst:59
 msgid "Directive (\"::\")"
-msgstr ""
+msgstr "Directive (\"::\")"
 
 #: ../../source/user/cheatsheet.rst:60
 msgid "Substitution Def"
-msgstr ""
+msgstr "Substitution Def"
 
 #: ../../source/user/cheatsheet.rst:61
 msgid "Comment"
-msgstr ""
+msgstr "Comment"
 
 #: ../../source/user/cheatsheet.rst:62
 msgid "Empty Comment"
-msgstr ""
+msgstr "Empty Comment"
 
 #: ../../source/user/cheatsheet.rst:62
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 
 #: ../../source/user/cheatsheet.rst:67
 msgid "Inline Markup"
-msgstr ""
+msgstr "内联标记"
 
 #: ../../source/user/cheatsheet.rst:68
 msgid ""
@@ -249,109 +249,111 @@ msgstr ""
 
 #: ../../source/user/cheatsheet.rst:75
 msgid "Directive Quick Reference"
-msgstr ""
+msgstr "指令快速参考"
 
 #: ../../source/user/cheatsheet.rst:76
 msgid "See <http://docutils.sf.net/docs/ref/rst/directives.html> for full info."
-msgstr ""
+msgstr "See <http://docutils.sf.net/docs/ref/rst/directives.html> for full info."
 
 #: ../../source/user/cheatsheet.rst:79
 msgid "Directive Name"
-msgstr ""
+msgstr "指令名称"
 
 #: ../../source/user/cheatsheet.rst:79
 msgid "Description (Docutils version added to, in [brackets])"
-msgstr ""
+msgstr "说明（在[方括号]中添加了Docutils版本）"
 
 #: ../../source/user/cheatsheet.rst:81
 msgid "attention"
-msgstr ""
+msgstr "attention"
 
 #: ../../source/user/cheatsheet.rst:81
 msgid ""
 "Specific admonition; also \"caution\", \"danger\", \"error\", \"hint\", "
 "\"important\", \"note\", \"tip\", \"warning\""
 msgstr ""
+"具体的告诫;还有\"caution\", \"danger\", \"error\", \"hint\", \"important\", "
+"\"note\", \"tip\", \"warning\""
 
 #: ../../source/user/cheatsheet.rst:83
 msgid "admonition"
-msgstr ""
+msgstr "admonition"
 
 #: ../../source/user/cheatsheet.rst:83
 msgid "Generic titled admonition: ``.. admonition:: By The Way``"
-msgstr ""
+msgstr "通用标题的箴言: ``.. admonition:: By The Way``"
 
 #: ../../source/user/cheatsheet.rst:84
 msgid "image"
-msgstr ""
+msgstr "image"
 
 #: ../../source/user/cheatsheet.rst:84
 msgid "``.. image:: picture.png``; many options possible"
-msgstr ""
+msgstr "``.. image:: picture.png``; 许多选择可能"
 
 #: ../../source/user/cheatsheet.rst:85
 msgid "figure"
-msgstr ""
+msgstr "figure"
 
 #: ../../source/user/cheatsheet.rst:85
 msgid "Like \"image\", but with optional caption and legend"
-msgstr ""
+msgstr "喜欢 \"image\" ，但带有可选的标题和图例"
 
 #: ../../source/user/cheatsheet.rst:86
 msgid "topic"
-msgstr ""
+msgstr "topic"
 
 #: ../../source/user/cheatsheet.rst:86
 msgid "``.. topic:: Title``; like a mini section"
-msgstr ""
+msgstr "``.. topic:: Title``; 像一个迷你部分"
 
 #: ../../source/user/cheatsheet.rst:87
 msgid "sidebar"
-msgstr ""
+msgstr "sidebar"
 
 #: ../../source/user/cheatsheet.rst:87
 msgid "``.. sidebar:: Title``; like a mini parallel document"
-msgstr ""
+msgstr "``.. sidebar:: Title``; 像一个迷你平行文件"
 
 #: ../../source/user/cheatsheet.rst:88
 msgid "parsed-literal"
-msgstr ""
+msgstr "parsed-literal"
 
 #: ../../source/user/cheatsheet.rst:88
 msgid "A literal block with parsed inline markup"
-msgstr ""
+msgstr "A literal block with parsed inline markup"
 
 #: ../../source/user/cheatsheet.rst:89
 msgid "rubric"
-msgstr ""
+msgstr "rubric"
 
 #: ../../source/user/cheatsheet.rst:89
 msgid "``.. rubric:: Informal Heading``"
-msgstr ""
+msgstr "``.. rubric:: 非正式标题``"
 
 #: ../../source/user/cheatsheet.rst:90
 msgid "epigraph"
-msgstr ""
+msgstr "epigraph"
 
 #: ../../source/user/cheatsheet.rst:90
 msgid "Block quote with class=\"epigraph\""
-msgstr ""
+msgstr "使用class =  \"epigraph\" 阻止引用"
 
 #: ../../source/user/cheatsheet.rst:91
 msgid "highlights"
-msgstr ""
+msgstr "highlights"
 
 #: ../../source/user/cheatsheet.rst:91
 msgid "Block quote with class=\"highlights\""
-msgstr ""
+msgstr "使用class =  \"highlight\" 阻止引用"
 
 #: ../../source/user/cheatsheet.rst:92
 msgid "pull-quote"
-msgstr ""
+msgstr "pull-quote"
 
 #: ../../source/user/cheatsheet.rst:92
 msgid "Block quote with class=\"pull-quote\""
-msgstr ""
+msgstr "使用class =  \"pull-quote\" 阻止引用"
 
 #: ../../source/user/cheatsheet.rst:93
 msgid "compound"
@@ -359,233 +361,236 @@ msgstr ""
 
 #: ../../source/user/cheatsheet.rst:93
 msgid "Compound paragraphs [0.3.6]"
-msgstr ""
+msgstr "复合段落[0.3.6]"
 
 #: ../../source/user/cheatsheet.rst:94
 msgid "container"
-msgstr ""
+msgstr "container"
 
 #: ../../source/user/cheatsheet.rst:94
 msgid "Generic block-level container element [0.3.10]"
-msgstr ""
+msgstr "通用块级容器元素 [0.3.10]"
 
 #: ../../source/user/cheatsheet.rst:95
 msgid "table"
-msgstr ""
+msgstr "table"
 
 #: ../../source/user/cheatsheet.rst:95
 msgid "Create a titled table [0.3.1]"
-msgstr ""
+msgstr "创建一个标题表 [0.3.1]"
 
 #: ../../source/user/cheatsheet.rst:96
 msgid "list-table"
-msgstr ""
+msgstr "list-table"
 
 #: ../../source/user/cheatsheet.rst:96
 msgid "Create a table from a uniform two-level bullet list [0.3.8]"
-msgstr ""
+msgstr "从统一的两级项目符号列表中创建一个表 [0.3.8]"
 
 #: ../../source/user/cheatsheet.rst:97
 msgid "csv-table"
-msgstr ""
+msgstr "csv-table"
 
 #: ../../source/user/cheatsheet.rst:97
 msgid "Create a table from CSV data [0.3.4]"
-msgstr ""
+msgstr "从CSV数据创建表 [0.3.4]"
 
 #: ../../source/user/cheatsheet.rst:98
 msgid "contents"
-msgstr ""
+msgstr "contents"
 
 #: ../../source/user/cheatsheet.rst:98
 msgid "Generate a table of contents"
-msgstr ""
+msgstr "生成目录"
 
 #: ../../source/user/cheatsheet.rst:99
 msgid "sectnum"
-msgstr ""
+msgstr "sectnum"
 
 #: ../../source/user/cheatsheet.rst:99
 msgid "Automatically number sections, subsections, etc."
-msgstr ""
+msgstr "自动编号部分，子部分等。"
 
 #: ../../source/user/cheatsheet.rst:100
 msgid "header, footer"
-msgstr ""
+msgstr "header, footer"
 
 #: ../../source/user/cheatsheet.rst:100
 msgid "Create document decorations [0.3.8]"
-msgstr ""
+msgstr "创建文档装饰 [0.3.8]"
 
 #: ../../source/user/cheatsheet.rst:101
 msgid "target-notes"
-msgstr ""
+msgstr "target-notes"
 
 #: ../../source/user/cheatsheet.rst:101
 msgid "Create an explicit footnote for each external target"
-msgstr ""
+msgstr "为每个外部目标创建一个明确的脚注"
 
 #: ../../source/user/cheatsheet.rst:102 ../../source/user/cheatsheet.rst:124
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../source/user/cheatsheet.rst:102 ../../source/user/cheatsheet.rst:124
 msgid "Mathematical notation (input in LaTeX format)"
-msgstr ""
+msgstr "数学符号（以LaTeX格式输入）"
 
 #: ../../source/user/cheatsheet.rst:103
 msgid "meta"
-msgstr ""
+msgstr "meta"
 
 #: ../../source/user/cheatsheet.rst:103
 msgid "HTML-specific metadata"
-msgstr ""
+msgstr "特定于HTML的元数据"
 
 #: ../../source/user/cheatsheet.rst:104
 msgid "include"
-msgstr ""
+msgstr "include"
 
 #: ../../source/user/cheatsheet.rst:104
 msgid "Read an external reST file as if it were inline"
-msgstr ""
+msgstr "读取外部reST文件，就像它是内联的一样"
 
 #: ../../source/user/cheatsheet.rst:105 ../../source/user/cheatsheet.rst:127
 msgid "raw"
-msgstr ""
+msgstr "raw"
 
 #: ../../source/user/cheatsheet.rst:105
 msgid "Non-reST data passed untouched to the Writer"
-msgstr ""
+msgstr "非reST数据未经传递给Writer"
 
 #: ../../source/user/cheatsheet.rst:106
 msgid "replace"
-msgstr ""
+msgstr "replace"
 
 #: ../../source/user/cheatsheet.rst:106
 msgid "Replacement text for substitution definitions"
-msgstr ""
+msgstr "替换定义的替换文本"
 
 #: ../../source/user/cheatsheet.rst:107
 msgid "unicode"
-msgstr ""
+msgstr "unicode"
 
 #: ../../source/user/cheatsheet.rst:107
 msgid "Unicode character code conversion for substitution defs"
-msgstr ""
+msgstr "用于替换defs的Unicode字符代码转换"
 
 #: ../../source/user/cheatsheet.rst:108
 msgid "date"
-msgstr ""
+msgstr "date"
 
 #: ../../source/user/cheatsheet.rst:108
 msgid "Generates today's date; for substitution defs"
-msgstr ""
+msgstr "生成今天的日期;替代定义"
 
 #: ../../source/user/cheatsheet.rst:109
 msgid "class"
-msgstr ""
+msgstr "class"
 
 #: ../../source/user/cheatsheet.rst:109
 msgid "Set a \"class\" attribute on the next element"
-msgstr ""
+msgstr "在下一个元素上设置 \"class\" 属性"
 
 #: ../../source/user/cheatsheet.rst:110
 msgid "role"
-msgstr ""
+msgstr "role"
 
 #: ../../source/user/cheatsheet.rst:110
 msgid "Create a custom interpreted text role [0.3.2]"
-msgstr ""
+msgstr "创建自定义解释文本角色[0.3.2]"
 
 #: ../../source/user/cheatsheet.rst:111
 msgid "default-role"
-msgstr ""
+msgstr "default-role"
 
 #: ../../source/user/cheatsheet.rst:111
 msgid "Set the default interpreted text role [0.3.10]"
-msgstr ""
+msgstr "设置默认的解释文本角色 [0.3.10]"
 
 #: ../../source/user/cheatsheet.rst:112 ../../source/user/cheatsheet.rst:131
 msgid "title"
-msgstr ""
+msgstr "title"
 
 #: ../../source/user/cheatsheet.rst:112
 msgid "Set the metadata document title [0.3.10]"
-msgstr ""
+msgstr "设置元数据文档标题 [0.3.10]"
 
 #: ../../source/user/cheatsheet.rst:116
 msgid "Interpreted Text Role Quick Reference"
-msgstr ""
+msgstr "解释文本角色快速参考"
 
 #: ../../source/user/cheatsheet.rst:117
 msgid "See <http://docutils.sf.net/docs/ref/rst/roles.html> for full info."
-msgstr ""
+msgstr "看到 <http://docutils.sf.net/docs/ref/rst/roles.html> 获取完整信息。"
 
 #: ../../source/user/cheatsheet.rst:120
 msgid "Role Name"
-msgstr ""
+msgstr "角色名称"
 
 #: ../../source/user/cheatsheet.rst:122
 msgid "emphasis"
-msgstr ""
+msgstr "重点"
 
 #: ../../source/user/cheatsheet.rst:122
 msgid "Equivalent to *emphasis*"
-msgstr ""
+msgstr "相当于*强调*"
 
 #: ../../source/user/cheatsheet.rst:123
 msgid "literal"
-msgstr ""
+msgstr "文字"
 
 #: ../../source/user/cheatsheet.rst:123
 msgid "Equivalent to ``literal`` but processes backslash escapes"
-msgstr ""
+msgstr "相当于``literal``但处理反斜杠转义"
 
 #: ../../source/user/cheatsheet.rst:125
 msgid "PEP"
-msgstr ""
+msgstr "PEP"
 
 #: ../../source/user/cheatsheet.rst:125
 msgid "Reference to a numbered Python Enhancement Proposal"
-msgstr ""
+msgstr "参考编号的Python增强建议"
 
 #: ../../source/user/cheatsheet.rst:126
 msgid "RFC"
-msgstr ""
+msgstr "RFC"
 
 #: ../../source/user/cheatsheet.rst:126
 msgid "Reference to a numbered Internet Request For Comments"
-msgstr ""
+msgstr "参考编号的Internet请求注释"
 
 #: ../../source/user/cheatsheet.rst:127
 msgid "For non-reST data; cannot be used directly (see docs) [0.3.6]"
-msgstr ""
+msgstr "对于非reST数据;不能直接使用（参见文档） [0.3.6]"
 
 #: ../../source/user/cheatsheet.rst:128
 msgid "strong"
-msgstr ""
+msgstr "strong"
 
 #: ../../source/user/cheatsheet.rst:128
 msgid "Equivalent to **strong**"
-msgstr ""
+msgstr "相当于**强**"
 
 #: ../../source/user/cheatsheet.rst:129
 msgid "sub"
-msgstr ""
+msgstr "sub"
 
 #: ../../source/user/cheatsheet.rst:129
 msgid "Subscript"
-msgstr ""
+msgstr "Subscript"
 
 #: ../../source/user/cheatsheet.rst:130
 msgid "sup"
-msgstr ""
+msgstr "sup"
 
 #: ../../source/user/cheatsheet.rst:130
 msgid "Superscript"
-msgstr ""
+msgstr "Superscript"
 
 #: ../../source/user/cheatsheet.rst:131
 msgid "Title reference (book, etc.); standard default role"
-msgstr ""
+msgstr "标题参考（书籍等）;标准默认角色"
+
+#~ msgid "复合"
+#~ msgstr "compound"
 

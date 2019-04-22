@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:3
 msgid "Problems With StructuredText"
-msgstr ""
+msgstr "StructuredText的问题"
 
 #: ../../source/dev/problems.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/problems.rst:4
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/dev/problems.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/problems.rst:5
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/problems.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/problems.rst:6
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/dev/problems.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/problems.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/dev/problems.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/problems.rst:8
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/problems.rst:10
 msgid ""
@@ -73,11 +73,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:19
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/problems.rst:22
 msgid "Formal Specification"
-msgstr ""
+msgstr "Formal Specification"
 
 #: ../../source/dev/problems.rst:24
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:38
 msgid "Understanding and Extending the Code"
-msgstr ""
+msgstr "Understanding and Extending the Code"
 
 #: ../../source/dev/problems.rst:40
 msgid ""
@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:56
 msgid "Section Structure via Indentation"
-msgstr ""
+msgstr "Section Structure via Indentation"
 
 #: ../../source/dev/problems.rst:58
 msgid ""
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:101
 msgid "Character Escaping Mechanism"
-msgstr ""
+msgstr "Character Escaping Mechanism"
 
 #: ../../source/dev/problems.rst:103
 msgid ""
@@ -215,15 +215,15 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:119
 msgid "``\\``"
-msgstr ""
+msgstr "``\\``"
 
 #: ../../source/dev/problems.rst:120
 msgid "``~``"
-msgstr ""
+msgstr "``~``"
 
 #: ../../source/dev/problems.rst:121
 msgid "doubling of characters"
-msgstr ""
+msgstr "doubling of characters"
 
 #: ../../source/dev/problems.rst:123
 msgid ""
@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:161
 msgid "Blank Lines in Lists"
-msgstr ""
+msgstr "Blank Lines in Lists"
 
 #: ../../source/dev/problems.rst:163
 msgid ""
@@ -302,7 +302,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:178
 msgid "Bullet List Markup"
-msgstr ""
+msgstr "Bullet List Markup"
 
 #: ../../source/dev/problems.rst:180
 msgid ""
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:189
 msgid "And in Japanese (when romanized)::"
-msgstr ""
+msgstr "And in Japanese (when romanized)::"
 
 #: ../../source/dev/problems.rst:196
 msgid ""
@@ -330,7 +330,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:205
 msgid "Enumerated List Markup"
-msgstr ""
+msgstr "Enumerated List Markup"
 
 #: ../../source/dev/problems.rst:207
 msgid ""
@@ -383,23 +383,23 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:240
 msgid "For an enumerated list to be recognized, the following must be true:"
-msgstr ""
+msgstr "For an enumerated list to be recognized, the following must be true:"
 
 #: ../../source/dev/problems.rst:243
 msgid "the list must consist of multiple adjacent list items (2 or more)"
-msgstr ""
+msgstr "the list must consist of multiple adjacent list items (2 or more)"
 
 #: ../../source/dev/problems.rst:245
 msgid "the enumerators must all have the same format"
-msgstr ""
+msgstr "the enumerators must all have the same format"
 
 #: ../../source/dev/problems.rst:246
 msgid "the enumerators must be sequential"
-msgstr ""
+msgstr "the enumerators must be sequential"
 
 #: ../../source/dev/problems.rst:250
 msgid "Definition List Markup"
-msgstr ""
+msgstr "Definition List Markup"
 
 #: ../../source/dev/problems.rst:252
 msgid ""
@@ -438,7 +438,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:285
 msgid "Literal Blocks"
-msgstr ""
+msgstr "Literal Blocks"
 
 #: ../../source/dev/problems.rst:287
 msgid ""
@@ -463,11 +463,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:302
 msgid "Thus, a section could begin with a literal block as follows::"
-msgstr ""
+msgstr "Thus, a section could begin with a literal block as follows::"
 
 #: ../../source/dev/problems.rst:313
 msgid "Tables"
-msgstr ""
+msgstr "Tables"
 
 #: ../../source/dev/problems.rst:315
 msgid ""
@@ -492,7 +492,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:337
 msgid "The hyphen ('-') is used for horizontal lines (row separators)."
-msgstr ""
+msgstr "The hyphen ('-') is used for horizontal lines (row separators)."
 
 #: ../../source/dev/problems.rst:338
 msgid ""
@@ -502,7 +502,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:341
 msgid "The vertical bar ('|') is used for for vertical lines (column separators)."
-msgstr ""
+msgstr "The vertical bar ('|') is used for for vertical lines (column separators)."
 
 #: ../../source/dev/problems.rst:343
 msgid ""
@@ -542,7 +542,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:380
 msgid "A minimalist alternative is as follows::"
-msgstr ""
+msgstr "A minimalist alternative is as follows::"
 
 #: ../../source/dev/problems.rst:399
 msgid ""
@@ -589,11 +589,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:466
 msgid "Limitations of this approach:"
-msgstr ""
+msgstr "Limitations of this approach:"
 
 #: ../../source/dev/problems.rst:468
 msgid "Cells in the first column are limited to one line of text."
-msgstr ""
+msgstr "Cells in the first column are limited to one line of text."
 
 #: ../../source/dev/problems.rst:470
 msgid ""
@@ -609,11 +609,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:478
 msgid "Alternatives 1 and 5 has been adopted by reStructuredText."
-msgstr ""
+msgstr "Alternatives 1 and 5 has been adopted by reStructuredText."
 
 #: ../../source/dev/problems.rst:482
 msgid "Delimitation of Inline Markup"
-msgstr ""
+msgstr "Delimitation of Inline Markup"
 
 #: ../../source/dev/problems.rst:484
 msgid ""
@@ -636,7 +636,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:502
 msgid "Underlining"
-msgstr ""
+msgstr "Underlining"
 
 #: ../../source/dev/problems.rst:504
 msgid ""
@@ -661,11 +661,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:520
 msgid "Underlining is not part of the reStructuredText specification."
-msgstr ""
+msgstr "Underlining is not part of the reStructuredText specification."
 
 #: ../../source/dev/problems.rst:524
 msgid "Inline Literals"
-msgstr ""
+msgstr "Inline Literals"
 
 #: ../../source/dev/problems.rst:526
 msgid ""
@@ -677,11 +677,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:531
 msgid "Apostrophes: \"Don't blame me, 'cause it ain't mine, it's Chris'.\";"
-msgstr ""
+msgstr "Apostrophes: \"Don't blame me, 'cause it ain't mine, it's Chris'.\";"
 
 #: ../../source/dev/problems.rst:533
 msgid "Quoting text:"
-msgstr ""
+msgstr "Quoting text:"
 
 #: ../../source/dev/problems.rst:535
 msgid ""
@@ -692,15 +692,15 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:539
 msgid "In the UK, single quotes are used for dialogue in published works."
-msgstr ""
+msgstr "In the UK, single quotes are used for dialogue in published works."
 
 #: ../../source/dev/problems.rst:541
 msgid "String literals: s = ''"
-msgstr ""
+msgstr "String literals: s = ''"
 
 #: ../../source/dev/problems.rst:543
 msgid "Alternatives::"
-msgstr ""
+msgstr "Alternatives::"
 
 #: ../../source/dev/problems.rst:548
 msgid ""
@@ -739,15 +739,15 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:604
 msgid "Some existing uses of backquotes:"
-msgstr ""
+msgstr "Some existing uses of backquotes:"
 
 #: ../../source/dev/problems.rst:606
 msgid "As a synonym for repr() in Python."
-msgstr ""
+msgstr "As a synonym for repr() in Python."
 
 #: ../../source/dev/problems.rst:607
 msgid "For command-interpolation in shell scripts."
-msgstr ""
+msgstr "For command-interpolation in shell scripts."
 
 #: ../../source/dev/problems.rst:608
 msgid ""
@@ -801,11 +801,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:644
 msgid "Hyperlinks"
-msgstr ""
+msgstr "Hyperlinks"
 
 #: ../../source/dev/problems.rst:646
 msgid "There are three forms of hyperlink currently in StructuredText_:"
-msgstr ""
+msgstr "There are three forms of hyperlink currently in StructuredText_:"
 
 #: ../../source/dev/problems.rst:648
 msgid ""
@@ -839,11 +839,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:677
 msgid "Alternatives:"
-msgstr ""
+msgstr "Alternatives:"
 
 #: ../../source/dev/problems.rst:679
 msgid "Have no special markup for hyperlinks."
-msgstr ""
+msgstr "Have no special markup for hyperlinks."
 
 #: ../../source/dev/problems.rst:681
 msgid ""
@@ -854,7 +854,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:686
 msgid "Python (http://www.python.org/)"
-msgstr ""
+msgstr "Python (http://www.python.org/)"
 
 #: ../../source/dev/problems.rst:688
 msgid ""
@@ -881,7 +881,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:706
 msgid "Setext used ``underscores_instead_of_spaces_`` for phrase links."
-msgstr ""
+msgstr "Setext used ``underscores_instead_of_spaces_`` for phrase links."
 
 #: ../../source/dev/problems.rst:708
 msgid ""
@@ -895,19 +895,19 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:716
 msgid "We could achieve phrase-links if we enclose the link text:"
-msgstr ""
+msgstr "We could achieve phrase-links if we enclose the link text:"
 
 #: ../../source/dev/problems.rst:718
 msgid "in double quotes::"
-msgstr ""
+msgstr "in double quotes::"
 
 #: ../../source/dev/problems.rst:722
 msgid "in brackets::"
-msgstr ""
+msgstr "in brackets::"
 
 #: ../../source/dev/problems.rst:726
 msgid "or in backquotes::"
-msgstr ""
+msgstr "or in backquotes::"
 
 #: ../../source/dev/problems.rst:730
 msgid ""
@@ -958,7 +958,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:768
 msgid "To summarize::"
-msgstr ""
+msgstr "To summarize::"
 
 #: ../../source/dev/problems.rst:790
 msgid ""
@@ -978,7 +978,7 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:808
 msgid "No markup::"
-msgstr ""
+msgstr "No markup::"
 
 #: ../../source/dev/problems.rst:815
 msgid ""
@@ -994,11 +994,11 @@ msgstr ""
 
 #: ../../source/dev/problems.rst:827
 msgid "StructuredText absolute-only URI syntax (\"text\", mailto:you@your.com)::"
-msgstr ""
+msgstr "StructuredText absolute-only URI syntax (\"text\", mailto:you@your.com)::"
 
 #: ../../source/dev/problems.rst:835
 msgid "reStructuredText syntax::"
-msgstr ""
+msgstr "reStructuredText syntax::"
 
 #: ../../source/dev/problems.rst:843
 msgid ""

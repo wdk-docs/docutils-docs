@@ -1,0 +1,936 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Docutils Release Notes &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="Docutils历史" href="HISTORY.html" />
+    <link rel="prev" title="1 Docutils FAQ (Frequently Asked Questions)" href="FAQ.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../contents.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">版本发布</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="README.html">README: Docutils 0.15b.dev</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BUGS.html">Docutils Bugs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="COPYING.html">Copying Docutils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html"><span class="sectnum">1</span> Docutils FAQ (Frequently Asked Questions)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Docutils Release Notes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#future-changes">Future changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-15b-dev">Release 0.15b.dev</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-14-2017-08-03">Release 0.14 (2017-08-03)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-13-1-2016-12-09">Release 0.13.1 (2016-12-09)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-12-2014-07-06">Release 0.12 (2014-07-06)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-11-2013-07-22">Release 0.11 (2013-07-22)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-10-2012-12-16">Release 0.10 (2012-12-16)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-9-1-2012-06-17">Release 0.9.1 (2012-06-17)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-9-2012-05-02">Release 0.9 (2012-05-02)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-8-1-2011-08-30">Release 0.8.1 (2011-08-30)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-8-2011-07-07">Release 0.8 (2011-07-07)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-7-2010-07-07">Release 0.7 (2010-07-07)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-6-2009-10-11">Release 0.6 (2009-10-11)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-5-2008-06-25">Release 0.5 (2008-06-25)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-4-2006-01-09">Release 0.4 (2006-01-09)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-9-2005-05-26">Release 0.3.9 (2005-05-26)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-7-2004-12-24">Release 0.3.7 (2004-12-24)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-5-2004-07-29">Release 0.3.5 (2004-07-29)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="HISTORY.html">Docutils历史</a></li>
+<li class="toctree-l2"><a class="reference internal" href="THANKS.html">Acknowledgements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../doc.html">文档实用程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst.html">Docutils 的标记语法和解析器组件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">用户文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">参考文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">基本知识</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../contents.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../contents.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">版本发布</a> &raquo;</li>
+        
+      <li>Docutils Release Notes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/release/RELEASE-NOTES.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="docutils-release-notes">
+<h1><a class="toc-backref" href="#id38">Docutils Release Notes</a><a class="headerlink" href="#docutils-release-notes" title="永久链接至标题">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Contact</dt>
+<dd class="field-odd"><p><a class="reference external" href="mailto:grubert&#37;&#52;&#48;users&#46;sourceforge&#46;net">grubert<span>&#64;</span>users<span>&#46;</span>sourceforge<span>&#46;</span>net</a></p>
+</dd>
+<dt class="field-even">Maintainer</dt>
+<dd class="field-even"><p><a class="reference external" href="mailto:docutils-develop&#37;&#52;&#48;lists&#46;sourceforge&#46;net">docutils-develop<span>&#64;</span>lists<span>&#46;</span>sourceforge<span>&#46;</span>net</a></p>
+</dd>
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>$Date: 2017-11-04 22:14:37 +0100 (Sa, 04. Nov 2017) $</p>
+</dd>
+<dt class="field-even">Revision</dt>
+<dd class="field-even"><p>$Revision: 8198 $</p>
+</dd>
+<dt class="field-odd">Web site</dt>
+<dd class="field-odd"><p><a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a></p>
+</dd>
+<dt class="field-even">Copyright</dt>
+<dd class="field-even"><p>This document has been placed in the public domain.</p>
+</dd>
+</dl>
+<p>This document summarizes the major changes in recent and upcoming releases.
+For a more detailed list of changes, please see the <a class="reference external" href="HISTORY.html">Docutils History</a>.</p>
+<div class="contents topic" id="id1">
+<p class="topic-title first">目录</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#docutils-release-notes" id="id38">Docutils Release Notes</a></p>
+<ul>
+<li><p><a class="reference internal" href="#future-changes" id="id39">Future changes</a></p></li>
+<li><p><a class="reference internal" href="#release-0-15b-dev" id="id40">Release 0.15b.dev</a></p></li>
+<li><p><a class="reference internal" href="#release-0-14-2017-08-03" id="id41">Release 0.14 (2017-08-03)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-13-1-2016-12-09" id="id42">Release 0.13.1 (2016-12-09)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-12-2014-07-06" id="id43">Release 0.12 (2014-07-06)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-11-2013-07-22" id="id44">Release 0.11 (2013-07-22)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-10-2012-12-16" id="id45">Release 0.10 (2012-12-16)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-9-1-2012-06-17" id="id46">Release 0.9.1 (2012-06-17)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-9-2012-05-02" id="id47">Release 0.9 (2012-05-02)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-8-1-2011-08-30" id="id48">Release 0.8.1 (2011-08-30)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-8-2011-07-07" id="id49">Release 0.8 (2011-07-07)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-7-2010-07-07" id="id50">Release 0.7 (2010-07-07)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-6-2009-10-11" id="id51">Release 0.6 (2009-10-11)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-5-2008-06-25" id="id52">Release 0.5 (2008-06-25)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-4-2006-01-09" id="id53">Release 0.4 (2006-01-09)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-9-2005-05-26" id="id54">Release 0.3.9 (2005-05-26)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-7-2004-12-24" id="id55">Release 0.3.7 (2004-12-24)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-5-2004-07-29" id="id56">Release 0.3.5 (2004-07-29)</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="future-changes">
+<h2><a class="toc-backref" href="#id39">Future changes</a><a class="headerlink" href="#future-changes" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>Remove the <cite>handle_io_errors</cite> option from io.FileInput/Output.
+Used by Sphinx up to version 1.3.1, fixed in 1.3.2 (Nov 29, 2015).</p></li>
+<li><p>Remove <cite>utils.unique_combinations</cite> (obsoleted by <cite>itertools.combinations</cite>).</p></li>
+<li><p>The default HTML writer “html” with frontend <code class="docutils literal notranslate"><span class="pre">rst2html.py</span></code> may change
+from “html4css1” to “html5”.</p>
+<p>Use <cite>get_writer_by_name(‘html’)</cite> or the <a class="reference external" href="docs/user/tools.html#rst2html-py">rst2html.py</a> front end, if you
+want the output to be up-to-date automatically.</p>
+<p>Use a specific writer name or front end, if you depend on stability of the
+generated HTML code, e.g. because you use a custom style sheet or
+post-processing that may break otherwise.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-15b-dev">
+<h2><a class="toc-backref" href="#id40">Release 0.15b.dev</a><a class="headerlink" href="#release-0-15b-dev" title="永久链接至标题">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>Docutils 0.14.x is the last version supporting Python 2.4, 2.5,
+3.1, and 3.2.</p>
+<p>Docutils 0.15.x is compatible with Python versions 2.6, 2.7 and 3.3 to 3.5
+(cf. <a class="reference external" href="README.html#python-3-compatibility">Python聽3 compatibility</a>).</p>
+</div>
+<ul class="simple">
+<li><p>reStructuredText:</p>
+<ul>
+<li><p>Allow embedded colons in field list field names (before, tokens like
+<code class="docutils literal notranslate"><span class="pre">:this:example:</span></code> were considered ordinary text).</p></li>
+<li><p>Fixed a bug with the “trim” options of the “unicode” directive.</p></li>
+<li><p>Allow escaping of author-separators in <a class="reference external" href="docs/ref/rst/restructuredtext.html#bibliographic-fields">bibliographic fields</a>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-14-2017-08-03">
+<h2><a class="toc-backref" href="#id41">Release 0.14 (2017-08-03)</a><a class="headerlink" href="#release-0-14-2017-08-03" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>docutils/docs/ref/docutils.dtd:</p>
+<ul>
+<li><p>Enable validation of Docutils XML documents against the DTD:</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/:</p>
+<ul>
+<li><p>Added functionality: escaped whitespace in URI contexts.</p></li>
+<li><p>Consistent handling of all whitespace characters in inline markup
+recognition. (May break documents that relied on some whitespace
+characters (NBSP, …) <em>not</em> to be recognized as whitespace.)</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/smartquotes.py:</p>
+<ul>
+<li><p>Update quote definitions for et, fi, fr, ro, sv, tr, uk.</p></li>
+<li><p>Add quote definitions for hr, hsb, hu, lv, sh, sl, sr.</p></li>
+<li><p>Differentiate apostrophe from closing single quote (if possible).</p></li>
+<li><p>Add command line interface for stand-alone use (requires 2.7).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/_html_base:</p>
+<ul>
+<li><p>Provide default title in metadata.</p></li>
+<li><p>The MathJax CDN shut down on April 30, 2017. For security reasons, we
+don’t use a third party public installation as default but warn
+if <cite>math-output</cite> is set to MathJax without specifying a URL.
+See <a class="reference external" href="docs/user/config.html#math-output">math-output</a> for details.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1:</p>
+<ul>
+<li><p>Respect automatic table column sizing.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Handle class arguments for block-level elements by wrapping them
+in a “DUclass” environment. This replaces the special handling for
+“epigraph” and “topic” elements.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/odf_odt:</p>
+<ul>
+<li><p>Language option sets ODF document’s default language</p></li>
+<li><p>Image width, scale, … set image size in generated ODF.</p></li>
+</ul>
+</li>
+<li><p>tools/</p>
+<ul>
+<li><p>New front-end <code class="docutils literal notranslate"><span class="pre">rst2html4.py</span></code>.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-13-1-2016-12-09">
+<h2><a class="toc-backref" href="#id42">Release 0.13.1 (2016-12-09)</a><a class="headerlink" href="#release-0-13-1-2016-12-09" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>docutils/writers/html5_polyglot</p>
+<ul>
+<li><p>New HTML writer generating <a class="reference external" href="http://www.w3.org/TR/html5/">HTML 5</a>.</p></li>
+</ul>
+</li>
+<li><p>tools/</p>
+<ul>
+<li><p>New front-end <code class="docutils literal notranslate"><span class="pre">rst2html5.py</span></code>.</p></li>
+</ul>
+</li>
+<li><p>languages: persian/farsi (fa) and latvian (la) mappings.</p></li>
+<li><p>change default base url for :rfc: to <a class="reference external" href="http://tools.ietf.org/html/">http://tools.ietf.org/html/</a></p></li>
+<li><p>tables accept widths, a list and align</p></li>
+<li><p>latex2e: Fix admonition width, remove deprecated options,
+better tablewidth auto, …</p></li>
+<li><p>rst.el: The problem with <code class="docutils literal notranslate"><span class="pre">electric-indent-mode</span></code> has been fixed.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-12-2014-07-06">
+<h2><a class="toc-backref" href="#id43">Release 0.12 (2014-07-06)</a><a class="headerlink" href="#release-0-12-2014-07-06" title="永久链接至标题">¶</a></h2>
+<p>Small changes only, release current state</p>
+</div>
+<div class="section" id="release-0-11-2013-07-22">
+<h2><a class="toc-backref" href="#id44">Release 0.11 (2013-07-22)</a><a class="headerlink" href="#release-0-11-2013-07-22" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>General</p>
+<ul class="simple">
+<li><p>Apply [ 2714873 ] Fix for the overwritting of document attributes.</p></li>
+<li><p>Support embedded aliases within hyperlink references.</p></li>
+<li><p>Fix [ 228 ] try local import of docutils components (reader, writer, parser,
+language module) before global search.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py</p>
+<ul class="simple">
+<li><p>Fix [ 210 ] Python 3.3 checks CVS syntax only if “strict” is True.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py
+- Fix [ 3600051 ] for tables in a list, table cells are not compacted.
+- New setting <cite>stylesheet_dirs</cite> (see above).</p>
+<blockquote>
+<div><p>Now, it is easy to add a custom stylesheet to Docutils’ default
+stylesheet with, e.g., <code class="docutils literal notranslate"><span class="pre">--stylesheet_path='html4css1.css,</span> <span class="pre">mystyle.css'</span></code></p>
+<dl class="simple">
+<dt>Changed behaviour of the default settings:</dt><dd><p>if there is a file <code class="docutils literal notranslate"><span class="pre">html4css1.css</span></code> in the working directory of the
+process at launch, it is used instead of the one provided by Docutils
+in the writer source directory.</p>
+</dd>
+</dl>
+</div></blockquote>
+<ul class="simple">
+<li><p>New default for <a class="reference external" href="docs/user/config.html#math-output">math-output</a>: <code class="docutils literal notranslate"><span class="pre">HTML</span> <span class="pre">math.css</span></code>.</p></li>
+<li><p>Avoid repeated class declarations in html4css1 writer
+(modified version of patch [ 104 ]).</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Drop the simple algorithm replacing straight double quotes with
+English typographic ones.
+Activate the <a class="reference external" href="docs/user/config.html#smart-quotes">SmartQuotes</a> transform if you want this feature.</p></li>
+<li><p>New setting <cite>stylesheet_dirs</cite>: Comma-separated list of directories
+where stylesheets are found. Used by <cite>stylesheet_path</cite> when expanding
+relative path arguments.</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>docutils/writers/manpage.py</p>
+<ul>
+<li><p>Fix [3607063] handle lines starting with a period.</p></li>
+<li><p>Fix option separating comma was bold (thanks to Bill Morris).</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-10-2012-12-16">
+<h2><a class="toc-backref" href="#id45">Release 0.10 (2012-12-16)</a><a class="headerlink" href="#release-0-10-2012-12-16" title="永久链接至标题">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>Docutils 0.9.x is the last version supporting Python 2.3.</p>
+<p>Docutils 0.10 is compatible with Python versions from 2.4 to 3.2
+(cf. <a class="reference external" href="README.html#python-3-compatibility">Python聽3 compatibility</a>).</p>
+</div>
+<ul>
+<li><p>General:</p>
+<ul>
+<li><p>SmartQuotes transform for typographic quotes and dashes.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docutils/math</span></code>, <code class="docutils literal notranslate"><span class="pre">docutils/error_reporting.py</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">docutils/urischemes.py</span></code> moved to the utils package.
+Code importing these modules needs to adapt, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">docutils.math</span> <span class="k">as</span> <span class="nn">math</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">docutils.utils.math</span> <span class="k">as</span> <span class="nn">math</span>
+</pre></div>
+</div>
+</li>
+<li><p>enhanced math and error handling.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py</p>
+<ul class="simple">
+<li><p>FileInput/FileOutput: no system-exit on IOError.
+The <cite>handle_io_errors</cite> option is ignored.</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">&lt;code&gt;</span></code> tag for inline “code”,
+do not drop nested inline nodes (syntax highlight tokens).</p></li>
+<li><p>Customizable MathJax URL (based on patch by Dmitry Shachnev).</p></li>
+<li><p>No line break after opening inline math tag.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py, docutils/writers/xetex/__init__.py</p>
+<ul>
+<li><p>Fix section numbering by LaTeX.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/s5_html/__init__.py</p>
+<ul>
+<li><p>Fix [ 3556388 ] Mathjax does not work with rst2s5.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-9-1-2012-06-17">
+<h2><a class="toc-backref" href="#id46">Release 0.9.1 (2012-06-17)</a><a class="headerlink" href="#release-0-9-1-2012-06-17" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>General:</p>
+<p>Several fixes for Python 3 usage.</p>
+</li>
+<li><p>docutils/setup.py</p>
+<ul>
+<li><p>Fix [ 3527842 ]. Under Python聽3, converted tests and tools were
+installed in the PYTHONPATH. Converted tests are now
+stored in <code class="docutils literal notranslate"><span class="pre">docutils/test3/</span></code>, tools no longer need conversion.</p>
+<p>If you installed one of Docutils versions 0.7 … 0.9 with
+<code class="docutils literal notranslate"><span class="pre">setup.py</span> <span class="pre">install</span></code> under Python聽3, remove the spurious
+<code class="docutils literal notranslate"><span class="pre">test/</span></code> and <code class="docutils literal notranslate"><span class="pre">tools/</span></code> directories in the site library root.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-9-2012-05-02">
+<h2><a class="toc-backref" href="#id47">Release 0.9 (2012-05-02)</a><a class="headerlink" href="#release-0-9-2012-05-02" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>General:</p>
+<ul class="simple">
+<li><p>reStructuredText “code” role and directive with syntax highlighting
+by <a class="reference external" href="http://pygments.org/">Pygments</a>.</p></li>
+<li><p>“code” option of the “include” directive.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Fix [ 3402314 ] allow non-ASCII whitespace, punctuation
+characters and “international” quotes around inline markup.</p></li>
+<li><p>Fix handling of missing stylesheets.</p></li>
+</ul>
+</li>
+<li><p>setup.py</p>
+<ul class="simple">
+<li><p>Fix [ 2971827 ] and [ 3442827 ]
+extras/roman.py moved to docutils/utils/roman.py</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py -&gt; docutils/utils/__init__.py</p>
+<ul class="simple">
+<li><p>docutils.utils is now a package (providing a place for sub-modules)</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul class="simple">
+<li><p>change default for <cite>math-output</cite> setting to MathJax</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul class="simple">
+<li><p>Support the <cite>abbreviation</cite> and <cite>acronym</cite> standard roles.</p></li>
+<li><p>Record only files required to generate the LaTeX source as dependencies.</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">\setcounter{secnumdepth}{0}</span></code> instead of <code class="docutils literal notranslate"><span class="pre">*</span></code>-versions
+when suppressing LaTeX section numbering.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-8-1-2011-08-30">
+<h2><a class="toc-backref" href="#id48">Release 0.8.1 (2011-08-30)</a><a class="headerlink" href="#release-0-8-1-2011-08-30" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>Fix [ 3364658 ] (Change last file with Apache license to BSD-2-Clause)
+and [ 3395920 ] (correct copyright info for rst.el).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Clean up Babel language setting. Restores Sphinx compatibility.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-8-2011-07-07">
+<h2><a class="toc-backref" href="#id49">Release 0.8 (2011-07-07)</a><a class="headerlink" href="#release-0-8-2011-07-07" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>COPYING:</p>
+<ul class="simple">
+<li><p>Some additions to the Docutils core are released under the 2-Clause BSD
+license.</p></li>
+</ul>
+</li>
+<li><p>General:</p>
+<ul class="simple">
+<li><p>Handle language codes according to <a class="reference external" href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</p></li>
+<li><p>If the specified langauage is not supported by Docutils,
+warn and fall back to English.</p></li>
+<li><p>Math support: reStructuredText “math” role and directive,
+<code class="docutils literal notranslate"><span class="pre">math</span></code> and <code class="docutils literal notranslate"><span class="pre">math_block</span></code> doctree elements.</p></li>
+<li><p>Orphaned “python” reader and “newlatex2e” writer moved to the sandbox.</p></li>
+</ul>
+</li>
+<li><p>reStructuredText:</p>
+<ul>
+<li><p>most directives now support a “name” option that attaches a
+reference name. So you can write</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">figure</span><span class="p">::</span> <span class="n">image</span><span class="o">.</span><span class="n">png</span>
+   <span class="p">:</span><span class="n">name</span><span class="p">:</span> <span class="n">figure</span> <span class="n">name</span>
+</pre></div>
+</div>
+<p>as a short form of</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">_figure</span> <span class="n">name</span><span class="p">:</span>
+
+<span class="o">..</span> <span class="n">figure</span><span class="p">::</span> <span class="n">image</span><span class="o">.</span><span class="n">png</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<p>Internationalization:</p>
+<ul class="simple">
+<li><p>Added lithuanian mappings.</p></li>
+</ul>
+<p>Components:</p>
+<ul>
+<li><p>HTML writer:</p>
+<ul class="simple">
+<li><p>New setting “math-output” with support for HTML, MathML, and LaTeX.</p></li>
+</ul>
+</li>
+<li><p>LaTeX2e writer:</p>
+<ul class="simple">
+<li><p>Convert image URI to a local file path.</p></li>
+<li><p>Apply [ 3148141 ] fix multicolumn support when a colspanning cell
+has more than one paragraph (Wolfgang Scherer).</p></li>
+</ul>
+</li>
+<li><p>XeTeX writer:</p>
+<ul>
+<li><p>New writer generating LaTeX code for compiling with <code class="docutils literal notranslate"><span class="pre">xelatex</span></code>.</p>
+<p>XeTeX uses unicode and modern font technologies.</p>
+</li>
+</ul>
+</li>
+<li><p>and fixes and enhancements here and there.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-7-2010-07-07">
+<h2><a class="toc-backref" href="#id50">Release 0.7 (2010-07-07)</a><a class="headerlink" href="#release-0-7-2010-07-07" title="永久链接至标题">¶</a></h2>
+<p>Components:</p>
+<ul class="simple">
+<li><p>HTML writer:</p>
+<ul>
+<li><p>Support SVG and SWF images (thanks to Stefan Rank).</p></li>
+<li><p>Generate valid XHTML for centered images with targets.
+Use CSS classes instead of “align” tags for image alignment.</p></li>
+</ul>
+</li>
+<li><p>LaTeX2e writer:</p>
+<ul>
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">\url</span></code> command for URLs (breaks long URLs instead of writing
+into the margin).</p></li>
+<li><p>Preserve runs of spaces in ‘inline literals’.</p></li>
+<li><p>Deprecate <code class="docutils literal notranslate"><span class="pre">figure_footnotes</span></code> setting.</p></li>
+<li><p>Rename <code class="docutils literal notranslate"><span class="pre">use_latex_footnotes</span></code> setting to <a class="reference external" href="docs/user/config.html#docutils-footnotes">docutils_footnotes</a>.</p></li>
+<li><p>New <code class="docutils literal notranslate"><span class="pre">latex_preamble</span></code> setting.</p></li>
+<li><p>Use PDF standard fonts (Times/Helvetica/Courier) as default.</p></li>
+<li><p><cite>hyperref</cite> package called with <code class="docutils literal notranslate"><span class="pre">unicode</span></code> option (see the
+<a class="reference external" href="docs/user/latex.html#hyperlinks">hyperref config tips</a> for how to override).</p></li>
+<li><p>Drop the special <a class="reference external" href="docs/user/latex.html#output-encoding">output_encoding</a> default (“latin-1”).
+The Docutils wide default (usually “UTF-8”) is used instead.</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>manpage writer:</p>
+<ul>
+<li><p>Titles level 1, that is <code class="docutils literal notranslate"><span class="pre">.SH</span></code>, always uppercase.</p></li>
+<li><p>Apply patch from mg: literal text should be bold in man-pages.</p></li>
+</ul>
+</li>
+</ul>
+<p>General:</p>
+<ul class="simple">
+<li><p>io.FileInput opens files as text files with universal newline support
+(mode “rU”, configurable with the new optional argument “mode”).</p></li>
+<li><p>setup.py:</p>
+<ul>
+<li><p>Python 3 support: copy test/ and tools/ to the build-dir
+and convert Python sources with 2to3.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-6-2009-10-11">
+<h2><a class="toc-backref" href="#id51">Release 0.6 (2009-10-11)</a><a class="headerlink" href="#release-0-6-2009-10-11" title="永久链接至标题">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>Docutils 0.5 is the last version supporting Python 2.2.</p>
+<p>Docutils 0.6 is compatible with Python versions from 2.3 up to 2.6
+and convertible to 3.1 code.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>The “newlatex” writer is orphaned.</p>
+<p>The recommended way to generate PDF output is to use either the
+LaTeX2e writer or one of the alternatives listed at
+<a class="reference external" href="http://docutils.sourceforge.net/docs/user/links.html#pdf">http://docutils.sourceforge.net/docs/user/links.html#pdf</a>.</p>
+</div>
+<ul class="simple">
+<li><p>reStructuredText:</p>
+<ul>
+<li><p>Allow length units for all length specifications.</p></li>
+<li><p>Allow percent sign in “scale” argument of “figure” and “image” directives.</p></li>
+<li><p>Bugfix: The “figalign” argument of a figure now works as intended
+(aligning the figure not its contents).</p></li>
+<li><p>Align images with class “align-[right|center|left]”
+(allows setting the alignment of an image in a figure).</p></li>
+<li><p>Hard tabs in literal inclusions are replaced by spaces. This is
+configurable via the new “tab-width” option of the “include” directive
+(a negative tab-width prevents tab expansion).</p></li>
+</ul>
+</li>
+<li><p>HTML writer:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">--stylesheet</span></code> and <code class="docutils literal notranslate"><span class="pre">--stylesheet-path</span></code> options now support a comma
+separated list of stylesheets.</p></li>
+</ul>
+</li>
+<li><p>LaTeX2e writer:</p>
+<ul>
+<li><p>New defaults:
+- font-encoding: “T1” (formerly implicitely set by ‘ae’).
+- use-latex-toc: true (ToC with page numbers).
+- use-latex-footnotes: true (no mixup with figures).
+- Float placement defaults to “here definitely” (configurable).
+- Align of image in a figure defaults to ‘center’.
+- Use class defaults for page margins (‘typearea’ now optional).</p></li>
+<li><p>Support LaTeX packages as <code class="docutils literal notranslate"><span class="pre">--stylesheet</span></code> arguments.</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">bp</span></code> for lengths without unit or unit <code class="docutils literal notranslate"><span class="pre">pt</span></code>,
+do not convert <code class="docutils literal notranslate"><span class="pre">px</span></code> to <code class="docutils literal notranslate"><span class="pre">pt</span></code>.</p></li>
+<li><p>Do not use ‘ae’ and ‘aeguill’ packages if font-encoding is set to ‘’.</p></li>
+<li><p>Set sub- and superscript role argument as text not math.</p></li>
+<li><p>Support custom roles based on standard roles.</p></li>
+<li><p>Load packages and define macros only if required in the document.</p></li>
+<li><p>All Docutils specific LaTeX macros are prefixed with <code class="docutils literal notranslate"><span class="pre">DU</span></code>.</p></li>
+<li><p>Better conformance to Docutils specifications with “use_latex_toc”.</p></li>
+<li><p>If ‘sectnum_xform’ is False, the ‘sectnum’ directive triggers
+section numbering by LaTeX.</p></li>
+<li><p>Use default font in admonitions and sidebar.</p></li>
+<li><p>Typeset generic topic as “quote with title”.</p></li>
+<li><p>Use template (file and configuration option).</p></li>
+<li><p>Render doctest blocks as literal blocks (indented).</p></li>
+</ul>
+</li>
+<li><p>ODT writer:</p>
+<ul>
+<li><p>moved from sandbox to Doctutils core.</p></li>
+</ul>
+</li>
+<li><p>manpage writer:</p>
+<ul>
+<li><p>moved from sandbox to Doctutils core.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-5-2008-06-25">
+<h2><a class="toc-backref" href="#id52">Release 0.5 (2008-06-25)</a><a class="headerlink" href="#release-0-5-2008-06-25" title="永久链接至标题">¶</a></h2>
+<p>Components:</p>
+<ul class="simple">
+<li><p>HTML writer.</p>
+<ul>
+<li><p>Dropped all <code class="docutils literal notranslate"><span class="pre">name</span></code> attributes of <code class="docutils literal notranslate"><span class="pre">a</span></code> elements (<code class="docutils literal notranslate"><span class="pre">id</span></code> is
+universally supported now).</p></li>
+</ul>
+</li>
+<li><p>LaTeX2e writer:</p>
+<ul>
+<li><p>Better bibTeX citation support.</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">--literal-block-env</span></code></p></li>
+</ul>
+</li>
+<li><p>PEP writer:</p>
+<ul>
+<li><p>Changed to support new python.org website structure and
+pep2pyramid.py.</p></li>
+</ul>
+</li>
+</ul>
+<p>reStructuredText:</p>
+<ul class="simple">
+<li><p>Changed the directive API to a new object-oriented system.
+(Compatibility for the old, functional-style directive interface is
+retained.)  See the updated <a class="reference external" href="docs/howto/rst-directives.html">Creating reStructuredText Directives</a>
+how-to.</p>
+</li>
+<li><p>Allow <code class="docutils literal notranslate"><span class="pre">+</span></code> and <code class="docutils literal notranslate"><span class="pre">:</span></code> in reference names requested for citations.</p></li>
+</ul>
+<p>Documentation:</p>
+<ul class="simple">
+<li><p>Added <a class="reference external" href="docs/howto/security.txt">Deploying Docutils Securely</a></p>
+</li>
+</ul>
+<p>Internationalization:</p>
+<ul class="simple">
+<li><p>Added hebrew mappings.</p></li>
+</ul>
+<p>General:</p>
+<ul class="simple">
+<li><p>Configuration files are now assumed and required to be
+UTF-8-encoded.</p></li>
+<li><p>Added docutils/writers/html4css1/template.txt.</p></li>
+<li><p>Enhance emacs support.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-4-2006-01-09">
+<h2><a class="toc-backref" href="#id53">Release 0.4 (2006-01-09)</a><a class="headerlink" href="#release-0-4-2006-01-09" title="永久链接至标题">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>Docutils 0.4.x is the last version that will support Python 2.1.
+Docutils 0.5 will <em>not</em> be compatible with Python 2.1; Python 2.2
+or later will be required.</p>
+<p>Docutils 0.4.x is the last version that will make compromises in
+its HTML output for Netscape Navigator 4.  Docutils 0.5 will
+require more up-to-date browsers (the exact definition is to be
+determined).</p>
+</div>
+<p>Components:</p>
+<ul class="simple">
+<li><p>Added an <a class="reference external" href="docs/user/slide-shows.html">S5/HTML writer</a> and the <a class="reference external" href="docs/user/tools.html#rst2s5-py">rst2s5.py</a> front end:
+multi-platform, multi-browser HTML slide shows.</p>
+</li>
+<li><p>The newlatex2e writer is nearing completion.</p></li>
+<li><p>Added a DocTree reader, <code class="docutils literal notranslate"><span class="pre">publish_doctree</span></code> and
+<code class="docutils literal notranslate"><span class="pre">publish_from_doctree</span></code> convenience functions, for document tree
+extraction and reprocessing.</p></li>
+</ul>
+<p>reStructuredText:</p>
+<ul class="simple">
+<li><p>Added directives: “<a class="reference external" href="docs/ref/rst/directives.html#container">container</a>” (generic block-level container),
+“<a class="reference external" href="docs/ref/rst/directives.html#default-role">default-role</a>” (role used for `backtick` syntax), “<a class="reference external" href="docs/ref/rst/directives.html#title">title</a>”
+(document title metadata), and “<a class="reference external" href="docs/ref/rst/directives.html#date">date</a>” (generate the current local
+date, for substitution definitions).</p>
+</li>
+<li><p>Length units are now supported for <a class="reference external" href="docs/ref/rst/directives.html#image">image</a> sizes.</p>
+</li>
+<li><p>Added <a class="reference external" href="docs/ref/rst/definitions.html">standard definition files</a> for special characters etc.</p>
+</li>
+</ul>
+<p>Internationalization:</p>
+<ul class="simple">
+<li><p>Added Japanese and Simplified Chinese language mappings, and support
+for double-width CJK-characters in tables and section titles.</p></li>
+</ul>
+<p>Documentation:</p>
+<ul class="simple">
+<li><p>Added a <a class="reference external" href="docs/dev/distributing.html">guide for distributors</a> (package maintainers) and a
+<a class="reference external" href="docs/dev/hacking.html">guide for developers</a>.</p>
+</li>
+</ul>
+<p>General:</p>
+<ul class="simple">
+<li><p>Added significant <a class="reference external" href="docs/user/emacs.html">Emacs support for reST</a>.</p>
+</li>
+<li><p>Added a <a class="reference external" href="docs/user/config.html#strip-comments">–strip-comments</a> option.</p>
+</li>
+<li><p><a class="reference external" href="docs/user/config.html#embed-stylesheet">–embed-stylesheet</a> is now the default for the HTML writer
+(rather than –link-stylesheet).</p>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-3-9-2005-05-26">
+<h2><a class="toc-backref" href="#id54">Release 0.3.9 (2005-05-26)</a><a class="headerlink" href="#release-0-3-9-2005-05-26" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added “<a class="reference external" href="docs/user/config.html#file-insertion-enabled">file_insertion_enabled</a>” and “<a class="reference external" href="docs/user/config.html#raw-enabled">raw_enabled</a>” settings.</p>
+</li>
+<li><p>Added <a class="reference external" href="docs/ref/rst/restructuredtext.html#enumerated-lists">auto-enumerated lists</a>.</p>
+</li>
+<li><p>Added <a class="reference external" href="docs/ref/rst/directives.html#document-header-footer">“header” and “footer”</a> directives.</p>
+</li>
+<li><p>Added “<a class="reference external" href="docs/ref/rst/directives.html#list-table">list-table</a>” directive.</p>
+</li>
+<li><p>Added support for <a class="reference external" href="docs/user/config.html#sectsubtitle-xform">section subtitles</a>.</p>
+</li>
+<li><p>Added “<a class="reference external" href="docs/user/config.html#field-name-limit">field_name_limit</a>” and “<a class="reference external" href="docs/user/config.html#option-limit">option_limit</a>” settings to HTML writer.</p>
+</li>
+<li><p>Added “<a class="reference external" href="docs/user/config.html#cloak-email-addresses">cloak_email_addresses</a>” setting to HTML writer.</p>
+</li>
+<li><p>UTF-8 BOMs are now removed from the input stream.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-3-7-2004-12-24">
+<h2><a class="toc-backref" href="#id55">Release 0.3.7 (2004-12-24)</a><a class="headerlink" href="#release-0-3-7-2004-12-24" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>A special “<a class="reference external" href="docs/ref/rst/restructuredtext.html#line-blocks">line block</a>” syntax has been added.  (Also see the
+<a class="reference external" href="docs/user/rst/quickref.html#line-blocks">quick reference</a>.)</p>
+</li>
+<li><p>Empty sections are now allowed.</p></li>
+<li><p>A “<a class="reference external" href="docs/ref/rst/roles.html#raw">raw</a>” role has been added.</p>
+</li>
+<li><p>The LaTeX writer now escapes consecutive dashes (like “–” or “—”)
+so that they are no longer transformed by LaTeX to en or em dashes.
+(Please see the <a class="reference external" href="FAQ.html#how-can-i-represent-esoteric-characters-e-g-character-entities-in-a-document">FAQ</a> for how to represent such dashes.)</p>
+</li>
+<li><p>A <a class="reference external" href="docs/user/config.html#record-dependencies">dependency recorder</a> has been added.</p>
+</li>
+<li><p>A directive has been added for <a class="reference external" href="docs/ref/rst/directives.html#compound-paragraph">compound paragraphs</a>.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-3-5-2004-07-29">
+<h2><a class="toc-backref" href="#id56">Release 0.3.5 (2004-07-29)</a><a class="headerlink" href="#release-0-3-5-2004-07-29" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Improved, extended and reorganized the <a class="reference external" href="docs/index.html">documentation</a>.</p>
+</li>
+<li><p>Added “<a class="reference external" href="docs/ref/rst/directives.html#csv-table">csv-table</a>” directive.</p>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="HISTORY.html" class="btn btn-neutral float-right" title="Docutils历史" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="FAQ.html" class="btn btn-neutral float-left" title="1 Docutils FAQ (Frequently Asked Questions)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

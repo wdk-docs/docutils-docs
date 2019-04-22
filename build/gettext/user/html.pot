@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 21:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/user/html.rst:3
+msgid "Docutils HTML writers"
+msgstr ""
+
+#: ../../source/user/html.rst:5
+msgid "目录"
+msgstr ""
+
+#: ../../source/user/html.rst:8
+msgid "html"
+msgstr ""
+
+#: ../../source/user/html.rst:10
+msgid "`html` is an alias for the default Docutils HTML writer. Currently, `html` is mapped to html4css1_."
+msgstr ""
+
+#: ../../source/user/html.rst:13
+msgid "The target may change with the development of HTML, browsers, Docutils, and the web."
+msgstr ""
+
+#: ../../source/user/html.rst:16
+msgid "Use ``get_writer_by_name('html')`` or the rst2html.py_ front end, if you want the output to be up-to-date automatically."
+msgstr ""
+
+#: ../../source/user/html.rst:19
+msgid "Use a specific writer name or front end, if you depend on stability of the generated HTML code, e.g. because you use a custom style sheet or post-processing that may break otherwise."
+msgstr ""
+
+#: ../../source/user/html.rst:25
+msgid "html4css1"
+msgstr ""
+
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+msgid "aliases"
+msgstr ""
+
+#: ../../source/user/html.rst:27
+#: ../../source/user/html.rst:170
+msgid "html4, html_"
+msgstr ""
+
+#: ../../source/user/html.rst:0
+msgid "front-ends"
+msgstr ""
+
+#: ../../source/user/html.rst:28
+msgid "rst2html4.py, rst2html.py_"
+msgstr ""
+
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+msgid "config"
+msgstr ""
+
+#: ../../source/user/html.rst:29
+msgid "`[html4css1 writer]`_"
+msgstr ""
+
+#: ../../source/user/html.rst:31
+msgid "The HTML Writer module, ``docutils/writers/html4css1.py``, was the first Docutils writer and up to release 0.13 the only official HTML writer."
+msgstr ""
+
+#: ../../source/user/html.rst:34
+msgid "The output conforms to the `XHTML聽1 Transitional`_ specification. It does not validate as `HTML聽4.01聽Transitional`_ due to the closing of empty tags required in XML but not allowed in HTML聽4. However, the output follows the `HTML Compatibility Guidelines`_ for proper rendering on most HTML user agents."
+msgstr ""
+
+#: ../../source/user/html.rst:40
+msgid "Correct rendering depends on a CSS_ style sheet. A reference style sheet, `html4css1.css`_, is provided and used by default."
+msgstr ""
+
+#: ../../source/user/html.rst:43
+msgid "To support the `Internet Explorer` (with a market share of about 90% around 2002, the time this writer was written), documents contain some hard-coded formatting hints and are tagged as \"text/html\" (instead of \"application/xhtml+xml\"). [#IE]_"
+msgstr ""
+
+#: ../../source/user/html.rst:48
+msgid "Conformance to `CSS 2.1`_ has been added in IE聽8 (2009), support for XHTML in IE聽9 (2011)."
+msgstr ""
+
+#: ../../source/user/html.rst:56
+msgid "pep_html"
+msgstr ""
+
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+#: ../../source/user/html.rst:0
+msgid "front-end"
+msgstr ""
+
+#: ../../source/user/html.rst:58
+msgid "rstpep2html.py_"
+msgstr ""
+
+#: ../../source/user/html.rst:59
+msgid "`[pep_html writer]`_"
+msgstr ""
+
+#: ../../source/user/html.rst:61
+msgid "This is a special writer for the generation of `Python Enhancement Proposals`_ (PEPs). It inherits from html4css1_ and adds some `PEP-specific options`_, a style sheet and template. The front-end uses also a specialised reader."
+msgstr ""
+
+#: ../../source/user/html.rst:72
+msgid "s5_html"
+msgstr ""
+
+#: ../../source/user/html.rst:0
+msgid "alias"
+msgstr ""
+
+#: ../../source/user/html.rst:74
+#: ../../source/user/html.rst:176
+msgid "s5"
+msgstr ""
+
+#: ../../source/user/html.rst:75
+msgid "rst2s5.py_"
+msgstr ""
+
+#: ../../source/user/html.rst:76
+msgid "`[s5_html writer]`_"
+msgstr ""
+
+#: ../../source/user/html.rst:78
+msgid "The `s5` writer inherits from html4css1_. It produces XHTML for use with S5_, the 鈥淪imple Standards-based Slide Show System鈥� by Eric Meyer.  See `Easy Slide Shows With reST & S5`_ for details."
+msgstr ""
+
+#: ../../source/user/html.rst:90
+msgid "html5_polyglot"
+msgstr ""
+
+#: ../../source/user/html.rst:92
+#: ../../source/user/html.rst:179
+msgid "html5"
+msgstr ""
+
+#: ../../source/user/html.rst:93
+msgid "rst2html5.py_"
+msgstr ""
+
+#: ../../source/user/html.rst:94
+msgid "`[html5 writer]`_"
+msgstr ""
+
+#: ../../source/user/html.rst:96
+msgid "The ``html5_polyglot`` writer generates `polyglot HTML`_ [#]_ output, valid XML [#safetext]_ that is compatible with `HTML5`_. New features and elements will only be used if they are widely supported to make documents `viewable with any browser`_."
+msgstr ""
+
+#: ../../source/user/html.rst:101
+msgid "There is no hard-coded formatting information in the HTML document. Correct rendering of elements not directly supported by HTML depends on a CSS_ style sheet. The provided style sheets minimal.css_ and plain.css_ define required and optional styling rules respectively. Adaption of the layout is possible with `custom style sheets`_. [#safetext]_"
+msgstr ""
+
+#: ../../source/user/html.rst:107
+msgid "New in Docutils 0.13"
+msgstr ""
+
+#: ../../source/user/html.rst:109
+msgid "see also `Benefits of polyglot XHTML5`_"
+msgstr ""
+
+#: ../../source/user/html.rst:110
+msgid "The validity of raw HTML and custom stylesheets must be ensured by the author (e.g. using `safe text content`_)."
+msgstr ""
+
+#: ../../source/user/html.rst:125
+msgid "HTML writers in the sandbox"
+msgstr ""
+
+#: ../../source/user/html.rst:127
+msgid "There are two more HTML writers in the sandbox_:"
+msgstr ""
+
+#: ../../source/user/html.rst:132
+msgid "xhtml11"
+msgstr ""
+
+#: ../../source/user/html.rst:133
+#: ../../source/user/html.rst:181
+msgid "xhtml, html4strict"
+msgstr ""
+
+#: ../../source/user/html.rst:134
+#: ../../source/user/html.rst:181
+msgid "rst2xhtml.py"
+msgstr ""
+
+#: ../../source/user/html.rst:135
+msgid "`[xhtml11 writer]`"
+msgstr ""
+
+#: ../../source/user/html.rst:137
+msgid "`XHTML 1.1`_ is the latest version of the XML based `extensible Hypertext Markup Language` with an official DTD."
+msgstr ""
+
+#: ../../source/user/html.rst:140
+msgid "The `xhtml11 writer`_ lives in the Docutils sandbox_ since 2008. The output conforms to the strict requirements of `XHTML聽1.1`_."
+msgstr ""
+
+#: ../../source/user/html.rst:147
+msgid "html4trans"
+msgstr ""
+
+#: ../../source/user/html.rst:149
+msgid "rst2html_trans.py_"
+msgstr ""
+
+#: ../../source/user/html.rst:151
+msgid "The `HTML writer for lightweight browsers`_ lives in the Docutils sandbox (`sandbox/html4trans`_) since 2008. It removes the dependency on CSS. The output conforms to `XHTML聽1 Transitional`_ and contains sufficient formatting information for rendering without style sheet. (Of course, this has some drawbacks_.)"
+msgstr ""
+
+#: ../../source/user/html.rst:165
+msgid "Overview"
+msgstr ""
+
+#: ../../source/user/html.rst:168
+msgid "name"
+msgstr ""
+
+#: ../../source/user/html.rst:168
+msgid "alias(es)"
+msgstr ""
+
+#: ../../source/user/html.rst:168
+msgid "`front-end`_"
+msgstr ""
+
+#: ../../source/user/html.rst:168
+msgid "HTML version"
+msgstr ""
+
+#: ../../source/user/html.rst:168
+msgid "CSS version"
+msgstr ""
+
+#: ../../source/user/html.rst:170
+msgid "html4css1_"
+msgstr ""
+
+#: ../../source/user/html.rst:170
+msgid "rst2html4.py, rst2html.py"
+msgstr ""
+
+#: ../../source/user/html.rst:170
+#: ../../source/user/html.rst:173
+#: ../../source/user/html.rst:176
+#: ../../source/user/html.rst:184
+msgid "`XHTML聽1 Transitional`_"
+msgstr ""
+
+#: ../../source/user/html.rst:170
+#: ../../source/user/html.rst:173
+#: ../../source/user/html.rst:176
+msgid "`CSS聽1`_"
+msgstr ""
+
+#: ../../source/user/html.rst:173
+msgid "pep_html_"
+msgstr ""
+
+#: ../../source/user/html.rst:173
+msgid "rstpep2html.py"
+msgstr ""
+
+#: ../../source/user/html.rst:176
+msgid "s5_html_"
+msgstr ""
+
+#: ../../source/user/html.rst:176
+msgid "rst2s5.py"
+msgstr ""
+
+#: ../../source/user/html.rst:179
+msgid "html5_polyglot_"
+msgstr ""
+
+#: ../../source/user/html.rst:179
+msgid "rst2html5.py"
+msgstr ""
+
+#: ../../source/user/html.rst:179
+msgid "`HTML5`_"
+msgstr ""
+
+#: ../../source/user/html.rst:179
+#: ../../source/user/html.rst:181
+msgid "`CSS 3`_"
+msgstr ""
+
+#: ../../source/user/html.rst:181
+msgid "xhtml11_"
+msgstr ""
+
+#: ../../source/user/html.rst:181
+msgid "`XHTML聽1.1`_"
+msgstr ""
+
+#: ../../source/user/html.rst:184
+msgid "html4trans_ .."
+msgstr ""
+
+#: ../../source/user/html.rst:184
+msgid "rst2html_trans"
+msgstr ""
+
+#: ../../source/user/html.rst:184
+msgid "no CSS"
+msgstr ""
+
+#: ../../source/user/html.rst:185
+msgid "required"
+msgstr ""
+
+#: ../../source/user/html.rst:190
+msgid "References"
+msgstr ""
+
+#: ../../source/user/html.rst:195
+msgid "_`HTML5`"
+msgstr ""
+
+#: ../../source/user/html.rst:193
+msgid "`HTML5, A vocabulary and associated APIs for HTML and XHTML`, W3C Recommendation, 28聽October 2014. http://www.w3.org/TR/html5/"
+msgstr ""
+
+#: ../../source/user/html.rst:200
+msgid "_`XHTML聽1.1`"
+msgstr ""
+
+#: ../../source/user/html.rst:198
+msgid "`XHTML鈩� 1.1 - Module-based XHTML - Second Edition`, W3C Recommendation, 23聽November 2010. http://www.w3.org/TR/xhtml11/"
+msgstr ""
+
+#: ../../source/user/html.rst:207
+msgid "_`XHTML 1 Transitional`"
+msgstr ""
+
+#: ../../source/user/html.rst:203
+msgid "`Transitional version`_ of: `XHTML鈩� 1.0 The Extensible HyperText Markup Language (Second Edition)`, `A Reformulation of HTML 4 in XML 1.0`, W3C Recommendation, 26 January 2000, revised 1 August 2002. http://www.w3.org/TR/xhtml1/"
+msgstr ""
+
+#: ../../source/user/html.rst:212
+msgid "_`XHTML Basic`"
+msgstr ""
+
+#: ../../source/user/html.rst:210
+msgid "`XHTML鈩� Basic 1.1 - Second Edition`, W3C Recommendation, 23 November 2010. http://www.w3.org/TR/xhtml-basic/"
+msgstr ""
+
+#: ../../source/user/html.rst:220
+msgid "_`HTML聽4.01 Transitional`"
+msgstr ""
+
+#: ../../source/user/html.rst:218
+msgid "Transitional version of: `HTML 4.01 Specification`, W3C Recommendation 24 December 1999. http://www.w3.org/TR/html4/"
+msgstr ""
+
+#: ../../source/user/html.rst:226
+msgid "_`CSS Level 1`:"
+msgstr ""
+
+#: ../../source/user/html.rst:225
+msgid "The features defined in the `CSS1 specification`_, but using the syntax and definitions in the `CSS聽2.1`_ specification."
+msgstr ""
+
+#: ../../source/user/html.rst:230
+msgid "_`CSS 2.1` `Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification`,"
+msgstr ""
+
+#: ../../source/user/html.rst:229
+msgid "W3C Recommendation 07 June 2011. http://www.w3.org/TR/CSS21/"
+msgstr ""
+
+#: ../../source/user/html.rst:238
+msgid "_`CSS 3`:"
+msgstr ""
+
+#: ../../source/user/html.rst:233
+msgid "CSS Level 3 builds on CSS Level 2 module by module, using the CSS2.1 specification as its core."
+msgstr ""
+
+#: ../../source/user/html.rst:236
+msgid "Specifications: http://www.w3.org/Style/CSS/specs.en.html"
+msgstr ""
+
+#: ../../source/user/html.rst:238
+msgid "Validator: http://jigsaw.w3.org/css-validator/"
+msgstr ""
+

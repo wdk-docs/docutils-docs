@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/dev/website.rst:3
+msgid "Docutils Web Site"
+msgstr ""
+
+#: ../../source/dev/website.rst:0
+msgid "Author"
+msgstr ""
+
+#: ../../source/dev/website.rst:5
+msgid "David Goodger; open to all Docutils developers"
+msgstr ""
+
+#: ../../source/dev/website.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/dev/website.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/dev/website.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/dev/website.rst:7
+msgid "$Date: 2017-07-05 16:33:33 +0200 (Mi, 05. Jul 2017) $"
+msgstr ""
+
+#: ../../source/dev/website.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/dev/website.rst:8
+msgid "$Revision: 8133 $"
+msgstr ""
+
+#: ../../source/dev/website.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/dev/website.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/dev/website.rst:11
+msgid "The Docutils web site, <http://docutils.sourceforge.net/>, is maintained by the ``docutils-update.local`` script, run by project maintainers on their local machines.  The script will process any .txt file which is newer than the corresponding .html file in the local copy of the project's web directory and upload the changes to the web site at SourceForge."
+msgstr ""
+
+#: ../../source/dev/website.rst:28
+msgid "Please **do not** add any generated .html files to the Docutils repository.  They will be generated automatically after a one-time setup (`described below`__)."
+msgstr ""
+
+#: ../../source/dev/website.rst:34
+msgid "The docutils-update.local__ script is located at ``sandbox/infrastructure/docutils-update.local``."
+msgstr ""
+
+#: ../../source/dev/website.rst:39
+msgid "If you want to share files via the web, you can upload them using the uploaddocutils.sh__ script (``sandbox/infrastructure/uploaddocutils.sh``)."
+msgstr ""
+
+#: ../../source/dev/website.rst:47
+msgid "Setting Up"
+msgstr ""
+
+#: ../../source/dev/website.rst:49
+msgid "(TBA)"
+msgstr ""
+
+#: ../../source/dev/website.rst:52
+msgid "Anyone with checkin privileges can be a web-site maintainer. You need to set up the directories for a local website build."
+msgstr ""
+
+#: ../../source/dev/website.rst:55
+msgid "The procedure for that was on the docutils-devel list a while ago."
+msgstr ""
+
+#: ../../source/dev/website.rst:59
+msgid "Adding .txt Files"
+msgstr ""
+
+#: ../../source/dev/website.rst:62
+msgid "User/Contributor"
+msgstr ""
+
+#: ../../source/dev/website.rst:64
+msgid "When adding a new .txt file that should be converted to HTML:"
+msgstr ""
+
+#: ../../source/dev/website.rst:66
+msgid "Edit sandbox/infrastructure/htmlfiles.lst, and add the .html file corresponding to the new .txt file (please keep the sorted order)."
+msgstr ""
+
+#: ../../source/dev/website.rst:69
+msgid "Commit the edited version to the SVN repository."
+msgstr ""
+
+#: ../../source/dev/website.rst:72
+msgid "Maintainer"
+msgstr ""
+
+#: ../../source/dev/website.rst:74
+msgid "If there are new directories in the SVN, allow the update script to run once to create the directories in the filesystem before preparing for HTML processing."
+msgstr ""
+
+#: ../../source/dev/website.rst:78
+msgid "Run the sandbox/infrastructure/update-htmlfiles shell script to generate .html files::"
+msgstr ""
+
+#: ../../source/dev/website.rst:85
+msgid "(Maybe this should become part of docutils-update.local.)"
+msgstr ""
+
+#: ../../source/dev/website.rst:89
+msgid "Removing Files & Directories"
+msgstr ""
+
+#: ../../source/dev/website.rst:91
+msgid "Remove from SVN"
+msgstr ""
+
+#: ../../source/dev/website.rst:93
+msgid "Remove to-be-generated HTML files from ``sandbox/infrastructure/htmlfiles.lst``."
+msgstr ""
+
+#: ../../source/dev/website.rst:96
+msgid "Removing files and directories from SVN will not trigger their removal from the web site.  Files and directories must be manually removed from sourceforge.net (under ``/home/project-web/docutils/htdocs/``)."
+msgstr ""
+

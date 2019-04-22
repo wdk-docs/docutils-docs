@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/dev/release.rst:3
+msgid "Docutils_ Release Procedure"
+msgstr ""
+
+#: ../../source/dev/release.rst:0
+msgid "Authors"
+msgstr ""
+
+#: ../../source/dev/release.rst:5
+msgid "David Goodger; Lea Wiemann; open to all Docutils developers"
+msgstr ""
+
+#: ../../source/dev/release.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/dev/release.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/dev/release.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/dev/release.rst:7
+msgid "$Date: 2017-09-08 18:09:13 +0200 (Fr, 08. Sep 2017) $"
+msgstr ""
+
+#: ../../source/dev/release.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/dev/release.rst:8
+msgid "$Revision: 8177 $"
+msgstr ""
+
+#: ../../source/dev/release.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/dev/release.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/dev/release.rst:14
+msgid "Assumptions and their failure"
+msgstr ""
+
+#: ../../source/dev/release.rst:16
+msgid "On the test machine python 2.6, 2.7 and 3.2, 3.3, and 3.4 are installed. Some in /usr/ some under /usr/local."
+msgstr ""
+
+#: ../../source/dev/release.rst:20
+msgid "Assumption: If python2.6 is in /usr/bin/ then site-packages is under /usr/local/lib/python2.6."
+msgstr ""
+
+#: ../../source/dev/release.rst:23
+msgid "On new ubuntu 12.10"
+msgstr ""
+
+#: ../../source/dev/release.rst:25
+msgid "python2.7 is here /usr/bin/python2.7."
+msgstr ""
+
+#: ../../source/dev/release.rst:26
+msgid "in /usr/lib are python2.7, pymodules and pyshared."
+msgstr ""
+
+#: ../../source/dev/release.rst:28
+msgid "in /usr/lib/python2.7 no site-packages directory even after installation of docutils"
+msgstr ""
+
+#: ../../source/dev/release.rst:31
+msgid "in /usr/local/lib/python2.7 are dist-packages  site-packages."
+msgstr ""
+
+#: ../../source/dev/release.rst:33
+msgid "site-packages is empty."
+msgstr ""
+
+#: ../../source/dev/release.rst:35
+msgid "docutils is installed under dist-packages."
+msgstr ""
+
+#: ../../source/dev/release.rst:37
+msgid "pymodules has a python2.7 directory."
+msgstr ""
+
+#: ../../source/dev/release.rst:40
+msgid "Releasing"
+msgstr ""
+
+#: ../../source/dev/release.rst:43
+msgid "Version identifier"
+msgstr ""
+
+#: ../../source/dev/release.rst:45
+msgid "For details, see `Version Numbering in Docutils Project Policies`__."
+msgstr ""
+
+#: ../../source/dev/release.rst:51
+msgid "How to change the version identifier"
+msgstr ""
+
+#: ../../source/dev/release.rst:53
+msgid "The *version identifier* ``docutils.__version__`` is defined in ``docutils/docutils/__init__.py`` and used in in the following files::"
+msgstr ""
+
+#: ../../source/dev/release.rst:61
+msgid "You can use the script ``set_release.sh`` to change the version identifier:"
+msgstr ""
+
+#: ../../source/dev/release.rst:64
+msgid "``cd`` to the \"docutils\" subdirectory in the repository checkout,"
+msgstr ""
+
+#: ../../source/dev/release.rst:66
+msgid "call ::"
+msgstr ""
+
+#: ../../source/dev/release.rst:70
+msgid "where ``<new_version>`` is major.minor[.micro][<pre>][.dev]."
+msgstr ""
+
+#: ../../source/dev/release.rst:72
+msgid "This also changes ``__version_info__`` in ``docutils/docutils/__init__.py``."
+msgstr ""
+
+#: ../../source/dev/release.rst:75
+msgid "Run the test suite after changing the codebase version to ensure accuracy and consistency."
+msgstr ""
+
+#: ../../source/dev/release.rst:80
+msgid "Release steps"
+msgstr ""
+
+#: ../../source/dev/release.rst:82
+msgid "REWORK FOR SOURCEFORGE REPO"
+msgstr ""
+
+#: ../../source/dev/release.rst:85
+msgid "Steps in boldface text are *not* covered by the release script at sandbox/infrastructure/release.sh.  \"Not covered\" means that you aren't even reminded of them."
+msgstr ""
+
+#: ../../source/dev/release.rst:89
+msgid "This document does not cover branching and tagging, but the release script does."
+msgstr ""
+
+#: ../../source/dev/release.rst:92
+msgid "You may want to use ReleaseForge_ instead of using SourceForge's file release system."
+msgstr ""
+
+#: ../../source/dev/release.rst:98
+msgid "**Announce**"
+msgstr ""
+
+#: ../../source/dev/release.rst:100
+msgid "On the Docutils-develop mailing list, announce that the release is going to be made, update the release notes (consult HISTORY.TXT for changes) and ask for additions."
+msgstr ""
+
+#: ../../source/dev/release.rst:104
+msgid "Announce the upcoming release at the Sphinx-devel mailing list and ask for testing with Sphinx. (This step can be skipped for bugfix releases and pre-releases.)"
+msgstr ""
+
+#: ../../source/dev/release.rst:108
+msgid "Announce the date of the feature freeze â€“ at least a week ahead!"
+msgstr ""
+
+#: ../../source/dev/release.rst:110
+msgid "**Feature freeze** From now on, only bug-fix commits are allowed."
+msgstr ""
+
+#: ../../source/dev/release.rst:112
+msgid "Update the `pre-release segment` of the `version identifier`_ (``b``, ``rcN`` or empty) to match the level of the upcoming release (beta, candidate or final). Ensure ``docutils.__version_info__`` matches the version identifier. (See also `How to change the version identifier`_.)"
+msgstr ""
+
+#: ../../source/dev/release.rst:118
+msgid "**Announce** the check-in freeze date on Docutils-develop â€“ at least a week ahead."
+msgstr ""
+
+#: ../../source/dev/release.rst:121
+msgid "**Check-in freeze**"
+msgstr ""
+
+#: ../../source/dev/release.rst:123
+msgid "**Update the version identifier**: Remove the `development release segment` (``.dev``) from the `version identifier`_ and set ``docutils.__version_info__.release`` to True."
+msgstr ""
+
+#: ../../source/dev/release.rst:127
+msgid "Check the `version identifier` in the following files (should be already correct if set according to `How to change the version identifier`_):"
+msgstr ""
+
+#: ../../source/dev/release.rst:131
+msgid "docutils/setup.py"
+msgstr ""
+
+#: ../../source/dev/release.rst:132
+msgid "docutils/docutils/__init__.py"
+msgstr ""
+
+#: ../../source/dev/release.rst:133
+msgid "docutils/test/functional/expected/* (\"Generator: Docutils X.Y[.Z]\")"
+msgstr ""
+
+#: ../../source/dev/release.rst:134
+msgid "docutils/README.txt"
+msgstr ""
+
+#: ../../source/dev/release.rst:135
+msgid "web/index.txt"
+msgstr ""
+
+#: ../../source/dev/release.rst:137
+msgid "See what ``sandbox/infrastructure/release.sh`` can aid"
+msgstr ""
+
+#: ../../source/dev/release.rst:139
+msgid "*BUG* test tarball requires root password, but it is possible to skip this stage interactively, and testing should be done before release."
+msgstr ""
+
+#: ../../source/dev/release.rst:144
+msgid "Close the \"Changes Since ...\" section in docutils/HISTORY.txt."
+msgstr ""
+
+#: ../../source/dev/release.rst:146
+msgid "Clear/unset the PYTHONPATH environment variable."
+msgstr ""
+
+#: ../../source/dev/release.rst:148
+msgid "Create the release tarball:"
+msgstr ""
+
+#: ../../source/dev/release.rst:150
+msgid "Create a new empty directory and ``cd`` into it."
+msgstr ""
+
+#: ../../source/dev/release.rst:152
+msgid "Get a clean snapshot of the main tree::"
+msgstr ""
+
+#: ../../source/dev/release.rst:156
+msgid "or via the [Download Snapshot] button at http://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/"
+msgstr ""
+
+#: ../../source/dev/release.rst:159
+msgid "Use Distutils to create the release tarball::"
+msgstr ""
+
+#: ../../source/dev/release.rst:164
+msgid "Expand and _`install` the release tarball in isolation:"
+msgstr ""
+
+#: ../../source/dev/release.rst:166
+msgid "Expand the tarball in a new location, not over any existing files."
+msgstr ""
+
+#: ../../source/dev/release.rst:169
+msgid "Remove the old installation from site-packages (including roman.py, and optparse.py, textwrap.py)."
+msgstr ""
+
+#: ../../source/dev/release.rst:172
+msgid "\"remove\" might fail, see _`Assumptions and their failure`"
+msgstr ""
+
+#: ../../source/dev/release.rst:174
+msgid "Install from expanded directory::"
+msgstr ""
+
+#: ../../source/dev/release.rst:179
+msgid "The \"install\" command may require root permissions."
+msgstr ""
+
+#: ../../source/dev/release.rst:181
+msgid "Repeat step b) for all supported Python versions."
+msgstr ""
+
+#: ../../source/dev/release.rst:183
+msgid "Run the _`test suite` from the expanded archive directory with all supported Python versions on all available platforms (GNU/Linux, Mac OS X, Windows)::"
+msgstr ""
+
+#: ../../source/dev/release.rst:189
+msgid "Add a directory X.Y.Z (where X.Y.Z is the current version number of Docutils) in the webroot (i.e. the ``htdocs/`` directory). Put all documentation files into it::"
+msgstr ""
+
+#: ../../source/dev/release.rst:203
+msgid "Now log in to shell.sourceforge.net and::"
+msgstr ""
+
+#: ../../source/dev/release.rst:211
+msgid "Upload the release tarball, release.sh tries with scp."
+msgstr ""
+
+#: ../../source/dev/release.rst:213
+msgid "Access the _`file release system` on SourceForge (Admin interface)."
+msgstr ""
+
+#: ../../source/dev/release.rst:216
+msgid "``https://sourceforge.net/projects/docutils/files/docutils/``"
+msgstr ""
+
+#: ../../source/dev/release.rst:218
+msgid "change into the released version's directory"
+msgstr ""
+
+#: ../../source/dev/release.rst:219
+msgid "click ``(i)`` button of the tar.gz-file"
+msgstr ""
+
+#: ../../source/dev/release.rst:220
+msgid "select as default download for all operating systems."
+msgstr ""
+
+#: ../../source/dev/release.rst:222
+msgid "Submit a notification on project news."
+msgstr ""
+
+#: ../../source/dev/release.rst:224
+msgid "For verifying the integrity of the release, download the release tarball (you may need to wait up to 30 minutes), install_ it, and re-run the `test suite`_."
+msgstr ""
+
+#: ../../source/dev/release.rst:228
+msgid "Register with PyPI (``python setup.py register``)."
+msgstr ""
+
+#: ../../source/dev/release.rst:230
+msgid "Set the download-url so eggs can access older releases."
+msgstr ""
+
+#: ../../source/dev/release.rst:232
+msgid "**build wheels**::"
+msgstr ""
+
+#: ../../source/dev/release.rst:237
+msgid "This builds wheels_ (`pure Python wheels`_ for Python 2 and 3 respectively) by downloading the new release from pypi."
+msgstr ""
+
+#: ../../source/dev/release.rst:240
+msgid "Upload the wheels to PyPI::"
+msgstr ""
+
+#: ../../source/dev/release.rst:245
+msgid "**Lift the freeze**"
+msgstr ""
+
+#: ../../source/dev/release.rst:247
+msgid "Set the `version identifier`_ and ``__version_info__.releaselevel`` in docutils/docutils/__init__.py to mark the repository version as \"in development\", usually ``<major>.<minor+1>b.dev`` (cf. `How to change the version identifier`_)."
+msgstr ""
+
+#: ../../source/dev/release.rst:252
+msgid "After a final release, add a new empty section \"Changes Since ...\" in HISTORY.txt."
+msgstr ""
+
+#: ../../source/dev/release.rst:255
+msgid "Update the web page (web/index.txt)."
+msgstr ""
+
+#: ../../source/dev/release.rst:257
+msgid "Run docutils-update on the server."
+msgstr ""
+
+#: ../../source/dev/release.rst:259
+msgid "**Run alltests.py with svn version**"
+msgstr ""
+
+#: ../../source/dev/release.rst:261
+msgid "**Send announcement email to:**"
+msgstr ""
+
+#: ../../source/dev/release.rst:263
+msgid "docutils-develop@lists.sourceforge.net (also announcing the end of the check-in freeze)"
+msgstr ""
+
+#: ../../source/dev/release.rst:265
+msgid "docutils-users@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/dev/release.rst:266
+msgid "doc-sig@python.org"
+msgstr ""
+
+#: ../../source/dev/release.rst:267
+msgid "python-announce@python.org"
+msgstr ""
+
+#: ../../source/dev/release.rst:269
+msgid "**Add a** `SourceForge News item`__, **with title \"Docutils X.Y.Z released\"**"
+msgstr ""
+
+#: ../../source/dev/release.rst:273
+msgid "**Mark as default download for all platforms.**"
+msgstr ""
+

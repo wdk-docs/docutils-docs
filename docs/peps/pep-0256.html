@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Abstract &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../contents.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overviews.html">Docutils: Documentation Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release/index.html">版本发布</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doc.html">文档实用程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst.html">Docutils 的标记语法和解析器组件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">用户文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">参考文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">基本知识</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../contents.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../contents.html">Docs</a> &raquo;</li>
+        
+      <li>Abstract</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/peps/pep-0256.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p>PEP: 256
+Title: Docstring Processing System Framework
+Version: $Revision: 4564 $
+Last-Modified: $Date: 2006-05-21 22:44:42 +0200 (So, 21. Mai 2006) $
+Author: David Goodger &lt;<a class="reference external" href="mailto:goodger&#37;&#52;&#48;python&#46;org">goodger<span>&#64;</span>python<span>&#46;</span>org</a>&gt;
+Discussions-To: &lt;<a class="reference external" href="mailto:doc-sig&#37;&#52;&#48;python&#46;org">doc-sig<span>&#64;</span>python<span>&#46;</span>org</a>&gt;
+Status: Draft
+Type: Standards Track
+Content-Type: text/x-rst
+Created: 01-Jun-2001
+Post-History: 13-Jun-2001</p>
+<div class="section" id="abstract">
+<h1>Abstract<a class="headerlink" href="#abstract" title="永久链接至标题">¶</a></h1>
+<p>Python lends itself to inline documentation.  With its built-in
+docstring syntax, a limited form of <a class="reference external" href="http://www.literateprogramming.com/">Literate Programming</a> is easy to
+do in Python.  However, there are no satisfactory standard tools for
+extracting and processing Python docstrings.  The lack of a standard
+toolset is a significant gap in Python’s infrastructure; this PEP aims
+to fill the gap.</p>
+<p>The issues surrounding docstring processing have been contentious and
+difficult to resolve.  This PEP proposes a generic Docstring
+Processing System (DPS) framework, which separates out the components
+(program and conceptual), enabling the resolution of individual issues
+either through consensus (one solution) or through divergence (many).
+It promotes standard interfaces which will allow a variety of plug-in
+components (input context readers, markup parsers, and output format
+writers) to be used.</p>
+<p>The concepts of a DPS framework are presented independently of
+implementation details.</p>
+</div>
+<div class="section" id="road-map-to-the-docstring-peps">
+<h1>Road Map to the Docstring PEPs<a class="headerlink" href="#road-map-to-the-docstring-peps" title="永久链接至标题">¶</a></h1>
+<p>There are many aspects to docstring processing.  The “Docstring PEPs”
+have broken up the issues in order to deal with each of them in
+isolation, or as close as possible.  The individual aspects and
+associated PEPs are as follows:</p>
+<ul class="simple">
+<li><p>Docstring syntax.  PEP 287, “reStructuredText Docstring Format”
+<a class="footnote-reference brackets" href="#pep-287" id="id1">1</a>, proposes a syntax for Python docstrings, PEPs, and
+other uses.</p></li>
+<li><p>Docstring semantics consist of at least two aspects:</p>
+<ul>
+<li><p>Conventions: the high-level structure of docstrings.  Dealt with
+in PEP 257, “Docstring Conventions” <a class="footnote-reference brackets" href="#pep-257" id="id2">2</a>.</p></li>
+<li><p>Methodology: rules for the informational content of docstrings.
+Not addressed.</p></li>
+</ul>
+</li>
+<li><p>Processing mechanisms.  This PEP (PEP 256) outlines the high-level
+issues and specification of an abstract docstring processing system
+(DPS).  PEP 258, “Docutils Design Specification” <a class="footnote-reference brackets" href="#pep-258" id="id3">3</a>, is an
+overview of the design and implementation of one DPS under
+development.</p></li>
+<li><p>Output styles: developers want the documentation generated from
+their source code to look good, and there are many different ideas
+about what that means.  PEP 258 touches on “Stylist Transforms”.
+This aspect of docstring processing has yet to be fully explored.</p></li>
+</ul>
+<p>By separating out the issues, we can form consensus more easily
+(smaller fights ;-), and accept divergence more readily.</p>
+</div>
+<div class="section" id="rationale">
+<h1>Rationale<a class="headerlink" href="#rationale" title="永久链接至标题">¶</a></h1>
+<p>There are standard inline documentation systems for some other
+languages.  For example, Perl has <a class="reference external" href="http://perldoc.perl.org/perlpod.html">POD</a> (“Plain Old Documentation”) and
+Java has <a class="reference external" href="http://java.sun.com/j2se/javadoc/">Javadoc</a>, but neither of these mesh with the Pythonic way.
+POD syntax is very explicit, but takes after Perl in terms of
+readability.  Javadoc is HTML-centric; except for “<code class="docutils literal notranslate"><span class="pre">&#64;field</span></code>” tags,
+raw HTML is used for markup.  There are also general tools such as
+<a class="reference external" href="http://www.helpmaster.com/hlp-developmentaids-autoduck.htm">Autoduck</a> and <a class="reference external" href="http://www-cs-faculty.stanford.edu/~knuth/cweb.html">Web</a> (Tangle &amp; Weave), useful for multiple languages.</p>
+<p>There have been many attempts to write auto-documentation systems
+for Python (not an exhaustive list):</p>
+<ul class="simple">
+<li><p>Marc-Andre Lemburg’s <a class="reference external" href="http://www.egenix.com/files/python/SoftwareDescriptions.html#doc.py">doc.py</a></p></li>
+<li><p>Daniel Larsson’s <a class="reference external" href="http://starship.python.net/crew/danilo/pythondoc/">pythondoc</a> &amp; <a class="reference external" href="http://starship.python.net/crew/danilo/pythondoc/">gendoc</a></p></li>
+<li><p>Doug Hellmann’s <a class="reference external" href="http://happydoc.sourceforge.net/">HappyDoc</a></p></li>
+<li><p>Laurence Tratt’s Crystal (no longer available on the web)</p></li>
+<li><p>Ka-Ping Yee’s <a class="reference external" href="http://www.python.org/doc/current/lib/module-pydoc.html">pydoc</a> (pydoc.py is now part of the Python standard
+library; see below)</p></li>
+<li><p>Tony Ibbs’ <a class="reference external" href="http://www.tibsnjoan.co.uk/docutils.html">docutils</a> (Tony has donated this name to the <a class="reference external" href="http://docutils.sourceforge.net/">Docutils
+project</a>)</p></li>
+<li><p>Edward Loper’s <a class="reference external" href="http://www.cis.upenn.edu/~edloper/pydoc/">STminus</a> formalization and related efforts</p></li>
+</ul>
+<p>These systems, each with different goals, have had varying degrees of
+success.  A problem with many of the above systems was over-ambition
+combined with inflexibility.  They provided a self-contained set of
+components: a docstring extraction system, a markup parser, an
+internal processing system and one or more output format writers with
+a fixed style.  Inevitably, one or more aspects of each system had
+serious shortcomings, and they were not easily extended or modified,
+preventing them from being adopted as standard tools.</p>
+<p>It has become clear (to this author, at least) that the “all or
+nothing” approach cannot succeed, since no monolithic self-contained
+system could possibly be agreed upon by all interested parties.  A
+modular component approach designed for extension, where components
+may be multiply implemented, may be the only chance for success.
+Standard inter-component APIs will make the DPS components
+comprehensible without requiring detailed knowledge of the whole,
+lowering the barrier for contributions, and ultimately resulting in a
+rich and varied system.</p>
+<p>Each of the components of a docstring processing system should be
+developed independently.  A “best of breed” system should be chosen,
+either merged from existing systems, and/or developed anew.  This
+system should be included in Python’s standard library.</p>
+<div class="section" id="pydoc-other-existing-systems">
+<h2>PyDoc &amp; Other Existing Systems<a class="headerlink" href="#pydoc-other-existing-systems" title="永久链接至标题">¶</a></h2>
+<p>PyDoc became part of the Python standard library as of release 2.1.
+It extracts and displays docstrings from within the Python interactive
+interpreter, from the shell command line, and from a GUI window into a
+web browser (HTML).  Although a very useful tool, PyDoc has several
+deficiencies, including:</p>
+<ul class="simple">
+<li><p>In the case of the GUI/HTML, except for some heuristic hyperlinking
+of identifier names, no formatting of the docstrings is done.  They
+are presented within <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;&lt;small&gt;&lt;tt&gt;</span></code> tags to avoid unwanted line
+wrapping.  Unfortunately, the result is not attractive.</p></li>
+<li><p>PyDoc extracts docstrings and structural information (class
+identifiers, method signatures, etc.) from imported module objects.
+There are security issues involved with importing untrusted code.
+Also, information from the source is lost when importing, such as
+comments, “additional docstrings” (string literals in non-docstring
+contexts; see PEP 258 <a class="footnote-reference brackets" href="#pep-258" id="id4">3</a>), and the order of definitions.</p></li>
+</ul>
+<p>The functionality proposed in this PEP could be added to or used by
+PyDoc when serving HTML pages.  The proposed docstring processing
+system’s functionality is much more than PyDoc needs in its current
+form.  Either an independent tool will be developed (which PyDoc may
+or may not use), or PyDoc could be expanded to encompass this
+functionality and <em>become</em> the docstring processing system (or one
+such system).  That decision is beyond the scope of this PEP.</p>
+<p>Similarly for other existing docstring processing systems, their
+authors may or may not choose compatibility with this framework.
+However, if this framework is accepted and adopted as the Python
+standard, compatibility will become an important consideration in
+these systems’ future.</p>
+</div>
+</div>
+<div class="section" id="specification">
+<h1>Specification<a class="headerlink" href="#specification" title="永久链接至标题">¶</a></h1>
+<p>The docstring processing system framework is broken up as follows:</p>
+<ol class="arabic">
+<li><p>Docstring conventions.  Documents issues such as:</p>
+<ul class="simple">
+<li><p>What should be documented where.</p></li>
+<li><p>First line is a one-line synopsis.</p></li>
+</ul>
+<p>PEP 257 <a class="footnote-reference brackets" href="#pep-257" id="id5">2</a> documents some of these issues.</p>
+</li>
+<li><p>Docstring processing system design specification.  Documents
+issues such as:</p>
+<ul class="simple">
+<li><p>High-level spec: what a DPS does.</p></li>
+<li><p>Command-line interface for executable script.</p></li>
+<li><p>System Python API.</p></li>
+<li><p>Docstring extraction rules.</p></li>
+<li><p>Readers, which encapsulate the input context.</p></li>
+<li><p>Parsers.</p></li>
+<li><p>Document tree: the intermediate internal data structure.  The
+output of the Parser and Reader, and the input to the Writer all
+share the same data structure.</p></li>
+<li><p>Transforms, which modify the document tree.</p></li>
+<li><p>Writers for output formats.</p></li>
+<li><p>Distributors, which handle output management (one file, many
+files, or objects in memory).</p></li>
+</ul>
+<p>These issues are applicable to any docstring processing system
+implementation.  PEP 258 <a class="footnote-reference brackets" href="#pep-258" id="id6">3</a> documents these issues.</p>
+</li>
+<li><p>Docstring processing system implementation.</p></li>
+<li><p>Input markup specifications: docstring syntax.  PEP 287 <a class="footnote-reference brackets" href="#pep-287" id="id7">1</a>
+proposes a standard syntax.</p></li>
+<li><p>Input parser implementations.</p></li>
+<li><p>Input context readers (“modes”: Python source code, PEP, standalone
+text file, email, etc.) and implementations.</p></li>
+<li><p>Stylists: certain input context readers may have associated
+stylists which allow for a variety of output document styles.</p></li>
+<li><p>Output formats (HTML, XML, TeX, DocBook, info, etc.) and writer
+implementations.</p></li>
+</ol>
+<p>Components 1, 2/3/5, and 4 are the subject of individual companion
+PEPs.  If there is another implementation of the framework or
+syntax/parser, additional PEPs may be required.  Multiple
+implementations of each of components 6 and 7 will be required; the
+PEP mechanism may be overkill for these components.</p>
+</div>
+<div class="section" id="project-web-site">
+<h1>Project Web Site<a class="headerlink" href="#project-web-site" title="永久链接至标题">¶</a></h1>
+<p>A SourceForge project has been set up for this work at
+<a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a>.</p>
+</div>
+<div class="section" id="references-and-footnotes">
+<h1>References and Footnotes<a class="headerlink" href="#references-and-footnotes" title="永久链接至标题">¶</a></h1>
+<dl class="footnote brackets">
+<dt class="label" id="pep-287"><span class="brackets">1</span><span class="fn-backref">(<a href="#id1">1</a>,<a href="#id7">2</a>)</span></dt>
+<dd><p>PEP 287, reStructuredText Docstring Format, Goodger
+(<a class="reference external" href="http://www.python.org/peps/pep-0287.html">http://www.python.org/peps/pep-0287.html</a>)</p>
+</dd>
+<dt class="label" id="pep-257"><span class="brackets">2</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id5">2</a>)</span></dt>
+<dd><p>PEP 257, Docstring Conventions, Goodger, Van Rossum
+(<a class="reference external" href="http://www.python.org/peps/pep-0257.html">http://www.python.org/peps/pep-0257.html</a>)</p>
+</dd>
+<dt class="label" id="pep-258"><span class="brackets">3</span><span class="fn-backref">(<a href="#id3">1</a>,<a href="#id4">2</a>,<a href="#id6">3</a>)</span></dt>
+<dd><p>PEP 258, Docutils Design Specification, Goodger
+(<a class="reference external" href="http://www.python.org/peps/pep-0258.html">http://www.python.org/peps/pep-0258.html</a>)</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="copyright">
+<h1>Copyright<a class="headerlink" href="#copyright" title="永久链接至标题">¶</a></h1>
+<p>This document has been placed in the public domain.</p>
+</div>
+<div class="section" id="acknowledgements">
+<h1>Acknowledgements<a class="headerlink" href="#acknowledgements" title="永久链接至标题">¶</a></h1>
+<p>This document borrows ideas from the archives of the <a class="reference external" href="http://www.python.org/sigs/doc-sig/">Python
+Doc-SIG</a>.  Thanks to all members past &amp; present.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

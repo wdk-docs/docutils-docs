@@ -1,0 +1,647 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/user/tools.rst:3
+msgid "Docutils Front-End Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Author"
+msgstr ""
+
+#: ../../source/user/tools.rst:5
+msgid "David Goodger"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Contact"
+msgstr ""
+
+#: ../../source/user/tools.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Revision"
+msgstr ""
+
+#: ../../source/user/tools.rst:7
+msgid "$Revision: 8012 $"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/user/tools.rst:8
+msgid "$Date: 2017-01-04 00:08:19 +0100 (Mi, 04. J盲n 2017) $"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/user/tools.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/user/tools.rst:12
+msgid "目录"
+msgstr ""
+
+#: ../../source/user/tools.rst:16
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/user/tools.rst:18
+msgid "Once the Docutils package is unpacked, you will discover a \"``tools``\" directory containing several front ends for common Docutils processing.  Rather than a single all-purpose program, Docutils has many small front ends, each specialized for a specific \"Reader\" (which knows how to interpret a file in context), a \"Parser\" (which understands the syntax of the text), and a \"Writer\" (which knows how to generate a specific data format)."
+msgstr ""
+
+#: ../../source/user/tools.rst:26
+msgid "Most front ends have common options and the same command-line usage pattern::"
+msgstr ""
+
+#: ../../source/user/tools.rst:31
+msgid "(The exceptions are buildhtml.py_ and rstpep2html.py_.)  See rst2html.py_ for concrete examples.  Each tool has a \"``--help``\" option which lists the `command-line options`_ and arguments it supports.  Processing can also be customized with `configuration files`_."
+msgstr ""
+
+#: ../../source/user/tools.rst:37
+msgid "The two arguments, \"source\" and \"destination\", are optional.  If only one argument (source) is specified, the standard output (stdout) is used for the destination.  If no arguments are specified, the standard input (stdin) is used for the source."
+msgstr ""
+
+#: ../../source/user/tools.rst:44
+msgid "Getting Help"
+msgstr ""
+
+#: ../../source/user/tools.rst:46
+msgid "First, try the \"``--help``\" option each front-end tool has."
+msgstr ""
+
+#: ../../source/user/tools.rst:48
+msgid "Users who have questions or need assistance with Docutils or reStructuredText should post a message to the Docutils-users_ mailing list."
+msgstr ""
+
+#: ../../source/user/tools.rst:57
+msgid "The Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:60
+msgid "HTML-Generating Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:63
+msgid "buildhtml.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Readers"
+msgstr ""
+
+#: ../../source/user/tools.rst:65
+msgid "Standalone, PEP"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Parser"
+msgstr ""
+
+#: ../../source/user/tools.rst:66
+#: ../../source/user/tools.rst:103
+#: ../../source/user/tools.rst:121
+#: ../../source/user/tools.rst:166
+#: ../../source/user/tools.rst:181
+#: ../../source/user/tools.rst:202
+#: ../../source/user/tools.rst:318
+#: ../../source/user/tools.rst:337
+#: ../../source/user/tools.rst:365
+#: ../../source/user/tools.rst:383
+#: ../../source/user/tools.rst:413
+#: ../../source/user/tools.rst:427
+msgid "reStructuredText"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+msgid "Writers"
+msgstr ""
+
+#: ../../source/user/tools.rst:67
+msgid "html_, pep_html_"
+msgstr ""
+
+#: ../../source/user/tools.rst:69
+msgid "Use ``buildhtml.py`` to generate ``*.html`` from all the ``*.txt`` files (including PEPs) in each <directory> given, and their subdirectories too.  (Use the ``--local`` option to skip subdirectories.)"
+msgstr ""
+
+#: ../../source/user/tools.rst:73
+msgid "Usage::"
+msgstr ""
+
+#: ../../source/user/tools.rst:77
+msgid "After unpacking the Docutils package, the following shell commands will generate HTML for all included documentation::"
+msgstr ""
+
+#: ../../source/user/tools.rst:83
+msgid "For official releases, the directory may be called \"docutils-X.Y\", where \"X.Y\" is the release version.  Alternatively::"
+msgstr ""
+
+#: ../../source/user/tools.rst:89
+msgid "The current directory (and all subdirectories) is chosen by default if no directory is named.  Some files may generate system messages (docs/user/rst/demo.txt contains intentional errors); use the ``--quiet`` option to suppress all warnings.  The ``--config`` option ensures that the correct settings are in place (a ``docutils.conf`` `configuration file`_ in the current directory is picked up automatically).  Command-line options may be used to override config file settings or replace them altogether."
+msgstr ""
+
+#: ../../source/user/tools.rst:100
+msgid "rst2html.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Reader"
+msgstr ""
+
+#: ../../source/user/tools.rst:102
+#: ../../source/user/tools.rst:120
+#: ../../source/user/tools.rst:165
+#: ../../source/user/tools.rst:201
+#: ../../source/user/tools.rst:317
+#: ../../source/user/tools.rst:336
+#: ../../source/user/tools.rst:364
+#: ../../source/user/tools.rst:382
+#: ../../source/user/tools.rst:412
+msgid "Standalone"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Writer"
+msgstr ""
+
+#: ../../source/user/tools.rst:104
+msgid "html_"
+msgstr ""
+
+#: ../../source/user/tools.rst:106
+msgid "`rst2html.py` is the front-end for the default Docutils HTML writer. The default writer may change with the development of HTML, browsers, Docutils, and the web. Currently, it is html4css1_."
+msgstr ""
+
+#: ../../source/user/tools.rst:110
+msgid "Use `rst2html.py`, if you want the output to be up-to-date automatically."
+msgstr ""
+
+#: ../../source/user/tools.rst:112
+msgid "Use a specific front end, if you depend on stability of the generated HTML code, e.g. because you use a custom style sheet or post-processing that may break otherwise."
+msgstr ""
+
+#: ../../source/user/tools.rst:118
+msgid "rst2html4.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:122
+msgid "html4css1_"
+msgstr ""
+
+#: ../../source/user/tools.rst:124
+msgid "The ``rst2html4.py`` front end reads standalone reStructuredText source files and produces `XHTML 1.0 Transitional`_ output. A CSS stylesheet is required for proper rendering; a simple but complete stylesheet is installed and used by default (see Stylesheets_ below)."
+msgstr ""
+
+#: ../../source/user/tools.rst:130
+msgid "For example, to process a reStructuredText file \"``test.txt``\" into HTML::"
+msgstr ""
+
+#: ../../source/user/tools.rst:135
+msgid "Now open the \"``test.html``\" file in your favorite browser to see the results.  To get a footer with a link to the source file, date & time of processing, and links to the Docutils project, add some options::"
+msgstr ""
+
+#: ../../source/user/tools.rst:143
+msgid "Stylesheets"
+msgstr ""
+
+#: ../../source/user/tools.rst:145
+msgid "``rst2html.py`` inserts into the generated HTML a cascading stylesheet (or a link to a stylesheet, when passing the \"``--link-stylesheet``\" option).  A stylesheet is required for proper rendering.  The default stylesheet (``docutils/writers/html4css1/html4css1.css``, located in the installation directory) is provided for basic use.  To use different stylesheet(s), specify the stylesheets' location(s) as comma-separated list with the \"``--stylesheet``\" (for a URL) or \"``--stylesheet-path``\" (for a local file) command-line option, or with `configuration file`_ settings (e.g. ``./docutils.conf`` or ``~/.docutils``).  To experiment with styles, please see the `guide to writing HTML (CSS) stylesheets for Docutils`__."
+msgstr ""
+
+#: ../../source/user/tools.rst:163
+msgid "rst2html5.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:167
+msgid "html5 (html5_polyglot_)"
+msgstr ""
+
+#: ../../source/user/tools.rst:169
+msgid "The ``rst2html5.py`` front end reads standalone reStructuredText source files and produces `HTML聽5`_ output. Correct rendering of elements not directly supported by HTML depends on a CSS style sheet. The provided style sheets ``minimal.css`` and ``plain.css`` define required and optional styling rules respectively."
+msgstr ""
+
+#: ../../source/user/tools.rst:178
+msgid "rstpep2html.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:180
+msgid "PEP"
+msgstr ""
+
+#: ../../source/user/tools.rst:182
+msgid "pep_html_"
+msgstr ""
+
+#: ../../source/user/tools.rst:184
+msgid "``rstpep2html.py`` reads a new-style PEP (marked up with reStructuredText) and produces `XHTML 1.0 Transitional`_.  It requires a template file and a stylesheet.  By default, it makes use of a \"``pep-html-template``\" file and the \"``pep.css``\" stylesheet (both in the ``docutils/writers/pep_html/`` directory), but these can be overridden by command-line options or configuration files."
+msgstr ""
+
+#: ../../source/user/tools.rst:191
+msgid "For example, to process a PEP into HTML::"
+msgstr ""
+
+#: ../../source/user/tools.rst:199
+msgid "rst2s5.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:203
+msgid "s5_html_"
+msgstr ""
+
+#: ../../source/user/tools.rst:205
+msgid "The ``rst2s5.py`` front end reads standalone reStructuredText source files and produces (X)HTML output compatible with S5_, the \"Simple Standards-based Slide Show System\" by Eric Meyer.  A theme is required for proper rendering; several are distributed with Docutils and others are available; see Themes_ below."
+msgstr ""
+
+#: ../../source/user/tools.rst:211
+msgid "For example, to process a reStructuredText file \"``slides.txt``\" into S5/HTML::"
+msgstr ""
+
+#: ../../source/user/tools.rst:216
+msgid "Now open the \"``slides.html``\" file in your favorite browser, switch to full-screen mode, and enjoy the results."
+msgstr ""
+
+#: ../../source/user/tools.rst:223
+msgid "Themes"
+msgstr ""
+
+#: ../../source/user/tools.rst:225
+msgid "Each S5 theme consists of a directory containing several files: stylesheets, JavaScript, and graphics.  These are copied into a ``ui/<theme>`` directory beside the generated HTML.  A theme is chosen using the \"``--theme``\" option (for themes that come with Docutils) or the \"``--theme-url``\" option (for themes anywhere).  For example, the \"medium-black\" theme can be specified as follows::"
+msgstr ""
+
+#: ../../source/user/tools.rst:234
+msgid "The theme will be copied to the ``ui/medium-black`` directory."
+msgstr ""
+
+#: ../../source/user/tools.rst:236
+msgid "Several themes are included with Docutils:"
+msgstr ""
+
+#: ../../source/user/tools.rst:246
+msgid "``default``"
+msgstr ""
+
+#: ../../source/user/tools.rst:239
+msgid "This is a simplified version of S5's default theme."
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Main content"
+msgstr ""
+
+#: ../../source/user/tools.rst:241
+#: ../../source/user/tools.rst:251
+#: ../../source/user/tools.rst:267
+msgid "black serif text on a white background"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Text capacity"
+msgstr ""
+
+#: ../../source/user/tools.rst:242
+msgid "about 13 lines"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Headers"
+msgstr ""
+
+#: ../../source/user/tools.rst:243
+msgid "light blue, bold sans-serif text on a dark blue background; titles are limited to one line"
+msgstr ""
+
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+#: ../../source/user/tools.rst:0
+msgid "Footers"
+msgstr ""
+
+#: ../../source/user/tools.rst:245
+msgid "small, gray, bold sans-serif text on a dark blue background"
+msgstr ""
+
+#: ../../source/user/tools.rst:256
+msgid "``small-white``"
+msgstr ""
+
+#: ../../source/user/tools.rst:249
+msgid "(Small text on a white background.)"
+msgstr ""
+
+#: ../../source/user/tools.rst:252
+#: ../../source/user/tools.rst:260
+msgid "about 15 lines"
+msgstr ""
+
+#: ../../source/user/tools.rst:253
+#: ../../source/user/tools.rst:269
+#: ../../source/user/tools.rst:285
+msgid "black, bold sans-serif text on a white background; titles wrap"
+msgstr ""
+
+#: ../../source/user/tools.rst:255
+#: ../../source/user/tools.rst:271
+msgid "small, dark gray, bold sans-serif text on a white background"
+msgstr ""
+
+#: ../../source/user/tools.rst:264
+msgid "``small-black``"
+msgstr ""
+
+#: ../../source/user/tools.rst:259
+#: ../../source/user/tools.rst:275
+msgid "white serif text on a black background"
+msgstr ""
+
+#: ../../source/user/tools.rst:261
+#: ../../source/user/tools.rst:277
+#: ../../source/user/tools.rst:292
+msgid "white, bold sans-serif text on a black background; titles wrap"
+msgstr ""
+
+#: ../../source/user/tools.rst:263
+#: ../../source/user/tools.rst:279
+msgid "small, light gray, bold sans-serif text on a black background"
+msgstr ""
+
+#: ../../source/user/tools.rst:272
+msgid "``medium-white``"
+msgstr ""
+
+#: ../../source/user/tools.rst:268
+#: ../../source/user/tools.rst:276
+msgid "about 9 lines"
+msgstr ""
+
+#: ../../source/user/tools.rst:280
+msgid "``medium-black``"
+msgstr ""
+
+#: ../../source/user/tools.rst:287
+msgid "``big-white``"
+msgstr ""
+
+#: ../../source/user/tools.rst:283
+msgid "black, bold sans-serif text on a white background"
+msgstr ""
+
+#: ../../source/user/tools.rst:284
+#: ../../source/user/tools.rst:291
+msgid "about 5 lines"
+msgstr ""
+
+#: ../../source/user/tools.rst:287
+#: ../../source/user/tools.rst:294
+msgid "not displayed"
+msgstr ""
+
+#: ../../source/user/tools.rst:294
+msgid "``big-black``"
+msgstr ""
+
+#: ../../source/user/tools.rst:290
+msgid "white, bold sans-serif text on a black background"
+msgstr ""
+
+#: ../../source/user/tools.rst:296
+msgid "If a theme directory contains a file named ``__base__``, the name of the theme's base theme will be read from it.  Files are accumulated from the named theme, any base themes, and the \"default\" theme (which is the implicit base of all themes)."
+msgstr ""
+
+#: ../../source/user/tools.rst:301
+msgid "For details, please see `Easy Slide Shows With reStructuredText & S5 <slide-shows.html>`_."
+msgstr ""
+
+#: ../../source/user/tools.rst:312
+msgid "LaTeX-Generating Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:315
+msgid "rst2latex.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:319
+msgid "latex2e"
+msgstr ""
+
+#: ../../source/user/tools.rst:321
+msgid "The ``rst2latex.py`` front end reads standalone reStructuredText source files and produces LaTeX_ output. For example, to process a reStructuredText file \"``test.txt``\" into LaTeX::"
+msgstr ""
+
+#: ../../source/user/tools.rst:327
+msgid "The output file \"``test.tex``\" should then be processed with ``latex`` or ``pdflatex`` to get a document in DVI, PostScript or PDF format for printing or on-screen viewing."
+msgstr ""
+
+#: ../../source/user/tools.rst:331
+#: ../../source/user/tools.rst:351
+msgid "For details see `Generating LaTeX with Docutils`_."
+msgstr ""
+
+#: ../../source/user/tools.rst:334
+msgid "rst2xetex.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:338
+msgid "xetex"
+msgstr ""
+
+#: ../../source/user/tools.rst:340
+msgid "The ``rst2xetex.py`` front end reads standalone reStructuredText source files and produces `LaTeX` output for processing with unicode-aware TeX engines (`LuaTeX`_ or `XeTeX`_). For example, to process a reStructuredText file \"``test.txt``\" into LaTeX::"
+msgstr ""
+
+#: ../../source/user/tools.rst:347
+msgid "The output file \"``test.tex``\" should then be processed with ``xelatex`` or ``lualatex`` to get a document in PDF format for printing or on-screen viewing."
+msgstr ""
+
+#: ../../source/user/tools.rst:359
+msgid "XML-Generating Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:362
+msgid "rst2xml.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:366
+msgid "XML (Docutils native)"
+msgstr ""
+
+#: ../../source/user/tools.rst:368
+msgid "The ``rst2xml.py`` front end produces Docutils-native XML output. This can be transformed with standard XML tools such as XSLT processors into arbitrary final forms. An example is the xml2rst_ processor in the Docutils sandbox."
+msgstr ""
+
+#: ../../source/user/tools.rst:377
+msgid "ODF/OpenOffice-Generating Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:380
+msgid "rst2odt.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:384
+msgid "ODF/.odt"
+msgstr ""
+
+#: ../../source/user/tools.rst:386
+msgid "The ``rst2odt.py`` front end reads standalone reStructuredText source files and produces ODF/.odt files that can be read, edited, printed, etc with OpenOffice ``oowriter`` (http://www.openoffice.org/).  A stylesheet file is required.  A stylesheet file is an OpenOffice .odt file containing definitions of the styles required for ``rst2odt.py``.  You can learn more about how to use ``rst2odt.py``, the styles used ``rst2odt.py``, etc from `Odt Writer for Docutils <odt.html>`_."
+msgstr ""
+
+#: ../../source/user/tools.rst:397
+msgid "reStructuredText-Generating Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:399
+msgid "Currently, there is no reStructuredText writer in Docutils and therefore an ``rst2rst.py`` tool is still missing."
+msgstr ""
+
+#: ../../source/user/tools.rst:402
+msgid "To generate reStructuredText documents with Docutils, you can use the XML (Docutils native) writer and the xml2rst_ processor."
+msgstr ""
+
+#: ../../source/user/tools.rst:407
+msgid "Testing/Debugging Tools"
+msgstr ""
+
+#: ../../source/user/tools.rst:410
+msgid "rst2pseudoxml.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:414
+msgid "Pseudo-XML"
+msgstr ""
+
+#: ../../source/user/tools.rst:416
+msgid "``rst2pseudoxml.py`` is used for debugging the Docutils \"Reader to Transform to Writer\" pipeline.  It produces a compact pretty-printed \"pseudo-XML\", where nesting is indicated by indentation (no end-tags). External attributes for all elements are output, and internal attributes for any leftover \"pending\" elements are also given."
+msgstr ""
+
+#: ../../source/user/tools.rst:424
+msgid "quicktest.py"
+msgstr ""
+
+#: ../../source/user/tools.rst:426
+#: ../../source/user/tools.rst:428
+msgid "N/A"
+msgstr ""
+
+#: ../../source/user/tools.rst:430
+msgid "The ``quicktest.py`` tool is used for testing the reStructuredText parser.  It does not use a Docutils Reader or Writer or the standard Docutils command-line options.  Rather, it does its own I/O and calls the parser directly.  No transforms are applied to the parsed document.  Various forms output are possible:"
+msgstr ""
+
+#: ../../source/user/tools.rst:436
+msgid "Pretty-printed pseudo-XML (default)"
+msgstr ""
+
+#: ../../source/user/tools.rst:437
+msgid "Test data (Python list of input and pseudo-XML output strings; useful for creating new test cases)"
+msgstr ""
+
+#: ../../source/user/tools.rst:439
+msgid "Pretty-printed native XML"
+msgstr ""
+
+#: ../../source/user/tools.rst:440
+msgid "Raw native XML (with or without a stylesheet reference)"
+msgstr ""
+
+#: ../../source/user/tools.rst:446
+msgid "Customization"
+msgstr ""
+
+#: ../../source/user/tools.rst:449
+msgid "Command-Line Options"
+msgstr ""
+
+#: ../../source/user/tools.rst:451
+msgid "Each front-end tool supports command-line options for one-off customization.  For persistent customization, use `configuration files`_.  Command-line options take priority over configuration file settings."
+msgstr ""
+
+#: ../../source/user/tools.rst:456
+msgid "Use the \"--help\" option on each of the front ends to list the command-line options it supports.  Command-line options and their corresponding configuration file entry names are listed in the `Docutils Configuration Files`_ document."
+msgstr ""
+
+#: ../../source/user/tools.rst:465
+msgid "Configuration Files"
+msgstr ""
+
+#: ../../source/user/tools.rst:467
+msgid "Configuration files are used for persistent customization; they can be set once and take effect every time you use a front-end tool."
+msgstr ""
+
+#: ../../source/user/tools.rst:470
+msgid "For details, see `Docutils Configuration Files`_."
+msgstr ""
+

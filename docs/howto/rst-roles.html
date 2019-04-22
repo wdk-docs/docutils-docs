@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Creating reStructuredText Interpreted Text Roles &mdash; docutils-docs v2019.04.12 文档</title>
+  <title>创建reStructuredText解释的文本角色 &mdash; docutils-docs v2019.04.12 文档</title>
   
 
   
@@ -36,7 +36,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="prev" title="Creating reStructuredText Directives" href="rst-directives.html" /> 
+    <link rel="next" title="Writing HTML (CSS) Stylesheets for Docutils" href="html-stylesheets.html" />
+    <link rel="prev" title="创建 reStructuredText 指令" href="rst-directives.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -50,7 +51,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> docutils-docs
+            <a href="../contents.html" class="icon icon-home"> docutils-docs
           
 
           
@@ -82,19 +83,24 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../README.html">README: Docutils 0.15b.dev</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../rst.html">Markup Syntax and Parser Component of Docutils</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">Reference Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release/index.html">版本发布</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doc.html">文档实用程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst.html">Docutils 的标记语法和解析器组件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">用户文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">参考文档</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Developer Documentation</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">How-To’s</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="rst-directives.html">Creating reStructuredText Directives</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Creating reStructuredText Interpreted Text Roles</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#define-the-role-function">Define the Role Function</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">基本知识</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rst-directives.html">创建 reStructuredText 指令</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">创建reStructuredText解释的文本角色</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#define-the-role-function">定义角色功能</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="html-stylesheets.html">Writing HTML (CSS) Stylesheets for Docutils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="i18n.html">Docutils Internationalization</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API Documentation</a></li>
 </ul>
 
             
@@ -109,7 +115,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">docutils-docs</a>
+          <a href="../contents.html">docutils-docs</a>
         
       </nav>
 
@@ -138,11 +144,11 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../contents.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">How-To’s</a> &raquo;</li>
+          <li><a href="index.html">基本知识</a> &raquo;</li>
         
-      <li>Creating reStructuredText Interpreted Text Roles</li>
+      <li>创建reStructuredText解释的文本角色</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -162,7 +168,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="creating-restructuredtext-interpreted-text-roles">
-<h1><a class="toc-backref" href="#id4">Creating reStructuredText Interpreted Text Roles</a><a class="headerlink" href="#creating-restructuredtext-interpreted-text-roles" title="永久链接至标题">¶</a></h1>
+<h1><a class="toc-backref" href="#id4">创建reStructuredText解释的文本角色</a><a class="headerlink" href="#creating-restructuredtext-interpreted-text-roles" title="永久链接至标题">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Authors</dt>
 <dd class="field-odd"><p>David Goodger</p>
@@ -177,29 +183,24 @@
 <dd class="field-even"><p>$Revision: 7302 $</p>
 </dd>
 <dt class="field-odd">Copyright</dt>
-<dd class="field-odd"><p>This document has been placed in the public domain.</p>
+<dd class="field-odd"><p>本文档已置于公共领域。</p>
 </dd>
 </dl>
-<p>Interpreted text roles are an extension mechanism for inline markup in
-reStructuredText.  This document aims to make the creation of new
-roles as easy and understandable as possible.</p>
-<p>Standard roles are described in <a class="reference external" href="../ref/rst/roles.html">reStructuredText Interpreted Text
-Roles</a>.  See the <a class="reference external" href="../ref/rst/restructuredtext.html#interpreted-text">Interpreted Text</a> section in the <a class="reference external" href="../ref/rst/restructuredtext.html">reStructuredText
-Markup Specification</a> for syntax details.</p>
+<p>解释的文本角色是reStructuredText中内联标记的扩展机制。本文档旨在使新角色的创建尽可能简单易懂。</p>
+<p>标准角色在 <a class="reference external" href="../ref/rst/roles.html">reStructuredText Interpreted Text Roles</a> 中描述。有关语法详细信息，请参阅 <a class="reference external" href="../ref/rst/restructuredtext.html">reStructuredText Markup Specification</a> 中的 <a class="reference external" href="../ref/rst/restructuredtext.html#interpreted-text">Interpreted Text</a> 部分。</p>
 <div class="contents topic" id="id1">
 <p class="topic-title first">目录</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#creating-restructuredtext-interpreted-text-roles" id="id4">Creating reStructuredText Interpreted Text Roles</a></p>
+<li><p><a class="reference internal" href="#creating-restructuredtext-interpreted-text-roles" id="id4">创建reStructuredText解释的文本角色</a></p>
 <ul>
-<li><p><a class="reference internal" href="#define-the-role-function" id="id5">Define the Role Function</a></p></li>
+<li><p><a class="reference internal" href="#define-the-role-function" id="id5">定义角色功能</a></p></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="section" id="define-the-role-function">
-<h2><a class="toc-backref" href="#id5">Define the Role Function</a><a class="headerlink" href="#define-the-role-function" title="永久链接至标题">¶</a></h2>
-<p>The role function creates and returns inline elements (nodes) and does
-any additional processing required.  Its signature is as follows:</p>
+<h2><a class="toc-backref" href="#id5">定义角色功能</a><a class="headerlink" href="#define-the-role-function" title="永久链接至标题">¶</a></h2>
+<p>角色函数创建并返回内联元素(节点)，并执行所需的任何其他处理。它的签名如下:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">role_fn</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">rawtext</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">lineno</span><span class="p">,</span> <span class="n">inliner</span><span class="p">,</span>
             <span class="n">options</span><span class="o">=</span><span class="p">{},</span> <span class="n">content</span><span class="o">=</span><span class="p">[]):</span>
     <span class="n">code</span><span class="o">...</span>
@@ -209,16 +210,12 @@ any additional processing required.  Its signature is as follows:</p>
 <span class="n">role_fn</span><span class="o">.</span><span class="n">content</span> <span class="o">=</span> <span class="o">...</span>
 </pre></div>
 </div>
-<p>Function attributes are described below (see <a href="#id6"><span class="problematic" id="id7">`Specify Role Function
-Options and Content`_</span></a>).  The role function parameters are as follows:</p>
+<p>函数属性如下所述(请参阅 <a href="#id6"><span class="problematic" id="id7">`Specify Role Function Options and Content`_</span></a> )。角色功能参数如下:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code>: The local name of the interpreted role, the role name
-actually used in the document.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rawtext</span></code>: A string containing the enitre interpreted text input,
-including the role and markup.  Return it as a <code class="docutils literal notranslate"><span class="pre">problematic</span></code> node
-linked to a system message if a problem is encountered.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">text</span></code>: The interpreted text content.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">lineno</span></code>: The line number where the interpreted text begins.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code>: 解释角色的本地名称，文档中实际使用的角色名称。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rawtext</span></code>: 包含整个解释文本输入的字符串，包括角色和标记。如果遇到问题，将其作为与系统消息链接的 <code class="docutils literal notranslate"><span class="pre">problematic</span></code> 节点返回。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">text</span></code>: 解释的文本内容。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">lineno</span></code>: 解释文本开始的行号。</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">inliner</span></code>: The <a href="#id2"><span class="problematic" id="id3">``</span></a>docutils.parsers.rst.sta</p></li>
 </ul>
 </div>
@@ -232,8 +229,10 @@ linked to a system message if a problem is encountered.</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="html-stylesheets.html" class="btn btn-neutral float-right" title="Writing HTML (CSS) Stylesheets for Docutils" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="rst-directives.html" class="btn btn-neutral float-left" title="Creating reStructuredText Directives" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+        <a href="rst-directives.html" class="btn btn-neutral float-left" title="创建 reStructuredText 指令" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

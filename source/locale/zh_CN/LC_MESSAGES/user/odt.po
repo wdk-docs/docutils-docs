@@ -1,0 +1,1989 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user/odt.rst:3
+msgid "Odt Writer for Docutils"
+msgstr ""
+
+#: ../../source/user/odt.rst
+msgid "Author"
+msgstr ""
+
+#: ../../source/user/odt.rst:5
+msgid "Dave Kuhlman"
+msgstr ""
+
+#: ../../source/user/odt.rst
+msgid "Contact"
+msgstr ""
+
+#: ../../source/user/odt.rst:6
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../source/user/odt.rst
+msgid "Revision"
+msgstr ""
+
+#: ../../source/user/odt.rst:7
+msgid "$Revision: 8162 $"
+msgstr ""
+
+#: ../../source/user/odt.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/user/odt.rst:8
+msgid "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
+msgstr ""
+
+#: ../../source/user/odt.rst
+msgid "Copyright"
+msgstr ""
+
+#: ../../source/user/odt.rst:9
+msgid "This document has been placed in the public domain."
+msgstr ""
+
+#: ../../source/user/odt.rst
+msgid "abstract"
+msgstr ""
+
+#: ../../source/user/odt.rst:11
+msgid "This document describes the Docutils odtwriter (rst2odt.py)."
+msgstr ""
+
+#: ../../source/user/odt.rst:18
+msgid "目录"
+msgstr ""
+
+#: ../../source/user/odt.rst:21
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/user/odt.rst:23
+msgid ""
+"What it does -- ``rst2odt.py`` translates reST (reStructuredText) into a "
+"Open Document Format ``.odt`` file.  You can learn more about the ODF "
+"format here:"
+msgstr ""
+
+#: ../../source/user/odt.rst:27
+msgid "`OASIS Open Document Format for Office Applications (OpenDocument) TC`_"
+msgstr ""
+
+#: ../../source/user/odt.rst:30
+msgid "`Open Document at Wikipedia`_"
+msgstr ""
+
+#: ../../source/user/odt.rst:32
+msgid ""
+"You should be able to open documents (.odt files) generated with "
+"``rst2odt.py`` in ``OpenOffice/oowriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:35
+msgid "You can learn more about Docutils and reST here: `Docutils`_"
+msgstr ""
+
+#: ../../source/user/odt.rst:39
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/user/odt.rst:41
+msgid "In addition to the Docutils standard requirements, ``odtwriter`` requires:"
+msgstr ""
+
+#: ../../source/user/odt.rst:44
+msgid ""
+"Optional -- `Pygments`_ is required if you want syntax highlighting of "
+"code in literal blocks.  See section `Syntax highlighting`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:48
+msgid ""
+"Optional -- `Python Imaging Library`_ (PIL) is required if on an image or"
+" figure directive, you specify ``scale`` but not ``width`` and "
+"``height``.  See section `Images and figures`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:55
+msgid "How to Use It"
+msgstr ""
+
+#: ../../source/user/odt.rst:57
+msgid "Run it from the command line as follows::"
+msgstr ""
+
+#: ../../source/user/odt.rst:61
+msgid ""
+"To see usage information and to learn about command line options that you"
+" can use, run the following::"
+msgstr ""
+
+#: ../../source/user/odt.rst:66
+msgid "Examples::"
+msgstr ""
+
+#: ../../source/user/odt.rst:74
+msgid "Configuration file"
+msgstr ""
+
+#: ../../source/user/odt.rst:76
+msgid ""
+"The options described below can also be set in a configuration file. Use "
+"section ``[odf_odt writer]`` to set options specific to the "
+"``odtwriter``.  For example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:83
+msgid ""
+"See the \"Docutils Configuration\" document for more information on "
+"Docutils configuration files, including locations which are searched."
+msgstr ""
+
+#: ../../source/user/odt.rst:89
+msgid "Command line options"
+msgstr ""
+
+#: ../../source/user/odt.rst:91
+msgid "The following command line options are specific to ``odtwriter``:"
+msgstr ""
+
+#: ../../source/user/odt.rst:93
+msgid ""
+"Specify a stylesheet URL, used verbatim. Default: "
+"writers/odf_odt/styles.odt in the installation directory."
+msgstr ""
+
+#: ../../source/user/odt.rst:97
+msgid ""
+"Specify a configuration/mapping file relative to the current working "
+"directory for additional ODF options. In particular, this file may "
+"contain a section named \"Formats\" that maps default style names to "
+"names to be used in the resulting output file allowing for adhering to "
+"external standards. For more info and the format of the "
+"configuration/mapping file, see the odtwriter doc."
+msgstr ""
+
+#: ../../source/user/odt.rst:106
+msgid ""
+"Obfuscate email addresses to confuse harvesters while still keeping email"
+" links usable with standards- compliant browsers."
+msgstr ""
+
+#: ../../source/user/odt.rst:110
+msgid "Do not obfuscate email addresses."
+msgstr ""
+
+#: ../../source/user/odt.rst:112
+msgid ""
+"Specify the thickness of table borders in thousands of a cm.  Default is "
+"35."
+msgstr ""
+
+#: ../../source/user/odt.rst:115
+msgid "Add syntax highlighting in literal code blocks."
+msgstr ""
+
+#: ../../source/user/odt.rst:117
+msgid "Do not add syntax highlighting in literal code blocks. (default)"
+msgstr ""
+
+#: ../../source/user/odt.rst:119
+msgid "Create sections for headers.  (default)"
+msgstr ""
+
+#: ../../source/user/odt.rst:120
+msgid "Do not create sections for headers."
+msgstr ""
+
+#: ../../source/user/odt.rst:121
+msgid "Create links."
+msgstr ""
+
+#: ../../source/user/odt.rst:122
+msgid "Do not create links.  (default)"
+msgstr ""
+
+#: ../../source/user/odt.rst:123
+msgid "Generate endnotes at end of document, not footnotes at bottom of page."
+msgstr ""
+
+#: ../../source/user/odt.rst:125
+msgid ""
+"Generate footnotes at bottom of page, not endnotes at end of document. "
+"(default)"
+msgstr ""
+
+#: ../../source/user/odt.rst:127
+msgid ""
+"Generate a bullet list table of contents, not an ODF/``oowriter`` table "
+"of contents."
+msgstr ""
+
+#: ../../source/user/odt.rst:130
+msgid ""
+"Generate an ODF/``oowriter`` table of contents, not a bullet list.  "
+"(default) **Note:** ``odtwriter`` is not able to determine page numbers, "
+"so you will need to open the generated document in ``oowriter``, then "
+"right-click on the table of contents and select \"Update\" to insert page"
+" numbers."
+msgstr ""
+
+#: ../../source/user/odt.rst:138
+msgid ""
+"Specify the contents of an custom header line.  See odf_odt writer "
+"documentation for details about special field character sequences.  See "
+"section `Custom header/footers: inserting page numbers, date, time, etc`_"
+" for details"
+msgstr ""
+
+#: ../../source/user/odt.rst:144
+msgid ""
+"Specify the contents of an custom footer line.  See odf_odt writer "
+"documentation for details about special field character sequences.  See "
+"section `Custom header/footers: inserting page numbers, date, time, etc`_"
+" for details"
+msgstr ""
+
+#: ../../source/user/odt.rst:153
+msgid "Styles and Classes"
+msgstr ""
+
+#: ../../source/user/odt.rst:155
+msgid ""
+"``odtwriter`` uses a number of styles that are defined in ``styles.xml`` "
+"in the default ``styles.odt``.  This section describes those styles."
+msgstr ""
+
+#: ../../source/user/odt.rst:159
+msgid ""
+"Note that with the ``--stylesheet`` command line option, you can use "
+"either ``styles.odt`` or ``styles.xml``, as described below. Use of "
+"``styles.odt`` is recommended over ``styles.xml``."
+msgstr ""
+
+#: ../../source/user/odt.rst:163
+msgid ""
+"You can modify the look of documents generated by ``odtwriter`` in "
+"several ways:"
+msgstr ""
+
+#: ../../source/user/odt.rst:166
+msgid ""
+"Open (a copy of) ``styles.odt`` in ``OpenOffice/oowriter`` and modify the"
+" style you wish to change. Now, save this document, then generate your "
+"documents using this modified copy of ``styles.odt``."
+msgstr ""
+
+#: ../../source/user/odt.rst:171
+msgid ""
+"In my version of ``oowriter``, to modify styles, either (1) press F11 or "
+"(2) use menu item \"Format/Styles and Formatting\", then right-click on "
+"the relevant style and select \"Modify\". Modify the style, then save "
+"your document."
+msgstr ""
+
+#: ../../source/user/odt.rst:176
+msgid ""
+"Open a document generated by ``odtwriter`` in `oowriter``.  Now, edit the"
+" style you are interested in modifying.  Now, you can extract the "
+"styles.xml file from your document and either (1) use this as your "
+"default styles file or (2) copy and paste the relevant style definition "
+"into your styles.xml."
+msgstr ""
+
+#: ../../source/user/odt.rst:182
+msgid ""
+"Extract ``styles.xml`` from ``styles.odt`` using your favorite "
+"``zip/unzip`` tool.  Then modify ``styles.xml`` with a text editor.  Now "
+"re-zip it back into your own ``styles.odt``, or use it directly by "
+"specifying it with the ``--stylesheet`` command line option.  **Hint:** "
+"If you intend to extract ``styles.xml`` from an ``.odt`` file (and then "
+"\"re-zip\" it), you should turn off XML optimization/compression in "
+"``oowriter``.  In order to this in ``oowriter``, use Tools --> Options..."
+"  --> Load-Save --> General and turn off \"Size optimization for XML "
+"format\"."
+msgstr ""
+
+#: ../../source/user/odt.rst:192
+msgid ""
+"Open an empty (or new) document in ``oowriter``.  Define all of the "
+"styles described in this section.  Then, use that document (a .odt file) "
+"as your stylesheet.  ``odtwriter`` will extract the ``styles.xml`` file "
+"from that document and insert it into the output document."
+msgstr ""
+
+#: ../../source/user/odt.rst:198
+msgid "Some combination of the above."
+msgstr ""
+
+#: ../../source/user/odt.rst:202
+msgid "Styles used by odtwriter"
+msgstr ""
+
+#: ../../source/user/odt.rst:204
+msgid "This section describes the styles used by ``odtwriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:206
+msgid ""
+"Note that we do not describe the \"look\" of these styles.  That can be "
+"easily changed by using ``oowriter`` to edit the document ``styles.odt`` "
+"(or a copy of it), and modifying any of the styles described here."
+msgstr ""
+
+#: ../../source/user/odt.rst:211
+msgid ""
+"To change the definition and appearance of these styles, open "
+"``styles.odt`` in ``oowriter`` and open the Styles and Formatting window "
+"by using the following menu item::"
+msgstr ""
+
+#: ../../source/user/odt.rst:217
+msgid ""
+"Then, click on the Paragraph Styles button or the Character Styles button"
+" at the top of the Styles and Formatting window.  You may also need to "
+"select \"All Styles\" from the drop-down selection list at the bottom of "
+"the Styles and Formatting window in order to see the styles used by "
+"``odtwriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:223
+msgid ""
+"Notice that you can make a copy of file ``styles.odt``, modify it using "
+"``oowriter``, and then use your copy with the ``--stylesheet=<file>`` "
+"command line option.  Example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:231
+msgid "Paragraph styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:236
+msgid "rststyle-attribution"
+msgstr ""
+
+#: ../../source/user/odt.rst:234
+msgid ""
+"The style for attributions, for example, the attribution in a ``.. "
+"epigraph::`` directive.  Derived from ``rststyle-blockquote``."
+msgstr ""
+
+#: ../../source/user/odt.rst:239
+msgid "rststyle-blockindent"
+msgstr ""
+
+#: ../../source/user/odt.rst:239 ../../source/user/odt.rst:251
+msgid "An indented block."
+msgstr ""
+
+#: ../../source/user/odt.rst:242
+msgid "rststyle-blockquote"
+msgstr ""
+
+#: ../../source/user/odt.rst:242
+msgid "A block quote."
+msgstr ""
+
+#: ../../source/user/odt.rst:245
+msgid "rststyle-blockquote-bulletitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:245
+msgid "The style for bullet list items inside block quote."
+msgstr ""
+
+#: ../../source/user/odt.rst:248
+msgid "rststyle-blockquote-enumitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:248
+msgid "The style for enumerated list items inside block quote."
+msgstr ""
+
+#: ../../source/user/odt.rst:251
+msgid "rststyle-bodyindent"
+msgstr ""
+
+#: ../../source/user/odt.rst:254
+msgid "rststyle-bulletitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:254
+msgid "An item in an bullet list."
+msgstr ""
+
+#: ../../source/user/odt.rst:258
+msgid "rststyle-caption"
+msgstr ""
+
+#: ../../source/user/odt.rst:257
+msgid "The caption in a figure or image.  Also see ``rststyle-legend``."
+msgstr ""
+
+#: ../../source/user/odt.rst:264
+msgid "rststyle-codeblock"
+msgstr ""
+
+#: ../../source/user/odt.rst:261
+msgid ""
+"Literal code blocks -- A block of example code.  Created with double "
+"colon (\"::\") followed by an indented block or with the ``.. parsed-"
+"literal::`` directive.  Derived from the ``Preformatted Text`` style in "
+"``oowriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:267
+msgid "rststyle-enumitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:267
+msgid "An item in an enumerated list."
+msgstr ""
+
+#: ../../source/user/odt.rst:272
+msgid "rststyle-epigraph"
+msgstr ""
+
+#: ../../source/user/odt.rst:270
+msgid ""
+"The style for epigraphs, for example, the body of an ``.. epigraph::`` "
+"directive.  Derived from ``rststyle-blockquote``."
+msgstr ""
+
+#: ../../source/user/odt.rst:275
+msgid "rststyle-epigraph-bulletitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:275
+msgid "The style for bullet list items inside epigraphs."
+msgstr ""
+
+#: ../../source/user/odt.rst:278
+msgid "rststyle-epigraph-enumitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:278
+msgid "The style for enumerated list items inside epigraphs."
+msgstr ""
+
+#: ../../source/user/odt.rst:285
+msgid "rststyle-footer"
+msgstr ""
+
+#: ../../source/user/odt.rst:281
+msgid ""
+"The style for footers.  The footer content originates from the "
+"``..footer::`` directive and in response to the command line flags for "
+"generator (``--generator``), date/time generated (``--date`` and "
+"``--time``), and view source link (``--source-link`` and ``--source-"
+"url=URL``)."
+msgstr ""
+
+#: ../../source/user/odt.rst:289
+msgid "rststyle-header"
+msgstr ""
+
+#: ../../source/user/odt.rst:288
+msgid ""
+"The style for headers.  The header content originates from the "
+"``..header::`` directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:294
+msgid "rststyle-highlights"
+msgstr ""
+
+#: ../../source/user/odt.rst:292
+msgid ""
+"The style for highlightss, for example, the body of an ``.. "
+"highlights::`` directive.  Derived from ``rststyle-blockquote``."
+msgstr ""
+
+#: ../../source/user/odt.rst:297
+msgid "rststyle-highlights-bulletitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:297
+msgid "The style for bullet list items inside highlights."
+msgstr ""
+
+#: ../../source/user/odt.rst:300
+msgid "rststyle-highlights-enumitem"
+msgstr ""
+
+#: ../../source/user/odt.rst:300
+msgid "The style for enumerated list items inside highlights."
+msgstr ""
+
+#: ../../source/user/odt.rst:303
+msgid "rststyle-horizontalline"
+msgstr ""
+
+#: ../../source/user/odt.rst:303
+msgid "A horizontal line, e.g. used for transitions."
+msgstr ""
+
+#: ../../source/user/odt.rst:307
+msgid "rststyle-legend"
+msgstr ""
+
+#: ../../source/user/odt.rst:306
+msgid ""
+"The legend in a figure.  See the Docutils figure directive.  Also see "
+"``rststyle-caption``."
+msgstr ""
+
+#: ../../source/user/odt.rst:311
+msgid "rststyle-table-title"
+msgstr ""
+
+#: ../../source/user/odt.rst:310
+msgid "The style for titles of tables.  See section `The table directive`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:316
+msgid "rststyle-textbody"
+msgstr ""
+
+#: ../../source/user/odt.rst:314
+msgid ""
+"Normal text.  The style for paragraphs.  Derived from the ``Text body`` "
+"style in ``oowriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:319
+msgid "Character styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:322
+msgid "rststyle-emphasis"
+msgstr ""
+
+#: ../../source/user/odt.rst:322
+msgid "Emphasis.  Normally rendered as italics."
+msgstr ""
+
+#: ../../source/user/odt.rst:325
+msgid "rststyle-inlineliteral"
+msgstr ""
+
+#: ../../source/user/odt.rst:325
+msgid "An inline literal."
+msgstr ""
+
+#: ../../source/user/odt.rst:328
+msgid "rststyle-strong"
+msgstr ""
+
+#: ../../source/user/odt.rst:328
+msgid "Strong emphasis.  Normally rendered as boldface."
+msgstr ""
+
+#: ../../source/user/odt.rst:331
+msgid "rststyle-quotation"
+msgstr ""
+
+#: ../../source/user/odt.rst:331
+msgid "In-line quoted material."
+msgstr ""
+
+#: ../../source/user/odt.rst:334
+msgid "rststyle-codeblock-classname"
+msgstr ""
+
+#: ../../source/user/odt.rst:334
+msgid "Syntax highlighting in literal code blocks -- class names."
+msgstr ""
+
+#: ../../source/user/odt.rst:337
+msgid "rststyle-codeblock-comment"
+msgstr ""
+
+#: ../../source/user/odt.rst:337
+msgid "Syntax highlighting in literal code blocks -- comments."
+msgstr ""
+
+#: ../../source/user/odt.rst:340
+msgid "rststyle-codeblock-functionname"
+msgstr ""
+
+#: ../../source/user/odt.rst:340
+msgid "Syntax highlighting in literal code blocks -- function names."
+msgstr ""
+
+#: ../../source/user/odt.rst:344
+msgid "rststyle-codeblock-keyword"
+msgstr ""
+
+#: ../../source/user/odt.rst:343
+msgid "Syntax highlighting in literal code blocks -- Python language keywords."
+msgstr ""
+
+#: ../../source/user/odt.rst:348
+msgid "rststyle-codeblock-name"
+msgstr ""
+
+#: ../../source/user/odt.rst:347
+msgid ""
+"Syntax highlighting in literal code blocks -- other names, for example, "
+"variables."
+msgstr ""
+
+#: ../../source/user/odt.rst:352
+msgid "rststyle-codeblock-number"
+msgstr ""
+
+#: ../../source/user/odt.rst:351
+msgid ""
+"Syntax highlighting in literal code blocks -- literal numbers, including "
+"integers, floats, hex numbers, and octal numbers."
+msgstr ""
+
+#: ../../source/user/odt.rst:355
+msgid "rststyle-codeblock-operator"
+msgstr ""
+
+#: ../../source/user/odt.rst:355
+msgid "Syntax highlighting in literal code blocks -- Python operators."
+msgstr ""
+
+#: ../../source/user/odt.rst:359
+msgid "rststyle-codeblock-string"
+msgstr ""
+
+#: ../../source/user/odt.rst:358
+msgid "Syntax highlighting in literal code blocks -- literal strings."
+msgstr ""
+
+#: ../../source/user/odt.rst:362
+msgid "List styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:365
+msgid "rststyle-bulletlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:365
+msgid "Bullet lists (but not in the table of contents)"
+msgstr ""
+
+#: ../../source/user/odt.rst:368
+msgid "rststyle-blockquote-bulletlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:368
+msgid "Bullet lists in block quotes."
+msgstr ""
+
+#: ../../source/user/odt.rst:371
+msgid "rststyle-blockquote-enumlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:371
+msgid "Enumerated lists in block quotes."
+msgstr ""
+
+#: ../../source/user/odt.rst:374
+msgid "rststyle-enumlist-arabic"
+msgstr ""
+
+#: ../../source/user/odt.rst:374
+msgid "Enumerated lists, arabic (but not in the table of contents)"
+msgstr ""
+
+#: ../../source/user/odt.rst:377
+msgid "rststyle-enumlist-loweralpha"
+msgstr ""
+
+#: ../../source/user/odt.rst:377
+msgid "Enumerated lists, lower alpha (but not in the table of contents)"
+msgstr ""
+
+#: ../../source/user/odt.rst:380
+msgid "rststyle-enumlist-lowerroman"
+msgstr ""
+
+#: ../../source/user/odt.rst:380
+msgid "Enumerated lists, lower roman (but not in the table of contents)"
+msgstr ""
+
+#: ../../source/user/odt.rst:383
+msgid "rststyle-enumlist-upperalpha"
+msgstr ""
+
+#: ../../source/user/odt.rst:383
+msgid "Enumerated lists, upper alpha (but not in the table of contents)"
+msgstr ""
+
+#: ../../source/user/odt.rst:386
+msgid "rststyle-enumlist-upperroman"
+msgstr ""
+
+#: ../../source/user/odt.rst:386
+msgid "Enumerated lists, upper roman (but not in the table of contents)"
+msgstr ""
+
+#: ../../source/user/odt.rst:390
+msgid "rststyle-epigraph-bulletlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:389
+msgid "Bullet lists in epigraphs.  See the ``.. epigraph::`` directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:394
+msgid "rststyle-epigraph-enumlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:393
+msgid "Enumerated lists in epigraphs.  See the ``.. epigraph::`` directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:398
+msgid "rststyle-highlights-bulletlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:397
+msgid "Bullet lists in highlights blocks.  See the ``.. highlights::`` directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:402
+msgid "rststyle-highlights-enumlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:401
+msgid ""
+"Enumerated lists in highlights blocks.  See the ``.. highlights::`` "
+"directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:405
+msgid "rststyle-tocbulletlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:405
+msgid "Lists in the table of contents when section numbering is off."
+msgstr ""
+
+#: ../../source/user/odt.rst:409
+msgid "rststyle-tocenumlist"
+msgstr ""
+
+#: ../../source/user/odt.rst:408
+msgid "Lists in the table of contents when section numbering is on."
+msgstr ""
+
+#: ../../source/user/odt.rst:412
+msgid "Admonition styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:415
+msgid "rststyle-admon-attention-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:415
+msgid "The style for the attention admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:418
+msgid "rststyle-admon-attention-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:418
+msgid "The style for the attention admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:421
+msgid "rststyle-admon-caution-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:421
+msgid "The style for the caution admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:424
+msgid "rststyle-admon-caution-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:424
+msgid "The style for the caution admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:427
+msgid "rststyle-admon-danger-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:427
+msgid "The style for the  admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:430
+msgid "rststyle-admon-danger-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:430
+msgid "The style for the danger admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:433
+msgid "rststyle-admon-error-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:433
+msgid "The style for the error admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:436
+msgid "rststyle-admon-error-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:436
+msgid "The style for the error admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:439 ../../source/user/odt.rst:445
+msgid "rststyle-admon-hint-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:439 ../../source/user/odt.rst:445
+msgid "The style for the hint admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:442 ../../source/user/odt.rst:448
+msgid "rststyle-admon-hint-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:442 ../../source/user/odt.rst:448
+msgid "The style for the hint admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:451
+msgid "rststyle-admon-important-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:451
+msgid "The style for the important admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:454
+msgid "rststyle-admon-important-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:454
+msgid "The style for the important admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:457 ../../source/user/odt.rst:460
+msgid "rststyle-admon-note-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:457 ../../source/user/odt.rst:460
+msgid "The style for the note admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:463
+msgid "rststyle-admon-tip-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:463
+msgid "The style for the tip admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:466
+msgid "rststyle-admon-tip-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:466
+msgid "The style for the tip admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:469
+msgid "rststyle-admon-warning-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:469
+msgid "The style for the warning admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:472
+msgid "rststyle-admon-warning-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:472
+msgid "The style for the warning admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:475
+msgid "rststyle-admon-generic-body"
+msgstr ""
+
+#: ../../source/user/odt.rst:475
+msgid "The style for the generic admonition body/paragraph."
+msgstr ""
+
+#: ../../source/user/odt.rst:479
+msgid "rststyle-admon-generic-hdr"
+msgstr ""
+
+#: ../../source/user/odt.rst:478
+msgid "The style for the generic admonition header/title."
+msgstr ""
+
+#: ../../source/user/odt.rst:482
+msgid "Rubric style"
+msgstr ""
+
+#: ../../source/user/odt.rst:485
+msgid "rststyle-rubric"
+msgstr ""
+
+#: ../../source/user/odt.rst:485
+msgid "The style for the text in a rubric directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:487
+msgid ""
+"The rubric directive recognizes a \"class\" option.  If entered, "
+"odtwriter uses the value of that option instead of the ``rststyle-"
+"rubric`` style.  Here is an example which which attaches the ``rststyle-"
+"heading1`` style to the generated rubric::"
+msgstr ""
+
+#: ../../source/user/odt.rst:497
+msgid "Table styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:499
+msgid ""
+"A table style is generated by ``oowriter`` for each table that you "
+"create.  Therefore, ``odtwriter`` attempts to do something similar. These"
+" styles are created in the ``content.xml`` document in the generated "
+"``.odt`` file.  These styles have names prefixed with \"rststyle-"
+"table-\"."
+msgstr ""
+
+#: ../../source/user/odt.rst:505
+msgid ""
+"There are two ways in which you can control the styles of your tables: "
+"one simple, the other a bit more complex, but more powerful."
+msgstr ""
+
+#: ../../source/user/odt.rst:509
+msgid ""
+"First, you can change the thickness of the borders of all tables "
+"generated in a document using the \"--table-border-thickness\" command "
+"line option."
+msgstr ""
+
+#: ../../source/user/odt.rst:513
+msgid ""
+"Second, you can control additional table properties and you can apply "
+"different styles to different tables within the same document by "
+"customizing and using tables in your stylesheet: ``styles.odt`` or "
+"whatever you name your copy of it using the --stylesheet command line "
+"option.  Then, follow these rules to apply a table style to the tables in"
+" your document:"
+msgstr ""
+
+#: ../../source/user/odt.rst:520
+msgid ""
+"The default table style -- Optionally, alter and customize the style "
+"applied by default to tables in your document by modifying table "
+"\"rststyle-table-0\" in your stylesheet (``styles.odt`` or a copy).  "
+"Caution: Do not change the name of this table."
+msgstr ""
+
+#: ../../source/user/odt.rst:525
+msgid ""
+"User-created table styles -- Add one or more new table styles to be "
+"applied selectively to tables in your document by doing the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:529
+msgid ""
+"Using ``oowriter``, add a table to your stylesheet and give it a name "
+"that starts with the prefix \"rststyle-table-\", for example \"rststyle-"
+"table-vegetabledata\".  Customize the table's border thickness, border "
+"color, and table background color."
+msgstr ""
+
+#: ../../source/user/odt.rst:534
+msgid ""
+"In your reStructuredText document, apply your new table style to a "
+"specific table by placing the \"..  class::\" directive immediately "
+"before the table, for example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:540
+msgid ""
+"The default table style will be applied to all tables for which you do "
+"not specify a style with the \"..  class::\" directive."
+msgstr ""
+
+#: ../../source/user/odt.rst:543
+msgid ""
+"Customize the table properties in ``oowriter`` using the table properties"
+" dialog for the table (style) that you wish to customize."
+msgstr ""
+
+#: ../../source/user/odt.rst:546
+msgid ""
+"Note that \"--table-border-thickness\" command line option overrides the "
+"border thickness specified in the stylesheet."
+msgstr ""
+
+#: ../../source/user/odt.rst:549
+msgid ""
+"The specific properties that you can control with this second method are "
+"the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:552
+msgid "Border thickness and border color."
+msgstr ""
+
+#: ../../source/user/odt.rst:554
+msgid ""
+"Background color -- When you change the background color of a table to be"
+" used as a style (in ``styles.odt`` or whatever you name it), make sure "
+"you change the background color for the *table* and *not* for a cell in "
+"the table.  ``odtwriter`` picks the background color from the table, not "
+"from a cell within the table."
+msgstr ""
+
+#: ../../source/user/odt.rst:563
+msgid "Line block styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:565
+msgid ""
+"The line block styles wrap the various nested levels of line blocks.  "
+"There is one line block style for each indent level."
+msgstr ""
+
+#: ../../source/user/odt.rst:569
+msgid "rststyle-lineblock1"
+msgstr ""
+
+#: ../../source/user/odt.rst:569
+msgid "Line block style for line block with no indent."
+msgstr ""
+
+#: ../../source/user/odt.rst:572
+msgid "rststyle-lineblock2"
+msgstr ""
+
+#: ../../source/user/odt.rst:572
+msgid "Line block style for line block indented 1 level."
+msgstr ""
+
+#: ../../source/user/odt.rst:575
+msgid "rststyle-lineblock3"
+msgstr ""
+
+#: ../../source/user/odt.rst:575
+msgid "Line block style for line block indented 2 levels."
+msgstr ""
+
+#: ../../source/user/odt.rst:578
+msgid "rststyle-lineblock4"
+msgstr ""
+
+#: ../../source/user/odt.rst:578
+msgid "Line block style for line block indented 3 levels."
+msgstr ""
+
+#: ../../source/user/odt.rst:581
+msgid "rststyle-lineblock5"
+msgstr ""
+
+#: ../../source/user/odt.rst:581
+msgid "Line block style for line block indented 4 levels."
+msgstr ""
+
+#: ../../source/user/odt.rst:584
+msgid "rststyle-lineblock6"
+msgstr ""
+
+#: ../../source/user/odt.rst:584
+msgid "Line block style for line block indented 5 levels."
+msgstr ""
+
+#: ../../source/user/odt.rst:586
+msgid "Notes:"
+msgstr ""
+
+#: ../../source/user/odt.rst:588
+msgid ""
+"``odtwriter`` does not check for a maximum level of indents within line "
+"blocks.  Therefore, you can define additional line block styles for "
+"additional levels if you need them.  Define these styles with the names "
+"``rststyle-lineblock7``, ``rststyle-lineblock8``, ..."
+msgstr ""
+
+#: ../../source/user/odt.rst:594
+msgid ""
+"Since the line block style is used to create indentation, a line block "
+"that is inside a block quote will use ``rststyle-lineblock2`` as its "
+"first level of indentation."
+msgstr ""
+
+#: ../../source/user/odt.rst:600
+msgid "Footnote and citation styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:604
+msgid "rststyle-footnote"
+msgstr ""
+
+#: ../../source/user/odt.rst:603
+msgid ""
+"The style for footnotes.  This style affects the footnote content, *not* "
+"the footnote reference in the body of the document."
+msgstr ""
+
+#: ../../source/user/odt.rst:611
+msgid "rststyle-citation"
+msgstr ""
+
+#: ../../source/user/odt.rst:607
+msgid ""
+"The style for citations.  This style affects the citation content, *not* "
+"the citation reference in the body of the document. You might need to "
+"adjust the indentation in this style depending on the length of the label"
+" used in your citations."
+msgstr ""
+
+#: ../../source/user/odt.rst:614
+msgid "Heading and title styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:619
+msgid "rststyle-heading{1|2|3|4|5}"
+msgstr ""
+
+#: ../../source/user/odt.rst:617
+msgid ""
+"The styles for headings (section titles and sub-titles).  Five levels of "
+"sub-headings are provided: rststyle-heading1 through rststyle-heading5."
+msgstr ""
+
+#: ../../source/user/odt.rst:622
+msgid "rststyle-title"
+msgstr ""
+
+#: ../../source/user/odt.rst:622
+msgid "The style for the document title."
+msgstr ""
+
+#: ../../source/user/odt.rst:626
+msgid "rststyle-subtitle"
+msgstr ""
+
+#: ../../source/user/odt.rst:625
+msgid "The style for the document sub-title."
+msgstr ""
+
+#: ../../source/user/odt.rst:629
+msgid "Image and figure styles"
+msgstr ""
+
+#: ../../source/user/odt.rst:633
+msgid "rststyle-image"
+msgstr ""
+
+#: ../../source/user/odt.rst:632
+msgid ""
+"The style applied to an image, either an image by itself or an image in a"
+" figure."
+msgstr ""
+
+#: ../../source/user/odt.rst:639
+msgid "rststyle-figureframe"
+msgstr ""
+
+#: ../../source/user/odt.rst:636
+msgid ""
+"The style applied to a figure (actually to the frame that surrounds a "
+"figure)."
+msgstr ""
+
+#: ../../source/user/odt.rst:642
+msgid "Defining and using a custom stylesheet"
+msgstr ""
+
+#: ../../source/user/odt.rst:644
+msgid "You can create your own custom stylesheet.  Here is how:"
+msgstr ""
+
+#: ../../source/user/odt.rst:646
+msgid "Make a copy of ``styles.odt``, which is in the distribution."
+msgstr ""
+
+#: ../../source/user/odt.rst:648
+msgid ""
+"Open your copy of ``styles.odt`` in ``oowriter``.  Modify styles in that "
+"document.  Then, save it."
+msgstr ""
+
+#: ../../source/user/odt.rst:651
+msgid ""
+"When you run ``rst2odt.py``, use the ``--stylesheet`` command line option"
+" to use your custom stylesheet.  Run ``rst2odt.py --help`` to learn more "
+"about these options."
+msgstr ""
+
+#: ../../source/user/odt.rst:657
+msgid "Why custom stylesheets"
+msgstr ""
+
+#: ../../source/user/odt.rst:659 ../../source/user/odt.rst:682
+msgid "Here are a few reasons and ideas:"
+msgstr ""
+
+#: ../../source/user/odt.rst:661
+msgid ""
+"The page size is stored in the style sheet.  The default page size is "
+"``Letter``.  You can change the page size (for example, to ``A4``) in "
+"your custom stylesheet by opening it in ``oowriter``, then clicking on "
+"menu: ``Format/Page...``, then clicking on the ``Page`` tab."
+msgstr ""
+
+#: ../../source/user/odt.rst:670
+msgid "Defining and using custom style names"
+msgstr ""
+
+#: ../../source/user/odt.rst:672
+msgid ""
+"[Credits: Stefan Merten designed and implemented the custom style names "
+"capability.  Thank you, Stefan.]"
+msgstr ""
+
+#: ../../source/user/odt.rst:675
+msgid "You can also instruct ``odtwriter`` to use style names of your own choice."
+msgstr ""
+
+#: ../../source/user/odt.rst:680
+msgid "Why custom style names"
+msgstr ""
+
+#: ../../source/user/odt.rst:684
+msgid ""
+"Suppose that your organization has a standard set of styles in OOo "
+"``oowriter`` and suppose that the use of these styles is required. You "
+"would like to generate ODF documents from reST text files, and you want "
+"the generated documents to contain these styles."
+msgstr ""
+
+#: ../../source/user/odt.rst:690
+msgid ""
+"Suppose that your company or organization has a policy of using a certain"
+" MS Word template for some set of documents.  You would like to generate "
+"ODF documents that use these custom style names, so that you can export "
+"these documents from ODF ``oowriter`` to MS Word documents that use these"
+" style names."
+msgstr ""
+
+#: ../../source/user/odt.rst:696
+msgid ""
+"Suppose that your documents are written in a language other than English."
+"  You would like the style names visible in the \"Styles and Formatting\""
+" window in OOo ``oowriter`` (menu item ``Format/Styles and Formatting``) "
+"to be understandable in the language of your users."
+msgstr ""
+
+#: ../../source/user/odt.rst:702
+msgid ""
+"``odtwriter`` maps single asterisks/stars (for example, \\*stuff\\*) to "
+"emphasis and double stars to strong.  You'd like to reverse these.  Or, "
+"you would like to generate headings level 3 and 4 where headings level 1 "
+"and 2 would normally be produced."
+msgstr ""
+
+#: ../../source/user/odt.rst:709
+msgid "How to use custom style names"
+msgstr ""
+
+#: ../../source/user/odt.rst:711
+msgid ""
+"In order to define custom style names and to generate documents that "
+"contain them, do the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:715
+msgid ""
+"Create a configuration file containing a \"Formats\" section.  The "
+"configuration file obeys the file format supported by the Python "
+"ConfigParser module: `ConfigParser -- Configuration file parser -- "
+"http://docs.python.org/lib/module-ConfigParser.html "
+"<http://docs.python.org/lib/module-ConfigParser.html>`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:722
+msgid ""
+"In the \"Formats\" section of the configuration file, create one option "
+"(a name-value pair) for each custom style name that you wish to define.  "
+"The option name is the standard ``odtwriter`` style name (without "
+"\"rststyle-\"), and the value is your custom style name.  Here is an "
+"example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:736
+msgid ""
+"Create a styles document that defines the styles generated by "
+"``odtwriter``.  You can create and edit the styles in OOo ``oowriter``.  "
+"It may be helpful to begin by making a copy of the styles document that "
+"is part of the ``odtwriter`` distribution (``styles.odt``)."
+msgstr ""
+
+#: ../../source/user/odt.rst:742
+msgid ""
+"When you run ``odtwriter``, specify the ``--odf-config-file`` option.  "
+"You might also want to specify your styles document using the "
+"``--stylesheet`` option in order to include your custom style "
+"definitions.  For example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:751
+msgid "Classes"
+msgstr ""
+
+#: ../../source/user/odt.rst:753
+msgid ""
+"``odtwriter`` uses the following Docutils class to provide additional "
+"control of the generation of ODF content:"
+msgstr ""
+
+#: ../../source/user/odt.rst:756
+msgid ""
+"Class ``wrap`` -- Use this to cause the wrapping of text around an image."
+"  The default is *not* to wrap text around images. Here is an example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:768
+msgid "Roles"
+msgstr ""
+
+#: ../../source/user/odt.rst:770
+msgid ""
+"You can use a Docutils custom interpreted text role to attach a character"
+" style to an inline area of text.  This capability also enables you to "
+"attach a new character style (with a new name) that you define yourself."
+"  Do this by defining your role in a stylesheet as a character style with"
+" \"rststyle-\" prefixed to your role name, then use the ``role`` "
+"directive and inline markup to apply your role."
+msgstr ""
+
+#: ../../source/user/odt.rst:778
+msgid "In order to use this capability, do the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:780
+msgid ""
+"Define the character style for your custom role in a stylesheet (a copy "
+"of ``styles.odt``) with the prefix \"rststyle-\". Remember: (1) If the "
+"name of your custom role is \"pretty\", then define a character style "
+"named \"rststyle-pretty\".  (2) Define the style as a *character* style, "
+"and *not*, for example as a paragraph style."
+msgstr ""
+
+#: ../../source/user/odt.rst:787
+msgid ""
+"Declare your role in the source reStructuredText document in a ``role`` "
+"directive.  Example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:792
+msgid "Use inline markup to apply your role to text.  Example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:796
+msgid "Here is another example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:802
+msgid ""
+"For more on roles see: `Custom Interpreted Text Roles -- "
+"http://docutils.sourceforge.net/docs/ref/rst/directives.html#custom-"
+"interpreted-text-roles "
+"<http://docutils.sourceforge.net/docs/ref/rst/directives.html#custom-"
+"interpreted-text-roles>`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:807
+msgid ""
+"**Note:** The ability to base a role on another existing role is *not* "
+"supported by ``odtwriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:812
+msgid "Hints and Suggestions and Features"
+msgstr ""
+
+#: ../../source/user/odt.rst:815
+msgid "Table of contents"
+msgstr ""
+
+#: ../../source/user/odt.rst:817
+msgid "The ``..contents::`` directive causes ``odtwriter`` to generate either:"
+msgstr ""
+
+#: ../../source/user/odt.rst:820
+msgid ""
+"A static, outline style table of contents, if the ``--generate-list-toc``"
+" command line option is specified, or"
+msgstr ""
+
+#: ../../source/user/odt.rst:823
+msgid ""
+"An ODF/``oowriter`` style table of contents containing dynamically "
+"updated page numbers and with the formatting control that ``oowriter`` "
+"gives you.  This is the default, or use the command line option "
+"``--generate-list-toc``.  **Note:** ``odtwriter`` is not able to "
+"determine page numbers, so you will need to open the generated document "
+"in ``oowriter``, then right-click on the table of contents and select "
+"\"Update\" to insert correct page numbers."
+msgstr ""
+
+#: ../../source/user/odt.rst:834
+msgid "Syntax highlighting"
+msgstr ""
+
+#: ../../source/user/odt.rst:836
+msgid ""
+"``odtwriter`` can add syntax highlighting to code in code blocks.  In "
+"order to activate this, do all of the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:839
+msgid "Install `Pygments`_ and ..."
+msgstr ""
+
+#: ../../source/user/odt.rst:841
+msgid "Use the command line option ``--add-syntax-highlighting``. Example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:846
+msgid ""
+"The following styles are defined in styles.odt and are used for literal "
+"code blocks and syntax highlighting:"
+msgstr ""
+
+#: ../../source/user/odt.rst:849
+msgid "Paragraph styles:"
+msgstr ""
+
+#: ../../source/user/odt.rst:851
+msgid "rststyle-codeblock -- The style for the code block as a whole."
+msgstr ""
+
+#: ../../source/user/odt.rst:853
+msgid "Character styles:"
+msgstr ""
+
+#: ../../source/user/odt.rst:855
+msgid "rststyle-codeblock-classname -- class names."
+msgstr ""
+
+#: ../../source/user/odt.rst:857
+msgid "rststyle-codeblock-comment -- comments."
+msgstr ""
+
+#: ../../source/user/odt.rst:859
+msgid "rststyle-codeblock-functionname -- function names."
+msgstr ""
+
+#: ../../source/user/odt.rst:861
+msgid "rststyle-codeblock-keyword -- Python language keywords."
+msgstr ""
+
+#: ../../source/user/odt.rst:863
+msgid "rststyle-codeblock-name -- other names, for example, variables."
+msgstr ""
+
+#: ../../source/user/odt.rst:866
+msgid ""
+"rststyle-codeblock-number -- literal numbers, including integers, floats,"
+" hex numbers, and octal numbers."
+msgstr ""
+
+#: ../../source/user/odt.rst:869
+msgid "rststyle-codeblock-operator -- Python operators."
+msgstr ""
+
+#: ../../source/user/odt.rst:871
+msgid "rststyle-codeblock-string -- literal strings."
+msgstr ""
+
+#: ../../source/user/odt.rst:873
+msgid ""
+"Each of the above styles has a default appearance that is defined in "
+"``styles.odt``.  To change that definition and appearance, open "
+"``styles.odt`` in ``oowriter`` and use menu item::"
+msgstr ""
+
+#: ../../source/user/odt.rst:879
+msgid ""
+"Then, click on the Paragraph Styles button or the Character Styles button"
+" at the top of the Styles and Formatting window.  You may also need to "
+"select \"All Styles\" from the drop-down selection list at the bottom of "
+"the Styles and Formatting window."
+msgstr ""
+
+#: ../../source/user/odt.rst:887
+msgid "The container directive"
+msgstr ""
+
+#: ../../source/user/odt.rst:889
+msgid ""
+"There is limited support for the ``container`` directive.  The "
+"limitations and rules for the container directive are the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:892
+msgid "Only the first class in the list of classes (arguments) is used."
+msgstr ""
+
+#: ../../source/user/odt.rst:894
+msgid ""
+"That class/style must be a paragraph style and not (for example) a "
+"character style."
+msgstr ""
+
+#: ../../source/user/odt.rst:897
+msgid ""
+"The style/class given to the container directive will have a "
+"\"rststyle-\" prefix in the odt file."
+msgstr ""
+
+#: ../../source/user/odt.rst:900
+msgid "So, for example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:906
+msgid "Only ``style-1`` is used; ``style-2`` and ``style-3`` are ignored."
+msgstr ""
+
+#: ../../source/user/odt.rst:908
+msgid ""
+"``rststyle-style-1`` must be defined.  It should be an existing, "
+"predefined style, or you should define it in your stylesheet "
+"(``styles.odt`` or the argument to the ``--stylesheet`` command line "
+"option)."
+msgstr ""
+
+#: ../../source/user/odt.rst:913
+msgid "``rststyle-style-1`` must be a paragraph style."
+msgstr ""
+
+#: ../../source/user/odt.rst:915
+msgid "To define a paragraph style, use the following menu item in ``oowriter``::"
+msgstr ""
+
+#: ../../source/user/odt.rst:920
+msgid "Then, click on the Paragraph Styles button."
+msgstr ""
+
+#: ../../source/user/odt.rst:922
+msgid ""
+"The following example attaches the ``rststyle-heading2`` style (a "
+"predefined style) to each paragraph/line in the container::"
+msgstr ""
+
+#: ../../source/user/odt.rst:931
+msgid ""
+"More information on how to define a new style (for example, in your "
+"``styles.odt``) can be found in section `Defining and using custom style "
+"names`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:938
+msgid "The table directive"
+msgstr ""
+
+#: ../../source/user/odt.rst:940
+msgid "The ``table`` directive can be used to add a title to a table. Example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:952
+msgid ""
+"The above will insert the title \"A little test table\" at the top of the"
+" table.  You can modify the appearance of the title by modifying the "
+"paragraph style ``rststyle-table-title``."
+msgstr ""
+
+#: ../../source/user/odt.rst:958
+msgid "Footnotes and citations"
+msgstr ""
+
+#: ../../source/user/odt.rst:960
+msgid "Footnotes and citations are supported."
+msgstr ""
+
+#: ../../source/user/odt.rst:962
+msgid ""
+"There are additional styles ``rststyle-footnote`` and ``rststyle-"
+"citation`` for footnotes and citations. See `Footnote and citation "
+"styles`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:966
+msgid ""
+"You may need to modify the citation style to fit the length of your "
+"citation references."
+msgstr ""
+
+#: ../../source/user/odt.rst:969
+msgid ""
+"Endnotes -- There are command line options that control whether "
+"``odtwriter`` creates endnotes instead of footnotes.  Endnotes appear at "
+"the end of the document instead of at the bottom of the page.  See flags "
+"``--endnotes-end-doc`` and ``--no-endnotes-end-doc`` in section `Command "
+"line options`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:977
+msgid "Images and figures"
+msgstr ""
+
+#: ../../source/user/odt.rst:979
+msgid ""
+"If on the image or the figure directive you provide the scale option but "
+"do not provide the width and height options, then ``odtwriter`` will "
+"attempt to determine the size of the image using the `Python Imaging "
+"Library`_ (PIL).  If ``odtwriter`` cannot find and import Python Imaging "
+"Library, it will raise an exception.  If this ocurrs, you can fix it by "
+"doing one of the following:"
+msgstr ""
+
+#: ../../source/user/odt.rst:986
+msgid "Install the Python Imaging Library or"
+msgstr ""
+
+#: ../../source/user/odt.rst:988
+msgid "Remove the ``scale`` option or"
+msgstr ""
+
+#: ../../source/user/odt.rst:990
+msgid "Add both the ``width`` and the ``height`` options."
+msgstr ""
+
+#: ../../source/user/odt.rst:992
+msgid ""
+"So, the rule is: if on any image or figure, you specify scale but not "
+"both width and height, you must install the `Python Imaging Library`_ "
+"library."
+msgstr ""
+
+#: ../../source/user/odt.rst:996
+msgid "For more information about PIL, see: `Python Imaging Library`_."
+msgstr ""
+
+#: ../../source/user/odt.rst:1000
+msgid "The raw directive"
+msgstr ""
+
+#: ../../source/user/odt.rst:1002
+msgid "The ``raw`` directive is supported.  Use output format type \"odt\"."
+msgstr ""
+
+#: ../../source/user/odt.rst:1004
+msgid ""
+"You will need to be careful about the formatting of the raw content.  In "
+"particular, introduced whitespace might be a problem."
+msgstr ""
+
+#: ../../source/user/odt.rst:1007
+msgid ""
+"In order to produce content for the raw directive for use by "
+"``odtwriter``, you might want to extract the file ``content.xml`` from a "
+"``.odt`` file (using some Zip tool), and then clip, paste, and modify a "
+"selected bit of it."
+msgstr ""
+
+#: ../../source/user/odt.rst:1012
+msgid "Here is an example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:1028
+msgid "The meta directive"
+msgstr ""
+
+#: ../../source/user/odt.rst:1030
+msgid ""
+"``odtwriter`` supports the ``meta`` directive.  Two fields are "
+"recognized: \"keywords\" and \"description\".  Here is an example::"
+msgstr ""
+
+#: ../../source/user/odt.rst:1038
+msgid ""
+"To see the results of the ``meta`` directive in ``oowriter``, select menu"
+" item \"File/Properties...\", then click on the \"Description\" tab."
+msgstr ""
+
+#: ../../source/user/odt.rst:1044
+msgid "Footnote references inside footnotes"
+msgstr ""
+
+#: ../../source/user/odt.rst:1046
+msgid "Not supported."
+msgstr ""
+
+#: ../../source/user/odt.rst:1048
+msgid "Get a grip.  Be serious.  Try a dose of reality."
+msgstr ""
+
+#: ../../source/user/odt.rst:1050
+msgid "``odtwriter`` ignores them."
+msgstr ""
+
+#: ../../source/user/odt.rst:1052
+msgid "They cause ``oowriter`` to croak."
+msgstr ""
+
+#: ../../source/user/odt.rst:1056
+msgid "Page size"
+msgstr ""
+
+#: ../../source/user/odt.rst:1058
+msgid ""
+"The default page size, in documents generated by ``odtwriter`` is "
+"``Letter``.  You can change this (for example to ``A4``) by using a "
+"custom stylesheet.  See `Defining and using a custom stylesheet`_ for "
+"instructions on how to do this."
+msgstr ""
+
+#: ../../source/user/odt.rst:1063
+msgid ""
+"On machines which support ``paperconf``, ``odtwriter`` can insert the "
+"default page size for your locale.  In order for this to work, the "
+"following conditions must be met:"
+msgstr ""
+
+#: ../../source/user/odt.rst:1067
+msgid ""
+"The program ``paperconf`` must be available on your system. ``odtwriter``"
+" uses ``paperconf -s`` to obtain the paper size. See ``man paperconf`` "
+"for more information."
+msgstr ""
+
+#: ../../source/user/odt.rst:1071
+msgid ""
+"The default page height and width must be removed from the ``styles.odt``"
+" used to generate the document.  A Python script "
+"``rst2odt_prepstyles.py`` is distributed with ``odtwriter`` and is "
+"installed in the ``bin`` directory.  You can remove the page height and "
+"width with something like the following::"
+msgstr ""
+
+#: ../../source/user/odt.rst:1079
+msgid ""
+"If you edit your stylesheet in ``oowriter`` and then save it, "
+"``oowriter`` automatically inserts a page height and width in the styles "
+"for that (stylesheet) document.  If that is not the page size that you "
+"want and you want ``odtwriter`` to insert a default page size using "
+"``paperconf``, then you will need to strip the page size from your "
+"stylesheet each time you edit that stylesheet with ``oowriter``."
+msgstr ""
+
+#: ../../source/user/odt.rst:1090
+msgid "Custom header/footers: inserting page numbers, date, time, etc"
+msgstr ""
+
+#: ../../source/user/odt.rst:1092
+msgid ""
+"You can specify custom headers and footers for your document from the "
+"command line.  These headers and footers can be used to insert fields "
+"such as the page number, page count, date, time, etc.  See below for a "
+"complete list."
+msgstr ""
+
+#: ../../source/user/odt.rst:1097
+msgid ""
+"To insert a custom header or footer, use the \"--custom-odt-header\" or "
+"\"--custom-odt-footer\" command line options.  For example, the following"
+" inserts a footer containing the page number and page count::"
+msgstr ""
+
+#: ../../source/user/odt.rst:1106
+msgid "Field specifiers"
+msgstr ""
+
+#: ../../source/user/odt.rst:1108
+msgid ""
+"You can use the following field specifiers to insert ``oowriter`` fields "
+"in your custom headers and footers:"
+msgstr ""
+
+#: ../../source/user/odt.rst:1112
+msgid "%p%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1112
+msgid "The current page number."
+msgstr ""
+
+#: ../../source/user/odt.rst:1115
+msgid "%P%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1115
+msgid "The number of pages in the document."
+msgstr ""
+
+#: ../../source/user/odt.rst:1118
+#, python-format
+msgid "%d1%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1118
+msgid "The current date in format 12/31/99."
+msgstr ""
+
+#: ../../source/user/odt.rst:1121
+#, python-format
+msgid "%d2%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1121
+msgid "The current date in format 12/31/1999."
+msgstr ""
+
+#: ../../source/user/odt.rst:1124
+#, python-format
+msgid "%d3%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1124
+msgid "The current date in format Dec 31, 1999."
+msgstr ""
+
+#: ../../source/user/odt.rst:1127
+#, python-format
+msgid "%d4%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1127
+msgid "The current date in format December 31, 1999."
+msgstr ""
+
+#: ../../source/user/odt.rst:1130
+#, python-format
+msgid "%d5%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1130
+msgid "The current date in format 1999-12-31."
+msgstr ""
+
+#: ../../source/user/odt.rst:1133
+msgid "%t1%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1133
+msgid "The current time in format 14:22."
+msgstr ""
+
+#: ../../source/user/odt.rst:1136
+msgid "%t2%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1136
+msgid "The current time in format 14:22:33."
+msgstr ""
+
+#: ../../source/user/odt.rst:1139
+msgid "%t3%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1139
+msgid "The current time in format 02:22 PM."
+msgstr ""
+
+#: ../../source/user/odt.rst:1142
+msgid "%t4%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1142
+msgid "The current time in format 02:22:33 PM."
+msgstr ""
+
+#: ../../source/user/odt.rst:1145
+msgid "%a%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1145
+msgid "The author of the document (actually the initial creator)."
+msgstr ""
+
+#: ../../source/user/odt.rst:1148
+msgid "%t%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1148
+msgid "The document title."
+msgstr ""
+
+#: ../../source/user/odt.rst:1152
+#, python-format
+msgid "%s%"
+msgstr ""
+
+#: ../../source/user/odt.rst:1151
+msgid "The document subject."
+msgstr ""
+
+#: ../../source/user/odt.rst:1154
+msgid ""
+"**Note:** The use of the above field specifiers in the body of your "
+"reStructuredText document is **not** supported, because these specifiers "
+"are not standard across Docutils writers."
+msgstr ""
+
+#: ../../source/user/odt.rst:1161
+msgid "Credits"
+msgstr ""
+
+#: ../../source/user/odt.rst:1163
+msgid ""
+"Stefan Merten designed and implemented the custom style names capability."
+"  Thank you, Stefan."
+msgstr ""
+
+#: ../../source/user/odt.rst:1166
+msgid ""
+"Michael Schutte supports the Debian GNU/Linux distribution of "
+"``odtwriter``.  Thank you, Michael, for providing and supporting the "
+"Debian package."
+msgstr ""
+
+#: ../../source/user/odt.rst:1170
+msgid ""
+"Michael Schutte implemented the fix that enables ``odtwriter`` to pick up"
+" the default paper size on platforms where the program ``paperconf`` is "
+"available.  Thank you."
+msgstr ""
+
+#~ msgid "odt"
+#~ msgstr ""
+

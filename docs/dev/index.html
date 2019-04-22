@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>开发者文档 &mdash; docutils-docs v2019.04.12 文档</title>
+  <title>Developer Documentation &mdash; docutils-docs v2019.04.12 文档</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="A Record of reStructuredText Syntax Alternatives" href="alternatives.html" />
-    <link rel="prev" title="reStructuredText Interpreted Text Roles" href="../ref/roles.html" /> 
+    <link rel="next" title="reStructuredText语法替代的记录" href="alternatives.html" />
+    <link rel="prev" title="reStructuredText Standard Definition Files" href="../ref/rst/definitions.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -51,7 +51,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> docutils-docs
+            <a href="../contents.html" class="icon icon-home"> docutils-docs
           
 
           
@@ -81,19 +81,21 @@
               
             
             
-              <p class="caption"><span class="caption-text">内容:</span></p>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../README.html">自述: Docutils 0.15b.dev</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release/index.html">版本发布</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../doc.html">文档实用程序</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../rst.html">Docutils 的标记语法和解析器组件</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../user/index.html">用户文档</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../ref/index.html">参考文档</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">开发者文档</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="alternatives.html">A Record of reStructuredText Syntax Alternatives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="problems.html">Problems With StructuredText</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Developer Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="alternatives.html">reStructuredText语法替代的记录</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problems.html">StructuredText的问题</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../howto/index.html">基本知识</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API Documentation</a></li>
 </ul>
 
             
@@ -108,7 +110,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">docutils-docs</a>
+          <a href="../contents.html">docutils-docs</a>
         
       </nav>
 
@@ -137,9 +139,9 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../contents.html">Docs</a> &raquo;</li>
         
-      <li>开发者文档</li>
+      <li>Developer Documentation</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -159,10 +161,10 @@
            <div itemprop="articleBody">
             
   <div class="section" id="developer-documentation">
-<h1>开发者文档<a class="headerlink" href="#developer-documentation" title="永久链接至标题">¶</a></h1>
+<h1>Developer Documentation<a class="headerlink" href="#developer-documentation" title="永久链接至标题">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="alternatives.html">A Record of reStructuredText Syntax Alternatives</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="alternatives.html">reStructuredText语法替代的记录</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="alternatives.html#implemented">Implemented</a></li>
 <li class="toctree-l2"><a class="reference internal" href="alternatives.html#not-implemented">Not Implemented</a></li>
 <li class="toctree-l2"><a class="reference internal" href="alternatives.html#tabled">Tabled</a></li>
@@ -170,7 +172,7 @@
 <li class="toctree-l2"><a class="reference internal" href="alternatives.html#or-not-to-do">… Or Not To Do?</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="problems.html">Problems With StructuredText</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="problems.html">StructuredText的问题</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="problems.html#formal-specification">Formal Specification</a></li>
 <li class="toctree-l2"><a class="reference internal" href="problems.html#understanding-and-extending-the-code">Understanding and Extending the Code</a></li>
 <li class="toctree-l2"><a class="reference internal" href="problems.html#section-structure-via-indentation">Section Structure via Indentation</a></li>
@@ -199,10 +201,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="alternatives.html" class="btn btn-neutral float-right" title="A Record of reStructuredText Syntax Alternatives" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="alternatives.html" class="btn btn-neutral float-right" title="reStructuredText语法替代的记录" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../ref/roles.html" class="btn btn-neutral float-left" title="reStructuredText Interpreted Text Roles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../ref/rst/definitions.html" class="btn btn-neutral float-left" title="reStructuredText Standard Definition Files" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

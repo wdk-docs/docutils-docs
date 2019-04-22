@@ -20,104 +20,104 @@ msgstr ""
 
 #: ../../source/howto/rst-roles.rst:3
 msgid "Creating reStructuredText Interpreted Text Roles"
-msgstr ""
+msgstr "创建reStructuredText解释的文本角色"
 
 #: ../../source/howto/rst-roles.rst
 msgid "Authors"
-msgstr ""
+msgstr "Authors"
 
 #: ../../source/howto/rst-roles.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/howto/rst-roles.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/howto/rst-roles.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/howto/rst-roles.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/howto/rst-roles.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/howto/rst-roles.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/howto/rst-roles.rst:8
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/howto/rst-roles.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/howto/rst-roles.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "本文档已置于公共领域。"
 
 #: ../../source/howto/rst-roles.rst:11
 msgid ""
 "Interpreted text roles are an extension mechanism for inline markup in "
 "reStructuredText.  This document aims to make the creation of new roles "
 "as easy and understandable as possible."
-msgstr ""
+msgstr "解释的文本角色是reStructuredText中内联标记的扩展机制。本文档旨在使新角色的创建尽可能简单易懂。"
 
 #: ../../source/howto/rst-roles.rst:15
 msgid ""
 "Standard roles are described in `reStructuredText Interpreted Text "
 "Roles`_.  See the `Interpreted Text`_ section in the `reStructuredText "
 "Markup Specification`_ for syntax details."
-msgstr ""
+msgstr "标准角色在 `reStructuredText Interpreted Text Roles`_ 中描述。有关语法详细信息，请参阅 `reStructuredText Markup Specification`_ 中的 `Interpreted Text`_ 部分。"
 
 #: ../../source/howto/rst-roles.rst:27
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/howto/rst-roles.rst:30
 msgid "Define the Role Function"
-msgstr ""
+msgstr "定义角色功能"
 
 #: ../../source/howto/rst-roles.rst:32
 msgid ""
 "The role function creates and returns inline elements (nodes) and does "
 "any additional processing required.  Its signature is as follows::"
-msgstr ""
+msgstr "角色函数创建并返回内联元素(节点)，并执行所需的任何其他处理。它的签名如下::"
 
 #: ../../source/howto/rst-roles.rst:43
 msgid ""
 "Function attributes are described below (see `Specify Role Function "
 "Options and Content`_).  The role function parameters are as follows:"
-msgstr ""
+msgstr "函数属性如下所述(请参阅 `Specify Role Function Options and Content`_ )。角色功能参数如下:"
 
 #: ../../source/howto/rst-roles.rst:46
 msgid ""
 "``name``: The local name of the interpreted role, the role name actually "
 "used in the document."
-msgstr ""
+msgstr "``name``: 解释角色的本地名称，文档中实际使用的角色名称。"
 
 #: ../../source/howto/rst-roles.rst:49
 msgid ""
 "``rawtext``: A string containing the enitre interpreted text input, "
 "including the role and markup.  Return it as a ``problematic`` node "
 "linked to a system message if a problem is encountered."
-msgstr ""
+msgstr "``rawtext``: 包含整个解释文本输入的字符串，包括角色和标记。如果遇到问题，将其作为与系统消息链接的 ``problematic`` 节点返回。"
 
 #: ../../source/howto/rst-roles.rst:53
 msgid "``text``: The interpreted text content."
-msgstr ""
+msgstr "``text``: 解释的文本内容。"
 
 #: ../../source/howto/rst-roles.rst:55
 msgid "``lineno``: The line number where the interpreted text begins."
-msgstr ""
+msgstr "``lineno``: 解释文本开始的行号。"
 
 #: ../../source/howto/rst-roles.rst:57
 msgid "``inliner``: The ``docutils.parsers.rst.sta"
-msgstr ""
+msgstr "``inliner``: The ``docutils.parsers.rst.sta"
 

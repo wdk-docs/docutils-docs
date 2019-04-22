@@ -1,0 +1,2641 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Docutils历史 &mdash; docutils-docs v2019.04.12 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="Acknowledgements" href="THANKS.html" />
+    <link rel="prev" title="Docutils Release Notes" href="RELEASE-NOTES.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../contents.html" class="icon icon-home"> docutils-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">版本发布</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="README.html">README: Docutils 0.15b.dev</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BUGS.html">Docutils Bugs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="COPYING.html">Copying Docutils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html"><span class="sectnum">1</span> Docutils FAQ (Frequently Asked Questions)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RELEASE-NOTES.html">Docutils Release Notes</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Docutils历史</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#changes-since-0-14">自0.14以来的变化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-14-2017-08-03">Release 0.14 (2017-08-03)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-13-1-2016-12-09">Release 0.13.1 (2016-12-09)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-12-2014-07-06">Release 0.12 (2014-07-06)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-11-2013-07-22">Release 0.11 (2013-07-22)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-10-2012-12-16">Release 0.10 (2012-12-16)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-9-1-2012-06-17">Release 0.9.1 (2012-06-17)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-9-2012-05-02">Release 0.9 (2012-05-02)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-8-1-2011-08-30">Release 0.8.1 (2011-08-30)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-8-2011-07-07">Release 0.8 (2011-07-07)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-7-2010-07-07">Release 0.7 (2010-07-07)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-6-2009-10-11">Release 0.6 (2009-10-11)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-5-2008-06-25">Release 0.5 (2008-06-25)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-4-2006-01-09">Release 0.4 (2006-01-09)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-9-2005-05-26">Release 0.3.9 (2005-05-26)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-7-2004-12-24">Release 0.3.7 (2004-12-24)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-5-2004-07-29">Release 0.3.5 (2004-07-29)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-0-3-3-2004-05-09">Release 0.3.3 (2004-05-09)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="THANKS.html">Acknowledgements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../doc.html">文档实用程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst.html">Docutils 的标记语法和解析器组件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">用户文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ref/index.html">参考文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">基本知识</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../contents.html">docutils-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../contents.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">版本发布</a> &raquo;</li>
+        
+      <li>Docutils历史</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/release/HISTORY.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="docutils-history">
+<h1><a class="toc-backref" href="#id9">Docutils历史</a><a class="headerlink" href="#docutils-history" title="永久链接至标题">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Author</dt>
+<dd class="field-odd"><p>David Goodger; open to all Docutils developers</p>
+</dd>
+<dt class="field-even">Contact</dt>
+<dd class="field-even"><p><a class="reference external" href="mailto:docutils-develop&#37;&#52;&#48;lists&#46;sourceforge&#46;net">docutils-develop<span>&#64;</span>lists<span>&#46;</span>sourceforge<span>&#46;</span>net</a></p>
+</dd>
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>$Date: 2018-07-12 12:17:15 +0200 (Do, 12. Jul 2018) $</p>
+</dd>
+<dt class="field-even">Revision</dt>
+<dd class="field-even"><p>$Revision: 8224 $</p>
+</dd>
+<dt class="field-odd">网站</dt>
+<dd class="field-odd"><p><a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a></p>
+</dd>
+<dt class="field-even">版权</dt>
+<dd class="field-even"><p>本文档已置于公共领域。</p>
+</dd>
+</dl>
+<div class="contents topic" id="id1">
+<p class="topic-title first">目录</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#docutils-history" id="id9">Docutils历史</a></p>
+<ul>
+<li><p><a class="reference internal" href="#changes-since-0-14" id="id10">自0.14以来的变化</a></p></li>
+<li><p><a class="reference internal" href="#release-0-14-2017-08-03" id="id11">Release 0.14 (2017-08-03)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-13-1-2016-12-09" id="id12">Release 0.13.1 (2016-12-09)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-12-2014-07-06" id="id13">Release 0.12 (2014-07-06)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-11-2013-07-22" id="id14">Release 0.11 (2013-07-22)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-10-2012-12-16" id="id15">Release 0.10 (2012-12-16)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-9-1-2012-06-17" id="id16">Release 0.9.1 (2012-06-17)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-9-2012-05-02" id="id17">Release 0.9 (2012-05-02)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-8-1-2011-08-30" id="id18">Release 0.8.1 (2011-08-30)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-8-2011-07-07" id="id19">Release 0.8 (2011-07-07)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-7-2010-07-07" id="id20">Release 0.7 (2010-07-07)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-6-2009-10-11" id="id21">Release 0.6 (2009-10-11)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-5-2008-06-25" id="id22">Release 0.5 (2008-06-25)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-4-2006-01-09" id="id23">Release 0.4 (2006-01-09)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-9-2005-05-26" id="id24">Release 0.3.9 (2005-05-26)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-7-2004-12-24" id="id25">Release 0.3.7 (2004-12-24)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-5-2004-07-29" id="id26">Release 0.3.5 (2004-07-29)</a></p></li>
+<li><p><a class="reference internal" href="#release-0-3-3-2004-05-09" id="id27">Release 0.3.3 (2004-05-09)</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="changes-since-0-14">
+<h2><a class="toc-backref" href="#id10">自0.14以来的变化</a><a class="headerlink" href="#changes-since-0-14" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>一般</p>
+<ul>
+<li><p>不再支持Python 2.4,2.5,3.1和3.2。</p></li>
+<li><p>基建自动化。</p></li>
+</ul>
+</li>
+<li><p>docs/ref/rst/restructuredtext.txt:</p>
+<ul>
+<li><p>Document rST syntax change: Tokens like <code class="docutils literal notranslate"><span class="pre">:this:example:</span></code> are now valid
+field list names (instead of ordinary text).</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py</p>
+<ul>
+<li><p>Fix [ 251 ] system_message.copy() TypeError.</p></li>
+<li><p>Element.copy() also copies <cite>document</cite>, <cite>line</cite>, and <cite>source</cite> attributes.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>允许在字段列表字段名称中嵌入冒号。</p></li>
+<li><p>Add <cite>rawsource</cite> attribute for text of inline elements and definition
+list terms.</p></li>
+<li><p>Fix: definition list term classifier starting with a reference crash.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/html.py:</p>
+<ul>
+<li><p>Fix bug #281: Remove escaping backslashes in meta directive content.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py:</p>
+<ul>
+<li><p>Apply patch #121: Add “width” option for the table directives.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/frontmatter.py:</p>
+<ul>
+<li><p>Add field name as class argument to generic docinfo fields unconditionally.</p></li>
+<li><p>Ignore backslash-escaped separators when extracting authors from a
+paragraph.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py:</p>
+<ul>
+<li><p>Fix bug #331: fixed the “trim” options of the “unicode” directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/smartquotes.py:</p>
+<ul>
+<li><p>Fix bug #332: use open quote after whitespace, ZWSP, and ZWNJ.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html5_polyglot/</p>
+<ul>
+<li><p>automatically add HTML5-compatible meta tags for docinfo items
+“authors”, “date”, and “copyright”.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py:</p>
+<ul>
+<li><p>Fix bug #323: spurious <code class="docutils literal notranslate"><span class="pre">\phantomsection</span></code> and whitespace in
+<code class="docutils literal notranslate"><span class="pre">parts['title']</span></code>.</p></li>
+<li><p>Fix bug #324: Invalid LaTeX for table with empty multicolumn cell.</p></li>
+<li><p>Fixes to literal block handling.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/__init__.py:</p>
+<ul>
+<li><p>Deprecate <cite>unique_combinations</cite> (obsoleted by <cite>itertools.combinations</cite>).</p></li>
+<li><p>New function <cite>unescape_rawsource</cite>.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-14-2017-08-03">
+<h2><a class="toc-backref" href="#id11">Release 0.14 (2017-08-03)</a><a class="headerlink" href="#release-0-14-2017-08-03" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>docs/ref/docutils.dtd:</p>
+<ul>
+<li><p>Enable validation of Docutils XML documents against the DTD:</p>
+<p>Use attribute type NMTOKEN instead of REFID for the <cite>refid</cite> attribute
+and NMTOKENS for <cite>backrefs</cite>: REFID refers to an ID type instance,
+however, the <cite>ids</cite> attribute cannot use the ID type because <a class="reference external" href="https://www.w3.org/TR/REC-xml/#sec-attribute-types">XML only
+allows one ID per Element Type</a> and doesn’t support a multiple-ID
+“IDS” attribute type.</p>
+</li>
+</ul>
+</li>
+<li><p>docs/ref/rst/restructuredtext.txt:</p>
+<ul class="simple">
+<li><p>Added documentation for escaped whitespace in URI contexts.</p></li>
+<li><p>Clarify use of Unicode character categories.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul class="simple">
+<li><p>Added functionality: escaped whitespace in URI contexts.</p></li>
+<li><p>Consistent handling of all whitespace characters in inline markup
+recognition. Fixes [ 307 ] and [ 3402314 ] (now [ 173 ]).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/images.py:</p>
+<ul class="simple">
+<li><p>Added support for escaped whitespace in URI contexts.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py:</p>
+<ul class="simple">
+<li><p>Rework patch [ 120 ] (revert change to <code class="docutils literal notranslate"><span class="pre">Table.get_column_widths()</span></code>
+that led to problems in an application with a custom table directive).</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/frontmatter.py:</p>
+<ul class="simple">
+<li><p>Fix [ 320 ] Russian docinfo fields not recognized.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py:</p>
+<ul class="simple">
+<li><p>Don’t add a second ID to problematic references.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py:</p>
+<p>Fix SmartQuotes: warn only once if language is unsupported,
+keep “rawsource” when “educating” quotes.</p>
+</li>
+<li><p>docutils/utils/__init__.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">split_escaped_whitespace</span></code> function, support for escaped
+whitespace in URI contexts.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/error_reporting.py:</p>
+<ul class="simple">
+<li><p>Fix [ 321 ] Import block might cause name error.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/smartquotes.py:</p>
+<ul class="simple">
+<li><p>Update quote definitions for languages et, fi, fr, ro, sv, tr, uk.</p></li>
+<li><p>New quote definitions for hr, hsb, hu, lv, sh, sl, sr.</p></li>
+<li><p>Fix [ 313 ] Differentiate apostrophe from closing single quote
+(if possible).</p></li>
+<li><p>Fix [ 317 ] Extra space inserted with French smartquotes.</p></li>
+<li><p>Add command line interface for stand-alone use (requires 2.7).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/_html_base.py:</p>
+<ul class="simple">
+<li><p>Provide default title in metadata (required by HTML5).</p></li>
+<li><p>Fix [ 312 ] HTML writer generates invalid HTML if the table has two tags.</p></li>
+<li><p>Fix [ 319 ] The MathJax CDN shut down on April 30, 2017. For security
+reasons, we don’t use a third party public installation as default but
+warn if <a class="reference external" href="docs/user/config.html#math-output">math-output</a> is set to MathJax without specifying a URL.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py:</p>
+<ul class="simple">
+<li><p>Apply [ 125 ] HTML writer: respect automatic table column sizing.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py:</p>
+<ul class="simple">
+<li><p>Handle class arguments for block-level elements by wrapping them
+in a “DUclass” environment. This replaces the special handling for
+“epigraph” and “topic” elements.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/manpage.py:</p>
+<ul class="simple">
+<li><p>Apply [ 141 ] Handling inline in manpage writer.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/odf_odt/__init__.py:</p>
+<ul class="simple">
+<li><p>Command setting <code class="docutils literal notranslate"><span class="pre">language</span></code> now sets the default language
+of the generated ODF document.</p></li>
+<li><p>The use of image directive options :width: (%), :scale:, etc now
+set the width/height/size of images in the generated ODF
+documents.</p></li>
+<li><p>The heading/title of admonitions now reflects the language
+specified by the <code class="docutils literal notranslate"><span class="pre">language</span></code> setting.</p></li>
+<li><p>Fixed [ 306 ] only first of multiple “image” directives with the same URL
+shown in output.</p></li>
+<li><p>Fixed [ 282 ] python3: AttributeError.</p></li>
+</ul>
+</li>
+<li><p>tools/rst2html4.py: New front-end.</p></li>
+<li><p>tools/dev/generate_punctuation_chars.py: New skript
+to test and update utils.punctuation_chars.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-13-1-2016-12-09">
+<h2><a class="toc-backref" href="#id12">Release 0.13.1 (2016-12-09)</a><a class="headerlink" href="#release-0-13-1-2016-12-09" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>docutils/languages/fa.py
+docutils/parsers/rst/languages/fa.py
+docutils/languages/la.py
+docutils/parsers/rst/languages/la.py:</p>
+<ul class="simple">
+<li><p>Apply [ 133 ] Persian mappings by Shahin Azad.</p></li>
+<li><p>Apply [ 135 ] Language modules for Latvian by Alexander Smishlajev</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py</p>
+<ul class="simple">
+<li><p>Fix [ 253 ] Attribute key without value not allowed in XML.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/</p>
+<ul class="simple">
+<li><p>Apply [ 103 ] Recognize inline markups without word boundaries.</p></li>
+<li><p>Enable escaping in embedded URIs and aliases (fixes [ 284 ]).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/__init__.py</p>
+<ul class="simple">
+<li><p>Fix [ 233 ] Change the base URL for the :rfc: role.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py</p>
+<ul class="simple">
+<li><p>Apply [ 120 ] tables accept option widths: list of relative widths, ‘auto’
+or ‘grid’.</p></li>
+<li><p>Implement feature request [ 48 ]
+Add :align: option to the table directives.
+Thanks to Takeshi KOMIYA for the patch.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/roles.py</p>
+<ul class="simple">
+<li><p>Fix [ 295 ] Class argument for custom role inheriting from math.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/tableparser.py</p>
+<ul class="simple">
+<li><p>Really fix [ 159 ] Spurious table column alignment errors.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/frontmatter.py</p>
+<ul class="simple">
+<li><p>Add name of generic bibliographic fields as a “classes” attribute value
+(after conversion to a valid identifier form).</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/error_reporting.py</p>
+<ul class="simple">
+<li><p>Fix [ 130 ] support streams expectiong byte-strings in ErrorOutput.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/math/math2html.py</p>
+<ul class="simple">
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">\colon</span></code> macro, fix spacing around colons. Fixes [ 246 ].</p></li>
+<li><p>New upstream version (additional macros, piecewise integrals and sums).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/_html_base.py</p>
+<ul class="simple">
+<li><p>New auxiliary module for definitions common to all HTML writers.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html5_polyglot/</p>
+<ul>
+<li><p>New HTML writer generating clean, <a class="reference external" href="http://www.w3.org/TR/html-polyglot/">polyglot</a> markup conforming to
+<a class="reference external" href="http://www.w3.org/TR/html5/">HTML 5</a>.</p>
+<p>The CSS stylesheets <code class="docutils literal notranslate"><span class="pre">minimal.css</span></code> and <code class="docutils literal notranslate"><span class="pre">plain.css</span></code> contain required
+and recommended layout rules.</p>
+</li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul class="simple">
+<li><p>Add “docutils” to class values for “container” object to address [ 267 ].</p></li>
+<li><p>Apply patch [ 119 ] by Anatoly Techtonik: use absolute paths for
+<code class="docutils literal notranslate"><span class="pre">default_stylesheet_path</span></code> and <code class="docutils literal notranslate"><span class="pre">default_template_path</span></code>.</p></li>
+<li><p>Fix [ 266 ] creating labels/class values in description list items.</p></li>
+<li><p>Do not use &lt;sup&gt; and &lt;sub&gt; tags inside &lt;pre&gt; (parsed-literal blocks).</p></li>
+<li><p>Fix footnotes with content that does not start with a paragraph.</p></li>
+<li><p>Use https in default MathJax URL (report Alan G Isaac).</p></li>
+<li><p>Outsourcing of common code to _html_base.py.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul class="simple">
+<li><p>Fix [ 262 ] Use <code class="docutils literal notranslate"><span class="pre">\linewidth</span></code> instead of <code class="docutils literal notranslate"><span class="pre">\textwidth</span></code> for figures,
+admonitions and docinfo.</p></li>
+<li><p>Use absolute path for <code class="docutils literal notranslate"><span class="pre">default_template_path</span></code>.</p></li>
+<li><p>Removed deprecated options <code class="docutils literal notranslate"><span class="pre">--use-latex-footnotes</span></code> and
+<code class="docutils literal notranslate"><span class="pre">--figure-footnotes</span></code>.</p></li>
+<li><p>Cleaner LaTeX code for enumerations and literal blocks.</p></li>
+<li><p>Use “hyperref” package together with “bookmark” (improved hyperlinking
+by the same author).</p></li>
+<li><p>Fix [ 286 ] Empty column title cause invalid latex file.</p></li>
+<li><p>Fix [ 224 ] Fix rowspan support for tables.</p></li>
+<li><p>Let LaTeX determine the column widths in tables with “colwidths-auto”.
+Not suited for multi-paragraph cells!</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/odf_odt/__init__.py</p>
+<ul class="simple">
+<li><p>remove decode.encode of filename stored in zip.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/xetex/__init__.py</p>
+<ul class="simple">
+<li><p>LuaLaTex compatibility: do not load “xunicode”.</p></li>
+</ul>
+</li>
+<li><p>tools/</p>
+<ul class="simple">
+<li><p>New front-end <code class="docutils literal notranslate"><span class="pre">rst2html5.py</span></code>.</p></li>
+</ul>
+</li>
+<li><p>tox.ini</p>
+<ul>
+<li><p>Test py26, py27, py33 and py34.</p>
+<p>To use, install the <code class="docutils literal notranslate"><span class="pre">tox</span></code> package via pip or easy_install and use
+tox from the project root directory.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-12-2014-07-06">
+<h2><a class="toc-backref" href="#id13">Release 0.12 (2014-07-06)</a><a class="headerlink" href="#release-0-12-2014-07-06" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>docs/ref/rst/directives.txt</p>
+<ul>
+<li><p>Update “math” and “csv-table” descriptions.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/images.py</p>
+<ul>
+<li><p>Fix [ 258 ] figwidth=”image” generates unitless width value.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py</p>
+<ul>
+<li><p>Improve error report when a non-ASCII character is specified as
+delimiter, quote or escape character under Python 2.
+Fixes [ 249 ] and [ 250 ].</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul>
+<li><p>Don’t add newline after inline math.
+Thanks to Yury G. Kudryashov for the patch.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Fix [ 239 ] Latex writer glues paragraphs with figure floats.</p></li>
+<li><p>Apply [ 116 ] by Kirill Smelkov. Don’t hardcode large for subtitle.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/odf_odt/__init__.py</p>
+<ul>
+<li><p>Apply patch by Jakub Wilk to fix bug [ 100 ].</p></li>
+</ul>
+</li>
+<li><p>test/test_error_reporting.py</p>
+<ul>
+<li><p>Fix [ 223 ] by removing redundant tests we do not have control over.</p></li>
+</ul>
+</li>
+<li><p>test/test_nodes.py</p>
+<ul>
+<li><p>Apply [ 115 ] respect fixed 2to3 string literal conversion behavior.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-11-2013-07-22">
+<h2><a class="toc-backref" href="#id14">Release 0.11 (2013-07-22)</a><a class="headerlink" href="#release-0-11-2013-07-22" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>一般</p>
+<ul>
+<li><p>Apply [ 2714873 ] Fix for the overwritting of document attributes.</p></li>
+<li><p>Support embedded aliases within hyperlink references.</p></li>
+<li><p>Fix [ 228 ] try local import of docutils components (reader, writer, parser,
+language module) before global search.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py</p>
+<ul>
+<li><p>Fix [ 3601607 ] node.__repr__() must return <cite>str</cite> instance.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/__init__.py</p>
+<ul>
+<li><p>Fix [ 3606028 ] <code class="docutils literal notranslate"><span class="pre">assert</span></code> is skipped with <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-O</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/images.py</p>
+<ul>
+<li><p>Apply [ 3599485 ] node source/line information for sphinx translation.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py</p>
+<ul>
+<li><p>Fix [ 210 ] Python 3.3 checks CVS syntax only if “strict” is True.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py</p>
+<ul>
+<li><p>Fix [ 157 ] Line block parsing doesn’t like system message.</p></li>
+<li><p>Always import our local copy of roman.py (report Larry Hastings).</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py</p>
+<ul>
+<li><p>Fix [ 3607029 ] traceback with embedded alias pointing to missing target.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/__init__.py</p>
+<ul>
+<li><p>Fix [ 3596884 ] exception importing <code class="docutils literal notranslate"><span class="pre">docutils.io</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul>
+<li><p>Fix [ 3600051 ] for tables in a list, table cells are not compacted.</p></li>
+<li><p>New setting <cite>stylesheet_dirs</cite>: Comma-separated list of directories
+where stylesheets are found. Used by <cite>stylesheet_path</cite> when expanding
+relative path arguments.</p></li>
+<li><p>New default for <a class="reference external" href="docs/user/config.html#math-output">math-output</a>: <code class="docutils literal notranslate"><span class="pre">HTML</span> <span class="pre">math.css</span></code>.</p></li>
+<li><p>Avoid repeated class declarations in html4css1 writer
+(modified version of patch [ 104 ]).</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Drop the simple algorithm replacing straight double quotes with
+English typographic ones.
+Activate the <a class="reference external" href="docs/user/config.html#smart-quotes">SmartQuotes</a> transform if you want this feature.</p></li>
+<li><p>Fix literal use of babel shorthands (straight quote, tilde, …).</p></li>
+<li><p>Fix [ 3603246 ] Bug in option “–graphicx-option=auto”.</p></li>
+<li><p>New setting <cite>stylesheet_dirs</cite>.</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>docutils/writers/manpage.py</p>
+<ul>
+<li><p>Fix [3607063] handle lines starting with a period.</p></li>
+<li><p>Fix option separating comma was bold (thanks to Bill Morris).</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-10-2012-12-16">
+<h2><a class="toc-backref" href="#id15">Release 0.10 (2012-12-16)</a><a class="headerlink" href="#release-0-10-2012-12-16" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>一般</p>
+<ul>
+<li><p>Dropped support for Python 2.3.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docutils/math</span></code>, <code class="docutils literal notranslate"><span class="pre">docutils/error_reporting.py</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">docutils/urischemes.py</span></code> moved to the utils package.</p></li>
+<li><p>Fix [3541369] Relative __import__ also with Python 3.3.</p></li>
+<li><p>Fix [3559988] and [3560841] __import__ local writer, reader, languages
+and parsers for Python 2.7 up.</p></li>
+<li><p>Fix import of PIL.Image.</p></li>
+<li><p>Change default of “syntax highlight” option to “long”,
+basic syntax highlight styles for LaTeX and HTML.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py</p>
+<ul>
+<li><p>FileInput/FileOutput: no system-exit on IOError.  The <cite>handle_io_errors</cite>
+option is ignored and will be removed in a future release.</p></li>
+<li><p>Fix Py3k error writing to stdout with encoding differing from default.</p></li>
+<li><p>Fix opening binary files under Py3k (thanks to Dominic Fitzpatrick).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py</p>
+<ul>
+<li><p>Fix [ 3546533 ] Unicode error with <cite>date</cite> directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py</p>
+<ul>
+<li><p>SmartQuotes transform for typographic quotes and dashes.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils/__init__.py</p>
+<ul>
+<li><p>normalize_language_tag() now returns <a class="reference external" href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a> conformant tags
+with subtags separated by <code class="docutils literal notranslate"><span class="pre">-</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">&lt;code&gt;</span></code> tag for inline “code”,
+do not drop nested inline nodes (syntax highlight tokens).</p></li>
+<li><p>Customizable MathJax URL (based on patch by Dmitry Shachnev).</p></li>
+<li><p>No line break after opening inline math tag.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/manpage.py</p>
+<ul>
+<li><p>Apply [ 3527401 ] addmonition’s don’t preserve indentation</p></li>
+<li><p>Apply [ 3527397 ] Add indentation to literal blocks in manpage writer.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/xetex/__init__.py</p>
+<ul>
+<li><p>Apply [ 3555160 ] ensure order of “otherlanguages”.</p></li>
+<li><p>Fix section numbering by LaTeX.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/s5_html/__init__.py</p>
+<ul>
+<li><p>Fix [ 3556388 ] Mathjax does not work with rst2s5.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/s5_html/docutils_xml.py</p>
+<ul>
+<li><p>Fix [ 3552403 ] Prevent broken PyXML replacing stdlibs xml module.</p></li>
+<li><p>Fix/improve output with <code class="docutils literal notranslate"><span class="pre">--indent</span></code> option.</p></li>
+</ul>
+</li>
+<li><p>setup.py</p>
+<ul>
+<li><p>Tag <code class="docutils literal notranslate"><span class="pre">math.css</span></code> stylesheet as data file (patch by Dmitry Shachnev).</p></li>
+</ul>
+</li>
+<li><p>tools/test/test_buildhtml.py</p>
+<ul>
+<li><p>Fix [ 3521167 ] allow running in any directory.</p></li>
+<li><p>Fix [ 3521168 ] allow running with Python 3.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-9-1-2012-06-17">
+<h2><a class="toc-backref" href="#id16">Release 0.9.1 (2012-06-17)</a><a class="headerlink" href="#release-0-9-1-2012-06-17" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>setup.py</p>
+<ul>
+<li><p>Fix [ 3527842 ]. Under Python聽3, converted tests and tools were
+installed in the PYTHONPATH. Converted tests are now
+stored in <code class="docutils literal notranslate"><span class="pre">test3/</span></code>, tools no longer need conversion.</p>
+<p>If you installed one of Docutils versions 0.7 … 0.9 with
+<code class="docutils literal notranslate"><span class="pre">setup.py</span> <span class="pre">install</span></code> under Python聽3, remove the spurious
+<code class="docutils literal notranslate"><span class="pre">test/</span></code> and <code class="docutils literal notranslate"><span class="pre">tools/</span></code> directories in the site library root.</p>
+</li>
+</ul>
+</li>
+<li><p>test/</p>
+<ul class="simple">
+<li><p>Make tests independent from the location of the <code class="docutils literal notranslate"><span class="pre">test/</span></code> directory.</p></li>
+<li><p>Use converted sources (from the <code class="docutils literal notranslate"><span class="pre">build/</span></code> directory) for tests under
+Python聽3.</p></li>
+</ul>
+</li>
+<li><p>tools/</p>
+<ul class="simple">
+<li><p>Make tools compatible with both, Python 2 and 3 without 2to3-conversion.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py</p>
+<ul class="simple">
+<li><p>Fix writing binary data to sys.stdout under Python聽3 (allows
+<code class="docutils literal notranslate"><span class="pre">rst2odt.py</span></code> to be used with output redirection).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py</p>
+<ul class="simple">
+<li><p>Fix [ 3525847 ]. Catch and report UnicodeEncodeError with
+<code class="docutils literal notranslate"><span class="pre">locale</span> <span class="pre">==</span> <span class="pre">C</span></code> and 8-bit char in path argument of <cite>include</cite> directive.</p></li>
+</ul>
+</li>
+<li><p>test/alltests.py</p>
+<ul class="simple">
+<li><p>class <cite>Tee</cite>: catch UnicodeError when writing to “ascii” stream or
+file under Python聽3.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-9-2012-05-02">
+<h2><a class="toc-backref" href="#id17">Release 0.9 (2012-05-02)</a><a class="headerlink" href="#release-0-9-2012-05-02" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>New reStructuredText “code” role and directive and “code” option
+of the “include” directive with syntax highlighting by <a class="reference external" href="http://pygments.org/">Pygments</a>.</p></li>
+<li><p>Fix parse_option_marker for option arguments containing <code class="docutils literal notranslate"><span class="pre">=</span></code>.</p></li>
+<li><p>Fix [ 2993756 ]: import Python Imaging Library’s Image module
+via <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">PIL</span></code> as starting with PIL 1.2,
+“PIL lives in the PIL namespace only” (<a class="reference external" href="http://mail.python.org/pipermail/image-sig/2011-January/006650.html">announcement</a>).</p></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>setup.py</p>
+<ul class="simple">
+<li><p>Fix [ 2971827 ] and [ 3442827 ]
+extras/roman.py moved to docutils/utils/roman.py</p></li>
+</ul>
+</li>
+<li><p>docutils/frontend.py</p>
+<ul class="simple">
+<li><p>Fix [ 3481980 ] Use os.getcwdu() in make_paths_absolute().</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py</p>
+<ul class="simple">
+<li><p>Fix [ 3395948 ] (Work around encoding problems in Py3k).</p></li>
+<li><p><cite>mode</cite> argument for FileOutput avoids code replication in
+BinaryFileOutput.</p></li>
+<li><p>New exceptions InputError and OutputError for IO errors in
+FileInput/FileOutput.</p></li>
+</ul>
+</li>
+<li><p>docutils/core.py:</p>
+<ul class="simple">
+<li><p>No “hard” system exit on file IO errors: catch and report them in
+<cite>Publisher.reportException</cite> instead. Allows handling by a calling
+application if the configuration setting <cite>traceback</cite> is True.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py -&gt; docutils/utils/__init__.py</p>
+<ul class="simple">
+<li><p>docutils.utils is now a package (providing a place for sub-modules)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>docutils/math, docutils/error_reporting.py, and
+docutils/urischemes.py will move to the utils package in the next
+release, too. See <a class="reference external" href="RELEASE-NOTES.html">RELEASE-NOTES</a></p>
+</div>
+<ul class="simple">
+<li><p>DependencyList uses io.FileOutput and ‘utf8’ encoding to prevent
+errors recording non-ASCII filenames (fixes [ 3434355 ]).</p></li>
+<li><p>Fix relative_path() with source=None and <cite>unicode</cite> target.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py</p>
+<ul class="simple">
+<li><p>Fix [ 3402314 ] allow non-ASCII whitespace, punctuation
+characters and “international” quotes around inline markup.</p></li>
+<li><p>Use <cite>field_marker</cite> pattern to look for start of a
+directive option block (fixes [ 3484857 ]).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/tableparser.py</p>
+<ul class="simple">
+<li><p>Fix [ 2926161 ] for simple tables.
+(Combining chars in grid tables still contribute to cell width.)</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul class="simple">
+<li><p>Support the <cite>abbreviation</cite> and <cite>acronym</cite> standard roles.</p></li>
+<li><p>Record only files required to generate the LaTeX source as dependencies.</p></li>
+<li><p>Fix handling of missing stylesheets.</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">\setcounter{secnumdepth}{0}</span></code> instead of <code class="docutils literal notranslate"><span class="pre">*</span></code>-versions
+when suppressing LaTeX section numbering.</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">\DUtitle</span></code> for unsupported section levels</p></li>
+<li><p>Apply [ 3512791 ] do not compare string literals with “is”</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/xetex/__init__.py</p>
+<ul class="simple">
+<li><p>Avoid code duplication with latex2e writer (solves [ 3512728 ]).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul class="simple">
+<li><p>Change default for <cite>math-output</cite> setting to MathJax.</p></li>
+<li><p>Fix handling of missing stylesheets.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/docutils_xml.py</p>
+<ul class="simple">
+<li><p>Use the visitor pattern with default_visit()/default_depart() methods
+instead of minidom to facilitate special handling of selected nodes.</p></li>
+<li><p>Support raw XML (inserted as-is inside a &lt;raw&gt;&lt;/raw&gt; node).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/manpage.py</p>
+<ul class="simple">
+<li><p>Do not emit comment line with trailing blank. Problematic for VCS.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-8-1-2011-08-30">
+<h2><a class="toc-backref" href="#id18">Release 0.8.1 (2011-08-30)</a><a class="headerlink" href="#release-0-8-1-2011-08-30" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>Fix [ 3364658 ] (Change last file with Apache license to BSD-2-Clause)
+and [ 3395920 ] (correct copyright info for rst.el).</p></li>
+</ul>
+</li>
+<li><p>test/</p>
+<ul>
+<li><p>Apply [ 3303733 ] and [ 3365041 ] to fix tests under Py3k.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Clean up Babel language setting. Restores Sphinx compatibility.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-8-2011-07-07">
+<h2><a class="toc-backref" href="#id19">Release 0.8 (2011-07-07)</a><a class="headerlink" href="#release-0-8-2011-07-07" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>General:</p>
+<ul class="simple">
+<li><p>Handle language codes according to <a class="reference external" href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</p></li>
+<li><p>If the specified language is not supported by Docutils,
+warn and fall back to English.</p></li>
+<li><p>Math support: reStructuredText “math” role and directive,
+<code class="docutils literal notranslate"><span class="pre">math</span></code> and <code class="docutils literal notranslate"><span class="pre">math_block</span></code> doctree elements.</p></li>
+<li><p>Decode command line arguments with the locale’s preferred encoding
+(to allow, e.g., <code class="docutils literal notranslate"><span class="pre">--title=Dornr枚schen</span></code>).</p></li>
+<li><p>Orphaned “python” reader and “newlatex2e” writer moved to the sandbox.</p></li>
+<li><p>New sub-module <cite>error_reporting</cite>: handle encoding/decoding errors
+when reporting exceptions.</p></li>
+<li><p>Some additions to the Docutils core are released under the 2-Clause BSD
+license, see <a class="reference external" href="COPYING.html">COPYING</a> for details.</p></li>
+</ul>
+</li>
+<li><p>reStructuredText:</p>
+<ul class="simple">
+<li><p>Most directives now support a “name” option that attaches a
+reference name.</p></li>
+<li><p>Directive content may start on the first line also when the directive
+type accepts options.</p></li>
+</ul>
+</li>
+<li><p>docs/dev/policies.txt:</p>
+<ul class="simple">
+<li><p>Recommend the 2-Clause BSD license
+(<a class="reference external" href="http://www.spdx.org/licenses/BSD-2-Clause">http://www.spdx.org/licenses/BSD-2-Clause</a>)
+for code that is kept under the author’s copyright.</p></li>
+</ul>
+</li>
+<li><p>tools/buildhtml.py:</p>
+<ul class="simple">
+<li><p>Fix <code class="docutils literal notranslate"><span class="pre">--local</span></code> switch.</p></li>
+</ul>
+</li>
+<li><p>Fix [ 3018371 ] Added Lithuanian mappings by Dalius Dobravolskas.</p></li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul class="simple">
+<li><p>Set “lang” argument for objects with class argument
+“language-&lt;language tag&gt;”.</p></li>
+<li><p>New setting “math-output” with support for HTML, MathML, and LaTeX.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul class="simple">
+<li><p>Fix [ 3043986 ] AttributeError using :local: with table of content.</p></li>
+<li><p>Place title data in the document preamble.</p></li>
+<li><p>Load <cite>babel</cite> package only if required.</p></li>
+<li><p>Update list of supported languages.</p></li>
+<li><p>New config setting “hyperref-options”.
+No hard-coded “unicode” hyperref option (clash with xetex).</p></li>
+<li><p>Set language for custom roles, paragraphs, block-quotes, and
+line-quotes with class argument “language-&lt;language tag&gt;”.</p></li>
+<li><p>Fix [ 3095603 ] wrong quotes output for russian and other languages.</p></li>
+<li><p>Convert image URI to a local file path.</p></li>
+<li><p>Apply [ 3148141 ] fix multicolumn support when a colspanning cell
+has more than one paragraph (Wolfgang Scherer).</p></li>
+<li><p>leavevmode before longtable only when needed (prevents spurious vspace)</p></li>
+<li><p>do not advance table counter for tables without caption</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/xetex/__init__.py</p>
+<ul>
+<li><p>New writer generating LaTeX code for compiling with <code class="docutils literal notranslate"><span class="pre">xelatex</span></code>.</p>
+<p>A separate writer (inheriting from latex2e) instead of a <code class="docutils literal notranslate"><span class="pre">--xetex</span></code>
+option allows separate config options for XeTeX vs. LaTeX2e.</p>
+</li>
+</ul>
+</li>
+<li><p>docutils/writers/manpage.py</p>
+<ul class="simple">
+<li><p>Fix: BUG#3219183 - vertical space in definition lists containing markup.</p></li>
+<li><p>Fix: vertical space cleaning for option group <code class="docutils literal notranslate"><span class="pre">.</span></code>.</p></li>
+</ul>
+</li>
+<li><p>tools/editors/emacs/rst.el:</p>
+<ul class="simple">
+<li><p>Fix [ 3001100 ] does not handle spaces in filenames
+(thanks to Jakub Wilk)</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py:</p>
+<ul class="simple">
+<li><p>strip whitespace from stylesheet arguments</p></li>
+<li><p>exclude combining chars from column_width()
+(partial fix for [ 2926161 ])</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py:</p>
+<ul class="simple">
+<li><p>Fix [ 1830389 ] Replace not breaking on getting system_messages from
+nested_parse</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py:</p>
+<ul class="simple">
+<li><p>Do not close() sys.stdin, sys.stdout, or sys.stderr. Prevents
+<code class="docutils literal notranslate"><span class="pre">Exception</span> <span class="pre">ValueError:</span> <span class="pre">'I/O</span> <span class="pre">operation</span> <span class="pre">on</span> <span class="pre">closed</span> <span class="pre">file.'</span></code> with Python聽3.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-7-2010-07-07">
+<h2><a class="toc-backref" href="#id20">Release 0.7 (2010-07-07)</a><a class="headerlink" href="#release-0-7-2010-07-07" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>Fix [ 2881769 ] setup configuration.</p></li>
+<li><p>Fix [ 2788716 ] reporting problems in included files.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py</p>
+<ul>
+<li><p>FileInput opens files as text files with universal newline support
+(mode “rU”, configurable with the new optional argument “mode”).</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py</p>
+<ul>
+<li><p>Fix [ 2975987 ] repr(Text) failed with long string (Jeffrey C. Jacobs).</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py</p>
+<ul>
+<li><p>Fix [ 2923723 ] let decode_path() tolerate path == None</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py</p>
+<ul>
+<li><p>Support SVG and SWF images (thanks to Stefan Rank).</p></li>
+<li><p>Generate valid XHTML for centered images with targets.
+Use CSS classes instead of “align” tags for image alignment.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py</p>
+<ul>
+<li><p>Use <cite>transforms.writer_aux.Admonitions</cite> to “normalize” special
+admonitions.</p></li>
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">\url</span></code> command for URLs (breaks long URLs instead of
+writing into the margin).</p></li>
+<li><p>Preserve runs of spaces in <a class="reference external" href="docs/ref/restructuredtext.html#inline-literals">inline literals</a>.</p></li>
+<li><p>Deprecate <code class="docutils literal notranslate"><span class="pre">figure_footnotes</span></code> setting.</p></li>
+<li><p>Rename <code class="docutils literal notranslate"><span class="pre">use_latex_footnotes</span></code> setting to <a class="reference external" href="docs/user/config.html#docutils-footnotes">docutils_footnotes</a>.</p></li>
+<li><p>New <code class="docutils literal notranslate"><span class="pre">latex_preamble</span></code> setting.</p></li>
+<li><p>Use PDF standard fonts (Times/Helvetica/Courier) as default.</p></li>
+<li><p>Fix hyperlink targets (labels) for images, figures, and tables.</p></li>
+<li><p>Apply [ 2961988 ] Load babel after inputenc and fontenc.</p></li>
+<li><p>Apply [ 2961991 ] Call hyperref with unicode option.</p></li>
+<li><p>Drop the special <a class="reference external" href="docs/user/config.html#output_encoding">output_encoding</a> default (“latin-1”).
+The Docutils wide default (usually “UTF-8”) is used instead.</p></li>
+<li><p>Render inline markup in document title and subtitle.</p></li>
+<li><p>Fix numbering depth with LaTeX section numbering.</p></li>
+<li><p>Update Unicode -&gt; LaTeX translations.</p></li>
+<li><p>Fix bug with topic directive (thanks to Alan G Isaac for reporting).</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>docutils/writers/manpage.py</p>
+<ul>
+<li><p>Fix: supported attribute (thanks to peter2108).</p></li>
+<li><p>Remove trailing blanks in code (keep in sync with mercurial version).</p></li>
+<li><p>Titles level 1, that is <code class="docutils literal notranslate"><span class="pre">.SH</span></code>, always uppercase.</p></li>
+<li><p>Apply patch from mg: literal text should be bold in man-pages.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py</p>
+<ul>
+<li><p>Fix: encoding <code class="docutils literal notranslate"><span class="pre">'ascii'</span></code> must be lowercase to prevent problems for
+turkish locale.</p></li>
+</ul>
+</li>
+<li><p>setup.py:</p>
+<ul>
+<li><p>Python聽3 support: copy test/ and tools/ to the build-dir
+and convert Python sources with 2to3.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-6-2009-10-11">
+<h2><a class="toc-backref" href="#id21">Release 0.6 (2009-10-11)</a><a class="headerlink" href="#release-0-6-2009-10-11" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>Docutils is now compatible with Python versions from 2.3 up to 2.6
+and convertible to 3.1 code.</p>
+<ul>
+<li><p>Node.__nonzero__ returns True instead of 1.</p></li>
+<li><p>use os.walk instead os.path.walk.</p></li>
+<li><p>minimize “types” module where possible.</p></li>
+<li><p>Backwards-compatible changes to remove python2.6 -3 deprecation warnings</p></li>
+<li><p>Text nodes now subclass unicode rather than UserString
+(which is gone in python 3.0).</p></li>
+<li><p>3.0 compatibility module docutils._compat</p></li>
+<li><p>Drop 2.2 compatibility workarounds.</p></li>
+<li><p>Drop extras/optparse.py and extras/textwrap.py
+(stdlib modules since 2.3).</p></li>
+</ul>
+</li>
+<li><p>OpenOffice export: ODT writer moved from sandbox to Doctutils core.</p></li>
+<li><p>Unix man page export: manpage writer moved from sandbox to Doctutils
+core.</p></li>
+<li><p>Apply [ 1719345 ] Galician translation</p></li>
+<li><p>Apply [ 1905741 ] Polish translation</p></li>
+<li><p>Apply [ 1878977 ] make_id(): deaccent characters.</p></li>
+<li><p>Apply [ 2029251 ] return nonzero when tests fail.</p></li>
+<li><p>Fix [ 1692788 ] allow UTF-8 in style sheets.</p></li>
+<li><p>Fix [ 2781629 ] support non-ASCII chars in file names.</p></li>
+<li><p>Apply [ 2845002 ] let <code class="docutils literal notranslate"><span class="pre">--no-raw</span></code> disable raw <em>roles</em> too.</p></li>
+<li><p>Fix [ 2831643 ] by renaming DirectiveError.message to DirectiveError.msg</p></li>
+<li><p>Fix [ 2821266 ] –strict option works now like –halt=info.</p></li>
+<li><p>Fix [ 2788716 ] DirectiveError now correctly reports source and line.</p></li>
+<li><p>Fix [ 1627229 ] hyperlink references in substitutions.</p></li>
+<li><p>The “newlatex” writer is orphaned.</p></li>
+</ul>
+</li>
+<li><p>reStructuredText:</p>
+<ul>
+<li><p>Documented Unicode characters allowed as inline markup openers,
+closers, and delimiters.</p></li>
+<li><p>Allow units for all length specifications.</p></li>
+<li><p>Allow percent sign in “scale” argument of “figure” and “image” directives.</p></li>
+<li><p>Bugfix: The “figalign” argument of a figure now works as intended
+(aligning the figure, not its contents).</p></li>
+<li><p>Align images with class “align-[right|center|left]”
+(allows setting the alignment of an image in a figure).</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Element.__contains__</span></code> method, for the in-operator.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>Apply [ 1994493 ] Patch to support all kinds of quotes in inline markup.</p></li>
+<li><p>Added support for Unicode inline markup delimiters “鈥� 鈥� 鈥� 鈥� 鈥�” and
+“聽” (non-breaking space), and “隆 驴” openers.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/directives/misc.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">start-line</span></code> and <code class="docutils literal notranslate"><span class="pre">end-line</span></code> options to “include”
+directive to select a range of lines.</p></li>
+<li><p>Hard tabs in literal inclusions are replaced by spaces. This is
+configurable via the new <code class="docutils literal notranslate"><span class="pre">tab-width</span></code> option of the “include” directive
+(a negative tab-width prevents tab expansion).</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py:</p>
+<ul>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">get_stylesheet_list</span></code> function.</p></li>
+<li><p>Apply [ 2834836 ] print info at halt</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py:</p>
+<ul>
+<li><p>Raise default priority of StripClasses to exclude stripped classes from
+the ToC.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">--stylesheet</span></code> and <code class="docutils literal notranslate"><span class="pre">--stylesheet-path</span></code> options support a comma
+separated list of stylesheets.</p></li>
+<li><p>Address [ 1938891 ] Inline literal text creates “pre” span only when
+needed to prevent inter-word line wraps.</p></li>
+<li><p>Use <cite>translate</cite> method instead of repeated <cite>replace</cite> calls.</p></li>
+<li><p>Fix [ 1757105 ] New <code class="docutils literal notranslate"><span class="pre">table-style</span></code> option. Added to standard table
+classes to allow CSS styling that does not interfere with other
+table-using constructs (field lists, citations, …).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/newlatex2e/__init__.py:</p>
+<ul>
+<li><p>Apply [ 1612821 ] Double quotes in literal text in Italian/German</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py (see also
+<a class="reference external" href="docs/user/docutils-05-compat.sty.html">docs/user/docutils-05-compat.sty.html</a>) :</p>
+<ul>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">--embed-stylesheet</span></code> option.</p></li>
+<li><p>Apply [ 1474017 ] image vertical alignment is reversed.</p></li>
+<li><p>Apply [ 2051599 ] multi-page tables in latex writer (from pabigot).</p></li>
+<li><p>Change: has_key for dictionaries (not Nodes) to in-operator.</p></li>
+<li><p>Merge adjacent citations into one latex cite command.</p></li>
+<li><p>Failsave implementation of custom roles. LaTeX compilation now ignores
+unknown classes instead of aborting with an error.</p></li>
+<li><p>Support custom roles based on standard roles.</p></li>
+<li><p>LaTeX packages can be used as <code class="docutils literal notranslate"><span class="pre">--stylesheet</span></code> arguments without
+restriction. (A style sheet is now referenced with the <code class="docutils literal notranslate"><span class="pre">\usepackage</span></code>
+command, if it ends with <code class="docutils literal notranslate"><span class="pre">.sty</span></code> or has no extension.)</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">bp</span></code> to lenghts without unit (prevents LaTex errors).</p></li>
+<li><p>Correctly write length unit <code class="docutils literal notranslate"><span class="pre">pt</span></code> as <code class="docutils literal notranslate"><span class="pre">bp</span></code> in LaTeX.</p></li>
+<li><p>Do not convert <code class="docutils literal notranslate"><span class="pre">px</span></code> to <code class="docutils literal notranslate"><span class="pre">pt</span></code> (<code class="docutils literal notranslate"><span class="pre">px</span></code> is supported by pdfTeX since
+2005-02-04 as a configurable length unit).</p></li>
+<li><p>Do not use fontenc, nor the obsolete ‘ae’ and ‘aeguill’ packages
+if font-encoding is set to ‘’. LaTeX defaults to OT1 then.</p></li>
+<li><p>Set sub- and superscript role argument in text mode not as math.
+Use a custom role based on sub-/superscript if you want italic shape.</p></li>
+<li><p>Shorter preamble and less dependencies: Load packages and define macros
+only if required in the document.</p></li>
+<li><p>Use the name prefix <code class="docutils literal notranslate"><span class="pre">DU</span></code> for all Docutils specific LaTeX macros.</p></li>
+<li><p>New custom environments and commands with optional “classes” argument.</p></li>
+<li><p>Simpler LaTeX encoding, e.g. “%” instead of “{%}”.</p></li>
+<li><p>Better conformance to Docutils specifications with <code class="docutils literal notranslate"><span class="pre">--use-latex-toc</span></code>.
+Support for LaTeX generated ToC also with unnumbered sections.</p></li>
+<li><p>If ‘sectnum_xform’ is False, the ‘sectnum’ directive triggers
+section numbering by LaTeX.</p></li>
+<li><p>Use default font in admonitions and sidebar.</p></li>
+<li><p>Align of image in a figure defaults to ‘center’.</p></li>
+<li><p>Bugfix: Newlines around targets and references prevent run-together
+paragraphs.</p></li>
+<li><p>Fix internal hyperlinks.</p></li>
+<li><p>Use class defaults for page margins (‘typearea’ now optional).</p></li>
+<li><p>Float placement made configurable, default changed to “here definitely”.</p></li>
+<li><p>Typeset generic topic as “quote block with title”.</p></li>
+<li><p>Use template (file and configuration option).</p></li>
+<li><p>In the default template, load cmap.sty (fix text extraction in PDF) and
+fixltx2e.sty (LaTeX patches, textsubscript).</p></li>
+<li><p>Render doctest blocks as literal blocks (fixes [ 1586058 ]).</p></li>
+<li><p>Use <cite>translate</cite> instead of repeated <cite>replace</cite> calls for text encoding.</p></li>
+<li><p>Hyperlinked footnotes and support for symbol footnotes and
+<code class="docutils literal notranslate"><span class="pre">--footnote-references=brackets</span></code> with <code class="docutils literal notranslate"><span class="pre">--use-latex-footnotes</span></code>.</p></li>
+<li><p>Complete pairs of binary options
+(<code class="docutils literal notranslate"><span class="pre">--figure-footnotes,</span> <span class="pre">--figure-citations,</span> <span class="pre">--link-stylesheet</span></code>,
+<code class="docutils literal notranslate"><span class="pre">--use-docutils-toc,</span> <span class="pre">--use-docutils-docinfo,</span> <span class="pre">--topic-abstract</span></code>)</p></li>
+<li><p>New defaults:
+- font-encoding: “T1” (formerly implicitely set by ‘ae’).
+- use-latex-toc: true (ToC with page numbers).
+- use-latex-footnotes: true (no mixup with figures).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/manpage.py</p>
+<ul>
+<li><p>Do not print version at document end, this is done by the viewer.</p></li>
+<li><p>Do not print date at document end, this is done by the viewer.</p></li>
+<li><p>Fix storage of docinfo fields for none standard fields.</p></li>
+</ul>
+</li>
+<li><p>docutils/tools/rst2man.py</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-5-2008-06-25">
+<h2><a class="toc-backref" href="#id22">Release 0.5 (2008-06-25)</a><a class="headerlink" href="#release-0-5-2008-06-25" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p>docutils/languages/he.py: Added to project: Hebrew mappings by
+Meir Kriheli.</p></li>
+<li><p>docutils/parsers/rst/languages/he.py: Added to project: Hebrew
+mappings by Meir Kriheli.</p></li>
+<li><p>docutils/frontend.py:</p>
+<ul class="simple">
+<li><p>Configuration files are now assumed and required to be
+UTF-8-encoded.</p></li>
+<li><p>Paths of applied configuration files are now recorded in the
+runtime setting <code class="docutils literal notranslate"><span class="pre">_config_files</span></code> (accessible via
+<code class="docutils literal notranslate"><span class="pre">--dump-settings</span></code>).</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">--strip-elements-with-class</span></code> and <code class="docutils literal notranslate"><span class="pre">--strip-class</span></code>
+options (<code class="docutils literal notranslate"><span class="pre">strip_elements_with_classes</span></code> and <code class="docutils literal notranslate"><span class="pre">strip_classes</span></code>
+settings).</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py:</p>
+<ul class="simple">
+<li><p>Added code to determine the input encoding from data: encoding
+declarations or the presence of byte order marks (UTF-8 &amp; UTF-16).</p></li>
+<li><p>Added support for IronPython 1.0.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">document.__getstate__</span></code> method, for pickling.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul class="simple">
+<li><p>Allow <code class="docutils literal notranslate"><span class="pre">+</span></code> and <code class="docutils literal notranslate"><span class="pre">:</span></code> in reference names.</p></li>
+<li><p>Unquoted targets beginning with an underscore (<code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">__target:</span>
+<span class="pre">URI</span></code>) are no longer accepted.</p></li>
+<li><p>Added support for multiple attributions in a physical block quote
+(indented text block), dividing it into multiple logical block
+quotes.</p></li>
+<li><p>Added support for unicode bullets in bullet lists: “鈥�”, “鈥�”, and
+“鈦�”.</p></li>
+<li><p>Added support for new object-oriented directive interface,
+retaining compatibility to the old functional interface.</p></li>
+<li><p>Added support for throwing <code class="docutils literal notranslate"><span class="pre">DirectiveError</span></code>’s from within
+directive code.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/__init__.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Directive</span></code> base class.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">DirectiveError</span></code> base class.</p></li>
+<li><p>Fixed <code class="docutils literal notranslate"><span class="pre">file_insertion_enabled</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">raw_enabled</span></code> setting
+definitions.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/directives/:</p>
+<ul class="simple">
+<li><p>Refactored all reStructuredText directives to use the new
+object-oriented directive interface.  Errors are now (mostly)
+thrown using the new <code class="docutils literal notranslate"><span class="pre">DirectiveError</span></code> class.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/directives/misc.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">start-after</span></code> and <code class="docutils literal notranslate"><span class="pre">end-before</span></code> options to <code class="docutils literal notranslate"><span class="pre">include</span></code>
+directive; thanks to Stefan Rank.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">StripClassesAndElements</span></code> transform to remove from the
+document tree all elements with classes in
+<code class="docutils literal notranslate"><span class="pre">settings.strip_elements_with_classes</span></code> and all “classes”
+attribute values in <code class="docutils literal notranslate"><span class="pre">self.document.settings.strip_classes</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/writer_aux.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Admonitions</span></code> transform to transform specific admonitions
+(like <code class="docutils literal notranslate"><span class="pre">note</span></code>, <code class="docutils literal notranslate"><span class="pre">warning</span></code>, etc.) into generic admonitions with a
+localized title.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/__init__.py:</p>
+<ul class="simple">
+<li><p>Moved template functionality from the PEP/HTML writer here.</p></li>
+<li><p>Expanded the fragments available in the <code class="docutils literal notranslate"><span class="pre">parts</span></code> attribute.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">id</span></code> attributes from titles to surrounding <code class="docutils literal notranslate"><span class="pre">div</span></code>
+elements.</p></li>
+<li><p>Dropped all <code class="docutils literal notranslate"><span class="pre">name</span></code> attributes of <code class="docutils literal notranslate"><span class="pre">a</span></code> elements (<code class="docutils literal notranslate"><span class="pre">id</span></code> is
+universally supported now).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">template.txt</span></code> is now opened in text mode instead of binary mode
+(to ensure Windows compatibility).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">a</span></code> elements now have an “internal” or “external” class,
+depending on reference type.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/template.txt: Added to project.</p></li>
+<li><p>docutils/writers/pep_html/:</p>
+<ul class="simple">
+<li><p>Moved template functionality to the HTML writer.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/s5_html/__init__.py:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">view_mode</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">hidden_controls</span></code> settings
+(<code class="docutils literal notranslate"><span class="pre">--view-mode</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">--hidden-controls/--visible-controls</span></code>
+options).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/__init__.py:</p>
+<ul class="simple">
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">--literal-block-env</span></code></p></li>
+<li><p>Fix: escaping <code class="docutils literal notranslate"><span class="pre">%</span></code> in href urls.</p></li>
+<li><p>Move usepackage hyperref after stylesheet inclusion.</p></li>
+<li><p>Fix: scrartcl does not have chapter but scrreprt.</p></li>
+<li><p>Add newline after <code class="docutils literal notranslate"><span class="pre">\end{verbatim}</span></code>.</p></li>
+<li><p>Merge smaller differences from latex2e_adaptive_preamble.</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">use-part-section</span></code>.</p></li>
+<li><p>Put leavevmode before longtable to avoid having it moved before sub/pargraph.</p></li>
+<li><p>Using leavemode option_list no longer needs to check if parent
+is a definition list.</p></li>
+<li><p>Append <code class="docutils literal notranslate"><span class="pre">\leavemode</span></code> to definition list terms.</p></li>
+<li><p>No longer write visit_/depart_definition_list_item comments to
+output.</p></li>
+<li><p>Table column width with 3 decimal places.</p></li>
+<li><p>Add table stubs support (boldfont).</p></li>
+<li><p>Add assemble_parts to writer.</p></li>
+<li><p>Add simply support for nested tables.</p></li>
+<li><p>Fix verbatim in tables if use-verbatim-when-possible.</p></li>
+<li><p>Use section commands down to subparagraph.</p></li>
+<li><p>Put ensuremath around some latin1 chars.</p></li>
+<li><p>Set <code class="docutils literal notranslate"><span class="pre">usepackage[utf8x]{inputenc}</span></code> for utf-8.</p></li>
+<li><p>New option <code class="docutils literal notranslate"><span class="pre">--use-bibtex=style,db1,db2</span></code>.</p></li>
+<li><p>New option <code class="docutils literal notranslate"><span class="pre">--reference-label</span></code> to allow usage of LaTeX ref for
+labels in section references.</p></li>
+<li><p>Add a label after every section to support sectionnumbers as reference
+labels.</p></li>
+<li><p>Fix: bug# 1605376 rst2latex: bad options group list</p></li>
+<li><p>Remove inactive code for use_optionlist_for_option_list.</p></li>
+<li><p>Remove latex comments from option_list output.</p></li>
+<li><p>Fix: bug# 1612270 double qoutes in italian literal.</p></li>
+<li><p>Fix: output <code class="docutils literal notranslate"><span class="pre">hypertarget{</span> <span class="pre">node.get(refid)</span> <span class="pre">}{}</span></code> from visit_target.</p></li>
+<li><p>Add option –use-latex-abstract.</p></li>
+<li><p>Image width unit <code class="docutils literal notranslate"><span class="pre">px</span></code> is translated to <code class="docutils literal notranslate"><span class="pre">pt</span></code>.</p></li>
+<li><p>Add image height support.</p></li>
+<li><p>Fix: image width <code class="docutils literal notranslate"><span class="pre">70%</span></code> is converted <code class="docutils literal notranslate"><span class="pre">0.700\linewidth</span></code>.
+bug #1457388</p></li>
+<li><p>Fix: Do not escape underscores in citation reference labels if
+use-latex-citations is set.</p></li>
+<li><p>Use centering instead of center for figure contents, to avoid vertical
+space.</p></li>
+<li><p>Recognize table class: borderless, nolines, booktabs, standard.</p></li>
+<li><p>Fix: Renaming contents section does not work with latex writer; SF
+bug #1487405.</p></li>
+<li><p>Applied patch for custom roles with classes from Edward Loper.</p></li>
+<li><p>Fixed bug that caused crashes with more than 256 lists.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/pep_html/__init__.py:</p>
+<ul class="simple">
+<li><p>Changed to support new python.org website structure and
+pep2pyramid.py.</p></li>
+</ul>
+</li>
+<li><p>docs/howto/security.txt: “Deploying Docutils Securely”, added to
+project.</p></li>
+<li><p>tools/buildhtml.py:</p>
+<dl class="simple">
+<dt>– Added <code class="docutils literal notranslate"><span class="pre">ignore</span></code> setting to exclude a list of shell patterns</dt><dd><p>(default: <code class="docutils literal notranslate"><span class="pre">.svn:CVS</span></code>).</p>
+</dd>
+</dl>
+</li>
+<li><p>tools/editors/emacs/rst.el:</p>
+<ul class="simple">
+<li><p>Changed license to “GPL”.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">rst-straighten-decorations</span></code> function.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">compile</span></code> module is now always loaded.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">rst-toggle-line-block</span></code> function.</p></li>
+<li><p>Headings consisting only of non-ASCII characters are now
+recognized by <code class="docutils literal notranslate"><span class="pre">rst-toc</span></code> and <code class="docutils literal notranslate"><span class="pre">rst-adjust</span></code>.</p></li>
+<li><p>Added font-lock support for multi-line comments where the first
+comment line is empty.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">(require</span> <span class="pre">'font-lock)</span></code>.</p></li>
+</ul>
+</li>
+<li><p>setup.py:</p>
+<ul class="simple">
+<li><p>Provide descriptive error message if distutils is missing.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-4-2006-01-09">
+<h2><a class="toc-backref" href="#id23">Release 0.4 (2006-01-09)</a><a class="headerlink" href="#release-0-4-2006-01-09" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>Updated the project policies for trunk/branch development &amp;
+version numbering.</p></li>
+</ul>
+</li>
+<li><p>docutils/__init__.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">__version_details__</span></code> attribute to describe code source
+(repository/snapshot/release).</p></li>
+<li><p>Replaced <code class="docutils literal notranslate"><span class="pre">default_transforms</span></code> attribute of TransformSpec with
+<code class="docutils literal notranslate"><span class="pre">get_transforms()</span></code> method.</p></li>
+</ul>
+</li>
+<li><p>docutils/core.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">publish_doctree</span></code> and <code class="docutils literal notranslate"><span class="pre">publish_from_doctree</span></code> convenience
+functions, for document tree extraction and reprocessing.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">DocTreeInput</span></code> class, for reprocessing existing documents.</p></li>
+<li><p>Added support for non-Unicode (e.g. binary) writer output.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py:</p>
+<ul>
+<li><p>Re-introduced <code class="docutils literal notranslate"><span class="pre">Targetable.indirect_reference_name</span></code>, for
+MoinMoin/reST compatibility (removed in r3124/r3129).</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">serial_escape</span></code> function; escapes string values that are
+elements of a list, for serialization.  Modified Docutils-XML
+writing (<code class="docutils literal notranslate"><span class="pre">Element._dom_node</span></code>) and pseudo-XML writing
+(<code class="docutils literal notranslate"><span class="pre">Element.starttag</span></code>) to use <code class="docutils literal notranslate"><span class="pre">serial_escape</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Node.deepcopy()</span></code> method.</p></li>
+<li><p>Removed the internal lists <code class="docutils literal notranslate"><span class="pre">document.substitution_refs</span></code>,
+<code class="docutils literal notranslate"><span class="pre">document.anonymous_refs</span></code>, and <code class="docutils literal notranslate"><span class="pre">document.anonymous_targets</span></code>.</p></li>
+<li><p>Added a “container” element.</p></li>
+<li><p>Fixed bug where values of list-valued attributes of elements
+originating from custom interpreted text roles (i.e., with custom
+classes) were being shared between element instances.  Reported by
+Shmuel Zeigerman.</p></li>
+</ul>
+</li>
+<li><p>docutils/statemachine.py:</p>
+<ul>
+<li><p>Added trailing whitespace stripping to <code class="docutils literal notranslate"><span class="pre">string2lines()</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">StringList.pad_double_width()</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">.replace()</span></code> for East
+Asian double-width character support.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">east_asian_column_width()</span></code> for double-width character
+support.</p></li>
+</ul>
+</li>
+<li><p>docutils/languages/ja.py: Added to project: Japanese mappings by
+Hisashi Morita.</p></li>
+<li><p>docutils/languages/zh_cn.py: Added to project: Simplified Chinese
+mappings by Panjunyong.</p></li>
+<li><p>docutils/parsers/null.py: Added to project; a do-nothing parser.</p></li>
+<li><p>docutils/parsers/rst/__init__.py:</p>
+<ul>
+<li><p>Added validator to tab_width setting, with test.  Closes SF bug
+#1212515, report from Wu Wei.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>Fixed bug with escaped colons indicating a literal block.</p></li>
+<li><p>Fixed bug with enumerated lists (SF#1254145).</p></li>
+<li><p>Backslash-escaped colons inside of field names are now allowed.</p></li>
+<li><p>Targets (implicit and explicit), anonymous hyperlink references
+and auto-numbered footnote references inside of substitution
+definitions are now disallowed.</p></li>
+<li><p>Fixed bug: list items with blank first lines.</p></li>
+<li><p>Fixed bug: block quote attributions with indented second lines.</p></li>
+<li><p>Added East Asian double-width character support (Python 2.4 only).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/tableparser.py:</p>
+<ul>
+<li><p>Added East Asian double-width character support (Python 2.4 only).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/body.py:</p>
+<ul>
+<li><p>Added the “container” directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py:</p>
+<ul>
+<li><p>Added the “default-role”, “title”, and “date” directives.</p></li>
+<li><p>Added standard data file syntax to the “include” directive.</p></li>
+<li><p>Added support for “class” directive content.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/images.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">indirect_reference_name</span></code> support for images with a target
+option.</p></li>
+<li><p>Added support for image width and height units.</p></li>
+<li><p>Fixed bug with image “target” options.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/references.py:</p>
+<ul>
+<li><p>Added “class” attribute to “target-notes” directive, for
+footnote_reference classes.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/include/: Directory added to project; contains
+standard data files for the “include” directive.  Initial contents:
+character entity substitution definition sets, and a set of
+definitions for S5/HTML presentations.</p></li>
+<li><p>docutils/parsers/rst/languages/ja.py: Added to project: Japanese
+mappings by David Goodger.</p></li>
+<li><p>docutils/parsers/rst/languages/zh_cn.py: Added to project:
+Simplified Chinese mappings by Panjunyong.</p></li>
+<li><p>docutils/readers/__init__.py:</p>
+<ul>
+<li><p>Added universal.Decorations and universal.ExposeInternals
+transforms as default transforms for all readers.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">ReReader</span></code> base class for readers that reread an existing
+document tree.</p></li>
+</ul>
+</li>
+<li><p>docutils/readers/doctree.py: Added to project; a reader for existing
+document trees.</p></li>
+<li><p>docutils/transforms/frontmatter.py:</p>
+<ul>
+<li><p>Fixed the DocInfo transform to handle SVN-style expansion of the
+“Date” keyword.</p></li>
+<li><p>In <code class="docutils literal notranslate"><span class="pre">DocInfo.extract_authors</span></code>, treat the contents of “authors”
+fields uniformly.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/misc.py:</p>
+<ul>
+<li><p>Added misc.Transitions transform, extracted from
+universal.FinalChecks.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py:</p>
+<ul>
+<li><p>Added references.DanglingReferences transform, extracted from
+universal.FinalChecks.</p></li>
+<li><p>Fixed bug with doubly-indirect substitutions.</p></li>
+<li><p>Added footnote_reference classes attribute to “TargetNotes”.</p></li>
+<li><p>Fixed bug with circular substitution definitions that put Docutils
+into an infinite loop.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py:</p>
+<ul>
+<li><p>Added universal.ExposeInternals transform, extracted from
+universal.FinalChecks.</p></li>
+<li><p>Removed universal.FinalChecks transform (logic has been moved to
+several new transforms).</p></li>
+<li><p>Fixed bug with the “expose_internals” setting and Text nodes
+(exposed by the “rawsource” internal attribute).</p></li>
+<li><p>Added the universal.StripComments transform, implementation of the
+“strip_comments” setting.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/writer_aux.py: Added to project; auxiliary
+transforms for writers.</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Compound</span></code> transform, which flattens compound paragraphs.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/: Several writer modules (html4css1.py) were
+converted into packages.  Support modules and data files have been
+moved into the packages.  The stylesheets for the HTML writers are
+now installed along with the code, the code knows where to find
+them, and the default is to use them (actually, to embed them).
+Some adjustments to configuration files may be necessary.  The
+easiest way to obtain the new default behavior is to remove all
+settings whose name includes “stylesheet”.</p></li>
+<li><p>docutils/writers/__init__.py:</p>
+<ul>
+<li><p>Added universal.Messages and universal.FilterMessages transforms
+as default transforms for all writers.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">UnfilteredWriter</span></code> base class for writers that pass the
+document tree on unchanged.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/docutils_xml.py:</p>
+<ul>
+<li><p>Made <code class="docutils literal notranslate"><span class="pre">xmlcharrefreplace</span></code> the default output encoding error
+handler.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1/:</p>
+<ul>
+<li><p>Added support for image width and height units.</p></li>
+<li><p>Made <code class="docutils literal notranslate"><span class="pre">xmlcharrefreplace</span></code> the default output encoding error
+handler.</p></li>
+<li><p>Made <code class="docutils literal notranslate"><span class="pre">--embed-stylesheet</span></code> the default rather than
+<code class="docutils literal notranslate"><span class="pre">--link-stylesheet</span></code>.</p></li>
+<li><p>Moved “id” attribute from container (section etc.) to title’s &lt;a&gt;
+tag, to be on the same tag as “name”.
+(!!! To be reverted in Docutils 0.5.)</p></li>
+<li><p>Added vertical space between fields of field lists.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">--compact-field-lists</span></code> option to remove vertical space in
+simple field lists.</p></li>
+<li><p>Made cloaking of email addresses with <code class="docutils literal notranslate"><span class="pre">--cloak-email-addresses</span></code>
+less obtrusive.</p></li>
+<li><p>Fixed support for centered images.</p></li>
+<li><p>Added support for class=”compact” &amp; class=”open” lists.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e/:</p>
+<ul>
+<li><p>Underscores in citekeys are no longer escaped.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/newlatex2e/unicode_map.py: Added to project;
+mapping of Unicode characters to LaTeX equivalents.</p></li>
+<li><p>docutils/writers/s5_html/: Package added to project; writer for
+S5/HTML slide shows.</p></li>
+<li><p>docs/dev/distributing.txt: Added to project; guide for distributors
+(package maintainers).</p></li>
+<li><p>docs/dev/hacking.txt: Added to project; guide for developers.</p></li>
+<li><p>docs/ref/doctree.txt:</p>
+<ul>
+<li><p>Updated for plural attributes “classes”, “ids”, “names”,
+“dupnames”.</p></li>
+<li><p>Added the “container” element.</p></li>
+</ul>
+</li>
+<li><p>docs/ref/docutils.dtd:</p>
+<ul>
+<li><p>Updated for plural attributes “classes”, “ids”, “names”,
+“dupnames”.</p></li>
+</ul>
+</li>
+<li><p>docs/user/emacs.txt: Added to project; a document about Emacs
+support for reStructuredText and Docutils.</p></li>
+<li><p>docs/user/links.txt: Added to project; lists of Docutils-related
+links.</p></li>
+<li><p>docs/user/mailing-lists.txt: Added to project; information about
+Docutils-related mailing lists and how to access them.</p></li>
+<li><p>docs/user/slide-shows.txt: Added to project; example of and docs for
+the S5/HTML writer (<code class="docutils literal notranslate"><span class="pre">rst2s5.py</span></code> front end).</p></li>
+<li><p>docs/ref/rst/definitions.txt: “reStructuredText Standard Definition
+Files”, added to project.</p></li>
+<li><p>test/coverage.sh: Added to project; test coverage script.</p></li>
+<li><p>test/DocutilsTestSupport.py:</p>
+<ul>
+<li><p>Added support for specifying runtime settings at the suite level.</p></li>
+</ul>
+</li>
+<li><p>test/test_functional.py:</p>
+<ul>
+<li><p>Added the <code class="docutils literal notranslate"><span class="pre">clear_output_directory</span></code> function.</p></li>
+<li><p>Added support for <code class="docutils literal notranslate"><span class="pre">_test_more</span></code> functions in functional test
+config files.</p></li>
+</ul>
+</li>
+<li><p>tools/rst2s5.py: Added to project; front end for the S5/HTML writer.</p></li>
+<li><p>tools/rstpep2html.py: Renamed from pep.py.</p></li>
+<li><p>tools/dev/create_unimap.py: Added to project; script to create the
+docutils/writers/unimap_latex.py mapping file.</p></li>
+<li><p>tools/dev/profile_docutils.py: Added to project; profiler script.</p></li>
+<li><p>tools/dev/unicode2rstsubs.py: Moved from tools/unicode2rstsubs.py.</p></li>
+<li><p>tools/editors/emacs/restructuredtext.el,
+tools/editors/emacs/rst-html.el, tools/editors/emacs/rst-mode.el:
+Removed from project; the functionality is now contained in rst.el.</p></li>
+<li><p>tools/editors/emacs/rst.el: Added to project.  Added many features
+and fixed many bugs.  See docs/user/emacs.txt for details.</p></li>
+<li><p>tools/stylesheets: Removed from project.  Stylesheets have been
+renamed and moved into writer packages.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-3-9-2005-05-26">
+<h2><a class="toc-backref" href="#id24">Release 0.3.9 (2005-05-26)</a><a class="headerlink" href="#release-0-3-9-2005-05-26" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>General:</p>
+<ul>
+<li><p>Eliminated and replaced all uses of the old string attributes
+<code class="docutils literal notranslate"><span class="pre">id</span></code>, <code class="docutils literal notranslate"><span class="pre">name</span></code>, <code class="docutils literal notranslate"><span class="pre">dupname</span></code> and <code class="docutils literal notranslate"><span class="pre">class</span></code> with references to the
+new list attributes <code class="docutils literal notranslate"><span class="pre">ids</span></code>, <code class="docutils literal notranslate"><span class="pre">names</span></code>, <code class="docutils literal notranslate"><span class="pre">dupnames</span></code> and
+<code class="docutils literal notranslate"><span class="pre">classes</span></code> throughout the whole source tree.</p></li>
+</ul>
+</li>
+<li><p>docutils/core.py:</p>
+<ul>
+<li><p>Enabled <code class="docutils literal notranslate"><span class="pre">--dump-*</span></code> options when <code class="docutils literal notranslate"><span class="pre">--traceback</span></code> specified,
+allowing for easier debugging.</p></li>
+<li><p>In <code class="docutils literal notranslate"><span class="pre">Publisher.publish()</span></code>, expanded the generic top-level
+exception catching.</p></li>
+</ul>
+</li>
+<li><p>docutils/examples.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">internals</span></code> function for exploration.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py:</p>
+<ul>
+<li><p>Fixed <code class="docutils literal notranslate"><span class="pre">Input.decode</span></code> method to apply heuristics only if no
+encoding is explicitly given, and to provide better reporting of
+decoding errors.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">Input.decode</span></code> method now removes byte order marks (BOMs)
+from input streams.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">image</span></code> element class changed to subclass of Element, not
+TextElement (it’s an empty element, and cannot contain text).</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">attr_defaults</span></code> dictionary for default attribute values.</p></li>
+<li><p>Added empty list as default value for the following attributes:
+<code class="docutils literal notranslate"><span class="pre">ids</span></code>, <code class="docutils literal notranslate"><span class="pre">names</span></code>, <code class="docutils literal notranslate"><span class="pre">dupnames</span></code>, <code class="docutils literal notranslate"><span class="pre">classes</span></code>, and <code class="docutils literal notranslate"><span class="pre">backrefs</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">document.decoration</span></code> attribute,
+<code class="docutils literal notranslate"><span class="pre">document.get_decoration</span></code> method, and <code class="docutils literal notranslate"><span class="pre">decoration.get_header</span></code>
+&amp; <code class="docutils literal notranslate"><span class="pre">.get_footer</span></code> methods.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Element.update_basic_atts()</span></code> and <code class="docutils literal notranslate"><span class="pre">Element.substitute()</span></code>
+methods.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py:</p>
+<ul>
+<li><p>Removed <code class="docutils literal notranslate"><span class="pre">docutils.utils.Reporter.categories</span></code>,
+<code class="docutils literal notranslate"><span class="pre">docutils.utils.ConditionSet</span></code>, and all references to them, to
+simplify error reporting.</p></li>
+</ul>
+</li>
+<li><p>docutils/languages/nl.py: Added to project; Dutch mappings by
+Martijn Pieters.</p></li>
+<li><p>docutils/parsers/rst/__init__.py:</p>
+<ul>
+<li><p>Added settings: <code class="docutils literal notranslate"><span class="pre">file_insertion_enabled</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">raw_enabled</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>Added check for escaped at-mark to prevent email address recognition.</p></li>
+<li><p>Fixed option lists to allow spaces inside <code class="docutils literal notranslate"><span class="pre">&lt;angle-bracketed</span> <span class="pre">option</span>
+<span class="pre">arguments&gt;</span></code>.</p></li>
+<li><p>Allowed whitespace in paths and URLs.</p></li>
+<li><p>Added auto-enumerated list items.</p></li>
+<li><p>Fixed bug that assumed <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">_</span></code> and <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">|</span></code> were invariably
+followed by text.</p></li>
+<li><p>Added support for table stub columns.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/__init__.py:</p>
+<ul>
+<li><p>Allowed whitespace in paths (<code class="docutils literal notranslate"><span class="pre">path</span></code> function).</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">uri</span></code> directive option conversion function.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/body.py:</p>
+<ul>
+<li><p>Fixed illegal context bug with “topic” directive (allowed within
+sidebars; not within body elements).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/images.py:</p>
+<ul>
+<li><p>Allowed whitespace (stripped) in “image” &amp; “figure” directive URLs.</p></li>
+<li><p>Added support for the <code class="docutils literal notranslate"><span class="pre">file_insertion_enabled</span></code> setting in the
+“figure” directive (disables “figwidth” option).</p></li>
+<li><p>“image” directive: added checks for valid values of “align” option,
+depending on context.  “figure” directive: added specialized
+“align” option and attribute on “figure” element.</p></li>
+<li><p>Made “:figwidth: image” option of “figure” directive work again.</p></li>
+<li><p>Fixed bug with reference names containing uppercase letters
+(e.g. <code class="docutils literal notranslate"><span class="pre">Name_</span></code>) in “target” option of “image” directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py:</p>
+<ul>
+<li><p>Fixed “include” and “raw” directives to catch text decoding
+errors.</p></li>
+<li><p>Allowed whitespace in “include” &amp; “raw” directive paths.</p></li>
+<li><p>Added support for <code class="docutils literal notranslate"><span class="pre">file_insertion_enabled</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">raw_enabled</span></code>
+settings in “include” &amp; “raw” directives.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/parts.py:</p>
+<ul>
+<li><p>Added “header” &amp; “footer” directives.</p></li>
+<li><p>Fixed illegal context bug with “contents” directive (topics
+allowed within sidebars; not within body elements).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py:</p>
+<ul>
+<li><p>Added “list-table” directive.</p></li>
+<li><p>Caught empty CSV table bug.</p></li>
+<li><p>Added support for the <code class="docutils literal notranslate"><span class="pre">file_insertion_enabled</span></code> setting in the
+“csv-table” directive.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">stub-columns</span></code> option to “csv-table” and “list-table”
+directives.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/languages/nl.py: Added to project; Dutch
+mappings by Martijn Pieters.</p></li>
+<li><p>docutils/readers/standalone.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">--section-subtitles</span></code> and <code class="docutils literal notranslate"><span class="pre">--no-section-subtitles</span></code>
+options to activate or deactivate the SectSubTitle transform.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/frontmatter.py:</p>
+<ul>
+<li><p>Added SectSubTitle transform to promote titles of lone
+subsections to subtitles.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py:</p>
+<ul>
+<li><p>Fixed mislocated internal targets bug, by propagating internal
+targets to the next node, making use of the newly added support
+for multiple names and IDs.</p></li>
+<li><p>Fixed duplicate footnote label bug.</p></li>
+<li><p>Replaced <code class="docutils literal notranslate"><span class="pre">ChainedTargets</span></code> with more generic <code class="docutils literal notranslate"><span class="pre">PropagateTargets</span></code>
+transform.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1.py:</p>
+<ul>
+<li><p>Fixed unencoded stylesheet reference bug (characters like “&amp;” in
+stylesheet references).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">target</span></code> nodes now appear as <code class="docutils literal notranslate"><span class="pre">span</span></code> tags (instead of <code class="docutils literal notranslate"><span class="pre">a</span></code>
+tags).</p></li>
+<li><p>Added support for multiple IDs per node by creating empty <code class="docutils literal notranslate"><span class="pre">span</span></code>
+tags.</p></li>
+<li><p>Added the <code class="docutils literal notranslate"><span class="pre">field_name_limit</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">option_limit</span></code> settings &amp;
+support.</p></li>
+<li><p>Added support for table stub columns.</p></li>
+<li><p>Added support for the <code class="docutils literal notranslate"><span class="pre">align</span></code> attribute on <code class="docutils literal notranslate"><span class="pre">figure</span></code> elements.</p></li>
+<li><p>Added the <code class="docutils literal notranslate"><span class="pre">cloak_email_addresses</span></code> setting &amp; support.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">html_prolog</span></code>, <code class="docutils literal notranslate"><span class="pre">html_head</span></code>, <code class="docutils literal notranslate"><span class="pre">html_body</span></code>,
+<code class="docutils literal notranslate"><span class="pre">html_title</span></code>, &amp; <code class="docutils literal notranslate"><span class="pre">html_subtitle</span></code> to parts dictionary exposed by
+<code class="docutils literal notranslate"><span class="pre">docutils.core.publish_parts</span></code>.</p></li>
+<li><p>Added support for section subtitles.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e.py:</p>
+<ul>
+<li><p>Fixed tables starting with more than one multirow cell.</p></li>
+<li><p>Improved –use-latex-docinfo so that organization/contact/address
+fields are lumped with the last author field and appear on the
+titlepage.</p></li>
+<li><p>Made sure the titlepage is always shown with –use-latex-docinfo,
+even if the document has no title.</p></li>
+<li><p>Made sure that latex doesn’t fill in today’s date if no date field
+was given.</p></li>
+<li><p>Added support for section subtitles.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/newlatex2e.py: Added to project; a new LaTeX writer
+(under development).</p></li>
+<li><p>docutils/writers/null.py: Added to project; a do-nothing Writer.</p></li>
+<li><p>docs/api/publisher.txt:</p>
+<ul>
+<li><p>Added “<code class="docutils literal notranslate"><span class="pre">publish_parts</span></code> Details” section.</p></li>
+</ul>
+</li>
+<li><p>docutils/dev/repository.txt: Added to project; information about the
+Docutils Subversion repository.</p></li>
+<li><p>docs/ref/docutils.dtd:</p>
+<ul>
+<li><p>Added a <code class="docutils literal notranslate"><span class="pre">stub</span></code> attribute to the <code class="docutils literal notranslate"><span class="pre">colspec</span></code> element via the
+<code class="docutils literal notranslate"><span class="pre">tbl.colspec.att</span></code> parameter entity.</p></li>
+<li><p>Allowed topic elements within sidebars</p></li>
+<li><p>Added an <code class="docutils literal notranslate"><span class="pre">align</span></code> attribute to the <code class="docutils literal notranslate"><span class="pre">figure</span></code> element.</p></li>
+</ul>
+</li>
+<li><p>tools/rst2newlatex.py: Added to project; front end for the new LaTeX
+writer.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-3-7-2004-12-24">
+<h2><a class="toc-backref" href="#id25">Release 0.3.7 (2004-12-24)</a><a class="headerlink" href="#release-0-3-7-2004-12-24" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>docutils/frontend.py:</p>
+<ul>
+<li><p>Added options: –input-encoding-error-handler,
+–record-dependencies, –leave-footnote-reference-space,
+–strict-visitor.</p></li>
+<li><p>Added command-line and config file support for “overrides” setting
+parameter.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py:</p>
+<ul>
+<li><p>Added support for input encoding error handler.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py:</p>
+<ul>
+<li><p>Added dispatch_visit and dispatch_departure methods to
+NodeVisitor; useful as a hook for Visitors.</p></li>
+<li><p>Changed structure of <code class="docutils literal notranslate"><span class="pre">line_block</span></code>; added <code class="docutils literal notranslate"><span class="pre">line</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">compound</span></code> node class.</p></li>
+<li><p>Added a mechanism for Visitors to transitionally ignore new node
+classes.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py:</p>
+<ul>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">escape2null</span></code> and <code class="docutils literal notranslate"><span class="pre">unescape</span></code> functions from
+docutils/parsers/rst/states.py.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/roles.py:</p>
+<ul>
+<li><p>Added “raw” role.</p></li>
+<li><p>Changed role function API: the “text” parameter now takes
+null-escaped interpreted text content.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>Fixed bug where a “role” directive in a nested parse would crash
+the parser; the state machine’s “language” attribute was not being
+copied over.</p></li>
+<li><p>Added support for line block syntax.</p></li>
+<li><p>Fixed directive parsing bug: argument-less directives didn’t
+notice that arguments were present.</p></li>
+<li><p>Removed error checking for transitions.</p></li>
+<li><p>Added support for multiple classifiers in definition list items.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">escape2null</span></code> and <code class="docutils literal notranslate"><span class="pre">unescape</span></code> functions to docutils/utils.py.</p></li>
+<li><p>Changed role function API: the “text” parameter now takes
+null-escaped interpreted text content.</p></li>
+<li><p>Empty sections and documents are allowed now.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/__init__.py:</p>
+<ul>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">encoding</span></code> directive option conversion function.</p></li>
+<li><p>Allow multiple class names in class_option conversion function.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/body.py:</p>
+<ul>
+<li><p>Converted the line-block directive to use the new structure.</p></li>
+<li><p>Extracted the old line-block functionality to the <code class="docutils literal notranslate"><span class="pre">block</span></code>
+function (still used).</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">compound</span></code> directive (thanks to Lea Wiemann).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py:</p>
+<ul>
+<li><p>Added “encoding” option to “include” and “raw” directives.</p></li>
+<li><p>Added “trim”, “ltrim”, and “rtrim” options to “unicode” directive.</p></li>
+<li><p>Allow multiple class names in the “class” directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/parts.py:</p>
+<ul>
+<li><p>Directive “sectnum” now accepts “prefix”, “suffix”, and “start”
+options.  Thanks to Lele Gaifax.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py:</p>
+<ul>
+<li><p>Added “encoding” directive to “csv-table” directive.</p></li>
+<li><p>Added workaround for lack of Unicode support in csv.py, for
+non-ASCII CSV input.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/misc.py:</p>
+<ul>
+<li><p>Fixed bug when multiple “class” directives are applied to a single
+element.</p></li>
+<li><p>Enabled multiple format names for “raw” directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py:</p>
+<ul>
+<li><p>Added support for trimming whitespace from beside substitution
+references.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py:</p>
+<ul>
+<li><p>FinalChecks now checks for illegal transitions and moves
+transitions between sections.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1.py:</p>
+<ul>
+<li><p>HTMLTranslator.encode now converts U+00A0 to “&amp;nbsp;”.</p></li>
+<li><p>“stylesheet” and “stylesheet_path” settings are now mutually
+exclusive.</p></li>
+<li><p>Added support for the new line_block/line structure.</p></li>
+<li><p>–footnote-references now overrides
+–trim-footnote-reference-space, if applicable.</p></li>
+<li><p>Added support for <code class="docutils literal notranslate"><span class="pre">compound</span></code> elements.</p></li>
+<li><p>Enabled multiple format names for “raw” directive.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> tags of a paragraph which is the only visible child of the
+document node are no longer stripped.</p></li>
+<li><p>Moved paragraph-compacting logic (for stripping <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> tags) to
+new method <code class="docutils literal notranslate"><span class="pre">should_be_compact_paragraph()</span></code>.</p></li>
+<li><p>Added class=”docutils” to <code class="docutils literal notranslate"><span class="pre">dl</span></code>, <code class="docutils literal notranslate"><span class="pre">hr</span></code>, <code class="docutils literal notranslate"><span class="pre">table</span></code> and <code class="docutils literal notranslate"><span class="pre">tt</span></code>
+elements.</p></li>
+<li><p>“raw” elements are now surrounded by <code class="docutils literal notranslate"><span class="pre">span</span></code> or <code class="docutils literal notranslate"><span class="pre">div</span></code> tags in
+the output if they have their <code class="docutils literal notranslate"><span class="pre">class</span></code> attribute set.</p></li>
+<li><p>The whole document is now surrounded by a <code class="docutils literal notranslate"><span class="pre">&lt;div</span>
+<span class="pre">class=&quot;document&quot;&gt;</span></code> element.</p></li>
+<li><p>Body-level images are now wrapped by their own <code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code> elements,
+with image classes copied to the wrapper, and for images which
+have the <code class="docutils literal notranslate"><span class="pre">:align:</span></code> option set, the surrounding <code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code> now
+receives a class attribute (like <code class="docutils literal notranslate"><span class="pre">class=&quot;align-left&quot;</span></code>).</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e.py:</p>
+<ul>
+<li><p>no newline after depart_term.</p></li>
+<li><p>Added translations for some Unicode quotes.</p></li>
+<li><p>Added option “font-encoding”, made package AE the default.</p></li>
+<li><p>“stylesheet” and “stylesheet_path” settings are now mutually
+exclusive.</p></li>
+<li><p>–footnote-references now overrides
+–trim-footnote-reference-space, if applicable.</p></li>
+<li><p>The footnote label style now matches the footnote reference style
+(“brackets” or “superscript”).</p></li>
+<li><p>Added support for <code class="docutils literal notranslate"><span class="pre">compound</span></code> elements.</p></li>
+<li><p>Enabled multiple format names for “raw” directive.</p></li>
+</ul>
+</li>
+<li><p>docs/ref/docutils.dtd:</p>
+<ul>
+<li><p>Changed structure of the <code class="docutils literal notranslate"><span class="pre">line_block</span></code> element; added <code class="docutils literal notranslate"><span class="pre">line</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">compound</span></code> element.</p></li>
+<li><p>Added “ltrim” and “rtrim” attributes to
+<code class="docutils literal notranslate"><span class="pre">substitution_definition</span></code> element.</p></li>
+<li><p>Enabled multiple format names for <code class="docutils literal notranslate"><span class="pre">raw</span></code> element.</p></li>
+<li><p>Enabled multiple classifiers in <code class="docutils literal notranslate"><span class="pre">definition_list_item</span></code> elements.</p></li>
+</ul>
+</li>
+<li><p>docs/ref/rst/directives.txt</p>
+<ul>
+<li><p>Marked “line-block” as deprecated.</p></li>
+<li><p>“Class” directive now allows multiple class names.</p></li>
+<li><p>Added “Rationale for Class Attribute Value Conversion”.</p></li>
+<li><p>Added warning about “raw” overuse/abuse.</p></li>
+</ul>
+</li>
+<li><p>docs/ref/rst/restructuredtext.txt:</p>
+<ul>
+<li><p>Added syntax for line blocks.</p></li>
+<li><p>Definition list items may have multiple classifiers.</p></li>
+</ul>
+</li>
+<li><p>docs/ref/rst/roles.txt:</p>
+<ul>
+<li><p>Added “raw” role.</p></li>
+</ul>
+</li>
+<li><p>tools/stylesheets/default.css:</p>
+<ul>
+<li><p>Added support for the new line_block structure.</p></li>
+<li><p>Added “docutils” class to <code class="docutils literal notranslate"><span class="pre">dl</span></code>, <code class="docutils literal notranslate"><span class="pre">hr</span></code>, <code class="docutils literal notranslate"><span class="pre">table</span></code> and <code class="docutils literal notranslate"><span class="pre">tt</span></code>.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="release-0-3-5-2004-07-29">
+<h2><a class="toc-backref" href="#id26">Release 0.3.5 (2004-07-29)</a><a class="headerlink" href="#release-0-3-5-2004-07-29" title="永久链接至标题">¶</a></h2>
+<p>General:</p>
+<ul>
+<li><p><span class="target" id="documentation-cleanup-reorganization">Documentation cleanup/reorganization</span>.</p>
+<ul class="simple">
+<li><p>Created new subdirectories of docs/:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/user/</span></code>: introductory/tutorial material for end-users</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/dev/</span></code>: for core-developers (development notes, plans, etc.)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/api/</span></code>: API reference material for client-developers</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/ref/</span></code>: reference material for all groups</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/howto/</span></code>: for component-developers and core-developers</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/peps/</span></code>: Python Enhancement Proposals</p></li>
+</ul>
+</li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">docs/*</span></code> to <code class="docutils literal notranslate"><span class="pre">docs/user/</span></code>.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">pysource.dtd</span></code>, <code class="docutils literal notranslate"><span class="pre">pysource.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">semantics.txt</span></code> from
+<code class="docutils literal notranslate"><span class="pre">spec/</span></code> to <code class="docutils literal notranslate"><span class="pre">docs/dev</span></code>.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">doctree.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">docutils.dtd</span></code>, <code class="docutils literal notranslate"><span class="pre">soextblx.dtd</span></code>,
+<code class="docutils literal notranslate"><span class="pre">transforms.txt</span></code> from <code class="docutils literal notranslate"><span class="pre">spec/</span></code> to <code class="docutils literal notranslate"><span class="pre">docs/ref/</span></code>.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">alternatives.txt</span></code>, and <code class="docutils literal notranslate"><span class="pre">problems.txt</span></code> from
+<code class="docutils literal notranslate"><span class="pre">spec/rst/</span></code> to <code class="docutils literal notranslate"><span class="pre">docs/dev/rst/</span></code>.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">reStructuredText.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">directives.txt</span></code>,
+<code class="docutils literal notranslate"><span class="pre">interpreted.txt</span></code>, and <code class="docutils literal notranslate"><span class="pre">introduction.txt</span></code> from <code class="docutils literal notranslate"><span class="pre">spec/rst/</span></code>
+to <code class="docutils literal notranslate"><span class="pre">docs/ref/rst/</span></code>.  Renamed <code class="docutils literal notranslate"><span class="pre">interpreted.txt</span></code> to
+<code class="docutils literal notranslate"><span class="pre">roles.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">reStructuredText.txt</span></code> to
+<code class="docutils literal notranslate"><span class="pre">restructuredtext.txt</span></code>.</p></li>
+<li><p>Moved <code class="docutils literal notranslate"><span class="pre">spec/howto/</span></code> to <code class="docutils literal notranslate"><span class="pre">docs/howto</span></code>.</p></li>
+</ul>
+<p>In order to keep the CVS history of moved files, we supplied
+SourceForge with a <a class="reference external" href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/docutils/sandbox/davidg/infrastructure/cvs-reorg.sh?content-type=text/plain&amp;rev=1.5">script for modifying the Docutils CVS
+repository</a>.</p>
+<p>After running the cleanup script:</p>
+<ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">docs/index.txt</span></code>.</p></li>
+<li><p>Added a <code class="docutils literal notranslate"><span class="pre">.htaccess</span></code> file to the <code class="docutils literal notranslate"><span class="pre">web</span></code> module, containing
+redirects for all old paths to new paths.  They’ll preserve
+fragments (the “#name” part of a URL), and won’t clutter up the
+file system, and will correct the URL in the user’s browser.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">BUGS.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">docs/dev/policies.txt</span></code>,
+<code class="docutils literal notranslate"><span class="pre">docs/dev/website.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">docs/dev/release.txt</span></code> from all but
+the “To Do” list itself in <code class="docutils literal notranslate"><span class="pre">docs/dev/todo.txt</span></code>.</p></li>
+<li><p>Moved “Future Plans” from <code class="docutils literal notranslate"><span class="pre">HISTORY.txt</span></code> to new “Priorities”
+section of <code class="docutils literal notranslate"><span class="pre">docs/dev/todo.txt</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">THANKS.txt</span></code> from “Acknowledgements” in <code class="docutils literal notranslate"><span class="pre">HISTORY.txt</span></code>.</p></li>
+<li><p>Added “How To Report Bugs” to <code class="docutils literal notranslate"><span class="pre">BUGS.txt</span></code>.</p></li>
+<li><p>Went through all the sources and docs (including under web/) and
+updated links.  Mostly done by Lea Wiemann; thanks Lea!
+(Still need to update links in the sandboxes.)</p></li>
+</ul>
+</li>
+</ul>
+<p>Specific:</p>
+<ul class="simple">
+<li><p>BUGS.txt: Added to project.</p></li>
+<li><p>THANKS.txt: Added to project.</p></li>
+<li><p>docutils/__init__.py:</p>
+<ul>
+<li><p>0.3.4: Post-release.</p></li>
+</ul>
+</li>
+<li><p>docutils/core.py:</p>
+<ul>
+<li><p>Added special error handling &amp; advice for UnicodeEncodeError.</p></li>
+<li><p>Refactored Publisher.publish (simplified exception handling &amp;
+extracted debug dumps).</p></li>
+<li><p>Renamed “enable_exit” parameter of convenience functions to
+“enable_exit_status”.</p></li>
+<li><p>Enabled traceback (exception propagation) by default in
+programmatic convenience functions.</p></li>
+<li><p>Now publish_file and publish_cmdline convenience functions return
+the encoded string results in addition to their regular I/O.</p></li>
+<li><p>Extracted common code from publish_file, publish_string, and
+publish_parts, into new publish_programmatically.  Extracted
+settings code to <code class="docutils literal notranslate"><span class="pre">Publisher.process_programmatic_settings</span></code>.</p></li>
+<li><p>In Publisher.publish, disabled <code class="docutils literal notranslate"><span class="pre">settings_overrides</span></code> when
+<code class="docutils literal notranslate"><span class="pre">settings</span></code> is supplied; redundant.</p></li>
+</ul>
+</li>
+<li><p>docutils/frontend.py:</p>
+<ul>
+<li><p>Added help text for “–output-encoding-error-handler” and
+“–error-encoding-error-handler”.</p></li>
+<li><p>Renamed “–exit” to “–exit-status”.</p></li>
+<li><p>Simplified default-setting code.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/__init__.py:</p>
+<ul>
+<li><p>Added “–pep-base-url” and “–rfc-base-url” options.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>Made URI recognition more aggressive and intelligent.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/__init__.py:</p>
+<ul>
+<li><p>Added several directive option conversion functions.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/body.py:</p>
+<ul>
+<li><p>Moved “table” directive to tables.py.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/tables.py: Table-related directives,
+added to project.</p></li>
+<li><p>docutils/writers/latex2e.py:</p>
+<ul>
+<li><p>Added “–table-style=(standard|booktabs|nolines)”</p></li>
+<li><p>figures get “here” option (LaTeX per default puts them at bottom),
+and figure content is centered.</p></li>
+<li><p>Rowspan support for tables.</p></li>
+<li><p>Fix: admonition titles before first section.</p></li>
+<li><p>Replace <code class="docutils literal notranslate"><span class="pre">--</span></code> in literal by <code class="docutils literal notranslate"><span class="pre">-{}-</span></code> because fontencoding T1 has endash.</p></li>
+<li><p>Replave <code class="docutils literal notranslate"><span class="pre">_</span></code> in literal by an underlined blank, because it has the correct
+width.</p></li>
+<li><p>Fix: encode pdfbookmark titles, <code class="docutils literal notranslate"><span class="pre">#</span></code> broke pdflatex.</p></li>
+<li><p>A few unicode replacements, if output_encoding != utf</p></li>
+<li><p>Add “–graphicx-option”.</p></li>
+<li><p>Indent literal-blocks.</p></li>
+<li><p>Fix: omit <code class="docutils literal notranslate"><span class="pre">\maketitle</span></code> when there is no document title.</p></li>
+</ul>
+</li>
+<li><p>docs/index.txt: “Docutils Project Documentation Overview”, added to
+project.</p></li>
+<li><p>docs/api/cmdline-tool.txt: “Inside A Docutils Command-Line Front-End
+Tool”, added to project.</p></li>
+<li><p>docs/api/publisher.txt: “The Docutils Publisher”, added to project.</p></li>
+<li><p>docs/api/runtime-settings.txt: “Docutils Runtime Settings”, added to project.</p></li>
+<li><p>docs/dev/policies.txt: Added to project (extracted from
+<code class="docutils literal notranslate"><span class="pre">docs/dev/todo.txt</span></code>, formerly <code class="docutils literal notranslate"><span class="pre">spec/notes.txt</span></code>).</p></li>
+<li><p>docs/dev/release.txt: Added to project (extracted from
+<code class="docutils literal notranslate"><span class="pre">docs/dev/todo.txt</span></code>, formerly <code class="docutils literal notranslate"><span class="pre">spec/notes.txt</span></code>).</p></li>
+<li><p>docs/dev/testing.txt: Added to project.</p></li>
+<li><p>docs/dev/website.txt: Added to project (extracted from
+<code class="docutils literal notranslate"><span class="pre">docs/dev/todo.txt</span></code>, formerly <code class="docutils literal notranslate"><span class="pre">spec/notes.txt</span></code>).</p></li>
+<li><p>docs/ref/rst/directives.txt:</p>
+<ul>
+<li><p>Added directives: “table”, “csv-table”.</p></li>
+</ul>
+</li>
+<li><p>docs/user/rst/cheatsheet.txt: “The reStructuredText Cheat Sheet”
+added to project.  1 page for syntax, and a 1 page reference for
+directives and roles.  Source text to be used as-is; not meant to be
+converted to HTML.</p></li>
+<li><p>docs/user/rst/demo.txt: Added to project; moved from tools/test.txt
+with a change of title.</p></li>
+<li><p>test/functional/, contents, and test/test_functional.py: Added to
+project.</p></li>
+<li><p>tools/buildhtml.py: Fixed bug with config file handling.</p></li>
+<li><p>tools/html.py: Removed from project (duplicate of rst2html.py).</p></li>
+<li><p>tools/pep2html.py: Removed from project (duplicate of Python’s
+nondist/peps/pep2html.py; Docutils’ tools/pep.py can be used for
+Docutils-related PEPs in docs/peps/).</p></li>
+<li><p>tools/rst2pseudoxml.py: Renamed from publish.py.</p></li>
+<li><p>tools/rst2xml.py: Renamed from docutils-xml.py.</p></li>
+<li><p>tools/test.txt: Removed from project; moved to
+docs/user/rst/demo.txt.</p></li>
+<li><p>setup.py: Now also installs <code class="docutils literal notranslate"><span class="pre">rst2latex.py</span></code>.</p></li>
+</ul>
+</div>
+<div class="section" id="release-0-3-3-2004-05-09">
+<h2><a class="toc-backref" href="#id27">Release 0.3.3 (2004-05-09)</a><a class="headerlink" href="#release-0-3-3-2004-05-09" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>docutils/__init__.py:</p>
+<ul>
+<li><p>0.3.1: Reorganized config file format (multiple sections); see
+docs/config.txt.</p></li>
+<li><p>Added unknown_reference_resolvers attribute to TransformSpec.</p></li>
+<li><p>0.3.2: Interpreted text reorganization.</p></li>
+<li><p>0.3.3: Released.</p></li>
+</ul>
+</li>
+<li><p>docutils/core.py:</p>
+<ul>
+<li><p>Catch system messages to stop tracebacks from parsing errors.</p></li>
+<li><p>Catch exceptions during processing report &amp; exit without
+tracebacks, except when “–traceback” used.</p></li>
+<li><p>Reordered components for OptionParser; application comes last.</p></li>
+<li><p>Added “config_section” parameter to several methods and functions,
+allowing front ends to easily specify their config file sections.</p></li>
+<li><p>Added publish_parts convenience function to allow access to individual
+parts of a document.</p></li>
+</ul>
+</li>
+<li><p>docutils/examples.py: Added to project; practical examples of
+Docutils client code, to be used as-is or as models for variations.</p></li>
+<li><p>docutils/frontend.py:</p>
+<ul>
+<li><p>Added “–traceback” &amp; “–no-traceback” options (“traceback”
+setting).</p></li>
+<li><p>Implemented support for config file reorganization:
+<code class="docutils literal notranslate"><span class="pre">standard_config_files</span></code> moved from <code class="docutils literal notranslate"><span class="pre">ConfigParser</span></code> to
+<code class="docutils literal notranslate"><span class="pre">OptionParser</span></code>; added
+<code class="docutils literal notranslate"><span class="pre">OptionParser.get_config_file_settings()</span></code> and
+<code class="docutils literal notranslate"><span class="pre">.get_standard_config_settings()</span></code>; support for old “[options]”
+section (with deprecation warning) and mapping from old to new
+settings.</p></li>
+<li><p>Reimplemented setting validation.</p></li>
+<li><p>Enabled flexible boolean values: yes/no, true/false, on/off.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Values</span></code>, a subclass of <code class="docutils literal notranslate"><span class="pre">optparse.Values</span></code>, with support
+for list setting attributes.</p></li>
+<li><p>Added support for new <code class="docutils literal notranslate"><span class="pre">DOCUTILSCONFIG</span></code> environment variable;
+thanks to Beni Cherniavsky.</p></li>
+<li><p>Added “–no-section-numbering” option.</p></li>
+</ul>
+</li>
+<li><p>docutils/io.py:</p>
+<ul>
+<li><p>Catch IOErrors when opening source &amp; destination files, report &amp;
+exit without tracebacks.  Added <code class="docutils literal notranslate"><span class="pre">handle_io_errors</span></code> parameter to
+<code class="docutils literal notranslate"><span class="pre">FileInput</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">FileOutput</span></code> to enable caller error handling.</p></li>
+</ul>
+</li>
+<li><p>docutils/nodes.py:</p>
+<ul>
+<li><p>Changed <code class="docutils literal notranslate"><span class="pre">SparseNodeVisitor</span></code> and <code class="docutils literal notranslate"><span class="pre">GenericNodeVisitor</span></code> dynamic
+method definitions (via <code class="docutils literal notranslate"><span class="pre">exec</span></code>) to dynamic assignments (via
+<code class="docutils literal notranslate"><span class="pre">setattr</span></code>); thanks to Roman Suzi.</p></li>
+<li><p>Encapsulated visitor dynamic assignments in a function; thanks to
+Ian Bicking.</p></li>
+<li><p>Added indirect_reference_name attribute to the Targetable
+class. This attribute holds the whitespace_normalized_name
+(contains mixed case) of a target.</p></li>
+</ul>
+</li>
+<li><p>docutils/statemachine.py:</p>
+<ul>
+<li><p>Renamed <code class="docutils literal notranslate"><span class="pre">StringList.strip_indent</span></code> to <code class="docutils literal notranslate"><span class="pre">.trim_left</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">StringList.get_2D_block</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/utils.py:</p>
+<ul>
+<li><p>Added “level” attribute to SystemMessage exceptions.</p></li>
+</ul>
+</li>
+<li><p>docutils/languages/af.py: Added to project; Afrikaans mappings by
+Jannie Hofmeyr.</p></li>
+<li><p>docutils/languages/cs.py: Added to project; Czech mappings by Marek
+Blaha.</p></li>
+<li><p>docutils/languages/eo.py: Added to project; Esperanto mappings by
+Marcelo Huerta San Martin.</p></li>
+<li><p>docutils/languages/pt_br.py: Added to project; Brazilian Portuguese
+mappings by Lalo Martins.</p></li>
+<li><p>docutils/languages/ru.py: Added to project; Russian mappings by
+Roman Suzi.</p></li>
+<li><p>docutils/parsers/rst/roles.py: Added to project.  Contains
+interpreted text role functions, a registry for interpreted text
+roles, and an API for adding to and retrieving from the registry.
+Contributed by Edward Loper.</p></li>
+<li><p>docutils/parsers/rst/states.py:</p>
+<ul>
+<li><p>Updated <code class="docutils literal notranslate"><span class="pre">RSTState.nested_parse</span></code> for “include” in table cells.</p></li>
+<li><p>Allowed true em-dash character and “—” as block quote
+attribution marker.</p></li>
+<li><p>Added support for &lt;angle-bracketed&gt; complex option arguments
+(option lists).</p></li>
+<li><p>Fixed handling of backslashes in substitution definitions.</p></li>
+<li><p>Fixed off-by-1 error with extra whitespace after substitution
+definition directive.</p></li>
+<li><p>Added inline markup parsing to field lists’ field names.</p></li>
+<li><p>Added support for quoted (and unindented) literal blocks.
+Driven in part by a bribe from Frank Siebenlist (thanks!).</p></li>
+<li><p>Parser now handles escapes in URIs correctly.</p></li>
+<li><p>Made embedded-URIs’ reference text omittable.  Idea from Beni
+Cherniavsky.</p></li>
+<li><p>Refactored explicit target processing code.</p></li>
+<li><p>Added name attribute to references containing the reference name only
+through whitespace_normalize_name (no case changes).</p></li>
+<li><p>parse_target no longer returns the refname after going through
+normalize_name. This is now handled in make_target.</p></li>
+<li><p>Fixed bug relating to role-less interpreted text in non-English
+contexts.</p></li>
+<li><p>Reorganized interpreted text processing; moved code into the new
+roles.py module.  Contributed by Edward Loper.</p></li>
+<li><p>Refactored <code class="docutils literal notranslate"><span class="pre">Body.parse_directive</span></code> into <code class="docutils literal notranslate"><span class="pre">run_directive</span></code> and
+<code class="docutils literal notranslate"><span class="pre">parse_directive_block</span></code>.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/tableparser.py:</p>
+<ul>
+<li><p>Reworked for <code class="docutils literal notranslate"><span class="pre">StringList</span></code>, to support “include” directives in
+table cells.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/__init__.py:</p>
+<ul>
+<li><p>Renamed <code class="docutils literal notranslate"><span class="pre">unchanged()</span></code> directive option conversion function to
+<code class="docutils literal notranslate"><span class="pre">unchanged_required</span></code>, and added a new <code class="docutils literal notranslate"><span class="pre">unchanged</span></code>.</p></li>
+<li><p>Catch unicode value too high error; fixes bug 781766.</p></li>
+<li><p>Beefed up directive error reporting.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/body.py:</p>
+<ul>
+<li><p>Added basic “table” directive.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/images.py:</p>
+<ul>
+<li><p>Added “target” option to “image” directive.</p></li>
+<li><p>Added name attribute to references containing the reference name only
+through whitespace_normalize_name (no case changes).</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/misc.py:</p>
+<ul>
+<li><p>Isolated the import of the <code class="docutils literal notranslate"><span class="pre">urllib2</span></code> module; was causing
+problems on SourceForge (<code class="docutils literal notranslate"><span class="pre">libssl.so.2</span></code> unavailable?).</p></li>
+<li><p>Added the “role” directive for declaring custom interpreted text
+roles.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/directives/parts.py:</p>
+<ul>
+<li><p>The “contents” directive does more work up-front, creating the
+“topic” and “title”, and leaving the “pending” node for the
+transform.  Allows earlier reference resolution; fixes subtle bug.</p></li>
+</ul>
+</li>
+<li><p>docutils/parsers/rst/languages/af.py: Added to project; Afrikaans
+mappings by Jannie Hofmeyr.</p></li>
+<li><p>docutils/parsers/rst/languages/cs.py: Added to project; Czech
+mappings by Marek Blaha.</p></li>
+<li><p>docutils/parsers/rst/languages/eo.py: Added to project; Esperanto
+mappings by Marcelo Huerta San Martin.</p></li>
+<li><p>docutils/parsers/rst/languages/pt_br.py: Added to project; Brazilian
+Portuguese mappings by Lalo Martins.</p></li>
+<li><p>docutils/parsers/rst/languages/ru.py: Added to project; Russian
+mappings by Roman Suzi.</p></li>
+<li><p>docutils/transforms/parts.py:</p>
+<ul>
+<li><p>The “contents” directive does more work up-front, creating the
+“topic” and “title”, and leaving the “pending” node for the
+transform.  Allows earlier reference resolution; fixes subtle bug.</p></li>
+<li><p>Added support for disabling of section numbering.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/references.py:</p>
+<ul>
+<li><p>Verifying that external targets are truly targets and not indirect
+references. This is because we are now adding a “name” attribute to
+references in addition to targets. Note sure if this is correct!</p></li>
+<li><p>Added code to hook into the unknown_reference_resolvers list for a
+transformer in resolve_indirect_target. This allows the
+unknown_reference_resolvers to keep around indirect targets which
+docutils doesn’t know about.</p></li>
+<li><p>Added specific error message for duplicate targets.</p></li>
+</ul>
+</li>
+<li><p>docutils/transforms/universal.py:</p>
+<ul>
+<li><p>Added FilterMessages transform (removes system messages below the
+verbosity threshold).</p></li>
+<li><p>Added hook (via docutils.TransformSpec.unknown_reference_resolvers)
+to FinalCheckVisitor for application-specific handling of
+unresolvable references.</p></li>
+<li><p>Added specific error message for duplicate targets.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/__init__.py:</p>
+<ul>
+<li><p>Added assemble_parts method to the Writer class to allow for
+access to a documents individual parts.</p></li>
+<li><p>Documented &amp; set default for <code class="docutils literal notranslate"><span class="pre">Writer.output</span></code> attribute.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/html4css1.py:</p>
+<ul>
+<li><p>Fixed unicode handling of attribute values (bug 760673).</p></li>
+<li><p>Prevent duplication of “class” attribute values (bug report from
+Kirill Lapshin).</p></li>
+<li><p>Improved table grid/border handling (prompted by report from Bob
+Marshall).</p></li>
+<li><p>Added support for table titles.</p></li>
+<li><p>Added “&lt;title /&gt;” for untitled docs, for XHTML conformance; thanks
+to Darek Suchojad.</p></li>
+<li><p>Added functionality to keep track of individual parts of a document
+and store them in a dictionary as the “parts” attribute of the writer.
+Contributed by Reggie Dugard at the Docutils sprint at PyCon DC 2004.</p></li>
+<li><p>Added proper support for the “scale” attribute of the “image”
+element.  Contributed by Brent Cook.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">--initial-header-level</span></code> option.</p></li>
+<li><p>Fixed bug: the body_pre_docinfo segment depended on there being a
+docinfo; if no docinfo, the document title was incorporated into
+the body segment.  Adversely affected the publish_parts interface.</p></li>
+</ul>
+</li>
+<li><p>docutils/writers/latex2e.py:</p>
+<ul>
+<li><p>Changed default stylesheet to “no stylesheet” to avoid latex complaining
+about a missing file.</p></li>
+<li><p>Added options and support: <code class="docutils literal notranslate"><span class="pre">--compound-enumerators</span></code>,
+<code class="docutils literal notranslate"><span class="pre">--section-prefix-for-enumerators</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">--section-enumerator-separator</span></code>.  By John F Meinel Jr (SF patch
+934322).</p></li>
+<li><p>Added option <code class="docutils literal notranslate"><span class="pre">--use-verbatim-when-possible</span></code>, to avoid
+problematic characters (eg, ‘~’ in italian) in literal blocks.</p></li>
+<li><p>It’s now possible to use four section levels in the <cite>book</cite> and
+<cite>report</cite> LaTeX classes.  The default <cite>article</cite> class still has
+three levels limit.</p></li>
+</ul>
+</li>
+<li><p>docs/config.txt: “Docutils Configuration Files”, added to project.
+Moved config file entry descriptions from tools.txt.</p></li>
+<li><p>docs/tools.txt:</p>
+<ul>
+<li><p>Moved config file entry descriptions to config.txt.</p></li>
+</ul>
+</li>
+<li><p>spec/notes.txt: Continual updates.  Added “Setting Up For Docutils
+Development”.</p></li>
+<li><p>spec/howto/rst-roles.txt: “Creating reStructuredText Interpreted
+Text Roles”, added to project.</p></li>
+<li><p>spec/rst/reStructuredText.txt:</p>
+<ul>
+<li><p>Added description of support for &lt;angle-bracketed&gt; complex option
+arguments to</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="THANKS.html" class="btn btn-neutral float-right" title="Acknowledgements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="RELEASE-NOTES.html" class="btn btn-neutral float-left" title="Docutils Release Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nosy
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

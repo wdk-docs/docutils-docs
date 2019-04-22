@@ -6,3 +6,5 @@ How-To's
 
    rst-directives
    rst-roles
+   html-stylesheets
+   i18n

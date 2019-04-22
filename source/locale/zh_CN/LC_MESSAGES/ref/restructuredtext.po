@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:5
 msgid "reStructuredText Markup Specification"
-msgstr ""
+msgstr "reStructuredText标记规范"
 
 #: ../../source/ref/restructuredtext.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/ref/restructuredtext.rst:7
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/restructuredtext.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/ref/restructuredtext.rst:8
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/restructuredtext.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/ref/restructuredtext.rst:9
 msgid "$Revision: 8205 $"
-msgstr ""
+msgstr "$Revision: 8205 $"
 
 #: ../../source/ref/restructuredtext.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/restructuredtext.rst:10
 msgid "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
-msgstr ""
+msgstr "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
 
 #: ../../source/ref/restructuredtext.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/ref/restructuredtext.rst:11
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/ref/restructuredtext.rst:15
 msgid ""
@@ -111,11 +111,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:50
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/restructuredtext.rst:54
 msgid "Quick Syntax Overview"
-msgstr ""
+msgstr "Quick Syntax Overview"
 
 #: ../../source/ref/restructuredtext.rst:56
 msgid ""
@@ -130,63 +130,63 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:64
 msgid "Here are examples of `body elements`_:"
-msgstr ""
+msgstr "Here are examples of `body elements`_:"
 
 #: ../../source/ref/restructuredtext.rst:66
 msgid "Paragraphs_ (and `inline markup`_)::"
-msgstr ""
+msgstr "Paragraphs_ (and `inline markup`_)::"
 
 #: ../../source/ref/restructuredtext.rst:78
 msgid "Five types of lists:"
-msgstr ""
+msgstr "Five types of lists:"
 
 #: ../../source/ref/restructuredtext.rst:80
 msgid "`Bullet lists`_::"
-msgstr ""
+msgstr "`Bullet lists`_::"
 
 #: ../../source/ref/restructuredtext.rst:86
 msgid "`Enumerated lists`_::"
-msgstr ""
+msgstr "`Enumerated lists`_::"
 
 #: ../../source/ref/restructuredtext.rst:93
 msgid "`Definition lists`_::"
-msgstr ""
+msgstr "`Definition lists`_::"
 
 #: ../../source/ref/restructuredtext.rst:103
 msgid "`Field lists`_::"
-msgstr ""
+msgstr "`Field lists`_::"
 
 #: ../../source/ref/restructuredtext.rst:115
 msgid "`Option lists`_, for listing command-line options::"
-msgstr ""
+msgstr "`Option lists`_, for listing command-line options::"
 
 #: ../../source/ref/restructuredtext.rst:125
 msgid "There must be at least two spaces between the option and the description."
-msgstr ""
+msgstr "There must be at least two spaces between the option and the description."
 
 #: ../../source/ref/restructuredtext.rst:128
 msgid "`Literal blocks`_::"
-msgstr ""
+msgstr "`Literal blocks`_::"
 
 #: ../../source/ref/restructuredtext.rst:139
 msgid "`Block quotes`_::"
-msgstr ""
+msgstr "`Block quotes`_::"
 
 #: ../../source/ref/restructuredtext.rst:147
 msgid "`Doctest blocks`_::"
-msgstr ""
+msgstr "`Doctest blocks`_::"
 
 #: ../../source/ref/restructuredtext.rst:154
 msgid "Two syntaxes for tables_:"
-msgstr ""
+msgstr "Two syntaxes for tables_:"
 
 #: ../../source/ref/restructuredtext.rst:156
 msgid "`Grid tables`_; complete, but complex and verbose::"
-msgstr ""
+msgstr "`Grid tables`_; complete, but complex and verbose::"
 
 #: ../../source/ref/restructuredtext.rst:166
 msgid "`Simple tables`_; easy and compact, but limited::"
-msgstr ""
+msgstr "`Simple tables`_; easy and compact, but limited::"
 
 #: ../../source/ref/restructuredtext.rst:175
 msgid ""
@@ -196,31 +196,31 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:178
 msgid "Footnotes_::"
-msgstr ""
+msgstr "Footnotes_::"
 
 #: ../../source/ref/restructuredtext.rst:183
 msgid "Citations_::"
-msgstr ""
+msgstr "Citations_::"
 
 #: ../../source/ref/restructuredtext.rst:188
 msgid "`Hyperlink targets`_::"
-msgstr ""
+msgstr "`Hyperlink targets`_::"
 
 #: ../../source/ref/restructuredtext.rst:196
 msgid "Directives_::"
-msgstr ""
+msgstr "Directives_::"
 
 #: ../../source/ref/restructuredtext.rst:200
 msgid "`Substitution definitions`_::"
-msgstr ""
+msgstr "`Substitution definitions`_::"
 
 #: ../../source/ref/restructuredtext.rst:204
 msgid "Comments_::"
-msgstr ""
+msgstr "Comments_::"
 
 #: ../../source/ref/restructuredtext.rst:213
 msgid "Syntax Details"
-msgstr ""
+msgstr "Syntax Details"
 
 #: ../../source/ref/restructuredtext.rst:215
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:223
 msgid "Whitespace"
-msgstr ""
+msgstr "Whitespace"
 
 #: ../../source/ref/restructuredtext.rst:225
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:233
 msgid "Blank Lines"
-msgstr ""
+msgstr "Blank Lines"
 
 #: ../../source/ref/restructuredtext.rst:235
 msgid ""
@@ -264,7 +264,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:245
 msgid "Indentation"
-msgstr ""
+msgstr "Indentation"
 
 #: ../../source/ref/restructuredtext.rst:247
 msgid ""
@@ -281,11 +281,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:253
 msgid "the content of literal blocks, and"
-msgstr ""
+msgstr "the content of literal blocks, and"
 
 #: ../../source/ref/restructuredtext.rst:254
 msgid "the content of explicit markup blocks."
-msgstr ""
+msgstr "the content of explicit markup blocks."
 
 #: ../../source/ref/restructuredtext.rst:256
 msgid ""
@@ -335,7 +335,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:339
 msgid "Escaping Mechanism"
-msgstr ""
+msgstr "Escaping Mechanism"
 
 #: ../../source/ref/restructuredtext.rst:341
 msgid ""
@@ -368,7 +368,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:363
 msgid "In URIs, backslash-escaped whitespace represents a single space."
-msgstr ""
+msgstr "In URIs, backslash-escaped whitespace represents a single space."
 
 #: ../../source/ref/restructuredtext.rst:365
 msgid ""
@@ -391,7 +391,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:382
 msgid "Reference Names"
-msgstr ""
+msgstr "Reference Names"
 
 #: ../../source/ref/restructuredtext.rst:384
 msgid ""
@@ -413,7 +413,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:400
 msgid "Simple reference names may also optionally use backquotes."
-msgstr ""
+msgstr "Simple reference names may also optionally use backquotes."
 
 #: ../../source/ref/restructuredtext.rst:402
 msgid ""
@@ -430,11 +430,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:409
 msgid "case is normalized (all alphabetic characters are converted to lowercase)."
-msgstr ""
+msgstr "case is normalized (all alphabetic characters are converted to lowercase)."
 
 #: ../../source/ref/restructuredtext.rst:412
 msgid "For example, the following `hyperlink references`_ are equivalent::"
-msgstr ""
+msgstr "For example, the following `hyperlink references`_ are equivalent::"
 
 #: ../../source/ref/restructuredtext.rst:419
 msgid ""
@@ -451,15 +451,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:431
 msgid "Document Structure"
-msgstr ""
+msgstr "Document Structure"
 
 #: ../../source/ref/restructuredtext.rst:434
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #: ../../source/ref/restructuredtext.rst:436
 msgid "Doctree element: document."
-msgstr ""
+msgstr "Doctree element: document."
 
 #: ../../source/ref/restructuredtext.rst:438
 msgid ""
@@ -492,11 +492,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:465
 msgid "Sections"
-msgstr ""
+msgstr "Sections"
 
 #: ../../source/ref/restructuredtext.rst:467
 msgid "Doctree elements: section, title."
-msgstr ""
+msgstr "Doctree elements: section, title."
 
 #: ../../source/ref/restructuredtext.rst:469
 msgid ""
@@ -515,7 +515,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:482
 msgid "The following are all valid section title adornment characters::"
-msgstr ""
+msgstr "The following are all valid section title adornment characters::"
 
 #: ../../source/ref/restructuredtext.rst:487
 msgid ""
@@ -533,7 +533,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:498
 msgid "Below are examples of section title styles::"
-msgstr ""
+msgstr "Below are examples of section title styles::"
 
 #: ../../source/ref/restructuredtext.rst:535
 msgid ""
@@ -567,15 +567,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:554
 msgid "Sections may contain `body elements`_, transitions_, and nested sections."
-msgstr ""
+msgstr "Sections may contain `body elements`_, transitions_, and nested sections."
 
 #: ../../source/ref/restructuredtext.rst:559
 msgid "Transitions"
-msgstr ""
+msgstr "Transitions"
 
 #: ../../source/ref/restructuredtext.rst:561
 msgid "Doctree element: transition."
-msgstr ""
+msgstr "Doctree element: transition."
 
 #: ../../source/ref/restructuredtext.rst:563
 msgid ""
@@ -586,7 +586,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:567
 msgid "(The Chicago Manual of Style, 14th edition, section 1.80)"
-msgstr ""
+msgstr "(The Chicago Manual of Style, 14th edition, section 1.80)"
 
 #: ../../source/ref/restructuredtext.rst:569
 msgid ""
@@ -621,15 +621,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:596
 msgid "Body Elements"
-msgstr ""
+msgstr "Body Elements"
 
 #: ../../source/ref/restructuredtext.rst:599
 msgid "Paragraphs"
-msgstr ""
+msgstr "Paragraphs"
 
 #: ../../source/ref/restructuredtext.rst:601
 msgid "Doctree element: paragraph."
-msgstr ""
+msgstr "Doctree element: paragraph."
 
 #: ../../source/ref/restructuredtext.rst:603
 msgid ""
@@ -652,15 +652,15 @@ msgstr ""
 #: ../../source/ref/restructuredtext.rst:2160
 #: ../../source/ref/restructuredtext.rst:2358
 msgid "Syntax diagram::"
-msgstr ""
+msgstr "Syntax diagram::"
 
 #: ../../source/ref/restructuredtext.rst:622
 msgid "Bullet Lists"
-msgstr ""
+msgstr "Bullet Lists"
 
 #: ../../source/ref/restructuredtext.rst:624
 msgid "Doctree elements: bullet_list, list_item."
-msgstr ""
+msgstr "Doctree elements: bullet_list, list_item."
 
 #: ../../source/ref/restructuredtext.rst:626
 msgid ""
@@ -673,15 +673,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:651
 msgid "Here are examples of **incorrectly** formatted bullet lists::"
-msgstr ""
+msgstr "Here are examples of **incorrectly** formatted bullet lists::"
 
 #: ../../source/ref/restructuredtext.rst:671
 msgid "Enumerated Lists"
-msgstr ""
+msgstr "Enumerated Lists"
 
 #: ../../source/ref/restructuredtext.rst:673
 msgid "Doctree elements: enumerated_list, list_item."
-msgstr ""
+msgstr "Doctree elements: enumerated_list, list_item."
 
 #: ../../source/ref/restructuredtext.rst:675
 msgid ""
@@ -693,23 +693,23 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:680
 msgid "arabic numerals: 1, 2, 3, ... (no upper limit)."
-msgstr ""
+msgstr "arabic numerals: 1, 2, 3, ... (no upper limit)."
 
 #: ../../source/ref/restructuredtext.rst:681
 msgid "uppercase alphabet characters: A, B, C, ..., Z."
-msgstr ""
+msgstr "uppercase alphabet characters: A, B, C, ..., Z."
 
 #: ../../source/ref/restructuredtext.rst:682
 msgid "lower-case alphabet characters: a, b, c, ..., z."
-msgstr ""
+msgstr "lower-case alphabet characters: a, b, c, ..., z."
 
 #: ../../source/ref/restructuredtext.rst:683
 msgid "uppercase Roman numerals: I, II, III, IV, ..., MMMMCMXCIX (4999)."
-msgstr ""
+msgstr "uppercase Roman numerals: I, II, III, IV, ..., MMMMCMXCIX (4999)."
 
 #: ../../source/ref/restructuredtext.rst:684
 msgid "lowercase Roman numerals: i, ii, iii, iv, ..., mmmmcmxcix (4999)."
-msgstr ""
+msgstr "lowercase Roman numerals: i, ii, iii, iv, ..., mmmmcmxcix (4999)."
 
 #: ../../source/ref/restructuredtext.rst:686
 msgid ""
@@ -722,23 +722,23 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:692
 msgid "The following formatting types are recognized:"
-msgstr ""
+msgstr "The following formatting types are recognized:"
 
 #: ../../source/ref/restructuredtext.rst:694
 msgid "suffixed with a period: \"1.\", \"A.\", \"a.\", \"I.\", \"i.\"."
-msgstr ""
+msgstr "suffixed with a period: \"1.\", \"A.\", \"a.\", \"I.\", \"i.\"."
 
 #: ../../source/ref/restructuredtext.rst:695
 msgid "surrounded by parentheses: \"(1)\", \"(A)\", \"(a)\", \"(I)\", \"(i)\"."
-msgstr ""
+msgstr "surrounded by parentheses: \"(1)\", \"(A)\", \"(a)\", \"(I)\", \"(i)\"."
 
 #: ../../source/ref/restructuredtext.rst:696
 msgid "suffixed with a right-parenthesis: \"1)\", \"A)\", \"a)\", \"I)\", \"i)\"."
-msgstr ""
+msgstr "suffixed with a right-parenthesis: \"1)\", \"A)\", \"a)\", \"I)\", \"i)\"."
 
 #: ../../source/ref/restructuredtext.rst:698
 msgid "While parsing an enumerated list, a new list will be started whenever:"
-msgstr ""
+msgstr "While parsing an enumerated list, a new list will be started whenever:"
 
 #: ../../source/ref/restructuredtext.rst:700
 msgid ""
@@ -795,15 +795,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:740
 msgid "Examples of nested enumerated lists::"
-msgstr ""
+msgstr "Examples of nested enumerated lists::"
 
 #: ../../source/ref/restructuredtext.rst:750
 msgid "Example syntax diagram::"
-msgstr ""
+msgstr "Example syntax diagram::"
 
 #: ../../source/ref/restructuredtext.rst:759
 msgid "Definition Lists"
-msgstr ""
+msgstr "Definition Lists"
 
 #: ../../source/ref/restructuredtext.rst:761
 msgid ""
@@ -833,7 +833,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:792
 msgid "A definition list may be used in various ways, including:"
-msgstr ""
+msgstr "A definition list may be used in various ways, including:"
 
 #: ../../source/ref/restructuredtext.rst:794
 msgid ""
@@ -853,11 +853,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:816
 msgid "Field Lists"
-msgstr ""
+msgstr "Field Lists"
 
 #: ../../source/ref/restructuredtext.rst:818
 msgid "Doctree elements: field_list, field, field_name, field_body."
-msgstr ""
+msgstr "Doctree elements: field_list, field, field_name, field_body."
 
 #: ../../source/ref/restructuredtext.rst:820
 msgid ""
@@ -907,7 +907,7 @@ msgstr ""
 #: ../../source/ref/restructuredtext.rst:870
 #: ../../source/ref/restructuredtext.rst:1053
 msgid "Syntax diagram (simplified)::"
-msgstr ""
+msgstr "Syntax diagram (simplified)::"
 
 #: ../../source/ref/restructuredtext.rst:878
 msgid ""
@@ -917,7 +917,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:882
 msgid "Bibliographic Fields"
-msgstr ""
+msgstr "Bibliographic Fields"
 
 #: ../../source/ref/restructuredtext.rst:884
 msgid ""
@@ -953,47 +953,47 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:906
 msgid "Field name \"Author\": author element."
-msgstr ""
+msgstr "Field name \"Author\": author element."
 
 #: ../../source/ref/restructuredtext.rst:907
 msgid "\"Authors\": authors."
-msgstr ""
+msgstr "\"Authors\": authors."
 
 #: ../../source/ref/restructuredtext.rst:908
 msgid "\"Organization\": organization."
-msgstr ""
+msgstr "\"Organization\": organization."
 
 #: ../../source/ref/restructuredtext.rst:909
 msgid "\"Contact\": contact."
-msgstr ""
+msgstr "\"Contact\": contact."
 
 #: ../../source/ref/restructuredtext.rst:910
 msgid "\"Address\": address."
-msgstr ""
+msgstr "\"Address\": address."
 
 #: ../../source/ref/restructuredtext.rst:911
 msgid "\"Version\": version."
-msgstr ""
+msgstr "\"Version\": version."
 
 #: ../../source/ref/restructuredtext.rst:912
 msgid "\"Status\": status."
-msgstr ""
+msgstr "\"Status\": status."
 
 #: ../../source/ref/restructuredtext.rst:913
 msgid "\"Date\": date."
-msgstr ""
+msgstr "\"Date\": date."
 
 #: ../../source/ref/restructuredtext.rst:914
 msgid "\"Copyright\": copyright."
-msgstr ""
+msgstr "\"Copyright\": copyright."
 
 #: ../../source/ref/restructuredtext.rst:915
 msgid "\"Dedication\": topic."
-msgstr ""
+msgstr "\"Dedication\": topic."
 
 #: ../../source/ref/restructuredtext.rst:916
 msgid "\"Abstract\": topic."
-msgstr ""
+msgstr "\"Abstract\": topic."
 
 #: ../../source/ref/restructuredtext.rst:918
 msgid ""
@@ -1037,7 +1037,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:948
 msgid "RCS Keywords"
-msgstr ""
+msgstr "RCS Keywords"
 
 #: ../../source/ref/restructuredtext.rst:950
 msgid ""
@@ -1050,15 +1050,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:958
 msgid "Revision Control System."
-msgstr ""
+msgstr "Revision Control System."
 
 #: ../../source/ref/restructuredtext.rst:959
 msgid "RCS keyword processing can be turned off (unimplemented)."
-msgstr ""
+msgstr "RCS keyword processing can be turned off (unimplemented)."
 
 #: ../../source/ref/restructuredtext.rst:960
 msgid "Concurrent Versions System.  CVS uses the same keywords as RCS."
-msgstr ""
+msgstr "Concurrent Versions System.  CVS uses the same keywords as RCS."
 
 #: ../../source/ref/restructuredtext.rst:962
 msgid ""
@@ -1076,7 +1076,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:972
 msgid "Option Lists"
-msgstr ""
+msgstr "Option Lists"
 
 #: ../../source/ref/restructuredtext.rst:974
 msgid ""
@@ -1092,11 +1092,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1005
 msgid "There are several types of options recognized by reStructuredText:"
-msgstr ""
+msgstr "There are several types of options recognized by reStructuredText:"
 
 #: ../../source/ref/restructuredtext.rst:1007
 msgid "Short POSIX options consist of one dash and an option letter."
-msgstr ""
+msgstr "Short POSIX options consist of one dash and an option letter."
 
 #: ../../source/ref/restructuredtext.rst:1008
 msgid ""
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1012
 msgid "DOS/VMS options consist of a slash and an option letter or word."
-msgstr ""
+msgstr "DOS/VMS options consist of a slash and an option letter or word."
 
 #: ../../source/ref/restructuredtext.rst:1014
 msgid ""
@@ -1180,11 +1180,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1063
 msgid "Literal Blocks"
-msgstr ""
+msgstr "Literal Blocks"
 
 #: ../../source/ref/restructuredtext.rst:1065
 msgid "Doctree element: literal_block."
-msgstr ""
+msgstr "Doctree element: literal_block."
 
 #: ../../source/ref/restructuredtext.rst:1067
 msgid ""
@@ -1219,15 +1219,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1099
 msgid "Expanded form::"
-msgstr ""
+msgstr "Expanded form::"
 
 #: ../../source/ref/restructuredtext.rst:1107
 msgid "Partially minimized form::"
-msgstr ""
+msgstr "Partially minimized form::"
 
 #: ../../source/ref/restructuredtext.rst:1113
 msgid "Fully minimized form::"
-msgstr ""
+msgstr "Fully minimized form::"
 
 #: ../../source/ref/restructuredtext.rst:1119
 msgid ""
@@ -1239,7 +1239,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1126
 msgid "Indented Literal Blocks"
-msgstr ""
+msgstr "Indented Literal Blocks"
 
 #: ../../source/ref/restructuredtext.rst:1128
 msgid ""
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1147
 msgid "Quoted Literal Blocks"
-msgstr ""
+msgstr "Quoted Literal Blocks"
 
 #: ../../source/ref/restructuredtext.rst:1149
 msgid ""
@@ -1265,7 +1265,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1155
 msgid "The following are all valid quoting characters::"
-msgstr ""
+msgstr "The following are all valid quoting characters::"
 
 #: ../../source/ref/restructuredtext.rst:1159
 msgid ""
@@ -1275,15 +1275,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1162
 msgid "Possible uses include literate programming in Haskell and email quoting::"
-msgstr ""
+msgstr "Possible uses include literate programming in Haskell and email quoting::"
 
 #: ../../source/ref/restructuredtext.rst:1186
 msgid "Line Blocks"
-msgstr ""
+msgstr "Line Blocks"
 
 #: ../../source/ref/restructuredtext.rst:1188
 msgid "Doctree elements: line_block, line.  (New in Docutils 0.3.5.)"
-msgstr ""
+msgstr "Doctree elements: line_block, line.  (New in Docutils 0.3.5.)"
 
 #: ../../source/ref/restructuredtext.rst:1190
 msgid ""
@@ -1301,7 +1301,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1201
 msgid "This example illustrates continuation lines::"
-msgstr ""
+msgstr "This example illustrates continuation lines::"
 
 #: ../../source/ref/restructuredtext.rst:1209
 msgid ""
@@ -1311,11 +1311,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1237
 msgid "Block Quotes"
-msgstr ""
+msgstr "Block Quotes"
 
 #: ../../source/ref/restructuredtext.rst:1239
 msgid "Doctree element: block_quote, attribution."
-msgstr ""
+msgstr "Doctree element: block_quote, attribution."
 
 #: ../../source/ref/restructuredtext.rst:1241
 msgid ""
@@ -1341,15 +1341,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1260
 msgid "Unindented paragraph."
-msgstr ""
+msgstr "Unindented paragraph."
 
 #: ../../source/ref/restructuredtext.rst:1262
 msgid "Block quote 1."
-msgstr ""
+msgstr "Block quote 1."
 
 #: ../../source/ref/restructuredtext.rst:1266
 msgid "Block quote 2."
-msgstr ""
+msgstr "Block quote 2."
 
 #: ../../source/ref/restructuredtext.rst:1268
 msgid ""
@@ -1359,7 +1359,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1277
 msgid "Empty comments may also be used to separate block quotes::"
-msgstr ""
+msgstr "Empty comments may also be used to separate block quotes::"
 
 #: ../../source/ref/restructuredtext.rst:1285
 msgid ""
@@ -1369,11 +1369,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1304
 msgid "Doctest Blocks"
-msgstr ""
+msgstr "Doctest Blocks"
 
 #: ../../source/ref/restructuredtext.rst:1306
 msgid "Doctree element: doctest_block."
-msgstr ""
+msgstr "Doctree element: doctest_block."
 
 #: ../../source/ref/restructuredtext.rst:1308
 msgid ""
@@ -1394,15 +1394,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1330
 msgid "Indentation is not required for doctest blocks."
-msgstr ""
+msgstr "Indentation is not required for doctest blocks."
 
 #: ../../source/ref/restructuredtext.rst:1334
 msgid "Tables"
-msgstr ""
+msgstr "Tables"
 
 #: ../../source/ref/restructuredtext.rst:1336
 msgid "Doctree elements: table, tgroup, colspec, thead, tbody, row, entry."
-msgstr ""
+msgstr "Doctree elements: table, tgroup, colspec, thead, tbody, row, entry."
 
 #: ../../source/ref/restructuredtext.rst:1338
 msgid ""
@@ -1428,7 +1428,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1353
 msgid "Grid Tables"
-msgstr ""
+msgstr "Grid Tables"
 
 #: ../../source/ref/restructuredtext.rst:1355
 msgid ""
@@ -1473,11 +1473,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1419
 msgid "Another possibility is to add an extra line to row 2::"
-msgstr ""
+msgstr "Another possibility is to add an extra line to row 2::"
 
 #: ../../source/ref/restructuredtext.rst:1432
 msgid "Simple Tables"
-msgstr ""
+msgstr "Simple Tables"
 
 #: ../../source/ref/restructuredtext.rst:1434
 msgid ""
@@ -1590,11 +1590,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1545
 msgid "Explicit Markup Blocks"
-msgstr ""
+msgstr "Explicit Markup Blocks"
 
 #: ../../source/ref/restructuredtext.rst:1547
 msgid "An explicit markup block is a text block:"
-msgstr ""
+msgstr "An explicit markup block is a text block:"
 
 #: ../../source/ref/restructuredtext.rst:1549
 msgid ""
@@ -1610,7 +1610,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1553
 msgid "which ends before an unindented line."
-msgstr ""
+msgstr "which ends before an unindented line."
 
 #: ../../source/ref/restructuredtext.rst:1555
 msgid ""
@@ -1638,15 +1638,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1573
 msgid "Footnotes"
-msgstr ""
+msgstr "Footnotes"
 
 #: ../../source/ref/restructuredtext.rst:1575
 msgid "See also: `Footnote References`_."
-msgstr ""
+msgstr "See also: `Footnote References`_."
 
 #: ../../source/ref/restructuredtext.rst:1577
 msgid "Doctree elements: footnote_, label_."
-msgstr ""
+msgstr "Doctree elements: footnote_, label_."
 
 #: ../../source/ref/restructuredtext.rst:1579
 msgid ""
@@ -1663,22 +1663,22 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1592
 msgid "a whole decimal number consisting of one or more digits,"
-msgstr ""
+msgstr "a whole decimal number consisting of one or more digits,"
 
 #: ../../source/ref/restructuredtext.rst:1594
 #: ../../source/ref/restructuredtext.rst:2872
 msgid "a single \"#\" (denoting `auto-numbered footnotes`_),"
-msgstr ""
+msgstr "a single \"#\" (denoting `auto-numbered footnotes`_),"
 
 #: ../../source/ref/restructuredtext.rst:1596
 #: ../../source/ref/restructuredtext.rst:2874
 msgid "a \"#\" followed by a simple reference name (an `autonumber label`_), or"
-msgstr ""
+msgstr "a \"#\" followed by a simple reference name (an `autonumber label`_), or"
 
 #: ../../source/ref/restructuredtext.rst:1599
 #: ../../source/ref/restructuredtext.rst:2877
 msgid "a single \"*\" (denoting `auto-symbol footnotes`_)."
-msgstr ""
+msgstr "a single \"*\" (denoting `auto-symbol footnotes`_)."
 
 #: ../../source/ref/restructuredtext.rst:1601
 msgid ""
@@ -1700,7 +1700,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1613
 msgid "Here is a manually numbered footnote::"
-msgstr ""
+msgstr "Here is a manually numbered footnote::"
 
 #: ../../source/ref/restructuredtext.rst:1617
 msgid ""
@@ -1713,7 +1713,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1633
 msgid "Auto-Numbered Footnotes"
-msgstr ""
+msgstr "Auto-Numbered Footnotes"
 
 #: ../../source/ref/restructuredtext.rst:1635
 msgid ""
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1689
 msgid "Auto-Symbol Footnotes"
-msgstr ""
+msgstr "Auto-Symbol Footnotes"
 
 #: ../../source/ref/restructuredtext.rst:1691
 msgid ""
@@ -1795,43 +1795,43 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1707
 msgid "asterisk/star (\"*\")"
-msgstr ""
+msgstr "asterisk/star (\"*\")"
 
 #: ../../source/ref/restructuredtext.rst:1708
 msgid "dagger (HTML character entity \"&dagger;\", Unicode U+02020)"
-msgstr ""
+msgstr "dagger (HTML character entity \"&dagger;\", Unicode U+02020)"
 
 #: ../../source/ref/restructuredtext.rst:1709
 msgid "double dagger (\"&Dagger;\"/U+02021)"
-msgstr ""
+msgstr "double dagger (\"&Dagger;\"/U+02021)"
 
 #: ../../source/ref/restructuredtext.rst:1710
 msgid "section mark (\"&sect;\"/U+000A7)"
-msgstr ""
+msgstr "section mark (\"&sect;\"/U+000A7)"
 
 #: ../../source/ref/restructuredtext.rst:1711
 msgid "pilcrow or paragraph mark (\"&para;\"/U+000B6)"
-msgstr ""
+msgstr "pilcrow or paragraph mark (\"&para;\"/U+000B6)"
 
 #: ../../source/ref/restructuredtext.rst:1712
 msgid "number sign (\"#\")"
-msgstr ""
+msgstr "number sign (\"#\")"
 
 #: ../../source/ref/restructuredtext.rst:1713
 msgid "spade suit (\"&spades;\"/U+02660)"
-msgstr ""
+msgstr "spade suit (\"&spades;\"/U+02660)"
 
 #: ../../source/ref/restructuredtext.rst:1714
 msgid "heart suit (\"&hearts;\"/U+02665)"
-msgstr ""
+msgstr "heart suit (\"&hearts;\"/U+02665)"
 
 #: ../../source/ref/restructuredtext.rst:1715
 msgid "diamond suit (\"&diams;\"/U+02666)"
-msgstr ""
+msgstr "diamond suit (\"&diams;\"/U+02666)"
 
 #: ../../source/ref/restructuredtext.rst:1716
 msgid "club suit (\"&clubs;\"/U+02663)"
-msgstr ""
+msgstr "club suit (\"&clubs;\"/U+02663)"
 
 #: ../../source/ref/restructuredtext.rst:1718
 msgid ""
@@ -1858,7 +1858,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1738
 msgid "Mixed Manual and Auto-Numbered Footnotes"
-msgstr ""
+msgstr "Mixed Manual and Auto-Numbered Footnotes"
 
 #: ../../source/ref/restructuredtext.rst:1740
 msgid ""
@@ -1870,15 +1870,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1762
 msgid "Citations"
-msgstr ""
+msgstr "Citations"
 
 #: ../../source/ref/restructuredtext.rst:1764
 msgid "See also: `Citation References`_."
-msgstr ""
+msgstr "See also: `Citation References`_."
 
 #: ../../source/ref/restructuredtext.rst:1766
 msgid "Doctree element: citation_"
-msgstr ""
+msgstr "Doctree element: citation_"
 
 #: ../../source/ref/restructuredtext.rst:1770
 msgid ""
@@ -1892,11 +1892,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1786
 msgid "Hyperlink Targets"
-msgstr ""
+msgstr "Hyperlink Targets"
 
 #: ../../source/ref/restructuredtext.rst:1788
 msgid "Doctree element: target_."
-msgstr ""
+msgstr "Doctree element: target_."
 
 #: ../../source/ref/restructuredtext.rst:1792
 msgid ""
@@ -1939,7 +1939,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1819
 msgid "See `Anonymous Hyperlinks`_ below."
-msgstr ""
+msgstr "See `Anonymous Hyperlinks`_ below."
 
 #: ../../source/ref/restructuredtext.rst:1821
 msgid ""
@@ -1993,7 +1993,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1882
 msgid "After processing into HTML, the hyperlinks might be expressed as::"
-msgstr ""
+msgstr "After processing into HTML, the hyperlinks might be expressed as::"
 
 #: ../../source/ref/restructuredtext.rst:1890
 msgid ""
@@ -2007,7 +2007,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1907
 msgid "Escaped whitespace is preserved as intentional spaces, e.g.::"
-msgstr ""
+msgstr "Escaped whitespace is preserved as intentional spaces, e.g.::"
 
 #: ../../source/ref/restructuredtext.rst:1911
 msgid ""
@@ -2045,7 +2045,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1941
 msgid "For example, the following indirect hyperlink targets are equivalent::"
-msgstr ""
+msgstr "For example, the following indirect hyperlink targets are equivalent::"
 
 #: ../../source/ref/restructuredtext.rst:1950
 msgid ""
@@ -2055,15 +2055,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1953
 msgid "If the reference name contains any colons, either:"
-msgstr ""
+msgstr "If the reference name contains any colons, either:"
 
 #: ../../source/ref/restructuredtext.rst:1955
 msgid "the phrase must be enclosed in backquotes::"
-msgstr ""
+msgstr "the phrase must be enclosed in backquotes::"
 
 #: ../../source/ref/restructuredtext.rst:1960
 msgid "or the colon(s) must be backslash-escaped in the link target::"
-msgstr ""
+msgstr "or the colon(s) must be backslash-escaped in the link target::"
 
 #: ../../source/ref/restructuredtext.rst:1966
 msgid ""
@@ -2073,7 +2073,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:1979
 msgid "Anonymous Hyperlinks"
-msgstr ""
+msgstr "Anonymous Hyperlinks"
 
 #: ../../source/ref/restructuredtext.rst:1981
 msgid ""
@@ -2122,11 +2122,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2019
 msgid "Directives"
-msgstr ""
+msgstr "Directives"
 
 #: ../../source/ref/restructuredtext.rst:2021
 msgid "Doctree elements: depend on the directive."
-msgstr ""
+msgstr "Doctree elements: depend on the directive."
 
 #: ../../source/ref/restructuredtext.rst:2023
 msgid ""
@@ -2142,15 +2142,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2032
 msgid "For example, here's how an image_ may be placed::"
-msgstr ""
+msgstr "For example, here's how an image_ may be placed::"
 
 #: ../../source/ref/restructuredtext.rst:2036
 msgid "A figure_ (a graphic with a caption) may placed like this::"
-msgstr ""
+msgstr "A figure_ (a graphic with a caption) may placed like this::"
 
 #: ../../source/ref/restructuredtext.rst:2042
 msgid "An admonition_ (note, caution, etc.) contains other body elements::"
-msgstr ""
+msgstr "An admonition_ (note, caution, etc.) contains other body elements::"
 
 #: ../../source/ref/restructuredtext.rst:2048
 msgid ""
@@ -2164,11 +2164,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2055
 msgid "Two colons are distinctive, and unlikely to be used in common text."
-msgstr ""
+msgstr "Two colons are distinctive, and unlikely to be used in common text."
 
 #: ../../source/ref/restructuredtext.rst:2057
 msgid "Two colons avoids clashes with common comment text like::"
-msgstr ""
+msgstr "Two colons avoids clashes with common comment text like::"
 
 #: ../../source/ref/restructuredtext.rst:2061
 msgid ""
@@ -2189,15 +2189,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2072
 msgid "Directive arguments."
-msgstr ""
+msgstr "Directive arguments."
 
 #: ../../source/ref/restructuredtext.rst:2073
 msgid "Directive options."
-msgstr ""
+msgstr "Directive options."
 
 #: ../../source/ref/restructuredtext.rst:2074
 msgid "Directive content."
-msgstr ""
+msgstr "Directive content."
 
 #: ../../source/ref/restructuredtext.rst:2076
 msgid ""
@@ -2249,11 +2249,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2124
 msgid "Substitution Definitions"
-msgstr ""
+msgstr "Substitution Definitions"
 
 #: ../../source/ref/restructuredtext.rst:2126
 msgid "Doctree element: substitution_definition."
-msgstr ""
+msgstr "Doctree element: substitution_definition."
 
 #: ../../source/ref/restructuredtext.rst:2128
 msgid ""
@@ -2306,7 +2306,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2210
 msgid "Objects"
-msgstr ""
+msgstr "Objects"
 
 #: ../../source/ref/restructuredtext.rst:2173
 msgid ""
@@ -2346,19 +2346,19 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2238
 msgid "Images"
-msgstr ""
+msgstr "Images"
 
 #: ../../source/ref/restructuredtext.rst:2213
 msgid "Images are a common use for substitution references::"
-msgstr ""
+msgstr "Images are a common use for substitution references::"
 
 #: ../../source/ref/restructuredtext.rst:2238
 msgid "The \"image_\" directive has been implemented."
-msgstr ""
+msgstr "The \"image_\" directive has been implemented."
 
 #: ../../source/ref/restructuredtext.rst:2272
 msgid "Styles [#]_"
-msgstr ""
+msgstr "Styles [#]_"
 
 #: ../../source/ref/restructuredtext.rst:2241
 msgid ""
@@ -2382,7 +2382,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2288
 msgid "Templates"
-msgstr ""
+msgstr "Templates"
 
 #: ../../source/ref/restructuredtext.rst:2275
 msgid ""
@@ -2392,7 +2392,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2282
 msgid "After processing, this ZPT output would result::"
-msgstr ""
+msgstr "After processing, this ZPT output would result::"
 
 #: ../../source/ref/restructuredtext.rst:2287
 msgid ""
@@ -2402,7 +2402,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2323
 msgid "Replacement text"
-msgstr ""
+msgstr "Replacement text"
 
 #: ../../source/ref/restructuredtext.rst:2291
 msgid ""
@@ -2427,15 +2427,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2322
 msgid "The \"replace_\" directive has been implemented."
-msgstr ""
+msgstr "The \"replace_\" directive has been implemented."
 
 #: ../../source/ref/restructuredtext.rst:2326
 msgid "Comments"
-msgstr ""
+msgstr "Comments"
 
 #: ../../source/ref/restructuredtext.rst:2328
 msgid "Doctree element: comment."
-msgstr ""
+msgstr "Doctree element: comment."
 
 #: ../../source/ref/restructuredtext.rst:2330
 msgid ""
@@ -2461,7 +2461,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2368
 msgid "Implicit Hyperlink Targets"
-msgstr ""
+msgstr "Implicit Hyperlink Targets"
 
 #: ../../source/ref/restructuredtext.rst:2370
 msgid ""
@@ -2515,7 +2515,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2402
 msgid "Inline Markup"
-msgstr ""
+msgstr "Inline Markup"
 
 #: ../../source/ref/restructuredtext.rst:2404
 msgid ""
@@ -2536,35 +2536,35 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2415
 msgid "emphasis_: \"*\""
-msgstr ""
+msgstr "emphasis_: \"*\""
 
 #: ../../source/ref/restructuredtext.rst:2416
 msgid "`strong emphasis`_: \"**\""
-msgstr ""
+msgstr "`strong emphasis`_: \"**\""
 
 #: ../../source/ref/restructuredtext.rst:2417
 msgid "`interpreted text`_: \"`\""
-msgstr ""
+msgstr "`interpreted text`_: \"`\""
 
 #: ../../source/ref/restructuredtext.rst:2418
 msgid "`inline literals`_: \"``\""
-msgstr ""
+msgstr "`inline literals`_: \"``\""
 
 #: ../../source/ref/restructuredtext.rst:2419
 msgid "`substitution references`_: \"|\""
-msgstr ""
+msgstr "`substitution references`_: \"|\""
 
 #: ../../source/ref/restructuredtext.rst:2421
 msgid "Three constructs use different start-strings and end-strings:"
-msgstr ""
+msgstr "Three constructs use different start-strings and end-strings:"
 
 #: ../../source/ref/restructuredtext.rst:2423
 msgid "`inline internal targets`_: \"_`\" and \"`\""
-msgstr ""
+msgstr "`inline internal targets`_: \"_`\" and \"`\""
 
 #: ../../source/ref/restructuredtext.rst:2424
 msgid "`footnote references`_: \"[\" and \"]_\""
-msgstr ""
+msgstr "`footnote references`_: \"[\" and \"]_\""
 
 #: ../../source/ref/restructuredtext.rst:2425
 msgid ""
@@ -2580,7 +2580,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2432
 msgid "Inline markup recognition rules"
-msgstr ""
+msgstr "Inline markup recognition rules"
 
 #: ../../source/ref/restructuredtext.rst:2434
 msgid ""
@@ -2596,7 +2596,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2440
 msgid "Inline markup end-strings must be immediately preceded by non-whitespace."
-msgstr ""
+msgstr "Inline markup end-strings must be immediately preceded by non-whitespace."
 
 #: ../../source/ref/restructuredtext.rst:2443
 msgid ""
@@ -2637,15 +2637,15 @@ msgstr ""
 #: ../../source/ref/restructuredtext.rst:2464
 #: ../../source/ref/restructuredtext.rst:2471
 msgid "whitespace,"
-msgstr ""
+msgstr "whitespace,"
 
 #: ../../source/ref/restructuredtext.rst:2465
 msgid "one of the ASCII characters ``- : / ' \" < ( [ {``"
-msgstr ""
+msgstr "one of the ASCII characters ``- : / ' \" < ( [ {``"
 
 #: ../../source/ref/restructuredtext.rst:2466
 msgid "or a similar non-ASCII punctuation character. [#pre-chars]_"
-msgstr ""
+msgstr "or a similar non-ASCII punctuation character. [#pre-chars]_"
 
 #: ../../source/ref/restructuredtext.rst:2468
 msgid ""
@@ -2655,11 +2655,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2472
 msgid "one of the ASCII characters ``- . , : ; ! ? \\ / ' \" ) ] } >``"
-msgstr ""
+msgstr "one of the ASCII characters ``- . , : ; ! ? \\ / ' \" ) ] } >``"
 
 #: ../../source/ref/restructuredtext.rst:2473
 msgid "or a similar non-ASCII punctuation character. [#post-chars]_"
-msgstr ""
+msgstr "or a similar non-ASCII punctuation character. [#post-chars]_"
 
 #: ../../source/ref/restructuredtext.rst:2475
 msgid ""
@@ -2702,11 +2702,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2498
 msgid "2 * x  a ** b  (* BOM32_* ` `` _ __ | (breaks rule 1)"
-msgstr ""
+msgstr "2 * x  a ** b  (* BOM32_* ` `` _ __ | (breaks rule 1)"
 
 #: ../../source/ref/restructuredtext.rst:2499
 msgid "|| (breaks rule 3)"
-msgstr ""
+msgstr "|| (breaks rule 3)"
 
 #: ../../source/ref/restructuredtext.rst:2500
 msgid ""
@@ -2723,7 +2723,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2507
 msgid "No escaping is required inside the following inline markup examples:"
-msgstr ""
+msgstr "No escaping is required inside the following inline markup examples:"
 
 #: ../../source/ref/restructuredtext.rst:2509
 msgid ""
@@ -2766,7 +2766,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2539
 msgid "Recognition order"
-msgstr ""
+msgstr "Recognition order"
 
 #: ../../source/ref/restructuredtext.rst:2541
 msgid ""
@@ -2804,11 +2804,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2560
 msgid "`Standalone hyperlinks`_ are the last to be recognized."
-msgstr ""
+msgstr "`Standalone hyperlinks`_ are the last to be recognized."
 
 #: ../../source/ref/restructuredtext.rst:2564
 msgid "Character-Level Inline Markup"
-msgstr ""
+msgstr "Character-Level Inline Markup"
 
 #: ../../source/ref/restructuredtext.rst:2566
 msgid ""
@@ -2846,55 +2846,55 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2594
 msgid "Emphasis"
-msgstr ""
+msgstr "Emphasis"
 
 #: ../../source/ref/restructuredtext.rst:2596
 msgid "Doctree element: emphasis."
-msgstr ""
+msgstr "Doctree element: emphasis."
 
 #: ../../source/ref/restructuredtext.rst:2598
 msgid "Start-string = end-string = \"*\"."
-msgstr ""
+msgstr "Start-string = end-string = \"*\"."
 
 #: ../../source/ref/restructuredtext.rst:2600
 msgid "Text enclosed by single asterisk characters is emphasized::"
-msgstr ""
+msgstr "Text enclosed by single asterisk characters is emphasized::"
 
 #: ../../source/ref/restructuredtext.rst:2604
 msgid "Emphasized text is typically displayed in italics."
-msgstr ""
+msgstr "Emphasized text is typically displayed in italics."
 
 #: ../../source/ref/restructuredtext.rst:2608
 msgid "Strong Emphasis"
-msgstr ""
+msgstr "Strong Emphasis"
 
 #: ../../source/ref/restructuredtext.rst:2610
 msgid "Doctree element: strong."
-msgstr ""
+msgstr "Doctree element: strong."
 
 #: ../../source/ref/restructuredtext.rst:2612
 msgid "Start-string = end-string = \"**\"."
-msgstr ""
+msgstr "Start-string = end-string = \"**\"."
 
 #: ../../source/ref/restructuredtext.rst:2614
 msgid "Text enclosed by double-asterisks is emphasized strongly::"
-msgstr ""
+msgstr "Text enclosed by double-asterisks is emphasized strongly::"
 
 #: ../../source/ref/restructuredtext.rst:2618
 msgid "Strongly emphasized text is typically displayed in boldface."
-msgstr ""
+msgstr "Strongly emphasized text is typically displayed in boldface."
 
 #: ../../source/ref/restructuredtext.rst:2622
 msgid "Interpreted Text"
-msgstr ""
+msgstr "Interpreted Text"
 
 #: ../../source/ref/restructuredtext.rst:2624
 msgid "Doctree element: depends on the explicit or implicit role and processing."
-msgstr ""
+msgstr "Doctree element: depends on the explicit or implicit role and processing."
 
 #: ../../source/ref/restructuredtext.rst:2627
 msgid "Start-string = end-string = \"`\"."
-msgstr ""
+msgstr "Start-string = end-string = \"`\"."
 
 #: ../../source/ref/restructuredtext.rst:2629
 msgid ""
@@ -2939,27 +2939,27 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2670
 msgid "The following are **not** recognized as field list items::"
-msgstr ""
+msgstr "The following are **not** recognized as field list items::"
 
 #: ../../source/ref/restructuredtext.rst:2676
 msgid "Edge cases::"
-msgstr ""
+msgstr "Edge cases::"
 
 #: ../../source/ref/restructuredtext.rst:2685
 msgid "Inline Literals"
-msgstr ""
+msgstr "Inline Literals"
 
 #: ../../source/ref/restructuredtext.rst:2687
 msgid "Doctree element: literal."
-msgstr ""
+msgstr "Doctree element: literal."
 
 #: ../../source/ref/restructuredtext.rst:2689
 msgid "Start-string = end-string = \"``\"."
-msgstr ""
+msgstr "Start-string = end-string = \"``\"."
 
 #: ../../source/ref/restructuredtext.rst:2691
 msgid "Text enclosed by double-backquotes is treated as inline literals::"
-msgstr ""
+msgstr "Text enclosed by double-backquotes is treated as inline literals::"
 
 #: ../../source/ref/restructuredtext.rst:2695
 msgid ""
@@ -2981,40 +2981,40 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2707
 msgid "Inline literals are useful for short code snippets.  For example::"
-msgstr ""
+msgstr "Inline literals are useful for short code snippets.  For example::"
 
 #: ../../source/ref/restructuredtext.rst:2714
 msgid "Hyperlink References"
-msgstr ""
+msgstr "Hyperlink References"
 
 #: ../../source/ref/restructuredtext.rst:2716
 #: ../../source/ref/restructuredtext.rst:2946
 msgid "Doctree element: reference."
-msgstr ""
+msgstr "Doctree element: reference."
 
 #: ../../source/ref/restructuredtext.rst:2718
 msgid "Named hyperlink references:"
-msgstr ""
+msgstr "Named hyperlink references:"
 
 #: ../../source/ref/restructuredtext.rst:2720
 msgid "No start-string, end-string = \"_\"."
-msgstr ""
+msgstr "No start-string, end-string = \"_\"."
 
 #: ../../source/ref/restructuredtext.rst:2721
 msgid "Start-string = \"`\", end-string = \"\\`_\".  (Phrase references.)"
-msgstr ""
+msgstr "Start-string = \"`\", end-string = \"\\`_\".  (Phrase references.)"
 
 #: ../../source/ref/restructuredtext.rst:2723
 msgid "Anonymous hyperlink references:"
-msgstr ""
+msgstr "Anonymous hyperlink references:"
 
 #: ../../source/ref/restructuredtext.rst:2725
 msgid "No start-string, end-string = \"__\"."
-msgstr ""
+msgstr "No start-string, end-string = \"__\"."
 
 #: ../../source/ref/restructuredtext.rst:2726
 msgid "Start-string = \"`\", end-string = \"\\`__\".  (Phrase references.)"
-msgstr ""
+msgstr "Start-string = \"`\", end-string = \"\\`__\".  (Phrase references.)"
 
 #: ../../source/ref/restructuredtext.rst:2728
 msgid ""
@@ -3047,7 +3047,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2749
 msgid "Embedded URIs and Aliases"
-msgstr ""
+msgstr "Embedded URIs and Aliases"
 
 #: ../../source/ref/restructuredtext.rst:2751
 msgid ""
@@ -3058,7 +3058,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2759
 msgid "This is exactly equivalent to::"
-msgstr ""
+msgstr "This is exactly equivalent to::"
 
 #: ../../source/ref/restructuredtext.rst:2768
 msgid ""
@@ -3076,7 +3076,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2781
 msgid "Equivalent to::"
-msgstr ""
+msgstr "Equivalent to::"
 
 #: ../../source/ref/restructuredtext.rst:2788
 msgid ""
@@ -3093,7 +3093,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2799
 msgid "creates an anonymous reference to the file ``parrots.txt_``."
-msgstr ""
+msgstr "creates an anonymous reference to the file ``parrots.txt_``."
 
 #: ../../source/ref/restructuredtext.rst:2801
 msgid ""
@@ -3122,15 +3122,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2829
 msgid "Inline Internal Targets"
-msgstr ""
+msgstr "Inline Internal Targets"
 
 #: ../../source/ref/restructuredtext.rst:2831
 msgid "Doctree element: target."
-msgstr ""
+msgstr "Doctree element: target."
 
 #: ../../source/ref/restructuredtext.rst:2833
 msgid "Start-string = \"_`\", end-string = \"`\"."
-msgstr ""
+msgstr "Start-string = \"_`\", end-string = \"`\"."
 
 #: ../../source/ref/restructuredtext.rst:2835
 msgid ""
@@ -3155,15 +3155,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2851
 msgid "Footnote References"
-msgstr ""
+msgstr "Footnote References"
 
 #: ../../source/ref/restructuredtext.rst:2853
 msgid "See also: Footnotes_"
-msgstr ""
+msgstr "See also: Footnotes_"
 
 #: ../../source/ref/restructuredtext.rst:2855
 msgid "Doctree element: footnote_reference_."
-msgstr ""
+msgstr "Doctree element: footnote_reference_."
 
 #: ../../source/ref/restructuredtext.rst:2857
 msgid ""
@@ -3174,7 +3174,7 @@ msgstr ""
 #: ../../source/ref/restructuredtext.rst:2865
 #: ../../source/ref/restructuredtext.rst:2902
 msgid "Start-string = \"[\", end-string = \"]_\"."
-msgstr ""
+msgstr "Start-string = \"[\", end-string = \"]_\"."
 
 #: ../../source/ref/restructuredtext.rst:2867
 msgid ""
@@ -3184,12 +3184,12 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2870
 msgid "one or more digits (i.e., a number),"
-msgstr ""
+msgstr "one or more digits (i.e., a number),"
 
 #: ../../source/ref/restructuredtext.rst:2879
 #: ../../source/ref/restructuredtext.rst:2909
 msgid "For example::"
-msgstr ""
+msgstr "For example::"
 
 #: ../../source/ref/restructuredtext.rst:2885
 msgid ""
@@ -3203,15 +3203,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2894
 msgid "Citation References"
-msgstr ""
+msgstr "Citation References"
 
 #: ../../source/ref/restructuredtext.rst:2896
 msgid "See also: Citations_"
-msgstr ""
+msgstr "See also: Citations_"
 
 #: ../../source/ref/restructuredtext.rst:2898
 msgid "Doctree element: citation_reference_."
-msgstr ""
+msgstr "Doctree element: citation_reference_."
 
 #: ../../source/ref/restructuredtext.rst:2904
 msgid ""
@@ -3223,11 +3223,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2915
 msgid "Substitution References"
-msgstr ""
+msgstr "Substitution References"
 
 #: ../../source/ref/restructuredtext.rst:2917
 msgid "Doctree element: substitution_reference, reference."
-msgstr ""
+msgstr "Doctree element: substitution_reference, reference."
 
 #: ../../source/ref/restructuredtext.rst:2919
 msgid ""
@@ -3253,15 +3253,15 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2932
 msgid "Examples::"
-msgstr ""
+msgstr "Examples::"
 
 #: ../../source/ref/restructuredtext.rst:2944
 msgid "Standalone Hyperlinks"
-msgstr ""
+msgstr "Standalone Hyperlinks"
 
 #: ../../source/ref/restructuredtext.rst:2948
 msgid "No start-string or end-string."
-msgstr ""
+msgstr "No start-string or end-string."
 
 #: ../../source/ref/restructuredtext.rst:2950
 msgid ""
@@ -3272,11 +3272,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:2956
 msgid "would be marked up in HTML as::"
-msgstr ""
+msgstr "would be marked up in HTML as::"
 
 #: ../../source/ref/restructuredtext.rst:2961
 msgid "Two forms of URI are recognized:"
-msgstr ""
+msgstr "Two forms of URI are recognized:"
 
 #: ../../source/ref/restructuredtext.rst:2963
 msgid ""
@@ -3343,11 +3343,11 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:3011
 msgid "Units"
-msgstr ""
+msgstr "Units"
 
 #: ../../source/ref/restructuredtext.rst:3013
 msgid "(New in Docutils 0.3.10.)"
-msgstr ""
+msgstr "(New in Docutils 0.3.10.)"
 
 #: ../../source/ref/restructuredtext.rst:3015
 msgid ""
@@ -3364,43 +3364,43 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:3024
 msgid "Length Units"
-msgstr ""
+msgstr "Length Units"
 
 #: ../../source/ref/restructuredtext.rst:3026
 msgid "The following length units are supported by the reStructuredText parser:"
-msgstr ""
+msgstr "The following length units are supported by the reStructuredText parser:"
 
 #: ../../source/ref/restructuredtext.rst:3029
 msgid "em (em unit, the element's font size)"
-msgstr ""
+msgstr "em (em unit, the element's font size)"
 
 #: ../../source/ref/restructuredtext.rst:3030
 msgid "ex (ex unit, x-height of the elementâ€™s font)"
-msgstr ""
+msgstr "ex (ex unit, x-height of the elementâ€™s font)"
 
 #: ../../source/ref/restructuredtext.rst:3031
 msgid "mm (millimeters; 1Â mm = 1/1000Â m)"
-msgstr ""
+msgstr "mm (millimeters; 1Â mm = 1/1000Â m)"
 
 #: ../../source/ref/restructuredtext.rst:3032
 msgid "cm (centimeters; 1Â cm = 10Â mm)"
-msgstr ""
+msgstr "cm (centimeters; 1Â cm = 10Â mm)"
 
 #: ../../source/ref/restructuredtext.rst:3033
 msgid "in (inches; 1Â in = 2.54Â cm = 96Â px)"
-msgstr ""
+msgstr "in (inches; 1Â in = 2.54Â cm = 96Â px)"
 
 #: ../../source/ref/restructuredtext.rst:3034
 msgid "px (pixels, 1Â px = 1/96Â in) [#]_"
-msgstr ""
+msgstr "px (pixels, 1Â px = 1/96Â in) [#]_"
 
 #: ../../source/ref/restructuredtext.rst:3035
 msgid "pt (points; 1Â pt = 1/72Â in)"
-msgstr ""
+msgstr "pt (points; 1Â pt = 1/72Â in)"
 
 #: ../../source/ref/restructuredtext.rst:3036
 msgid "pc (picas; 1Â pc = 1/6Â in = 12Â pt)"
-msgstr ""
+msgstr "pc (picas; 1Â pc = 1/6Â in = 12Â pt)"
 
 #: ../../source/ref/restructuredtext.rst:3038
 msgid ""
@@ -3416,7 +3416,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:3044
 msgid "The following are all valid length values: \"1.5em\", \"20 mm\", \".5in\"."
-msgstr ""
+msgstr "The following are all valid length values: \"1.5em\", \"20 mm\", \".5in\"."
 
 #: ../../source/ref/restructuredtext.rst:3046
 msgid ""
@@ -3427,7 +3427,7 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:3060
 msgid "Percentage Units"
-msgstr ""
+msgstr "Percentage Units"
 
 #: ../../source/ref/restructuredtext.rst:3062
 msgid ""
@@ -3438,13 +3438,13 @@ msgstr ""
 
 #: ../../source/ref/restructuredtext.rst:3069
 msgid "Error Handling"
-msgstr ""
+msgstr "Error Handling"
 
 #: ../../source/ref/restructuredtext.rst:3071
 msgid "Doctree element: system_message, problematic."
-msgstr ""
+msgstr "Doctree element: system_message, problematic."
 
 #: ../../source/ref/restructuredtext.rst:3073
 msgid "Markup errors are handled according to the specification in `PEP 258`_."
-msgstr ""
+msgstr "Markup errors are handled according to the specification in `PEP 258`_."
 

@@ -1,0 +1,1119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Nosy
+# This file is distributed under the same license as the docutils-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docutils-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 22:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/user/slide-shows.rst:64
+msgid "Location |bullet| Date"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:5
+msgid "Easy Slide Shows With reST & S5"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:0
+msgid "Authors"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:7
+msgid "David Goodger & Chris Liechti"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:0
+msgid "Date"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:8
+msgid "$Date: 2006-03-30 16:29:59 +0200 (Do, 30. M盲r 2006) $"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:14
+msgid "How to create quick, good-looking presentation slide shows with Docutils_/reStructuredText_ and S5_."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:17
+msgid "This document serves both as a user manual and as a usage example of the s5_html.py writer and the rst2s5.py front end."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:20
+msgid "To view this document as a slide show see http://docutils.sf.net/docs/user/slide-shows.s5.html (or `your local copy <slide-shows.s5.html>`__)."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:25
+msgid "目录"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:29
+msgid "S5 themes are designed for full-screen display areas with a 4:3 aspect ratio.  If the slide text doesn't fit in your browser window, try decreasing the text size."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:33
+msgid "Use the space bar to advance, Page Up/Down & arrow keys to navigate."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:35
+msgid "Best viewed in Firefox_, Safari, and Konqueror.  Click the \"|mode|\" button to switch between presentation & handout/outline modes.  Hit the \"C\" key to display the navigation controls, or mouse over the lower right-hand corner."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:40
+msgid "Functionality is limited in Opera.  Switch to full-screen mode (F11 key) to activate Opera Show."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:43
+msgid "S5 works in Internet Explorer, but it may look ugly."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:47
+msgid "The first slide of a presentation consists of all visible text up to the first section title.  The document title is also added to the footer of all slides."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:51
+msgid "The \"footer\" directive is used to specify part of the slide footer text.  It is currently limited to one short line (one paragraph)."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:54
+msgid "There is no support for the \"header\" directive in the themes included with Docutils."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:68
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:72
+msgid "``rst2s5.py`` is a Docutils_ front end that outputs HTML for use with S5_, a \"Simple Standards-based Slide Show System\" by Eric Meyer."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:79
+msgid "Prerequisites: Python and the Docutils_ package have to be installed.  See the `Docutils README`__ file for installation instructions."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:85
+msgid "reStructuredText"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:89
+msgid "Uses normal reStructuredText as input."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:91
+msgid "One section per slide"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:95
+msgid "Each first-level section is converted into a single slide."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:97
+msgid "XHTML output"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:101
+msgid "Presentations can be viewed using most modern graphical web browsers.  The browser must support CSS, JavaScript, and XHTML. S5 even works with IE!"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:105
+msgid "S5 was designed to add the functionality of the `Opera Show`_ standard (without Opera Show's limitations) to non-Opera browsers.  Unfortunately, most of S5's CSS and JavaScript extensions don't function in the Opera browser."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:112
+#: ../../source/user/slide-shows.rst:469
+msgid "Themes"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:116
+msgid "A variety of themes are available.  See `Example Themes`_, below."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:118
+msgid "``rst2s5.py``"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:122
+msgid "The front-end tool to generate S5 slide shows."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:127
+msgid "The following apply in any supporting browser besides Opera, which uses the default Opera Show controls instead."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:133
+msgid "Action"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:134
+msgid "Key(s)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:135
+msgid "Go to the next slide"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:136
+msgid "[Space bar]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:137
+msgid "[Return]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:138
+msgid "[Enter]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:139
+msgid "[Right arrow]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:140
+msgid "[Down arrow]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:141
+msgid "[Page down]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:142
+msgid "Click the left mouse button outside of the control area, Flash object, or movie"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:144
+msgid "Go to the previous slide"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:145
+msgid "[Left arrow]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:146
+msgid "[Up arrow]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:147
+msgid "[Page up]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:148
+msgid "Go to the title (first) slide"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:149
+msgid "[Home]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:150
+msgid "Go to the last slide"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:151
+msgid "[End]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:152
+msgid "Jump directly to a slide"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:153
+msgid "Type the slide number, then hit [Return] or [Enter]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:154
+msgid "Skip forward *n* slides"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:155
+msgid "Type the number of slides to skip, then hit any \"go to next\" key (except [Return] or [Enter])"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:157
+msgid "Skip backward *n* slides"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:158
+msgid "Type the number of slides to skip, then hit any \"go to previous\" key"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:160
+msgid "Switch between slideshow and outline view"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:161
+msgid "[T]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:162
+msgid "Click the |mode| button"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:163
+msgid "Show/hide slide controls"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:164
+msgid "[C]"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:165
+msgid "Move the mouse pointer over the control area"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:167
+msgid "Further details of the S5 user interface can be found at `Eric Meyer's S5 page`__."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:174
+msgid "Features (1)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:178
+msgid "The S5/HTML Writer supports all the standard Docutils HTML features.  S5 has been released to the Public Domain."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:181
+msgid "S5-specific features:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:185
+msgid "The document title is duplicated on each slide in the S5 footer."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:187
+msgid "The ``footer`` directive may be used to define additional text in the S5 footer."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:192
+msgid "But it is limited to one line of text."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:194
+msgid "This is useful for information such as the date of the presentation and/or the location.  The field in the footer is left blank if no ``footer`` directive is used."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:198
+#: ../../source/user/slide-shows.rst:499
+#: ../../source/user/slide-shows.rst:856
+msgid "Example::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:202
+msgid "There is also a progress indicator (slide counter) in the footer that can be enabled.  It's disabled by default."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:205
+msgid "Incremental display."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:209
+msgid "An \"incremental\" class can be assigned to lists and other elements to get one-item-at-a-time behavior (like this list).  Incremental display does not work in the Opera browser."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:213
+msgid "Text auto-scaling."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:217
+msgid "The text size adjusts relative to the size of your browser window automatically.  You may need to reload the document after resizing the window.  The browser and platform affect the font used; be sure to test the slide show on the presentation system."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:224
+msgid "Features (2): Handouts"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:228
+msgid "The contents of any element with a \"class\" attribute value of \"handout\" are hidden in the slide presentation, and are only visible when the presentation is printed, or viewed in outline mode.  \"Handout\"-class elements can appear anywhere in the text, as often as needed."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:234
+msgid "This means that the slides and extra handout material can be combined in one document.  The handout can be printed directly from the browser, and it will contain more than just silly framed slides.  This can be used to provide more detailed information, or for speaker's notes."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:242
+msgid "Use the \"class\" directive::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:248
+msgid "The ``.. class:: handout`` directive can be used to tag individual paragraphs and other elements.  The \"class\" directive applies to the first element immediately following::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:259
+msgid "It also applies to multiple elements in the directive content::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:269
+msgid "Use the \"container\" directive::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:275
+msgid "Arbitrary handout blocks can be created using the ``container`` directive.  The content is treated as one."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:278
+msgid "Use the \"class\" option of directives that support it::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:285
+msgid "The following directives support \"class\" options:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:287
+msgid "all admonition directives (\"admonition\", \"note\", \"hint\", etc.)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:288
+msgid "\"image\" & \"figure\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:289
+msgid "\"topic\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:290
+msgid "\"sidebar\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:291
+msgid "\"line-block\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:292
+msgid "\"parsed-literal\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:293
+msgid "\"rubric\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:294
+msgid "\"compound\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:295
+msgid "\"table\", \"csv-table\", & \"list-table\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:296
+msgid "\"target-notes\" (more about that below)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:297
+msgid "\"role\" (pre-defined; more below)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:299
+msgid "Handout contents are also visible on the screen if the S5 view mode is toggled from \"slide show\" to \"outline\" mode."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:304
+msgid "Caveats"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:308
+msgid "Some Docutils features are not supported by some themes."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:312
+msgid "For example, header rendering is not supported by the themes supplied with Docutils."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:315
+msgid "The \"header\" directive is used to set header text.  S5 automatically inserts section/slide titles into the \"header\" area of a slide.  If both Docutils headers and S5 headers (slide titles) exist simultaneously, they interfere with each other."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:320
+msgid "Care must be taken with the \"contents\" directive."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:324
+msgid "The ``--no-toc-backlinks`` option is the default for the S5/HTML writer (``toc_backlinks=0`` setting).  Other values for this setting will change the CSS class of headings such that they won't show up correctly in the slide show."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:329
+msgid "Use the ``:class: handout`` option on the \"contents\" directive to limit the table of contents to the handout/outline mode only::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:340
+msgid "3. Subsections ..."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:342
+msgid "... may be used, sparingly."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:346
+msgid "Only first-level sections become slides.  Not many levels of subsections can fit on a slide."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:349
+msgid "Subsections (of any level) work normally in handouts though.  Add \"``.. class:: handout``\" before a subsection (or sub-subsection, or ...), and the entire subsection will only appear in the handout."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:355
+msgid "Generating a Slide Show (1)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:359
+msgid "Open a console (terminal, command shell) and go to the folder containing your file, ``slides.txt``."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:362
+msgid "Run the command::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:366
+msgid "Specify an S5 theme with the ``--theme`` option."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:370
+msgid "Docutils will copy the S5 theme files into a ``ui/<theme>`` folder beside the output HTML file.  A slide show can also link to an existing theme using the ``--theme-url`` option."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:376
+msgid "Generating a Slide Show (2)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:380
+msgid "Include a copy of any linked stylesheet."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:384
+msgid "The default Docutils stylesheet, ``html4css1.css``, will normally be embedded in the output HTML.  If you choose to link to a stylesheet instead of embedding, you must include a copy (suggested location: in the ``ui/`` directory)."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:389
+msgid "Open ``slides.html`` in a web browser."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:391
+msgid "Expand the browser window to full-screen mode, and speak."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:395
+msgid "The `Web Developer`__ extension for Firefox is very useful.  With it, you can resize your browser window to the exact dimensions of the projector you'll be using, so you can test beforehand.  There are many other useful features as well."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:402
+msgid "Profit!"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:406
+msgid "Examples (1)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:410
+msgid "Admonitions, tables, sidebars, and other elements can be used in on-screen presentations in handouts.  Images too!"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:417
+msgid "A"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:417
+msgid "B"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:417
+msgid "A or B"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:419
+#: ../../source/user/slide-shows.rst:419
+#: ../../source/user/slide-shows.rst:419
+#: ../../source/user/slide-shows.rst:420
+#: ../../source/user/slide-shows.rst:421
+msgid "False"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:420
+#: ../../source/user/slide-shows.rst:420
+#: ../../source/user/slide-shows.rst:421
+#: ../../source/user/slide-shows.rst:421
+#: ../../source/user/slide-shows.rst:422
+#: ../../source/user/slide-shows.rst:422
+#: ../../source/user/slide-shows.rst:422
+msgid "True"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:427
+msgid "Examples (2): Incremental Text"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:431
+msgid "Paragraphs can be displayed one at a time..."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:435
+msgid "... or a bunch at a time."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:437
+msgid "This second paragraph is displayed together with the previous one by grouping them with the \"container\" directive."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:440
+msgid "`We can also display` `one` `word` `at` `a` `time,` `or a phrase` `at a time,` `or even` `o`\\ `n`\\ `e` `l`\\ `e`\\ `t`\\ `t`\\ `e`\\ `r` `at a time!`"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:444
+msgid "`(But the markup ain't pretty.)`"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:448
+msgid "Examples (3): Incr. Graphics"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:450
+msgid "Let's play... Rock, Scissors, Paper"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:473
+msgid "Several themes are available, and they're easy to adapt."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:477
+msgid "Themes from the `S5 tutorial`__ can be used.  These themes are in the public domain and may be redistributed freely."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:482
+msgid "Sites with other S5 themes:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:484
+msgid "http://meyerweb.com/eric/tools/s5/themes/"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:485
+msgid "http://mozilla.wikicities.com/wiki/Firefox_S5:Designs"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:486
+msgid "http://lachy.id.au/dev/mozilla/firefox/s5/"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:487
+msgid "http://www.openlight.com/Python-S5-Theme.tar.gz"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:489
+msgid "S5 is becoming more popular every day.  Do a web search for \"S5 theme\" and you're bound to find plenty of choices."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:492
+msgid "\"``--theme``\" option."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:496
+msgid "The theme can be specified with the \"``--theme``\" command-line option."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:503
+msgid "The default theme is \"default\"."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:505
+msgid "\"``theme``\" setting."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:509
+msgid "You can set the theme with the \"``theme``\" configuration file setting."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:512
+msgid "Copied to ``./ui/<theme>/``."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:516
+msgid "Themes are copied into a ``ui/<theme>`` folder inside the folder containing the presentation."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:519
+msgid "Link with \"``--theme-url``\" option."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:523
+msgid "Link to a theme on the same or another web site, using the \"``--theme-url``\" option or \"``theme_url``\" configuration file setting."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:529
+msgid "Example Themes"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:533
+msgid "The default theme, \"default\", is a simplified version of S5's default theme.  It accommodates up to 13 lines of text."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:538
+msgid "\"default\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:545
+msgid "Example Themes: Small Text"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:549
+msgid "The \"small-white\" and \"small-black\" themes are simplifications of the default theme (**small** black text on a **white** background, and **small** black text on a **white** background, respectively). They each accommodate up to 15 lines of text."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:557
+msgid "\"small-white\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:561
+msgid "\"small-black\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:567
+msgid "Example Themes: Large Text"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:571
+msgid "The \"big-white\" and \"big-black\" themes feature very large, bold text, with no footers.  Only five short lines fit in a slide."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:577
+msgid "\"big-white\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:581
+msgid "\"big-black\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:587
+msgid "Example Themes: Medium Text"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:591
+msgid "The \"medium-white\" and \"medium-black\" themes feature medium-sized text.  Up to 8 lines of text are accommodated."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:597
+msgid "\"medium-white\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:601
+msgid "\"medium-black\""
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:607
+msgid "S5 Theme Files"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:609
+msgid "An S5 theme consists of a directory containing several files -- stylesheets, JavaScript, and graphics:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:617
+msgid "The generated HTML contains the entire slide show text.  It also contains links to the following files:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:620
+msgid "slides.css simply contains import links to:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:622
+msgid "s5-core.css: Default styles critical to the proper functioning of the slide show; don't touch this!"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:625
+msgid "framing.css: Sets the basic layout of slide components (header, footer, controls, etc.  This file is the often edited."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:628
+msgid "pretty.css: Presentation styles that give the slide show a unique look and feel.  This is the file that you're most likely to edit for a custom theme.  You can make a whole new theme just by editing this file, and not touching the others."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:633
+msgid "outline.css: Styles for outline mode."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:635
+msgid "print.css: Styles for printing; hides most layout elements, and may display others."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:638
+msgid "opera.css: Styles necessary for the proper functioning of S5 in Opera Show."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:641
+msgid "slides.js: the JavaScript that drives the dynamic side of the slide show (actions and navigation controls).  It automatically IDs the slides when the document loads, builds the navigation menu, handles the hiding and showing of slides, and so on.  The code also manages the fallback to Opera Show if you're using the Opera web browser."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:648
+msgid "Two files are included to support PNG transparency (alpha channels) in Internet Explorer:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:651
+msgid "iepngfix.htc"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:652
+msgid "blank.gif"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:656
+msgid "Making a Custom Theme"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:660
+msgid "Run \"``rst2s5.py --theme <base-theme> <doc>.txt <doc>.html``\"."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:664
+msgid "This initializes the ``ui`` directory with the base theme files."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:666
+msgid "Copy ``ui/<base-theme>`` to ``ui/<new-theme>``."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:668
+msgid "Edit the styles."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:672
+msgid "Start with ``pretty.css``; edit ``framing.css`` if you need to make layout changes."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:675
+msgid "Run \"``rst2s5.py --theme-url ui/<new-theme> <doc>.txt <doc>.html``\"."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:679
+msgid "We use the ``--theme-url`` option to refer to the new theme.  Open your ``<doc>.html`` in a browser to test the new theme."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:682
+msgid "Rinse & repeat."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:686
+msgid "Repeat from step 3 until you're satisfied."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:698
+msgid "Resources:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:700
+msgid "W3C's `Learning CSS <http://www.w3.org/Style/CSS/learning>`__"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:702
+msgid "`Creating An S5 Theme <http://home.cogeco.ca/~ve3ll/s5themes.htm>`__"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:704
+msgid "A short tutorial on how to create themes (in German): `Eigenes Theme erstellen <http://yatil.de/s5/dokumentation/9/>`__"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:709
+msgid "Classes: Incremental (1)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:713
+msgid "Several \"class\" attribute values have built-in support in the themes supplied with Docutils."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:718
+msgid "As described earlier,"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:720
+msgid "``.. class:: incremental``"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:722
+msgid "``.. container:: incremental``"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:731
+msgid "Classes: Incremental (2)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:733
+msgid "The \"incremental\" interpreted text role is also supported:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:742
+#: ../../source/user/slide-shows.rst:829
+#: ../../source/user/slide-shows.rst:878
+msgid "Requires \"``.. include:: <s5defs.txt>``\"."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:746
+msgid "As you can see, this markup is not very convenient."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:750
+msgid "But ``s5defs.txt`` includes this useful definition:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:751
+msgid "\"``.. default-role:: incremental``\".  So:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:757
+msgid "`This` `is` `all` `we` `need` `to mark up incremental text.`"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:761
+msgid "Classes: Incremental (3)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:782
+msgid "This is how the example works."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:784
+msgid "The animation effects are caused by placing successive images at the same location, laying each image over the last.  For best results, all images should be the same size, and the positions of image elements should be consistent.  Use image transparency (alpha channels) to get overlay effects."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:790
+msgid "Absolute positioning is used, which means that the images take up no space in the flow.  If you want text to follow the images, you have to specify the total size of the container via a style. Otherwise, the images and any following text will overlap."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:795
+msgid "These class values do the work:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:800
+msgid "animation"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:798
+msgid "This wraps the container with styles that position the images absolutely, overlaying them over each other.  Only useful on a container."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:806
+msgid "hidden"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:803
+msgid "Unless overridden (by \"slide-display\", for example), these elements will not be displayed.  Only the last image will be displayed in handout mode, when print, or when processed to ordinary HTML, because it does *not* carry a \"hidden\" class."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:810
+msgid "slide-display"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:809
+msgid "In conjunction with \"hidden\", these elements will only appear on the slide, preventing clutter in the handout."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:814
+msgid "incremental"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:813
+msgid "The second and subsequent images will appear one at a time. The first image will already be present when the slide is displayed, because it does *not* carry an \"incremental\" class."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:819
+msgid "Classes: Text Size"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:823
+msgid ":tiny:`tiny` (class & role name: \"tiny\", e.g. \"``:tiny:`text```\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:824
+msgid ":small:`small` (\"small\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:825
+msgid "normal (unstyled)"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:826
+msgid ":big:`big` (\"big\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:827
+msgid ":huge:`huge` (\"huge\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:833
+msgid "Classes: Alignment"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:839
+msgid "Left (class name: \"left\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:843
+msgid "Center (\"center\" & \"centre\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:847
+msgid "Right (\"right\")"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:851
+msgid "These classes apply to block-level elements only.  They cannot be used for inline text (i.e., they're not interpreted text roles)."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:864
+msgid "Classes: Text Colours"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:866
+msgid ":black:`black` [black], :gray:`gray`, :silver:`silver`, :white:`white` [white], :maroon:`maroon`, :red:`red`, :magenta:`magenta`, :fuchsia:`fuchsia`, :pink:`pink`, :orange:`orange`, :yellow:`yellow`, :lime:`lime`, :green:`green`, :olive:`olive`, :teal:`teal`, :cyan:`cyan`, :aqua:`aqua`, :blue:`blue`, :navy:`navy`, :purple:`purple`"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:873
+msgid "The class names and role names are the same as the colour names.  For example, \"``:orange:`text```\" produces \":orange:`text`\"."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:882
+msgid "Classes: Borderless Tables"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:886
+msgid "Here's an ordinary, unstyled table:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:891
+msgid "Sometimes"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:891
+#: ../../source/user/slide-shows.rst:901
+msgid "borders"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:893
+#: ../../source/user/slide-shows.rst:903
+msgid "are"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:893
+msgid "useful."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:896
+msgid "And after applying \"``.. class:: borderless``\":"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:901
+msgid "But"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:901
+msgid "sometimes,"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:903
+msgid "**not**"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:903
+msgid "wanted."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:908
+msgid "Classes: Print-Only"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:912
+msgid "Elements with ``class=\"print\"`` attributes display their contents when printed, overriding ``class=\"hidden\"``."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:917
+msgid "Example: the \"target-notes\" directive::"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:927
+msgid "One good example, used in this document, is the \"target-notes\" directive.  For each external target (hyperlink) in the text, this directive generates a footnote containing the visible URL as content.  Footnote references are placed after each hyperlink reference."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:933
+msgid "The \"topic\" directive is given a \"class\" attribute with values \"hidden\" and \"print\", so the entire topic will only be displayed when printed.  The \"target-notes\" directive also assigns a \"class\" attributes with values \"hidden\" and \"print\" to each of the footnote references it inserts throughout the text; they will only show up when printed."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:942
+msgid "Other uses may require \"``.. include:: <s5defs.txt>``\"."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:946
+msgid "Useful Extensions For Firefox"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:948
+msgid "`Autohide`__"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:952
+msgid "Automatically hides toolbars in full-screen mode."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:956
+msgid "`Web Developer`__"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:960
+msgid "Adds a context submenu and a toolbar with a lot of useful functionality, including the viewing and live editing of stylesheets, and sizing the browser window."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:968
+msgid "To Do"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:972
+msgid "Multi-display support:"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:974
+msgid "speaker's notes on the laptop screen"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:975
+msgid "slides on the projector"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:976
+msgid "two views stay in sync"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:977
+msgid "presentation controlled from either display"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:979
+msgid "Add timeout to incremental style."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:983
+msgid "I.e., incremental-specific style should go away (revert to normal) after a certain interval."
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:986
+msgid "These will require some serious JavaScript-fu!"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:990
+msgid "That's All, Folks!"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:994
+msgid "Further information: http://docutils.sf.net"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:997
+msgid "Docutils users' mailing list: docutils-users@lists.sf.net"
+msgstr ""
+
+#: ../../source/user/slide-shows.rst:1000
+msgid "`Any questions?`"
+msgstr ""
+
