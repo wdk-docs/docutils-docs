@@ -20,61 +20,61 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:3
 msgid "reStructuredText Directives"
-msgstr ""
+msgstr "指令"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: ../../source/ref/rst/directives.rst:4
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/ref/rst/directives.rst:5
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Revision"
-msgstr ""
+msgstr "调整"
 
 #: ../../source/ref/rst/directives.rst:6
 msgid "$Revision: 8186 $"
-msgstr ""
+msgstr "$Revision: 8186 $"
 
 #: ../../source/ref/rst/directives.rst ../../source/ref/rst/directives.rst:1399
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/rst/directives.rst:7
 msgid "$Date: 2017-10-17 15:32:24 +0200 (Di, 17. Okt 2017) $"
-msgstr ""
+msgstr "$Date: 2017-10-17 15:32:24 +0200 (Di, 17. Okt 2017) $"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Copyright"
-msgstr ""
+msgstr "版权"
 
 #: ../../source/ref/rst/directives.rst:8
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "本文档已置于公共领域。"
 
 #: ../../source/ref/rst/directives.rst:10
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/rst/directives.rst:12
 msgid ""
 "This document describes the directives implemented in the reference "
 "reStructuredText parser."
-msgstr ""
+msgstr "本文档描述了参考reStructuredText解析器中实现的指令。"
 
 #: ../../source/ref/rst/directives.rst:15
 msgid "Directives have the following syntax::"
-msgstr ""
+msgstr "指令具有以下语法::"
 
 #: ../../source/ref/rst/directives.rst:23
 msgid ""
@@ -100,15 +100,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:49
 msgid "Admonitions"
-msgstr ""
+msgstr "忠告"
 
 #: ../../source/ref/rst/directives.rst:73
 msgid "Specific Admonitions"
-msgstr ""
+msgstr "具体的警告"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Directive Types"
-msgstr ""
+msgstr "指令类型"
 
 #: ../../source/ref/rst/directives.rst:75
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst
 msgid "Doctree Elements"
-msgstr ""
+msgstr "Doctree元素"
 
 #: ../../source/ref/rst/directives.rst:77
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst
 msgid "Directive Arguments"
-msgstr ""
+msgstr "指令参数"
 
 #: ../../source/ref/rst/directives.rst:79
 #: ../../source/ref/rst/directives.rst:179
@@ -169,11 +169,11 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:1911
 #: ../../source/ref/rst/directives.rst:1912
 msgid "None."
-msgstr ""
+msgstr "没有。"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Directive Options"
-msgstr ""
+msgstr "指令选项"
 
 #: ../../source/ref/rst/directives.rst:80
 #: ../../source/ref/rst/directives.rst:350
@@ -184,11 +184,11 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:669
 #: ../../source/ref/rst/directives.rst:1183
 msgid "`:class:`_, `:name:`_"
-msgstr ""
+msgstr "`:class:`_, `:name:`_"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Directive Content"
-msgstr ""
+msgstr "指令内容"
 
 #: ../../source/ref/rst/directives.rst:81
 #: ../../source/ref/rst/directives.rst:133
@@ -196,7 +196,7 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:720
 #: ../../source/ref/rst/directives.rst:1133
 msgid "Interpreted as body elements."
-msgstr ""
+msgstr "解释为身体元素。"
 
 #: ../../source/ref/rst/directives.rst:83
 msgid ""
@@ -209,47 +209,47 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:92
 msgid "This directive might be rendered something like this::"
-msgstr ""
+msgstr "该指令可能会像这样呈现::"
 
 #: ../../source/ref/rst/directives.rst:100
 msgid "The following admonition directives have been implemented:"
-msgstr ""
+msgstr "已实施以下警告指令:"
 
 #: ../../source/ref/rst/directives.rst:102
 msgid "attention"
-msgstr ""
+msgstr "attention"
 
 #: ../../source/ref/rst/directives.rst:103
 msgid "caution"
-msgstr ""
+msgstr "caution"
 
 #: ../../source/ref/rst/directives.rst:104
 msgid "danger"
-msgstr ""
+msgstr "danger"
 
 #: ../../source/ref/rst/directives.rst:105
 msgid "error"
-msgstr ""
+msgstr "error"
 
 #: ../../source/ref/rst/directives.rst:106
 msgid "hint"
-msgstr ""
+msgstr "hint"
 
 #: ../../source/ref/rst/directives.rst:107
 msgid "important"
-msgstr ""
+msgstr "important"
 
 #: ../../source/ref/rst/directives.rst:108
 msgid "note"
-msgstr ""
+msgstr "note"
 
 #: ../../source/ref/rst/directives.rst:109
 msgid "tip"
-msgstr ""
+msgstr "tip"
 
 #: ../../source/ref/rst/directives.rst:110
 msgid "warning"
-msgstr ""
+msgstr "warning"
 
 #: ../../source/ref/rst/directives.rst:112
 msgid ""
@@ -262,27 +262,27 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:127
 msgid "Generic Admonition"
-msgstr ""
+msgstr "Generic Admonition"
 
 #: ../../source/ref/rst/directives.rst
 msgid "Directive Type"
-msgstr ""
+msgstr "指令类型"
 
 #: ../../source/ref/rst/directives.rst:129
 msgid "\"admonition\""
-msgstr ""
+msgstr "\"admonition\""
 
 #: ../../source/ref/rst/directives.rst:130
 msgid "admonition_, title"
-msgstr ""
+msgstr "admonition_, title"
 
 #: ../../source/ref/rst/directives.rst:131
 msgid "One, required (admonition title)"
-msgstr ""
+msgstr "One, required (admonition title)"
 
 #: ../../source/ref/rst/directives.rst:132
 msgid "Possible, see below."
-msgstr ""
+msgstr "Possible, see below."
 
 #: ../../source/ref/rst/directives.rst:135
 msgid ""
@@ -300,17 +300,17 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:147
 msgid "becomes the following document tree (pseudo-XML)::"
-msgstr ""
+msgstr "becomes the following document tree (pseudo-XML)::"
 
 #: ../../source/ref/rst/directives.rst:156
 msgid "The `common options`_ are recognized:"
-msgstr ""
+msgstr "The `common options`_ are recognized:"
 
 #: ../../source/ref/rst/directives.rst:159
 #: ../../source/ref/rst/directives.rst:1065
 #: ../../source/ref/rst/directives.rst:1839
 msgid "``class``"
-msgstr ""
+msgstr "``class``"
 
 #: ../../source/ref/rst/directives.rst:158
 #: ../../source/ref/rst/directives.rst:162
@@ -322,48 +322,48 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:1929
 #: ../../source/ref/rst/directives.rst:1949
 msgid "text"
-msgstr ""
+msgstr "text"
 
 #: ../../source/ref/rst/directives.rst:159
 msgid "Overrides the computed `\"classes\"`_ attribute value."
-msgstr ""
+msgstr "Overrides the computed `\"classes\"`_ attribute value."
 
 #: ../../source/ref/rst/directives.rst:163
 msgid "``name``"
-msgstr ""
+msgstr "``name``"
 
 #: ../../source/ref/rst/directives.rst:162
 msgid "Add `text` to the `\"names\"`_ attribute of the admonition element."
-msgstr ""
+msgstr "Add `text` to the `\"names\"`_ attribute of the admonition element."
 
 #: ../../source/ref/rst/directives.rst:167
 msgid "Images"
-msgstr ""
+msgstr "图片"
 
 #: ../../source/ref/rst/directives.rst:169
 msgid "There are two image directives: \"image\" and \"figure\"."
-msgstr ""
+msgstr "有两个图像指令: \"image\" 和 \"figure\"."
 
 #: ../../source/ref/rst/directives.rst:173
 msgid "Image"
-msgstr ""
+msgstr "图片"
 
 #: ../../source/ref/rst/directives.rst:175
 msgid "\"image\""
-msgstr ""
+msgstr "\"image\""
 
 #: ../../source/ref/rst/directives.rst
 msgid "Doctree Element"
-msgstr ""
+msgstr "Doctree元素"
 
 #: ../../source/ref/rst/directives.rst:176
 msgid "image_"
-msgstr ""
+msgstr "image_"
 
 #: ../../source/ref/rst/directives.rst:177
 #: ../../source/ref/rst/directives.rst:259
 msgid "One, required (image URI)."
-msgstr ""
+msgstr "One, required (image URI)."
 
 #: ../../source/ref/rst/directives.rst:178
 #: ../../source/ref/rst/directives.rst:260
@@ -374,11 +374,11 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:1437
 #: ../../source/ref/rst/directives.rst:1546
 msgid "Possible."
-msgstr ""
+msgstr "可能。"
 
 #: ../../source/ref/rst/directives.rst:181
 msgid "An \"image\" is a simple picture::"
-msgstr ""
+msgstr "An \"image\" is a simple picture::"
 
 #: ../../source/ref/rst/directives.rst:185
 msgid ""
@@ -414,11 +414,11 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:1484
 #: ../../source/ref/rst/directives.rst:1604
 msgid "The following options are recognized:"
-msgstr ""
+msgstr "可识别以下选项:"
 
 #: ../../source/ref/rst/directives.rst:211
 msgid "``alt``"
-msgstr ""
+msgstr "``alt``"
 
 #: ../../source/ref/rst/directives.rst:209
 msgid ""
@@ -429,11 +429,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:217
 msgid "``height`` : `length`_"
-msgstr ""
+msgstr "``height`` : `length`_"
 
 #: ../../source/ref/rst/directives.rst:216
 msgid "length"
-msgstr ""
+msgstr "长度"
 
 #: ../../source/ref/rst/directives.rst:214
 msgid ""
@@ -448,29 +448,29 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:874
 #: ../../source/ref/rst/directives.rst:984
 msgid "``width`` : `length`_ or `percentage`_ of the current line width"
-msgstr ""
+msgstr "``width`` : `length`_ or `percentage`_ of the current line width"
 
 #: ../../source/ref/rst/directives.rst:221
 #: ../../source/ref/rst/directives.rst:797
 #: ../../source/ref/rst/directives.rst:873
 #: ../../source/ref/rst/directives.rst:983
 msgid "length or percentage of the current line width"
-msgstr ""
+msgstr "当前线宽的长度或百分比"
 
 #: ../../source/ref/rst/directives.rst:220
 msgid ""
 "The width of the image. Used to reserve space or scale the image "
 "horizontally.  As with \"height\" above, when the \"scale\" option is "
 "also specified, they are combined."
-msgstr ""
+msgstr "图像的宽度。用于保留空间或水平缩放图像。与上面的 \"height\" 一样, 当还指定了  \"scale\"  选项时, 它们会被组合在一起。"
 
 #: ../../source/ref/rst/directives.rst:230
 msgid "``scale``"
-msgstr ""
+msgstr "``scale``"
 
 #: ../../source/ref/rst/directives.rst:229
 msgid "integer percentage (the \"%\" symbol is optional)"
-msgstr ""
+msgstr "integer percentage (the \"%\" symbol is optional)"
 
 #: ../../source/ref/rst/directives.rst:225
 msgid ""
@@ -491,11 +491,11 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:928
 #: ../../source/ref/rst/directives.rst:996
 msgid "``align``"
-msgstr ""
+msgstr "``align``"
 
 #: ../../source/ref/rst/directives.rst:241
 msgid "\"top\", \"middle\", \"bottom\", \"left\", \"center\", or \"right\""
-msgstr ""
+msgstr "\"top\", \"middle\", \"bottom\", \"left\", \"center\", or \"right\""
 
 #: ../../source/ref/rst/directives.rst:233
 msgid ""
@@ -512,11 +512,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:247
 msgid "``target``"
-msgstr ""
+msgstr "``target``"
 
 #: ../../source/ref/rst/directives.rst:246
 msgid "text (URI or reference name)"
-msgstr ""
+msgstr "text (URI or reference name)"
 
 #: ../../source/ref/rst/directives.rst:245
 msgid ""
@@ -532,23 +532,23 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:930
 #: ../../source/ref/rst/directives.rst:998
 msgid "and the common options `:class:`_ and `:name:`_."
-msgstr ""
+msgstr "和共有选项 `:class:`_ 和 `:name:`_."
 
 #: ../../source/ref/rst/directives.rst:255
 msgid "Figure"
-msgstr ""
+msgstr "Figure"
 
 #: ../../source/ref/rst/directives.rst:257
 msgid "\"figure\""
-msgstr ""
+msgstr "\"figure\""
 
 #: ../../source/ref/rst/directives.rst:258
 msgid "figure_, image_, caption_, legend_"
-msgstr ""
+msgstr "figure_, image_, caption_, legend_"
 
 #: ../../source/ref/rst/directives.rst:261
 msgid "Interpreted as the figure caption and an optional legend."
-msgstr ""
+msgstr "Interpreted as the figure caption and an optional legend."
 
 #: ../../source/ref/rst/directives.rst:264
 msgid ""
@@ -577,7 +577,7 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:927
 #: ../../source/ref/rst/directives.rst:995
 msgid "\"left\", \"center\", or \"right\""
-msgstr ""
+msgstr "\"left\", \"center\", or \"right\""
 
 #: ../../source/ref/rst/directives.rst:299
 msgid ""
@@ -588,15 +588,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:303
 msgid "In addition, the following options are recognized:"
-msgstr ""
+msgstr "In addition, the following options are recognized:"
 
 #: ../../source/ref/rst/directives.rst:331
 msgid "``figwidth`` : \"image\", length_, or percentage_ of current line width"
-msgstr ""
+msgstr "``figwidth`` : \"image\", length_, or percentage_ of current line width"
 
 #: ../../source/ref/rst/directives.rst:330
 msgid "\"image\", length, or percentage of current line width"
-msgstr ""
+msgstr "\"image\", length, or percentage of current line width"
 
 #: ../../source/ref/rst/directives.rst:306
 msgid ""
@@ -609,7 +609,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:313
 msgid "Sets the \"width\" attribute of the \"figure\" doctree element."
-msgstr ""
+msgstr "Sets the \"width\" attribute of the \"figure\" doctree element."
 
 #: ../../source/ref/rst/directives.rst:315
 msgid ""
@@ -619,7 +619,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:335
 msgid "``figclass``"
-msgstr ""
+msgstr "``figclass``"
 
 #: ../../source/ref/rst/directives.rst:334
 msgid ""
@@ -629,27 +629,27 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:342
 msgid "Body Elements"
-msgstr ""
+msgstr "正文元素"
 
 #: ../../source/ref/rst/directives.rst:345
 msgid "Topic"
-msgstr ""
+msgstr "话题"
 
 #: ../../source/ref/rst/directives.rst:347
 msgid "\"topic\""
-msgstr ""
+msgstr "\"topic\""
 
 #: ../../source/ref/rst/directives.rst:348
 msgid "topic_"
-msgstr ""
+msgstr "topic_"
 
 #: ../../source/ref/rst/directives.rst:349
 msgid "One, required (topic title)."
-msgstr ""
+msgstr "一, 必需(主题标题)。"
 
 #: ../../source/ref/rst/directives.rst:351
 msgid "Interpreted as the topic body."
-msgstr ""
+msgstr "解释为主题正文。"
 
 #: ../../source/ref/rst/directives.rst:353
 msgid ""
@@ -669,30 +669,30 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:371
 msgid "Sidebar"
-msgstr ""
+msgstr "侧边栏"
 
 #: ../../source/ref/rst/directives.rst:373
 msgid "\"sidebar\""
-msgstr ""
+msgstr "\"sidebar\""
 
 #: ../../source/ref/rst/directives.rst:374
 msgid "sidebar_"
-msgstr ""
+msgstr "sidebar_"
 
 #: ../../source/ref/rst/directives.rst:375
 msgid "One, required (sidebar title)."
-msgstr ""
+msgstr "一, 必需(侧边栏标题)。"
 
 #: ../../source/ref/rst/directives.rst:376
 #: ../../source/ref/rst/directives.rst:762
 #: ../../source/ref/rst/directives.rst:812
 #: ../../source/ref/rst/directives.rst:939
 msgid "Possible (see below)."
-msgstr ""
+msgstr "可能(见下文)。"
 
 #: ../../source/ref/rst/directives.rst:377
 msgid "Interpreted as the sidebar body."
-msgstr ""
+msgstr "解释为侧边栏体。"
 
 #: ../../source/ref/rst/directives.rst:379
 msgid ""
@@ -720,19 +720,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:404
 msgid "``subtitle``"
-msgstr ""
+msgstr "``subtitle``"
 
 #: ../../source/ref/rst/directives.rst:404
 msgid "The sidebar's subtitle."
-msgstr ""
+msgstr "侧边栏的副标题。"
 
 #: ../../source/ref/rst/directives.rst:410
 msgid "Line Block"
-msgstr ""
+msgstr "线块"
 
 #: ../../source/ref/rst/directives.rst:412
 msgid "Deprecated"
-msgstr ""
+msgstr "弃用"
 
 #: ../../source/ref/rst/directives.rst:414
 msgid ""
@@ -742,15 +742,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:419
 msgid "\"line-block\""
-msgstr ""
+msgstr "\"line-block\""
 
 #: ../../source/ref/rst/directives.rst:420
 msgid "line_block_"
-msgstr ""
+msgstr "line_block_"
 
 #: ../../source/ref/rst/directives.rst:423
 msgid "Becomes the body of the line block."
-msgstr ""
+msgstr "成为行块的主体。"
 
 #: ../../source/ref/rst/directives.rst:425
 msgid ""
@@ -767,20 +767,20 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:451
 msgid "Parsed Literal Block"
-msgstr ""
+msgstr "Parsed Literal Block"
 
 #: ../../source/ref/rst/directives.rst:453
 msgid "\"parsed-literal\""
-msgstr ""
+msgstr "\"parsed-literal\""
 
 #: ../../source/ref/rst/directives.rst:454
 msgid "literal_block_"
-msgstr ""
+msgstr "literal_block_"
 
 #: ../../source/ref/rst/directives.rst:457
 #: ../../source/ref/rst/directives.rst:489
 msgid "Becomes the body of the literal block."
-msgstr ""
+msgstr "Becomes the body of the literal block."
 
 #: ../../source/ref/rst/directives.rst:459
 msgid ""
@@ -803,39 +803,39 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:473
 msgid "For example, all the element names in this content model are links::"
-msgstr ""
+msgstr "例如，此内容模型中的所有元素名称都是链接::"
 
 #: ../../source/ref/rst/directives.rst:483
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #: ../../source/ref/rst/directives.rst:485
 msgid "\"code\""
-msgstr ""
+msgstr "\"code\""
 
 #: ../../source/ref/rst/directives.rst:486
 msgid "literal_block_, `inline elements`_"
-msgstr ""
+msgstr "literal_block_, `inline elements`_"
 
 #: ../../source/ref/rst/directives.rst:487
 msgid "One, optional (formal language)."
-msgstr ""
+msgstr "One, optional (formal language)."
 
 #: ../../source/ref/rst/directives.rst:488
 msgid "name, class, number-lines."
-msgstr ""
+msgstr "name, class, number-lines."
 
 #: ../../source/ref/rst/directives.rst
 msgid "Configuration Setting"
-msgstr ""
+msgstr "配置设置"
 
 #: ../../source/ref/rst/directives.rst:490
 msgid "syntax_highlight_."
-msgstr ""
+msgstr "syntax_highlight_."
 
 #: ../../source/ref/rst/directives.rst:492
 msgid "(New in Docutils 0.9)"
-msgstr ""
+msgstr "(Docutils 0.9中的新功能)"
 
 #: ../../source/ref/rst/directives.rst:494
 msgid ""
@@ -858,17 +858,17 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:507
 msgid "For inline code, use the `\"code\" role`_."
-msgstr ""
+msgstr "For inline code, use the `\"code\" role`_."
 
 #: ../../source/ref/rst/directives.rst:521
 #: ../../source/ref/rst/directives.rst:1515
 msgid "``number-lines``"
-msgstr ""
+msgstr "``number-lines``"
 
 #: ../../source/ref/rst/directives.rst:520
 #: ../../source/ref/rst/directives.rst:1514
 msgid "[start line number]"
-msgstr ""
+msgstr "[start line number]"
 
 #: ../../source/ref/rst/directives.rst:520
 msgid ""
@@ -880,27 +880,27 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:829
 #: ../../source/ref/rst/directives.rst:951
 msgid "Example::"
-msgstr ""
+msgstr "例::"
 
 #: ../../source/ref/rst/directives.rst:526
 msgid "The content of the following directive ::"
-msgstr ""
+msgstr "以下指令的内容::"
 
 #: ../../source/ref/rst/directives.rst:534
 msgid "is parsed and marked up as Python source code."
-msgstr ""
+msgstr "被解析并标记为Python源代码。"
 
 #: ../../source/ref/rst/directives.rst:538
 msgid "Math"
-msgstr ""
+msgstr "Math"
 
 #: ../../source/ref/rst/directives.rst:540
 msgid "\"math\""
-msgstr ""
+msgstr "\"math\""
 
 #: ../../source/ref/rst/directives.rst:541
 msgid "math_block_"
-msgstr ""
+msgstr "math_block_"
 
 #: ../../source/ref/rst/directives.rst:544
 msgid ""
@@ -910,11 +910,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:547
 msgid "math_output_"
-msgstr ""
+msgstr "math_output_"
 
 #: ../../source/ref/rst/directives.rst:549
 msgid "(New in Docutils 0.8)"
-msgstr ""
+msgstr "(New in Docutils 0.8)"
 
 #: ../../source/ref/rst/directives.rst:551
 msgid ""
@@ -941,23 +941,23 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:571
 msgid "For inline formulas, use the `\"math\" role`_."
-msgstr ""
+msgstr "For inline formulas, use the `\"math\" role`_."
 
 #: ../../source/ref/rst/directives.rst:578
 msgid "Rubric"
-msgstr ""
+msgstr "Rubric"
 
 #: ../../source/ref/rst/directives.rst:580
 msgid "\"rubric\""
-msgstr ""
+msgstr "\"rubric\""
 
 #: ../../source/ref/rst/directives.rst:581
 msgid "rubric_"
-msgstr ""
+msgstr "rubric_"
 
 #: ../../source/ref/rst/directives.rst:582
 msgid "One, required (rubric text)."
-msgstr ""
+msgstr "One, required (rubric text)."
 
 #: ../../source/ref/rst/directives.rst:588
 msgid ""
@@ -968,7 +968,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:597
 msgid "Random House Webster's College Dictionary, 1991"
-msgstr ""
+msgstr "Random House Webster's College Dictionary, 1991"
 
 #: ../../source/ref/rst/directives.rst:594
 msgid ""
@@ -979,23 +979,23 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:600
 msgid "Epigraph"
-msgstr ""
+msgstr "Epigraph"
 
 #: ../../source/ref/rst/directives.rst:602
 msgid "\"epigraph\""
-msgstr ""
+msgstr "\"epigraph\""
 
 #: ../../source/ref/rst/directives.rst:603
 #: ../../source/ref/rst/directives.rst:634
 #: ../../source/ref/rst/directives.rst:650
 msgid "block_quote_"
-msgstr ""
+msgstr "block_quote_"
 
 #: ../../source/ref/rst/directives.rst:606
 #: ../../source/ref/rst/directives.rst:637
 #: ../../source/ref/rst/directives.rst:653
 msgid "Interpreted as the body of the block quote."
-msgstr ""
+msgstr "Interpreted as the body of the block quote."
 
 #: ../../source/ref/rst/directives.rst:608
 msgid ""
@@ -1012,15 +1012,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:621
 msgid "becomes this document tree fragment::"
-msgstr ""
+msgstr "becomes this document tree fragment::"
 
 #: ../../source/ref/rst/directives.rst:631
 msgid "Highlights"
-msgstr ""
+msgstr "Highlights"
 
 #: ../../source/ref/rst/directives.rst:633
 msgid "\"highlights\""
-msgstr ""
+msgstr "\"highlights\""
 
 #: ../../source/ref/rst/directives.rst:639
 msgid ""
@@ -1036,11 +1036,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:647
 msgid "Pull-Quote"
-msgstr ""
+msgstr "Pull-Quote"
 
 #: ../../source/ref/rst/directives.rst:649
 msgid "\"pull-quote\""
-msgstr ""
+msgstr "\"pull-quote\""
 
 #: ../../source/ref/rst/directives.rst:655
 msgid ""
@@ -1057,19 +1057,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:664
 msgid "Compound Paragraph"
-msgstr ""
+msgstr "Compound Paragraph"
 
 #: ../../source/ref/rst/directives.rst:666
 msgid "\"compound\""
-msgstr ""
+msgstr "\"compound\""
 
 #: ../../source/ref/rst/directives.rst:667
 msgid "compound_"
-msgstr ""
+msgstr "compound_"
 
 #: ../../source/ref/rst/directives.rst:672
 msgid "(New in Docutils 0.3.6)"
-msgstr ""
+msgstr "(New in Docutils 0.3.6)"
 
 #: ../../source/ref/rst/directives.rst:674
 msgid ""
@@ -1114,36 +1114,36 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:709
 msgid "vertical spacing between physical elements may be reduced;"
-msgstr ""
+msgstr "vertical spacing between physical elements may be reduced;"
 
 #: ../../source/ref/rst/directives.rst:710
 msgid "and so on."
-msgstr ""
+msgstr "and so on."
 
 #: ../../source/ref/rst/directives.rst:714
 msgid "Container"
-msgstr ""
+msgstr "Container"
 
 #: ../../source/ref/rst/directives.rst:716
 msgid "\"container\""
-msgstr ""
+msgstr "\"container\""
 
 #: ../../source/ref/rst/directives.rst:717
 msgid "container_"
-msgstr ""
+msgstr "container_"
 
 #: ../../source/ref/rst/directives.rst:718
 msgid "One or more, optional (class names)."
-msgstr ""
+msgstr "One or more, optional (class names)."
 
 #: ../../source/ref/rst/directives.rst:719
 msgid "`:name:`_"
-msgstr ""
+msgstr "`:name:`_"
 
 #: ../../source/ref/rst/directives.rst:722
 #: ../../source/ref/rst/directives.rst:1859
 msgid "(New in Docutils 0.3.10)"
-msgstr ""
+msgstr "(New in Docutils 0.3.10)"
 
 #: ../../source/ref/rst/directives.rst:724
 msgid ""
@@ -1155,7 +1155,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:733
 msgid "Parsing the above results in the following pseudo-XML::"
-msgstr ""
+msgstr "Parsing the above results in the following pseudo-XML::"
 
 #: ../../source/ref/rst/directives.rst:739
 msgid ""
@@ -1166,7 +1166,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:747
 msgid "Tables"
-msgstr ""
+msgstr "表"
 
 #: ../../source/ref/rst/directives.rst:749
 msgid ""
@@ -1175,63 +1175,63 @@ msgid ""
 "Sometimes reStructuredText tables are inconvenient to write, or table "
 "data in a standard format is readily available.  The csv-table_ directive"
 " supports CSV data."
-msgstr ""
+msgstr "正式表需要比 reStructuredText 语法提供的结构更多的结构。表可以使用 table_ 指令给出标题。有时reStructuredText 表不便于编写, 或者标准格式的表数据随时可用。  csv-table_ 指令支持CSV数据。"
 
 #: ../../source/ref/rst/directives.rst:757
 msgid "Table"
-msgstr ""
+msgstr "表"
 
 #: ../../source/ref/rst/directives.rst:759
 msgid "\"table\""
-msgstr ""
+msgstr "\"table\""
 
 #: ../../source/ref/rst/directives.rst:760
 #: ../../source/ref/rst/directives.rst:810
 #: ../../source/ref/rst/directives.rst:937
 msgid "table_"
-msgstr ""
+msgstr "table_"
 
 #: ../../source/ref/rst/directives.rst:761
 #: ../../source/ref/rst/directives.rst:811
 #: ../../source/ref/rst/directives.rst:938
 msgid "One, optional (table title)."
-msgstr ""
+msgstr "一, 可选(表格标题)。"
 
 #: ../../source/ref/rst/directives.rst:763
 msgid "A normal reStructuredText table."
-msgstr ""
+msgstr "一个普通的reStructuredText表。"
 
 #: ../../source/ref/rst/directives.rst:765
 msgid "(New in Docutils 0.3.1)"
-msgstr ""
+msgstr "(Docutils 0.3.1中的新功能)"
 
 #: ../../source/ref/rst/directives.rst:767
 msgid ""
 "The \"table\" directive is used to associate a title with a table or "
 "specify options, e.g.::"
-msgstr ""
+msgstr "\"table\" 指令用于将标题与表关联或指定选项, 例如::"
 
 #: ../../source/ref/rst/directives.rst:783
 #: ../../source/ref/rst/directives.rst:927
 #: ../../source/ref/rst/directives.rst:995
 msgid "The horizontal alignment of the table. (New in Docutils 0.13)"
-msgstr ""
+msgstr "表格的水平对齐方式。 (Docutils 0.13中的新功能)"
 
 #: ../../source/ref/rst/directives.rst:793
 #: ../../source/ref/rst/directives.rst:869
 #: ../../source/ref/rst/directives.rst:979
 msgid "``widths``"
-msgstr ""
+msgstr "``widths``"
 
 #: ../../source/ref/rst/directives.rst:792
 msgid "\"auto\", \"grid\" or a list of integers"
-msgstr ""
+msgstr "\"auto\", \"grid\" 或整数列表"
 
 #: ../../source/ref/rst/directives.rst:787
 msgid ""
 "A comma- or space-separated list of column widths. The default is the "
 "width of the input columns (in characters)."
-msgstr ""
+msgstr "以逗号或空格分隔的列宽列表。默认值是输入列的宽度(以字符为单位)。"
 
 #: ../../source/ref/rst/directives.rst:790
 msgid ""
@@ -1239,7 +1239,7 @@ msgid ""
 "whether to delegate the determination of column widths to the backend "
 "(LaTeX, the HTML browser, ...). See also the `table_style`_ configuration"
 " option."
-msgstr ""
+msgstr "作者可以使用特殊值 \"auto\" 或 \"grid\" 来决定是否将列宽的确定委托给后端(LaTeX, HTML浏览器......)。 另请参阅 `table_style`_ 配置选项。"
 
 #: ../../source/ref/rst/directives.rst:796
 #: ../../source/ref/rst/directives.rst:872
@@ -1248,30 +1248,30 @@ msgid ""
 "Forces the width of the table to the specified length or percentage of "
 "the line width.  If omitted, the renderer determines the width of the "
 "table based on its contents."
-msgstr ""
+msgstr "强制表格的宽度为指定的长度或线宽的百分比。 如果省略, 则渲染器将根据其内容确定表的宽度。"
 
 #: ../../source/ref/rst/directives.rst:807
 msgid "CSV Table"
-msgstr ""
+msgstr "CSV表"
 
 #: ../../source/ref/rst/directives.rst:809
 msgid "\"csv-table\""
-msgstr ""
+msgstr "\"csv-table\""
 
 #: ../../source/ref/rst/directives.rst:813
 msgid "A CSV (comma-separated values) table."
-msgstr ""
+msgstr "CSV(逗号分隔值)表。"
 
 #: ../../source/ref/rst/directives.rst:817
 msgid ""
 "The \"csv-table\" directive's \":file:\" and \":url:\" options represent "
 "a potential security holes.  They can be disabled with the "
 "\"file_insertion_enabled_\" runtime setting."
-msgstr ""
+msgstr "\"csv-table\" 指令的 \":file:\" 和 \":url:\" 选项代表潜在的安全漏洞。可以使用 \"file_insertion_enabled_\" 运行时设置禁用它们。"
 
 #: ../../source/ref/rst/directives.rst:821
 msgid "(New in Docutils 0.3.4)"
-msgstr ""
+msgstr "(Docutils 0.3.4中的新功能)"
 
 #: ../../source/ref/rst/directives.rst:823
 msgid ""
@@ -1280,17 +1280,17 @@ msgid ""
 "spreadsheet applications and commercial databases.  The data may be "
 "internal (an integral part of the document) or external (a separate "
 "file)."
-msgstr ""
+msgstr "\"csv-table\" 指令用于从CSV(逗号分隔值)数据创建表。CSV是电子表格应用程序和商业数据库生成的常见数据格式。数据可以是内部(文档的组成部分)或外部(单独的文件)。"
 
 #: ../../source/ref/rst/directives.rst:840
 msgid ""
 "Block markup and inline markup within cells is supported.  Line ends are "
 "recognized within cells."
-msgstr ""
+msgstr "支持单元格内的块标记和内联标记。线端在单元内被识别。"
 
 #: ../../source/ref/rst/directives.rst:843
 msgid "Working limitations:"
-msgstr ""
+msgstr "工作限制:"
 
 #: ../../source/ref/rst/directives.rst:845
 msgid ""
@@ -1298,11 +1298,11 @@ msgid ""
 "is the same.  However, this directive supports CSV generators that do not"
 " insert \"empty\" entries at the end of short rows, by automatically "
 "adding empty entries."
-msgstr ""
+msgstr "不支持检查每行中的列数是否相同。但是, 此指令支持CSV生成器, 它不会在短行的末尾插入 \"empty\" 条目, 方法是自动添加空条目。"
 
 #: ../../source/ref/rst/directives.rst:852
 msgid "Whitespace delimiters are supported only for external CSV files."
-msgstr ""
+msgstr "仅支持外部CSV文件的空白分隔符。"
 
 #: ../../source/ref/rst/directives.rst:855
 msgid ""
@@ -1310,18 +1310,18 @@ msgid ""
 "``escape`` options must be ASCII characters. (The csv module does not "
 "support Unicode and all non-ASCII characters are encoded as multi-byte "
 "utf-8 string). This limitation does not exist under Python聽3."
-msgstr ""
+msgstr "对于Python2, ``delimiter``, ``quote`` 和 ``escape`` 选项的值必须是ASCII字符。(csv模块不支持Unicode, 所有非ASCII字符都编码为多字节utf-8字符串). Python3下不存在此限制。"
 
 #: ../../source/ref/rst/directives.rst:868
 msgid "integer [, integer...] or \"auto\""
-msgstr ""
+msgstr "整数 [, integer...] 要么 \"auto\""
 
 #: ../../source/ref/rst/directives.rst:864
 #: ../../source/ref/rst/directives.rst:974
 msgid ""
 "A comma- or space-separated list of relative column widths.  The default "
 "is equal-width columns (100%/#columns)."
-msgstr ""
+msgstr "以逗号或空格分隔的相对列宽列表。默认值为等宽列(100%/#columns)。"
 
 #: ../../source/ref/rst/directives.rst:867
 #: ../../source/ref/rst/directives.rst:977
@@ -1329,12 +1329,12 @@ msgid ""
 "The special value \"auto\" may be used by writers to decide whether to "
 "delegate the determination of column widths to the backend (LaTeX, the "
 "HTML browser, ...)."
-msgstr ""
+msgstr "作者可以使用特殊值 \"auto\" 来决定是否将列宽的确定委托给后端(LaTeX, HTML浏览器......)。"
 
 #: ../../source/ref/rst/directives.rst:878
 #: ../../source/ref/rst/directives.rst:988
 msgid "``header-rows``"
-msgstr ""
+msgstr "``header-rows``"
 
 #: ../../source/ref/rst/directives.rst:877
 #: ../../source/ref/rst/directives.rst:881
@@ -1347,108 +1347,108 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:1491
 #: ../../source/ref/rst/directives.rst:1528
 msgid "integer"
-msgstr ""
+msgstr "整数"
 
 #: ../../source/ref/rst/directives.rst:877
 msgid "The number of rows of CSV data to use in the table header. Defaults to 0."
-msgstr ""
+msgstr "要在表标头中使用的CSV数据的行数。默认为0。"
 
 #: ../../source/ref/rst/directives.rst:882
 #: ../../source/ref/rst/directives.rst:992
 msgid "``stub-columns``"
-msgstr ""
+msgstr "``stub-columns``"
 
 #: ../../source/ref/rst/directives.rst:881
 #: ../../source/ref/rst/directives.rst:991
 msgid ""
 "The number of table columns to use as stubs (row titles, on the left).  "
 "Defaults to 0."
-msgstr ""
+msgstr "要用作存根的表列数(左侧的行标题)。  默认为0。"
 
 #: ../../source/ref/rst/directives.rst:887
 msgid "``header``"
-msgstr ""
+msgstr "``header``"
 
 #: ../../source/ref/rst/directives.rst:886
 msgid "CSV data"
-msgstr ""
+msgstr "CSV数据"
 
 #: ../../source/ref/rst/directives.rst:885
 msgid ""
 "Supplemental data for the table header, added independently of and before"
 " any ``header-rows`` from the main CSV data.  Must use the same CSV "
 "format as the main CSV data."
-msgstr ""
+msgstr "表头的补充数据, 独立于主CSV数据的“header-rows”之前和之前添加。  必须使用与主CSV数据相同的CSV格式。"
 
 #: ../../source/ref/rst/directives.rst:890
 #: ../../source/ref/rst/directives.rst:1607
 msgid "``file``"
-msgstr ""
+msgstr "``file``"
 
 #: ../../source/ref/rst/directives.rst:889
 #: ../../source/ref/rst/directives.rst:1606
 msgid "string (newlines removed)"
-msgstr ""
+msgstr "字符串(删除换行符)"
 
 #: ../../source/ref/rst/directives.rst:890
 msgid "The local filesystem path to a CSV data file."
-msgstr ""
+msgstr "CSV数据文件的本地文件系统路径。"
 
 #: ../../source/ref/rst/directives.rst:893
 #: ../../source/ref/rst/directives.rst:1610
 msgid "``url``"
-msgstr ""
+msgstr "``url``"
 
 #: ../../source/ref/rst/directives.rst:892
 #: ../../source/ref/rst/directives.rst:1609
 msgid "string (whitespace removed)"
-msgstr ""
+msgstr "字符串(删除了空格)"
 
 #: ../../source/ref/rst/directives.rst:893
 msgid "An Internet URL reference to a CSV data file."
-msgstr ""
+msgstr "对CSV数据文件的Internet URL引用。"
 
 #: ../../source/ref/rst/directives.rst:897
 #: ../../source/ref/rst/directives.rst:1521
 #: ../../source/ref/rst/directives.rst:1614
 msgid "``encoding``"
-msgstr ""
+msgstr "``encoding``"
 
 #: ../../source/ref/rst/directives.rst:896
 #: ../../source/ref/rst/directives.rst:1520
 #: ../../source/ref/rst/directives.rst:1613
 msgid "name of text encoding"
-msgstr ""
+msgstr "文本编码的名称"
 
 #: ../../source/ref/rst/directives.rst:896
 msgid ""
 "The text encoding of the external CSV data (file or URL). Defaults to the"
 " document's encoding (if specified)."
-msgstr ""
+msgstr "外部CSV数据(文件或URL)的文本编码。默认为文档的编码(如果指定)。"
 
 #: ../../source/ref/rst/directives.rst:902
 msgid "``delim``[#whitespace-delim]_"
-msgstr ""
+msgstr "``delim``[#whitespace-delim]_"
 
 #: ../../source/ref/rst/directives.rst:901
 msgid "char | \"tab\" | \"space\""
-msgstr ""
+msgstr "char | \"tab\" | \"space\""
 
 #: ../../source/ref/rst/directives.rst:900
 msgid ""
 "A one-character string\\ [#ASCII-char]_ used to separate fields. Defaults"
 " to ``,`` (comma).  May be specified as a Unicode code point; see the "
 "unicode_ directive for syntax details."
-msgstr ""
+msgstr "单字符串\\ [#ASCII-char] _用于分隔字段。 默认为``, ``(逗号)。 可以指定为Unicode代码点;有关语法详细信息, 请参阅unicode_指令。"
 
 #: ../../source/ref/rst/directives.rst:909
 msgid "``quote``"
-msgstr ""
+msgstr "``quote``"
 
 #: ../../source/ref/rst/directives.rst:908
 #: ../../source/ref/rst/directives.rst:923
 msgid "char"
-msgstr ""
+msgstr "char"
 
 #: ../../source/ref/rst/directives.rst:905
 msgid ""
@@ -1456,28 +1456,28 @@ msgid ""
 " the delimiter or which start with the quote character.  Defaults to "
 "``\"`` (quote).  May be specified as a Unicode code point; see the "
 "unicode_ directive for syntax details."
-msgstr ""
+msgstr "单字符串\\ [#ASCII-char] _用于引用包含分隔符或以引号字符开头的元素。  默认为`` \"``(引用)。 可以指定为Unicode代码点;有关语法详细信息, 请参阅unicode_指令。"
 
 #: ../../source/ref/rst/directives.rst:913
 msgid "``keepspace``"
-msgstr ""
+msgstr "``keepspace``"
 
 #: ../../source/ref/rst/directives.rst:912
 #: ../../source/ref/rst/directives.rst:1387
 #: ../../source/ref/rst/directives.rst:1390
 #: ../../source/ref/rst/directives.rst:1395
 msgid "flag"
-msgstr ""
+msgstr "flag"
 
 #: ../../source/ref/rst/directives.rst:912
 msgid ""
 "Treat whitespace immediately following the delimiter as significant.  The"
 " default is to ignore such whitespace."
-msgstr ""
+msgstr "立即将分隔符后面的空格视为重要空格。  默认是忽略这样的空格。"
 
 #: ../../source/ref/rst/directives.rst:924
 msgid "``escape``"
-msgstr ""
+msgstr "``escape``"
 
 #: ../../source/ref/rst/directives.rst:916
 msgid ""
@@ -1486,62 +1486,62 @@ msgid ""
 "unicode_ directive for syntax details.  Used when the delimiter is used "
 "in an unquoted field, or when quote characters are used within a field.  "
 "The default is to double-up the character, e.g. \"He said, \"\"Hi!\"\"\""
-msgstr ""
+msgstr "用于转义分隔符或引用字符的单字符\\ [#ASCII-char] _字符串。  可以指定为Unicode代码点;有关语法详细信息, 请参阅unicode_指令。  在分隔符用于不带引号的字段时, 或者在字段中使用引号字符时使用。  默认设置是将字符加倍, 例如“他说, ”“嗨！\”\“\”"
 
 #: ../../source/ref/rst/directives.rst:934
 msgid "List Table"
-msgstr ""
+msgstr "列表"
 
 #: ../../source/ref/rst/directives.rst:936
 msgid "\"list-table\""
-msgstr ""
+msgstr "\"list-table\""
 
 #: ../../source/ref/rst/directives.rst:940
 msgid "A uniform two-level bullet list."
-msgstr ""
+msgstr "统一的两级子弹列表。"
 
 #: ../../source/ref/rst/directives.rst:942
 msgid ""
 "(New in Docutils 0.3.8.  This is an initial implementation; `further "
 "ideas`__ may be implemented in the future.)"
-msgstr ""
+msgstr "(Docutils 0.3.8中的新内容。这是初始实施; `further ideas`__ 可能在未来实施。)"
 
 #: ../../source/ref/rst/directives.rst:947
 msgid ""
 "The \"list-table\" directive is used to create a table from data in a "
 "uniform two-level bullet list.  \"Uniform\" means that each sublist "
 "(second-level list) must contain the same number of list items."
-msgstr ""
+msgstr "\"list-table\" 指令用于根据统一的两级项目符号列表中的数据创建表。 \"Uniform\" 表示每个子列表(第二级列表)必须包含相同数量的列表项。"
 
 #: ../../source/ref/rst/directives.rst:978
 msgid "integer [integer...] or \"auto\""
-msgstr ""
+msgstr "整数 [integer...] 要么 \"auto\""
 
 #: ../../source/ref/rst/directives.rst:987
 msgid "The number of rows of list data to use in the table header. Defaults to 0."
-msgstr ""
+msgstr "要在表头中使用的列表数据的行数。默认为0。"
 
 #: ../../source/ref/rst/directives.rst:1003
 msgid "Document Parts"
-msgstr ""
+msgstr "文档部分"
 
 #: ../../source/ref/rst/directives.rst:1008
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/rst/directives.rst:1010
 msgid "\"contents\""
-msgstr ""
+msgstr "\"内容\""
 
 #: ../../source/ref/rst/directives.rst:1011
 #: ../../source/ref/rst/directives.rst:1200
 #: ../../source/ref/rst/directives.rst:1214
 msgid "pending_, topic_"
-msgstr ""
+msgstr "pending_, topic_"
 
 #: ../../source/ref/rst/directives.rst:1012
 msgid "One, optional: title."
-msgstr ""
+msgstr "一, 可选:标题。"
 
 #: ../../source/ref/rst/directives.rst:1016
 msgid ""
@@ -1553,7 +1553,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1021
 msgid "Here's the directive in its simplest form::"
-msgstr ""
+msgstr "这是最简单形式的指令::"
 
 #: ../../source/ref/rst/directives.rst:1025
 msgid ""
@@ -1563,15 +1563,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1028
 msgid "An explicit title may be specified::"
-msgstr ""
+msgstr "An explicit title may be specified::"
 
 #: ../../source/ref/rst/directives.rst:1032
 msgid "The title may span lines, although it is not recommended::"
-msgstr ""
+msgstr "The title may span lines, although it is not recommended::"
 
 #: ../../source/ref/rst/directives.rst:1037
 msgid "Options may be specified for the directive, using a field list::"
-msgstr ""
+msgstr "Options may be specified for the directive, using a field list::"
 
 #: ../../source/ref/rst/directives.rst:1042
 msgid ""
@@ -1582,7 +1582,7 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:1051
 #: ../../source/ref/rst/directives.rst:1101
 msgid "``depth``"
-msgstr ""
+msgstr "``depth``"
 
 #: ../../source/ref/rst/directives.rst:1050
 msgid ""
@@ -1592,12 +1592,12 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1056
 msgid "``local``"
-msgstr ""
+msgstr "``local``"
 
 #: ../../source/ref/rst/directives.rst:1055
 #: ../../source/ref/rst/directives.rst:1503
 msgid "flag (empty)"
-msgstr ""
+msgstr "flag (empty)"
 
 #: ../../source/ref/rst/directives.rst:1054
 msgid ""
@@ -1608,11 +1608,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1060
 msgid "``backlinks``"
-msgstr ""
+msgstr "``backlinks``"
 
 #: ../../source/ref/rst/directives.rst:1059
 msgid "\"entry\" or \"top\" or \"none\""
-msgstr ""
+msgstr "\"entry\" or \"top\" or \"none\""
 
 #: ../../source/ref/rst/directives.rst:1059
 msgid ""
@@ -1628,19 +1628,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1071
 msgid "Automatic Section Numbering"
-msgstr ""
+msgstr "Automatic Section Numbering"
 
 #: ../../source/ref/rst/directives.rst:1073
 msgid "\"sectnum\" or \"section-numbering\" (synonyms)"
-msgstr ""
+msgstr "\"sectnum\" or \"section-numbering\" (synonyms)"
 
 #: ../../source/ref/rst/directives.rst:1074
 msgid "pending_, generated_"
-msgstr ""
+msgstr "pending_, generated_"
 
 #: ../../source/ref/rst/directives.rst:1078
 msgid "sectnum_xform_"
-msgstr ""
+msgstr "sectnum_xform_"
 
 #: ../../source/ref/rst/directives.rst:1080
 msgid ""
@@ -1676,12 +1676,12 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1108
 msgid "``prefix``"
-msgstr ""
+msgstr "``prefix``"
 
 #: ../../source/ref/rst/directives.rst:1107
 #: ../../source/ref/rst/directives.rst:1111
 msgid "string"
-msgstr ""
+msgstr "string"
 
 #: ../../source/ref/rst/directives.rst:1104
 msgid ""
@@ -1694,7 +1694,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1112
 msgid "``suffix``"
-msgstr ""
+msgstr "``suffix``"
 
 #: ../../source/ref/rst/directives.rst:1111
 msgid ""
@@ -1704,7 +1704,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1118
 msgid "``start``"
-msgstr ""
+msgstr "``start``"
 
 #: ../../source/ref/rst/directives.rst:1115
 msgid ""
@@ -1715,19 +1715,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1127
 msgid "Document Header & Footer"
-msgstr ""
+msgstr "Document Header & Footer"
 
 #: ../../source/ref/rst/directives.rst:1129
 msgid "\"header\" and \"footer\""
-msgstr ""
+msgstr "\"header\" and \"footer\""
 
 #: ../../source/ref/rst/directives.rst:1130
 msgid "decoration_, header, footer"
-msgstr ""
+msgstr "decoration_, header, footer"
 
 #: ../../source/ref/rst/directives.rst:1135
 msgid "(New in Docutils 0.3.8)"
-msgstr ""
+msgstr "(New in Docutils 0.3.8)"
 
 #: ../../source/ref/rst/directives.rst:1137
 msgid ""
@@ -1774,19 +1774,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1173
 msgid "References"
-msgstr ""
+msgstr "参考"
 
 #: ../../source/ref/rst/directives.rst:1178
 msgid "Target Footnotes"
-msgstr ""
+msgstr "目标脚注"
 
 #: ../../source/ref/rst/directives.rst:1180
 msgid "\"target-notes\""
-msgstr ""
+msgstr "\"target-notes\""
 
 #: ../../source/ref/rst/directives.rst:1181
 msgid "pending_, footnote_, footnote_reference_"
-msgstr ""
+msgstr "pending_, footnote_, footnote_reference_"
 
 #: ../../source/ref/rst/directives.rst:1187
 msgid ""
@@ -1799,60 +1799,60 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1195
 msgid "Footnotes"
-msgstr ""
+msgstr "Footnotes"
 
 #: ../../source/ref/rst/directives.rst:1197
 #: ../../source/ref/rst/directives.rst:1211
 #: ../../source/ref/rst/directives.rst:1285
 msgid "**NOT IMPLEMENTED YET**"
-msgstr ""
+msgstr "**NOT IMPLEMENTED YET**"
 
 #: ../../source/ref/rst/directives.rst:1199
 msgid "\"footnotes\""
-msgstr ""
+msgstr "\"footnotes\""
 
 #: ../../source/ref/rst/directives.rst:1201
 #: ../../source/ref/rst/directives.rst:1215
 msgid "None?"
-msgstr ""
+msgstr "None?"
 
 #: ../../source/ref/rst/directives.rst:1202
 #: ../../source/ref/rst/directives.rst:1216
 msgid "Possible?"
-msgstr ""
+msgstr "可能?"
 
 #: ../../source/ref/rst/directives.rst:1205
 #: ../../source/ref/rst/directives.rst:1219
 msgid "@@@"
-msgstr ""
+msgstr "@@@"
 
 #: ../../source/ref/rst/directives.rst:1209
 msgid "Citations"
-msgstr ""
+msgstr "Citations"
 
 #: ../../source/ref/rst/directives.rst:1213
 msgid "\"citations\""
-msgstr ""
+msgstr "\"citations\""
 
 #: ../../source/ref/rst/directives.rst:1224
 msgid "HTML-Specific"
-msgstr ""
+msgstr "HTML专用"
 
 #: ../../source/ref/rst/directives.rst:1227
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: ../../source/ref/rst/directives.rst:1229
 msgid "\"meta\""
-msgstr ""
+msgstr "\"meta\""
 
 #: ../../source/ref/rst/directives.rst:1230
 msgid "meta (non-standard)"
-msgstr ""
+msgstr "meta (non-standard)"
 
 #: ../../source/ref/rst/directives.rst:1233
 msgid "Must contain a flat field list."
-msgstr ""
+msgstr "Must contain a flat field list."
 
 #: ../../source/ref/rst/directives.rst:1235
 msgid ""
@@ -1874,7 +1874,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1251
 msgid "This would be converted to the following HTML::"
-msgstr ""
+msgstr "This would be converted to the following HTML::"
 
 #: ../../source/ref/rst/directives.rst:1257
 msgid ""
@@ -1885,7 +1885,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1265
 msgid "And their HTML equivalents::"
-msgstr ""
+msgstr "And their HTML equivalents::"
 
 #: ../../source/ref/rst/directives.rst:1270
 msgid ""
@@ -1895,19 +1895,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1276
 msgid "HTML equivalent::"
-msgstr ""
+msgstr "HTML equivalent::"
 
 #: ../../source/ref/rst/directives.rst:1283
 msgid "Imagemap"
-msgstr ""
+msgstr "Imagemap"
 
 #: ../../source/ref/rst/directives.rst:1287
 msgid "Non-standard element: imagemap."
-msgstr ""
+msgstr "Non-standard element: imagemap."
 
 #: ../../source/ref/rst/directives.rst:1292
 msgid "Directives for Substitution Definitions"
-msgstr ""
+msgstr "替代定义指令"
 
 #: ../../source/ref/rst/directives.rst:1294
 msgid ""
@@ -1919,19 +1919,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1303
 msgid "Replacement Text"
-msgstr ""
+msgstr "Replacement Text"
 
 #: ../../source/ref/rst/directives.rst:1305
 msgid "\"replace\""
-msgstr ""
+msgstr "\"replace\""
 
 #: ../../source/ref/rst/directives.rst:1306
 msgid "Text & `inline elements`_"
-msgstr ""
+msgstr "Text & `inline elements`_"
 
 #: ../../source/ref/rst/directives.rst:1309
 msgid "A single paragraph; may contain inline markup."
-msgstr ""
+msgstr "A single paragraph; may contain inline markup."
 
 #: ../../source/ref/rst/directives.rst:1311
 msgid ""
@@ -1949,16 +1949,16 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1334
 msgid "Unicode Character Codes"
-msgstr ""
+msgstr "Unicode Character Codes"
 
 #: ../../source/ref/rst/directives.rst:1336
 msgid "\"unicode\""
-msgstr ""
+msgstr "\"unicode\""
 
 #: ../../source/ref/rst/directives.rst:1337
 #: ../../source/ref/rst/directives.rst:1402
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../../source/ref/rst/directives.rst:1338
 msgid ""
@@ -1974,15 +1974,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1347
 msgid "The arguments, separated by spaces, can be:"
-msgstr ""
+msgstr "The arguments, separated by spaces, can be:"
 
 #: ../../source/ref/rst/directives.rst:1349
 msgid "**character codes** as"
-msgstr ""
+msgstr "**character codes** as"
 
 #: ../../source/ref/rst/directives.rst:1351
 msgid "decimal numbers or"
-msgstr ""
+msgstr "decimal numbers or"
 
 #: ../../source/ref/rst/directives.rst:1353
 msgid ""
@@ -1993,7 +1993,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1357
 msgid "**text**, which is used as-is."
-msgstr ""
+msgstr "**text**, which is used as-is."
 
 #: ../../source/ref/rst/directives.rst:1359
 msgid ""
@@ -2004,35 +2004,35 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1363
 msgid "For example, the following text::"
-msgstr ""
+msgstr "For example, the following text::"
 
 #: ../../source/ref/rst/directives.rst:1374
 msgid "results in:"
-msgstr ""
+msgstr "results in:"
 
 #: ../../source/ref/rst/directives.rst:1376
 msgid "Copyright |copy| 2003, |BogusMegaCorp (TM)| |---| all rights reserved."
-msgstr ""
+msgstr "Copyright |copy| 2003, |BogusMegaCorp (TM)| |---| all rights reserved."
 
 #: ../../source/ref/rst/directives.rst:1388
 msgid "``ltrim``"
-msgstr ""
+msgstr "``ltrim``"
 
 #: ../../source/ref/rst/directives.rst:1388
 msgid "Whitespace to the left of the substitution reference is removed."
-msgstr ""
+msgstr "Whitespace to the left of the substitution reference is removed."
 
 #: ../../source/ref/rst/directives.rst:1391
 msgid "``rtrim``"
-msgstr ""
+msgstr "``rtrim``"
 
 #: ../../source/ref/rst/directives.rst:1391
 msgid "Whitespace to the right of the substitution reference is removed."
-msgstr ""
+msgstr "Whitespace to the right of the substitution reference is removed."
 
 #: ../../source/ref/rst/directives.rst:1396
 msgid "``trim``"
-msgstr ""
+msgstr "``trim``"
 
 #: ../../source/ref/rst/directives.rst:1394
 msgid ""
@@ -2042,11 +2042,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1401
 msgid "\"date\""
-msgstr ""
+msgstr "\"date\""
 
 #: ../../source/ref/rst/directives.rst:1403
 msgid "One, optional (date format)."
-msgstr ""
+msgstr "One, optional (date format)."
 
 #: ../../source/ref/rst/directives.rst:1407
 msgid ""
@@ -2066,15 +2066,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1426
 msgid "Miscellaneous"
-msgstr ""
+msgstr "杂"
 
 #: ../../source/ref/rst/directives.rst:1431
 msgid "Including an External Document Fragment"
-msgstr ""
+msgstr "包括外部文档片段"
 
 #: ../../source/ref/rst/directives.rst:1433
 msgid "\"include\""
-msgstr ""
+msgstr "\"include\""
 
 #: ../../source/ref/rst/directives.rst:1434
 msgid ""
@@ -2084,11 +2084,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1436
 msgid "One, required (path to the file to include)."
-msgstr ""
+msgstr "One, required (path to the file to include)."
 
 #: ../../source/ref/rst/directives.rst:1439
 msgid "file_insertion_enabled_"
-msgstr ""
+msgstr "file_insertion_enabled_"
 
 #: ../../source/ref/rst/directives.rst:1443
 msgid ""
@@ -2129,7 +2129,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1489
 msgid "``start-line``"
-msgstr ""
+msgstr "``start-line``"
 
 #: ../../source/ref/rst/directives.rst:1487
 msgid ""
@@ -2140,20 +2140,20 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1492
 msgid "``end-line``"
-msgstr ""
+msgstr "``end-line``"
 
 #: ../../source/ref/rst/directives.rst:1492
 msgid "Only the content up to (but excluding) this line will be included."
-msgstr ""
+msgstr "Only the content up to (but excluding) this line will be included."
 
 #: ../../source/ref/rst/directives.rst:1496
 msgid "``start-after``"
-msgstr ""
+msgstr "``start-after``"
 
 #: ../../source/ref/rst/directives.rst:1495
 #: ../../source/ref/rst/directives.rst:1499
 msgid "text to find in the external data file"
-msgstr ""
+msgstr "text to find in the external data file"
 
 #: ../../source/ref/rst/directives.rst:1495
 msgid ""
@@ -2163,7 +2163,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1500
 msgid "``end-before``"
-msgstr ""
+msgstr "``end-before``"
 
 #: ../../source/ref/rst/directives.rst:1499
 msgid ""
@@ -2173,7 +2173,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1504
 msgid "``literal``"
-msgstr ""
+msgstr "``literal``"
 
 #: ../../source/ref/rst/directives.rst:1503
 msgid ""
@@ -2183,11 +2183,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1509
 msgid "``code``"
-msgstr ""
+msgstr "``code``"
 
 #: ../../source/ref/rst/directives.rst:1508
 msgid "formal language (optional)"
-msgstr ""
+msgstr "formal language (optional)"
 
 #: ../../source/ref/rst/directives.rst:1507
 msgid ""
@@ -2210,7 +2210,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1529
 msgid "``tab-width``"
-msgstr ""
+msgstr "``tab-width``"
 
 #: ../../source/ref/rst/directives.rst:1524
 msgid ""
@@ -2233,19 +2233,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1541
 msgid "Raw Data Pass-Through"
-msgstr ""
+msgstr "Raw Data Pass-Through"
 
 #: ../../source/ref/rst/directives.rst:1543
 msgid "\"raw\""
-msgstr ""
+msgstr "\"raw\""
 
 #: ../../source/ref/rst/directives.rst:1544
 msgid "raw_"
-msgstr ""
+msgstr "raw_"
 
 #: ../../source/ref/rst/directives.rst:1545
 msgid "One or more, required (output format types)."
-msgstr ""
+msgstr "One or more, required (output format types)."
 
 #: ../../source/ref/rst/directives.rst:1547
 msgid ""
@@ -2255,7 +2255,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1549
 msgid "raw_enabled_"
-msgstr ""
+msgstr "raw_enabled_"
 
 #: ../../source/ref/rst/directives.rst:1553
 msgid ""
@@ -2315,11 +2315,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1607
 msgid "The local filesystem path of a raw data file to be included."
-msgstr ""
+msgstr "The local filesystem path of a raw data file to be included."
 
 #: ../../source/ref/rst/directives.rst:1610
 msgid "An Internet URL reference to a raw data file to be included."
-msgstr ""
+msgstr "An Internet URL reference to a raw data file to be included."
 
 #: ../../source/ref/rst/directives.rst:1613
 msgid ""
@@ -2329,23 +2329,23 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1622
 msgid "Class"
-msgstr ""
+msgstr "Class"
 
 #: ../../source/ref/rst/directives.rst:1624
 msgid "\"class\""
-msgstr ""
+msgstr "\"class\""
 
 #: ../../source/ref/rst/directives.rst:1625
 msgid "pending_"
-msgstr ""
+msgstr "pending_"
 
 #: ../../source/ref/rst/directives.rst:1626
 msgid "One or more, required (class names / attribute values)."
-msgstr ""
+msgstr "One or more, required (class names / attribute values)."
 
 #: ../../source/ref/rst/directives.rst:1629
 msgid "Optional.  If present, it is interpreted as body elements."
-msgstr ""
+msgstr "Optional.  If present, it is interpreted as body elements."
 
 #: ../../source/ref/rst/directives.rst:1632
 msgid ""
@@ -2364,19 +2364,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1641
 msgid "alphabetic characters to lowercase,"
-msgstr ""
+msgstr "alphabetic characters to lowercase,"
 
 #: ../../source/ref/rst/directives.rst:1642
 msgid "accented characters to the base character,"
-msgstr ""
+msgstr "accented characters to the base character,"
 
 #: ../../source/ref/rst/directives.rst:1643
 msgid "non-alphanumeric characters to hyphens,"
-msgstr ""
+msgstr "non-alphanumeric characters to hyphens,"
 
 #: ../../source/ref/rst/directives.rst:1644
 msgid "consecutive hyphens into one hyphen."
-msgstr ""
+msgstr "consecutive hyphens into one hyphen."
 
 #: ../../source/ref/rst/directives.rst:1646
 msgid ""
@@ -2386,11 +2386,11 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1651
 msgid "Examples::"
-msgstr ""
+msgstr "Examples::"
 
 #: ../../source/ref/rst/directives.rst:1670
 msgid "The text above is parsed and transformed into this doctree fragment::"
-msgstr ""
+msgstr "The text above is parsed and transformed into this doctree fragment::"
 
 #: ../../source/ref/rst/directives.rst:1685
 msgid ""
@@ -2428,7 +2428,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1727
 msgid "The `HTML 4.01 spec`_ defines identifiers based on SGML tokens:"
-msgstr ""
+msgstr "The `HTML 4.01 spec`_ defines identifiers based on SGML tokens:"
 
 #: ../../source/ref/rst/directives.rst:1729
 msgid ""
@@ -2457,16 +2457,16 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1759
 msgid "Custom Interpreted Text Roles"
-msgstr ""
+msgstr "Custom Interpreted Text Roles"
 
 #: ../../source/ref/rst/directives.rst:1761
 msgid "\"role\""
-msgstr ""
+msgstr "\"role\""
 
 #: ../../source/ref/rst/directives.rst:1762
 #: ../../source/ref/rst/directives.rst:1854
 msgid "None; affects subsequent parsing."
-msgstr ""
+msgstr "None; affects subsequent parsing."
 
 #: ../../source/ref/rst/directives.rst:1763
 msgid ""
@@ -2476,15 +2476,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1765
 msgid "Possible (depends on base role)."
-msgstr ""
+msgstr "Possible (depends on base role)."
 
 #: ../../source/ref/rst/directives.rst:1766
 msgid "depends on base role."
-msgstr ""
+msgstr "depends on base role."
 
 #: ../../source/ref/rst/directives.rst:1768
 msgid "(New in Docutils 0.3.2)"
-msgstr ""
+msgstr "(New in Docutils 0.3.2)"
 
 #: ../../source/ref/rst/directives.rst:1770
 msgid ""
@@ -2495,16 +2495,16 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1776
 msgid "the document may use the new \"custom\" role::"
-msgstr ""
+msgstr "the document may use the new \"custom\" role::"
 
 #: ../../source/ref/rst/directives.rst:1780
 #: ../../source/ref/rst/directives.rst:1872
 msgid "This will be parsed into the following document tree fragment::"
-msgstr ""
+msgstr "This will be parsed into the following document tree fragment::"
 
 #: ../../source/ref/rst/directives.rst:1787
 msgid "The role must be declared in a document before it can be used."
-msgstr ""
+msgstr "The role must be declared in a document before it can be used."
 
 #: ../../source/ref/rst/directives.rst:1789
 msgid ""
@@ -2514,7 +2514,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1796
 msgid "The parsed result is as follows::"
-msgstr ""
+msgstr "The parsed result is as follows::"
 
 #: ../../source/ref/rst/directives.rst:1802
 msgid ""
@@ -2538,7 +2538,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1823
 msgid "This is the parsed result::"
-msgstr ""
+msgstr "This is the parsed result::"
 
 #: ../../source/ref/rst/directives.rst:1831
 msgid ""
@@ -2563,15 +2563,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1851
 msgid "Setting the Default Interpreted Text Role"
-msgstr ""
+msgstr "Setting the Default Interpreted Text Role"
 
 #: ../../source/ref/rst/directives.rst:1853
 msgid "\"default-role\""
-msgstr ""
+msgstr "\"default-role\""
 
 #: ../../source/ref/rst/directives.rst:1855
 msgid "One, optional (new default role name)."
-msgstr ""
+msgstr "One, optional (new default role name)."
 
 #: ../../source/ref/rst/directives.rst:1861
 msgid ""
@@ -2604,15 +2604,15 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1892
 msgid "Metadata Document Title"
-msgstr ""
+msgstr "Metadata Document Title"
 
 #: ../../source/ref/rst/directives.rst:1894
 msgid "\"title\""
-msgstr ""
+msgstr "\"title\""
 
 #: ../../source/ref/rst/directives.rst:1896
 msgid "One, required (the title text)."
-msgstr ""
+msgstr "One, required (the title text)."
 
 #: ../../source/ref/rst/directives.rst:1900
 msgid ""
@@ -2624,19 +2624,19 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1907
 msgid "Restructuredtext-Test-Directive"
-msgstr ""
+msgstr "Restructuredtext-Test-Directive"
 
 #: ../../source/ref/rst/directives.rst:1909
 msgid "\"restructuredtext-test-directive\""
-msgstr ""
+msgstr "\"restructuredtext-test-directive\""
 
 #: ../../source/ref/rst/directives.rst:1910
 msgid "system_warning"
-msgstr ""
+msgstr "system_warning"
 
 #: ../../source/ref/rst/directives.rst:1913
 msgid "Interpreted as a literal block."
-msgstr ""
+msgstr "Interpreted as a literal block."
 
 #: ../../source/ref/rst/directives.rst:1915
 msgid ""
@@ -2648,46 +2648,46 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1923
 msgid "Common Options"
-msgstr ""
+msgstr "常见选项"
 
 #: ../../source/ref/rst/directives.rst:1925
 msgid ""
 "Most of the directives that generate doctree elements support the "
 "following options:"
-msgstr ""
+msgstr "生成doctree元素的大多数指令都支持以下选项:"
 
 #: ../../source/ref/rst/directives.rst:1930
 msgid "_`:class:`"
-msgstr ""
+msgstr "_`:class:`"
 
 #: ../../source/ref/rst/directives.rst:1929
 msgid ""
 "Set a `\"classes\"`_ attribute value on the doctree element generated by "
 "the directive. See also the class_ directive."
-msgstr ""
+msgstr "在指令生成的doctree元素上设置 `\"classes\"`_ 属性值。另请参见 class_ 指令。"
 
 #: ../../source/ref/rst/directives.rst:1950
 msgid "_`:name:`"
-msgstr ""
+msgstr "_`:name:`"
 
 #: ../../source/ref/rst/directives.rst:1933
 msgid ""
 "Add `text` to the `\"names\"`_ attribute of the doctree element generated"
 " by the directive. This allows `hyperlink references`_ to the element "
 "using `text` as `reference name`_."
-msgstr ""
+msgstr "将 `text` 添加到指令生成的doctree元素的 `\"names\"`_ 属性中。 这允许使用 `text` 作为 `reference name`_ 对元素进行超链接引用。"
 
 #: ../../source/ref/rst/directives.rst:1937
 msgid "Specifying the `name` option of a directive, e.g., ::"
-msgstr ""
+msgstr "指定指令的 `name` 选项, 例如, ::"
 
 #: ../../source/ref/rst/directives.rst:1942
 msgid ""
 "is a concise syntax alternative to preceding it with a `hyperlink "
 "target`_ ::"
-msgstr ""
+msgstr "是一个简洁的语法替代它前面的 `hyperlink target`_ ::"
 
 #: ../../source/ref/rst/directives.rst:1949
 msgid "New in Docutils 0.8."
-msgstr ""
+msgstr "Docutils 0.8中的新功能。"
 

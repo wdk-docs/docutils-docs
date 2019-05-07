@@ -1,0 +1,1 @@
+pandoc -s -r html -t rst demo.html -o demo.rst
