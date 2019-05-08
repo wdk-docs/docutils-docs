@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:3
 msgid "reStructuredText Interpreted Text Roles"
-msgstr ""
+msgstr "reStructuredText解释文本角色"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/ref/rst/roles.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/ref/rst/roles.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/ref/rst/roles.rst:7
 msgid "$Revision: 7307 $"
-msgstr ""
+msgstr "$Revision: 7307 $"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/rst/roles.rst:8
 msgid "$Date: 2012-01-06 12:11:51 +0100 (Fr, 06. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-06 12:11:51 +0100 (Fr, 06. J盲n 2012) $"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/ref/rst/roles.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/ref/rst/roles.rst:11
 msgid ""
@@ -95,11 +95,11 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:45
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/rst/roles.rst ../../source/ref/rst/roles.rst:49
 msgid "Customization"
-msgstr ""
+msgstr "Customization"
 
 #: ../../source/ref/rst/roles.rst:51
 msgid ""
@@ -116,45 +116,45 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:65
 msgid "Standard Roles"
-msgstr ""
+msgstr "Standard Roles"
 
 #: ../../source/ref/rst/roles.rst:68
 msgid "``:emphasis:``"
-msgstr ""
+msgstr "``:emphasis:``"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Aliases"
-msgstr ""
+msgstr "Aliases"
 
 #: ../../source/ref/rst/roles.rst:70 ../../source/ref/rst/roles.rst:85
 #: ../../source/ref/rst/roles.rst:110 ../../source/ref/rst/roles.rst:147
 #: ../../source/ref/rst/roles.rst:216 ../../source/ref/rst/roles.rst:328
 #: ../../source/ref/rst/roles.rst:332
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../../source/ref/rst/roles.rst
 msgid "DTD Element"
-msgstr ""
+msgstr "DTD Element"
 
 #: ../../source/ref/rst/roles.rst:71
 msgid "emphasis"
-msgstr ""
+msgstr "emphasis"
 
 #: ../../source/ref/rst/roles.rst
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: ../../source/ref/rst/roles.rst:73 ../../source/ref/rst/roles.rst:88
 #: ../../source/ref/rst/roles.rst:175 ../../source/ref/rst/roles.rst:197
 #: ../../source/ref/rst/roles.rst:219 ../../source/ref/rst/roles.rst:234
 #: ../../source/ref/rst/roles.rst:270 ../../source/ref/rst/roles.rst:282
 msgid "class_."
-msgstr ""
+msgstr "class_."
 
 #: ../../source/ref/rst/roles.rst
 msgid "Content"
-msgstr ""
+msgstr "Content"
 
 #: ../../source/ref/rst/roles.rst:74 ../../source/ref/rst/roles.rst:89
 #: ../../source/ref/rst/roles.rst:114 ../../source/ref/rst/roles.rst:151
@@ -162,23 +162,23 @@ msgstr ""
 #: ../../source/ref/rst/roles.rst:220 ../../source/ref/rst/roles.rst:235
 #: ../../source/ref/rst/roles.rst:271 ../../source/ref/rst/roles.rst:283
 msgid "None."
-msgstr ""
+msgstr "None."
 
 #: ../../source/ref/rst/roles.rst:76
 msgid "Implements emphasis.  These are equivalent::"
-msgstr ""
+msgstr "Implements emphasis.  These are equivalent::"
 
 #: ../../source/ref/rst/roles.rst:83
 msgid "``:literal:``"
-msgstr ""
+msgstr "``:literal:``"
 
 #: ../../source/ref/rst/roles.rst:86 ../../source/ref/rst/roles.rst:111
 msgid "literal"
-msgstr ""
+msgstr "literal"
 
 #: ../../source/ref/rst/roles.rst:91
 msgid "Implements inline literal text.  These are equivalent::"
-msgstr ""
+msgstr "Implements inline literal text.  These are equivalent::"
 
 #: ../../source/ref/rst/roles.rst:96
 msgid ""
@@ -194,19 +194,19 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:108
 msgid "``:code:``"
-msgstr ""
+msgstr "``:code:``"
 
 #: ../../source/ref/rst/roles.rst:113
 msgid "class_, language"
-msgstr ""
+msgstr "class_, language"
 
 #: ../../source/ref/rst/roles.rst:116
 msgid "(New in Docutils 0.9.)"
-msgstr ""
+msgstr "(New in Docutils 0.9.)"
 
 #: ../../source/ref/rst/roles.rst:118
 msgid "The ``code`` role marks its content as code in a formal language."
-msgstr ""
+msgstr "The ``code`` role marks its content as code in a formal language."
 
 #: ../../source/ref/rst/roles.rst:120
 msgid ""
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:124
 msgid "For example, the following creates a LaTeX-specific \"latex\" role::"
-msgstr ""
+msgstr "For example, the following creates a LaTeX-specific \"latex\" role::"
 
 #: ../../source/ref/rst/roles.rst:129
 msgid ""
@@ -228,15 +228,15 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:133 ../../source/ref/rst/roles.rst:377
 msgid "In addition to \"class_\", the following option is recognized:"
-msgstr ""
+msgstr "In addition to \"class_\", the following option is recognized:"
 
 #: ../../source/ref/rst/roles.rst:137
 msgid "``language``"
-msgstr ""
+msgstr "``language``"
 
 #: ../../source/ref/rst/roles.rst:136 ../../source/ref/rst/roles.rst:378
 msgid "text"
-msgstr ""
+msgstr "text"
 
 #: ../../source/ref/rst/roles.rst:136
 msgid ""
@@ -246,19 +246,19 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:145
 msgid "``:math:``"
-msgstr ""
+msgstr "``:math:``"
 
 #: ../../source/ref/rst/roles.rst:148
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../source/ref/rst/roles.rst:150
 msgid "class_"
-msgstr ""
+msgstr "class_"
 
 #: ../../source/ref/rst/roles.rst:153
 msgid "(New in Docutils 0.8.)"
-msgstr ""
+msgstr "(New in Docutils 0.8.)"
 
 #: ../../source/ref/rst/roles.rst:155
 msgid ""
@@ -280,15 +280,15 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:170
 msgid "``:pep-reference:``"
-msgstr ""
+msgstr "``:pep-reference:``"
 
 #: ../../source/ref/rst/roles.rst:172
 msgid "``:PEP:``"
-msgstr ""
+msgstr "``:PEP:``"
 
 #: ../../source/ref/rst/roles.rst:173 ../../source/ref/rst/roles.rst:195
 msgid "reference"
-msgstr ""
+msgstr "reference"
 
 #: ../../source/ref/rst/roles.rst:178
 msgid ""
@@ -299,15 +299,15 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:184 ../../source/ref/rst/roles.rst:206
 msgid "This is equivalent to::"
-msgstr ""
+msgstr "This is equivalent to::"
 
 #: ../../source/ref/rst/roles.rst:192
 msgid "``:rfc-reference:``"
-msgstr ""
+msgstr "``:rfc-reference:``"
 
 #: ../../source/ref/rst/roles.rst:194
 msgid "``:RFC:``"
-msgstr ""
+msgstr "``:RFC:``"
 
 #: ../../source/ref/rst/roles.rst:200
 msgid ""
@@ -318,31 +318,31 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:214
 msgid "``:strong:``"
-msgstr ""
+msgstr "``:strong:``"
 
 #: ../../source/ref/rst/roles.rst:217
 msgid "strong"
-msgstr ""
+msgstr "strong"
 
 #: ../../source/ref/rst/roles.rst:222
 msgid "Implements strong emphasis.  These are equivalent::"
-msgstr ""
+msgstr "Implements strong emphasis.  These are equivalent::"
 
 #: ../../source/ref/rst/roles.rst:229
 msgid "``:subscript:``"
-msgstr ""
+msgstr "``:subscript:``"
 
 #: ../../source/ref/rst/roles.rst:231
 msgid "``:sub:``"
-msgstr ""
+msgstr "``:sub:``"
 
 #: ../../source/ref/rst/roles.rst:232
 msgid "subscript"
-msgstr ""
+msgstr "subscript"
 
 #: ../../source/ref/rst/roles.rst:237
 msgid "Implements subscripts."
-msgstr ""
+msgstr "Implements subscripts."
 
 #: ../../source/ref/rst/roles.rst:241
 msgid ""
@@ -365,31 +365,31 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:265
 msgid "``:superscript:``"
-msgstr ""
+msgstr "``:superscript:``"
 
 #: ../../source/ref/rst/roles.rst:267
 msgid "``:sup:``"
-msgstr ""
+msgstr "``:sup:``"
 
 #: ../../source/ref/rst/roles.rst:268
 msgid "superscript"
-msgstr ""
+msgstr "superscript"
 
 #: ../../source/ref/rst/roles.rst:273
 msgid "Implements superscripts.  See the tip in `:subscript:`_ above."
-msgstr ""
+msgstr "Implements superscripts.  See the tip in `:subscript:`_ above."
 
 #: ../../source/ref/rst/roles.rst:277
 msgid "``:title-reference:``"
-msgstr ""
+msgstr "``:title-reference:``"
 
 #: ../../source/ref/rst/roles.rst:279
 msgid "``:title:``, ``:t:``."
-msgstr ""
+msgstr "``:title:``, ``:t:``."
 
 #: ../../source/ref/rst/roles.rst:280
 msgid "title_reference"
-msgstr ""
+msgstr "title_reference"
 
 #: ../../source/ref/rst/roles.rst:285
 msgid ""
@@ -430,19 +430,19 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:323
 msgid "Specialized Roles"
-msgstr ""
+msgstr "Specialized Roles"
 
 #: ../../source/ref/rst/roles.rst:326
 msgid "``raw``"
-msgstr ""
+msgstr "``raw``"
 
 #: ../../source/ref/rst/roles.rst:329
 msgid "raw"
-msgstr ""
+msgstr "raw"
 
 #: ../../source/ref/rst/roles.rst:331
 msgid "class_, format"
-msgstr ""
+msgstr "class_, format"
 
 #: ../../source/ref/rst/roles.rst:336
 msgid ""
@@ -476,7 +476,7 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:360
 msgid "For example, the following creates an HTML-specific \"raw-html\" role::"
-msgstr ""
+msgstr "For example, the following creates an HTML-specific \"raw-html\" role::"
 
 #: ../../source/ref/rst/roles.rst:365
 msgid ""
@@ -493,9 +493,9 @@ msgstr ""
 
 #: ../../source/ref/rst/roles.rst:379
 msgid "``format``"
-msgstr ""
+msgstr "``format``"
 
 #: ../../source/ref/rst/roles.rst:380
 msgid "One or more space-separated output format names (Writer names)."
-msgstr ""
+msgstr "One or more space-separated output format names (Writer names)."
 

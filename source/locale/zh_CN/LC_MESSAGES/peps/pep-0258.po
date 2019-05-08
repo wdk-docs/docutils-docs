@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:17
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/peps/pep-0258.rst:19
 msgid ""
@@ -58,15 +58,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:37
 msgid "Specification"
-msgstr ""
+msgstr "Specification"
 
 #: ../../source/peps/pep-0258.rst:40
 msgid "Docutils Project Model"
-msgstr ""
+msgstr "Docutils Project Model"
 
 #: ../../source/peps/pep-0258.rst:42
 msgid "Project components and data flow::"
-msgstr ""
+msgstr "Project components and data flow::"
 
 #: ../../source/peps/pep-0258.rst:62
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:71
 msgid "Publisher"
-msgstr ""
+msgstr "Publisher"
 
 #: ../../source/peps/pep-0258.rst:73
 msgid ""
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:104
 msgid "Readers"
-msgstr ""
+msgstr "Readers"
 
 #: ../../source/peps/pep-0258.rst:106
 msgid ""
@@ -156,11 +156,11 @@ msgstr ""
 #: ../../source/peps/pep-0258.rst:118 ../../source/peps/pep-0258.rst:259
 #: ../../source/peps/pep-0258.rst:309
 msgid "Responsibilities:"
-msgstr ""
+msgstr "Responsibilities:"
 
 #: ../../source/peps/pep-0258.rst:120
 msgid "Get input text from the source I/O."
-msgstr ""
+msgstr "Get input text from the source I/O."
 
 #: ../../source/peps/pep-0258.rst:122
 msgid ""
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:125 ../../source/peps/pep-0258.rst:267
 msgid "Examples:"
-msgstr ""
+msgstr "Examples:"
 
 #: ../../source/peps/pep-0258.rst:127
 msgid ""
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:136
 msgid "Email: RFC-822 headers, quoted excerpts, signatures, MIME parts."
-msgstr ""
+msgstr "Email: RFC-822 headers, quoted excerpts, signatures, MIME parts."
 
 #: ../../source/peps/pep-0258.rst:138
 msgid ""
@@ -215,15 +215,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:150
 msgid "FAQ: Structured \"question & answer(s)\" constructs."
-msgstr ""
+msgstr "FAQ: Structured \"question & answer(s)\" constructs."
 
 #: ../../source/peps/pep-0258.rst:152
 msgid "Compound document: Merge chapters into a book.  Master manifest file?"
-msgstr ""
+msgstr "Compound document: Merge chapters into a book.  Master manifest file?"
 
 #: ../../source/peps/pep-0258.rst:157
 msgid "Parsers"
-msgstr ""
+msgstr "Parsers"
 
 #: ../../source/peps/pep-0258.rst:159
 msgid ""
@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:181
 msgid "Transformer"
-msgstr ""
+msgstr "Transformer"
 
 #: ../../source/peps/pep-0258.rst:183
 msgid ""
@@ -294,11 +294,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:206
 msgid "Transformer responsibilities:"
-msgstr ""
+msgstr "Transformer responsibilities:"
 
 #: ../../source/peps/pep-0258.rst:208
 msgid "Apply transforms to the document tree, in priority order."
-msgstr ""
+msgstr "Apply transforms to the document tree, in priority order."
 
 #: ../../source/peps/pep-0258.rst:210
 msgid ""
@@ -309,7 +309,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:214
 msgid "Transform responsibilities:"
-msgstr ""
+msgstr "Transform responsibilities:"
 
 #: ../../source/peps/pep-0258.rst:216
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:220
 msgid "Examples of transforms (in the ``docutils/transforms/`` package):"
-msgstr ""
+msgstr "Examples of transforms (in the ``docutils/transforms/`` package):"
 
 #: ../../source/peps/pep-0258.rst:222
 msgid ""
@@ -336,7 +336,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:228
 msgid "parts.Contents: Generates a table of contents for a document."
-msgstr ""
+msgstr "parts.Contents: Generates a table of contents for a document."
 
 #: ../../source/peps/pep-0258.rst:230
 msgid ""
@@ -359,7 +359,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:243
 msgid "Writers"
-msgstr ""
+msgstr "Writers"
 
 #: ../../source/peps/pep-0258.rst:245
 msgid ""
@@ -385,19 +385,19 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:261
 msgid "Translate doctree(s) into specific output formats."
-msgstr ""
+msgstr "Translate doctree(s) into specific output formats."
 
 #: ../../source/peps/pep-0258.rst:263
 msgid "Transform references into format-native forms."
-msgstr ""
+msgstr "Transform references into format-native forms."
 
 #: ../../source/peps/pep-0258.rst:265
 msgid "Write the translated output to the destination I/O."
-msgstr ""
+msgstr "Write the translated output to the destination I/O."
 
 #: ../../source/peps/pep-0258.rst:269
 msgid "XML: Various forms, such as:"
-msgstr ""
+msgstr "XML: Various forms, such as:"
 
 #: ../../source/peps/pep-0258.rst:271
 msgid ""
@@ -407,19 +407,19 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:274
 msgid "DocBook (being implemented in the Docutils sandbox)."
-msgstr ""
+msgstr "DocBook (being implemented in the Docutils sandbox)."
 
 #: ../../source/peps/pep-0258.rst:276
 msgid "HTML (XHTML implemented as ``docutils.writers.html4css1``)."
-msgstr ""
+msgstr "HTML (XHTML implemented as ``docutils.writers.html4css1``)."
 
 #: ../../source/peps/pep-0258.rst:278
 msgid "PDF (a ReportLabs interface is being developed in the Docutils sandbox)."
-msgstr ""
+msgstr "PDF (a ReportLabs interface is being developed in the Docutils sandbox)."
 
 #: ../../source/peps/pep-0258.rst:281
 msgid "TeX (a LaTeX Writer is being implemented in the sandbox)."
-msgstr ""
+msgstr "TeX (a LaTeX Writer is being implemented in the sandbox)."
 
 #: ../../source/peps/pep-0258.rst:283
 msgid ""
@@ -429,15 +429,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:286
 msgid "Plain text"
-msgstr ""
+msgstr "Plain text"
 
 #: ../../source/peps/pep-0258.rst:288
 msgid "reStructuredText?"
-msgstr ""
+msgstr "reStructuredText?"
 
 #: ../../source/peps/pep-0258.rst:292
 msgid "Input/Output"
-msgstr ""
+msgstr "Input/Output"
 
 #: ../../source/peps/pep-0258.rst:294
 msgid ""
@@ -456,7 +456,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:303
 msgid "How to represent multi-file input (files & directories) in the API?"
-msgstr ""
+msgstr "How to represent multi-file input (files & directories) in the API?"
 
 #: ../../source/peps/pep-0258.rst:305
 msgid ""
@@ -473,7 +473,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:314
 msgid "Examples of input sources:"
-msgstr ""
+msgstr "Examples of input sources:"
 
 #: ../../source/peps/pep-0258.rst:316
 msgid ""
@@ -483,11 +483,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:319
 msgid "Multiple files on disk (``MultiFileInput``?)."
-msgstr ""
+msgstr "Multiple files on disk (``MultiFileInput``?)."
 
 #: ../../source/peps/pep-0258.rst:321
 msgid "Python source files: modules and packages."
-msgstr ""
+msgstr "Python source files: modules and packages."
 
 #: ../../source/peps/pep-0258.rst:323
 msgid ""
@@ -497,7 +497,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:326
 msgid "Examples of output destinations:"
-msgstr ""
+msgstr "Examples of output destinations:"
 
 #: ../../source/peps/pep-0258.rst:328
 msgid ""
@@ -507,7 +507,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:331
 msgid "A tree of directories and files on disk."
-msgstr ""
+msgstr "A tree of directories and files on disk."
 
 #: ../../source/peps/pep-0258.rst:333
 msgid ""
@@ -524,19 +524,19 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:340
 msgid "A single tree-shaped data structure in memory."
-msgstr ""
+msgstr "A single tree-shaped data structure in memory."
 
 #: ../../source/peps/pep-0258.rst:342
 msgid "Some other set of data structures in memory."
-msgstr ""
+msgstr "Some other set of data structures in memory."
 
 #: ../../source/peps/pep-0258.rst:346
 msgid "Docutils Package Structure"
-msgstr ""
+msgstr "Docutils Package Structure"
 
 #: ../../source/peps/pep-0258.rst:348
 msgid "Package \"docutils\"."
-msgstr ""
+msgstr "Package \"docutils\"."
 
 #: ../../source/peps/pep-0258.rst:350
 msgid ""
@@ -593,7 +593,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:381
 msgid "Package \"docutils.parsers\": markup parsers_."
-msgstr ""
+msgstr "Package \"docutils.parsers\": markup parsers_."
 
 #: ../../source/peps/pep-0258.rst:383
 msgid ""
@@ -604,19 +604,19 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:387
 msgid "Package \"docutils.parsers.rst\": the reStructuredText parser."
-msgstr ""
+msgstr "Package \"docutils.parsers.rst\": the reStructuredText parser."
 
 #: ../../source/peps/pep-0258.rst:389
 msgid "Alternate markup parsers may be added."
-msgstr ""
+msgstr "Alternate markup parsers may be added."
 
 #: ../../source/peps/pep-0258.rst:391
 msgid "See `Parsers`_ above."
-msgstr ""
+msgstr "See `Parsers`_ above."
 
 #: ../../source/peps/pep-0258.rst:393
 msgid "Package \"docutils.readers\": context-aware input readers."
-msgstr ""
+msgstr "Package \"docutils.readers\": context-aware input readers."
 
 #: ../../source/peps/pep-0258.rst:395
 msgid ""
@@ -627,11 +627,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:399
 msgid "Module \"docutils.readers.standalone\" reads independent document files."
-msgstr ""
+msgstr "Module \"docutils.readers.standalone\" reads independent document files."
 
 #: ../../source/peps/pep-0258.rst:402
 msgid "Module \"docutils.readers.pep\" reads PEPs (Python Enhancement Proposals)."
-msgstr ""
+msgstr "Module \"docutils.readers.pep\" reads PEPs (Python Enhancement Proposals)."
 
 #: ../../source/peps/pep-0258.rst:405
 msgid ""
@@ -647,11 +647,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:411
 msgid "See `Readers`_ above."
-msgstr ""
+msgstr "See `Readers`_ above."
 
 #: ../../source/peps/pep-0258.rst:413
 msgid "Package \"docutils.writers\": output format writers."
-msgstr ""
+msgstr "Package \"docutils.writers\": output format writers."
 
 #: ../../source/peps/pep-0258.rst:415
 msgid ""
@@ -674,11 +674,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:425
 msgid "Package \"docutils.writers.s5_html\" generates S5/HTML slide shows."
-msgstr ""
+msgstr "Package \"docutils.writers.s5_html\" generates S5/HTML slide shows."
 
 #: ../../source/peps/pep-0258.rst:428
 msgid "Package \"docutils.writers.latex2e\" writes LaTeX."
-msgstr ""
+msgstr "Package \"docutils.writers.latex2e\" writes LaTeX."
 
 #: ../../source/peps/pep-0258.rst:430
 msgid ""
@@ -718,11 +718,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:450
 msgid "See `Writers`_ above."
-msgstr ""
+msgstr "See `Writers`_ above."
 
 #: ../../source/peps/pep-0258.rst:452
 msgid "Package \"docutils.transforms\": tree transform classes."
-msgstr ""
+msgstr "Package \"docutils.transforms\": tree transform classes."
 
 #: ../../source/peps/pep-0258.rst:454
 msgid ""
@@ -738,11 +738,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:460
 msgid "Each module contains related transform classes."
-msgstr ""
+msgstr "Each module contains related transform classes."
 
 #: ../../source/peps/pep-0258.rst:462
 msgid "See `Transforms`_ above."
-msgstr ""
+msgstr "See `Transforms`_ above."
 
 #: ../../source/peps/pep-0258.rst:464
 msgid ""
@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:475
 msgid "Other languages to be added."
-msgstr ""
+msgstr "Other languages to be added."
 
 #: ../../source/peps/pep-0258.rst:477
 msgid ""
@@ -776,11 +776,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:481
 msgid "``extras/roman.py`` contains Roman numeral conversion routines."
-msgstr ""
+msgstr "``extras/roman.py`` contains Roman numeral conversion routines."
 
 #: ../../source/peps/pep-0258.rst:485
 msgid "Front-End Tools"
-msgstr ""
+msgstr "Front-End Tools"
 
 #: ../../source/peps/pep-0258.rst:487
 msgid ""
@@ -790,7 +790,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:495
 msgid "Document Tree"
-msgstr ""
+msgstr "Document Tree"
 
 #: ../../source/peps/pep-0258.rst:497
 msgid ""
@@ -828,11 +828,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:524
 msgid "the Docutils Generic DTD, docutils.dtd_, and"
-msgstr ""
+msgstr "the Docutils Generic DTD, docutils.dtd_, and"
 
 #: ../../source/peps/pep-0258.rst:526
 msgid "the OASIS Exchange Table Model, soextbl.dtd_."
-msgstr ""
+msgstr "the OASIS Exchange Table Model, soextbl.dtd_."
 
 #: ../../source/peps/pep-0258.rst:528
 msgid ""
@@ -843,11 +843,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:533
 msgid "See `The Docutils Document Tree`_ for details (incomplete)."
-msgstr ""
+msgstr "See `The Docutils Document Tree`_ for details (incomplete)."
 
 #: ../../source/peps/pep-0258.rst:537
 msgid "Error Handling"
-msgstr ""
+msgstr "Error Handling"
 
 #: ../../source/peps/pep-0258.rst:539
 msgid ""
@@ -901,7 +901,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:572
 msgid "Python Source Reader"
-msgstr ""
+msgstr "Python Source Reader"
 
 #: ../../source/peps/pep-0258.rst:574
 msgid ""
@@ -914,7 +914,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:583
 msgid "Processing Model"
-msgstr ""
+msgstr "Processing Model"
 
 #: ../../source/peps/pep-0258.rst:585
 msgid ""
@@ -974,7 +974,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:617
 msgid "Other transforms are applied to the standard doctree by the Transformer_."
-msgstr ""
+msgstr "Other transforms are applied to the standard doctree by the Transformer_."
 
 #: ../../source/peps/pep-0258.rst:620
 msgid ""
@@ -990,7 +990,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:628
 msgid "AST Mining"
-msgstr ""
+msgstr "AST Mining"
 
 #: ../../source/peps/pep-0258.rst:630
 msgid ""
@@ -1003,35 +1003,35 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:636
 msgid "packages"
-msgstr ""
+msgstr "packages"
 
 #: ../../source/peps/pep-0258.rst:637
 msgid "modules"
-msgstr ""
+msgstr "modules"
 
 #: ../../source/peps/pep-0258.rst:638
 msgid "module attributes (+ initial values)"
-msgstr ""
+msgstr "module attributes (+ initial values)"
 
 #: ../../source/peps/pep-0258.rst:639
 msgid "classes (+ inheritance)"
-msgstr ""
+msgstr "classes (+ inheritance)"
 
 #: ../../source/peps/pep-0258.rst:640
 msgid "class attributes (+ initial values)"
-msgstr ""
+msgstr "class attributes (+ initial values)"
 
 #: ../../source/peps/pep-0258.rst:641
 msgid "instance attributes (+ initial values)"
-msgstr ""
+msgstr "instance attributes (+ initial values)"
 
 #: ../../source/peps/pep-0258.rst:642
 msgid "methods (+ parameters & defaults)"
-msgstr ""
+msgstr "methods (+ parameters & defaults)"
 
 #: ../../source/peps/pep-0258.rst:643
 msgid "functions (+ parameters & defaults)"
-msgstr ""
+msgstr "functions (+ parameters & defaults)"
 
 #: ../../source/peps/pep-0258.rst:645
 msgid ""
@@ -1053,11 +1053,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:656
 msgid "Docstring Extraction Rules"
-msgstr ""
+msgstr "Docstring Extraction Rules"
 
 #: ../../source/peps/pep-0258.rst:658
 msgid "What to examine:"
-msgstr ""
+msgstr "What to examine:"
 
 #: ../../source/peps/pep-0258.rst:660
 msgid ""
@@ -1075,11 +1075,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:668
 msgid "1a and 1b can be overridden by runtime settings."
-msgstr ""
+msgstr "1a and 1b can be overridden by runtime settings."
 
 #: ../../source/peps/pep-0258.rst:670
 msgid "Where:"
-msgstr ""
+msgstr "Where:"
 
 #: ../../source/peps/pep-0258.rst:672
 msgid ""
@@ -1110,11 +1110,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:687
 msgid "@@@ 2.2-style \"properties\" with attribute docstrings?  Wait for syntax?"
-msgstr ""
+msgstr "@@@ 2.2-style \"properties\" with attribute docstrings?  Wait for syntax?"
 
 #: ../../source/peps/pep-0258.rst:690
 msgid "How:"
-msgstr ""
+msgstr "How:"
 
 #: ../../source/peps/pep-0258.rst:692
 msgid ""
@@ -1124,7 +1124,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:695
 msgid "Importing untrusted code is inherently insecure."
-msgstr ""
+msgstr "Importing untrusted code is inherently insecure."
 
 #: ../../source/peps/pep-0258.rst:697
 msgid ""
@@ -1163,11 +1163,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:721
 msgid "Attribute Docstrings"
-msgstr ""
+msgstr "Attribute Docstrings"
 
 #: ../../source/peps/pep-0258.rst:723
 msgid "(This is a simplified version of PEP 224 [#PEP-224]_.)"
-msgstr ""
+msgstr "(This is a simplified version of PEP 224 [#PEP-224]_.)"
 
 #: ../../source/peps/pep-0258.rst:725
 msgid ""
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:730
 msgid "The assignment must be in one of the following contexts:"
-msgstr ""
+msgstr "The assignment must be in one of the following contexts:"
 
 #: ../../source/peps/pep-0258.rst:732
 msgid ""
@@ -1188,7 +1188,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:735
 msgid "At the top level of a class definition: a class attribute."
-msgstr ""
+msgstr "At the top level of a class definition: a class attribute."
 
 #: ../../source/peps/pep-0258.rst:737
 msgid ""
@@ -1218,7 +1218,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:753
 msgid "The form of the target:"
-msgstr ""
+msgstr "The form of the target:"
 
 #: ../../source/peps/pep-0258.rst:755
 msgid ""
@@ -1248,15 +1248,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:772
 msgid "Examples::"
-msgstr ""
+msgstr "Examples::"
 
 #: ../../source/peps/pep-0258.rst:797
 msgid "Additional Docstrings"
-msgstr ""
+msgstr "Additional Docstrings"
 
 #: ../../source/peps/pep-0258.rst:799
 msgid "(This idea was adapted from PEP 216 [#PEP-216]_.)"
-msgstr ""
+msgstr "(This idea was adapted from PEP 216 [#PEP-216]_.)"
 
 #: ../../source/peps/pep-0258.rst:801
 msgid ""
@@ -1280,7 +1280,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:815
 msgid "Example::"
-msgstr ""
+msgstr "Example::"
 
 #: ../../source/peps/pep-0258.rst:827
 msgid ""
@@ -1297,23 +1297,23 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:834
 msgid "the module docstring (if any),"
-msgstr ""
+msgstr "the module docstring (if any),"
 
 #: ../../source/peps/pep-0258.rst:835
 msgid "comments,"
-msgstr ""
+msgstr "comments,"
 
 #: ../../source/peps/pep-0258.rst:836
 msgid "blank lines, and"
-msgstr ""
+msgstr "blank lines, and"
 
 #: ../../source/peps/pep-0258.rst:837
 msgid "other future statements."
-msgstr ""
+msgstr "other future statements."
 
 #: ../../source/peps/pep-0258.rst:839
 msgid "Resolution?"
-msgstr ""
+msgstr "Resolution?"
 
 #: ../../source/peps/pep-0258.rst:841
 msgid ""
@@ -1337,7 +1337,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:854
 msgid "Choice of Docstring Format"
-msgstr ""
+msgstr "Choice of Docstring Format"
 
 #: ../../source/peps/pep-0258.rst:856
 msgid ""
@@ -1381,7 +1381,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:887
 msgid "Identifier Cross-References"
-msgstr ""
+msgstr "Identifier Cross-References"
 
 #: ../../source/peps/pep-0258.rst:889
 msgid ""
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:935
 msgid "Stylist Transforms"
-msgstr ""
+msgstr "Stylist Transforms"
 
 #: ../../source/peps/pep-0258.rst:937
 msgid ""
@@ -1440,7 +1440,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:960
 msgid "References and Footnotes"
-msgstr ""
+msgstr "References and Footnotes"
 
 #: ../../source/peps/pep-0258.rst:962
 msgid ""
@@ -1462,7 +1462,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:997
 msgid "Project Web Site"
-msgstr ""
+msgstr "Project Web Site"
 
 #: ../../source/peps/pep-0258.rst:999
 msgid ""
@@ -1472,15 +1472,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0258.rst:1005
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/peps/pep-0258.rst:1007
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/peps/pep-0258.rst:1012
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Acknowledgements"
 
 #: ../../source/peps/pep-0258.rst:1014
 msgid ""

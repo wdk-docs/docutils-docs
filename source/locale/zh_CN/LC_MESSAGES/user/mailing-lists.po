@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/user/mailing-lists.rst:3
 msgid "Docutils_ Mailing Lists"
-msgstr ""
+msgstr "Docutils_ 邮件列表"
 
 #: ../../source/user/mailing-lists.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/mailing-lists.rst:5
 msgid "Lea Wiemann"
-msgstr ""
+msgstr "Lea Wiemann"
 
 #: ../../source/user/mailing-lists.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/user/mailing-lists.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/user/mailing-lists.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/user/mailing-lists.rst:7
 msgid "$Revision: 8111 $"
-msgstr ""
+msgstr "$Revision: 8111 $"
 
 #: ../../source/user/mailing-lists.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/mailing-lists.rst:8
 msgid "$Date: 2017-06-10 22:35:01 +0200 (Sa, 10. Jun 2017) $"
-msgstr ""
+msgstr "$Date: 2017-06-10 22:35:01 +0200 (Sa, 10. Jun 2017) $"
 
 #: ../../source/user/mailing-lists.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/user/mailing-lists.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/user/mailing-lists.rst:31
 msgid "All discussion about Docutils takes place on mailing lists."
-msgstr ""
+msgstr "All discussion about Docutils takes place on mailing lists."
 
 #: ../../source/user/mailing-lists.rst:33
 msgid ""
@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../source/user/mailing-lists.rst:39
 msgid "Docutils-users"
-msgstr ""
+msgstr "Docutils-users"
 
 #: ../../source/user/mailing-lists.rst:41
 msgid ""
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../source/user/mailing-lists.rst:87
 msgid "Docutils-develop"
-msgstr ""
+msgstr "Docutils-develop"
 
 #: ../../source/user/mailing-lists.rst:89
 msgid ""
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../source/user/mailing-lists.rst:104
 msgid "Docutils-checkins"
-msgstr ""
+msgstr "Docutils-checkins"
 
 #: ../../source/user/mailing-lists.rst:106
 msgid ""
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../../source/user/mailing-lists.rst:128
 msgid "Doc-SIG"
-msgstr ""
+msgstr "Doc-SIG"
 
 #: ../../source/user/mailing-lists.rst:130
 msgid ""

@@ -20,43 +20,43 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:3
 msgid "Docutils_ Testing"
-msgstr ""
+msgstr "Docutils_ 测试"
 
 #: ../../source/dev/testing.rst
 msgid "Authors"
-msgstr ""
+msgstr "Authors"
 
 #: ../../source/dev/testing.rst:5
 msgid "Lea Wiemann <LeWiemann@gmail.com>; David Goodger <goodger@python.org>"
-msgstr ""
+msgstr "Lea Wiemann <LeWiemann@gmail.com>; David Goodger <goodger@python.org>"
 
 #: ../../source/dev/testing.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/testing.rst:7
 msgid "$Revision: 8162 $"
-msgstr ""
+msgstr "$Revision: 8162 $"
 
 #: ../../source/dev/testing.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/testing.rst:8
 msgid "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
-msgstr ""
+msgstr "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
 
 #: ../../source/dev/testing.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/testing.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/testing.rst:13
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/testing.rst:15
 msgid ""
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:24
 msgid "Running the Test Suite"
-msgstr ""
+msgstr "Running the Test Suite"
 
 #: ../../source/dev/testing.rst:26
 msgid ""
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:39
 msgid "Python Versions"
-msgstr ""
+msgstr "Python Versions"
 
 #: ../../source/dev/testing.rst:41
 msgid ""
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:45
 msgid "The Docutils 0.15 release supports Python 2.6 or later."
-msgstr ""
+msgstr "The Docutils 0.15 release supports Python 2.6 or later."
 
 #: ../../source/dev/testing.rst:47
 msgid ""
@@ -112,31 +112,31 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:52
 msgid "Good resources covering the differences between Python versions:"
-msgstr ""
+msgstr "Good resources covering the differences between Python versions:"
 
 #: ../../source/dev/testing.rst:54
 msgid "`What's New in Python 2.6`__"
-msgstr ""
+msgstr "`What's New in Python 2.6`__"
 
 #: ../../source/dev/testing.rst:55
 msgid "`What's New in Python 2.7`__"
-msgstr ""
+msgstr "`What's New in Python 2.7`__"
 
 #: ../../source/dev/testing.rst:56
 msgid "`What's New in Python 3.3`__"
-msgstr ""
+msgstr "`What's New in Python 3.3`__"
 
 #: ../../source/dev/testing.rst:57
 msgid "`What's New in Python 3.4`__"
-msgstr ""
+msgstr "`What's New in Python 3.4`__"
 
 #: ../../source/dev/testing.rst:58
 msgid "`PEP 290 - Code Migration and Modernization`__"
-msgstr ""
+msgstr "`PEP 290 - Code Migration and Modernization`__"
 
 #: ../../source/dev/testing.rst:73
 msgid "Testing across multiple python versions"
-msgstr ""
+msgstr "Testing across multiple python versions"
 
 #: ../../source/dev/testing.rst:75
 msgid ""
@@ -158,11 +158,11 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:103
 msgid "Unit Tests"
-msgstr ""
+msgstr "Unit Tests"
 
 #: ../../source/dev/testing.rst:105
 msgid "Unit tests test single functions or modules (i.e. whitebox testing)."
-msgstr ""
+msgstr "Unit tests test single functions or modules (i.e. whitebox testing)."
 
 #: ../../source/dev/testing.rst:107
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:118
 msgid "Writing New Tests"
-msgstr ""
+msgstr "Writing New Tests"
 
 #: ../../source/dev/testing.rst:120
 msgid ""
@@ -206,19 +206,19 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:165
 msgid "Unit tests and functional test should generally set ::"
-msgstr ""
+msgstr "Unit tests and functional test should generally set ::"
 
 #: ../../source/dev/testing.rst:169
 msgid "in order to be independent on the users local configuration."
-msgstr ""
+msgstr "in order to be independent on the users local configuration."
 
 #: ../../source/dev/testing.rst:174
 msgid "Functional Tests"
-msgstr ""
+msgstr "Functional Tests"
 
 #: ../../source/dev/testing.rst:176
 msgid "The directory ``test/functional/`` contains data for functional tests."
-msgstr ""
+msgstr "The directory ``test/functional/`` contains data for functional tests."
 
 #: ../../source/dev/testing.rst:178
 msgid ""
@@ -228,47 +228,47 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:183
 msgid "Directory Structure"
-msgstr ""
+msgstr "Directory Structure"
 
 #: ../../source/dev/testing.rst:185
 msgid "``functional/`` The main data directory."
-msgstr ""
+msgstr "``functional/`` The main data directory."
 
 #: ../../source/dev/testing.rst:187
 msgid "``input/`` The input files."
-msgstr ""
+msgstr "``input/`` The input files."
 
 #: ../../source/dev/testing.rst:189
 msgid "``some_test.txt``, for example."
-msgstr ""
+msgstr "``some_test.txt``, for example."
 
 #: ../../source/dev/testing.rst:191
 msgid "``output/`` The actual output."
-msgstr ""
+msgstr "``output/`` The actual output."
 
 #: ../../source/dev/testing.rst:193 ../../source/dev/testing.rst:197
 msgid "``some_test.html``, for example."
-msgstr ""
+msgstr "``some_test.html``, for example."
 
 #: ../../source/dev/testing.rst:195
 msgid "``expected/`` The expected output."
-msgstr ""
+msgstr "``expected/`` The expected output."
 
 #: ../../source/dev/testing.rst:199
 msgid "``tests/`` The config files for processing the input files."
-msgstr ""
+msgstr "``tests/`` The config files for processing the input files."
 
 #: ../../source/dev/testing.rst:201
 msgid "``some_test.py``, for example."
-msgstr ""
+msgstr "``some_test.py``, for example."
 
 #: ../../source/dev/testing.rst:203
 msgid "``_default.py``, the `default configuration file`_."
-msgstr ""
+msgstr "``_default.py``, the `default configuration file`_."
 
 #: ../../source/dev/testing.rst:207
 msgid "The Testing Process"
-msgstr ""
+msgstr "The Testing Process"
 
 #: ../../source/dev/testing.rst:209
 msgid ""
@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:214
 msgid "For example, ``functional/tests/some_test.py`` could read like this::"
-msgstr ""
+msgstr "For example, ``functional/tests/some_test.py`` could read like this::"
 
 #: ../../source/dev/testing.rst:228
 msgid ""
@@ -317,7 +317,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:253
 msgid "Creating New Tests"
-msgstr ""
+msgstr "Creating New Tests"
 
 #: ../../source/dev/testing.rst:255
 msgid ""
@@ -338,7 +338,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:266
 msgid "If you rerun ``test_functional.py`` now, it should pass."
-msgstr ""
+msgstr "If you rerun ``test_functional.py`` now, it should pass."
 
 #: ../../source/dev/testing.rst:268
 msgid ""
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../../source/dev/testing.rst:280
 msgid "The Default Configuration File"
-msgstr ""
+msgstr "The Default Configuration File"
 
 #: ../../source/dev/testing.rst:282
 msgid ""

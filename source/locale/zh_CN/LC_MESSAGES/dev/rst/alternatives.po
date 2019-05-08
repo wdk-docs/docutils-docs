@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3
 msgid "A Record of reStructuredText Syntax Alternatives"
-msgstr ""
+msgstr "reStructuredText语法替代的记录"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/rst/alternatives.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/rst/alternatives.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/rst/alternatives.rst:7
 msgid "$Revision: 7383 $"
-msgstr ""
+msgstr "$Revision: 7383 $"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/rst/alternatives.rst:8
 msgid "$Date: 2012-03-19 18:04:49 +0100 (Mo, 19. M盲r 2012) $"
-msgstr ""
+msgstr "$Date: 2012-03-19 18:04:49 +0100 (Mo, 19. M盲r 2012) $"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/rst/alternatives.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/rst/alternatives.rst:11
 msgid ""
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:18
 msgid "The ideas are divided into sections:"
-msgstr ""
+msgstr "The ideas are divided into sections:"
 
 #: ../../source/dev/rst/alternatives.rst:20
 msgid ""
@@ -84,11 +84,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:23
 msgid "`Not Implemented`_: these ideas won't be implemented."
-msgstr ""
+msgstr "`Not Implemented`_: these ideas won't be implemented."
 
 #: ../../source/dev/rst/alternatives.rst:25
 msgid "Tabled_: these ideas should be revisited in the future."
-msgstr ""
+msgstr "Tabled_: these ideas should be revisited in the future."
 
 #: ../../source/dev/rst/alternatives.rst:27
 msgid ""
@@ -104,15 +104,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:41
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/rst/alternatives.rst:45
 msgid "Implemented"
-msgstr ""
+msgstr "Implemented"
 
 #: ../../source/dev/rst/alternatives.rst:48
 msgid "Field Lists"
-msgstr ""
+msgstr "Field Lists"
 
 #: ../../source/dev/rst/alternatives.rst:50
 msgid ""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:53
 msgid "Unadorned RFC822_ everywhere::"
-msgstr ""
+msgstr "Unadorned RFC822_ everywhere::"
 
 #: ../../source/dev/rst/alternatives.rst:58
 msgid ""
@@ -133,7 +133,7 @@ msgstr ""
 #: ../../source/dev/rst/alternatives.rst:61
 #: ../../source/dev/rst/alternatives.rst:108
 msgid "Conclusion: rejected."
-msgstr ""
+msgstr "Conclusion: rejected."
 
 #: ../../source/dev/rst/alternatives.rst:63
 msgid ""
@@ -155,7 +155,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:86
 msgid "Use a directive::"
-msgstr ""
+msgstr "Use a directive::"
 
 #: ../../source/dev/rst/alternatives.rst:93
 msgid ""
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:99
 msgid "Use Javadoc-style::"
-msgstr ""
+msgstr "Use Javadoc-style::"
 
 #: ../../source/dev/rst/alternatives.rst:105
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:110
 msgid "Use leading colons::"
-msgstr ""
+msgstr "Use leading colons::"
 
 #: ../../source/dev/rst/alternatives.rst:115
 msgid ""
@@ -192,11 +192,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:119
 msgid "Conclusion: accepted!"
-msgstr ""
+msgstr "Conclusion: accepted!"
 
 #: ../../source/dev/rst/alternatives.rst:121
 msgid "Use double colons::"
-msgstr ""
+msgstr "Use double colons::"
 
 #: ../../source/dev/rst/alternatives.rst:126
 msgid ""
@@ -208,7 +208,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:132
 msgid "Conclusion: rejected because of the syntax similarity & conflicts."
-msgstr ""
+msgstr "Conclusion: rejected because of the syntax similarity & conflicts."
 
 #: ../../source/dev/rst/alternatives.rst:134
 msgid ""
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:145
 msgid "The following question was posed in a footnote:"
-msgstr ""
+msgstr "The following question was posed in a footnote:"
 
 #: ../../source/dev/rst/alternatives.rst:147
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:162
 msgid "Interpreted Text \"Roles\""
-msgstr ""
+msgstr "Interpreted Text \"Roles\""
 
 #: ../../source/dev/rst/alternatives.rst:164
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:174
 msgid "Interpreted text is enclosed in single backquotes (`)."
-msgstr ""
+msgstr "Interpreted text is enclosed in single backquotes (`)."
 
 #: ../../source/dev/rst/alternatives.rst:176
 msgid ""
@@ -276,15 +276,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:179
 msgid "As a prefix, separated by a colon and whitespace::"
-msgstr ""
+msgstr "As a prefix, separated by a colon and whitespace::"
 
 #: ../../source/dev/rst/alternatives.rst:183
 msgid "As a suffix, separated by whitespace and a colon::"
-msgstr ""
+msgstr "As a suffix, separated by whitespace and a colon::"
 
 #: ../../source/dev/rst/alternatives.rst:187
 msgid "There are problems with the initial approach:"
-msgstr ""
+msgstr "There are problems with the initial approach:"
 
 #: ../../source/dev/rst/alternatives.rst:189
 msgid ""
@@ -302,7 +302,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:197
 msgid "Tony Ibbs suggested that the role be placed outside the backquotes::"
-msgstr ""
+msgstr "Tony Ibbs suggested that the role be placed outside the backquotes::"
 
 #: ../../source/dev/rst/alternatives.rst:202
 msgid ""
@@ -321,11 +321,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:213
 msgid "\"noise\" looks like a role."
-msgstr ""
+msgstr "\"noise\" looks like a role."
 
 #: ../../source/dev/rst/alternatives.rst:215
 msgid "As an improvement on #2, we can bracket the role with colons::"
-msgstr ""
+msgstr "As an improvement on #2, we can bracket the role with colons::"
 
 #: ../../source/dev/rst/alternatives.rst:219
 msgid ""
@@ -335,15 +335,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:222
 msgid "This is the syntax chosen for reStructuredText."
-msgstr ""
+msgstr "This is the syntax chosen for reStructuredText."
 
 #: ../../source/dev/rst/alternatives.rst:224
 msgid "Another alternative is two colons instead of one::"
-msgstr ""
+msgstr "Another alternative is two colons instead of one::"
 
 #: ../../source/dev/rst/alternatives.rst:228
 msgid "But this is used for analogies (\"A:B::C:D\": \"A is to B as C is to D\")."
-msgstr ""
+msgstr "But this is used for analogies (\"A:B::C:D\": \"A is to B as C is to D\")."
 
 #: ../../source/dev/rst/alternatives.rst:231
 msgid ""
@@ -353,23 +353,23 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:234
 msgid "Some kind of bracketing could be used:"
-msgstr ""
+msgstr "Some kind of bracketing could be used:"
 
 #: ../../source/dev/rst/alternatives.rst:236
 msgid "Parentheses::"
-msgstr ""
+msgstr "Parentheses::"
 
 #: ../../source/dev/rst/alternatives.rst:240
 msgid "Braces::"
-msgstr ""
+msgstr "Braces::"
 
 #: ../../source/dev/rst/alternatives.rst:244
 msgid "Square brackets::"
-msgstr ""
+msgstr "Square brackets::"
 
 #: ../../source/dev/rst/alternatives.rst:248
 msgid "Angle brackets::"
-msgstr ""
+msgstr "Angle brackets::"
 
 #: ../../source/dev/rst/alternatives.rst:252
 msgid ""
@@ -379,11 +379,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:255
 msgid "Syntax #3 was chosen for reStructuredText."
-msgstr ""
+msgstr "Syntax #3 was chosen for reStructuredText."
 
 #: ../../source/dev/rst/alternatives.rst:259
 msgid "Comments"
-msgstr ""
+msgstr "Comments"
 
 #: ../../source/dev/rst/alternatives.rst:261
 msgid ""
@@ -420,11 +420,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:284
 msgid "Anonymous Hyperlinks"
-msgstr ""
+msgstr "Anonymous Hyperlinks"
 
 #: ../../source/dev/rst/alternatives.rst:286
 msgid "Alan Jaffray came up with this idea, along with the following syntax::"
-msgstr ""
+msgstr "Alan Jaffray came up with this idea, along with the following syntax::"
 
 #: ../../source/dev/rst/alternatives.rst:292
 msgid ""
@@ -463,7 +463,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:332
 msgid "Reworking Explicit Markup (Round 1)"
-msgstr ""
+msgstr "Reworking Explicit Markup (Round 1)"
 
 #: ../../source/dev/rst/alternatives.rst:334
 msgid ""
@@ -477,15 +477,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:342
 msgid "Original syntax::"
-msgstr ""
+msgstr "Original syntax::"
 
 #: ../../source/dev/rst/alternatives.rst:356
 msgid "The comment text was intentionally made to look like a hyperlink target."
-msgstr ""
+msgstr "The comment text was intentionally made to look like a hyperlink target."
 
 #: ../../source/dev/rst/alternatives.rst:359
 msgid "Origins:"
-msgstr ""
+msgstr "Origins:"
 
 #: ../../source/dev/rst/alternatives.rst:361
 msgid ""
@@ -495,15 +495,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:363
 msgid "Comment syntax from Setext."
-msgstr ""
+msgstr "Comment syntax from Setext."
 
 #: ../../source/dev/rst/alternatives.rst:364
 msgid "Footnote syntax from StructuredText (\"named links\")."
-msgstr ""
+msgstr "Footnote syntax from StructuredText (\"named links\")."
 
 #: ../../source/dev/rst/alternatives.rst:365
 msgid "Directives and anonymous hyperlinks original to reStructuredText."
-msgstr ""
+msgstr "Directives and anonymous hyperlinks original to reStructuredText."
 
 #: ../../source/dev/rst/alternatives.rst:367
 #: ../../source/dev/rst/alternatives.rst:393
@@ -514,15 +514,15 @@ msgstr ""
 #: ../../source/dev/rst/alternatives.rst:920
 #: ../../source/dev/rst/alternatives.rst:967
 msgid "Advantages:"
-msgstr ""
+msgstr "Advantages:"
 
 #: ../../source/dev/rst/alternatives.rst:369
 msgid "Consistent explicit markup indicator: \"..\"."
-msgstr ""
+msgstr "Consistent explicit markup indicator: \"..\"."
 
 #: ../../source/dev/rst/alternatives.rst:370
 msgid "Consistent hyperlink syntax: \".. _\" & \":\"."
-msgstr ""
+msgstr "Consistent hyperlink syntax: \".. _\" & \":\"."
 
 #: ../../source/dev/rst/alternatives.rst:372
 #: ../../source/dev/rst/alternatives.rst:398
@@ -534,15 +534,15 @@ msgstr ""
 #: ../../source/dev/rst/alternatives.rst:924
 #: ../../source/dev/rst/alternatives.rst:982
 msgid "Disadvantages:"
-msgstr ""
+msgstr "Disadvantages:"
 
 #: ../../source/dev/rst/alternatives.rst:374
 msgid "Anonymous target markup is awkward: \".. __:\"."
-msgstr ""
+msgstr "Anonymous target markup is awkward: \".. __:\"."
 
 #: ../../source/dev/rst/alternatives.rst:375
 msgid "The explicit markup indicator (\"..\") is excessively overloaded?"
-msgstr ""
+msgstr "The explicit markup indicator (\"..\") is excessively overloaded?"
 
 #: ../../source/dev/rst/alternatives.rst:376
 msgid ""
@@ -552,20 +552,20 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:379
 msgid "Alan Jaffray's proposed syntax #1::"
-msgstr ""
+msgstr "Alan Jaffray's proposed syntax #1::"
 
 #: ../../source/dev/rst/alternatives.rst:391
 msgid "The hyperlink-connoted underscores have become first-level syntax."
-msgstr ""
+msgstr "The hyperlink-connoted underscores have become first-level syntax."
 
 #: ../../source/dev/rst/alternatives.rst:395
 #: ../../source/dev/rst/alternatives.rst:471
 msgid "Anonymous targets are simpler."
-msgstr ""
+msgstr "Anonymous targets are simpler."
 
 #: ../../source/dev/rst/alternatives.rst:396
 msgid "All hyperlink targets are one character shorter."
-msgstr ""
+msgstr "All hyperlink targets are one character shorter."
 
 #: ../../source/dev/rst/alternatives.rst:400
 msgid ""
@@ -577,11 +577,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:407
 msgid "Obtrusive markup?"
-msgstr ""
+msgstr "Obtrusive markup?"
 
 #: ../../source/dev/rst/alternatives.rst:409
 msgid "Alan Jaffray's proposed syntax #2::"
-msgstr ""
+msgstr "Alan Jaffray's proposed syntax #2::"
 
 #: ../../source/dev/rst/alternatives.rst:421
 msgid ""
@@ -591,7 +591,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:426
 msgid "Anonymous hyperlinks are simpler."
-msgstr ""
+msgstr "Anonymous hyperlinks are simpler."
 
 #: ../../source/dev/rst/alternatives.rst:427
 msgid ""
@@ -601,7 +601,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:429
 msgid "Unique syntax for directives.  Connotation of \"action!\"."
-msgstr ""
+msgstr "Unique syntax for directives.  Connotation of \"action!\"."
 
 #: ../../source/dev/rst/alternatives.rst:433
 msgid ""
@@ -621,15 +621,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:445
 msgid "Obtrusive syntax for comments.  Alternatives::"
-msgstr ""
+msgstr "Obtrusive syntax for comments.  Alternatives::"
 
 #: ../../source/dev/rst/alternatives.rst:452
 msgid "Iffy syntax for directives.  Alternatives?"
-msgstr ""
+msgstr "Iffy syntax for directives.  Alternatives?"
 
 #: ../../source/dev/rst/alternatives.rst:454
 msgid "Tony Ibbs' proposed syntax::"
-msgstr ""
+msgstr "Tony Ibbs' proposed syntax::"
 
 #: ../../source/dev/rst/alternatives.rst:466
 msgid ""
@@ -639,7 +639,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:469
 msgid "Advantage:"
-msgstr ""
+msgstr "Advantage:"
 
 #: ../../source/dev/rst/alternatives.rst:475
 msgid ""
@@ -663,15 +663,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:493
 msgid "Alternative 5 has been adopted."
-msgstr ""
+msgstr "Alternative 5 has been adopted."
 
 #: ../../source/dev/rst/alternatives.rst:497
 msgid "Backquotes in Phrase-Links"
-msgstr ""
+msgstr "Backquotes in Phrase-Links"
 
 #: ../../source/dev/rst/alternatives.rst:499
 msgid "[From a 2001-06-05 Doc-SIG post in reply to questions from Doug Hellmann.]"
-msgstr ""
+msgstr "[From a 2001-06-05 Doc-SIG post in reply to questions from Doug Hellmann.]"
 
 #: ../../source/dev/rst/alternatives.rst:502
 msgid ""
@@ -709,7 +709,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:523
 msgid "I worked out some rules for inline markup recognition."
-msgstr ""
+msgstr "I worked out some rules for inline markup recognition."
 
 #: ../../source/dev/rst/alternatives.rst:525
 msgid ""
@@ -722,11 +722,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:531
 msgid "Single backquotes are then freed up for interpreted text."
-msgstr ""
+msgstr "Single backquotes are then freed up for interpreted text."
 
 #: ../../source/dev/rst/alternatives.rst:533
 msgid "I already had square brackets required for footnote references."
-msgstr ""
+msgstr "I already had square brackets required for footnote references."
 
 #: ../../source/dev/rst/alternatives.rst:535
 msgid ""
@@ -751,7 +751,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:549
 msgid "Substitution Mechanism"
-msgstr ""
+msgstr "Substitution Mechanism"
 
 #: ../../source/dev/rst/alternatives.rst:551
 msgid ""
@@ -784,7 +784,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:578
 msgid "Syntax alternatives for the reference:"
-msgstr ""
+msgstr "Syntax alternatives for the reference:"
 
 #: ../../source/dev/rst/alternatives.rst:580
 msgid ""
@@ -794,7 +794,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:585
 msgid "Advantages: existing syntax, explicit.  Disadvantages: verbose, obtrusive."
-msgstr ""
+msgstr "Advantages: existing syntax, explicit.  Disadvantages: verbose, obtrusive."
 
 #: ../../source/dev/rst/alternatives.rst:588
 msgid ""
@@ -810,7 +810,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:603
 msgid "Use interpreted text syntax with a fixed internal format::"
-msgstr ""
+msgstr "Use interpreted text syntax with a fixed internal format::"
 
 #: ../../source/dev/rst/alternatives.rst:619
 msgid ""
@@ -835,7 +835,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:632
 msgid "Use specialized syntax, something new::"
-msgstr ""
+msgstr "Use specialized syntax, something new::"
 
 #: ../../source/dev/rst/alternatives.rst:649
 msgid ""
@@ -846,7 +846,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:653
 msgid "\"|\" (d) and \"^\" (h) are feasible."
-msgstr ""
+msgstr "\"|\" (d) and \"^\" (h) are feasible."
 
 #: ../../source/dev/rst/alternatives.rst:655
 msgid ""
@@ -856,7 +856,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:658
 msgid "Syntax alternatives for the definition:"
-msgstr ""
+msgstr "Syntax alternatives for the definition:"
 
 #: ../../source/dev/rst/alternatives.rst:660
 msgid ""
@@ -867,15 +867,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:672
 msgid "The advantages and disadvantages are the same as in inline alternative 1."
-msgstr ""
+msgstr "The advantages and disadvantages are the same as in inline alternative 1."
 
 #: ../../source/dev/rst/alternatives.rst:675
 msgid "Use syntax as in #1, but with an embedded directivecompressed::"
-msgstr ""
+msgstr "Use syntax as in #1, but with an embedded directivecompressed::"
 
 #: ../../source/dev/rst/alternatives.rst:680
 msgid "This is a bit better than alternative 1, but still too much."
-msgstr ""
+msgstr "This is a bit better than alternative 1, but still too much."
 
 #: ../../source/dev/rst/alternatives.rst:682
 msgid ""
@@ -887,7 +887,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:690
 msgid "(Suggested by Alan Jaffray on Doc-SIG from 2001-11-06.)"
-msgstr ""
+msgstr "(Suggested by Alan Jaffray on Doc-SIG from 2001-11-06.)"
 
 #: ../../source/dev/rst/alternatives.rst:692
 msgid ""
@@ -906,7 +906,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:711
 msgid "(``::`` after ``.. _Jonathan: lj``.)"
-msgstr ""
+msgstr "(``::`` after ``.. _Jonathan: lj``.)"
 
 #: ../../source/dev/rst/alternatives.rst:713
 msgid ""
@@ -922,7 +922,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:723
 msgid "This seems too indirect and complicated for easy comprehension."
-msgstr ""
+msgstr "This seems too indirect and complicated for easy comprehension."
 
 #: ../../source/dev/rst/alternatives.rst:725
 msgid ""
@@ -933,7 +933,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:732
 msgid "That's a problem."
-msgstr ""
+msgstr "That's a problem."
 
 #: ../../source/dev/rst/alternatives.rst:734
 msgid ""
@@ -957,144 +957,144 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:757
 msgid "Candidate names for the reference construct:"
-msgstr ""
+msgstr "Candidate names for the reference construct:"
 
 #: ../../source/dev/rst/alternatives.rst:759
 msgid "substitution reference"
-msgstr ""
+msgstr "substitution reference"
 
 #: ../../source/dev/rst/alternatives.rst:760
 msgid "tagging reference"
-msgstr ""
+msgstr "tagging reference"
 
 #: ../../source/dev/rst/alternatives.rst:761
 msgid "inline directive reference"
-msgstr ""
+msgstr "inline directive reference"
 
 #: ../../source/dev/rst/alternatives.rst:762
 msgid "directive reference"
-msgstr ""
+msgstr "directive reference"
 
 #: ../../source/dev/rst/alternatives.rst:763
 msgid "indirect inline directive reference"
-msgstr ""
+msgstr "indirect inline directive reference"
 
 #: ../../source/dev/rst/alternatives.rst:764
 msgid "inline directive placeholder"
-msgstr ""
+msgstr "inline directive placeholder"
 
 #: ../../source/dev/rst/alternatives.rst:765
 msgid "inline directive insertion reference"
-msgstr ""
+msgstr "inline directive insertion reference"
 
 #: ../../source/dev/rst/alternatives.rst:766
 msgid "directive insertion reference"
-msgstr ""
+msgstr "directive insertion reference"
 
 #: ../../source/dev/rst/alternatives.rst:767
 msgid "insertion reference"
-msgstr ""
+msgstr "insertion reference"
 
 #: ../../source/dev/rst/alternatives.rst:768
 msgid "directive macro reference"
-msgstr ""
+msgstr "directive macro reference"
 
 #: ../../source/dev/rst/alternatives.rst:769
 msgid "macro reference"
-msgstr ""
+msgstr "macro reference"
 
 #: ../../source/dev/rst/alternatives.rst:770
 msgid "substitution directive reference"
-msgstr ""
+msgstr "substitution directive reference"
 
 #: ../../source/dev/rst/alternatives.rst:772
 msgid "Candidate names for the definition construct:"
-msgstr ""
+msgstr "Candidate names for the definition construct:"
 
 #: ../../source/dev/rst/alternatives.rst:774
 msgid "substitution"
-msgstr ""
+msgstr "substitution"
 
 #: ../../source/dev/rst/alternatives.rst:775
 msgid "substitution directive"
-msgstr ""
+msgstr "substitution directive"
 
 #: ../../source/dev/rst/alternatives.rst:776
 msgid "tag"
-msgstr ""
+msgstr "tag"
 
 #: ../../source/dev/rst/alternatives.rst:777
 msgid "tagged directive"
-msgstr ""
+msgstr "tagged directive"
 
 #: ../../source/dev/rst/alternatives.rst:778
 msgid "directive target"
-msgstr ""
+msgstr "directive target"
 
 #: ../../source/dev/rst/alternatives.rst:779
 msgid "inline directive"
-msgstr ""
+msgstr "inline directive"
 
 #: ../../source/dev/rst/alternatives.rst:780
 msgid "inline directive definition"
-msgstr ""
+msgstr "inline directive definition"
 
 #: ../../source/dev/rst/alternatives.rst:781
 msgid "referenced directive"
-msgstr ""
+msgstr "referenced directive"
 
 #: ../../source/dev/rst/alternatives.rst:782
 msgid "indirect directive"
-msgstr ""
+msgstr "indirect directive"
 
 #: ../../source/dev/rst/alternatives.rst:783
 msgid "indirect directive definition"
-msgstr ""
+msgstr "indirect directive definition"
 
 #: ../../source/dev/rst/alternatives.rst:784
 msgid "directive definition"
-msgstr ""
+msgstr "directive definition"
 
 #: ../../source/dev/rst/alternatives.rst:785
 msgid "indirect inline directive"
-msgstr ""
+msgstr "indirect inline directive"
 
 #: ../../source/dev/rst/alternatives.rst:786
 msgid "named directive definition"
-msgstr ""
+msgstr "named directive definition"
 
 #: ../../source/dev/rst/alternatives.rst:787
 msgid "inline directive insertion definition"
-msgstr ""
+msgstr "inline directive insertion definition"
 
 #: ../../source/dev/rst/alternatives.rst:788
 msgid "directive insertion definition"
-msgstr ""
+msgstr "directive insertion definition"
 
 #: ../../source/dev/rst/alternatives.rst:789
 msgid "insertion definition"
-msgstr ""
+msgstr "insertion definition"
 
 #: ../../source/dev/rst/alternatives.rst:790
 msgid "insertion directive"
-msgstr ""
+msgstr "insertion directive"
 
 #: ../../source/dev/rst/alternatives.rst:791
 #: ../../source/dev/rst/alternatives.rst:795
 msgid "substitution definition"
-msgstr ""
+msgstr "substitution definition"
 
 #: ../../source/dev/rst/alternatives.rst:792
 msgid "directive macro definition"
-msgstr ""
+msgstr "directive macro definition"
 
 #: ../../source/dev/rst/alternatives.rst:793
 msgid "macro definition"
-msgstr ""
+msgstr "macro definition"
 
 #: ../../source/dev/rst/alternatives.rst:794
 msgid "substitution directive definition"
-msgstr ""
+msgstr "substitution directive definition"
 
 #: ../../source/dev/rst/alternatives.rst:797
 msgid ""
@@ -1136,20 +1136,20 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:822
 msgid "Inline External Targets"
-msgstr ""
+msgstr "Inline External Targets"
 
 #: ../../source/dev/rst/alternatives.rst:824
 msgid "Currently reStructuredText has two hyperlink syntax variations:"
-msgstr ""
+msgstr "Currently reStructuredText has two hyperlink syntax variations:"
 
 #: ../../source/dev/rst/alternatives.rst:826
 msgid "Named hyperlinks::"
-msgstr ""
+msgstr "Named hyperlinks::"
 
 #: ../../source/dev/rst/alternatives.rst:838
 #: ../../source/dev/rst/alternatives.rst:862
 msgid "The plaintext is readable."
-msgstr ""
+msgstr "The plaintext is readable."
 
 #: ../../source/dev/rst/alternatives.rst:839
 msgid ""
@@ -1159,7 +1159,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:841
 msgid "No syncronized ordering of references and targets is necessary."
-msgstr ""
+msgstr "No syncronized ordering of references and targets is necessary."
 
 #: ../../source/dev/rst/alternatives.rst:845
 msgid ""
@@ -1175,25 +1175,25 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:850
 msgid "Anonymous hyperlinks (in current reStructuredText)::"
-msgstr ""
+msgstr "Anonymous hyperlinks (in current reStructuredText)::"
 
 #: ../../source/dev/rst/alternatives.rst:863
 #: ../../source/dev/rst/alternatives.rst:973
 msgid "The reference text does not have to be repeated."
-msgstr ""
+msgstr "The reference text does not have to be repeated."
 
 #: ../../source/dev/rst/alternatives.rst:867
 msgid "References and targets must be kept in sync."
-msgstr ""
+msgstr "References and targets must be kept in sync."
 
 #: ../../source/dev/rst/alternatives.rst:868
 #: ../../source/dev/rst/alternatives.rst:895
 msgid "Targets cannot be reused."
-msgstr ""
+msgstr "Targets cannot be reused."
 
 #: ../../source/dev/rst/alternatives.rst:869
 msgid "The target URLs may be located far from the references."
-msgstr ""
+msgstr "The target URLs may be located far from the references."
 
 #: ../../source/dev/rst/alternatives.rst:871
 msgid ""
@@ -1203,30 +1203,30 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:874
 msgid "First, ``\"reference text\":URL``::"
-msgstr ""
+msgstr "First, ``\"reference text\":URL``::"
 
 #: ../../source/dev/rst/alternatives.rst:880
 msgid "Second, ``\"reference text\", http://example.com/absolute_URL``::"
-msgstr ""
+msgstr "Second, ``\"reference text\", http://example.com/absolute_URL``::"
 
 #: ../../source/dev/rst/alternatives.rst:886
 msgid "Both syntaxes share advantages and disadvantages:"
-msgstr ""
+msgstr "Both syntaxes share advantages and disadvantages:"
 
 #: ../../source/dev/rst/alternatives.rst:890
 #: ../../source/dev/rst/alternatives.rst:922
 msgid "The target is specified immediately adjacent to the reference."
-msgstr ""
+msgstr "The target is specified immediately adjacent to the reference."
 
 #: ../../source/dev/rst/alternatives.rst:894
 #: ../../source/dev/rst/alternatives.rst:926
 #: ../../source/dev/rst/alternatives.rst:984
 msgid "Poor plaintext readability."
-msgstr ""
+msgstr "Poor plaintext readability."
 
 #: ../../source/dev/rst/alternatives.rst:896
 msgid "Both syntaxes use double quotes, common in ordinary text."
-msgstr ""
+msgstr "Both syntaxes use double quotes, common in ordinary text."
 
 #: ../../source/dev/rst/alternatives.rst:897
 msgid ""
@@ -1243,7 +1243,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:903
 msgid "A new type of \"inline external hyperlink\" has been proposed."
-msgstr ""
+msgstr "A new type of \"inline external hyperlink\" has been proposed."
 
 #: ../../source/dev/rst/alternatives.rst:905
 msgid ""
@@ -1259,11 +1259,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:927
 msgid "Targets cannot be reused (unless named, but the semantics are unclear)."
-msgstr ""
+msgstr "Targets cannot be reused (unless named, but the semantics are unclear)."
 
 #: ../../source/dev/rst/alternatives.rst:930
 msgid "Problems:"
-msgstr ""
+msgstr "Problems:"
 
 #: ../../source/dev/rst/alternatives.rst:932
 msgid ""
@@ -1295,7 +1295,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:950
 msgid "The named/anonymous semantics are unclear."
-msgstr ""
+msgstr "The named/anonymous semantics are unclear."
 
 #: ../../source/dev/rst/alternatives.rst:952
 msgid ""
@@ -1317,7 +1317,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:972
 msgid "References and targets are easily kept in sync."
-msgstr ""
+msgstr "References and targets are easily kept in sync."
 
 #: ../../source/dev/rst/alternatives.rst:975
 msgid ""
@@ -1328,15 +1328,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:979
 msgid "There's overwhelming precedent for quoting URLs with angle brackets [#]_."
-msgstr ""
+msgstr "There's overwhelming precedent for quoting URLs with angle brackets [#]_."
 
 #: ../../source/dev/rst/alternatives.rst:985
 msgid "Lots of \"line noise\"."
-msgstr ""
+msgstr "Lots of \"line noise\"."
 
 #: ../../source/dev/rst/alternatives.rst:986
 msgid "Targets cannot be reused (unless named; see below)."
-msgstr ""
+msgstr "Targets cannot be reused (unless named; see below)."
 
 #: ../../source/dev/rst/alternatives.rst:988
 msgid ""
@@ -1365,7 +1365,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1010
 msgid "From RFC 2396 (URI syntax):"
-msgstr ""
+msgstr "From RFC 2396 (URI syntax):"
 
 #: ../../source/dev/rst/alternatives.rst:1012
 msgid ""
@@ -1382,7 +1382,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1021
 msgid "From RFC 822 (email headers):"
-msgstr ""
+msgstr "From RFC 822 (email headers):"
 
 #: ../../source/dev/rst/alternatives.rst:1023
 msgid ""
@@ -1409,7 +1409,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1043
 msgid "We'll call this variant \"embedded URIs\"."
-msgstr ""
+msgstr "We'll call this variant \"embedded URIs\"."
 
 #: ../../source/dev/rst/alternatives.rst:1045
 msgid ""
@@ -1429,7 +1429,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1056
 msgid "I think this is the least objectionable of the syntax alternatives."
-msgstr ""
+msgstr "I think this is the least objectionable of the syntax alternatives."
 
 #: ../../source/dev/rst/alternatives.rst:1058
 msgid ""
@@ -1465,7 +1465,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1087
 msgid "To which I said, \"So use anonymous hyperlinks.\""
-msgstr ""
+msgstr "To which I said, \"So use anonymous hyperlinks.\""
 
 #: ../../source/dev/rst/alternatives.rst:1089
 msgid ""
@@ -1481,7 +1481,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1095
 msgid "But targets grouped after paragraphs break the flow of text."
-msgstr ""
+msgstr "But targets grouped after paragraphs break the flow of text."
 
 #: ../../source/dev/rst/alternatives.rst:1097
 msgid ""
@@ -1492,7 +1492,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1101
 msgid "Many participants have voiced their objections to the proposed syntax:"
-msgstr ""
+msgstr "Many participants have voiced their objections to the proposed syntax:"
 
 #: ../../source/dev/rst/alternatives.rst:1103
 msgid ""
@@ -1516,7 +1516,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1115
 msgid "Others have voiced their support:"
-msgstr ""
+msgstr "Others have voiced their support:"
 
 #: ../../source/dev/rst/alternatives.rst:1117
 msgid ""
@@ -1561,7 +1561,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1145
 msgid "Doctree Representation of Transitions"
-msgstr ""
+msgstr "Doctree Representation of Transitions"
 
 #: ../../source/dev/rst/alternatives.rst:1147
 msgid ""
@@ -1586,7 +1586,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1178
 msgid "There are several possibilities for the implementation:"
-msgstr ""
+msgstr "There are several possibilities for the implementation:"
 
 #: ../../source/dev/rst/alternatives.rst:1180
 msgid ""
@@ -1605,7 +1605,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1199
 msgid "Treating \"divisions\" uniformly brings us to the second possibility::"
-msgstr ""
+msgstr "Treating \"divisions\" uniformly brings us to the second possibility::"
 
 #: ../../source/dev/rst/alternatives.rst:1213
 msgid ""
@@ -1619,7 +1619,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1221
 msgid "Implement them as \"transitions\", empty elements::"
-msgstr ""
+msgstr "Implement them as \"transitions\", empty elements::"
 
 #: ../../source/dev/rst/alternatives.rst:1233
 msgid ""
@@ -1633,11 +1633,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1240
 msgid "Solution 3 was chosen for incorporation into the document tree model."
-msgstr ""
+msgstr "Solution 3 was chosen for incorporation into the document tree model."
 
 #: ../../source/dev/rst/alternatives.rst:1246
 msgid "Syntax for Line Blocks"
-msgstr ""
+msgstr "Syntax for Line Blocks"
 
 #: ../../source/dev/rst/alternatives.rst:1248
 msgid ""
@@ -1647,7 +1647,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1268
 msgid "Kinda lame."
-msgstr ""
+msgstr "Kinda lame."
 
 #: ../../source/dev/rst/alternatives.rst:1270
 msgid ""
@@ -1685,11 +1685,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1300
 msgid "long lines wrap nicely"
-msgstr ""
+msgstr "long lines wrap nicely"
 
 #: ../../source/dev/rst/alternatives.rst:1301
 msgid "HTML output doesn't look like program code in non-CSS web browsers"
-msgstr ""
+msgstr "HTML output doesn't look like program code in non-CSS web browsers"
 
 #: ../../source/dev/rst/alternatives.rst:1304
 msgid ""
@@ -1706,11 +1706,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1313
 msgid "Syntax"
-msgstr ""
+msgstr "Syntax"
 
 #: ../../source/dev/rst/alternatives.rst:1315
 msgid "Perhaps line block syntax like this would do::"
-msgstr ""
+msgstr "Perhaps line block syntax like this would do::"
 
 #: ../../source/dev/rst/alternatives.rst:1325
 msgid ""
@@ -1735,15 +1735,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1345
 msgid "Internal Representation"
-msgstr ""
+msgstr "Internal Representation"
 
 #: ../../source/dev/rst/alternatives.rst:1347
 msgid "Line blocks are currently represented as text blobs as follows::"
-msgstr ""
+msgstr "Line blocks are currently represented as text blobs as follows::"
 
 #: ../../source/dev/rst/alternatives.rst:1354
 msgid "Instead, we could represent each line by a separate element::"
-msgstr ""
+msgstr "Instead, we could represent each line by a separate element::"
 
 #: ../../source/dev/rst/alternatives.rst:1362
 msgid ""
@@ -1757,11 +1757,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1369
 msgid "Representing a more complex line block may be tricky::"
-msgstr ""
+msgstr "Representing a more complex line block may be tricky::"
 
 #: ../../source/dev/rst/alternatives.rst:1376
 msgid "Perhaps the representation could allow for nested line blocks::"
-msgstr ""
+msgstr "Perhaps the representation could allow for nested line blocks::"
 
 #: ../../source/dev/rst/alternatives.rst:1380
 msgid ""
@@ -1772,7 +1772,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1397
 msgid "I wasn't sure what to do about even more complex line blocks::"
-msgstr ""
+msgstr "I wasn't sure what to do about even more complex line blocks::"
 
 #: ../../source/dev/rst/alternatives.rst:1405
 msgid ""
@@ -1787,7 +1787,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1416
 msgid "Output"
-msgstr ""
+msgstr "Output"
 
 #: ../../source/dev/rst/alternatives.rst:1418
 msgid ""
@@ -1801,7 +1801,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1425
 msgid "Jarno suggested the following HTML output::"
-msgstr ""
+msgstr "Jarno suggested the following HTML output::"
 
 #: ../../source/dev/rst/alternatives.rst:1437
 msgid ""
@@ -1821,7 +1821,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1449
 msgid "Implementation Plan"
-msgstr ""
+msgstr "Implementation Plan"
 
 #: ../../source/dev/rst/alternatives.rst:1451
 msgid ""
@@ -1834,11 +1834,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1459
 msgid "List-Driven Tables"
-msgstr ""
+msgstr "List-Driven Tables"
 
 #: ../../source/dev/rst/alternatives.rst:1461
 msgid "The original idea came from Dylan Jay:"
-msgstr ""
+msgstr "The original idea came from Dylan Jay:"
 
 #: ../../source/dev/rst/alternatives.rst:1463
 msgid ""
@@ -1856,19 +1856,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1471
 msgid "Alternatives:"
-msgstr ""
+msgstr "Alternatives:"
 
 #: ../../source/dev/rst/alternatives.rst:1473
 msgid "(Implemented in Docutils 0.3.8)."
-msgstr ""
+msgstr "(Implemented in Docutils 0.3.8)."
 
 #: ../../source/dev/rst/alternatives.rst:1475
 msgid "Bullet-list-tables might look like this::"
-msgstr ""
+msgstr "Bullet-list-tables might look like this::"
 
 #: ../../source/dev/rst/alternatives.rst:1493
 msgid "This list must be written in two levels.  This wouldn't work::"
-msgstr ""
+msgstr "This list must be written in two levels.  This wouldn't work::"
 
 #: ../../source/dev/rst/alternatives.rst:1512
 msgid ""
@@ -1931,11 +1931,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1596
 msgid "Issues:"
-msgstr ""
+msgstr "Issues:"
 
 #: ../../source/dev/rst/alternatives.rst:1598
 msgid "How to indicate that there's 1 header row?  Perhaps two lists?  ::"
-msgstr ""
+msgstr "How to indicate that there's 1 header row?  Perhaps two lists?  ::"
 
 #: ../../source/dev/rst/alternatives.rst:1610
 msgid ""
@@ -1946,7 +1946,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1623
 msgid "But the table data is at two levels and looks inconsistent."
-msgstr ""
+msgstr "But the table data is at two levels and looks inconsistent."
 
 #: ../../source/dev/rst/alternatives.rst:1625
 msgid ""
@@ -1960,15 +1960,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1639
 msgid "How to indicate the column widths?  A directive option? ::"
-msgstr ""
+msgstr "How to indicate the column widths?  A directive option? ::"
 
 #: ../../source/dev/rst/alternatives.rst:1644
 msgid "Automatic defaults from the text used?"
-msgstr ""
+msgstr "Automatic defaults from the text used?"
 
 #: ../../source/dev/rst/alternatives.rst:1646
 msgid "How to handle row and/or column spans?"
-msgstr ""
+msgstr "How to handle row and/or column spans?"
 
 #: ../../source/dev/rst/alternatives.rst:1648
 msgid ""
@@ -1978,7 +1978,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1654
 msgid "Commas were proposed for column spans::"
-msgstr ""
+msgstr "Commas were proposed for column spans::"
 
 #: ../../source/dev/rst/alternatives.rst:1658
 msgid ""
@@ -2015,7 +2015,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1679
 msgid "Explicit markup like \":rowspan:\" and \":colspan:\" was also suggested."
-msgstr ""
+msgstr "Explicit markup like \":rowspan:\" and \":colspan:\" was also suggested."
 
 #: ../../source/dev/rst/alternatives.rst:1681
 msgid ""
@@ -2032,19 +2032,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1702
 msgid "A syntax for _`stubs in grid tables` is easy to imagine::"
-msgstr ""
+msgstr "A syntax for _`stubs in grid tables` is easy to imagine::"
 
 #: ../../source/dev/rst/alternatives.rst:1710
 msgid "Or this idea from Nick Moffitt::"
-msgstr ""
+msgstr "Or this idea from Nick Moffitt::"
 
 #: ../../source/dev/rst/alternatives.rst:1722
 msgid "Auto-Enumerated Lists"
-msgstr ""
+msgstr "Auto-Enumerated Lists"
 
 #: ../../source/dev/rst/alternatives.rst:1724
 msgid "Implemented 2005-03-24: combination of variation 1 & 2."
-msgstr ""
+msgstr "Implemented 2005-03-24: combination of variation 1 & 2."
 
 #: ../../source/dev/rst/alternatives.rst:1726
 msgid ""
@@ -2057,7 +2057,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1732
 msgid "Use the \"#\" symbol.  Example::"
-msgstr ""
+msgstr "Use the \"#\" symbol.  Example::"
 
 #: ../../source/dev/rst/alternatives.rst:1738
 msgid ""
@@ -2080,7 +2080,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1752
 msgid "Alternative suggested by Fred Bremmer, from experience with MoinMoin::"
-msgstr ""
+msgstr "Alternative suggested by Fred Bremmer, from experience with MoinMoin::"
 
 #: ../../source/dev/rst/alternatives.rst:1758
 msgid ""
@@ -2093,7 +2093,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1764
 msgid "Take this input for example::"
-msgstr ""
+msgstr "Take this input for example::"
 
 #: ../../source/dev/rst/alternatives.rst:1772
 msgid ""
@@ -2106,11 +2106,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1778
 msgid "Fred has produced a patch__, whose initial behavior is as follows::"
-msgstr ""
+msgstr "Fred has produced a patch__, whose initial behavior is as follows::"
 
 #: ../../source/dev/rst/alternatives.rst:1786
 msgid "(After the \"[WARNING]\", the \"3\" would begin a new list.)"
-msgstr ""
+msgstr "(After the \"[WARNING]\", the \"3\" would begin a new list.)"
 
 #: ../../source/dev/rst/alternatives.rst:1788
 msgid ""
@@ -2139,7 +2139,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1813
 msgid "Alternative proposed by Tony Ibbs::"
-msgstr ""
+msgstr "Alternative proposed by Tony Ibbs::"
 
 #: ../../source/dev/rst/alternatives.rst:1819
 msgid ""
@@ -2157,11 +2157,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1827
 msgid "as a sequence indicator (arabic, roman, alphabetic; upper/lower),"
-msgstr ""
+msgstr "as a sequence indicator (arabic, roman, alphabetic; upper/lower),"
 
 #: ../../source/dev/rst/alternatives.rst:1829
 msgid "and perhaps as a start value (first list item)."
-msgstr ""
+msgstr "and perhaps as a start value (first list item)."
 
 #: ../../source/dev/rst/alternatives.rst:1831
 msgid ""
@@ -2171,7 +2171,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1836
 msgid "Adjacent citation references"
-msgstr ""
+msgstr "Adjacent citation references"
 
 #: ../../source/dev/rst/alternatives.rst:1838
 msgid ""
@@ -2189,7 +2189,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1851
 msgid "Inline markup recognition"
-msgstr ""
+msgstr "Inline markup recognition"
 
 #: ../../source/dev/rst/alternatives.rst:1853
 msgid ""
@@ -2206,83 +2206,83 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1860
 msgid "Rejected alternatives:"
-msgstr ""
+msgstr "Rejected alternatives:"
 
 #: ../../source/dev/rst/alternatives.rst:1862
 msgid "Use `Unicode categories`_ for all chars (ASCII or not)"
-msgstr ""
+msgstr "Use `Unicode categories`_ for all chars (ASCII or not)"
 
 #: ../../source/dev/rst/alternatives.rst:1864
 msgid "comprehensible, standards based,"
-msgstr ""
+msgstr "comprehensible, standards based,"
 
 #: ../../source/dev/rst/alternatives.rst:1865
 msgid "many \"false positives\" need escaping,"
-msgstr ""
+msgstr "many \"false positives\" need escaping,"
 
 #: ../../source/dev/rst/alternatives.rst:1866
 msgid "not backwards compatible."
-msgstr ""
+msgstr "not backwards compatible."
 
 #: ../../source/dev/rst/alternatives.rst:1868
 msgid "full backwards compatibility"
-msgstr ""
+msgstr "full backwards compatibility"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Pi"
-msgstr ""
+msgstr "Pi"
 
 #: ../../source/dev/rst/alternatives.rst:1870
 msgid "only before start-string"
-msgstr ""
+msgstr "only before start-string"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Pf"
-msgstr ""
+msgstr "Pf"
 
 #: ../../source/dev/rst/alternatives.rst:1871
 msgid "only behind end-string"
-msgstr ""
+msgstr "only behind end-string"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "Po"
-msgstr ""
+msgstr "Po"
 
 #: ../../source/dev/rst/alternatives.rst:1872
 msgid "\"conservative\" sorting of other punctuation:"
-msgstr ""
+msgstr "\"conservative\" sorting of other punctuation:"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "``.,;!?\\\\``"
-msgstr ""
+msgstr "``.,;!?\\\\``"
 
 #: ../../source/dev/rst/alternatives.rst:1874
 msgid "Close"
-msgstr ""
+msgstr "Close"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "``隆驴``"
-msgstr ""
+msgstr "``隆驴``"
 
 #: ../../source/dev/rst/alternatives.rst:1875
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 #: ../../source/dev/rst/alternatives.rst:1877
 msgid "backwards compatible,"
-msgstr ""
+msgstr "backwards compatible,"
 
 #: ../../source/dev/rst/alternatives.rst:1878
 msgid "logical extension of the existing rules,"
-msgstr ""
+msgstr "logical extension of the existing rules,"
 
 #: ../../source/dev/rst/alternatives.rst:1879
 msgid "exception list for \"other\" punctuation needed,"
-msgstr ""
+msgstr "exception list for \"other\" punctuation needed,"
 
 #: ../../source/dev/rst/alternatives.rst:1880
 msgid "rules even more complicated,"
-msgstr ""
+msgstr "rules even more complicated,"
 
 #: ../../source/dev/rst/alternatives.rst:1881
 msgid ""
@@ -2298,11 +2298,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1894
 msgid "Not Implemented"
-msgstr ""
+msgstr "Not Implemented"
 
 #: ../../source/dev/rst/alternatives.rst:1897
 msgid "Reworking Footnotes"
-msgstr ""
+msgstr "Reworking Footnotes"
 
 #: ../../source/dev/rst/alternatives.rst:1899
 msgid ""
@@ -2313,7 +2313,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1903
 msgid "Change footnote syntax from ``.. [1]`` to ``_[1]``? ..."
-msgstr ""
+msgstr "Change footnote syntax from ``.. [1]`` to ``_[1]``? ..."
 
 #: ../../source/dev/rst/alternatives.rst:1904
 msgid ""
@@ -2323,7 +2323,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1906
 msgid "Render footnote references as superscripts without \"[]\"? ..."
-msgstr ""
+msgstr "Render footnote references as superscripts without \"[]\"? ..."
 
 #: ../../source/dev/rst/alternatives.rst:1908
 msgid ""
@@ -2372,16 +2372,16 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1942
 msgid "Syntax proposals:"
-msgstr ""
+msgstr "Syntax proposals:"
 
 #: ../../source/dev/rst/alternatives.rst:1944
 msgid "Footnotes:"
-msgstr ""
+msgstr "Footnotes:"
 
 #: ../../source/dev/rst/alternatives.rst:1946
 #: ../../source/dev/rst/alternatives.rst:1988
 msgid "Current syntax::"
-msgstr ""
+msgstr "Current syntax::"
 
 #: ../../source/dev/rst/alternatives.rst:1952
 msgid ""
@@ -2403,19 +2403,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1973
 msgid "Footnotes could be rendered something like this in HTML"
-msgstr ""
+msgstr "Footnotes could be rendered something like this in HTML"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "1. This is a footnote.  The brackets could be dropped"
-msgstr ""
+msgstr "1. This is a footnote.  The brackets could be dropped"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "from the label, and a vertical bar could set them"
-msgstr ""
+msgstr "from the label, and a vertical bar could set them"
 
 #: ../../source/dev/rst/alternatives.rst
 msgid "off from the rest of the document in the HTML."
-msgstr ""
+msgstr "off from the rest of the document in the HTML."
 
 #: ../../source/dev/rst/alternatives.rst:1979
 msgid ""
@@ -2432,11 +2432,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:1986
 msgid "Footnote references:"
-msgstr ""
+msgstr "Footnote references:"
 
 #: ../../source/dev/rst/alternatives.rst:1992
 msgid "Minimal syntax to match the minimal footnote syntax above::"
-msgstr ""
+msgstr "Minimal syntax to match the minimal footnote syntax above::"
 
 #: ../../source/dev/rst/alternatives.rst:1996
 msgid ""
@@ -2452,15 +2452,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2004
 msgid "Citations:"
-msgstr ""
+msgstr "Citations:"
 
 #: ../../source/dev/rst/alternatives.rst:2006
 msgid "Current syntax (footnote syntax)::"
-msgstr ""
+msgstr "Current syntax (footnote syntax)::"
 
 #: ../../source/dev/rst/alternatives.rst:2011
 msgid "Possible new syntax::"
-msgstr ""
+msgstr "Possible new syntax::"
 
 #: ../../source/dev/rst/alternatives.rst:2020
 msgid ""
@@ -2479,15 +2479,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2032
 msgid "From a reply by Tony Ibbs on 2002-03-01:"
-msgstr ""
+msgstr "From a reply by Tony Ibbs on 2002-03-01:"
 
 #: ../../source/dev/rst/alternatives.rst:2034
 msgid "However, I think easier with examples, so let's create one::"
-msgstr ""
+msgstr "However, I think easier with examples, so let's create one::"
 
 #: ../../source/dev/rst/alternatives.rst:2053
 msgid "and look at it with the second syntax proposal::"
-msgstr ""
+msgstr "and look at it with the second syntax proposal::"
 
 #: ../../source/dev/rst/alternatives.rst:2072
 msgid ""
@@ -2498,7 +2498,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2077
 msgid "and the third (new) proposal::"
-msgstr ""
+msgstr "and the third (new) proposal::"
 
 #: ../../source/dev/rst/alternatives.rst:2096
 msgid ""
@@ -2530,7 +2530,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2116
 msgid "From a reply by Paul Moore on 2002-03-01:"
-msgstr ""
+msgstr "From a reply by Paul Moore on 2002-03-01:"
 
 #: ../../source/dev/rst/alternatives.rst:2118
 msgid ""
@@ -2541,7 +2541,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2122
 msgid "On the target change, it doesn't matter much to me."
-msgstr ""
+msgstr "On the target change, it doesn't matter much to me."
 
 #: ../../source/dev/rst/alternatives.rst:2124
 msgid ""
@@ -2565,7 +2565,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2135
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../../source/dev/rst/alternatives.rst:2137
 msgid ""
@@ -2591,7 +2591,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2156
 msgid "Syntax for Questions & Answers"
-msgstr ""
+msgstr "Syntax for Questions & Answers"
 
 #: ../../source/dev/rst/alternatives.rst:2158
 msgid ""
@@ -2602,11 +2602,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2162
 msgid "New elements would be required.  Perhaps::"
-msgstr ""
+msgstr "New elements would be required.  Perhaps::"
 
 #: ../../source/dev/rst/alternatives.rst:2173
 msgid "Originally I thought of implementing a Q&A list with special syntax::"
-msgstr ""
+msgstr "Originally I thought of implementing a Q&A list with special syntax::"
 
 #: ../../source/dev/rst/alternatives.rst:2184
 msgid ""
@@ -2626,15 +2626,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2200
 msgid "Tabled"
-msgstr ""
+msgstr "Tabled"
 
 #: ../../source/dev/rst/alternatives.rst:2203
 msgid "Reworking Explicit Markup (Round 2)"
-msgstr ""
+msgstr "Reworking Explicit Markup (Round 2)"
 
 #: ../../source/dev/rst/alternatives.rst:2205
 msgid "See `Reworking Explicit Markup (Round 1)`_ for an earlier discussion."
-msgstr ""
+msgstr "See `Reworking Explicit Markup (Round 1)`_ for an earlier discussion."
 
 #: ../../source/dev/rst/alternatives.rst:2207
 msgid ""
@@ -2646,7 +2646,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2214
 msgid "References and targets take this form::"
-msgstr ""
+msgstr "References and targets take this form::"
 
 #: ../../source/dev/rst/alternatives.rst:2220
 msgid ""
@@ -2656,7 +2656,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2227
 msgid "\"Footnotes should be written as\"::"
-msgstr ""
+msgstr "\"Footnotes should be written as\"::"
 
 #: ../../source/dev/rst/alternatives.rst:2233
 msgid ""
@@ -2695,19 +2695,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2257
 msgid "There are good reasons for the two-colon syntax:"
-msgstr ""
+msgstr "There are good reasons for the two-colon syntax:"
 
 #: ../../source/dev/rst/alternatives.rst:2259
 msgid "Two colons are used after the directive type for these reasons:"
-msgstr ""
+msgstr "Two colons are used after the directive type for these reasons:"
 
 #: ../../source/dev/rst/alternatives.rst:2261
 msgid "Two colons are distinctive, and unlikely to be used in common text."
-msgstr ""
+msgstr "Two colons are distinctive, and unlikely to be used in common text."
 
 #: ../../source/dev/rst/alternatives.rst:2264
 msgid "Two colons avoids clashes with common comment text like::"
-msgstr ""
+msgstr "Two colons avoids clashes with common comment text like::"
 
 #: ../../source/dev/rst/alternatives.rst:2268
 msgid ""
@@ -2804,7 +2804,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2338
 msgid "A parser option/setting like \"--comments-on-stderr\" would help."
-msgstr ""
+msgstr "A parser option/setting like \"--comments-on-stderr\" would help."
 
 #: ../../source/dev/rst/alternatives.rst:2340
 msgid ""
@@ -2822,7 +2822,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2348
 msgid "Edward Loper proposed the following plan for backwards compatibility:"
-msgstr ""
+msgstr "Edward Loper proposed the following plan for backwards compatibility:"
 
 #: ../../source/dev/rst/alternatives.rst:2351
 msgid ""
@@ -2851,7 +2851,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2364
 msgid "instead of::"
-msgstr ""
+msgstr "instead of::"
 
 #: ../../source/dev/rst/alternatives.rst:2368
 msgid ""
@@ -2879,15 +2879,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2384
 msgid "For now, we'll treat this as an unresolved legacy issue."
-msgstr ""
+msgstr "For now, we'll treat this as an unresolved legacy issue."
 
 #: ../../source/dev/rst/alternatives.rst:2389
 msgid "To Do"
-msgstr ""
+msgstr "To Do"
 
 #: ../../source/dev/rst/alternatives.rst:2392
 msgid "Nested Inline Markup"
-msgstr ""
+msgstr "Nested Inline Markup"
 
 #: ../../source/dev/rst/alternatives.rst:2394
 msgid ""
@@ -2897,7 +2897,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2397
 msgid "In a 2001-10-31 discussion I wrote:"
-msgstr ""
+msgstr "In a 2001-10-31 discussion I wrote:"
 
 #: ../../source/dev/rst/alternatives.rst:2399
 msgid ""
@@ -2917,7 +2917,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2414
 msgid "In a 2001-11-09 Doc-SIG post, I wrote:"
-msgstr ""
+msgstr "In a 2001-11-09 Doc-SIG post, I wrote:"
 
 #: ../../source/dev/rst/alternatives.rst:2416
 msgid ""
@@ -2944,7 +2944,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2431
 msgid "The second algorithm makes my head hurt::"
-msgstr ""
+msgstr "The second algorithm makes my head hurt::"
 
 #: ../../source/dev/rst/alternatives.rst:2451
 msgid ""
@@ -2974,7 +2974,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2473
 msgid "Could the parser be extended to parse nested interpreted text? ::"
-msgstr ""
+msgstr "Could the parser be extended to parse nested interpreted text? ::"
 
 #: ../../source/dev/rst/alternatives.rst:2478
 msgid ""
@@ -3012,19 +3012,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2507
 msgid "But it can be disambiguated, so it ought to be left up to the author::"
-msgstr ""
+msgstr "But it can be disambiguated, so it ought to be left up to the author::"
 
 #: ../../source/dev/rst/alternatives.rst:2511
 msgid "In addition, other forms of inline markup may be nested if unambiguous::"
-msgstr ""
+msgstr "In addition, other forms of inline markup may be nested if unambiguous::"
 
 #: ../../source/dev/rst/alternatives.rst:2516
 msgid "IOW, the parser ought to be as permissive as possible."
-msgstr ""
+msgstr "IOW, the parser ought to be as permissive as possible."
 
 #: ../../source/dev/rst/alternatives.rst:2520
 msgid "Index Entries & Indexes"
-msgstr ""
+msgstr "Index Entries & Indexes"
 
 #: ../../source/dev/rst/alternatives.rst:2522
 msgid ""
@@ -3059,7 +3059,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2560
 msgid "Sometimes index entries have multiple levels.  Given::"
-msgstr ""
+msgstr "Sometimes index entries have multiple levels.  Given::"
 
 #: ../../source/dev/rst/alternatives.rst:2564
 msgid ""
@@ -3075,15 +3075,15 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2579
 msgid "The opposite sense could also be possible::"
-msgstr ""
+msgstr "The opposite sense could also be possible::"
 
 #: ../../source/dev/rst/alternatives.rst:2584
 msgid "Also \"see / see also\" index entries."
-msgstr ""
+msgstr "Also \"see / see also\" index entries."
 
 #: ../../source/dev/rst/alternatives.rst:2586
 msgid "Given::"
-msgstr ""
+msgstr "Given::"
 
 #: ../../source/dev/rst/alternatives.rst:2592
 msgid ""
@@ -3093,7 +3093,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2600
 msgid "This kind of content model would also allow true inline index-entries::"
-msgstr ""
+msgstr "This kind of content model would also allow true inline index-entries::"
 
 #: ../../source/dev/rst/alternatives.rst:2605
 msgid ""
@@ -3103,11 +3103,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2610
 msgid "Both of these would result in this XML::"
-msgstr ""
+msgstr "Both of these would result in this XML::"
 
 #: ../../source/dev/rst/alternatives.rst:2618
 msgid "from 2002-06-24 docutils-develop posts"
-msgstr ""
+msgstr "from 2002-06-24 docutils-develop posts"
 
 #: ../../source/dev/rst/alternatives.rst:2620
 msgid ""
@@ -3119,7 +3119,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2626
 msgid "I've thought a bit more on this, and I came up with two possibilities:"
-msgstr ""
+msgstr "I've thought a bit more on this, and I came up with two possibilities:"
 
 #: ../../source/dev/rst/alternatives.rst:2628
 msgid ""
@@ -3136,7 +3136,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2637
 msgid "Use substitutions::"
-msgstr ""
+msgstr "Use substitutions::"
 
 #: ../../source/dev/rst/alternatives.rst:2643
 msgid ""
@@ -3148,11 +3148,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2648
 msgid "Both of these alternatives are flawed.  Any other ideas?"
-msgstr ""
+msgstr "Both of these alternatives are flawed.  Any other ideas?"
 
 #: ../../source/dev/rst/alternatives.rst:2653
 msgid "... Or Not To Do?"
-msgstr ""
+msgstr "... Or Not To Do?"
 
 #: ../../source/dev/rst/alternatives.rst:2655
 msgid ""
@@ -3163,7 +3163,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2661
 msgid "Compound Enumerated Lists"
-msgstr ""
+msgstr "Compound Enumerated Lists"
 
 #: ../../source/dev/rst/alternatives.rst:2663
 msgid ""
@@ -3173,7 +3173,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2668
 msgid "Indented Lists"
-msgstr ""
+msgstr "Indented Lists"
 
 #: ../../source/dev/rst/alternatives.rst:2670
 msgid ""
@@ -3192,7 +3192,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2684
 msgid "What if we actually *do* want a list inside a block quote?"
-msgstr ""
+msgstr "What if we actually *do* want a list inside a block quote?"
 
 #: ../../source/dev/rst/alternatives.rst:2686
 msgid ""
@@ -3222,7 +3222,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2700
 msgid "It may seem minor, but it adds ambiguity to the parser, which is bad."
-msgstr ""
+msgstr "It may seem minor, but it adds ambiguity to the parser, which is bad."
 
 #: ../../source/dev/rst/alternatives.rst:2702
 msgid ""
@@ -3234,7 +3234,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2715
 msgid "Sloppy Indentation of List Items"
-msgstr ""
+msgstr "Sloppy Indentation of List Items"
 
 #: ../../source/dev/rst/alternatives.rst:2717
 msgid ""
@@ -3244,19 +3244,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2723
 msgid "Anything wrong with this? ::"
-msgstr ""
+msgstr "Anything wrong with this? ::"
 
 #: ../../source/dev/rst/alternatives.rst:2728
 msgid "Problem? ::"
-msgstr ""
+msgstr "Problem? ::"
 
 #: ../../source/dev/rst/alternatives.rst:2743
 msgid "Hmm...  Non-strict indentation isn't such a good idea."
-msgstr ""
+msgstr "Hmm...  Non-strict indentation isn't such a good idea."
 
 #: ../../source/dev/rst/alternatives.rst:2747
 msgid "Lazy Indentation of List Items"
-msgstr ""
+msgstr "Lazy Indentation of List Items"
 
 #: ../../source/dev/rst/alternatives.rst:2749
 msgid ""
@@ -3274,7 +3274,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2763
 msgid "David's Idea for Lazy Indentation"
-msgstr ""
+msgstr "David's Idea for Lazy Indentation"
 
 #: ../../source/dev/rst/alternatives.rst:2765
 msgid ""
@@ -3299,11 +3299,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2792
 msgid "A more complex example shows the limitations of lazy indentation::"
-msgstr ""
+msgstr "A more complex example shows the limitations of lazy indentation::"
 
 #: ../../source/dev/rst/alternatives.rst:2819
 msgid "And the ambiguity remains::"
-msgstr ""
+msgstr "And the ambiguity remains::"
 
 #: ../../source/dev/rst/alternatives.rst:2831
 msgid ""
@@ -3326,7 +3326,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2857
 msgid "Multiple Roles in Interpreted Text"
-msgstr ""
+msgstr "Multiple Roles in Interpreted Text"
 
 #: ../../source/dev/rst/alternatives.rst:2859
 msgid ""
@@ -3338,11 +3338,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2864
 msgid "Initial idea::"
-msgstr ""
+msgstr "Initial idea::"
 
 #: ../../source/dev/rst/alternatives.rst:2868
 msgid "Suggested by Jason Diamond::"
-msgstr ""
+msgstr "Suggested by Jason Diamond::"
 
 #: ../../source/dev/rst/alternatives.rst:2872
 msgid ""
@@ -3353,7 +3353,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2880
 msgid "Parameterized Interpreted Text"
-msgstr ""
+msgstr "Parameterized Interpreted Text"
 
 #: ../../source/dev/rst/alternatives.rst:2882
 msgid ""
@@ -3369,7 +3369,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2890
 msgid "Positional parameters could also be supported::"
-msgstr ""
+msgstr "Positional parameters could also be supported::"
 
 #: ../../source/dev/rst/alternatives.rst:2895
 msgid ""
@@ -3381,7 +3381,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2900
 msgid "Put the parameters inside the interpreted text::"
-msgstr ""
+msgstr "Put the parameters inside the interpreted text::"
 
 #: ../../source/dev/rst/alternatives.rst:2905
 msgid ""
@@ -3398,7 +3398,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2915
 msgid "`Nested inline markup`_ could prove useful here::"
-msgstr ""
+msgstr "`Nested inline markup`_ could prove useful here::"
 
 #: ../../source/dev/rst/alternatives.rst:2921
 msgid ""
@@ -3432,7 +3432,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2953
 msgid "Syntax for Interpreted Text Role Bindings"
-msgstr ""
+msgstr "Syntax for Interpreted Text Role Bindings"
 
 #: ../../source/dev/rst/alternatives.rst:2955
 msgid ""
@@ -3467,11 +3467,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2979
 msgid "The `\"role\" directive`__ has been implemented."
-msgstr ""
+msgstr "The `\"role\" directive`__ has been implemented."
 
 #: ../../source/dev/rst/alternatives.rst:2985
 msgid "Character Processing"
-msgstr ""
+msgstr "Character Processing"
 
 #: ../../source/dev/rst/alternatives.rst:2987
 msgid ""
@@ -3481,11 +3481,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2990
 msgid "Some sort of automated replacement of ASCII sequences:"
-msgstr ""
+msgstr "Some sort of automated replacement of ASCII sequences:"
 
 #: ../../source/dev/rst/alternatives.rst:2992
 msgid "``--`` to em-dash (or ``--`` to en-dash, and ``---`` to em-dash)."
-msgstr ""
+msgstr "``--`` to em-dash (or ``--`` to en-dash, and ``---`` to em-dash)."
 
 #: ../../source/dev/rst/alternatives.rst:2993
 msgid ""
@@ -3495,7 +3495,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2995
 msgid "Various forms of ``:-)`` to smiley icons."
-msgstr ""
+msgstr "Various forms of ``:-)`` to smiley icons."
 
 #: ../../source/dev/rst/alternatives.rst:2996
 msgid ""
@@ -3505,7 +3505,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:2998
 msgid "Escaped newlines to <BR>."
-msgstr ""
+msgstr "Escaped newlines to <BR>."
 
 #: ../../source/dev/rst/alternatives.rst:2999
 msgid ""
@@ -3515,7 +3515,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3002
 msgid "XML-style character entities, such as \"&copy;\" for the copyright symbol."
-msgstr ""
+msgstr "XML-style character entities, such as \"&copy;\" for the copyright symbol."
 
 #: ../../source/dev/rst/alternatives.rst:3005
 msgid ""
@@ -3548,27 +3548,27 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3032
 msgid "Directive idea::"
-msgstr ""
+msgstr "Directive idea::"
 
 #: ../../source/dev/rst/alternatives.rst:3036
 msgid "Support Unicode \"U+XXXX\" codes."
-msgstr ""
+msgstr "Support Unicode \"U+XXXX\" codes."
 
 #: ../../source/dev/rst/alternatives.rst:3037
 msgid "Support regexps, perhaps with alternative \"regexp-replace\" directive."
-msgstr ""
+msgstr "Support regexps, perhaps with alternative \"regexp-replace\" directive."
 
 #: ../../source/dev/rst/alternatives.rst:3039
 msgid "Flags for regexps; \":flags:\" option, or individuals."
-msgstr ""
+msgstr "Flags for regexps; \":flags:\" option, or individuals."
 
 #: ../../source/dev/rst/alternatives.rst:3040
 msgid "Specifically, should the default be case-sensistive or -insensitive?"
-msgstr ""
+msgstr "Specifically, should the default be case-sensistive or -insensitive?"
 
 #: ../../source/dev/rst/alternatives.rst:3045
 msgid "Page Or Line Breaks"
-msgstr ""
+msgstr "Page Or Line Breaks"
 
 #: ../../source/dev/rst/alternatives.rst:3047
 msgid ""
@@ -3597,7 +3597,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3063
 msgid "It's common practice to use ^L before Emacs \"Local Variables\" lists::"
-msgstr ""
+msgstr "It's common practice to use ^L before Emacs \"Local Variables\" lists::"
 
 #: ../../source/dev/rst/alternatives.rst:3075
 msgid ""
@@ -3648,7 +3648,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3103
 msgid "Superscript Markup"
-msgstr ""
+msgstr "Superscript Markup"
 
 #: ../../source/dev/rst/alternatives.rst:3105
 msgid ""
@@ -3668,11 +3668,11 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3117
 msgid "Code Execution"
-msgstr ""
+msgstr "Code Execution"
 
 #: ../../source/dev/rst/alternatives.rst:3119
 msgid "Add the following directives?"
-msgstr ""
+msgstr "Add the following directives?"
 
 #: ../../source/dev/rst/alternatives.rst:3121
 msgid ""
@@ -3713,7 +3713,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3147
 msgid "``encoding`` Directive"
-msgstr ""
+msgstr "``encoding`` Directive"
 
 #: ../../source/dev/rst/alternatives.rst:3149
 msgid ""
@@ -3735,7 +3735,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3160
 msgid "Support for Annotations"
-msgstr ""
+msgstr "Support for Annotations"
 
 #: ../../source/dev/rst/alternatives.rst:3162
 msgid ""
@@ -3755,7 +3755,7 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3174
 msgid "``term`` Role"
-msgstr ""
+msgstr "``term`` Role"
 
 #: ../../source/dev/rst/alternatives.rst:3176
 msgid ""
@@ -3765,19 +3765,19 @@ msgstr ""
 
 #: ../../source/dev/rst/alternatives.rst:3181
 msgid "Object references"
-msgstr ""
+msgstr "Object references"
 
 #: ../../source/dev/rst/alternatives.rst:3183
 msgid "We need syntax for `object references`_."
-msgstr ""
+msgstr "We need syntax for `object references`_."
 
 #: ../../source/dev/rst/alternatives.rst:3185
 msgid "Parameterized substitutions?  For example::"
-msgstr ""
+msgstr "Parameterized substitutions?  For example::"
 
 #: ../../source/dev/rst/alternatives.rst:3192
 msgid "The result would be::"
-msgstr ""
+msgstr "The result would be::"
 
 #: ../../source/dev/rst/alternatives.rst:3196
 msgid ""

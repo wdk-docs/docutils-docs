@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/release/COPYING.rst:3
 msgid "Copying Docutils"
-msgstr ""
+msgstr "版权"
 
 #: ../../source/release/COPYING.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/release/COPYING.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/release/COPYING.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/release/COPYING.rst:6
 msgid "goodger@python.org"
-msgstr ""
+msgstr "goodger@python.org"
 
 #: ../../source/release/COPYING.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/release/COPYING.rst:7
 msgid "$Date: 2015-05-08 17:56:32 +0200 (Fr, 08. Mai 2015) $"
-msgstr ""
+msgstr "$Date: 2015-05-08 17:56:32 +0200 (Fr, 08. Mai 2015) $"
 
 #: ../../source/release/COPYING.rst
 msgid "Web site"
-msgstr ""
+msgstr "Web site"
 
 #: ../../source/release/COPYING.rst:8
 msgid "http://docutils.sourceforge.net/"
-msgstr ""
+msgstr "http://docutils.sourceforge.net/"
 
 #: ../../source/release/COPYING.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/release/COPYING.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/release/COPYING.rst:11
 msgid ""
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../source/release/COPYING.rst:20
 msgid "Public Domain Dedication"
-msgstr ""
+msgstr "Public Domain Dedication"
 
 #: ../../source/release/COPYING.rst:22
 msgid ""
@@ -134,15 +134,15 @@ msgstr ""
 
 #: ../../source/release/COPYING.rst:69
 msgid "Exceptions"
-msgstr ""
+msgstr "Exceptions"
 
 #: ../../source/release/COPYING.rst:71
 msgid "The exceptions to the `Public Domain Dedication`_ above are:"
-msgstr ""
+msgstr "The exceptions to the `Public Domain Dedication`_ above are:"
 
 #: ../../source/release/COPYING.rst:73
 msgid "docutils/writers/s5_html/themes/default/iepngfix.htc:"
-msgstr ""
+msgstr "docutils/writers/s5_html/themes/default/iepngfix.htc:"
 
 #: ../../source/release/COPYING.rst:75
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/release/COPYING.rst:91
 msgid "docutils/utils/smartquotes.py"
-msgstr ""
+msgstr "docutils/utils/smartquotes.py"
 
 #: ../../source/release/COPYING.rst:93
 msgid ""
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../source/release/COPYING.rst:102
 msgid "docutils/utils/math/math2html.py, docutils/writers/html4css1/math.css"
-msgstr ""
+msgstr "docutils/utils/math/math2html.py, docutils/writers/html4css1/math.css"
 
 #: ../../source/release/COPYING.rst:105
 msgid ""

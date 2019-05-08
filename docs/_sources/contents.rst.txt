@@ -10,8 +10,8 @@ Welcome to docutils-docs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   overviews
    index
+   overviews
    release/index
    doc
    rst

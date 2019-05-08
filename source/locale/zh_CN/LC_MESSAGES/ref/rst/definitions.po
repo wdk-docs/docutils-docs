@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/ref/rst/definitions.rst:3
 msgid "reStructuredText Standard Definition Files"
-msgstr ""
+msgstr "reStructuredText标准定义文件"
 
 #: ../../source/ref/rst/definitions.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/ref/rst/definitions.rst:4
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/rst/definitions.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/ref/rst/definitions.rst:5
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/rst/definitions.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/ref/rst/definitions.rst:6
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/ref/rst/definitions.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/rst/definitions.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/ref/rst/definitions.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/ref/rst/definitions.rst:8
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/ref/rst/definitions.rst:11
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/rst/definitions.rst:13
 msgid ""
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../source/ref/rst/definitions.rst:29
 msgid "Substitution Definitions"
-msgstr ""
+msgstr "Substitution Definitions"
 
 #: ../../source/ref/rst/definitions.rst:31
 msgid ""
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../source/ref/rst/definitions.rst:78
 msgid "Character Entity Sets"
-msgstr ""
+msgstr "Character Entity Sets"
 
 #: ../../source/ref/rst/definitions.rst:80
 msgid ""
@@ -139,227 +139,227 @@ msgstr ""
 
 #: ../../source/ref/rst/definitions.rst:90
 msgid "Entity Set File"
-msgstr ""
+msgstr "Entity Set File"
 
 #: ../../source/ref/rst/definitions.rst:90
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/ref/rst/definitions.rst:92
 msgid "isoamsa.txt_"
-msgstr ""
+msgstr "isoamsa.txt_"
 
 #: ../../source/ref/rst/definitions.rst:92
 msgid "Added Mathematical Symbols: Arrows"
-msgstr ""
+msgstr "Added Mathematical Symbols: Arrows"
 
 #: ../../source/ref/rst/definitions.rst:93
 msgid "isoamsb.txt_"
-msgstr ""
+msgstr "isoamsb.txt_"
 
 #: ../../source/ref/rst/definitions.rst:93
 msgid "Added Mathematical Symbols: Binary Operators"
-msgstr ""
+msgstr "Added Mathematical Symbols: Binary Operators"
 
 #: ../../source/ref/rst/definitions.rst:94
 msgid "isoamsc.txt_"
-msgstr ""
+msgstr "isoamsc.txt_"
 
 #: ../../source/ref/rst/definitions.rst:94
 msgid "Added Mathematical Symbols: Delimiters"
-msgstr ""
+msgstr "Added Mathematical Symbols: Delimiters"
 
 #: ../../source/ref/rst/definitions.rst:95
 msgid "isoamsn.txt_"
-msgstr ""
+msgstr "isoamsn.txt_"
 
 #: ../../source/ref/rst/definitions.rst:95
 msgid "Added Mathematical Symbols: Negated Relations"
-msgstr ""
+msgstr "Added Mathematical Symbols: Negated Relations"
 
 #: ../../source/ref/rst/definitions.rst:96
 msgid "isoamso.txt_"
-msgstr ""
+msgstr "isoamso.txt_"
 
 #: ../../source/ref/rst/definitions.rst:96
 msgid "Added Mathematical Symbols: Ordinary"
-msgstr ""
+msgstr "Added Mathematical Symbols: Ordinary"
 
 #: ../../source/ref/rst/definitions.rst:97
 msgid "isoamsr.txt_"
-msgstr ""
+msgstr "isoamsr.txt_"
 
 #: ../../source/ref/rst/definitions.rst:97
 msgid "Added Mathematical Symbols: Relations"
-msgstr ""
+msgstr "Added Mathematical Symbols: Relations"
 
 #: ../../source/ref/rst/definitions.rst:98
 msgid "isobox.txt_"
-msgstr ""
+msgstr "isobox.txt_"
 
 #: ../../source/ref/rst/definitions.rst:98
 msgid "Box and Line Drawing"
-msgstr ""
+msgstr "Box and Line Drawing"
 
 #: ../../source/ref/rst/definitions.rst:99
 msgid "isocyr1.txt_"
-msgstr ""
+msgstr "isocyr1.txt_"
 
 #: ../../source/ref/rst/definitions.rst:99
 msgid "Russian Cyrillic"
-msgstr ""
+msgstr "Russian Cyrillic"
 
 #: ../../source/ref/rst/definitions.rst:100
 msgid "isocyr2.txt_"
-msgstr ""
+msgstr "isocyr2.txt_"
 
 #: ../../source/ref/rst/definitions.rst:100
 msgid "Non-Russian Cyrillic"
-msgstr ""
+msgstr "Non-Russian Cyrillic"
 
 #: ../../source/ref/rst/definitions.rst:101
 msgid "isodia.txt_"
-msgstr ""
+msgstr "isodia.txt_"
 
 #: ../../source/ref/rst/definitions.rst:101
 msgid "Diacritical Marks"
-msgstr ""
+msgstr "Diacritical Marks"
 
 #: ../../source/ref/rst/definitions.rst:102
 msgid "isogrk1.txt_"
-msgstr ""
+msgstr "isogrk1.txt_"
 
 #: ../../source/ref/rst/definitions.rst:102
 msgid "Greek Letters"
-msgstr ""
+msgstr "Greek Letters"
 
 #: ../../source/ref/rst/definitions.rst:103
 msgid "isogrk2.txt_"
-msgstr ""
+msgstr "isogrk2.txt_"
 
 #: ../../source/ref/rst/definitions.rst:103
 msgid "Monotoniko Greek"
-msgstr ""
+msgstr "Monotoniko Greek"
 
 #: ../../source/ref/rst/definitions.rst:104
 msgid "isogrk3.txt_"
-msgstr ""
+msgstr "isogrk3.txt_"
 
 #: ../../source/ref/rst/definitions.rst:104
 msgid "Greek Symbols"
-msgstr ""
+msgstr "Greek Symbols"
 
 #: ../../source/ref/rst/definitions.rst:105
 msgid "isogrk4.txt_  [1]_"
-msgstr ""
+msgstr "isogrk4.txt_  [1]_"
 
 #: ../../source/ref/rst/definitions.rst:105
 msgid "Alternative Greek Symbols"
-msgstr ""
+msgstr "Alternative Greek Symbols"
 
 #: ../../source/ref/rst/definitions.rst:106
 msgid "isolat1.txt_"
-msgstr ""
+msgstr "isolat1.txt_"
 
 #: ../../source/ref/rst/definitions.rst:106
 msgid "Added Latin 1"
-msgstr ""
+msgstr "Added Latin 1"
 
 #: ../../source/ref/rst/definitions.rst:107
 msgid "isolat2.txt_"
-msgstr ""
+msgstr "isolat2.txt_"
 
 #: ../../source/ref/rst/definitions.rst:107
 msgid "Added Latin 2"
-msgstr ""
+msgstr "Added Latin 2"
 
 #: ../../source/ref/rst/definitions.rst:108
 msgid "isomfrk.txt_  [1]_"
-msgstr ""
+msgstr "isomfrk.txt_  [1]_"
 
 #: ../../source/ref/rst/definitions.rst:108
 msgid "Mathematical Fraktur"
-msgstr ""
+msgstr "Mathematical Fraktur"
 
 #: ../../source/ref/rst/definitions.rst:109
 msgid "isomopf.txt_  [1]_"
-msgstr ""
+msgstr "isomopf.txt_  [1]_"
 
 #: ../../source/ref/rst/definitions.rst:109
 msgid "Mathematical Openface (Double-struck)"
-msgstr ""
+msgstr "Mathematical Openface (Double-struck)"
 
 #: ../../source/ref/rst/definitions.rst:110
 msgid "isomscr.txt_  [1]_"
-msgstr ""
+msgstr "isomscr.txt_  [1]_"
 
 #: ../../source/ref/rst/definitions.rst:110
 msgid "Mathematical Script"
-msgstr ""
+msgstr "Mathematical Script"
 
 #: ../../source/ref/rst/definitions.rst:111
 msgid "isonum.txt_"
-msgstr ""
+msgstr "isonum.txt_"
 
 #: ../../source/ref/rst/definitions.rst:111
 msgid "Numeric and Special Graphic"
-msgstr ""
+msgstr "Numeric and Special Graphic"
 
 #: ../../source/ref/rst/definitions.rst:112
 msgid "isopub.txt_"
-msgstr ""
+msgstr "isopub.txt_"
 
 #: ../../source/ref/rst/definitions.rst:112
 msgid "Publishing"
-msgstr ""
+msgstr "Publishing"
 
 #: ../../source/ref/rst/definitions.rst:113
 msgid "isotech.txt_"
-msgstr ""
+msgstr "isotech.txt_"
 
 #: ../../source/ref/rst/definitions.rst:113
 msgid "General Technical"
-msgstr ""
+msgstr "General Technical"
 
 #: ../../source/ref/rst/definitions.rst:114
 msgid "mmlalias.txt_"
-msgstr ""
+msgstr "mmlalias.txt_"
 
 #: ../../source/ref/rst/definitions.rst:114
 msgid "MathML aliases for entities from other sets"
-msgstr ""
+msgstr "MathML aliases for entities from other sets"
 
 #: ../../source/ref/rst/definitions.rst:115
 msgid "mmlextra.txt_ [1]_"
-msgstr ""
+msgstr "mmlextra.txt_ [1]_"
 
 #: ../../source/ref/rst/definitions.rst:115
 msgid "Extra names added by MathML"
-msgstr ""
+msgstr "Extra names added by MathML"
 
 #: ../../source/ref/rst/definitions.rst:116
 msgid "xhtml1-lat1.txt_"
-msgstr ""
+msgstr "xhtml1-lat1.txt_"
 
 #: ../../source/ref/rst/definitions.rst:116
 msgid "XHTML Latin 1"
-msgstr ""
+msgstr "XHTML Latin 1"
 
 #: ../../source/ref/rst/definitions.rst:117
 msgid "xhtml1-special.txt_"
-msgstr ""
+msgstr "xhtml1-special.txt_"
 
 #: ../../source/ref/rst/definitions.rst:117
 msgid "XHTML Special Characters"
-msgstr ""
+msgstr "XHTML Special Characters"
 
 #: ../../source/ref/rst/definitions.rst:118
 msgid "xhtml1-symbol.txt_"
-msgstr ""
+msgstr "xhtml1-symbol.txt_"
 
 #: ../../source/ref/rst/definitions.rst:118
 msgid "XHTML Mathematical, Greek and Symbolic Characters"
-msgstr ""
+msgstr "XHTML Mathematical, Greek and Symbolic Characters"
 
 #: ../../source/ref/rst/definitions.rst:121
 msgid ""
@@ -380,7 +380,7 @@ msgstr ""
 
 #: ../../source/ref/rst/definitions.rst:164
 msgid "S5/HTML Definitions"
-msgstr ""
+msgstr "S5/HTML Definitions"
 
 #: ../../source/ref/rst/definitions.rst:166
 msgid ""

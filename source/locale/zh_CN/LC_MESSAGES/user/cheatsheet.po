@@ -357,7 +357,7 @@ msgstr "使用class =  \"pull-quote\" 阻止引用"
 
 #: ../../source/user/cheatsheet.rst:93
 msgid "compound"
-msgstr ""
+msgstr "compound"
 
 #: ../../source/user/cheatsheet.rst:93
 msgid "Compound paragraphs [0.3.6]"

@@ -20,64 +20,64 @@ msgstr ""
 
 #: ../../source/user/latex.rst:3
 msgid "Generating LaTeX with Docutils"
-msgstr ""
+msgstr "使用Docutils生成LaTeX"
 
 #: ../../source/user/latex.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/latex.rst:5
 msgid "Engelbert Gruber, Guenter Milde"
-msgstr ""
+msgstr "Engelbert Gruber, Guenter Milde"
 
 #: ../../source/user/latex.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/user/latex.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/user/latex.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/user/latex.rst:7
 msgid "$Revision: 8205 $"
-msgstr ""
+msgstr "$Revision: 8205 $"
 
 #: ../../source/user/latex.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/latex.rst:8
 msgid "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
-msgstr ""
+msgstr "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
 
 #: ../../source/user/latex.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/user/latex.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/user/latex.rst
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/user/latex.rst:10
 msgid "This document covers topics specific to Docutils' LaTeX_ export."
-msgstr ""
+msgstr "This document covers topics specific to Docutils' LaTeX_ export."
 
 #: ../../source/user/latex.rst:11
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/latex.rst:17 ../../source/user/latex.rst:775
 #: ../../source/user/latex.rst:786 ../../source/user/latex.rst:841
 msgid "LaTeX"
-msgstr ""
+msgstr "LaTeX"
 
 #: ../../source/user/latex.rst:19
 msgid ""
@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:38
 msgid "LaTeX classes and packages"
-msgstr ""
+msgstr "LaTeX classes and packages"
 
 #: ../../source/user/latex.rst:40
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:58
 msgid "Docutils specific LaTeX macros"
-msgstr ""
+msgstr "Docutils specific LaTeX macros"
 
 #: ../../source/user/latex.rst:60
 msgid ""
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:79
 msgid "DU for Documentation Utilities = Docutils"
-msgstr ""
+msgstr "DU for Documentation Utilities = Docutils"
 
 #: ../../source/user/latex.rst:83
 msgid "Length units"
-msgstr ""
+msgstr "Length units"
 
 #: ../../source/user/latex.rst:85
 msgid ""
@@ -171,39 +171,39 @@ msgstr ""
 
 #: ../../source/user/latex.rst
 msgid "pt"
-msgstr ""
+msgstr "pt"
 
 #: ../../source/user/latex.rst:88
 msgid "typewriter's (or LaTeX) point (1 pt = 1/72.27 in)"
-msgstr ""
+msgstr "typewriter's (or LaTeX) point (1 pt = 1/72.27 in)"
 
 #: ../../source/user/latex.rst
 msgid "dd"
-msgstr ""
+msgstr "dd"
 
 #: ../../source/user/latex.rst:89
 msgid "didÃ´t (1 dd = 1238/1157 pt)"
-msgstr ""
+msgstr "didÃ´t (1 dd = 1238/1157 pt)"
 
 #: ../../source/user/latex.rst
 msgid "cc"
-msgstr ""
+msgstr "cc"
 
 #: ../../source/user/latex.rst:90
 msgid "cÃ®cero (1 cc = 12 dd)"
-msgstr ""
+msgstr "cÃ®cero (1 cc = 12 dd)"
 
 #: ../../source/user/latex.rst
 msgid "sp"
-msgstr ""
+msgstr "sp"
 
 #: ../../source/user/latex.rst:91
 msgid "scaled point (1sp = 1/65536pt)"
-msgstr ""
+msgstr "scaled point (1sp = 1/65536pt)"
 
 #: ../../source/user/latex.rst:93
 msgid "Different definitions of the unit \"pt\"!"
-msgstr ""
+msgstr "Different definitions of the unit \"pt\"!"
 
 #: ../../source/user/latex.rst:95
 msgid ""
@@ -220,11 +220,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:101
 msgid "The `DTP point` is available in LaTeX as \"bp\" (big point):"
-msgstr ""
+msgstr "The `DTP point` is available in LaTeX as \"bp\" (big point):"
 
 #: ../../source/user/latex.rst:103
 msgid "1 pt = 1/72.25 in < 1 bp  = 1/72 in"
-msgstr ""
+msgstr "1 pt = 1/72.25 in < 1 bp  = 1/72 in"
 
 #: ../../source/user/latex.rst:105
 msgid ""
@@ -246,7 +246,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:118
 msgid "PDF generation"
-msgstr ""
+msgstr "PDF generation"
 
 #: ../../source/user/latex.rst:120
 msgid ""
@@ -257,15 +257,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:125
 msgid "_`pdflatex`"
-msgstr ""
+msgstr "_`pdflatex`"
 
 #: ../../source/user/latex.rst:125
 msgid "Generates a PDF document directly from the LaTeX file."
-msgstr ""
+msgstr "Generates a PDF document directly from the LaTeX file."
 
 #: ../../source/user/latex.rst:130
 msgid "_`xelatex` or _`lualatex`"
-msgstr ""
+msgstr "_`xelatex` or _`lualatex`"
 
 #: ../../source/user/latex.rst:128
 msgid ""
@@ -282,7 +282,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:144
 msgid "_`rubber`"
-msgstr ""
+msgstr "_`rubber`"
 
 #: ../../source/user/latex.rst:141
 msgid ""
@@ -294,23 +294,23 @@ msgstr ""
 
 #: ../../source/user/latex.rst:150
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #: ../../source/user/latex.rst:157
 msgid "Options/Settings"
-msgstr ""
+msgstr "Options/Settings"
 
 #: ../../source/user/latex.rst:159
 msgid "Options can be specified as"
-msgstr ""
+msgstr "Options can be specified as"
 
 #: ../../source/user/latex.rst:161
 msgid "command-line options, or"
-msgstr ""
+msgstr "command-line options, or"
 
 #: ../../source/user/latex.rst:163
 msgid "configuration settings."
-msgstr ""
+msgstr "configuration settings."
 
 #: ../../source/user/latex.rst:165
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:172
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 #: ../../source/user/latex.rst:174
 msgid ""
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:183 ../../source/user/latex.rst:199
 msgid "*Inline elements*"
-msgstr ""
+msgstr "*Inline elements*"
 
 #: ../../source/user/latex.rst:181
 msgid ""
@@ -344,7 +344,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:189
 msgid "*Block level elements*"
-msgstr ""
+msgstr "*Block level elements*"
 
 #: ../../source/user/latex.rst:186
 msgid ""
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:191
 msgid "Customization is done by defining matching macros or environments."
-msgstr ""
+msgstr "Customization is done by defining matching macros or environments."
 
 #: ../../source/user/latex.rst:206 ../../source/user/latex.rst:303
 #: ../../source/user/latex.rst:466 ../../source/user/latex.rst:520
@@ -365,19 +365,19 @@ msgstr ""
 #: ../../source/user/latex.rst:1520 ../../source/user/latex.rst:1666
 #: ../../source/user/latex.rst:1810
 msgid "Example 1:"
-msgstr ""
+msgstr "Example 1:"
 
 #: ../../source/user/latex.rst:194
 msgid "Use small caps font inside elements with class value \"custom\"."
-msgstr ""
+msgstr "Use small caps font inside elements with class value \"custom\"."
 
 #: ../../source/user/latex.rst:197
 msgid "The LaTeX function ``\\textsc`` sets the argument in small caps::"
-msgstr ""
+msgstr "The LaTeX function ``\\textsc`` sets the argument in small caps::"
 
 #: ../../source/user/latex.rst:206
 msgid "*Block-level elements*"
-msgstr ""
+msgstr "*Block-level elements*"
 
 #: ../../source/user/latex.rst:202
 msgid ""
@@ -394,7 +394,7 @@ msgstr ""
 #: ../../source/user/latex.rst:1532 ../../source/user/latex.rst:1679
 #: ../../source/user/latex.rst:1816
 msgid "Example 2:"
-msgstr ""
+msgstr "Example 2:"
 
 #: ../../source/user/latex.rst:209
 msgid ""
@@ -404,7 +404,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:219
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #: ../../source/user/latex.rst:221
 msgid ""
@@ -417,7 +417,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:228
 msgid "or ::"
-msgstr ""
+msgstr "or ::"
 
 #: ../../source/user/latex.rst:234
 msgid ""
@@ -460,7 +460,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:259
 msgid "LaTeX code"
-msgstr ""
+msgstr "LaTeX code"
 
 #: ../../source/user/latex.rst:261
 msgid ""
@@ -470,11 +470,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:264
 msgid "The functional tests that come with Docutils, can serve as example."
-msgstr ""
+msgstr "The functional tests that come with Docutils, can serve as example."
 
 #: ../../source/user/latex.rst:266
 msgid "input:"
-msgstr ""
+msgstr "input:"
 
 #: ../../source/user/latex.rst:267
 msgid ""
@@ -484,15 +484,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:269
 msgid "expected output:"
-msgstr ""
+msgstr "expected output:"
 
 #: ../../source/user/latex.rst:269
 msgid "standalone_rst_latex.tex_"
-msgstr ""
+msgstr "standalone_rst_latex.tex_"
 
 #: ../../source/user/latex.rst:283
 msgid "Style sheets"
-msgstr ""
+msgstr "Style sheets"
 
 #: ../../source/user/latex.rst:285
 msgid ""
@@ -505,11 +505,11 @@ msgstr ""
 #: ../../source/user/latex.rst:294 ../../source/user/latex.rst:618
 #: ../../source/user/latex.rst:658 ../../source/user/latex.rst:1150
 msgid "Options:"
-msgstr ""
+msgstr "Options:"
 
 #: ../../source/user/latex.rst:291
 msgid "stylesheet_"
-msgstr ""
+msgstr "stylesheet_"
 
 #: ../../source/user/latex.rst:293
 msgid ""
@@ -526,7 +526,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:301
 msgid "Select Latin Modern fonts with the `lmodern` package::"
-msgstr ""
+msgstr "Select Latin Modern fonts with the `lmodern` package::"
 
 #: ../../source/user/latex.rst:306
 msgid ""
@@ -537,7 +537,7 @@ msgstr ""
 #: ../../source/user/latex.rst:317 ../../source/user/latex.rst:552
 #: ../../source/user/latex.rst:841 ../../source/user/latex.rst:1124
 msgid "Example 3:"
-msgstr ""
+msgstr "Example 3:"
 
 #: ../../source/user/latex.rst:312
 msgid ""
@@ -547,11 +547,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:317
 msgid "in the `LaTeX preamble`_ or `custom style sheets`_."
-msgstr ""
+msgstr "in the `LaTeX preamble`_ or `custom style sheets`_."
 
 #: ../../source/user/latex.rst:321
 msgid "Stylesheet Repository"
-msgstr ""
+msgstr "Stylesheet Repository"
 
 #: ../../source/user/latex.rst:320
 msgid ""
@@ -561,7 +561,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:335
 msgid "LaTeX preamble"
-msgstr ""
+msgstr "LaTeX preamble"
 
 #: ../../source/user/latex.rst:337
 msgid ""
@@ -575,11 +575,11 @@ msgstr ""
 #: ../../source/user/latex.rst:601 ../../source/user/latex.rst:1021
 #: ../../source/user/latex.rst:1195 ../../source/user/latex.rst:1256
 msgid "Option:"
-msgstr ""
+msgstr "Option:"
 
 #: ../../source/user/latex.rst:343
 msgid "latex-preamble_"
-msgstr ""
+msgstr "latex-preamble_"
 
 #: ../../source/user/latex.rst:346 ../../source/user/latex.rst:445
 #: ../../source/user/latex.rst:502 ../../source/user/latex.rst:579
@@ -590,11 +590,11 @@ msgstr ""
 #: ../../source/user/latex.rst:1613 ../../source/user/latex.rst:1731
 #: ../../source/user/latex.rst:1756 ../../source/user/latex.rst:1803
 msgid "Default:"
-msgstr ""
+msgstr "Default:"
 
 #: ../../source/user/latex.rst:346
 msgid "used for `font setup`_"
-msgstr ""
+msgstr "used for `font setup`_"
 
 #: ../../source/user/latex.rst:354 ../../source/user/latex.rst:382
 #: ../../source/user/latex.rst:403 ../../source/user/latex.rst:417
@@ -610,7 +610,7 @@ msgstr ""
 #: ../../source/user/latex.rst:1651 ../../source/user/latex.rst:1736
 #: ../../source/user/latex.rst:1762
 msgid "Example:"
-msgstr ""
+msgstr "Example:"
 
 #: ../../source/user/latex.rst:349
 msgid ""
@@ -620,7 +620,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:365
 msgid "Templates"
-msgstr ""
+msgstr "Templates"
 
 #: ../../source/user/latex.rst:367
 msgid ""
@@ -633,7 +633,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:374
 msgid "template_"
-msgstr ""
+msgstr "template_"
 
 #: ../../source/user/latex.rst:376
 msgid ""
@@ -643,11 +643,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:380
 msgid "Print a title page including docinfo, dedication, and abstract::"
-msgstr ""
+msgstr "Print a title page including docinfo, dedication, and abstract::"
 
 #: ../../source/user/latex.rst:389
 msgid "Raw LaTeX"
-msgstr ""
+msgstr "Raw LaTeX"
 
 #: ../../source/user/latex.rst:391
 msgid ""
@@ -658,7 +658,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:396
 msgid "Math formula::"
-msgstr ""
+msgstr "Math formula::"
 
 #: ../../source/user/latex.rst:402
 msgid ""
@@ -678,27 +678,27 @@ msgstr ""
 
 #: ../../source/user/latex.rst:413
 msgid "Define the transition command as page break::"
-msgstr ""
+msgstr "Define the transition command as page break::"
 
 #: ../../source/user/latex.rst:421
 msgid "See also:"
-msgstr ""
+msgstr "See also:"
 
 #: ../../source/user/latex.rst:420
 msgid "Defining a macro for a `custom role`_."
-msgstr ""
+msgstr "Defining a macro for a `custom role`_."
 
 #: ../../source/user/latex.rst:421
 msgid "Forcing `page breaks`_."
-msgstr ""
+msgstr "Forcing `page breaks`_."
 
 #: ../../source/user/latex.rst:431
 msgid "How to configure the ..."
-msgstr ""
+msgstr "How to configure the ..."
 
 #: ../../source/user/latex.rst:434
 msgid "admonitions"
-msgstr ""
+msgstr "admonitions"
 
 #: ../../source/user/latex.rst:436
 msgid ""
@@ -711,16 +711,16 @@ msgstr ""
 #: ../../source/user/latex.rst:1541 ../../source/user/latex.rst:1585
 #: ../../source/user/latex.rst:1728 ../../source/user/latex.rst:1800
 msgid "Command:"
-msgstr ""
+msgstr "Command:"
 
 #: ../../source/user/latex.rst:442
 msgid "``\\DUadmonition``"
-msgstr ""
+msgstr "``\\DUadmonition``"
 
 #: ../../source/user/latex.rst:445
 #, python-format
 msgid "Typeset in a frame (90Â % of text width)."
-msgstr ""
+msgstr "Typeset in a frame (90Â % of text width)."
 
 #: ../../source/user/latex.rst:447
 msgid ""
@@ -730,7 +730,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:451
 msgid "A lighter layout without the frame::"
-msgstr ""
+msgstr "A lighter layout without the frame::"
 
 #: ../../source/user/latex.rst:464
 msgid ""
@@ -741,7 +741,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:472
 msgid "Use ``.. note::`` for a margin note::"
-msgstr ""
+msgstr "Use ``.. note::`` for a margin note::"
 
 #: ../../source/user/latex.rst:476
 msgid ""
@@ -751,7 +751,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:488
 msgid "custom interpreted text roles"
-msgstr ""
+msgstr "custom interpreted text roles"
 
 #: ../../source/user/latex.rst:490
 msgid ""
@@ -762,11 +762,11 @@ msgstr ""
 #: ../../source/user/latex.rst:497 ../../source/user/latex.rst:1235
 #: ../../source/user/latex.rst:1331
 msgid "Commands:"
-msgstr ""
+msgstr "Commands:"
 
 #: ../../source/user/latex.rst:494
 msgid "``\\DUrole``: dispatcher command"
-msgstr ""
+msgstr "``\\DUrole``: dispatcher command"
 
 #: ../../source/user/latex.rst:496
 msgid ""
@@ -783,15 +783,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:505
 msgid "Typeset text in small caps::"
-msgstr ""
+msgstr "Typeset text in small caps::"
 
 #: ../../source/user/latex.rst:511
 msgid "This is transformed to the LaTeX code::"
-msgstr ""
+msgstr "This is transformed to the LaTeX code::"
 
 #: ../../source/user/latex.rst:515
 msgid "The definition ::"
-msgstr ""
+msgstr "The definition ::"
 
 #: ../../source/user/latex.rst:519
 msgid ""
@@ -801,7 +801,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:523
 msgid "Subscript text in normal size and *italic* shape::"
-msgstr ""
+msgstr "Subscript text in normal size and *italic* shape::"
 
 #: ../../source/user/latex.rst:527
 msgid ""
@@ -811,15 +811,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:533
 msgid "A role with several classes and a converted class name::"
-msgstr ""
+msgstr "A role with several classes and a converted class name::"
 
 #: ../../source/user/latex.rst:538
 msgid "is translated to the nested commands::"
-msgstr ""
+msgstr "is translated to the nested commands::"
 
 #: ../../source/user/latex.rst:542
 msgid "With the definitions::"
-msgstr ""
+msgstr "With the definitions::"
 
 #: ../../source/user/latex.rst:550
 msgid ""
@@ -836,7 +836,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:567
 msgid "definition lists"
-msgstr ""
+msgstr "definition lists"
 
 #: ../../source/user/latex.rst:569
 msgid ""
@@ -847,27 +847,27 @@ msgstr ""
 #: ../../source/user/latex.rst:573 ../../source/user/latex.rst:673
 #: ../../source/user/latex.rst:1211 ../../source/user/latex.rst:1348
 msgid "Environment:"
-msgstr ""
+msgstr "Environment:"
 
 #: ../../source/user/latex.rst:573
 msgid "``description``: LaTeX standard environment"
-msgstr ""
+msgstr "``description``: LaTeX standard environment"
 
 #: ../../source/user/latex.rst:576
 msgid "``\\descriptionlabel``: styling macro for the description term"
-msgstr ""
+msgstr "``\\descriptionlabel``: styling macro for the description term"
 
 #: ../../source/user/latex.rst:579
 msgid "bold label text, hanging indent"
-msgstr ""
+msgstr "bold label text, hanging indent"
 
 #: ../../source/user/latex.rst:582
 msgid "A non-bold label can be achieved with::"
-msgstr ""
+msgstr "A non-bold label can be achieved with::"
 
 #: ../../source/user/latex.rst:590
 msgid "document class"
-msgstr ""
+msgstr "document class"
 
 #: ../../source/user/latex.rst:592
 msgid ""
@@ -877,27 +877,27 @@ msgstr ""
 
 #: ../../source/user/latex.rst:598
 msgid "Popular document classes:"
-msgstr ""
+msgstr "Popular document classes:"
 
 #: ../../source/user/latex.rst:596
 msgid "article, report, book: standard document classes"
-msgstr ""
+msgstr "article, report, book: standard document classes"
 
 #: ../../source/user/latex.rst:597
 msgid "scrartcl, scrrprt, scrbook: KOMA-script_ classes"
-msgstr ""
+msgstr "scrartcl, scrrprt, scrbook: KOMA-script_ classes"
 
 #: ../../source/user/latex.rst:598
 msgid "memoir_: highly configurable class for larger documents"
-msgstr ""
+msgstr "memoir_: highly configurable class for larger documents"
 
 #: ../../source/user/latex.rst:601
 msgid "documentclass_"
-msgstr ""
+msgstr "documentclass_"
 
 #: ../../source/user/latex.rst:612
 msgid "document info"
-msgstr ""
+msgstr "document info"
 
 #: ../../source/user/latex.rst:614
 msgid ""
@@ -907,29 +907,29 @@ msgstr ""
 
 #: ../../source/user/latex.rst:618
 msgid "use-latex-docinfo_, use-latex-abstract_"
-msgstr ""
+msgstr "use-latex-docinfo_, use-latex-abstract_"
 
 #: ../../source/user/latex.rst:621 ../../source/user/latex.rst:1214
 msgid "Length:"
-msgstr ""
+msgstr "Length:"
 
 #: ../../source/user/latex.rst:621
 msgid "``\\DUdocinfowidth``: the width for the `docinfo` table."
-msgstr ""
+msgstr "``\\DUdocinfowidth``: the width for the `docinfo` table."
 
 #: ../../source/user/latex.rst:624
 #, python-format
 msgid "90Â % of text width: ``0.9\\textwidth``"
-msgstr ""
+msgstr "90Â % of text width: ``0.9\\textwidth``"
 
 #: ../../source/user/latex.rst:627
 #, python-format
 msgid "set to 70Â % of text width::"
-msgstr ""
+msgstr "set to 70Â % of text width::"
 
 #: ../../source/user/latex.rst:641
 msgid "document title"
-msgstr ""
+msgstr "document title"
 
 #: ../../source/user/latex.rst:643
 msgid ""
@@ -953,7 +953,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:655
 msgid "use-latex-docinfo_"
-msgstr ""
+msgstr "use-latex-docinfo_"
 
 #: ../../source/user/latex.rst:657
 msgid ""
@@ -964,7 +964,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:667
 msgid "field lists"
-msgstr ""
+msgstr "field lists"
 
 #: ../../source/user/latex.rst:669
 msgid ""
@@ -974,15 +974,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:673
 msgid "``DUfieldlist``"
-msgstr ""
+msgstr "``DUfieldlist``"
 
 #: ../../source/user/latex.rst:676
 msgid "Indented description list."
-msgstr ""
+msgstr "Indented description list."
 
 #: ../../source/user/latex.rst:679
 msgid "Use a description list customized with enumitem_::"
-msgstr ""
+msgstr "Use a description list customized with enumitem_::"
 
 #: ../../source/user/latex.rst:687
 msgid ""
@@ -992,7 +992,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:697
 msgid "figure and table captions"
-msgstr ""
+msgstr "figure and table captions"
 
 #: ../../source/user/latex.rst:699
 msgid ""
@@ -1014,11 +1014,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:712
 msgid "Example"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/user/latex.rst:722
 msgid "figure placement"
-msgstr ""
+msgstr "figure placement"
 
 #: ../../source/user/latex.rst:724
 msgid ""
@@ -1029,7 +1029,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:729
 msgid "``\\floatplacement``"
-msgstr ""
+msgstr "``\\floatplacement``"
 
 #: ../../source/user/latex.rst:731
 msgid ""
@@ -1058,7 +1058,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:763
 msgid "font"
-msgstr ""
+msgstr "font"
 
 #: ../../source/user/latex.rst:765
 msgid ""
@@ -1083,7 +1083,7 @@ msgstr ""
 #: ../../source/user/latex.rst:779 ../../source/user/latex.rst:793
 #: ../../source/user/latex.rst:854
 msgid "XeTeX/LuaTeX"
-msgstr ""
+msgstr "XeTeX/LuaTeX"
 
 #: ../../source/user/latex.rst:778
 msgid ""
@@ -1093,11 +1093,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:783
 msgid "The default font setup is done in the latex-preamble_:"
-msgstr ""
+msgstr "The default font setup is done in the latex-preamble_:"
 
 #: ../../source/user/latex.rst:786
 msgid "`PDF standard fonts`_ (Times, Helvetica, Courier)"
-msgstr ""
+msgstr "`PDF standard fonts`_ (Times, Helvetica, Courier)"
 
 #: ../../source/user/latex.rst:789
 msgid ""
@@ -1113,7 +1113,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:795
 msgid "Alternative fonts can be selected by"
-msgstr ""
+msgstr "Alternative fonts can be selected by"
 
 #: ../../source/user/latex.rst:798
 msgid ""
@@ -1123,7 +1123,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:801
 msgid "packages can be combined,"
-msgstr ""
+msgstr "packages can be combined,"
 
 #: ../../source/user/latex.rst:802
 msgid ""
@@ -1140,11 +1140,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:810
 msgid "Use `Latin Modern`_. `LaTeX code`_::"
-msgstr ""
+msgstr "Use `Latin Modern`_. `LaTeX code`_::"
 
 #: ../../source/user/latex.rst:814
 msgid "Command line argument::"
-msgstr ""
+msgstr "Command line argument::"
 
 #: ../../source/user/latex.rst:819
 msgid ""
@@ -1187,7 +1187,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:862
 msgid "choice of suitable fonts"
-msgstr ""
+msgstr "choice of suitable fonts"
 
 #: ../../source/user/latex.rst:864
 msgid ""
@@ -1210,39 +1210,39 @@ msgstr ""
 
 #: ../../source/user/latex.rst:874
 msgid "simple invocation:  ``--stylesheet=lmodern``"
-msgstr ""
+msgstr "simple invocation:  ``--stylesheet=lmodern``"
 
 #: ../../source/user/latex.rst:876
 msgid "keeps the traditional TeX \"look and feel\":"
-msgstr ""
+msgstr "keeps the traditional TeX \"look and feel\":"
 
 #: ../../source/user/latex.rst:878
 msgid "generally accepted as high quality CM replacement,"
-msgstr ""
+msgstr "generally accepted as high quality CM replacement,"
 
 #: ../../source/user/latex.rst:879
 msgid "comprehensive math support,"
-msgstr ""
+msgstr "comprehensive math support,"
 
 #: ../../source/user/latex.rst:880
 msgid "including optical sizes,"
-msgstr ""
+msgstr "including optical sizes,"
 
 #: ../../source/user/latex.rst:881
 msgid "compatible with extensions made to match CM,"
-msgstr ""
+msgstr "compatible with extensions made to match CM,"
 
 #: ../../source/user/latex.rst:882
 msgid "modern types are hard to read at low (screen) resolutions."
-msgstr ""
+msgstr "modern types are hard to read at low (screen) resolutions."
 
 #: ../../source/user/latex.rst:884 ../../source/user/latex.rst:902
 msgid "not part of a minimal standard TeX installation"
-msgstr ""
+msgstr "not part of a minimal standard TeX installation"
 
 #: ../../source/user/latex.rst:886
 msgid "CM-Super_ is another outline CM replacement."
-msgstr ""
+msgstr "CM-Super_ is another outline CM replacement."
 
 #: ../../source/user/latex.rst:888
 msgid ""
@@ -1252,7 +1252,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:891
 msgid "said to be of inferior quality compared to LM."
-msgstr ""
+msgstr "said to be of inferior quality compared to LM."
 
 #: ../../source/user/latex.rst:893
 msgid ""
@@ -1262,35 +1262,35 @@ msgstr ""
 
 #: ../../source/user/latex.rst:896
 msgid "`Bera`_ (Bitstream Vera)"
-msgstr ""
+msgstr "`Bera`_ (Bitstream Vera)"
 
 #: ../../source/user/latex.rst:898
 msgid "simple invocation:  ``--stylesheet=bera``"
-msgstr ""
+msgstr "simple invocation:  ``--stylesheet=bera``"
 
 #: ../../source/user/latex.rst:900
 msgid "optimized for on-screen viewing with goot hinting"
-msgstr ""
+msgstr "optimized for on-screen viewing with goot hinting"
 
 #: ../../source/user/latex.rst:904
 msgid "PSNFSS_ Postscript fonts"
-msgstr ""
+msgstr "PSNFSS_ Postscript fonts"
 
 #: ../../source/user/latex.rst:906
 msgid "part of every standard TeX installation"
-msgstr ""
+msgstr "part of every standard TeX installation"
 
 #: ../../source/user/latex.rst:908
 msgid "smaller PDF/Postscript document size if standard fonts are not embedded"
-msgstr ""
+msgstr "smaller PDF/Postscript document size if standard fonts are not embedded"
 
 #: ../../source/user/latex.rst:911
 msgid "restricted set of glyphs in the free versions [#]_"
-msgstr ""
+msgstr "restricted set of glyphs in the free versions [#]_"
 
 #: ../../source/user/latex.rst:913
 msgid "different fonts for roman, sans-serif and typewriter fonts."
-msgstr ""
+msgstr "different fonts for roman, sans-serif and typewriter fonts."
 
 #: ../../source/user/latex.rst:915
 msgid ""
@@ -1300,35 +1300,35 @@ msgstr ""
 
 #: ../../source/user/latex.rst:919
 msgid "Roman (serif) PSNFSS fonts:"
-msgstr ""
+msgstr "Roman (serif) PSNFSS fonts:"
 
 #: ../../source/user/latex.rst:922 ../../source/user/latex.rst:968
 msgid "Bookman"
-msgstr ""
+msgstr "Bookman"
 
 #: ../../source/user/latex.rst:922 ../../source/user/latex.rst:929
 msgid "good legibility but very wide."
-msgstr ""
+msgstr "good legibility but very wide."
 
 #: ../../source/user/latex.rst:926 ../../source/user/latex.rst:973
 msgid "Charter"
-msgstr ""
+msgstr "Charter"
 
 #: ../../source/user/latex.rst:925
 msgid "bread-and-butter type optimized for printing on low-resolution printers"
-msgstr ""
+msgstr "bread-and-butter type optimized for printing on low-resolution printers"
 
 #: ../../source/user/latex.rst:929 ../../source/user/latex.rst:970
 msgid "New Century Schoolbook"
-msgstr ""
+msgstr "New Century Schoolbook"
 
 #: ../../source/user/latex.rst:937 ../../source/user/latex.rst:955
 msgid "Palatino"
-msgstr ""
+msgstr "Palatino"
 
 #: ../../source/user/latex.rst:932 ../../source/user/latex.rst:944
 msgid "recommended by font experts"
-msgstr ""
+msgstr "recommended by font experts"
 
 #: ../../source/user/latex.rst:933
 msgid ""
@@ -1345,20 +1345,20 @@ msgstr ""
 
 #: ../../source/user/latex.rst:941 ../../source/user/latex.rst:957
 msgid "Times"
-msgstr ""
+msgstr "Times"
 
 #: ../../source/user/latex.rst:940
 msgid "the serif `PDF Standard Font`_,"
-msgstr ""
+msgstr "the serif `PDF Standard Font`_,"
 
 #: ../../source/user/latex.rst:941
 msgid "overused and quite narrow (devised for multi-column layouts)."
-msgstr ""
+msgstr "overused and quite narrow (devised for multi-column layouts)."
 
 #: ../../source/user/latex.rst:945 ../../source/user/latex.rst:975
 #: ../../source/user/latex.rst:977
 msgid "Utopia"
-msgstr ""
+msgstr "Utopia"
 
 #: ../../source/user/latex.rst:947
 msgid ""
@@ -1368,109 +1368,109 @@ msgstr ""
 
 #: ../../source/user/latex.rst:951
 msgid "Package"
-msgstr ""
+msgstr "Package"
 
 #: ../../source/user/latex.rst:951
 msgid "Roman"
-msgstr ""
+msgstr "Roman"
 
 #: ../../source/user/latex.rst:951
 msgid "Sans Serif"
-msgstr ""
+msgstr "Sans Serif"
 
 #: ../../source/user/latex.rst:951
 msgid "Typewriter"
-msgstr ""
+msgstr "Typewriter"
 
 #: ../../source/user/latex.rst:951
 msgid "Math"
-msgstr ""
+msgstr "Math"
 
 #: ../../source/user/latex.rst:953
 msgid "(none)"
-msgstr ""
+msgstr "(none)"
 
 #: ../../source/user/latex.rst:953
 msgid "CM Roman"
-msgstr ""
+msgstr "CM Roman"
 
 #: ../../source/user/latex.rst:953
 msgid "CM Sans Serif"
-msgstr ""
+msgstr "CM Sans Serif"
 
 #: ../../source/user/latex.rst:953
 msgid "CM Typewriter"
-msgstr ""
+msgstr "CM Typewriter"
 
 #: ../../source/user/latex.rst:953
 msgid "CM Math"
-msgstr ""
+msgstr "CM Math"
 
 #: ../../source/user/latex.rst:955
 msgid "mathpazo"
-msgstr ""
+msgstr "mathpazo"
 
 #: ../../source/user/latex.rst:957
 msgid "mathptmx"
-msgstr ""
+msgstr "mathptmx"
 
 #: ../../source/user/latex.rst:959
 msgid "helvet"
-msgstr ""
+msgstr "helvet"
 
 #: ../../source/user/latex.rst:959
 msgid "Helvetica"
-msgstr ""
+msgstr "Helvetica"
 
 #: ../../source/user/latex.rst:961
 msgid "avant"
-msgstr ""
+msgstr "avant"
 
 #: ../../source/user/latex.rst:961 ../../source/user/latex.rst:968
 #: ../../source/user/latex.rst:970
 msgid "Avant Garde"
-msgstr ""
+msgstr "Avant Garde"
 
 #: ../../source/user/latex.rst:963
 msgid "courier"
-msgstr ""
+msgstr "courier"
 
 #: ../../source/user/latex.rst:963 ../../source/user/latex.rst:968
 #: ../../source/user/latex.rst:970
 msgid "Courier"
-msgstr ""
+msgstr "Courier"
 
 #: ../../source/user/latex.rst:965
 msgid "chancery"
-msgstr ""
+msgstr "chancery"
 
 #: ../../source/user/latex.rst:965
 msgid "Zapf Chancery"
-msgstr ""
+msgstr "Zapf Chancery"
 
 #: ../../source/user/latex.rst:968
 msgid "bookman"
-msgstr ""
+msgstr "bookman"
 
 #: ../../source/user/latex.rst:970
 msgid "newcent"
-msgstr ""
+msgstr "newcent"
 
 #: ../../source/user/latex.rst:973
 msgid "charter"
-msgstr ""
+msgstr "charter"
 
 #: ../../source/user/latex.rst:975
 msgid "utopia"
-msgstr ""
+msgstr "utopia"
 
 #: ../../source/user/latex.rst:977
 msgid "fourier"
-msgstr ""
+msgstr "fourier"
 
 #: ../../source/user/latex.rst:977
 msgid "Fourier"
-msgstr ""
+msgstr "Fourier"
 
 #: ../../source/user/latex.rst:980
 msgid ""
@@ -1481,7 +1481,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1015
 msgid "font encoding"
-msgstr ""
+msgstr "font encoding"
 
 #: ../../source/user/latex.rst:1017
 msgid ""
@@ -1491,19 +1491,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1021
 msgid "font-encoding_"
-msgstr ""
+msgstr "font-encoding_"
 
 #: ../../source/user/latex.rst:1024
 msgid "\"T1\""
-msgstr ""
+msgstr "\"T1\""
 
 #: ../../source/user/latex.rst:1027
 msgid "Use the (obsolete) LaTeX default encoding \"OT1\"::"
-msgstr ""
+msgstr "Use the (obsolete) LaTeX default encoding \"OT1\"::"
 
 #: ../../source/user/latex.rst:1031
 msgid "or (without loading the fontenc_ package)::"
-msgstr ""
+msgstr "or (without loading the fontenc_ package)::"
 
 #: ../../source/user/latex.rst:1035
 msgid ""
@@ -1522,7 +1522,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1056
 msgid "font size"
-msgstr ""
+msgstr "font size"
 
 #: ../../source/user/latex.rst:1058
 msgid ""
@@ -1533,7 +1533,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1067
 msgid "footnotes"
-msgstr ""
+msgstr "footnotes"
 
 #: ../../source/user/latex.rst:1069
 msgid ""
@@ -1551,39 +1551,39 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1078
 msgid "Set footnote text with a hanging indent."
-msgstr ""
+msgstr "Set footnote text with a hanging indent."
 
 #: ../../source/user/latex.rst:1080
 msgid "This is the default with KOMA-script_ classes, e.g::"
-msgstr ""
+msgstr "This is the default with KOMA-script_ classes, e.g::"
 
 #: ../../source/user/latex.rst:1084
 msgid "(for further configuration, see the `KOMA-script Guide`_),"
-msgstr ""
+msgstr "(for further configuration, see the `KOMA-script Guide`_),"
 
 #: ../../source/user/latex.rst:1086
 msgid "with package footmisc_::"
-msgstr ""
+msgstr "with package footmisc_::"
 
 #: ../../source/user/latex.rst:1091
 msgid "(play with the ``\\footnotemargin`` setting),"
-msgstr ""
+msgstr "(play with the ``\\footnotemargin`` setting),"
 
 #: ../../source/user/latex.rst:1093
 msgid "redefine ``\\DUfootnotetext`` inserting `\\hangindent`::"
-msgstr ""
+msgstr "redefine ``\\DUfootnotetext`` inserting `\\hangindent`::"
 
 #: ../../source/user/latex.rst:1104
 msgid "(adapt the ``\\hangindent`` value)."
-msgstr ""
+msgstr "(adapt the ``\\hangindent`` value)."
 
 #: ../../source/user/latex.rst:1107
 msgid "Footnote marks in normal font size, not superscript::"
-msgstr ""
+msgstr "Footnote marks in normal font size, not superscript::"
 
 #: ../../source/user/latex.rst:1112
 msgid "(See the `KOMA-script Guide`_ for details and other options.)"
-msgstr ""
+msgstr "(See the `KOMA-script Guide`_ for details and other options.)"
 
 #: ../../source/user/latex.rst:1115
 msgid ""
@@ -1594,7 +1594,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1133
 msgid "hyphenation"
-msgstr ""
+msgstr "hyphenation"
 
 #: ../../source/user/latex.rst:1135
 msgid ""
@@ -1606,11 +1606,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1147
 msgid "hyperlinks"
-msgstr ""
+msgstr "hyperlinks"
 
 #: ../../source/user/latex.rst:1150
 msgid "hyperlink-color_, hyperref-options_"
-msgstr ""
+msgstr "hyperlink-color_, hyperref-options_"
 
 #: ../../source/user/latex.rst:1152
 msgid ""
@@ -1636,35 +1636,35 @@ msgstr ""
 
 #: ../../source/user/latex.rst
 msgid "same"
-msgstr ""
+msgstr "same"
 
 #: ../../source/user/latex.rst:1165
 msgid "normal text font, Docutils default,"
-msgstr ""
+msgstr "normal text font, Docutils default,"
 
 #: ../../source/user/latex.rst
 msgid "tt"
-msgstr ""
+msgstr "tt"
 
 #: ../../source/user/latex.rst:1166
 msgid "teletype (monospaced), LaTeX default,"
-msgstr ""
+msgstr "teletype (monospaced), LaTeX default,"
 
 #: ../../source/user/latex.rst
 msgid "rm"
-msgstr ""
+msgstr "rm"
 
 #: ../../source/user/latex.rst:1167
 msgid "roman,"
-msgstr ""
+msgstr "roman,"
 
 #: ../../source/user/latex.rst
 msgid "sf"
-msgstr ""
+msgstr "sf"
 
 #: ../../source/user/latex.rst:1168
 msgid "sans serif"
-msgstr ""
+msgstr "sans serif"
 
 #: ../../source/user/latex.rst:1171
 msgid ""
@@ -1674,11 +1674,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1178
 msgid "See also `non-breaking hyperlinks`_."
-msgstr ""
+msgstr "See also `non-breaking hyperlinks`_."
 
 #: ../../source/user/latex.rst:1187
 msgid "disable hyperlinks"
-msgstr ""
+msgstr "disable hyperlinks"
 
 #: ../../source/user/latex.rst:1189
 msgid ""
@@ -1689,43 +1689,43 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1195
 msgid "``--hyperref-options=draft``"
-msgstr ""
+msgstr "``--hyperref-options=draft``"
 
 #: ../../source/user/latex.rst:1197 ../../source/user/latex.rst:1480
 msgid "`LaTeX code`_::"
-msgstr ""
+msgstr "`LaTeX code`_::"
 
 #: ../../source/user/latex.rst:1206
 msgid "line blocks"
-msgstr ""
+msgstr "line blocks"
 
 #: ../../source/user/latex.rst:1208
 msgid "In `line blocks`__, newlines and leading whitespace are respected."
-msgstr ""
+msgstr "In `line blocks`__, newlines and leading whitespace are respected."
 
 #: ../../source/user/latex.rst:1211
 msgid "``DUlineblock``: special list environment for line blocks"
-msgstr ""
+msgstr "``DUlineblock``: special list environment for line blocks"
 
 #: ../../source/user/latex.rst:1214
 msgid "``\\DUlineblockindent``: indentation of indented lineblock parts."
-msgstr ""
+msgstr "``\\DUlineblockindent``: indentation of indented lineblock parts."
 
 #: ../../source/user/latex.rst:1217
 msgid "2.5 times the font hight: ``2.5em``"
-msgstr ""
+msgstr "2.5 times the font hight: ``2.5em``"
 
 #: ../../source/user/latex.rst:1220
 msgid "set to the paragraph indentation::"
-msgstr ""
+msgstr "set to the paragraph indentation::"
 
 #: ../../source/user/latex.rst:1229
 msgid "line spacing"
-msgstr ""
+msgstr "line spacing"
 
 #: ../../source/user/latex.rst:1232
 msgid "``\\linespread``: for small adjustments"
-msgstr ""
+msgstr "``\\linespread``: for small adjustments"
 
 #: ../../source/user/latex.rst:1234
 msgid ""
@@ -1735,15 +1735,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1238
 msgid "Get document wide double spacing::"
-msgstr ""
+msgstr "Get document wide double spacing::"
 
 #: ../../source/user/latex.rst:1244
 msgid "Increase line spacing by five percent for better readability::"
-msgstr ""
+msgstr "Increase line spacing by five percent for better readability::"
 
 #: ../../source/user/latex.rst:1250
 msgid "literal blocks"
-msgstr ""
+msgstr "literal blocks"
 
 #: ../../source/user/latex.rst:1252
 msgid ""
@@ -1753,11 +1753,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1256
 msgid "literal-block-env_"
-msgstr ""
+msgstr "literal-block-env_"
 
 #: ../../source/user/latex.rst:1260
 msgid "``--literal-block-env=lstlisting``"
-msgstr ""
+msgstr "``--literal-block-env=lstlisting``"
 
 #: ../../source/user/latex.rst:1262
 msgid ""
@@ -1768,19 +1768,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1279
 msgid "and to get LaTeX syntax highlight for a code block with \"listings\"::"
-msgstr ""
+msgstr "and to get LaTeX syntax highlight for a code block with \"listings\"::"
 
 #: ../../source/user/latex.rst:1284
 msgid "The indentation of literal blocks can be reset with ::"
-msgstr ""
+msgstr "The indentation of literal blocks can be reset with ::"
 
 #: ../../source/user/latex.rst:1288
 msgid "and/or configured with e.Â g.::"
-msgstr ""
+msgstr "and/or configured with e.Â g.::"
 
 #: ../../source/user/latex.rst:1300
 msgid "lists"
-msgstr ""
+msgstr "lists"
 
 #: ../../source/user/latex.rst:1302
 msgid ""
@@ -1790,7 +1790,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1306
 msgid "Pass the class argument \"compact\" to the list::"
-msgstr ""
+msgstr "Pass the class argument \"compact\" to the list::"
 
 #: ../../source/user/latex.rst:1313
 msgid ""
@@ -1800,11 +1800,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1321
 msgid "list of figures/tables"
-msgstr ""
+msgstr "list of figures/tables"
 
 #: ../../source/user/latex.rst:1323
 msgid "Docutils does not support lists of figures or tables."
-msgstr ""
+msgstr "Docutils does not support lists of figures or tables."
 
 #: ../../source/user/latex.rst:1325
 msgid ""
@@ -1814,15 +1814,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1329
 msgid "``\\listoffigures``: a list of figures"
-msgstr ""
+msgstr "``\\listoffigures``: a list of figures"
 
 #: ../../source/user/latex.rst:1331
 msgid "``\\listoftables``: a list of tables"
-msgstr ""
+msgstr "``\\listoftables``: a list of tables"
 
 #: ../../source/user/latex.rst:1342
 msgid "option list"
-msgstr ""
+msgstr "option list"
 
 #: ../../source/user/latex.rst:1344
 msgid ""
@@ -1832,19 +1832,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1348
 msgid "``DUoptionlist``: environment for option lists,"
-msgstr ""
+msgstr "``DUoptionlist``: environment for option lists,"
 
 #: ../../source/user/latex.rst:1351
 msgid "``\\DUoptionlistlabel``: set appearance of the options"
-msgstr ""
+msgstr "``\\DUoptionlistlabel``: set appearance of the options"
 
 #: ../../source/user/latex.rst:1354
 msgid "set command options with a bold monospace font::"
-msgstr ""
+msgstr "set command options with a bold monospace font::"
 
 #: ../../source/user/latex.rst:1362
 msgid "page breaks"
-msgstr ""
+msgstr "page breaks"
 
 #: ../../source/user/latex.rst:1364
 msgid ""
@@ -1861,19 +1861,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1371
 msgid "`Raw LaTeX`_ or a `custom role`_ can be used."
-msgstr ""
+msgstr "`Raw LaTeX`_ or a `custom role`_ can be used."
 
 #: ../../source/user/latex.rst:1373
 msgid "The transition element can be re-defined to produce a page break,"
-msgstr ""
+msgstr "The transition element can be re-defined to produce a page break,"
 
 #: ../../source/user/latex.rst:1378
 msgid "Commands"
-msgstr ""
+msgstr "Commands"
 
 #: ../../source/user/latex.rst:1376
 msgid "``\\newpage``:  hard pagebreak at exactly this position"
-msgstr ""
+msgstr "``\\newpage``:  hard pagebreak at exactly this position"
 
 #: ../../source/user/latex.rst:1378
 msgid ""
@@ -1883,15 +1883,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1381
 msgid "Define the transition command as page break with the `LaTeX code`_::"
-msgstr ""
+msgstr "Define the transition command as page break with the `LaTeX code`_::"
 
 #: ../../source/user/latex.rst:1385
 msgid "(use ``\\renewcommand`` with `raw LaTeX`_)."
-msgstr ""
+msgstr "(use ``\\renewcommand`` with `raw LaTeX`_)."
 
 #: ../../source/user/latex.rst:1388
 msgid "page layout"
-msgstr ""
+msgstr "page layout"
 
 #: ../../source/user/latex.rst:1390
 msgid ""
@@ -1901,7 +1901,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1393
 msgid "The following packages help to configure the page layout:"
-msgstr ""
+msgstr "The following packages help to configure the page layout:"
 
 #: ../../source/user/latex.rst:1395
 msgid ""
@@ -1938,11 +1938,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1417
 msgid "`LaTeX code`_ to set margins with the geometry_ package::"
-msgstr ""
+msgstr "`LaTeX code`_ to set margins with the geometry_ package::"
 
 #: ../../source/user/latex.rst:1434
 msgid "page headers and footers"
-msgstr ""
+msgstr "page headers and footers"
 
 #: ../../source/user/latex.rst:1436
 msgid ""
@@ -1966,19 +1966,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1459
 msgid "page numbering"
-msgstr ""
+msgstr "page numbering"
 
 #: ../../source/user/latex.rst:1462
 msgid "Number pages by chapter (using the chappg_ package)::"
-msgstr ""
+msgstr "Number pages by chapter (using the chappg_ package)::"
 
 #: ../../source/user/latex.rst:1466
 msgid "See the `chappg documentation`_ for details."
-msgstr ""
+msgstr "See the `chappg documentation`_ for details."
 
 #: ../../source/user/latex.rst:1475
 msgid "paper size"
-msgstr ""
+msgstr "paper size"
 
 #: ../../source/user/latex.rst:1477
 msgid ""
@@ -1988,39 +1988,39 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1486
 msgid "a4paper"
-msgstr ""
+msgstr "a4paper"
 
 #: ../../source/user/latex.rst:1488
 msgid "Some possibilities:"
-msgstr ""
+msgstr "Some possibilities:"
 
 #: ../../source/user/latex.rst:1490
 msgid "a4paper, b3paper, letterpaper, executivepaper, legalpaper"
-msgstr ""
+msgstr "a4paper, b3paper, letterpaper, executivepaper, legalpaper"
 
 #: ../../source/user/latex.rst:1491
 msgid "landscape, portrait, twoside."
-msgstr ""
+msgstr "landscape, portrait, twoside."
 
 #: ../../source/user/latex.rst:1494
 msgid "Choose A5 pager in landscape orientation with command line argument::"
-msgstr ""
+msgstr "Choose A5 pager in landscape orientation with command line argument::"
 
 #: ../../source/user/latex.rst:1498
 msgid "The same with LaTeX commands in the `style sheet`_::"
-msgstr ""
+msgstr "The same with LaTeX commands in the `style sheet`_::"
 
 #: ../../source/user/latex.rst:1503
 msgid "For details see the `geometry manual`_."
-msgstr ""
+msgstr "For details see the `geometry manual`_."
 
 #: ../../source/user/latex.rst:1506
 msgid "paragraph indent"
-msgstr ""
+msgstr "paragraph indent"
 
 #: ../../source/user/latex.rst:1510
 msgid "Default (in most document classes):"
-msgstr ""
+msgstr "Default (in most document classes):"
 
 #: ../../source/user/latex.rst:1509
 msgid ""
@@ -2036,7 +2036,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1518
 msgid "or in a custom `style sheet`_ with::"
-msgstr ""
+msgstr "or in a custom `style sheet`_ with::"
 
 #: ../../source/user/latex.rst:1523
 msgid ""
@@ -2046,11 +2046,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1530
 msgid "and define the `custom role`_ command::"
-msgstr ""
+msgstr "and define the `custom role`_ command::"
 
 #: ../../source/user/latex.rst:1535
 msgid "rubric"
-msgstr ""
+msgstr "rubric"
 
 #: ../../source/user/latex.rst:1537
 msgid ""
@@ -2060,31 +2060,31 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1541
 msgid "``\\DUrubric``"
-msgstr ""
+msgstr "``\\DUrubric``"
 
 #: ../../source/user/latex.rst:1544
 msgid "subsubsection style, italic, centred"
-msgstr ""
+msgstr "subsubsection style, italic, centred"
 
 #: ../../source/user/latex.rst:1547
 msgid "set flushleft and red::"
-msgstr ""
+msgstr "set flushleft and red::"
 
 #: ../../source/user/latex.rst:1556
 msgid "section numbering"
-msgstr ""
+msgstr "section numbering"
 
 #: ../../source/user/latex.rst:1558
 msgid "Sections are numbered if there is a `sectnum directive`_ in the document."
-msgstr ""
+msgstr "Sections are numbered if there is a `sectnum directive`_ in the document."
 
 #: ../../source/user/latex.rst:1561
 msgid "Option: sectnum_xform_"
-msgstr ""
+msgstr "Option: sectnum_xform_"
 
 #: ../../source/user/latex.rst:1561
 msgid "``--section-numbering``, ``--no-section-numbering``"
-msgstr ""
+msgstr "``--section-numbering``, ``--no-section-numbering``"
 
 #: ../../source/user/latex.rst:1563
 msgid ""
@@ -2096,11 +2096,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1570
 msgid "The LaTeX name is 'secnumdepth' (whithout 't')."
-msgstr ""
+msgstr "The LaTeX name is 'secnumdepth' (whithout 't')."
 
 #: ../../source/user/latex.rst:1577
 msgid "sidebar"
-msgstr ""
+msgstr "sidebar"
 
 #: ../../source/user/latex.rst:1579
 msgid ""
@@ -2112,19 +2112,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1585
 msgid "``DUsidebar``"
-msgstr ""
+msgstr "``DUsidebar``"
 
 #: ../../source/user/latex.rst:1588
 msgid "Box with grey background."
-msgstr ""
+msgstr "Box with grey background."
 
 #: ../../source/user/latex.rst:1591
 msgid "Use margin notes::"
-msgstr ""
+msgstr "Use margin notes::"
 
 #: ../../source/user/latex.rst:1595
 msgid "Make sure the margin is wide enough to hold the note."
-msgstr ""
+msgstr "Make sure the margin is wide enough to hold the note."
 
 #: ../../source/user/latex.rst:1596
 msgid ""
@@ -2135,7 +2135,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1603
 msgid "size of a pixel"
-msgstr ""
+msgstr "size of a pixel"
 
 #: ../../source/user/latex.rst:1605
 msgid ""
@@ -2152,19 +2152,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1613
 msgid "72Â DPI, i.e. 1Â pxÂ =Â 1/72Â in. [#]_"
-msgstr ""
+msgstr "72Â DPI, i.e. 1Â pxÂ =Â 1/72Â in. [#]_"
 
 #: ../../source/user/latex.rst:1616
 msgid "Set the value to match the CSS definition with the `LaTeX code`_::"
-msgstr ""
+msgstr "Set the value to match the CSS definition with the `LaTeX code`_::"
 
 #: ../../source/user/latex.rst:1622
 msgid "The `CSS length unit ``px```_ defaults to 1/96 inch."
-msgstr ""
+msgstr "The `CSS length unit ``px```_ defaults to 1/96 inch."
 
 #: ../../source/user/latex.rst:1630
 msgid "table"
-msgstr ""
+msgstr "table"
 
 #: ../../source/user/latex.rst:1632
 msgid ""
@@ -2175,7 +2175,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1640
 msgid "topic element"
-msgstr ""
+msgstr "topic element"
 
 #: ../../source/user/latex.rst:1642
 msgid ""
@@ -2186,11 +2186,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1647
 msgid "Use a standard paragraph for a topic::"
-msgstr ""
+msgstr "Use a standard paragraph for a topic::"
 
 #: ../../source/user/latex.rst:1658
 msgid "titles"
-msgstr ""
+msgstr "titles"
 
 #: ../../source/user/latex.rst:1660
 msgid ""
@@ -2200,11 +2200,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1664
 msgid "a centered and somewhat larger title for topcis::"
-msgstr ""
+msgstr "a centered and somewhat larger title for topcis::"
 
 #: ../../source/user/latex.rst:1669
 msgid "a right-pointing hand as title for the \"attention\" directive::"
-msgstr ""
+msgstr "a right-pointing hand as title for the \"attention\" directive::"
 
 #: ../../source/user/latex.rst:1674
 msgid ""
@@ -2214,27 +2214,27 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1682
 msgid "table of contents"
-msgstr ""
+msgstr "table of contents"
 
 #: ../../source/user/latex.rst:1684
 msgid "A `contents directive`_ is replaced by a table of contents (ToC)."
-msgstr ""
+msgstr "A `contents directive`_ is replaced by a table of contents (ToC)."
 
 #: ../../source/user/latex.rst:1687
 msgid "Option: use-latex-toc_"
-msgstr ""
+msgstr "Option: use-latex-toc_"
 
 #: ../../source/user/latex.rst:1687
 msgid "``--use-latex-toc``, ``--use-docutils-toc``"
-msgstr ""
+msgstr "``--use-latex-toc``, ``--use-docutils-toc``"
 
 #: ../../source/user/latex.rst:1689
 msgid "With use-latex-toc (default since release 0.6):"
-msgstr ""
+msgstr "With use-latex-toc (default since release 0.6):"
 
 #: ../../source/user/latex.rst:1691
 msgid "The ToC is generated by LaTeX (via the ``\\tableofcontents`` command)."
-msgstr ""
+msgstr "The ToC is generated by LaTeX (via the ``\\tableofcontents`` command)."
 
 #: ../../source/user/latex.rst:1693
 msgid ""
@@ -2245,15 +2245,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1697
 msgid "The depth of the ToC and PDF-bookmarks can be configured"
-msgstr ""
+msgstr "The depth of the ToC and PDF-bookmarks can be configured"
 
 #: ../../source/user/latex.rst:1699
 msgid "with the \"depth\" argument of the `contents directive`_, or"
-msgstr ""
+msgstr "with the \"depth\" argument of the `contents directive`_, or"
 
 #: ../../source/user/latex.rst:1701
 msgid "in a style sheet with e.g. ``\\setcounter{tocdepth}{5}``."
-msgstr ""
+msgstr "in a style sheet with e.g. ``\\setcounter{tocdepth}{5}``."
 
 #: ../../source/user/latex.rst:1703
 msgid ""
@@ -2276,27 +2276,27 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1723
 msgid "title reference role"
-msgstr ""
+msgstr "title reference role"
 
 #: ../../source/user/latex.rst:1725
 msgid "`Title reference`_ is the default `default role`_ for `interpreted text`_."
-msgstr ""
+msgstr "`Title reference`_ is the default `default role`_ for `interpreted text`_."
 
 #: ../../source/user/latex.rst:1728
 msgid "``\\DUroletitlereference``"
-msgstr ""
+msgstr "``\\DUroletitlereference``"
 
 #: ../../source/user/latex.rst:1731
 msgid "use slanted font (``\\textsl``)"
-msgstr ""
+msgstr "use slanted font (``\\textsl``)"
 
 #: ../../source/user/latex.rst:1734
 msgid "set title references with a bold monospace font::"
-msgstr ""
+msgstr "set title references with a bold monospace font::"
 
 #: ../../source/user/latex.rst:1747
 msgid "text encoding"
-msgstr ""
+msgstr "text encoding"
 
 #: ../../source/user/latex.rst:1749
 msgid ""
@@ -2306,15 +2306,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1753
 msgid "Option: output-encoding_"
-msgstr ""
+msgstr "Option: output-encoding_"
 
 #: ../../source/user/latex.rst:1753
 msgid "``--output-encoding=OUTPUT-ENCODING``"
-msgstr ""
+msgstr "``--output-encoding=OUTPUT-ENCODING``"
 
 #: ../../source/user/latex.rst:1756
 msgid "\"utf8\""
-msgstr ""
+msgstr "\"utf8\""
 
 #: ../../source/user/latex.rst:1759
 msgid ""
@@ -2324,15 +2324,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1775
 msgid "Note:"
-msgstr ""
+msgstr "Note:"
 
 #: ../../source/user/latex.rst:1765
 msgid "LaTeX comes with two options for UTF-8 support,"
-msgstr ""
+msgstr "LaTeX comes with two options for UTF-8 support,"
 
 #: ../../source/user/latex.rst
 msgid "utf8"
-msgstr ""
+msgstr "utf8"
 
 #: ../../source/user/latex.rst:1767
 msgid ""
@@ -2342,7 +2342,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst
 msgid "utf8x"
-msgstr ""
+msgstr "utf8x"
 
 #: ../../source/user/latex.rst:1770
 msgid ""
@@ -2359,7 +2359,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1793
 msgid "transition element"
-msgstr ""
+msgstr "transition element"
 
 #: ../../source/user/latex.rst:1795
 msgid ""
@@ -2370,19 +2370,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1800
 msgid "``\\DUtransition``"
-msgstr ""
+msgstr "``\\DUtransition``"
 
 #: ../../source/user/latex.rst:1803
 msgid "A horizontal line, 1/3 of text width"
-msgstr ""
+msgstr "A horizontal line, 1/3 of text width"
 
 #: ../../source/user/latex.rst:1806
 msgid "Use three stars::"
-msgstr ""
+msgstr "Use three stars::"
 
 #: ../../source/user/latex.rst:1810
 msgid "Alternatively use the more elaborated version in `transition-stars.sty`_."
-msgstr ""
+msgstr "Alternatively use the more elaborated version in `transition-stars.sty`_."
 
 #: ../../source/user/latex.rst:1813
 msgid ""
@@ -2392,7 +2392,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1824
 msgid "Changes"
-msgstr ""
+msgstr "Changes"
 
 #: ../../source/user/latex.rst:1826
 msgid ""
@@ -2408,15 +2408,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1840
 msgid "Problems"
-msgstr ""
+msgstr "Problems"
 
 #: ../../source/user/latex.rst:1843
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Troubleshooting"
 
 #: ../../source/user/latex.rst:1846
 msgid "Bad looking PDF output"
-msgstr ""
+msgstr "Bad looking PDF output"
 
 #: ../../source/user/latex.rst:1848
 msgid ""
@@ -2432,7 +2432,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1854
 msgid "Make sure the default font is not a bitmap font."
-msgstr ""
+msgstr "Make sure the default font is not a bitmap font."
 
 #: ../../source/user/latex.rst:1856
 msgid ""
@@ -2443,7 +2443,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1862
 msgid "footnote mark and text at different pages"
-msgstr ""
+msgstr "footnote mark and text at different pages"
 
 #: ../../source/user/latex.rst:1864
 msgid ""
@@ -2462,7 +2462,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1874
 msgid "non-breaking hyperlinks"
-msgstr ""
+msgstr "non-breaking hyperlinks"
 
 #: ../../source/user/latex.rst:1876
 msgid ""
@@ -2472,7 +2472,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1885
 msgid "Wrong:"
-msgstr ""
+msgstr "Wrong:"
 
 #: ../../source/user/latex.rst:1884
 msgid ""
@@ -2483,31 +2483,31 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1894
 msgid "Right:"
-msgstr ""
+msgstr "Right:"
 
 #: ../../source/user/latex.rst:1888
 msgid "Use one of the following:"
-msgstr ""
+msgstr "Use one of the following:"
 
 #: ../../source/user/latex.rst:1890
 msgid "compile with pdflatex_,"
-msgstr ""
+msgstr "compile with pdflatex_,"
 
 #: ../../source/user/latex.rst:1892
 msgid "use the package breakurl_,"
-msgstr ""
+msgstr "use the package breakurl_,"
 
 #: ../../source/user/latex.rst:1894
 msgid "(for printout) `disable hyperlinks`_ using the package \"nohyperref\"."
-msgstr ""
+msgstr "(for printout) `disable hyperlinks`_ using the package \"nohyperref\"."
 
 #: ../../source/user/latex.rst:1896
 msgid "See also the `Link text doesnâ€™t break at end line`_ LaTeX FAQ entry."
-msgstr ""
+msgstr "See also the `Link text doesnâ€™t break at end line`_ LaTeX FAQ entry."
 
 #: ../../source/user/latex.rst:1906
 msgid "Glyph not defined in PD1 encoding"
-msgstr ""
+msgstr "Glyph not defined in PD1 encoding"
 
 #: ../../source/user/latex.rst:1908
 msgid ""
@@ -2517,7 +2517,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1915
 msgid "This can be solved with the \"unicode\" hyperref_option_ setting::"
-msgstr ""
+msgstr "This can be solved with the \"unicode\" hyperref_option_ setting::"
 
 #: ../../source/user/latex.rst:1919
 msgid ""
@@ -2528,7 +2528,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1927
 msgid "image inclusion"
-msgstr ""
+msgstr "image inclusion"
 
 #: ../../source/user/latex.rst:1929
 msgid ""
@@ -2538,11 +2538,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1932
 msgid "pdflatex_ and xelatex_ work with PNG, JPG, or PDF, but **not EPS**."
-msgstr ""
+msgstr "pdflatex_ and xelatex_ work with PNG, JPG, or PDF, but **not EPS**."
 
 #: ../../source/user/latex.rst:1933
 msgid "Standard latex_ can include **only EPS** graphics, no other format."
-msgstr ""
+msgstr "Standard latex_ can include **only EPS** graphics, no other format."
 
 #: ../../source/user/latex.rst:1934
 msgid ""
@@ -2558,11 +2558,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1940
 msgid "For details see grfguide.pdf_."
-msgstr ""
+msgstr "For details see grfguide.pdf_."
 
 #: ../../source/user/latex.rst:1942
 msgid "The Rubber_ wrapper can be used for automatic image conversion."
-msgstr ""
+msgstr "The Rubber_ wrapper can be used for automatic image conversion."
 
 #: ../../source/user/latex.rst:1944
 msgid ""
@@ -2575,15 +2575,15 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1959
 msgid "Why are my images too big?"
-msgstr ""
+msgstr "Why are my images too big?"
 
 #: ../../source/user/latex.rst:1961
 msgid "HTML-browsers use the actual screen resolution (usually around 100Â DPI)."
-msgstr ""
+msgstr "HTML-browsers use the actual screen resolution (usually around 100Â DPI)."
 
 #: ../../source/user/latex.rst:1964
 msgid "The CSS specification suggests:"
-msgstr ""
+msgstr "The CSS specification suggests:"
 
 #: ../../source/user/latex.rst:1966
 msgid ""
@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1975
 msgid "http://www.w3.org/TR/CSS2/syndata.html#length-units"
-msgstr ""
+msgstr "http://www.w3.org/TR/CSS2/syndata.html#length-units"
 
 #: ../../source/user/latex.rst:1972
 msgid ""
@@ -2604,7 +2604,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1977
 msgid "Solution:"
-msgstr ""
+msgstr "Solution:"
 
 #: ../../source/user/latex.rst:1976
 msgid ""
@@ -2614,7 +2614,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1980
 msgid "Error ``illegal unit px``"
-msgstr ""
+msgstr "Error ``illegal unit px``"
 
 #: ../../source/user/latex.rst:1982
 msgid ""
@@ -2638,7 +2638,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:1994
 msgid "Error ``Symbol \\textcurrency not provided`` ..."
-msgstr ""
+msgstr "Error ``Symbol \\textcurrency not provided`` ..."
 
 #: ../../source/user/latex.rst:1996
 msgid ""
@@ -2648,31 +2648,31 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2003
 msgid "(which in case of font family \"ptm\" is a false positive). Add either"
-msgstr ""
+msgstr "(which in case of font family \"ptm\" is a false positive). Add either"
 
 #: ../../source/user/latex.rst
 msgid "warn"
-msgstr ""
+msgstr "warn"
 
 #: ../../source/user/latex.rst:2005
 msgid "turn the error in a warning, use the default symbol (bitmap), or"
-msgstr ""
+msgstr "turn the error in a warning, use the default symbol (bitmap), or"
 
 #: ../../source/user/latex.rst
 msgid "force,almostfull"
-msgstr ""
+msgstr "force,almostfull"
 
 #: ../../source/user/latex.rst:2006
 msgid "use the symbol provided by the font at the users risk,"
-msgstr ""
+msgstr "use the symbol provided by the font at the users risk,"
 
 #: ../../source/user/latex.rst:2009
 msgid "to the document options or use a different font package."
-msgstr ""
+msgstr "to the document options or use a different font package."
 
 #: ../../source/user/latex.rst:2012
 msgid "Search and text extraction"
-msgstr ""
+msgstr "Search and text extraction"
 
 #: ../../source/user/latex.rst:2014
 msgid ""
@@ -2689,19 +2689,19 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2028
 msgid "Unicode box drawing and block characters"
-msgstr ""
+msgstr "Unicode box drawing and block characters"
 
 #: ../../source/user/latex.rst:2030
 msgid "The easiest solution is to use xelatex_ for `PDF generation`_."
-msgstr ""
+msgstr "The easiest solution is to use xelatex_ for `PDF generation`_."
 
 #: ../../source/user/latex.rst:2032
 msgid "With \"traditional\" TeX engines (e.g. pdflatex_):"
-msgstr ""
+msgstr "With \"traditional\" TeX engines (e.g. pdflatex_):"
 
 #: ../../source/user/latex.rst:2034
 msgid "Generate LaTeX code with `output-encoding`_ \"utf-8\"."
-msgstr ""
+msgstr "Generate LaTeX code with `output-encoding`_ \"utf-8\"."
 
 #: ../../source/user/latex.rst:2036
 msgid ""
@@ -2717,11 +2717,11 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2049
 msgid "Bugs and open issues"
-msgstr ""
+msgstr "Bugs and open issues"
 
 #: ../../source/user/latex.rst:2051
 msgid "Open to be fixed or open to discussion."
-msgstr ""
+msgstr "Open to be fixed or open to discussion."
 
 #: ../../source/user/latex.rst:2053
 msgid ""
@@ -2731,7 +2731,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2063
 msgid "Footnotes and citations"
-msgstr ""
+msgstr "Footnotes and citations"
 
 #: ../../source/user/latex.rst:2065
 msgid ""
@@ -2748,7 +2748,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2074
 msgid "Workaround:"
-msgstr ""
+msgstr "Workaround:"
 
 #: ../../source/user/latex.rst:2073
 msgid ""
@@ -2773,7 +2773,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2089
 msgid "Tables"
-msgstr ""
+msgstr "Tables"
 
 #: ../../source/user/latex.rst:2091
 msgid ""
@@ -2784,23 +2784,23 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2095
 msgid "You may use the `:width:` option to manually set the table column widths."
-msgstr ""
+msgstr "You may use the `:width:` option to manually set the table column widths."
 
 #: ../../source/user/latex.rst:2097
 msgid "Table: multicol cells are always left aligned."
-msgstr ""
+msgstr "Table: multicol cells are always left aligned."
 
 #: ../../source/user/latex.rst:2099
 msgid "Table cells with both multirow and multicolumn are currently not possible."
-msgstr ""
+msgstr "Table cells with both multirow and multicolumn are currently not possible."
 
 #: ../../source/user/latex.rst:2101
 msgid "literal-blocks in table cells:"
-msgstr ""
+msgstr "literal-blocks in table cells:"
 
 #: ../../source/user/latex.rst:2103
 msgid "If verbatim or flushleft is used one gets vertical space above and below."
-msgstr ""
+msgstr "If verbatim or flushleft is used one gets vertical space above and below."
 
 #: ../../source/user/latex.rst:2104
 msgid ""
@@ -2823,7 +2823,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2115
 msgid "Figures"
-msgstr ""
+msgstr "Figures"
 
 #: ../../source/user/latex.rst:2117
 msgid ""
@@ -2840,7 +2840,7 @@ msgstr ""
 
 #: ../../source/user/latex.rst:2129
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscellaneous"
 
 #: ../../source/user/latex.rst:2131
 msgid ""

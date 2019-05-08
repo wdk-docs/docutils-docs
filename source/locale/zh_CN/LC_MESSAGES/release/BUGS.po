@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:3
 msgid "Docutils_ Bugs"
-msgstr ""
+msgstr "Bugs"
 
 #: ../../source/release/BUGS.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/release/BUGS.rst:5
 msgid "David Goodger; open to all Docutils developers"
-msgstr ""
+msgstr "David Goodger; open to all Docutils developers"
 
 #: ../../source/release/BUGS.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/release/BUGS.rst:6
 msgid "goodger@python.org"
-msgstr ""
+msgstr "goodger@python.org"
 
 #: ../../source/release/BUGS.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/release/BUGS.rst:7
 msgid "$Date: 2017-06-09 13:02:35 +0200 (Fr, 09. Jun 2017) $"
-msgstr ""
+msgstr "$Date: 2017-06-09 13:02:35 +0200 (Fr, 09. Jun 2017) $"
 
 #: ../../source/release/BUGS.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/release/BUGS.rst:8
 msgid "$Revision: 8103 $"
-msgstr ""
+msgstr "$Revision: 8103 $"
 
 #: ../../source/release/BUGS.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/release/BUGS.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/release/BUGS.rst:14
 msgid ""
@@ -72,15 +72,15 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:19
 msgid "This document describes how to report a bug, and lists known bugs."
-msgstr ""
+msgstr "This document describes how to report a bug, and lists known bugs."
 
 #: ../../source/release/BUGS.rst:22
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/release/BUGS.rst:25
 msgid "How To Report A Bug"
-msgstr ""
+msgstr "How To Report A Bug"
 
 #: ../../source/release/BUGS.rst:27
 msgid ""
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:30
 msgid "First, make sure it's a new bug:"
-msgstr ""
+msgstr "First, make sure it's a new bug:"
 
 #: ../../source/release/BUGS.rst:32
 msgid ""
@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:49
 msgid "If you're not sure, please ask on the Docutils-users_ mailing list first."
-msgstr ""
+msgstr "If you're not sure, please ask on the Docutils-users_ mailing list first."
 
 #: ../../source/release/BUGS.rst:54
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:69
 msgid "the person responding can just copy-and-paste the code to try it out."
-msgstr ""
+msgstr "the person responding can just copy-and-paste the code to try it out."
 
 #: ../../source/release/BUGS.rst:71
 msgid ""
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:74
 msgid "See also: `What is a minimal working example?`__, `LaTeX FAQ`__"
-msgstr ""
+msgstr "See also: `What is a minimal working example?`__, `LaTeX FAQ`__"
 
 #: ../../source/release/BUGS.rst:79
 msgid "Now you're ready to write the bug report.  Please include:"
-msgstr ""
+msgstr "Now you're ready to write the bug report.  Please include:"
 
 #: ../../source/release/BUGS.rst:81
 msgid ""
@@ -173,15 +173,15 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:86
 msgid "A complete description of the environment in which you reproduced the bug:"
-msgstr ""
+msgstr "A complete description of the environment in which you reproduced the bug:"
 
 #: ../../source/release/BUGS.rst:89
 msgid "Your operating system & version."
-msgstr ""
+msgstr "Your operating system & version."
 
 #: ../../source/release/BUGS.rst:90
 msgid "The version of Python (``python -V``)."
-msgstr ""
+msgstr "The version of Python (``python -V``)."
 
 #: ../../source/release/BUGS.rst:91
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:93
 msgid "Any private modifications you made to Docutils."
-msgstr ""
+msgstr "Any private modifications you made to Docutils."
 
 #: ../../source/release/BUGS.rst:94
 msgid ""
@@ -228,19 +228,19 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:112
 msgid "Thank you!"
-msgstr ""
+msgstr "Thank you!"
 
 #: ../../source/release/BUGS.rst:114
 msgid "(This section was inspired by the `Subversion project's`__ BUGS__ file.)"
-msgstr ""
+msgstr "(This section was inspired by the `Subversion project's`__ BUGS__ file.)"
 
 #: ../../source/release/BUGS.rst:131
 msgid "Known Bugs"
-msgstr ""
+msgstr "Known Bugs"
 
 #: ../../source/release/BUGS.rst:133
 msgid "Also see the `SourceForge Bug Tracker`_."
-msgstr ""
+msgstr "Also see the `SourceForge Bug Tracker`_."
 
 #: ../../source/release/BUGS.rst:137
 msgid ""
@@ -272,11 +272,11 @@ msgstr ""
 
 #: ../../source/release/BUGS.rst:160
 msgid "Footnote label \"5\" should be \"4\" when processing the following input::"
-msgstr ""
+msgstr "Footnote label \"5\" should be \"4\" when processing the following input::"
 
 #: ../../source/release/BUGS.rst:170
 msgid "Output::"
-msgstr ""
+msgstr "Output::"
 
 #: ../../source/release/BUGS.rst:207
 msgid ""

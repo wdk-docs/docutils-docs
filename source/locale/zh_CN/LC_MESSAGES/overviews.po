@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/overviews.rst:3
 msgid "Docutils: Documentation Utilities"
-msgstr "Docutils: 文档实用程序"
+msgstr "文档实用程序"
 
 #: ../../source/overviews.rst:6
 msgid "Written in Python, for General- and Special-Purpose Use"
@@ -180,4 +180,3 @@ msgid ""
 " and `Docutils-checkins "
 "<http://news.gmane.org/group/gmane.text.docutils.cvs/last=/force_load=t>`__."
 msgstr "谷歌应该索引邮件列表: `Docutils-users <http://news.gmane.org/group/gmane.text.docutils.user/last=/force_load=t>`__, `Docutils-develop <http://news.gmane.org/group/gmane.text.docutils.devel/last=/force_load=t>`__, 和 `Docutils-checkins <http://news.gmane.org/group/gmane.text.docutils.cvs/last=/force_load=t>`__."
-

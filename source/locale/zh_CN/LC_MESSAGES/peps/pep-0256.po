@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:15
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/peps/pep-0256.rst:17
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:38
 msgid "Road Map to the Docstring PEPs"
-msgstr ""
+msgstr "Road Map to the Docstring PEPs"
 
 #: ../../source/peps/pep-0256.rst:40
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:49
 msgid "Docstring semantics consist of at least two aspects:"
-msgstr ""
+msgstr "Docstring semantics consist of at least two aspects:"
 
 #: ../../source/peps/pep-0256.rst:51
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:73
 msgid "Rationale"
-msgstr ""
+msgstr "Rationale"
 
 #: ../../source/peps/pep-0256.rst:75
 msgid ""
@@ -139,19 +139,19 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:86
 msgid "Marc-Andre Lemburg's doc.py_"
-msgstr ""
+msgstr "Marc-Andre Lemburg's doc.py_"
 
 #: ../../source/peps/pep-0256.rst:88
 msgid "Daniel Larsson's pythondoc_ & gendoc_"
-msgstr ""
+msgstr "Daniel Larsson's pythondoc_ & gendoc_"
 
 #: ../../source/peps/pep-0256.rst:90
 msgid "Doug Hellmann's HappyDoc_"
-msgstr ""
+msgstr "Doug Hellmann's HappyDoc_"
 
 #: ../../source/peps/pep-0256.rst:92
 msgid "Laurence Tratt's Crystal (no longer available on the web)"
-msgstr ""
+msgstr "Laurence Tratt's Crystal (no longer available on the web)"
 
 #: ../../source/peps/pep-0256.rst:94
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:100
 msgid "Edward Loper's STminus_ formalization and related efforts"
-msgstr ""
+msgstr "Edward Loper's STminus_ formalization and related efforts"
 
 #: ../../source/peps/pep-0256.rst:102
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:128
 msgid "PyDoc & Other Existing Systems"
-msgstr ""
+msgstr "PyDoc & Other Existing Systems"
 
 #: ../../source/peps/pep-0256.rst:130
 msgid ""
@@ -253,27 +253,27 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:164
 msgid "Specification"
-msgstr ""
+msgstr "Specification"
 
 #: ../../source/peps/pep-0256.rst:166
 msgid "The docstring processing system framework is broken up as follows:"
-msgstr ""
+msgstr "The docstring processing system framework is broken up as follows:"
 
 #: ../../source/peps/pep-0256.rst:168
 msgid "Docstring conventions.  Documents issues such as:"
-msgstr ""
+msgstr "Docstring conventions.  Documents issues such as:"
 
 #: ../../source/peps/pep-0256.rst:170
 msgid "What should be documented where."
-msgstr ""
+msgstr "What should be documented where."
 
 #: ../../source/peps/pep-0256.rst:172
 msgid "First line is a one-line synopsis."
-msgstr ""
+msgstr "First line is a one-line synopsis."
 
 #: ../../source/peps/pep-0256.rst:174
 msgid "PEP 257 [#PEP-257]_ documents some of these issues."
-msgstr ""
+msgstr "PEP 257 [#PEP-257]_ documents some of these issues."
 
 #: ../../source/peps/pep-0256.rst:176
 msgid ""
@@ -283,27 +283,27 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:179
 msgid "High-level spec: what a DPS does."
-msgstr ""
+msgstr "High-level spec: what a DPS does."
 
 #: ../../source/peps/pep-0256.rst:181
 msgid "Command-line interface for executable script."
-msgstr ""
+msgstr "Command-line interface for executable script."
 
 #: ../../source/peps/pep-0256.rst:183
 msgid "System Python API."
-msgstr ""
+msgstr "System Python API."
 
 #: ../../source/peps/pep-0256.rst:185
 msgid "Docstring extraction rules."
-msgstr ""
+msgstr "Docstring extraction rules."
 
 #: ../../source/peps/pep-0256.rst:187
 msgid "Readers, which encapsulate the input context."
-msgstr ""
+msgstr "Readers, which encapsulate the input context."
 
 #: ../../source/peps/pep-0256.rst:189
 msgid "Parsers."
-msgstr ""
+msgstr "Parsers."
 
 #: ../../source/peps/pep-0256.rst:191
 msgid ""
@@ -314,11 +314,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:195
 msgid "Transforms, which modify the document tree."
-msgstr ""
+msgstr "Transforms, which modify the document tree."
 
 #: ../../source/peps/pep-0256.rst:197
 msgid "Writers for output formats."
-msgstr ""
+msgstr "Writers for output formats."
 
 #: ../../source/peps/pep-0256.rst:199
 msgid ""
@@ -334,7 +334,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:205
 msgid "Docstring processing system implementation."
-msgstr ""
+msgstr "Docstring processing system implementation."
 
 #: ../../source/peps/pep-0256.rst:207
 msgid ""
@@ -344,7 +344,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:210
 msgid "Input parser implementations."
-msgstr ""
+msgstr "Input parser implementations."
 
 #: ../../source/peps/pep-0256.rst:212
 msgid ""
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:229
 msgid "Project Web Site"
-msgstr ""
+msgstr "Project Web Site"
 
 #: ../../source/peps/pep-0256.rst:231
 msgid ""
@@ -385,7 +385,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:236
 msgid "References and Footnotes"
-msgstr ""
+msgstr "References and Footnotes"
 
 #: ../../source/peps/pep-0256.rst:238
 msgid ""
@@ -407,15 +407,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0256.rst:278
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/peps/pep-0256.rst:280
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/peps/pep-0256.rst:284
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Acknowledgements"
 
 #: ../../source/peps/pep-0256.rst:286
 msgid ""

@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/release/THANKS.rst:4
 msgid "Acknowledgements"
-msgstr ""
+msgstr "致谢"
 
 #: ../../source/release/THANKS.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/release/THANKS.rst:6
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/release/THANKS.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/release/THANKS.rst:7
 msgid "goodger@python.org"
-msgstr ""
+msgstr "goodger@python.org"
 
 #: ../../source/release/THANKS.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/release/THANKS.rst:8
 msgid "$Date: 2015-02-09 00:21:18 +0100 (Mo, 09. Feb 2015) $"
-msgstr ""
+msgstr "$Date: 2015-02-09 00:21:18 +0100 (Mo, 09. Feb 2015) $"
 
 #: ../../source/release/THANKS.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/release/THANKS.rst:9
 msgid "$Revision: 7784 $"
-msgstr ""
+msgstr "$Revision: 7784 $"
 
 #: ../../source/release/THANKS.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/release/THANKS.rst:10
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/release/THANKS.rst:12
 msgid ""
@@ -72,587 +72,587 @@ msgstr ""
 
 #: ../../source/release/THANKS.rst:17
 msgid "Aahz"
-msgstr ""
+msgstr "Aahz"
 
 #: ../../source/release/THANKS.rst:18
 msgid "David Abrahams"
-msgstr ""
+msgstr "David Abrahams"
 
 #: ../../source/release/THANKS.rst:19
 msgid "Guy D. Alcos"
-msgstr ""
+msgstr "Guy D. Alcos"
 
 #: ../../source/release/THANKS.rst:20
 msgid "David Ascher"
-msgstr ""
+msgstr "David Ascher"
 
 #: ../../source/release/THANKS.rst:21
 msgid "Ned Batchelder"
-msgstr ""
+msgstr "Ned Batchelder"
 
 #: ../../source/release/THANKS.rst:22
 msgid "Heiko Baumann"
-msgstr ""
+msgstr "Heiko Baumann"
 
 #: ../../source/release/THANKS.rst:23
 msgid "Anthony Baxter"
-msgstr ""
+msgstr "Anthony Baxter"
 
 #: ../../source/release/THANKS.rst:24
 msgid "Eric Bellot"
-msgstr ""
+msgstr "Eric Bellot"
 
 #: ../../source/release/THANKS.rst:25
 msgid "Frank Bennett"
-msgstr ""
+msgstr "Frank Bennett"
 
 #: ../../source/release/THANKS.rst:26
 msgid "Ian Bicking"
-msgstr ""
+msgstr "Ian Bicking"
 
 #: ../../source/release/THANKS.rst:27
 msgid "Marek Blaha"
-msgstr ""
+msgstr "Marek Blaha"
 
 #: ../../source/release/THANKS.rst:28
 msgid "Martin Blais"
-msgstr ""
+msgstr "Martin Blais"
 
 #: ../../source/release/THANKS.rst:29
 msgid "Stephen Boulet"
-msgstr ""
+msgstr "Stephen Boulet"
 
 #: ../../source/release/THANKS.rst:30
 msgid "Fred Bremmer"
-msgstr ""
+msgstr "Fred Bremmer"
 
 #: ../../source/release/THANKS.rst:31
 msgid "Simon Budig"
-msgstr ""
+msgstr "Simon Budig"
 
 #: ../../source/release/THANKS.rst:32
 msgid "Bill Bumgarner"
-msgstr ""
+msgstr "Bill Bumgarner"
 
 #: ../../source/release/THANKS.rst:33
 msgid "Brett Cannon"
-msgstr ""
+msgstr "Brett Cannon"
 
 #: ../../source/release/THANKS.rst:34
 msgid "Greg Chapman"
-msgstr ""
+msgstr "Greg Chapman"
 
 #: ../../source/release/THANKS.rst:35
 msgid "Nicolas Chauveau"
-msgstr ""
+msgstr "Nicolas Chauveau"
 
 #: ../../source/release/THANKS.rst:36
 msgid "Beni Cherniavsky"
-msgstr ""
+msgstr "Beni Cherniavsky"
 
 #: ../../source/release/THANKS.rst:37
 msgid "Adam Chodorowski"
-msgstr ""
+msgstr "Adam Chodorowski"
 
 #: ../../source/release/THANKS.rst:38
 msgid "Brent Cook"
-msgstr ""
+msgstr "Brent Cook"
 
 #: ../../source/release/THANKS.rst:39
 msgid "Laura Creighton"
-msgstr ""
+msgstr "Laura Creighton"
 
 #: ../../source/release/THANKS.rst:40
 msgid "Artur de Sousa Rocha"
-msgstr ""
+msgstr "Artur de Sousa Rocha"
 
 #: ../../source/release/THANKS.rst:41
 msgid "Stephan Deibel & `Wing IDE <http://wingide.com/>`__"
-msgstr ""
+msgstr "Stephan Deibel & `Wing IDE <http://wingide.com/>`__"
 
 #: ../../source/release/THANKS.rst:42
 msgid "Jason Diamond"
-msgstr ""
+msgstr "Jason Diamond"
 
 #: ../../source/release/THANKS.rst:43
 msgid "William Dode"
-msgstr ""
+msgstr "William Dode"
 
 #: ../../source/release/THANKS.rst:44
 msgid "Fred Drake"
-msgstr ""
+msgstr "Fred Drake"
 
 #: ../../source/release/THANKS.rst:45
 msgid "Reggie Dugard"
-msgstr ""
+msgstr "Reggie Dugard"
 
 #: ../../source/release/THANKS.rst:46
 msgid "Dethe Elza"
-msgstr ""
+msgstr "Dethe Elza"
 
 #: ../../source/release/THANKS.rst:47
 msgid "Marcus Ertl"
-msgstr ""
+msgstr "Marcus Ertl"
 
 #: ../../source/release/THANKS.rst:48
 msgid "Benja Fallenstein"
-msgstr ""
+msgstr "Benja Fallenstein"
 
 #: ../../source/release/THANKS.rst:49
 msgid "fantasai"
-msgstr ""
+msgstr "fantasai"
 
 #: ../../source/release/THANKS.rst:50
 msgid "Stefane Fermigier"
-msgstr ""
+msgstr "Stefane Fermigier"
 
 #: ../../source/release/THANKS.rst:51
 msgid "Michael Foord"
-msgstr ""
+msgstr "Michael Foord"
 
 #: ../../source/release/THANKS.rst:52
 msgid "Jim Fulton"
-msgstr ""
+msgstr "Jim Fulton"
 
 #: ../../source/release/THANKS.rst:53
 msgid "Peter Funk"
-msgstr ""
+msgstr "Peter Funk"
 
 #: ../../source/release/THANKS.rst:54
 msgid "Lele Gaifax"
-msgstr ""
+msgstr "Lele Gaifax"
 
 #: ../../source/release/THANKS.rst:55
 msgid "Dinu C. Gherman"
-msgstr ""
+msgstr "Dinu C. Gherman"
 
 #: ../../source/release/THANKS.rst:56
 msgid "Matt Gilbert"
-msgstr ""
+msgstr "Matt Gilbert"
 
 #: ../../source/release/THANKS.rst:57
 msgid "Jorge Gonzalez"
-msgstr ""
+msgstr "Jorge Gonzalez"
 
 #: ../../source/release/THANKS.rst:58
 msgid "Engelbert Gruber"
-msgstr ""
+msgstr "Engelbert Gruber"
 
 #: ../../source/release/THANKS.rst:59
 msgid "Jacob Hallen"
-msgstr ""
+msgstr "Jacob Hallen"
 
 #: ../../source/release/THANKS.rst:60
 msgid "Simon Hefti"
-msgstr ""
+msgstr "Simon Hefti"
 
 #: ../../source/release/THANKS.rst:61
 msgid "Doug Hellmann"
-msgstr ""
+msgstr "Doug Hellmann"
 
 #: ../../source/release/THANKS.rst:62
 msgid "Marc Herbert"
-msgstr ""
+msgstr "Marc Herbert"
 
 #: ../../source/release/THANKS.rst:63
 msgid "Juergen Hermann"
-msgstr ""
+msgstr "Juergen Hermann"
 
 #: ../../source/release/THANKS.rst:64
 msgid "Jannie Hofmeyr"
-msgstr ""
+msgstr "Jannie Hofmeyr"
 
 #: ../../source/release/THANKS.rst:65
 msgid "Steve Holden"
-msgstr ""
+msgstr "Steve Holden"
 
 #: ../../source/release/THANKS.rst:66
 msgid "Michael Hudson"
-msgstr ""
+msgstr "Michael Hudson"
 
 #: ../../source/release/THANKS.rst:67
 msgid "Marcelo Huerta San Martin"
-msgstr ""
+msgstr "Marcelo Huerta San Martin"
 
 #: ../../source/release/THANKS.rst:68
 msgid "Ludger Humbert"
-msgstr ""
+msgstr "Ludger Humbert"
 
 #: ../../source/release/THANKS.rst:69
 msgid "Jeremy Hylton"
-msgstr ""
+msgstr "Jeremy Hylton"
 
 #: ../../source/release/THANKS.rst:70
 msgid "Tony Ibbs"
-msgstr ""
+msgstr "Tony Ibbs"
 
 #: ../../source/release/THANKS.rst:71
 msgid "Alan G. Isaac"
-msgstr ""
+msgstr "Alan G. Isaac"
 
 #: ../../source/release/THANKS.rst:72
 msgid "Alan Jaffray"
-msgstr ""
+msgstr "Alan Jaffray"
 
 #: ../../source/release/THANKS.rst:73
 msgid "Joe YS Jaw"
-msgstr ""
+msgstr "Joe YS Jaw"
 
 #: ../../source/release/THANKS.rst:74
 msgid "Dmitry Jemerov"
-msgstr ""
+msgstr "Dmitry Jemerov"
 
 #: ../../source/release/THANKS.rst:75
 msgid "Richard Jones"
-msgstr ""
+msgstr "Richard Jones"
 
 #: ../../source/release/THANKS.rst:76
 msgid "Andreas Jung"
-msgstr ""
+msgstr "Andreas Jung"
 
 #: ../../source/release/THANKS.rst:77
 msgid "Robert Kern"
-msgstr ""
+msgstr "Robert Kern"
 
 #: ../../source/release/THANKS.rst:78
 msgid "Garth Kidd"
-msgstr ""
+msgstr "Garth Kidd"
 
 #: ../../source/release/THANKS.rst:79
 msgid "Philipp Kn眉sel"
-msgstr ""
+msgstr "Philipp Kn眉sel"
 
 #: ../../source/release/THANKS.rst:80
 msgid "Axel Kollmorgen"
-msgstr ""
+msgstr "Axel Kollmorgen"
 
 #: ../../source/release/THANKS.rst:81
 msgid "Jeff Kowalczyk"
-msgstr ""
+msgstr "Jeff Kowalczyk"
 
 #: ../../source/release/THANKS.rst:82
 msgid "Martin F. Krafft"
-msgstr ""
+msgstr "Martin F. Krafft"
 
 #: ../../source/release/THANKS.rst:83
 msgid "Meir Kriheli"
-msgstr ""
+msgstr "Meir Kriheli"
 
 #: ../../source/release/THANKS.rst:84
 msgid "Dave Kuhlman"
-msgstr ""
+msgstr "Dave Kuhlman"
 
 #: ../../source/release/THANKS.rst:85
 msgid "Lloyd Kvam"
-msgstr ""
+msgstr "Lloyd Kvam"
 
 #: ../../source/release/THANKS.rst:86
 msgid "Kirill Lapshin"
-msgstr ""
+msgstr "Kirill Lapshin"
 
 #: ../../source/release/THANKS.rst:87
 msgid "Nicola Larosa"
-msgstr ""
+msgstr "Nicola Larosa"
 
 #: ../../source/release/THANKS.rst:88
 msgid "Daniel Larsson"
-msgstr ""
+msgstr "Daniel Larsson"
 
 #: ../../source/release/THANKS.rst:89
 msgid "Marc-Andre Lemburg"
-msgstr ""
+msgstr "Marc-Andre Lemburg"
 
 #: ../../source/release/THANKS.rst:90
 msgid "Julien Letessier"
-msgstr ""
+msgstr "Julien Letessier"
 
 #: ../../source/release/THANKS.rst:91
 msgid "Chris Liechti"
-msgstr ""
+msgstr "Chris Liechti"
 
 #: ../../source/release/THANKS.rst:92
 msgid "Wolfgang Lipp"
-msgstr ""
+msgstr "Wolfgang Lipp"
 
 #: ../../source/release/THANKS.rst:93
 msgid "Edward Loper"
-msgstr ""
+msgstr "Edward Loper"
 
 #: ../../source/release/THANKS.rst:94
 msgid "Dallas Mahrt"
-msgstr ""
+msgstr "Dallas Mahrt"
 
 #: ../../source/release/THANKS.rst:95
 msgid "Brecht Machiels"
-msgstr ""
+msgstr "Brecht Machiels"
 
 #: ../../source/release/THANKS.rst:96
 msgid "Mikolaj Machowski"
-msgstr ""
+msgstr "Mikolaj Machowski"
 
 #: ../../source/release/THANKS.rst:97
 msgid "Ken Manheimer"
-msgstr ""
+msgstr "Ken Manheimer"
 
 #: ../../source/release/THANKS.rst:98
 msgid "Bob Marshall"
-msgstr ""
+msgstr "Bob Marshall"
 
 #: ../../source/release/THANKS.rst:99
 msgid "Mark McEahern"
-msgstr ""
+msgstr "Mark McEahern"
 
 #: ../../source/release/THANKS.rst:100
 msgid "Vincent McIntyre"
-msgstr ""
+msgstr "Vincent McIntyre"
 
 #: ../../source/release/THANKS.rst:101
 msgid "John F Meinel Jr"
-msgstr ""
+msgstr "John F Meinel Jr"
 
 #: ../../source/release/THANKS.rst:102
 msgid "Ivan Mendez for Free Software Office of the University of A Coru帽a"
-msgstr ""
+msgstr "Ivan Mendez for Free Software Office of the University of A Coru帽a"
 
 #: ../../source/release/THANKS.rst:103
 msgid "Eric Meyer"
-msgstr ""
+msgstr "Eric Meyer"
 
 #: ../../source/release/THANKS.rst:104
 msgid "G眉nter Milde"
-msgstr ""
+msgstr "G眉nter Milde"
 
 #: ../../source/release/THANKS.rst:105
 msgid "Skip Montanaro"
-msgstr ""
+msgstr "Skip Montanaro"
 
 #: ../../source/release/THANKS.rst:106
 msgid "Paul Moore"
-msgstr ""
+msgstr "Paul Moore"
 
 #: ../../source/release/THANKS.rst:107
 msgid "Nigel W. Moriarty"
-msgstr ""
+msgstr "Nigel W. Moriarty"
 
 #: ../../source/release/THANKS.rst:108
 msgid "Hisashi Morita"
-msgstr ""
+msgstr "Hisashi Morita"
 
 #: ../../source/release/THANKS.rst:109
 msgid "Mark Nodine"
-msgstr ""
+msgstr "Mark Nodine"
 
 #: ../../source/release/THANKS.rst:110
 msgid "Omidyar Network (Pierre Omidyar & Doug Solomon)"
-msgstr ""
+msgstr "Omidyar Network (Pierre Omidyar & Doug Solomon)"
 
 #: ../../source/release/THANKS.rst:111
 msgid "Panjunyong"
-msgstr ""
+msgstr "Panjunyong"
 
 #: ../../source/release/THANKS.rst:112
 msgid "Patrick K. O'Brien"
-msgstr ""
+msgstr "Patrick K. O'Brien"
 
 #: ../../source/release/THANKS.rst:113
 msgid "Michel Pelletier"
-msgstr ""
+msgstr "Michel Pelletier"
 
 #: ../../source/release/THANKS.rst:114
 msgid "Toshio Kuratomi"
-msgstr ""
+msgstr "Toshio Kuratomi"
 
 #: ../../source/release/THANKS.rst:115
 msgid "Sam Penrose"
-msgstr ""
+msgstr "Sam Penrose"
 
 #: ../../source/release/THANKS.rst:116
 msgid "Tim Peters"
-msgstr ""
+msgstr "Tim Peters"
 
 #: ../../source/release/THANKS.rst:117
 msgid "Pearu Peterson"
-msgstr ""
+msgstr "Pearu Peterson"
 
 #: ../../source/release/THANKS.rst:118
 msgid "Martijn Pieters"
-msgstr ""
+msgstr "Martijn Pieters"
 
 #: ../../source/release/THANKS.rst:119
 msgid "Mark Pilgrim"
-msgstr ""
+msgstr "Mark Pilgrim"
 
 #: ../../source/release/THANKS.rst:120
 msgid "Brett g Porter"
-msgstr ""
+msgstr "Brett g Porter"
 
 #: ../../source/release/THANKS.rst:121
 msgid "David Priest"
-msgstr ""
+msgstr "David Priest"
 
 #: ../../source/release/THANKS.rst:122
 msgid "Jens Quade"
-msgstr ""
+msgstr "Jens Quade"
 
 #: ../../source/release/THANKS.rst:123
 msgid "Stefan Rank"
-msgstr ""
+msgstr "Stefan Rank"
 
 #: ../../source/release/THANKS.rst:124
 msgid "Edward K. Ream"
-msgstr ""
+msgstr "Edward K. Ream"
 
 #: ../../source/release/THANKS.rst:125
 msgid "Andy Robinson"
-msgstr ""
+msgstr "Andy Robinson"
 
 #: ../../source/release/THANKS.rst:126
 msgid "Tavis Rudd"
-msgstr ""
+msgstr "Tavis Rudd"
 
 #: ../../source/release/THANKS.rst:127
 msgid "Tracy Ruggles"
-msgstr ""
+msgstr "Tracy Ruggles"
 
 #: ../../source/release/THANKS.rst:128
 msgid "Oliver Rutherfurd"
-msgstr ""
+msgstr "Oliver Rutherfurd"
 
 #: ../../source/release/THANKS.rst:129
 msgid "Luc Saffre"
-msgstr ""
+msgstr "Luc Saffre"
 
 #: ../../source/release/THANKS.rst:130
 msgid "Seo Sanghyeon"
-msgstr ""
+msgstr "Seo Sanghyeon"
 
 #: ../../source/release/THANKS.rst:131
 msgid "Kenichi Sato"
-msgstr ""
+msgstr "Kenichi Sato"
 
 #: ../../source/release/THANKS.rst:132
 msgid "Ueli Schlaepfer"
-msgstr ""
+msgstr "Ueli Schlaepfer"
 
 #: ../../source/release/THANKS.rst:133
 msgid "Gunnar Schwant"
-msgstr ""
+msgstr "Gunnar Schwant"
 
 #: ../../source/release/THANKS.rst:134
 msgid "Bill Sconce"
-msgstr ""
+msgstr "Bill Sconce"
 
 #: ../../source/release/THANKS.rst:135
 msgid "Frank Siebenlist"
-msgstr ""
+msgstr "Frank Siebenlist"
 
 #: ../../source/release/THANKS.rst:136
 msgid "Bruce Smith"
-msgstr ""
+msgstr "Bruce Smith"
 
 #: ../../source/release/THANKS.rst:137
 msgid "Nir Soffer"
-msgstr ""
+msgstr "Nir Soffer"
 
 #: ../../source/release/THANKS.rst:138
 msgid "Asko Soukka"
-msgstr ""
+msgstr "Asko Soukka"
 
 #: ../../source/release/THANKS.rst:139
 msgid "Darek Suchojad"
-msgstr ""
+msgstr "Darek Suchojad"
 
 #: ../../source/release/THANKS.rst:140
 msgid "Roman Suzi"
-msgstr ""
+msgstr "Roman Suzi"
 
 #: ../../source/release/THANKS.rst:141
 msgid "Janet Swisher"
-msgstr ""
+msgstr "Janet Swisher"
 
 #: ../../source/release/THANKS.rst:142
 msgid "tav"
-msgstr ""
+msgstr "tav"
 
 #: ../../source/release/THANKS.rst:143
 msgid "Kent Tenney"
-msgstr ""
+msgstr "Kent Tenney"
 
 #: ../../source/release/THANKS.rst:144
 msgid "Bob Tolbert"
-msgstr ""
+msgstr "Bob Tolbert"
 
 #: ../../source/release/THANKS.rst:145
 msgid "Paul Tremblay"
-msgstr ""
+msgstr "Paul Tremblay"
 
 #: ../../source/release/THANKS.rst:146
 msgid "Laurence Tratt"
-msgstr ""
+msgstr "Laurence Tratt"
 
 #: ../../source/release/THANKS.rst:147
 msgid "Adrian van den Dries"
-msgstr ""
+msgstr "Adrian van den Dries"
 
 #: ../../source/release/THANKS.rst:148
 msgid "Guido van Rossum"
-msgstr ""
+msgstr "Guido van Rossum"
 
 #: ../../source/release/THANKS.rst:149
 msgid "Miroslav Vasko"
-msgstr ""
+msgstr "Miroslav Vasko"
 
 #: ../../source/release/THANKS.rst:150
 msgid "Paul Viren"
-msgstr ""
+msgstr "Paul Viren"
 
 #: ../../source/release/THANKS.rst:151
 msgid "Martin von Loewis"
-msgstr ""
+msgstr "Martin von Loewis"
 
 #: ../../source/release/THANKS.rst:152
 msgid "Greg Ward"
-msgstr ""
+msgstr "Greg Ward"
 
 #: ../../source/release/THANKS.rst:153
 msgid "Barry Warsaw"
-msgstr ""
+msgstr "Barry Warsaw"
 
 #: ../../source/release/THANKS.rst:154
 msgid "Wu Wei"
-msgstr ""
+msgstr "Wu Wei"
 
 #: ../../source/release/THANKS.rst:155
 msgid "Edward Welbourne"
-msgstr ""
+msgstr "Edward Welbourne"
 
 #: ../../source/release/THANKS.rst:156
 msgid "Lea Wiemann"
-msgstr ""
+msgstr "Lea Wiemann"
 
 #: ../../source/release/THANKS.rst:157
 msgid "Anthony Williams"
-msgstr ""
+msgstr "Anthony Williams"
 
 #: ../../source/release/THANKS.rst:158
 msgid "Robert Wojciechowicz"
-msgstr ""
+msgstr "Robert Wojciechowicz"
 
 #: ../../source/release/THANKS.rst:159
 msgid "Ka-Ping Yee"
-msgstr ""
+msgstr "Ka-Ping Yee"
 
 #: ../../source/release/THANKS.rst:160
 msgid "Moshe Zadka"
-msgstr ""
+msgstr "Moshe Zadka"
 
 #: ../../source/release/THANKS.rst:161
 msgid "Shmuel Zeigerman"
-msgstr ""
+msgstr "Shmuel Zeigerman"
 
 #: ../../source/release/THANKS.rst:163
 msgid "Thank you!"
-msgstr ""
+msgstr "Thank you!"
 
 #: ../../source/release/THANKS.rst:165
 msgid ""

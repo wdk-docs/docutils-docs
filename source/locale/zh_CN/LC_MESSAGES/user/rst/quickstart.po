@@ -20,35 +20,35 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:2
 msgid "A ReStructuredText Primer"
-msgstr ""
+msgstr "ReStructuredText入门"
 
 #: ../../source/user/rst/quickstart.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/rst/quickstart.rst:4
 msgid "Richard Jones"
-msgstr ""
+msgstr "Richard Jones"
 
 #: ../../source/user/rst/quickstart.rst
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: ../../source/user/rst/quickstart.rst:5
 msgid "$Revision: 5801 $"
-msgstr ""
+msgstr "$Revision: 5801 $"
 
 #: ../../source/user/rst/quickstart.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/user/rst/quickstart.rst:6
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/user/rst/quickstart.rst:9
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/rst/quickstart.rst:11
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:27
 msgid "Structure"
-msgstr ""
+msgstr "Structure"
 
 #: ../../source/user/rst/quickstart.rst:29
 msgid ""
@@ -92,11 +92,11 @@ msgstr ""
 #: ../../source/user/rst/quickstart.rst:232
 #: ../../source/user/rst/quickstart.rst:251
 msgid "Results in:"
-msgstr ""
+msgstr "Results in:"
 
 #: ../../source/user/rst/quickstart.rst:51
 msgid "This is a paragraph.  It's quite short."
-msgstr ""
+msgstr "This is a paragraph.  It's quite short."
 
 #: ../../source/user/rst/quickstart.rst:54
 msgid ""
@@ -106,18 +106,18 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:57
 msgid "This is another one."
-msgstr ""
+msgstr "This is another one."
 
 #: ../../source/user/rst/quickstart.rst:63
 msgid "Text styles"
-msgstr ""
+msgstr "Text styles"
 
 #: ../../source/user/rst/quickstart.rst:65
 #: ../../source/user/rst/quickstart.rst:214
 #: ../../source/user/rst/quickstart.rst:262
 #: ../../source/user/rst/quickstart.rst:356
 msgid "(quickref__)"
-msgstr ""
+msgstr "(quickref__)"
 
 #: ../../source/user/rst/quickstart.rst:69
 msgid ""
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:101
 msgid "Lists"
-msgstr ""
+msgstr "Lists"
 
 #: ../../source/user/rst/quickstart.rst:103
 msgid ""
@@ -175,7 +175,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:161
 msgid "**enumerated** lists (numbers, letters or roman numerals; quickref__)"
-msgstr ""
+msgstr "**enumerated** lists (numbers, letters or roman numerals; quickref__)"
 
 #: ../../source/user/rst/quickstart.rst:115
 msgid ""
@@ -192,47 +192,47 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:143
 msgid "numbers"
-msgstr ""
+msgstr "numbers"
 
 #: ../../source/user/rst/quickstart.rst:145
 msgid "upper-case letters and it goes over many lines"
-msgstr ""
+msgstr "upper-case letters and it goes over many lines"
 
 #: ../../source/user/rst/quickstart.rst:148
 msgid "with two paragraphs and all!"
-msgstr ""
+msgstr "with two paragraphs and all!"
 
 #: ../../source/user/rst/quickstart.rst:150
 msgid "lower-case letters"
-msgstr ""
+msgstr "lower-case letters"
 
 #: ../../source/user/rst/quickstart.rst:152
 msgid "with a sub-list starting at a different number"
-msgstr ""
+msgstr "with a sub-list starting at a different number"
 
 #: ../../source/user/rst/quickstart.rst:153
 msgid "make sure the numbers are in the correct sequence though!"
-msgstr ""
+msgstr "make sure the numbers are in the correct sequence though!"
 
 #: ../../source/user/rst/quickstart.rst:155
 msgid "upper-case roman numerals"
-msgstr ""
+msgstr "upper-case roman numerals"
 
 #: ../../source/user/rst/quickstart.rst:157
 msgid "lower-case roman numerals"
-msgstr ""
+msgstr "lower-case roman numerals"
 
 #: ../../source/user/rst/quickstart.rst:159
 msgid "numbers again"
-msgstr ""
+msgstr "numbers again"
 
 #: ../../source/user/rst/quickstart.rst:161
 msgid "and again"
-msgstr ""
+msgstr "and again"
 
 #: ../../source/user/rst/quickstart.rst:185
 msgid "**bulleted** lists (quickref__)"
-msgstr ""
+msgstr "**bulleted** lists (quickref__)"
 
 #: ../../source/user/rst/quickstart.rst:166
 msgid ""
@@ -242,23 +242,23 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:179
 msgid "a bullet point using \"*\""
-msgstr ""
+msgstr "a bullet point using \"*\""
 
 #: ../../source/user/rst/quickstart.rst:181
 msgid "a sub-list using \"-\""
-msgstr ""
+msgstr "a sub-list using \"-\""
 
 #: ../../source/user/rst/quickstart.rst:183
 msgid "yet another sub-list"
-msgstr ""
+msgstr "yet another sub-list"
 
 #: ../../source/user/rst/quickstart.rst:185
 msgid "another item"
-msgstr ""
+msgstr "another item"
 
 #: ../../source/user/rst/quickstart.rst:210
 msgid "**definition** lists (quickref__)"
-msgstr ""
+msgstr "**definition** lists (quickref__)"
 
 #: ../../source/user/rst/quickstart.rst:190
 msgid ""
@@ -268,15 +268,15 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:204
 msgid "what"
-msgstr ""
+msgstr "what"
 
 #: ../../source/user/rst/quickstart.rst:204
 msgid "Definition lists associate a term with a definition."
-msgstr ""
+msgstr "Definition lists associate a term with a definition."
 
 #: ../../source/user/rst/quickstart.rst:210
 msgid "*how*"
-msgstr ""
+msgstr "*how*"
 
 #: ../../source/user/rst/quickstart.rst:207
 msgid ""
@@ -287,7 +287,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:213
 msgid "Preformatting (code samples)"
-msgstr ""
+msgstr "Preformatting (code samples)"
 
 #: ../../source/user/rst/quickstart.rst:218
 msgid ""
@@ -299,11 +299,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:234
 msgid "An example::"
-msgstr ""
+msgstr "An example::"
 
 #: ../../source/user/rst/quickstart.rst:241
 msgid "no more example"
-msgstr ""
+msgstr "no more example"
 
 #: ../../source/user/rst/quickstart.rst:243
 msgid ""
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:260
 msgid "Sections"
-msgstr ""
+msgstr "Sections"
 
 #: ../../source/user/rst/quickstart.rst:266
 msgid ""
@@ -354,7 +354,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:324
 msgid "Document Title / Subtitle"
-msgstr ""
+msgstr "Document Title / Subtitle"
 
 #: ../../source/user/rst/quickstart.rst:326
 msgid ""
@@ -380,7 +380,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:354
 msgid "Images"
-msgstr ""
+msgstr "Images"
 
 #: ../../source/user/rst/quickstart.rst:360
 msgid ""
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:365
 msgid "results in:"
-msgstr ""
+msgstr "results in:"
 
 #: ../../source/user/rst/quickstart.rst:369
 msgid ""
@@ -402,11 +402,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickstart.rst:380
 msgid "See the full `image directive documentation`__ for more info."
-msgstr ""
+msgstr "See the full `image directive documentation`__ for more info."
 
 #: ../../source/user/rst/quickstart.rst:387
 msgid "What Next?"
-msgstr ""
+msgstr "What Next?"
 
 #: ../../source/user/rst/quickstart.rst:389
 msgid ""

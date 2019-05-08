@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/howto/html-stylesheets.rst:3
 msgid "Writing HTML (CSS) Stylesheets for Docutils_"
-msgstr ""
+msgstr "为 Docutils_ 编写HTML（CSS）样式表"
 
 #: ../../source/howto/html-stylesheets.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/howto/html-stylesheets.rst:5
 msgid "Lea Wiemann"
-msgstr ""
+msgstr "Lea Wiemann"
 
 #: ../../source/howto/html-stylesheets.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/howto/html-stylesheets.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/howto/html-stylesheets.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/howto/html-stylesheets.rst:7
 msgid "$Date: 2016-11-29 13:00:39 +0100 (Di, 29. Nov 2016) $"
-msgstr ""
+msgstr "$Date: 2016-11-29 13:00:39 +0100 (Di, 29. Nov 2016) $"
 
 #: ../../source/howto/html-stylesheets.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/howto/html-stylesheets.rst:8
 msgid "$Revision: 7977 $"
-msgstr ""
+msgstr "$Revision: 7977 $"
 
 #: ../../source/howto/html-stylesheets.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/howto/html-stylesheets.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/howto/html-stylesheets.rst:14
 msgid ""

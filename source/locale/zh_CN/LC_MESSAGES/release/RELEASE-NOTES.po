@@ -20,55 +20,55 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:5
 msgid "Docutils Release Notes"
-msgstr ""
+msgstr "发行说明"
 
 #: ../../source/release/RELEASE-NOTES.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/release/RELEASE-NOTES.rst:7
 msgid "grubert@users.sourceforge.net"
-msgstr ""
+msgstr "grubert@users.sourceforge.net"
 
 #: ../../source/release/RELEASE-NOTES.rst
 msgid "Maintainer"
-msgstr ""
+msgstr "Maintainer"
 
 #: ../../source/release/RELEASE-NOTES.rst:8
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/release/RELEASE-NOTES.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/release/RELEASE-NOTES.rst:9
 msgid "$Date: 2017-11-04 22:14:37 +0100 (Sa, 04. Nov 2017) $"
-msgstr ""
+msgstr "$Date: 2017-11-04 22:14:37 +0100 (Sa, 04. Nov 2017) $"
 
 #: ../../source/release/RELEASE-NOTES.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/release/RELEASE-NOTES.rst:10
 msgid "$Revision: 8198 $"
-msgstr ""
+msgstr "$Revision: 8198 $"
 
 #: ../../source/release/RELEASE-NOTES.rst
 msgid "Web site"
-msgstr ""
+msgstr "Web site"
 
 #: ../../source/release/RELEASE-NOTES.rst:11
 msgid "http://docutils.sourceforge.net/"
-msgstr ""
+msgstr "http://docutils.sourceforge.net/"
 
 #: ../../source/release/RELEASE-NOTES.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/release/RELEASE-NOTES.rst:12
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/release/RELEASE-NOTES.rst:15
 msgid ""
@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:20
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/release/RELEASE-NOTES.rst:23
 msgid "Future changes"
-msgstr ""
+msgstr "Future changes"
 
 #: ../../source/release/RELEASE-NOTES.rst:25
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:44
 msgid "Release 0.15b.dev"
-msgstr ""
+msgstr "Release 0.15b.dev"
 
 #: ../../source/release/RELEASE-NOTES.rst:48
 msgid ""
@@ -138,7 +138,7 @@ msgstr ""
 #: ../../source/release/RELEASE-NOTES.rst:502
 #: ../../source/release/RELEASE-NOTES.rst:561
 msgid "reStructuredText:"
-msgstr ""
+msgstr "reStructuredText:"
 
 #: ../../source/release/RELEASE-NOTES.rst:56
 msgid ""
@@ -148,31 +148,31 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:59
 msgid "Fixed a bug with the \"trim\" options of the \"unicode\" directive."
-msgstr ""
+msgstr "Fixed a bug with the \"trim\" options of the \"unicode\" directive."
 
 #: ../../source/release/RELEASE-NOTES.rst:61
 msgid "Allow escaping of author-separators in `bibliographic fields`__."
-msgstr ""
+msgstr "Allow escaping of author-separators in `bibliographic fields`__."
 
 #: ../../source/release/RELEASE-NOTES.rst:67
 msgid "Release 0.14 (2017-08-03)"
-msgstr ""
+msgstr "Release 0.14 (2017-08-03)"
 
 #: ../../source/release/RELEASE-NOTES.rst:69
 msgid "docutils/docs/ref/docutils.dtd:"
-msgstr ""
+msgstr "docutils/docs/ref/docutils.dtd:"
 
 #: ../../source/release/RELEASE-NOTES.rst:71
 msgid "Enable validation of Docutils XML documents against the DTD:"
-msgstr ""
+msgstr "Enable validation of Docutils XML documents against the DTD:"
 
 #: ../../source/release/RELEASE-NOTES.rst:73
 msgid "docutils/parsers/rst/:"
-msgstr ""
+msgstr "docutils/parsers/rst/:"
 
 #: ../../source/release/RELEASE-NOTES.rst:75
 msgid "Added functionality: escaped whitespace in URI contexts."
-msgstr ""
+msgstr "Added functionality: escaped whitespace in URI contexts."
 
 #: ../../source/release/RELEASE-NOTES.rst:76
 msgid ""
@@ -183,31 +183,31 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:80
 msgid "docutils/utils/smartquotes.py:"
-msgstr ""
+msgstr "docutils/utils/smartquotes.py:"
 
 #: ../../source/release/RELEASE-NOTES.rst:82
 msgid "Update quote definitions for et, fi, fr, ro, sv, tr, uk."
-msgstr ""
+msgstr "Update quote definitions for et, fi, fr, ro, sv, tr, uk."
 
 #: ../../source/release/RELEASE-NOTES.rst:83
 msgid "Add quote definitions for hr, hsb, hu, lv, sh, sl, sr."
-msgstr ""
+msgstr "Add quote definitions for hr, hsb, hu, lv, sh, sl, sr."
 
 #: ../../source/release/RELEASE-NOTES.rst:84
 msgid "Differentiate apostrophe from closing single quote (if possible)."
-msgstr ""
+msgstr "Differentiate apostrophe from closing single quote (if possible)."
 
 #: ../../source/release/RELEASE-NOTES.rst:85
 msgid "Add command line interface for stand-alone use (requires 2.7)."
-msgstr ""
+msgstr "Add command line interface for stand-alone use (requires 2.7)."
 
 #: ../../source/release/RELEASE-NOTES.rst:87
 msgid "docutils/writers/_html_base:"
-msgstr ""
+msgstr "docutils/writers/_html_base:"
 
 #: ../../source/release/RELEASE-NOTES.rst:89
 msgid "Provide default title in metadata."
-msgstr ""
+msgstr "Provide default title in metadata."
 
 #: ../../source/release/RELEASE-NOTES.rst:90
 msgid ""
@@ -219,18 +219,18 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:95
 msgid "docutils/writers/html4css1:"
-msgstr ""
+msgstr "docutils/writers/html4css1:"
 
 #: ../../source/release/RELEASE-NOTES.rst:97
 msgid "Respect automatic table column sizing."
-msgstr ""
+msgstr "Respect automatic table column sizing."
 
 #: ../../source/release/RELEASE-NOTES.rst:99
 #: ../../source/release/RELEASE-NOTES.rst:178
 #: ../../source/release/RELEASE-NOTES.rst:289
 #: ../../source/release/RELEASE-NOTES.rst:305
 msgid "docutils/writers/latex2e/__init__.py"
-msgstr ""
+msgstr "docutils/writers/latex2e/__init__.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:101
 msgid ""
@@ -241,52 +241,52 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:105
 msgid "docutils/writers/odf_odt:"
-msgstr ""
+msgstr "docutils/writers/odf_odt:"
 
 #: ../../source/release/RELEASE-NOTES.rst:107
 msgid "Language option sets ODF document's default language"
-msgstr ""
+msgstr "Language option sets ODF document's default language"
 
 #: ../../source/release/RELEASE-NOTES.rst:108
 msgid "Image width, scale, ... set image size in generated ODF."
-msgstr ""
+msgstr "Image width, scale, ... set image size in generated ODF."
 
 #: ../../source/release/RELEASE-NOTES.rst:110
 #: ../../source/release/RELEASE-NOTES.rst:124
 msgid "tools/"
-msgstr ""
+msgstr "tools/"
 
 #: ../../source/release/RELEASE-NOTES.rst:112
 msgid "New front-end ``rst2html4.py``."
-msgstr ""
+msgstr "New front-end ``rst2html4.py``."
 
 #: ../../source/release/RELEASE-NOTES.rst:116
 msgid "Release 0.13.1 (2016-12-09)"
-msgstr ""
+msgstr "Release 0.13.1 (2016-12-09)"
 
 #: ../../source/release/RELEASE-NOTES.rst:118
 msgid "docutils/writers/html5_polyglot"
-msgstr ""
+msgstr "docutils/writers/html5_polyglot"
 
 #: ../../source/release/RELEASE-NOTES.rst:120
 msgid "New HTML writer generating `HTML 5`_."
-msgstr ""
+msgstr "New HTML writer generating `HTML 5`_."
 
 #: ../../source/release/RELEASE-NOTES.rst:126
 msgid "New front-end ``rst2html5.py``."
-msgstr ""
+msgstr "New front-end ``rst2html5.py``."
 
 #: ../../source/release/RELEASE-NOTES.rst:128
 msgid "languages: persian/farsi (fa) and latvian (la) mappings."
-msgstr ""
+msgstr "languages: persian/farsi (fa) and latvian (la) mappings."
 
 #: ../../source/release/RELEASE-NOTES.rst:130
 msgid "change default base url for :rfc: to http://tools.ietf.org/html/"
-msgstr ""
+msgstr "change default base url for :rfc: to http://tools.ietf.org/html/"
 
 #: ../../source/release/RELEASE-NOTES.rst:132
 msgid "tables accept widths, a list and align"
-msgstr ""
+msgstr "tables accept widths, a list and align"
 
 #: ../../source/release/RELEASE-NOTES.rst:134
 msgid ""
@@ -296,31 +296,31 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:137
 msgid "rst.el: The problem with ``electric-indent-mode`` has been fixed."
-msgstr ""
+msgstr "rst.el: The problem with ``electric-indent-mode`` has been fixed."
 
 #: ../../source/release/RELEASE-NOTES.rst:141
 msgid "Release 0.12 (2014-07-06)"
-msgstr ""
+msgstr "Release 0.12 (2014-07-06)"
 
 #: ../../source/release/RELEASE-NOTES.rst:143
 msgid "Small changes only, release current state"
-msgstr ""
+msgstr "Small changes only, release current state"
 
 #: ../../source/release/RELEASE-NOTES.rst:147
 msgid "Release 0.11 (2013-07-22)"
-msgstr ""
+msgstr "Release 0.11 (2013-07-22)"
 
 #: ../../source/release/RELEASE-NOTES.rst:149
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../../source/release/RELEASE-NOTES.rst:151
 msgid "Apply [ 2714873 ] Fix for the overwritting of document attributes."
-msgstr ""
+msgstr "Apply [ 2714873 ] Fix for the overwritting of document attributes."
 
 #: ../../source/release/RELEASE-NOTES.rst:152
 msgid "Support embedded aliases within hyperlink references."
-msgstr ""
+msgstr "Support embedded aliases within hyperlink references."
 
 #: ../../source/release/RELEASE-NOTES.rst:153
 msgid ""
@@ -330,11 +330,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:156
 msgid "docutils/parsers/rst/directives/tables.py"
-msgstr ""
+msgstr "docutils/parsers/rst/directives/tables.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:158
 msgid "Fix [ 210 ] Python 3.3 checks CVS syntax only if \"strict\" is True."
-msgstr ""
+msgstr "Fix [ 210 ] Python 3.3 checks CVS syntax only if \"strict\" is True."
 
 #: ../../source/release/RELEASE-NOTES.rst:160
 msgid ""
@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:170
 msgid "Changed behaviour of the default settings:"
-msgstr ""
+msgstr "Changed behaviour of the default settings:"
 
 #: ../../source/release/RELEASE-NOTES.rst:168
 msgid ""
@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:172
 msgid "New default for math-output_: ``HTML math.css``."
-msgstr ""
+msgstr "New default for math-output_: ``HTML math.css``."
 
 #: ../../source/release/RELEASE-NOTES.rst:173
 msgid ""
@@ -386,23 +386,23 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:189
 msgid "docutils/writers/manpage.py"
-msgstr ""
+msgstr "docutils/writers/manpage.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:191
 msgid "Fix [3607063] handle lines starting with a period."
-msgstr ""
+msgstr "Fix [3607063] handle lines starting with a period."
 
 #: ../../source/release/RELEASE-NOTES.rst:192
 msgid "Fix option separating comma was bold (thanks to Bill Morris)."
-msgstr ""
+msgstr "Fix option separating comma was bold (thanks to Bill Morris)."
 
 #: ../../source/release/RELEASE-NOTES.rst:195
 msgid "Release 0.10 (2012-12-16)"
-msgstr ""
+msgstr "Release 0.10 (2012-12-16)"
 
 #: ../../source/release/RELEASE-NOTES.rst:199
 msgid "Docutils 0.9.x is the last version supporting Python 2.3."
-msgstr ""
+msgstr "Docutils 0.9.x is the last version supporting Python 2.3."
 
 #: ../../source/release/RELEASE-NOTES.rst:201
 msgid ""
@@ -419,11 +419,11 @@ msgstr ""
 #: ../../source/release/RELEASE-NOTES.rst:523
 #: ../../source/release/RELEASE-NOTES.rst:594
 msgid "General:"
-msgstr ""
+msgstr "General:"
 
 #: ../../source/release/RELEASE-NOTES.rst:206
 msgid "SmartQuotes transform for typographic quotes and dashes."
-msgstr ""
+msgstr "SmartQuotes transform for typographic quotes and dashes."
 
 #: ../../source/release/RELEASE-NOTES.rst:208
 msgid ""
@@ -434,11 +434,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:217
 msgid "enhanced math and error handling."
-msgstr ""
+msgstr "enhanced math and error handling."
 
 #: ../../source/release/RELEASE-NOTES.rst:219
 msgid "docutils/io.py"
-msgstr ""
+msgstr "docutils/io.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:221
 msgid ""
@@ -449,7 +449,7 @@ msgstr ""
 #: ../../source/release/RELEASE-NOTES.rst:226
 #: ../../source/release/RELEASE-NOTES.rst:285
 msgid "docutils/writers/html4css1/__init__.py"
-msgstr ""
+msgstr "docutils/writers/html4css1/__init__.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:228
 msgid ""
@@ -459,39 +459,39 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:230
 msgid "Customizable MathJax URL (based on patch by Dmitry Shachnev)."
-msgstr ""
+msgstr "Customizable MathJax URL (based on patch by Dmitry Shachnev)."
 
 #: ../../source/release/RELEASE-NOTES.rst:231
 msgid "No line break after opening inline math tag."
-msgstr ""
+msgstr "No line break after opening inline math tag."
 
 #: ../../source/release/RELEASE-NOTES.rst:233
 msgid "docutils/writers/latex2e/__init__.py, docutils/writers/xetex/__init__.py"
-msgstr ""
+msgstr "docutils/writers/latex2e/__init__.py, docutils/writers/xetex/__init__.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:235
 msgid "Fix section numbering by LaTeX."
-msgstr ""
+msgstr "Fix section numbering by LaTeX."
 
 #: ../../source/release/RELEASE-NOTES.rst:237
 msgid "docutils/writers/s5_html/__init__.py"
-msgstr ""
+msgstr "docutils/writers/s5_html/__init__.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:239
 msgid "Fix [ 3556388 ] Mathjax does not work with rst2s5."
-msgstr ""
+msgstr "Fix [ 3556388 ] Mathjax does not work with rst2s5."
 
 #: ../../source/release/RELEASE-NOTES.rst:243
 msgid "Release 0.9.1 (2012-06-17)"
-msgstr ""
+msgstr "Release 0.9.1 (2012-06-17)"
 
 #: ../../source/release/RELEASE-NOTES.rst:247
 msgid "Several fixes for Python 3 usage."
-msgstr ""
+msgstr "Several fixes for Python 3 usage."
 
 #: ../../source/release/RELEASE-NOTES.rst:249
 msgid "docutils/setup.py"
-msgstr ""
+msgstr "docutils/setup.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:251
 msgid ""
@@ -509,7 +509,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:261
 msgid "Release 0.9 (2012-05-02)"
-msgstr ""
+msgstr "Release 0.9 (2012-05-02)"
 
 #: ../../source/release/RELEASE-NOTES.rst:265
 msgid ""
@@ -519,7 +519,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:267
 msgid "\"code\" option of the \"include\" directive."
-msgstr ""
+msgstr "\"code\" option of the \"include\" directive."
 
 #: ../../source/release/RELEASE-NOTES.rst:271
 msgid ""
@@ -529,11 +529,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:274
 msgid "Fix handling of missing stylesheets."
-msgstr ""
+msgstr "Fix handling of missing stylesheets."
 
 #: ../../source/release/RELEASE-NOTES.rst:276
 msgid "setup.py"
-msgstr ""
+msgstr "setup.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:278
 msgid ""
@@ -543,23 +543,23 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:281
 msgid "docutils/utils.py -> docutils/utils/__init__.py"
-msgstr ""
+msgstr "docutils/utils.py -> docutils/utils/__init__.py"
 
 #: ../../source/release/RELEASE-NOTES.rst:283
 msgid "docutils.utils is now a package (providing a place for sub-modules)"
-msgstr ""
+msgstr "docutils.utils is now a package (providing a place for sub-modules)"
 
 #: ../../source/release/RELEASE-NOTES.rst:287
 msgid "change default for `math-output` setting to MathJax"
-msgstr ""
+msgstr "change default for `math-output` setting to MathJax"
 
 #: ../../source/release/RELEASE-NOTES.rst:291
 msgid "Support the `abbreviation` and `acronym` standard roles."
-msgstr ""
+msgstr "Support the `abbreviation` and `acronym` standard roles."
 
 #: ../../source/release/RELEASE-NOTES.rst:292
 msgid "Record only files required to generate the LaTeX source as dependencies."
-msgstr ""
+msgstr "Record only files required to generate the LaTeX source as dependencies."
 
 #: ../../source/release/RELEASE-NOTES.rst:293
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:298
 msgid "Release 0.8.1 (2011-08-30)"
-msgstr ""
+msgstr "Release 0.8.1 (2011-08-30)"
 
 #: ../../source/release/RELEASE-NOTES.rst:302
 msgid ""
@@ -579,15 +579,15 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:307
 msgid "Clean up Babel language setting. Restores Sphinx compatibility."
-msgstr ""
+msgstr "Clean up Babel language setting. Restores Sphinx compatibility."
 
 #: ../../source/release/RELEASE-NOTES.rst:311
 msgid "Release 0.8 (2011-07-07)"
-msgstr ""
+msgstr "Release 0.8 (2011-07-07)"
 
 #: ../../source/release/RELEASE-NOTES.rst:313
 msgid "COPYING:"
-msgstr ""
+msgstr "COPYING:"
 
 #: ../../source/release/RELEASE-NOTES.rst:315
 msgid ""
@@ -597,7 +597,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:320
 msgid "Handle language codes according to `BCP 47`_."
-msgstr ""
+msgstr "Handle language codes according to `BCP 47`_."
 
 #: ../../source/release/RELEASE-NOTES.rst:321
 msgid ""
@@ -613,7 +613,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:325
 msgid "Orphaned \"python\" reader and \"newlatex2e\" writer moved to the sandbox."
-msgstr ""
+msgstr "Orphaned \"python\" reader and \"newlatex2e\" writer moved to the sandbox."
 
 #: ../../source/release/RELEASE-NOTES.rst:331
 msgid ""
@@ -623,45 +623,45 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:337
 msgid "as a short form of ::"
-msgstr ""
+msgstr "as a short form of ::"
 
 #: ../../source/release/RELEASE-NOTES.rst:343
 #: ../../source/release/RELEASE-NOTES.rst:519
 #: ../../source/release/RELEASE-NOTES.rst:581
 msgid "Internationalization:"
-msgstr ""
+msgstr "Internationalization:"
 
 #: ../../source/release/RELEASE-NOTES.rst:345
 msgid "Added lithuanian mappings."
-msgstr ""
+msgstr "Added lithuanian mappings."
 
 #: ../../source/release/RELEASE-NOTES.rst:347
 #: ../../source/release/RELEASE-NOTES.rst:371
 #: ../../source/release/RELEASE-NOTES.rst:485
 #: ../../source/release/RELEASE-NOTES.rst:547
 msgid "Components:"
-msgstr ""
+msgstr "Components:"
 
 #: ../../source/release/RELEASE-NOTES.rst:349
 #: ../../source/release/RELEASE-NOTES.rst:373
 #: ../../source/release/RELEASE-NOTES.rst:443
 msgid "HTML writer:"
-msgstr ""
+msgstr "HTML writer:"
 
 #: ../../source/release/RELEASE-NOTES.rst:351
 msgid "New setting \"math-output\" with support for HTML, MathML, and LaTeX."
-msgstr ""
+msgstr "New setting \"math-output\" with support for HTML, MathML, and LaTeX."
 
 #: ../../source/release/RELEASE-NOTES.rst:353
 #: ../../source/release/RELEASE-NOTES.rst:379
 #: ../../source/release/RELEASE-NOTES.rst:448
 #: ../../source/release/RELEASE-NOTES.rst:492
 msgid "LaTeX2e writer:"
-msgstr ""
+msgstr "LaTeX2e writer:"
 
 #: ../../source/release/RELEASE-NOTES.rst:355
 msgid "Convert image URI to a local file path."
-msgstr ""
+msgstr "Convert image URI to a local file path."
 
 #: ../../source/release/RELEASE-NOTES.rst:356
 msgid ""
@@ -671,27 +671,27 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:359
 msgid "XeTeX writer:"
-msgstr ""
+msgstr "XeTeX writer:"
 
 #: ../../source/release/RELEASE-NOTES.rst:361
 msgid "New writer generating LaTeX code for compiling with ``xelatex``."
-msgstr ""
+msgstr "New writer generating LaTeX code for compiling with ``xelatex``."
 
 #: ../../source/release/RELEASE-NOTES.rst:363
 msgid "XeTeX uses unicode and modern font technologies."
-msgstr ""
+msgstr "XeTeX uses unicode and modern font technologies."
 
 #: ../../source/release/RELEASE-NOTES.rst:365
 msgid "and fixes and enhancements here and there."
-msgstr ""
+msgstr "and fixes and enhancements here and there."
 
 #: ../../source/release/RELEASE-NOTES.rst:369
 msgid "Release 0.7 (2010-07-07)"
-msgstr ""
+msgstr "Release 0.7 (2010-07-07)"
 
 #: ../../source/release/RELEASE-NOTES.rst:375
 msgid "Support SVG and SWF images (thanks to Stefan Rank)."
-msgstr ""
+msgstr "Support SVG and SWF images (thanks to Stefan Rank)."
 
 #: ../../source/release/RELEASE-NOTES.rst:376
 msgid ""
@@ -707,23 +707,23 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:383
 msgid "Preserve runs of spaces in 'inline literals'."
-msgstr ""
+msgstr "Preserve runs of spaces in 'inline literals'."
 
 #: ../../source/release/RELEASE-NOTES.rst:384
 msgid "Deprecate ``figure_footnotes`` setting."
-msgstr ""
+msgstr "Deprecate ``figure_footnotes`` setting."
 
 #: ../../source/release/RELEASE-NOTES.rst:385
 msgid "Rename ``use_latex_footnotes`` setting to `docutils_footnotes`__."
-msgstr ""
+msgstr "Rename ``use_latex_footnotes`` setting to `docutils_footnotes`__."
 
 #: ../../source/release/RELEASE-NOTES.rst:386
 msgid "New ``latex_preamble`` setting."
-msgstr ""
+msgstr "New ``latex_preamble`` setting."
 
 #: ../../source/release/RELEASE-NOTES.rst:387
 msgid "Use PDF standard fonts (Times/Helvetica/Courier) as default."
-msgstr ""
+msgstr "Use PDF standard fonts (Times/Helvetica/Courier) as default."
 
 #: ../../source/release/RELEASE-NOTES.rst:388
 msgid ""
@@ -740,15 +740,15 @@ msgstr ""
 #: ../../source/release/RELEASE-NOTES.rst:397
 #: ../../source/release/RELEASE-NOTES.rst:477
 msgid "manpage writer:"
-msgstr ""
+msgstr "manpage writer:"
 
 #: ../../source/release/RELEASE-NOTES.rst:399
 msgid "Titles level 1, that is ``.SH``, always uppercase."
-msgstr ""
+msgstr "Titles level 1, that is ``.SH``, always uppercase."
 
 #: ../../source/release/RELEASE-NOTES.rst:400
 msgid "Apply patch from mg: literal text should be bold in man-pages."
-msgstr ""
+msgstr "Apply patch from mg: literal text should be bold in man-pages."
 
 #: ../../source/release/RELEASE-NOTES.rst:404
 msgid ""
@@ -758,7 +758,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:407
 msgid "setup.py:"
-msgstr ""
+msgstr "setup.py:"
 
 #: ../../source/release/RELEASE-NOTES.rst:409
 msgid ""
@@ -768,11 +768,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:414
 msgid "Release 0.6 (2009-10-11)"
-msgstr ""
+msgstr "Release 0.6 (2009-10-11)"
 
 #: ../../source/release/RELEASE-NOTES.rst:418
 msgid "Docutils 0.5 is the last version supporting Python 2.2."
-msgstr ""
+msgstr "Docutils 0.5 is the last version supporting Python 2.2."
 
 #: ../../source/release/RELEASE-NOTES.rst:420
 msgid ""
@@ -782,7 +782,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:425
 msgid "The \"newlatex\" writer is orphaned."
-msgstr ""
+msgstr "The \"newlatex\" writer is orphaned."
 
 #: ../../source/release/RELEASE-NOTES.rst:427
 msgid ""
@@ -793,7 +793,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:433
 msgid "Allow length units for all length specifications."
-msgstr ""
+msgstr "Allow length units for all length specifications."
 
 #: ../../source/release/RELEASE-NOTES.rst:434
 msgid ""
@@ -838,7 +838,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:457
 msgid "Support LaTeX packages as ``--stylesheet`` arguments."
-msgstr ""
+msgstr "Support LaTeX packages as ``--stylesheet`` arguments."
 
 #: ../../source/release/RELEASE-NOTES.rst:458
 msgid ""
@@ -848,27 +848,27 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:460
 msgid "Do not use 'ae' and 'aeguill' packages if font-encoding is set to ''."
-msgstr ""
+msgstr "Do not use 'ae' and 'aeguill' packages if font-encoding is set to ''."
 
 #: ../../source/release/RELEASE-NOTES.rst:461
 msgid "Set sub- and superscript role argument as text not math."
-msgstr ""
+msgstr "Set sub- and superscript role argument as text not math."
 
 #: ../../source/release/RELEASE-NOTES.rst:462
 msgid "Support custom roles based on standard roles."
-msgstr ""
+msgstr "Support custom roles based on standard roles."
 
 #: ../../source/release/RELEASE-NOTES.rst:463
 msgid "Load packages and define macros only if required in the document."
-msgstr ""
+msgstr "Load packages and define macros only if required in the document."
 
 #: ../../source/release/RELEASE-NOTES.rst:464
 msgid "All Docutils specific LaTeX macros are prefixed with ``DU``."
-msgstr ""
+msgstr "All Docutils specific LaTeX macros are prefixed with ``DU``."
 
 #: ../../source/release/RELEASE-NOTES.rst:465
 msgid "Better conformance to Docutils specifications with \"use_latex_toc\"."
-msgstr ""
+msgstr "Better conformance to Docutils specifications with \"use_latex_toc\"."
 
 #: ../../source/release/RELEASE-NOTES.rst:466
 msgid ""
@@ -878,36 +878,36 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:468
 msgid "Use default font in admonitions and sidebar."
-msgstr ""
+msgstr "Use default font in admonitions and sidebar."
 
 #: ../../source/release/RELEASE-NOTES.rst:469
 msgid "Typeset generic topic as \"quote with title\"."
-msgstr ""
+msgstr "Typeset generic topic as \"quote with title\"."
 
 #: ../../source/release/RELEASE-NOTES.rst:470
 msgid "Use template (file and configuration option)."
-msgstr ""
+msgstr "Use template (file and configuration option)."
 
 #: ../../source/release/RELEASE-NOTES.rst:471
 msgid "Render doctest blocks as literal blocks (indented)."
-msgstr ""
+msgstr "Render doctest blocks as literal blocks (indented)."
 
 #: ../../source/release/RELEASE-NOTES.rst:473
 msgid "ODT writer:"
-msgstr ""
+msgstr "ODT writer:"
 
 #: ../../source/release/RELEASE-NOTES.rst:475
 #: ../../source/release/RELEASE-NOTES.rst:479
 msgid "moved from sandbox to Doctutils core."
-msgstr ""
+msgstr "moved from sandbox to Doctutils core."
 
 #: ../../source/release/RELEASE-NOTES.rst:483
 msgid "Release 0.5 (2008-06-25)"
-msgstr ""
+msgstr "Release 0.5 (2008-06-25)"
 
 #: ../../source/release/RELEASE-NOTES.rst:487
 msgid "HTML writer."
-msgstr ""
+msgstr "HTML writer."
 
 #: ../../source/release/RELEASE-NOTES.rst:489
 msgid ""
@@ -917,19 +917,19 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:494
 msgid "Better bibTeX citation support."
-msgstr ""
+msgstr "Better bibTeX citation support."
 
 #: ../../source/release/RELEASE-NOTES.rst:495
 msgid "Add ``--literal-block-env``"
-msgstr ""
+msgstr "Add ``--literal-block-env``"
 
 #: ../../source/release/RELEASE-NOTES.rst:497
 msgid "PEP writer:"
-msgstr ""
+msgstr "PEP writer:"
 
 #: ../../source/release/RELEASE-NOTES.rst:499
 msgid "Changed to support new python.org website structure and pep2pyramid.py."
-msgstr ""
+msgstr "Changed to support new python.org website structure and pep2pyramid.py."
 
 #: ../../source/release/RELEASE-NOTES.rst:504
 msgid ""
@@ -940,36 +940,36 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:511
 msgid "Allow ``+`` and ``:`` in reference names requested for citations."
-msgstr ""
+msgstr "Allow ``+`` and ``:`` in reference names requested for citations."
 
 #: ../../source/release/RELEASE-NOTES.rst:513
 #: ../../source/release/RELEASE-NOTES.rst:586
 msgid "Documentation:"
-msgstr ""
+msgstr "Documentation:"
 
 #: ../../source/release/RELEASE-NOTES.rst:515
 msgid "Added `Deploying Docutils Securely`__"
-msgstr ""
+msgstr "Added `Deploying Docutils Securely`__"
 
 #: ../../source/release/RELEASE-NOTES.rst:521
 msgid "Added hebrew mappings."
-msgstr ""
+msgstr "Added hebrew mappings."
 
 #: ../../source/release/RELEASE-NOTES.rst:525
 msgid "Configuration files are now assumed and required to be UTF-8-encoded."
-msgstr ""
+msgstr "Configuration files are now assumed and required to be UTF-8-encoded."
 
 #: ../../source/release/RELEASE-NOTES.rst:528
 msgid "Added docutils/writers/html4css1/template.txt."
-msgstr ""
+msgstr "Added docutils/writers/html4css1/template.txt."
 
 #: ../../source/release/RELEASE-NOTES.rst:530
 msgid "Enhance emacs support."
-msgstr ""
+msgstr "Enhance emacs support."
 
 #: ../../source/release/RELEASE-NOTES.rst:534
 msgid "Release 0.4 (2006-01-09)"
-msgstr ""
+msgstr "Release 0.4 (2006-01-09)"
 
 #: ../../source/release/RELEASE-NOTES.rst:538
 msgid ""
@@ -993,7 +993,7 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:555
 msgid "The newlatex2e writer is nearing completion."
-msgstr ""
+msgstr "The newlatex2e writer is nearing completion."
 
 #: ../../source/release/RELEASE-NOTES.rst:557
 msgid ""
@@ -1011,11 +1011,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:573
 msgid "Length units are now supported for image__ sizes."
-msgstr ""
+msgstr "Length units are now supported for image__ sizes."
 
 #: ../../source/release/RELEASE-NOTES.rst:577
 msgid "Added `standard definition files`__ for special characters etc."
-msgstr ""
+msgstr "Added `standard definition files`__ for special characters etc."
 
 #: ../../source/release/RELEASE-NOTES.rst:583
 msgid ""
@@ -1031,11 +1031,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:596
 msgid "Added significant `Emacs support for reST`__."
-msgstr ""
+msgstr "Added significant `Emacs support for reST`__."
 
 #: ../../source/release/RELEASE-NOTES.rst:600
 msgid "Added a `--strip-comments`__ option."
-msgstr ""
+msgstr "Added a `--strip-comments`__ option."
 
 #: ../../source/release/RELEASE-NOTES.rst:604
 msgid ""
@@ -1045,27 +1045,27 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:611
 msgid "Release 0.3.9 (2005-05-26)"
-msgstr ""
+msgstr "Release 0.3.9 (2005-05-26)"
 
 #: ../../source/release/RELEASE-NOTES.rst:613
 msgid "Added \"file_insertion_enabled__\" and \"raw_enabled__\" settings."
-msgstr ""
+msgstr "Added \"file_insertion_enabled__\" and \"raw_enabled__\" settings."
 
 #: ../../source/release/RELEASE-NOTES.rst:618
 msgid "Added `auto-enumerated lists`__."
-msgstr ""
+msgstr "Added `auto-enumerated lists`__."
 
 #: ../../source/release/RELEASE-NOTES.rst:622
 msgid "Added `\"header\" and \"footer\"`__ directives."
-msgstr ""
+msgstr "Added `\"header\" and \"footer\"`__ directives."
 
 #: ../../source/release/RELEASE-NOTES.rst:626
 msgid "Added \"list-table__\" directive."
-msgstr ""
+msgstr "Added \"list-table__\" directive."
 
 #: ../../source/release/RELEASE-NOTES.rst:630
 msgid "Added support for `section subtitles`__."
-msgstr ""
+msgstr "Added support for `section subtitles`__."
 
 #: ../../source/release/RELEASE-NOTES.rst:634
 msgid ""
@@ -1075,15 +1075,15 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:639
 msgid "Added \"cloak_email_addresses__\" setting to HTML writer."
-msgstr ""
+msgstr "Added \"cloak_email_addresses__\" setting to HTML writer."
 
 #: ../../source/release/RELEASE-NOTES.rst:643
 msgid "UTF-8 BOMs are now removed from the input stream."
-msgstr ""
+msgstr "UTF-8 BOMs are now removed from the input stream."
 
 #: ../../source/release/RELEASE-NOTES.rst:647
 msgid "Release 0.3.7 (2004-12-24)"
-msgstr ""
+msgstr "Release 0.3.7 (2004-12-24)"
 
 #: ../../source/release/RELEASE-NOTES.rst:649
 msgid ""
@@ -1093,11 +1093,11 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:655
 msgid "Empty sections are now allowed."
-msgstr ""
+msgstr "Empty sections are now allowed."
 
 #: ../../source/release/RELEASE-NOTES.rst:657
 msgid "A \"raw__\" role has been added."
-msgstr ""
+msgstr "A \"raw__\" role has been added."
 
 #: ../../source/release/RELEASE-NOTES.rst:661
 msgid ""
@@ -1108,23 +1108,23 @@ msgstr ""
 
 #: ../../source/release/RELEASE-NOTES.rst:667
 msgid "A `dependency recorder`__ has been added."
-msgstr ""
+msgstr "A `dependency recorder`__ has been added."
 
 #: ../../source/release/RELEASE-NOTES.rst:671
 msgid "A directive has been added for `compound paragraphs`__."
-msgstr ""
+msgstr "A directive has been added for `compound paragraphs`__."
 
 #: ../../source/release/RELEASE-NOTES.rst:677
 msgid "Release 0.3.5 (2004-07-29)"
-msgstr ""
+msgstr "Release 0.3.5 (2004-07-29)"
 
 #: ../../source/release/RELEASE-NOTES.rst:679
 msgid "Improved, extended and reorganized the documentation__."
-msgstr ""
+msgstr "Improved, extended and reorganized the documentation__."
 
 #: ../../source/release/RELEASE-NOTES.rst:683
 msgid "Added \"csv-table__\" directive."
-msgstr ""
+msgstr "Added \"csv-table__\" directive."
 
 #~ msgid "release-notes"
 #~ msgstr ""

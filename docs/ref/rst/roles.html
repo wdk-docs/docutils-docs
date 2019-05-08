@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>reStructuredText Interpreted Text Roles &mdash; docutils-docs v2019.04.12 文档</title>
+  <title>reStructuredText解释文本角色 &mdash; docutils-docs v2019.04.12 文档</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="../../genindex.html" />
     <link rel="search" title="搜索" href="../../search.html" />
-    <link rel="next" title="reStructuredText Standard Definition Files" href="definitions.html" />
-    <link rel="prev" title="reStructuredText Directives" href="directives.html" /> 
+    <link rel="next" title="reStructuredText标准定义文件" href="definitions.html" />
+    <link rel="prev" title="指令" href="directives.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,17 +83,19 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../overviews.html">文档实用程序</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../index.html">Docutils 项目文档概述</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../release/index.html">版本发布</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../doc.html">文档实用程序</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../rst.html">Docutils 的标记语法和解析器组件</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">用户文档</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">参考文档</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../transforms.html">Docutils Transforms</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html">An Introduction to reStructuredText</a></li>
-<li class="toctree-l2"><a class="reference internal" href="restructuredtext.html">reStructuredText Markup Specification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="directives.html">reStructuredText Directives</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">reStructuredText Interpreted Text Roles</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../transforms.html">Docutils变换</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doctree.html">Docutils文档树</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html">reStructuredText简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="restructuredtext.html">reStructuredText标记规范</a></li>
+<li class="toctree-l2"><a class="reference internal" href="directives.html">指令</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">reStructuredText解释文本角色</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#customization">Customization</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#standard-roles">Standard Roles</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#emphasis"><code class="docutils literal notranslate"><span class="pre">:emphasis:</span></code></a></li>
@@ -114,12 +116,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.html">reStructuredText Standard Definition Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="definitions.html">reStructuredText标准定义文件</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../dev/index.html">Developer Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">基本知识</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API文档</a></li>
 </ul>
 
             
@@ -167,7 +169,7 @@
         
           <li><a href="../index.html">参考文档</a> &raquo;</li>
         
-      <li>reStructuredText Interpreted Text Roles</li>
+      <li>reStructuredText解释文本角色</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -187,7 +189,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="restructuredtext-interpreted-text-roles">
-<h1><a class="toc-backref" href="#id6">reStructuredText Interpreted Text Roles</a><a class="headerlink" href="#restructuredtext-interpreted-text-roles" title="永久链接至标题">¶</a></h1>
+<h1><a class="toc-backref" href="#id6">reStructuredText解释文本角色</a><a class="headerlink" href="#restructuredtext-interpreted-text-roles" title="永久链接至标题">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Author</dt>
 <dd class="field-odd"><p>David Goodger</p>
@@ -228,7 +230,7 @@ Text Roles</a>.</p>
 <div class="contents topic" id="id1">
 <p class="topic-title first">目录</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#restructuredtext-interpreted-text-roles" id="id6">reStructuredText Interpreted Text Roles</a></p>
+<li><p><a class="reference internal" href="#restructuredtext-interpreted-text-roles" id="id6">reStructuredText解释文本角色</a></p>
 <ul>
 <li><p><a class="reference internal" href="#customization" id="id7">Customization</a></p></li>
 <li><p><a class="reference internal" href="#standard-roles" id="id8">Standard Roles</a></p>
@@ -680,10 +682,10 @@ prefix for role names is recommended.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="definitions.html" class="btn btn-neutral float-right" title="reStructuredText Standard Definition Files" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="definitions.html" class="btn btn-neutral float-right" title="reStructuredText标准定义文件" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="directives.html" class="btn btn-neutral float-left" title="reStructuredText Directives" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="directives.html" class="btn btn-neutral float-left" title="指令" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -20,23 +20,23 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:3
 msgid "Quick reStructuredText"
-msgstr ""
+msgstr "快速reStructuredText"
 
 #: ../../source/user/rst/quickref.rst:5
 msgid "http://docutils.sourceforge.net/docs/user/rst/quickref.html"
-msgstr ""
+msgstr "http://docutils.sourceforge.net/docs/user/rst/quickref.html"
 
 #: ../../source/user/rst/quickref.rst:7
 msgid "Being a cheat-sheet for reStructuredText"
-msgstr ""
+msgstr "Being a cheat-sheet for reStructuredText"
 
 #: ../../source/user/rst/quickref.rst:9
 msgid "Updated $Date: 2009-07-14 16:05:34 +0200 (Di, 14. Jul 2009) $"
-msgstr ""
+msgstr "Updated $Date: 2009-07-14 16:05:34 +0200 (Di, 14. Jul 2009) $"
 
 #: ../../source/user/rst/quickref.rst:11
 msgid "Copyright: This document has been placed in the public domain."
-msgstr ""
+msgstr "Copyright: This document has been placed in the public domain."
 
 #: ../../source/user/rst/quickref.rst:13
 msgid ""
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:18
 msgid "Contents"
-msgstr ""
+msgstr "Contents"
 
 #: ../../source/user/rst/quickref.rst:20
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:49
 msgid "Inline Markup"
-msgstr ""
+msgstr "Inline Markup"
 
 #: ../../source/user/rst/quickref.rst:51 ../../source/user/rst/quickref.rst:83
 #: ../../source/user/rst/quickref.rst:99 ../../source/user/rst/quickref.rst:131
@@ -93,7 +93,7 @@ msgstr ""
 #: ../../source/user/rst/quickref.rst:603
 #: ../../source/user/rst/quickref.rst:615
 msgid "(details)"
-msgstr ""
+msgstr "(details)"
 
 #: ../../source/user/rst/quickref.rst:53
 msgid ""
@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:82
 msgid "Escaping with Backslashes"
-msgstr ""
+msgstr "Escaping with Backslashes"
 
 #: ../../source/user/rst/quickref.rst:85
 msgid ""
@@ -195,23 +195,23 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:98
 msgid "Section Structure"
-msgstr ""
+msgstr "Section Structure"
 
 #: ../../source/user/rst/quickref.rst:101
 msgid "Plain text::"
-msgstr ""
+msgstr "Plain text::"
 
 #: ../../source/user/rst/quickref.rst:120
 msgid "Typical result::"
-msgstr ""
+msgstr "Typical result::"
 
 #: ../../source/user/rst/quickref.rst:130
 msgid "Paragraphs"
-msgstr ""
+msgstr "Paragraphs"
 
 #: ../../source/user/rst/quickref.rst:133
 msgid "Plain text      Typical result This is a paragraph."
-msgstr ""
+msgstr "Plain text      Typical result This is a paragraph."
 
 #: ../../source/user/rst/quickref.rst:136
 #: ../../source/user/rst/quickref.rst:142
@@ -222,11 +222,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:140
 msgid "This is a paragraph."
-msgstr ""
+msgstr "This is a paragraph."
 
 #: ../../source/user/rst/quickref.rst:145
 msgid "Bullet Lists"
-msgstr ""
+msgstr "Bullet Lists"
 
 #: ../../source/user/rst/quickref.rst:148
 msgid ""
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:168
 msgid "Enumerated Lists"
-msgstr ""
+msgstr "Enumerated Lists"
 
 #: ../../source/user/rst/quickref.rst:171
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:176
 msgid "single letters, or roman numerals"
-msgstr ""
+msgstr "single letters, or roman numerals"
 
 #: ../../source/user/rst/quickref.rst:177
 msgid ""
@@ -276,7 +276,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:181
 msgid "This item is auto-enumerated"
-msgstr ""
+msgstr "This item is auto-enumerated"
 
 #: ../../source/user/rst/quickref.rst:183
 msgid ""
@@ -289,23 +289,23 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:191
 msgid "Definition Lists"
-msgstr ""
+msgstr "Definition Lists"
 
 #: ../../source/user/rst/quickref.rst:194
 msgid "Plain text      Typical result Definition lists:"
-msgstr ""
+msgstr "Plain text      Typical result Definition lists:"
 
 #: ../../source/user/rst/quickref.rst:199
 msgid "what"
-msgstr ""
+msgstr "what"
 
 #: ../../source/user/rst/quickref.rst:198
 msgid "Definition lists associate a term with a definition."
-msgstr ""
+msgstr "Definition lists associate a term with a definition."
 
 #: ../../source/user/rst/quickref.rst:205
 msgid "how"
-msgstr ""
+msgstr "how"
 
 #: ../../source/user/rst/quickref.rst:202
 msgid ""
@@ -324,31 +324,31 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:213
 msgid "Field Lists"
-msgstr ""
+msgstr "Field Lists"
 
 #: ../../source/user/rst/quickref.rst:216
 msgid "Plain text      Typical result :Authors:"
-msgstr ""
+msgstr "Plain text      Typical result :Authors:"
 
 #: ../../source/user/rst/quickref.rst:218
 msgid "Tony J. (Tibs) Ibbs, David Goodger (and sundry other good-natured folks)"
-msgstr ""
+msgstr "Tony J. (Tibs) Ibbs, David Goodger (and sundry other good-natured folks)"
 
 #: ../../source/user/rst/quickref.rst
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: ../../source/user/rst/quickref.rst:222
 msgid "1.0 of 2001/08/08"
-msgstr ""
+msgstr "1.0 of 2001/08/08"
 
 #: ../../source/user/rst/quickref.rst
 msgid "Dedication"
-msgstr ""
+msgstr "Dedication"
 
 #: ../../source/user/rst/quickref.rst:223
 msgid "To my father."
-msgstr ""
+msgstr "To my father."
 
 #: ../../source/user/rst/quickref.rst:225
 msgid ""
@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:232
 msgid "Option Lists"
-msgstr ""
+msgstr "Option Lists"
 
 #: ../../source/user/rst/quickref.rst:235
 msgid ""
@@ -372,23 +372,23 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:238
 msgid "and long descriptions"
-msgstr ""
+msgstr "and long descriptions"
 
 #: ../../source/user/rst/quickref.rst:239
 msgid "options can be long also"
-msgstr ""
+msgstr "options can be long also"
 
 #: ../../source/user/rst/quickref.rst:240
 msgid "long options can also have arguments"
-msgstr ""
+msgstr "long options can also have arguments"
 
 #: ../../source/user/rst/quickref.rst:242
 msgid "DOS/VMS-style options too"
-msgstr ""
+msgstr "DOS/VMS-style options too"
 
 #: ../../source/user/rst/quickref.rst:244
 msgid "command-line option \"a\""
-msgstr ""
+msgstr "command-line option \"a\""
 
 #: ../../source/user/rst/quickref.rst:245
 msgid ""
@@ -400,7 +400,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:252
 msgid "Literal Blocks"
-msgstr ""
+msgstr "Literal Blocks"
 
 #: ../../source/user/rst/quickref.rst:255
 msgid ""
@@ -423,7 +423,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:286
 msgid "Per-line quoting can also be used on unindented literal blocks::"
-msgstr ""
+msgstr "Per-line quoting can also be used on unindented literal blocks::"
 
 #: ../../source/user/rst/quickref.rst:291
 msgid ""
@@ -439,7 +439,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:297
 msgid "The paragraph containing only '::' will be omitted from the result."
-msgstr ""
+msgstr "The paragraph containing only '::' will be omitted from the result."
 
 #: ../../source/user/rst/quickref.rst:299
 msgid ""
@@ -450,7 +450,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:301
 msgid "It's very convenient to use this form."
-msgstr ""
+msgstr "It's very convenient to use this form."
 
 #: ../../source/user/rst/quickref.rst:302
 msgid ""
@@ -460,27 +460,27 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:304
 msgid "We start here"
-msgstr ""
+msgstr "We start here"
 
 #: ../../source/user/rst/quickref.rst:305
 msgid "and continue here"
-msgstr ""
+msgstr "and continue here"
 
 #: ../../source/user/rst/quickref.rst:306
 msgid "and end here."
-msgstr ""
+msgstr "and end here."
 
 #: ../../source/user/rst/quickref.rst:307
 msgid "Per-line quoting can also be used on unindented literal blocks:"
-msgstr ""
+msgstr "Per-line quoting can also be used on unindented literal blocks:"
 
 #: ../../source/user/rst/quickref.rst:309
 msgid "> Useful for quotes from email and > for Haskell literate programming."
-msgstr ""
+msgstr "> Useful for quotes from email and > for Haskell literate programming."
 
 #: ../../source/user/rst/quickref.rst:313
 msgid "Line Blocks"
-msgstr ""
+msgstr "Line Blocks"
 
 #: ../../source/user/rst/quickref.rst:316
 msgid ""
@@ -492,11 +492,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:325
 msgid "portions of long lines; they begin with spaces in place of vertical bars."
-msgstr ""
+msgstr "portions of long lines; they begin with spaces in place of vertical bars."
 
 #: ../../source/user/rst/quickref.rst:327
 msgid "Line blocks are useful for addresses, verse, and adornment-free lists."
-msgstr ""
+msgstr "Line blocks are useful for addresses, verse, and adornment-free lists."
 
 #: ../../source/user/rst/quickref.rst:330
 msgid ""
@@ -507,24 +507,24 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:337
 msgid "Block Quotes"
-msgstr ""
+msgstr "Block Quotes"
 
 #: ../../source/user/rst/quickref.rst:340
 msgid "Plain text      Typical result Block quotes are just:"
-msgstr ""
+msgstr "Plain text      Typical result Block quotes are just:"
 
 #: ../../source/user/rst/quickref.rst:342
 msgid "Indented paragraphs,"
-msgstr ""
+msgstr "Indented paragraphs,"
 
 #: ../../source/user/rst/quickref.rst:344
 #: ../../source/user/rst/quickref.rst:349
 msgid "and they may nest."
-msgstr ""
+msgstr "and they may nest."
 
 #: ../../source/user/rst/quickref.rst:346
 msgid "Block quotes are just: Indented paragraphs,"
-msgstr ""
+msgstr "Block quotes are just: Indented paragraphs,"
 
 #: ../../source/user/rst/quickref.rst:351
 msgid ""
@@ -534,7 +534,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:354
 msgid "Doctest Blocks"
-msgstr ""
+msgstr "Doctest Blocks"
 
 #: ../../source/user/rst/quickref.rst:357
 msgid ""
@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:373
 msgid "Tables"
-msgstr ""
+msgstr "Tables"
 
 #: ../../source/user/rst/quickref.rst:376
 msgid ""
@@ -568,67 +568,67 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:378
 msgid "Plain text      Typical result Grid table:"
-msgstr ""
+msgstr "Plain text      Typical result Grid table:"
 
 #: ../../source/user/rst/quickref.rst:382
 msgid "Header 1"
-msgstr ""
+msgstr "Header 1"
 
 #: ../../source/user/rst/quickref.rst:382
 msgid "Header 2"
-msgstr ""
+msgstr "Header 2"
 
 #: ../../source/user/rst/quickref.rst:382
 msgid "Header 3"
-msgstr ""
+msgstr "Header 3"
 
 #: ../../source/user/rst/quickref.rst:384
 msgid "body row 1"
-msgstr ""
+msgstr "body row 1"
 
 #: ../../source/user/rst/quickref.rst:384
 msgid "column 2"
-msgstr ""
+msgstr "column 2"
 
 #: ../../source/user/rst/quickref.rst:384
 msgid "column 3"
-msgstr ""
+msgstr "column 3"
 
 #: ../../source/user/rst/quickref.rst:386
 msgid "body row 2"
-msgstr ""
+msgstr "body row 2"
 
 #: ../../source/user/rst/quickref.rst:386
 msgid "Cells may span columns."
-msgstr ""
+msgstr "Cells may span columns."
 
 #: ../../source/user/rst/quickref.rst:388
 msgid "body row 3"
-msgstr ""
+msgstr "body row 3"
 
 #: ../../source/user/rst/quickref.rst:388
 msgid "Cells may span rows."
-msgstr ""
+msgstr "Cells may span rows."
 
 #: ../../source/user/rst/quickref.rst:388
 msgid "Cells"
-msgstr ""
+msgstr "Cells"
 
 #: ../../source/user/rst/quickref.rst:389
 msgid "contain"
-msgstr ""
+msgstr "contain"
 
 #: ../../source/user/rst/quickref.rst:390
 msgid "blocks."
-msgstr ""
+msgstr "blocks."
 
 #: ../../source/user/rst/quickref.rst:390
 msgid "body row 4"
-msgstr ""
+msgstr "body row 4"
 
 #: ../../source/user/rst/quickref.rst:393
 msgid "Grid table:"
-msgstr ""
+msgstr "Grid table:"
 
 #: ../../source/user/rst/quickref.rst:395
 msgid ""
@@ -639,39 +639,39 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:407
 msgid "Inputs"
-msgstr ""
+msgstr "Inputs"
 
 #: ../../source/user/rst/quickref.rst:407
 msgid "Output"
-msgstr ""
+msgstr "Output"
 
 #: ../../source/user/rst/quickref.rst:409
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/user/rst/quickref.rst:409
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/user/rst/quickref.rst:409
 msgid "A or B"
-msgstr ""
+msgstr "A or B"
 
 #: ../../source/user/rst/quickref.rst:411
 #: ../../source/user/rst/quickref.rst:412
 #: ../../source/user/rst/quickref.rst:413
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../source/user/rst/quickref.rst:412
 #: ../../source/user/rst/quickref.rst:413
 #: ../../source/user/rst/quickref.rst:414
 msgid "True"
-msgstr ""
+msgstr "True"
 
 #: ../../source/user/rst/quickref.rst:417
 msgid "Simple table:"
-msgstr ""
+msgstr "Simple table:"
 
 #: ../../source/user/rst/quickref.rst:419
 msgid ""
@@ -681,7 +681,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:427
 msgid "Transitions"
-msgstr ""
+msgstr "Transitions"
 
 #: ../../source/user/rst/quickref.rst:430
 msgid ""
@@ -720,7 +720,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:451
 msgid "Footnotes"
-msgstr ""
+msgstr "Footnotes"
 
 #: ../../source/user/rst/quickref.rst:454
 msgid ""
@@ -731,7 +731,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:460
 msgid "there's no colon after the ``]``."
-msgstr ""
+msgstr "there's no colon after the ``]``."
 
 #: ../../source/user/rst/quickref.rst:462
 msgid ""
@@ -750,11 +750,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:473
 msgid "a.k.a. third_"
-msgstr ""
+msgstr "a.k.a. third_"
 
 #: ../../source/user/rst/quickref.rst:475
 msgid "a.k.a. fourth_"
-msgstr ""
+msgstr "a.k.a. fourth_"
 
 #: ../../source/user/rst/quickref.rst:477
 msgid ""
@@ -783,7 +783,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:495
 msgid "Citations"
-msgstr ""
+msgstr "Citations"
 
 #: ../../source/user/rst/quickref.rst:498
 msgid ""
@@ -794,7 +794,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:504
 msgid "(as often used in journals)."
-msgstr ""
+msgstr "(as often used in journals)."
 
 #: ../../source/user/rst/quickref.rst:506
 msgid ""
@@ -804,11 +804,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:510
 msgid "Given a citation like [this]_, one can also refer to it like this_."
-msgstr ""
+msgstr "Given a citation like [this]_, one can also refer to it like this_."
 
 #: ../../source/user/rst/quickref.rst:513
 msgid "here."
-msgstr ""
+msgstr "here."
 
 #: ../../source/user/rst/quickref.rst:515
 msgid ""
@@ -820,15 +820,15 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:518
 msgid "Given a citation like [this], one can also refer to it like this."
-msgstr ""
+msgstr "Given a citation like [this], one can also refer to it like this."
 
 #: ../../source/user/rst/quickref.rst:520
 msgid "[CIT2002]       A citation (as often used in journals). [this]  here."
-msgstr ""
+msgstr "[CIT2002]       A citation (as often used in journals). [this]  here."
 
 #: ../../source/user/rst/quickref.rst:524
 msgid "Hyperlink Targets"
-msgstr ""
+msgstr "Hyperlink Targets"
 
 #: ../../source/user/rst/quickref.rst:527
 msgid ""
@@ -865,7 +865,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:549
 msgid "This is an example crossreference target."
-msgstr ""
+msgstr "This is an example crossreference target."
 
 #: ../../source/user/rst/quickref.rst:551
 msgid ""
@@ -881,7 +881,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:561
 msgid "Indirect Hyperlink Targets"
-msgstr ""
+msgstr "Indirect Hyperlink Targets"
 
 #: ../../source/user/rst/quickref.rst:564
 msgid ""
@@ -891,7 +891,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:571
 msgid "Python is my favourite programming language."
-msgstr ""
+msgstr "Python is my favourite programming language."
 
 #: ../../source/user/rst/quickref.rst:573
 msgid ""
@@ -907,7 +907,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:576
 msgid "Implicit Hyperlink Targets"
-msgstr ""
+msgstr "Implicit Hyperlink Targets"
 
 #: ../../source/user/rst/quickref.rst:579
 msgid ""
@@ -926,7 +926,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:589
 msgid "Directives"
-msgstr ""
+msgstr "Directives"
 
 #: ../../source/user/rst/quickref.rst:592
 msgid ""
@@ -937,15 +937,15 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:594
 msgid "Plain text      Typical result For instance: .. image:: images/ball1.gif"
-msgstr ""
+msgstr "Plain text      Typical result For instance: .. image:: images/ball1.gif"
 
 #: ../../source/user/rst/quickref.rst:598
 msgid "For instance: ball1"
-msgstr ""
+msgstr "For instance: ball1"
 
 #: ../../source/user/rst/quickref.rst:602
 msgid "Substitution References and Definitions"
-msgstr ""
+msgstr "Substitution References and Definitions"
 
 #: ../../source/user/rst/quickref.rst:605
 msgid ""
@@ -968,7 +968,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:614
 msgid "Comments"
-msgstr ""
+msgstr "Comments"
 
 #: ../../source/user/rst/quickref.rst:617
 msgid ""
@@ -978,11 +978,11 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:619
 msgid "Plain text      Typical result .. This text will not be shown"
-msgstr ""
+msgstr "Plain text      Typical result .. This text will not be shown"
 
 #: ../../source/user/rst/quickref.rst:621
 msgid "(but, for instance, in HTML might be rendered as an HTML comment)"
-msgstr ""
+msgstr "(but, for instance, in HTML might be rendered as an HTML comment)"
 
 #: ../../source/user/rst/quickref.rst:623
 msgid ""
@@ -992,7 +992,7 @@ msgstr ""
 
 #: ../../source/user/rst/quickref.rst:629
 msgid "So this block is not \"lost\", despite its indentation."
-msgstr ""
+msgstr "So this block is not \"lost\", despite its indentation."
 
 #: ../../source/user/rst/quickref.rst:632
 msgid ""

@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/release/README.rst:3
 msgid "README: Docutils 0.15b.dev"
-msgstr "README: Docutils 0.15b.dev"
+msgstr "自述文件"
 
 #: ../../source/release/README.rst
 msgid "Author"

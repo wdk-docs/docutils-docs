@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/release/HISTORY.rst:5
 msgid "Docutils History"
-msgstr "Docutils历史"
+msgstr "更新历史"
 
 #: ../../source/release/HISTORY.rst
 msgid "Author"

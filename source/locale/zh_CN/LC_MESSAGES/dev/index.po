@@ -22,4 +22,3 @@ msgstr ""
 #, fuzzy
 msgid "Developer Documentation"
 msgstr "开发者文档"
-

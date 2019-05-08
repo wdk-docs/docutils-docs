@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/dev/semantics.rst:3
 msgid "Docstring Semantics"
-msgstr ""
+msgstr "Docstring语义"
 
 #: ../../source/dev/semantics.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/semantics.rst:4
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/dev/semantics.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/semantics.rst:5
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/semantics.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/semantics.rst:6
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/dev/semantics.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/semantics.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/dev/semantics.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/semantics.rst:8
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/semantics.rst:10
 msgid ""
@@ -93,11 +93,11 @@ msgstr ""
 
 #: ../../source/dev/semantics.rst:32
 msgid "PythonDoc"
-msgstr ""
+msgstr "PythonDoc"
 
 #: ../../source/dev/semantics.rst:34
 msgid "(Not to be confused with Daniel Larsson's pythondoc_ project.)"
-msgstr ""
+msgstr "(Not to be confused with Daniel Larsson's pythondoc_ project.)"
 
 #: ../../source/dev/semantics.rst:36
 msgid ""
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../source/dev/semantics.rst:82
 msgid "Other Ideas"
-msgstr ""
+msgstr "Other Ideas"
 
 #: ../../source/dev/semantics.rst:84
 msgid ""
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../source/dev/semantics.rst:92
 msgid "This would save having to repeat parameter names in the docstring."
-msgstr ""
+msgstr "This would save having to repeat parameter names in the docstring."
 
 #: ../../source/dev/semantics.rst:94
 msgid ""

@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/dev/release.rst:3
 msgid "Docutils_ Release Procedure"
-msgstr ""
+msgstr "Docutils_ 发布程序"
 
 #: ../../source/dev/release.rst
 msgid "Authors"
-msgstr ""
+msgstr "Authors"
 
 #: ../../source/dev/release.rst:5
 msgid "David Goodger; Lea Wiemann; open to all Docutils developers"
-msgstr ""
+msgstr "David Goodger; Lea Wiemann; open to all Docutils developers"
 
 #: ../../source/dev/release.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/release.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/release.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/release.rst:7
 msgid "$Date: 2017-09-08 18:09:13 +0200 (Fr, 08. Sep 2017) $"
-msgstr ""
+msgstr "$Date: 2017-09-08 18:09:13 +0200 (Fr, 08. Sep 2017) $"
 
 #: ../../source/dev/release.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/release.rst:8
 msgid "$Revision: 8177 $"
-msgstr ""
+msgstr "$Revision: 8177 $"
 
 #: ../../source/dev/release.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/release.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/release.rst:14
 msgid "Assumptions and their failure"
-msgstr ""
+msgstr "Assumptions and their failure"
 
 #: ../../source/dev/release.rst:16
 msgid ""
@@ -80,15 +80,15 @@ msgstr ""
 
 #: ../../source/dev/release.rst:23
 msgid "On new ubuntu 12.10"
-msgstr ""
+msgstr "On new ubuntu 12.10"
 
 #: ../../source/dev/release.rst:25
 msgid "python2.7 is here /usr/bin/python2.7."
-msgstr ""
+msgstr "python2.7 is here /usr/bin/python2.7."
 
 #: ../../source/dev/release.rst:26
 msgid "in /usr/lib are python2.7, pymodules and pyshared."
-msgstr ""
+msgstr "in /usr/lib are python2.7, pymodules and pyshared."
 
 #: ../../source/dev/release.rst:28
 msgid ""
@@ -98,35 +98,35 @@ msgstr ""
 
 #: ../../source/dev/release.rst:31
 msgid "in /usr/local/lib/python2.7 are dist-packages  site-packages."
-msgstr ""
+msgstr "in /usr/local/lib/python2.7 are dist-packages  site-packages."
 
 #: ../../source/dev/release.rst:33
 msgid "site-packages is empty."
-msgstr ""
+msgstr "site-packages is empty."
 
 #: ../../source/dev/release.rst:35
 msgid "docutils is installed under dist-packages."
-msgstr ""
+msgstr "docutils is installed under dist-packages."
 
 #: ../../source/dev/release.rst:37
 msgid "pymodules has a python2.7 directory."
-msgstr ""
+msgstr "pymodules has a python2.7 directory."
 
 #: ../../source/dev/release.rst:40
 msgid "Releasing"
-msgstr ""
+msgstr "Releasing"
 
 #: ../../source/dev/release.rst:43
 msgid "Version identifier"
-msgstr ""
+msgstr "Version identifier"
 
 #: ../../source/dev/release.rst:45
 msgid "For details, see `Version Numbering in Docutils Project Policies`__."
-msgstr ""
+msgstr "For details, see `Version Numbering in Docutils Project Policies`__."
 
 #: ../../source/dev/release.rst:51
 msgid "How to change the version identifier"
-msgstr ""
+msgstr "How to change the version identifier"
 
 #: ../../source/dev/release.rst:53
 msgid ""
@@ -142,15 +142,15 @@ msgstr ""
 
 #: ../../source/dev/release.rst:64
 msgid "``cd`` to the \"docutils\" subdirectory in the repository checkout,"
-msgstr ""
+msgstr "``cd`` to the \"docutils\" subdirectory in the repository checkout,"
 
 #: ../../source/dev/release.rst:66
 msgid "call ::"
-msgstr ""
+msgstr "call ::"
 
 #: ../../source/dev/release.rst:70
 msgid "where ``<new_version>`` is major.minor[.micro][<pre>][.dev]."
-msgstr ""
+msgstr "where ``<new_version>`` is major.minor[.micro][<pre>][.dev]."
 
 #: ../../source/dev/release.rst:72
 msgid ""
@@ -166,11 +166,11 @@ msgstr ""
 
 #: ../../source/dev/release.rst:80
 msgid "Release steps"
-msgstr ""
+msgstr "Release steps"
 
 #: ../../source/dev/release.rst:82
 msgid "REWORK FOR SOURCEFORGE REPO"
-msgstr ""
+msgstr "REWORK FOR SOURCEFORGE REPO"
 
 #: ../../source/dev/release.rst:85
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../../source/dev/release.rst:98
 msgid "**Announce**"
-msgstr ""
+msgstr "**Announce**"
 
 #: ../../source/dev/release.rst:100
 msgid ""
@@ -211,11 +211,11 @@ msgstr ""
 
 #: ../../source/dev/release.rst:108
 msgid "Announce the date of the feature freeze â€“ at least a week ahead!"
-msgstr ""
+msgstr "Announce the date of the feature freeze â€“ at least a week ahead!"
 
 #: ../../source/dev/release.rst:110
 msgid "**Feature freeze** From now on, only bug-fix commits are allowed."
-msgstr ""
+msgstr "**Feature freeze** From now on, only bug-fix commits are allowed."
 
 #: ../../source/dev/release.rst:112
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../source/dev/release.rst:121
 msgid "**Check-in freeze**"
-msgstr ""
+msgstr "**Check-in freeze**"
 
 #: ../../source/dev/release.rst:123
 msgid ""
@@ -250,27 +250,27 @@ msgstr ""
 
 #: ../../source/dev/release.rst:131
 msgid "docutils/setup.py"
-msgstr ""
+msgstr "docutils/setup.py"
 
 #: ../../source/dev/release.rst:132
 msgid "docutils/docutils/__init__.py"
-msgstr ""
+msgstr "docutils/docutils/__init__.py"
 
 #: ../../source/dev/release.rst:133
 msgid "docutils/test/functional/expected/* (\"Generator: Docutils X.Y[.Z]\")"
-msgstr ""
+msgstr "docutils/test/functional/expected/* (\"Generator: Docutils X.Y[.Z]\")"
 
 #: ../../source/dev/release.rst:134
 msgid "docutils/README.txt"
-msgstr ""
+msgstr "docutils/README.txt"
 
 #: ../../source/dev/release.rst:135
 msgid "web/index.txt"
-msgstr ""
+msgstr "web/index.txt"
 
 #: ../../source/dev/release.rst:137
 msgid "See what ``sandbox/infrastructure/release.sh`` can aid"
-msgstr ""
+msgstr "See what ``sandbox/infrastructure/release.sh`` can aid"
 
 #: ../../source/dev/release.rst:139
 msgid ""
@@ -280,23 +280,23 @@ msgstr ""
 
 #: ../../source/dev/release.rst:144
 msgid "Close the \"Changes Since ...\" section in docutils/HISTORY.txt."
-msgstr ""
+msgstr "Close the \"Changes Since ...\" section in docutils/HISTORY.txt."
 
 #: ../../source/dev/release.rst:146
 msgid "Clear/unset the PYTHONPATH environment variable."
-msgstr ""
+msgstr "Clear/unset the PYTHONPATH environment variable."
 
 #: ../../source/dev/release.rst:148
 msgid "Create the release tarball:"
-msgstr ""
+msgstr "Create the release tarball:"
 
 #: ../../source/dev/release.rst:150
 msgid "Create a new empty directory and ``cd`` into it."
-msgstr ""
+msgstr "Create a new empty directory and ``cd`` into it."
 
 #: ../../source/dev/release.rst:152
 msgid "Get a clean snapshot of the main tree::"
-msgstr ""
+msgstr "Get a clean snapshot of the main tree::"
 
 #: ../../source/dev/release.rst:156
 msgid ""
@@ -306,15 +306,15 @@ msgstr ""
 
 #: ../../source/dev/release.rst:159
 msgid "Use Distutils to create the release tarball::"
-msgstr ""
+msgstr "Use Distutils to create the release tarball::"
 
 #: ../../source/dev/release.rst:164
 msgid "Expand and _`install` the release tarball in isolation:"
-msgstr ""
+msgstr "Expand and _`install` the release tarball in isolation:"
 
 #: ../../source/dev/release.rst:166
 msgid "Expand the tarball in a new location, not over any existing files."
-msgstr ""
+msgstr "Expand the tarball in a new location, not over any existing files."
 
 #: ../../source/dev/release.rst:169
 msgid ""
@@ -324,19 +324,19 @@ msgstr ""
 
 #: ../../source/dev/release.rst:172
 msgid "\"remove\" might fail, see _`Assumptions and their failure`"
-msgstr ""
+msgstr "\"remove\" might fail, see _`Assumptions and their failure`"
 
 #: ../../source/dev/release.rst:174
 msgid "Install from expanded directory::"
-msgstr ""
+msgstr "Install from expanded directory::"
 
 #: ../../source/dev/release.rst:179
 msgid "The \"install\" command may require root permissions."
-msgstr ""
+msgstr "The \"install\" command may require root permissions."
 
 #: ../../source/dev/release.rst:181
 msgid "Repeat step b) for all supported Python versions."
-msgstr ""
+msgstr "Repeat step b) for all supported Python versions."
 
 #: ../../source/dev/release.rst:183
 msgid ""
@@ -354,35 +354,35 @@ msgstr ""
 
 #: ../../source/dev/release.rst:203
 msgid "Now log in to shell.sourceforge.net and::"
-msgstr ""
+msgstr "Now log in to shell.sourceforge.net and::"
 
 #: ../../source/dev/release.rst:211
 msgid "Upload the release tarball, release.sh tries with scp."
-msgstr ""
+msgstr "Upload the release tarball, release.sh tries with scp."
 
 #: ../../source/dev/release.rst:213
 msgid "Access the _`file release system` on SourceForge (Admin interface)."
-msgstr ""
+msgstr "Access the _`file release system` on SourceForge (Admin interface)."
 
 #: ../../source/dev/release.rst:216
 msgid "``https://sourceforge.net/projects/docutils/files/docutils/``"
-msgstr ""
+msgstr "``https://sourceforge.net/projects/docutils/files/docutils/``"
 
 #: ../../source/dev/release.rst:218
 msgid "change into the released version's directory"
-msgstr ""
+msgstr "change into the released version's directory"
 
 #: ../../source/dev/release.rst:219
 msgid "click ``(i)`` button of the tar.gz-file"
-msgstr ""
+msgstr "click ``(i)`` button of the tar.gz-file"
 
 #: ../../source/dev/release.rst:220
 msgid "select as default download for all operating systems."
-msgstr ""
+msgstr "select as default download for all operating systems."
 
 #: ../../source/dev/release.rst:222
 msgid "Submit a notification on project news."
-msgstr ""
+msgstr "Submit a notification on project news."
 
 #: ../../source/dev/release.rst:224
 msgid ""
@@ -393,15 +393,15 @@ msgstr ""
 
 #: ../../source/dev/release.rst:228
 msgid "Register with PyPI (``python setup.py register``)."
-msgstr ""
+msgstr "Register with PyPI (``python setup.py register``)."
 
 #: ../../source/dev/release.rst:230
 msgid "Set the download-url so eggs can access older releases."
-msgstr ""
+msgstr "Set the download-url so eggs can access older releases."
 
 #: ../../source/dev/release.rst:232
 msgid "**build wheels**::"
-msgstr ""
+msgstr "**build wheels**::"
 
 #: ../../source/dev/release.rst:237
 msgid ""
@@ -411,11 +411,11 @@ msgstr ""
 
 #: ../../source/dev/release.rst:240
 msgid "Upload the wheels to PyPI::"
-msgstr ""
+msgstr "Upload the wheels to PyPI::"
 
 #: ../../source/dev/release.rst:245
 msgid "**Lift the freeze**"
-msgstr ""
+msgstr "**Lift the freeze**"
 
 #: ../../source/dev/release.rst:247
 msgid ""
@@ -433,19 +433,19 @@ msgstr ""
 
 #: ../../source/dev/release.rst:255
 msgid "Update the web page (web/index.txt)."
-msgstr ""
+msgstr "Update the web page (web/index.txt)."
 
 #: ../../source/dev/release.rst:257
 msgid "Run docutils-update on the server."
-msgstr ""
+msgstr "Run docutils-update on the server."
 
 #: ../../source/dev/release.rst:259
 msgid "**Run alltests.py with svn version**"
-msgstr ""
+msgstr "**Run alltests.py with svn version**"
 
 #: ../../source/dev/release.rst:261
 msgid "**Send announcement email to:**"
-msgstr ""
+msgstr "**Send announcement email to:**"
 
 #: ../../source/dev/release.rst:263
 msgid ""
@@ -455,15 +455,15 @@ msgstr ""
 
 #: ../../source/dev/release.rst:265
 msgid "docutils-users@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-users@lists.sourceforge.net"
 
 #: ../../source/dev/release.rst:266
 msgid "doc-sig@python.org"
-msgstr ""
+msgstr "doc-sig@python.org"
 
 #: ../../source/dev/release.rst:267
 msgid "python-announce@python.org"
-msgstr ""
+msgstr "python-announce@python.org"
 
 #: ../../source/dev/release.rst:269
 msgid ""
@@ -473,5 +473,5 @@ msgstr ""
 
 #: ../../source/dev/release.rst:273
 msgid "**Mark as default download for all platforms.**"
-msgstr ""
+msgstr "**Mark as default download for all platforms.**"
 

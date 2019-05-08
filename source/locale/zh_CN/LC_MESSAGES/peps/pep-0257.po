@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:6
 msgid "Guido van Rossum <guido@python.org>"
-msgstr ""
+msgstr "Guido van Rossum <guido@python.org>"
 
 #: ../../source/peps/pep-0257.rst:7
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:16
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/peps/pep-0257.rst:18
 msgid ""
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:23
 msgid "Rationale"
-msgstr ""
+msgstr "Rationale"
 
 #: ../../source/peps/pep-0257.rst:25
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:41
 msgid "Tim Peters on comp.lang.python, 2001-06-16"
-msgstr ""
+msgstr "Tim Peters on comp.lang.python, 2001-06-16"
 
 #: ../../source/peps/pep-0257.rst:37
 msgid ""
@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:44
 msgid "Specification"
-msgstr ""
+msgstr "Specification"
 
 #: ../../source/peps/pep-0257.rst:47
 msgid "What is a Docstring?"
-msgstr ""
+msgstr "What is a Docstring?"
 
 #: ../../source/peps/pep-0257.rst:49
 msgid ""
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:75
 msgid "XXX Mention docstrings of 2.2 properties."
-msgstr ""
+msgstr "XXX Mention docstrings of 2.2 properties."
 
 #: ../../source/peps/pep-0257.rst:77
 msgid ""
@@ -143,11 +143,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:82
 msgid "There are two forms of docstrings: one-liners and multi-line docstrings."
-msgstr ""
+msgstr "There are two forms of docstrings: one-liners and multi-line docstrings."
 
 #: ../../source/peps/pep-0257.rst:87
 msgid "One-line Docstrings"
-msgstr ""
+msgstr "One-line Docstrings"
 
 #: ../../source/peps/pep-0257.rst:89
 msgid ""
@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:98
 msgid "Notes:"
-msgstr ""
+msgstr "Notes:"
 
 #: ../../source/peps/pep-0257.rst:100
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:106
 msgid "There's no blank line either before or after the docstring."
-msgstr ""
+msgstr "There's no blank line either before or after the docstring."
 
 #: ../../source/peps/pep-0257.rst:108
 msgid ""
@@ -200,11 +200,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:128
 msgid "(Of course \"Do X\" should be replaced by a useful description!)"
-msgstr ""
+msgstr "(Of course \"Do X\" should be replaced by a useful description!)"
 
 #: ../../source/peps/pep-0257.rst:132
 msgid "Multi-line Docstrings"
-msgstr ""
+msgstr "Multi-line Docstrings"
 
 #: ../../source/peps/pep-0257.rst:134
 msgid ""
@@ -301,7 +301,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:216
 msgid "Handling Docstring Indentation"
-msgstr ""
+msgstr "Handling Docstring Indentation"
 
 #: ../../source/peps/pep-0257.rst:218
 msgid ""
@@ -328,15 +328,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:262
 msgid "To illustrate::"
-msgstr ""
+msgstr "To illustrate::"
 
 #: ../../source/peps/pep-0257.rst:271
 msgid "Once trimmed, these docstrings are equivalent::"
-msgstr ""
+msgstr "Once trimmed, these docstrings are equivalent::"
 
 #: ../../source/peps/pep-0257.rst:286
 msgid "References and Footnotes"
-msgstr ""
+msgstr "References and Footnotes"
 
 #: ../../source/peps/pep-0257.rst:288
 msgid ""
@@ -352,19 +352,19 @@ msgstr ""
 
 #: ../../source/peps/pep-0257.rst:294
 msgid "Guido van Rossum, Python's creator and Benevolent Dictator For Life."
-msgstr ""
+msgstr "Guido van Rossum, Python's creator and Benevolent Dictator For Life."
 
 #: ../../source/peps/pep-0257.rst:306
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/peps/pep-0257.rst:308
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/peps/pep-0257.rst:312
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Acknowledgements"
 
 #: ../../source/peps/pep-0257.rst:314
 msgid ""

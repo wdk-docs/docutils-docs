@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:3
 msgid "The Docutils Publisher"
-msgstr ""
+msgstr "Docutils发布者"
 
 #: ../../source/api/publisher.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/api/publisher.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/api/publisher.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/api/publisher.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/api/publisher.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/api/publisher.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/api/publisher.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/api/publisher.rst:8
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/api/publisher.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/api/publisher.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/api/publisher.rst:12
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/api/publisher.rst:14
 msgid ""
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:30
 msgid "Publisher Convenience Functions"
-msgstr ""
+msgstr "Publisher Convenience Functions"
 
 #: ../../source/api/publisher.rst:32
 msgid ""
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_cmdline`"
-msgstr ""
+msgstr "_`publish_cmdline`"
 
 #: ../../source/api/publisher.rst:37
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_file`"
-msgstr ""
+msgstr "_`publish_file`"
 
 #: ../../source/api/publisher.rst:42
 msgid ""
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_string`"
-msgstr ""
+msgstr "_`publish_string`"
 
 #: ../../source/api/publisher.rst:46
 msgid ""
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_parts`"
-msgstr ""
+msgstr "_`publish_parts`"
 
 #: ../../source/api/publisher.rst:49
 msgid ""
@@ -143,11 +143,11 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:55
 msgid "There are usage examples in the `docutils/examples.py`_ module."
-msgstr ""
+msgstr "There are usage examples in the `docutils/examples.py`_ module."
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_doctree`"
-msgstr ""
+msgstr "_`publish_doctree`"
 
 #: ../../source/api/publisher.rst:57
 msgid ""
@@ -158,7 +158,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_from_doctree`"
-msgstr ""
+msgstr "_`publish_from_doctree`"
 
 #: ../../source/api/publisher.rst:62
 msgid ""
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst
 msgid "_`publish_programmatically`"
-msgstr ""
+msgstr "_`publish_programmatically`"
 
 #: ../../source/api/publisher.rst:66
 msgid ""
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:76
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #: ../../source/api/publisher.rst:78
 msgid ""
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:96
 msgid "Encodings"
-msgstr ""
+msgstr "Encodings"
 
 #: ../../source/api/publisher.rst:98
 msgid ""
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:110
 msgid "``publish_parts`` Details"
-msgstr ""
+msgstr "``publish_parts`` Details"
 
 #: ../../source/api/publisher.rst:112
 msgid ""
@@ -227,39 +227,39 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:121
 msgid "Parts Provided By All Writers"
-msgstr ""
+msgstr "Parts Provided By All Writers"
 
 #: ../../source/api/publisher.rst:124
 msgid "_`encoding`"
-msgstr ""
+msgstr "_`encoding`"
 
 #: ../../source/api/publisher.rst:124
 msgid "The output encoding setting."
-msgstr ""
+msgstr "The output encoding setting."
 
 #: ../../source/api/publisher.rst:127
 msgid "_`version`"
-msgstr ""
+msgstr "_`version`"
 
 #: ../../source/api/publisher.rst:127
 msgid "The version of Docutils used."
-msgstr ""
+msgstr "The version of Docutils used."
 
 #: ../../source/api/publisher.rst:131
 msgid "_`whole`"
-msgstr ""
+msgstr "_`whole`"
 
 #: ../../source/api/publisher.rst:130
 msgid "``parts['whole']`` contains the entire formatted document."
-msgstr ""
+msgstr "``parts['whole']`` contains the entire formatted document."
 
 #: ../../source/api/publisher.rst:136
 msgid "Parts Provided By the HTML Writer"
-msgstr ""
+msgstr "Parts Provided By the HTML Writer"
 
 #: ../../source/api/publisher.rst:140
 msgid "_`body`"
-msgstr ""
+msgstr "_`body`"
 
 #: ../../source/api/publisher.rst:139
 msgid ""
@@ -269,31 +269,31 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:153
 msgid "_`body_prefix`"
-msgstr ""
+msgstr "_`body_prefix`"
 
 #: ../../source/api/publisher.rst:143
 msgid "``parts['body_prefix']`` contains::"
-msgstr ""
+msgstr "``parts['body_prefix']`` contains::"
 
 #: ../../source/api/publisher.rst:149
 msgid "and, if applicable::"
-msgstr ""
+msgstr "and, if applicable::"
 
 #: ../../source/api/publisher.rst:159
 msgid "_`body_pre_docinfo`"
-msgstr ""
+msgstr "_`body_pre_docinfo`"
 
 #: ../../source/api/publisher.rst:156
 msgid "``parts['body_pre_docinfo]`` contains (as applicable)::"
-msgstr ""
+msgstr "``parts['body_pre_docinfo]`` contains (as applicable)::"
 
 #: ../../source/api/publisher.rst:176
 msgid "_`body_suffix`"
-msgstr ""
+msgstr "_`body_suffix`"
 
 #: ../../source/api/publisher.rst:162
 msgid "``parts['body_suffix']`` contains::"
-msgstr ""
+msgstr "``parts['body_suffix']`` contains::"
 
 #: ../../source/api/publisher.rst:166
 msgid ""
@@ -303,11 +303,11 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:173
 msgid "and::"
-msgstr ""
+msgstr "and::"
 
 #: ../../source/api/publisher.rst:180
 msgid "_`docinfo`"
-msgstr ""
+msgstr "_`docinfo`"
 
 #: ../../source/api/publisher.rst:179 ../../source/api/publisher.rst:299
 msgid ""
@@ -317,7 +317,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:185
 msgid "_`footer`"
-msgstr ""
+msgstr "_`footer`"
 
 #: ../../source/api/publisher.rst:183
 msgid ""
@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:190
 msgid "_`fragment`"
-msgstr ""
+msgstr "_`fragment`"
 
 #: ../../source/api/publisher.rst:188
 msgid ""
@@ -339,7 +339,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:194
 msgid "_`head`"
-msgstr ""
+msgstr "_`head`"
 
 #: ../../source/api/publisher.rst:193
 msgid ""
@@ -349,7 +349,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:199
 msgid "_`head_prefix`"
-msgstr ""
+msgstr "_`head_prefix`"
 
 #: ../../source/api/publisher.rst:197
 msgid ""
@@ -359,7 +359,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:204
 msgid "_`header`"
-msgstr ""
+msgstr "_`header`"
 
 #: ../../source/api/publisher.rst:202
 msgid ""
@@ -369,7 +369,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:208
 msgid "_`html_body`"
-msgstr ""
+msgstr "_`html_body`"
 
 #: ../../source/api/publisher.rst:207
 msgid ""
@@ -379,7 +379,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:219
 msgid "_`html_head`"
-msgstr ""
+msgstr "_`html_head`"
 
 #: ../../source/api/publisher.rst:211
 #, python-format
@@ -393,11 +393,11 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:219 ../../source/api/publisher.rst:228
 msgid "The interpolation should be done by client code."
-msgstr ""
+msgstr "The interpolation should be done by client code."
 
 #: ../../source/api/publisher.rst:228
 msgid "_`html_prolog`"
-msgstr ""
+msgstr "_`html_prolog`"
 
 #: ../../source/api/publisher.rst:222
 #, python-format
@@ -409,7 +409,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:233
 msgid "_`html_subtitle`"
-msgstr ""
+msgstr "_`html_subtitle`"
 
 #: ../../source/api/publisher.rst:231
 msgid ""
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:237
 msgid "_`html_title`"
-msgstr ""
+msgstr "_`html_title`"
 
 #: ../../source/api/publisher.rst:236
 msgid ""
@@ -429,15 +429,15 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:240
 msgid "_`meta`"
-msgstr ""
+msgstr "_`meta`"
 
 #: ../../source/api/publisher.rst:240
 msgid "``parts['meta']`` contains all ``<meta ... />`` tags."
-msgstr ""
+msgstr "``parts['meta']`` contains all ``<meta ... />`` tags."
 
 #: ../../source/api/publisher.rst:244
 msgid "_`stylesheet`"
-msgstr ""
+msgstr "_`stylesheet`"
 
 #: ../../source/api/publisher.rst:243
 msgid ""
@@ -447,7 +447,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:249
 msgid "_`subtitle`"
-msgstr ""
+msgstr "_`subtitle`"
 
 #: ../../source/api/publisher.rst:247
 msgid ""
@@ -457,7 +457,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:255
 msgid "_`title`"
-msgstr ""
+msgstr "_`title`"
 
 #: ../../source/api/publisher.rst:252
 msgid ""
@@ -467,7 +467,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:258
 msgid "Parts Provided by the PEP/HTML Writer"
-msgstr ""
+msgstr "Parts Provided by the PEP/HTML Writer"
 
 #: ../../source/api/publisher.rst:260
 msgid ""
@@ -477,23 +477,23 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:265
 msgid "_`pepnum`"
-msgstr ""
+msgstr "_`pepnum`"
 
 #: ../../source/api/publisher.rst:264
 msgid "``parts['pepnum']`` contains"
-msgstr ""
+msgstr "``parts['pepnum']`` contains"
 
 #: ../../source/api/publisher.rst:268
 msgid "Parts Provided by the S5/HTML Writer"
-msgstr ""
+msgstr "Parts Provided by the S5/HTML Writer"
 
 #: ../../source/api/publisher.rst:270
 msgid "The S5/HTML writer provides the same parts as the `HTML writer`_."
-msgstr ""
+msgstr "The S5/HTML writer provides the same parts as the `HTML writer`_."
 
 #: ../../source/api/publisher.rst:274
 msgid "Parts Provided by the LaTeX2e Writer"
-msgstr ""
+msgstr "Parts Provided by the LaTeX2e Writer"
 
 #: ../../source/api/publisher.rst:276
 msgid ""
@@ -503,7 +503,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:281
 msgid "abstract"
-msgstr ""
+msgstr "abstract"
 
 #: ../../source/api/publisher.rst:280
 msgid ""
@@ -513,7 +513,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:289
 msgid "body"
-msgstr ""
+msgstr "body"
 
 #: ../../source/api/publisher.rst:284
 msgid ""
@@ -530,15 +530,15 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:292
 msgid "body_pre_docinfo"
-msgstr ""
+msgstr "body_pre_docinfo"
 
 #: ../../source/api/publisher.rst:292
 msgid "``parts['body_pre_docinfo]`` contains the ``\\maketitle`` command."
-msgstr ""
+msgstr "``parts['body_pre_docinfo]`` contains the ``\\maketitle`` command."
 
 #: ../../source/api/publisher.rst:296
 msgid "dedication"
-msgstr ""
+msgstr "dedication"
 
 #: ../../source/api/publisher.rst:295
 msgid ""
@@ -548,7 +548,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:305
 msgid "docinfo"
-msgstr ""
+msgstr "docinfo"
 
 #: ../../source/api/publisher.rst:302
 msgid ""
@@ -558,11 +558,11 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:305
 msgid "'dedication' and 'abstract' are always moved to separate parts."
-msgstr ""
+msgstr "'dedication' and 'abstract' are always moved to separate parts."
 
 #: ../../source/api/publisher.rst:309
 msgid "fallbacks"
-msgstr ""
+msgstr "fallbacks"
 
 #: ../../source/api/publisher.rst:308
 msgid ""
@@ -572,7 +572,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:313
 msgid "head_prefix"
-msgstr ""
+msgstr "head_prefix"
 
 #: ../../source/api/publisher.rst:312
 msgid ""
@@ -582,7 +582,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:317
 msgid "latex_preamble"
-msgstr ""
+msgstr "latex_preamble"
 
 #: ../../source/api/publisher.rst:316
 msgid ""
@@ -592,7 +592,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:321
 msgid "pdfsetup"
-msgstr ""
+msgstr "pdfsetup"
 
 #: ../../source/api/publisher.rst:320
 msgid ""
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:325
 msgid "requirements"
-msgstr ""
+msgstr "requirements"
 
 #: ../../source/api/publisher.rst:324
 msgid ""
@@ -612,7 +612,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:329
 msgid "stylesheet"
-msgstr ""
+msgstr "stylesheet"
 
 #: ../../source/api/publisher.rst:328
 msgid ""
@@ -622,7 +622,7 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:333
 msgid "subtitle"
-msgstr ""
+msgstr "subtitle"
 
 #: ../../source/api/publisher.rst:332
 msgid ""
@@ -632,15 +632,15 @@ msgstr ""
 
 #: ../../source/api/publisher.rst:337
 msgid "title"
-msgstr ""
+msgstr "title"
 
 #: ../../source/api/publisher.rst:336
 msgid "``parts['title']`` contains the document title text and any inline markup."
-msgstr ""
+msgstr "``parts['title']`` contains the document title text and any inline markup."
 
 #: ../../source/api/publisher.rst:343
 msgid "titledata"
-msgstr ""
+msgstr "titledata"
 
 #: ../../source/api/publisher.rst:340
 msgid ""

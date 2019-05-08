@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:3
 msgid "The Docutils_ Subversion Repository"
-msgstr ""
+msgstr "The Docutils_ Subversion存储库"
 
 #: ../../source/dev/repository.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/repository.rst:5
 msgid "Lea Wiemann"
-msgstr ""
+msgstr "Lea Wiemann"
 
 #: ../../source/dev/repository.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/repository.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/repository.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/repository.rst:7
 msgid "$Revision: 7800 $"
-msgstr ""
+msgstr "$Revision: 7800 $"
 
 #: ../../source/dev/repository.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/repository.rst:8
 msgid "$Date: 2015-02-24 14:01:43 +0100 (Di, 24. Feb 2015) $"
-msgstr ""
+msgstr "$Date: 2015-02-24 14:01:43 +0100 (Di, 24. Feb 2015) $"
 
 #: ../../source/dev/repository.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/repository.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/repository.rst:13
 msgid "Quick Instructions"
-msgstr ""
+msgstr "Quick Instructions"
 
 #: ../../source/dev/repository.rst:15
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:26
 msgid "As of 2013-03-13 the subversion urls have changed."
-msgstr ""
+msgstr "As of 2013-03-13 the subversion urls have changed."
 
 #: ../../source/dev/repository.rst:28
 msgid ""
@@ -112,19 +112,19 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:52
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/repository.rst:55
 msgid "Accessing the Repository"
-msgstr ""
+msgstr "Accessing the Repository"
 
 #: ../../source/dev/repository.rst:58
 msgid "General Information"
-msgstr ""
+msgstr "General Information"
 
 #: ../../source/dev/repository.rst:61
 msgid "Web Access"
-msgstr ""
+msgstr "Web Access"
 
 #: ../../source/dev/repository.rst:63
 msgid ""
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:71
 msgid "Repository Access Methods"
-msgstr ""
+msgstr "Repository Access Methods"
 
 #: ../../source/dev/repository.rst:73
 msgid ""
@@ -150,27 +150,27 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:77
 msgid "anonymous access: (read only)"
-msgstr ""
+msgstr "anonymous access: (read only)"
 
 #: ../../source/dev/repository.rst:77
 msgid "``http://svn.code.sf.net/p/docutils/code``"
-msgstr ""
+msgstr "``http://svn.code.sf.net/p/docutils/code``"
 
 #: ../../source/dev/repository.rst:80
 msgid "`developer access`_: (read and write)"
-msgstr ""
+msgstr "`developer access`_: (read and write)"
 
 #: ../../source/dev/repository.rst:80
 msgid "``svn+ssh://<USERNAME>@svn.code.sf.net/p/docutils/code``"
-msgstr ""
+msgstr "``svn+ssh://<USERNAME>@svn.code.sf.net/p/docutils/code``"
 
 #: ../../source/dev/repository.rst:86
 msgid "Checking Out the Repository"
-msgstr ""
+msgstr "Checking Out the Repository"
 
 #: ../../source/dev/repository.rst:88
 msgid "To check out only the current main source tree of Docutils, type ::"
-msgstr ""
+msgstr "To check out only the current main source tree of Docutils, type ::"
 
 #: ../../source/dev/repository.rst:92
 msgid ""
@@ -200,19 +200,19 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:111
 msgid "Creating a local git clone"
-msgstr ""
+msgstr "Creating a local git clone"
 
 #: ../../source/dev/repository.rst:113
 msgid "Users of git_ can clone a mirror of the docutils repository with ::"
-msgstr ""
+msgstr "Users of git_ can clone a mirror of the docutils repository with ::"
 
 #: ../../source/dev/repository.rst:117
 msgid "and proceed according to the `git documentation`_."
-msgstr ""
+msgstr "and proceed according to the `git documentation`_."
 
 #: ../../source/dev/repository.rst:122
 msgid "Switching the Repository Root"
-msgstr ""
+msgstr "Switching the Repository Root"
 
 #: ../../source/dev/repository.rst:124
 msgid ""
@@ -222,7 +222,7 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:132
 msgid "Information for Developers"
-msgstr ""
+msgstr "Information for Developers"
 
 #: ../../source/dev/repository.rst:134
 msgid ""
@@ -234,11 +234,11 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:140
 msgid "Sourceforge subversion access is documented `here`__"
-msgstr ""
+msgstr "Sourceforge subversion access is documented `here`__"
 
 #: ../../source/dev/repository.rst:146
 msgid "Setting Up Your Subversion Client For Development"
-msgstr ""
+msgstr "Setting Up Your Subversion Client For Development"
 
 #: ../../source/dev/repository.rst:148
 msgid ""
@@ -250,11 +250,11 @@ msgstr ""
 
 #: ../../source/dev/repository.rst:174
 msgid "Repository Layout"
-msgstr ""
+msgstr "Repository Layout"
 
 #: ../../source/dev/repository.rst:176
 msgid "The following tree shows the repository layout::"
-msgstr ""
+msgstr "The following tree shows the repository layout::"
 
 #: ../../source/dev/repository.rst:202
 msgid ""

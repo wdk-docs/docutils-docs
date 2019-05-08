@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/api/index.rst:2
 msgid "API Documentation"
-msgstr ""
+msgstr "API文档"
 
 #~ msgid "Developer Documentation"
 #~ msgstr ""

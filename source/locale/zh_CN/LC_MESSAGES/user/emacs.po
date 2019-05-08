@@ -20,27 +20,27 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:5
 msgid "Emacs Support for reStructuredText"
-msgstr ""
+msgstr "Emacs支持reStructuredText"
 
 #: ../../source/user/emacs.rst
 msgid "Authors"
-msgstr ""
+msgstr "Authors"
 
 #: ../../source/user/emacs.rst:7
 msgid "Stefan Merten <stefan@merten-home.de>, Martin Blais <blais@furius.ca>"
-msgstr ""
+msgstr "Stefan Merten <stefan@merten-home.de>, Martin Blais <blais@furius.ca>"
 
 #: ../../source/user/emacs.rst
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: ../../source/user/emacs.rst:9
 msgid "``rst.el`` V1.4.1"
-msgstr ""
+msgstr "``rst.el`` V1.4.1"
 
 #: ../../source/user/emacs.rst
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/user/emacs.rst:12
 msgid ""
@@ -51,11 +51,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:16
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/emacs.rst:19
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/user/emacs.rst:21
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:29
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: ../../source/user/emacs.rst:31
 msgid ""
@@ -97,15 +97,15 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:47
 msgid "Checking situation"
-msgstr ""
+msgstr "Checking situation"
 
 #: ../../source/user/emacs.rst:49
 msgid "Here are some steps to check your situation:"
-msgstr ""
+msgstr "Here are some steps to check your situation:"
 
 #: ../../source/user/emacs.rst:51
 msgid "In Emacs_ switch to an empty buffer and try ::"
-msgstr ""
+msgstr "In Emacs_ switch to an empty buffer and try ::"
 
 #: ../../source/user/emacs.rst:55
 msgid ""
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:60
 msgid "In the buffer you just switched to ``rst-mode`` try ::"
-msgstr ""
+msgstr "In the buffer you just switched to ``rst-mode`` try ::"
 
 #: ../../source/user/emacs.rst:64
 msgid ""
@@ -129,15 +129,15 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:69
 msgid "You may also try ::"
-msgstr ""
+msgstr "You may also try ::"
 
 #: ../../source/user/emacs.rst:73
 msgid "to find out your Emacs_ version."
-msgstr ""
+msgstr "to find out your Emacs_ version."
 
 #: ../../source/user/emacs.rst:75
 msgid "Check the version of ``rst.el``"
-msgstr ""
+msgstr "Check the version of ``rst.el``"
 
 #: ../../source/user/emacs.rst:77
 msgid ""
@@ -149,15 +149,15 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:85
 msgid "Local installation"
-msgstr ""
+msgstr "Local installation"
 
 #: ../../source/user/emacs.rst:87
 msgid "If you decided to install locally please follow these steps."
-msgstr ""
+msgstr "If you decided to install locally please follow these steps."
 
 #: ../../source/user/emacs.rst:89
 msgid "Download ``rst.el``"
-msgstr ""
+msgstr "Download ``rst.el``"
 
 #: ../../source/user/emacs.rst:91
 msgid ""
@@ -167,11 +167,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:94
 msgid "Put ``rst.el`` to a directory in ``load-path``"
-msgstr ""
+msgstr "Put ``rst.el`` to a directory in ``load-path``"
 
 #: ../../source/user/emacs.rst:96
 msgid "Use ::"
-msgstr ""
+msgstr "Use ::"
 
 #: ../../source/user/emacs.rst:100
 msgid ""
@@ -194,19 +194,19 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:115
 msgid "Enable ``rst-mode``"
-msgstr ""
+msgstr "Enable ``rst-mode``"
 
 #: ../../source/user/emacs.rst:117
 msgid "Add the following to your Emacs_ initialization setup ::"
-msgstr ""
+msgstr "Add the following to your Emacs_ initialization setup ::"
 
 #: ../../source/user/emacs.rst:121
 msgid "After you restarted Emacs_ ``rst.el`` is loaded and ready to be used."
-msgstr ""
+msgstr "After you restarted Emacs_ ``rst.el`` is loaded and ready to be used."
 
 #: ../../source/user/emacs.rst:125
 msgid "Switching ``rst-mode`` on"
-msgstr ""
+msgstr "Switching ``rst-mode`` on"
 
 #: ../../source/user/emacs.rst:127
 msgid ""
@@ -237,11 +237,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:151
 msgid "Or this at the end of your documents::"
-msgstr ""
+msgstr "Or this at the end of your documents::"
 
 #: ../../source/user/emacs.rst:159
 msgid "Key bindings"
-msgstr ""
+msgstr "Key bindings"
 
 #: ../../source/user/emacs.rst:161
 msgid ""
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:172
 msgid "C-c C-a"
-msgstr ""
+msgstr "C-c C-a"
 
 #: ../../source/user/emacs.rst:171
 msgid ""
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:176
 msgid "C-c C-c"
-msgstr ""
+msgstr "C-c C-c"
 
 #: ../../source/user/emacs.rst:175
 msgid ""
@@ -279,27 +279,27 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:179
 msgid "C-c C-l"
-msgstr ""
+msgstr "C-c C-l"
 
 #: ../../source/user/emacs.rst:179
 msgid "Commands to work with lists of various kinds."
-msgstr ""
+msgstr "Commands to work with lists of various kinds."
 
 #: ../../source/user/emacs.rst:182
 msgid "C-c C-r"
-msgstr ""
+msgstr "C-c C-r"
 
 #: ../../source/user/emacs.rst:182
 msgid "Commands to manipulate the current region."
-msgstr ""
+msgstr "Commands to manipulate the current region."
 
 #: ../../source/user/emacs.rst:185
 msgid "C-c C-t"
-msgstr ""
+msgstr "C-c C-t"
 
 #: ../../source/user/emacs.rst:185
 msgid "Commands to create and manipulate a table of contents."
-msgstr ""
+msgstr "Commands to create and manipulate a table of contents."
 
 #: ../../source/user/emacs.rst:187
 msgid ""
@@ -318,7 +318,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:196
 msgid "In ``rst-mode`` try ::"
-msgstr ""
+msgstr "In ``rst-mode`` try ::"
 
 #: ../../source/user/emacs.rst:200
 msgid ""
@@ -337,7 +337,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:211
 msgid "Section Adornments"
-msgstr ""
+msgstr "Section Adornments"
 
 #: ../../source/user/emacs.rst:213
 msgid ""
@@ -350,7 +350,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:220
 msgid "Adjusting a Section Title"
-msgstr ""
+msgstr "Adjusting a Section Title"
 
 #: ../../source/user/emacs.rst:222
 msgid ""
@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:227
 msgid "If there is an incomplete adornment, e.g. ::"
-msgstr ""
+msgstr "If there is an incomplete adornment, e.g. ::"
 
 #: ../../source/user/emacs.rst:232
 msgid ""
@@ -404,7 +404,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:257
 msgid "Promoting and Demoting Many Sections"
-msgstr ""
+msgstr "Promoting and Demoting Many Sections"
 
 #: ../../source/user/emacs.rst:259
 msgid ""
@@ -417,7 +417,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:266
 msgid "Redoing All the Adornments to Your Taste"
-msgstr ""
+msgstr "Redoing All the Adornments to Your Taste"
 
 #: ../../source/user/emacs.rst:268
 msgid ""
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:276
 msgid "Customizations for Adornments"
-msgstr ""
+msgstr "Customizations for Adornments"
 
 #: ../../source/user/emacs.rst:278
 msgid ""
@@ -447,7 +447,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:292
 msgid "This will become the default in a later version of ``rst.el``."
-msgstr ""
+msgstr "This will become the default in a later version of ``rst.el``."
 
 #: ../../source/user/emacs.rst:294
 msgid ""
@@ -457,7 +457,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:298
 msgid "Viewing the Hierarchy of Section Adornments"
-msgstr ""
+msgstr "Viewing the Hierarchy of Section Adornments"
 
 #: ../../source/user/emacs.rst:300
 msgid ""
@@ -471,11 +471,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:308
 msgid "Movement and Selection"
-msgstr ""
+msgstr "Movement and Selection"
 
 #: ../../source/user/emacs.rst:311
 msgid "Movement and Selection for Sections"
-msgstr ""
+msgstr "Movement and Selection for Sections"
 
 #: ../../source/user/emacs.rst:313
 msgid ""
@@ -487,11 +487,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:318
 msgid "The key bindings are modeled after other modes with similar functionality."
-msgstr ""
+msgstr "The key bindings are modeled after other modes with similar functionality."
 
 #: ../../source/user/emacs.rst:322
 msgid "Movements and Selection for Text Blocks"
-msgstr ""
+msgstr "Movements and Selection for Text Blocks"
 
 #: ../../source/user/emacs.rst:324
 msgid ""
@@ -503,7 +503,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:330
 msgid "Indenting and Filling"
-msgstr ""
+msgstr "Indenting and Filling"
 
 #: ../../source/user/emacs.rst:332
 msgid ""
@@ -516,7 +516,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:339
 msgid "Indenting Text Blocks"
-msgstr ""
+msgstr "Indenting Text Blocks"
 
 #: ../../source/user/emacs.rst:341
 msgid ""
@@ -543,7 +543,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:356
 msgid "Indenting Lines While Typing"
-msgstr ""
+msgstr "Indenting Lines While Typing"
 
 #: ../../source/user/emacs.rst:358
 msgid ""
@@ -562,7 +562,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:371
 msgid "Type ``C-j`` twice to get this::"
-msgstr ""
+msgstr "Type ``C-j`` twice to get this::"
 
 #: ../../source/user/emacs.rst:379
 msgid ""
@@ -572,7 +572,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:389
 msgid "Typing another ``TAB`` gets you to the first level::"
-msgstr ""
+msgstr "Typing another ``TAB`` gets you to the first level::"
 
 #: ../../source/user/emacs.rst:397
 msgid ""
@@ -590,11 +590,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:408
 msgid "You may also install V1.4.1 or newer locally_."
-msgstr ""
+msgstr "You may also install V1.4.1 or newer locally_."
 
 #: ../../source/user/emacs.rst:411
 msgid "Filling"
-msgstr ""
+msgstr "Filling"
 
 #: ../../source/user/emacs.rst:413
 msgid ""
@@ -605,7 +605,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:418
 msgid "Operating on Lists"
-msgstr ""
+msgstr "Operating on Lists"
 
 #: ../../source/user/emacs.rst:420
 msgid ""
@@ -623,7 +623,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:429
 msgid "Bulleted and Enumerated Lists"
-msgstr ""
+msgstr "Bulleted and Enumerated Lists"
 
 #: ../../source/user/emacs.rst:431
 msgid ""
@@ -634,7 +634,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:441 ../../source/user/emacs.rst:532
 msgid "becomes ::"
-msgstr ""
+msgstr "becomes ::"
 
 #: ../../source/user/emacs.rst:449
 msgid ""
@@ -651,7 +651,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:472
 msgid "Will result in::"
-msgstr ""
+msgstr "Will result in::"
 
 #: ../../source/user/emacs.rst:484
 msgid ""
@@ -661,11 +661,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:491 ../../source/user/emacs.rst:551
 msgid "becomes::"
-msgstr ""
+msgstr "becomes::"
 
 #: ../../source/user/emacs.rst:498
 msgid "Straightening Existing Bullet List Hierarchies"
-msgstr ""
+msgstr "Straightening Existing Bullet List Hierarchies"
 
 #: ../../source/user/emacs.rst:500
 msgid ""
@@ -679,7 +679,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:508
 msgid "Inserting a List Item"
-msgstr ""
+msgstr "Inserting a List Item"
 
 #: ../../source/user/emacs.rst:510
 msgid ""
@@ -696,11 +696,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:519
 msgid "Operating on Other Text Blocks"
-msgstr ""
+msgstr "Operating on Other Text Blocks"
 
 #: ../../source/user/emacs.rst:522
 msgid "Creating and Removing Line Blocks"
-msgstr ""
+msgstr "Creating and Removing Line Blocks"
 
 #: ../../source/user/emacs.rst:524
 msgid ""
@@ -716,7 +716,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:542
 msgid "Commenting a Region of Text"
-msgstr ""
+msgstr "Commenting a Region of Text"
 
 #: ../../source/user/emacs.rst:544
 msgid ""
@@ -738,7 +738,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:567
 msgid "Converting Documents from Emacs"
-msgstr ""
+msgstr "Converting Documents from Emacs"
 
 #: ../../source/user/emacs.rst:569
 msgid ""
@@ -766,11 +766,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:584
 msgid "Other commands are available for other formats:"
-msgstr ""
+msgstr "Other commands are available for other formats:"
 
 #: ../../source/user/emacs.rst:586
 msgid "``rst-compile-pseudo-region`` (``C-c C-c C-x``)"
-msgstr ""
+msgstr "``rst-compile-pseudo-region`` (``C-c C-c C-x``)"
 
 #: ../../source/user/emacs.rst:588
 msgid ""
@@ -782,11 +782,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:593
 msgid "``rst-compile-pdf-preview`` (``C-c C-c C-p``)"
-msgstr ""
+msgstr "``rst-compile-pdf-preview`` (``C-c C-c C-p``)"
 
 #: ../../source/user/emacs.rst:595
 msgid "Convert the current document to PDF and launch a viewer on the results."
-msgstr ""
+msgstr "Convert the current document to PDF and launch a viewer on the results."
 
 #: ../../source/user/emacs.rst:598
 msgid ""
@@ -796,11 +796,11 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:602
 msgid "Imenu Support"
-msgstr ""
+msgstr "Imenu Support"
 
 #: ../../source/user/emacs.rst:605
 msgid "Using Imenu"
-msgstr ""
+msgstr "Using Imenu"
 
 #: ../../source/user/emacs.rst:607
 msgid ""
@@ -814,7 +814,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:615
 msgid "Using which function"
-msgstr ""
+msgstr "Using which function"
 
 #: ../../source/user/emacs.rst:617
 msgid ""
@@ -827,7 +827,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:624
 msgid "Using the Table of Contents"
-msgstr ""
+msgstr "Using the Table of Contents"
 
 #: ../../source/user/emacs.rst:626
 msgid ""
@@ -838,7 +838,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:632
 msgid "Navigating Using the Table of Contents"
-msgstr ""
+msgstr "Navigating Using the Table of Contents"
 
 #: ../../source/user/emacs.rst:634
 msgid ""
@@ -869,7 +869,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:670
 msgid "Inserting a Table of Contents"
-msgstr ""
+msgstr "Inserting a Table of Contents"
 
 #: ../../source/user/emacs.rst:672
 msgid ""
@@ -915,7 +915,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:718
 msgid "Maintaining the Table of Contents Up-to-date"
-msgstr ""
+msgstr "Maintaining the Table of Contents Up-to-date"
 
 #: ../../source/user/emacs.rst:720
 msgid ""
@@ -927,7 +927,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:726
 msgid "Syntax Highlighting via Font-Lock"
-msgstr ""
+msgstr "Syntax Highlighting via Font-Lock"
 
 #: ../../source/user/emacs.rst:728
 msgid ""
@@ -943,7 +943,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:735
 msgid "Customization"
-msgstr ""
+msgstr "Customization"
 
 #: ../../source/user/emacs.rst:737
 msgid ""
@@ -960,7 +960,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:747
 msgid "Customizing Section Title Formatting"
-msgstr ""
+msgstr "Customizing Section Title Formatting"
 
 #: ../../source/user/emacs.rst:749
 msgid ""
@@ -991,7 +991,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:769
 msgid "Customizing Indentation"
-msgstr ""
+msgstr "Customizing Indentation"
 
 #: ../../source/user/emacs.rst:771
 msgid ""
@@ -1034,7 +1034,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:797
 msgid "Customizing Faces"
-msgstr ""
+msgstr "Customizing Faces"
 
 #: ../../source/user/emacs.rst:799
 msgid ""
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:815
 msgid "Customizing Conversion"
-msgstr ""
+msgstr "Customizing Conversion"
 
 #: ../../source/user/emacs.rst:817
 msgid ""
@@ -1096,7 +1096,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:841
 msgid "Other Customizations"
-msgstr ""
+msgstr "Other Customizations"
 
 #: ../../source/user/emacs.rst:843
 msgid ""
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:850
 msgid "Related aspects"
-msgstr ""
+msgstr "Related aspects"
 
 #: ../../source/user/emacs.rst:852
 msgid ""
@@ -1123,7 +1123,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:857
 msgid "``text-mode`` Settings"
-msgstr ""
+msgstr "``text-mode`` Settings"
 
 #: ../../source/user/emacs.rst:859
 msgid ""
@@ -1134,27 +1134,27 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:863
 msgid "``indent-tabs-mode``"
-msgstr ""
+msgstr "``indent-tabs-mode``"
 
 #: ../../source/user/emacs.rst:864
 msgid "``colon-double-space``"
-msgstr ""
+msgstr "``colon-double-space``"
 
 #: ../../source/user/emacs.rst:865
 msgid "``sentence-end-double-space``"
-msgstr ""
+msgstr "``sentence-end-double-space``"
 
 #: ../../source/user/emacs.rst:866
 msgid "``auto-fill-mode``"
-msgstr ""
+msgstr "``auto-fill-mode``"
 
 #: ../../source/user/emacs.rst:867
 msgid "``auto-mode-alist``"
-msgstr ""
+msgstr "``auto-mode-alist``"
 
 #: ../../source/user/emacs.rst:870
 msgid "Editing Tables: Emacs table mode"
-msgstr ""
+msgstr "Editing Tables: Emacs table mode"
 
 #: ../../source/user/emacs.rst:872
 msgid ""
@@ -1164,7 +1164,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:879
 msgid "Character Processing"
-msgstr ""
+msgstr "Character Processing"
 
 #: ../../source/user/emacs.rst:881
 msgid ""
@@ -1199,7 +1199,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:899
 msgid "Next, use one of these lines::"
-msgstr ""
+msgstr "Next, use one of these lines::"
 
 #: ../../source/user/emacs.rst:904
 msgid ""
@@ -1222,7 +1222,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:920
 msgid "Next, use that fontset::"
-msgstr ""
+msgstr "Next, use that fontset::"
 
 #: ../../source/user/emacs.rst:924
 msgid ""
@@ -1238,7 +1238,7 @@ msgstr ""
 
 #: ../../source/user/emacs.rst:933
 msgid "Credits"
-msgstr ""
+msgstr "Credits"
 
 #: ../../source/user/emacs.rst:935
 msgid ""

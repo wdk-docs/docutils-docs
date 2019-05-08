@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../source/user/rst/config.rst:2
 msgid "config"
-msgstr ""
+msgstr "配置"
 

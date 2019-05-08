@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Docutils 的标记语法和解析器组件 &mdash; docutils-docs v2019.04.12 文档</title>
+  <title>标记语法和解析器组件 &mdash; docutils-docs v2019.04.12 文档</title>
   
 
   
@@ -83,10 +83,11 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="index.html">Docutils 项目文档概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">项目文档概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overviews.html">文档实用程序</a></li>
 <li class="toctree-l1"><a class="reference internal" href="release/index.html">版本发布</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc.html">文档实用程序</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Docutils 的标记语法和解析器组件</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">标记语法和解析器组件</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#user-documentation">用户文档</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#reference-documentation">参考文档</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#developer-documentation">开发者文档</a><ul>
@@ -101,7 +102,7 @@
 <li class="toctree-l1"><a class="reference internal" href="ref/index.html">参考文档</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dev/index.html">Developer Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="howto/index.html">基本知识</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api/index.html">API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/index.html">API文档</a></li>
 </ul>
 
             
@@ -147,7 +148,7 @@
     
       <li><a href="contents.html">Docs</a> &raquo;</li>
         
-      <li>Docutils 的标记语法和解析器组件</li>
+      <li>标记语法和解析器组件</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -167,99 +168,99 @@
            <div itemprop="articleBody">
             
   <div class="section" id="markup-syntax-and-parser-component-of-docutils">
-<h1><a class="reference internal" href="#docutils">Docutils</a> 的标记语法和解析器组件<a class="headerlink" href="#markup-syntax-and-parser-component-of-docutils" title="永久链接至标题">¶</a></h1>
+<h1><a class="toc-backref" href="#id25">标记语法和解析器组件</a><a class="headerlink" href="#markup-syntax-and-parser-component-of-docutils" title="永久链接至标题">¶</a></h1>
 <p><img alt="reStructuredText" src="_images/rst.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">注解</p>
-<p>“reStructuredText” 是**一个**字，<em>不</em> 是两个！</p>
+<p>“reStructuredText” 是 <strong>一个</strong> 字，<em>不</em> 是两个！</p>
 </div>
 <div class="contents topic" id="id1">
 <p class="topic-title first">目录</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#markup-syntax-and-parser-component-of-docutils" id="id44">Docutils 的标记语法和解析器组件</a></p>
+<li><p><a class="reference internal" href="#markup-syntax-and-parser-component-of-docutils" id="id25">标记语法和解析器组件</a></p>
 <ul>
-<li><p><a class="reference internal" href="#user-documentation" id="id45">用户文档</a></p></li>
-<li><p><a class="reference internal" href="#reference-documentation" id="id46">参考文档</a></p></li>
-<li><p><a class="reference internal" href="#developer-documentation" id="id47">开发者文档</a></p>
+<li><p><a class="reference internal" href="#user-documentation" id="id26">用户文档</a></p></li>
+<li><p><a class="reference internal" href="#reference-documentation" id="id27">参考文档</a></p></li>
+<li><p><a class="reference internal" href="#developer-documentation" id="id28">开发者文档</a></p>
 <ul>
-<li><p><a class="reference internal" href="#how-to-s" id="id48">基本知识</a></p></li>
+<li><p><a class="reference internal" href="#how-to-s" id="id29">基本知识</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#try-it-online" id="id49">在线尝试</a></p></li>
-<li><p><a class="reference internal" href="#testimonials" id="id50">褒奖</a></p></li>
+<li><p><a class="reference internal" href="#try-it-online" id="id30">在线尝试</a></p></li>
+<li><p><a class="reference internal" href="#testimonials" id="id31">褒奖</a></p></li>
 </ul>
 </li>
 </ul>
 </div>
-<p>reStructuredText是一个易于阅读，你所看到的纯文本标记语法和解析器系统。它对于内联程序文档（例如Python文档字符串），快速创建简单的Web页面以及独立文档非常有用。 reStructuredText旨在用于特定应用程序域的可扩展性。 reStructuredText解析器是Docutils_的一个组件。 reStructuredText是对StructuredText_和Setext_轻量级标记系统的修订和重新解释。</p>
+<p>reStructuredText是一个易于阅读，你所看到的纯文本标记语法和解析器系统。它对于内联程序文档(例如Python文档字符串)，快速创建简单的Web页面以及独立文档非常有用。 reStructuredText旨在用于特定应用程序域的可扩展性。 reStructuredText解析器是 <a class="reference external" href="index.html">Docutils</a> 的一个组件。 reStructuredText是对 <a class="reference external" href="http://dev.zope.org/Members/jim/StructuredTextWiki/FrontPage/">StructuredText</a> 和 <a class="reference external" href="mirror/setext.html">Setext</a> 轻量级标记系统的修订和重新解释。</p>
 <p>reStructuredText的主要目标是定义和实现在Python文档字符串和其他文档域中使用的标记语法，该语法可读且简单，但功能强大，非常重要。标记的预期目的是将reStructuredText文档转换为有用的结构化数据格式。</p>
 <p>有关使用reStructuredText完整记录的Python模块的示例，<a class="reference external" href="docutils/statemachine.py">请参阅statemachine.py</a>。</p>
 <div class="section" id="user-documentation">
-<h2><a class="toc-backref" href="#id45">用户文档</a><a class="headerlink" href="#user-documentation" title="永久链接至标题">¶</a></h2>
+<h2><a class="toc-backref" href="#id26">用户文档</a><a class="headerlink" href="#user-documentation" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
-<li><p><a href="#id25"><span class="problematic" id="id26">`ReStructuredText Primer`__（HTML文件，或`text source`__</span></a>）。</p></li>
-<li><p><a href="#id25"><span class="problematic" id="id27">`快速reStructuredText`__</span></a> (用户参考)</p></li>
-<li><p><a href="#id1"><span class="problematic" id="id2">`</span></a>reStructuredText Cheat Sheet`__（仅限文本; 1页用于语法，1页指令和角色参考）</p></li>
+<li><p><a class="reference external" href="user/quickstart.html">A ReStructuredText Primer</a> (HTML文件，或 <a class="reference external" href="user/quickstart.txt">text source</a>)。</p></li>
+<li><p><a class="reference external" href="user/quickref.html">Quick reStructuredText</a> (用户参考)</p></li>
+<li><p><a class="reference external" href="user/cheatsheet.txt">reStructuredText Cheat Sheet</a> (仅限文本; 1页用于语法，1页指令和角色参考)</p></li>
 </ul>
-<p>对Docutils或reStructuredText有疑问或需要帮助的用户应向Docutils-users_邮件列表发送消息。</p>
+<p>对Docutils或reStructuredText有疑问或需要帮助的用户应向 <a class="reference external" href="user/mailing-lists.html#docutils-users">Docutils-users</a> 邮件列表发送消息。</p>
 </div>
 <div class="section" id="reference-documentation">
-<h2><a class="toc-backref" href="#id46">参考文档</a><a class="headerlink" href="#reference-documentation" title="永久链接至标题">¶</a></h2>
+<h2><a class="toc-backref" href="#id27">参考文档</a><a class="headerlink" href="#reference-documentation" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
-<li><p><a href="#id1"><span class="problematic" id="id2">`</span></a>reStructuredText`__简介（包括reStructuredText的Goals__和History__）</p></li>
-<li><p><a href="#id25"><span class="problematic" id="id28">`reStructuredText 标记规范`__</span></a></p></li>
-<li><p><a href="#id25"><span class="problematic" id="id29">`reStructuredText 指令`__</span></a></p></li>
-<li><p><a href="#id25"><span class="problematic" id="id30">`reStructuredText解释文本角色`__</span></a></p></li>
+<li><p><a class="reference external" href="ref/introduction.html">An Introduction to reStructuredText</a> (包括reStructuredText的 <a class="reference external" href="ref/introduction.html#goals">Goals</a> 和 <a class="reference external" href="ref/introduction.html#history">History</a>)</p></li>
+<li><p><a class="reference external" href="ref/restructuredtext.html">reStructuredText Markup Specification</a></p></li>
+<li><p><a class="reference external" href="ref/directives.html">reStructuredText Directives</a></p></li>
+<li><p><a class="reference external" href="ref/roles.html">reStructuredText Interpreted Text Roles</a></p></li>
 </ul>
 </div>
 <div class="section" id="developer-documentation">
-<h2><a class="toc-backref" href="#id47">开发者文档</a><a class="headerlink" href="#developer-documentation" title="永久链接至标题">¶</a></h2>
+<h2><a class="toc-backref" href="#id28">开发者文档</a><a class="headerlink" href="#developer-documentation" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
-<li><p><a href="#id25"><span class="problematic" id="id31">`reStructuredText语法替代的记录`__</span></a></p></li>
-<li><p><a href="#id25"><span class="problematic" id="id32">`StructuredText的问题`__</span></a></p></li>
+<li><p><a class="reference external" href="dev/alternatives.html">A Record of reStructuredText Syntax Alternatives</a></p></li>
+<li><p><a class="reference external" href="dev/problems.html">Problems With StructuredText</a></p></li>
 </ul>
 <div class="section" id="how-to-s">
-<h3><a class="toc-backref" href="#id48">基本知识</a><a class="headerlink" href="#how-to-s" title="永久链接至标题">¶</a></h3>
+<h3><a class="toc-backref" href="#id29">基本知识</a><a class="headerlink" href="#how-to-s" title="永久链接至标题">¶</a></h3>
 <ul class="simple">
-<li><p><a href="#id25"><span class="problematic" id="id33">`创建reStructuredText指令`__</span></a></p></li>
-<li><p><a href="#id25"><span class="problematic" id="id34">`创建reStructuredText解释的文本角色`__</span></a></p></li>
+<li><p><a class="reference external" href="howto/rst-directives.html">Creating reStructuredText Directives</a></p></li>
+<li><p><a class="reference external" href="howto/rst-roles.html">Creating reStructuredText Interpreted Text Roles</a></p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="try-it-online">
-<h2><a class="toc-backref" href="#id49">在线尝试</a><a class="headerlink" href="#try-it-online" title="永久链接至标题">¶</a></h2>
+<h2><a class="toc-backref" href="#id30">在线尝试</a><a class="headerlink" href="#try-it-online" title="永久链接至标题">¶</a></h2>
 <p>如果你想在不下载Docutils的情况下尝试使用reStructuredText，你可以在http://rst.ninjs.org/上玩“reStructuredText”的“简单在线编辑器”。</p>
 </div>
 <div class="section" id="testimonials">
-<h2><a class="toc-backref" href="#id50">褒奖</a><a class="headerlink" href="#testimonials" title="永久链接至标题">¶</a></h2>
+<h2><a class="toc-backref" href="#id31">褒奖</a><a class="headerlink" href="#testimonials" title="永久链接至标题">¶</a></h2>
 <p>以下推荐书摘录自未经请求的帖子到邮件列表和comp.lang.python新闻组。作为摘录，经常缺少上下文，这有时会消除信息。</p>
-<p><a href="#id25"><span class="problematic" id="id35">`Ueli Schlaepfer on Doc-SIG, 2002-03-28`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/doc-sig/2002-March/002526.html">Ueli Schlaepfer on Doc-SIG, 2002-03-28</a>:</p>
 <blockquote>
-<div><p>我已经采用reST作为我在做实验室工作时制作笔记的首选工具（主要是在matlab环境中）。从那以后，这些文件的质量明显增加，主要有两个原因:</p>
+<div><p>我已经采用reST作为我在做实验室工作时制作笔记的首选工具(主要是在matlab环境中)。从那以后，这些文件的质量明显增加，主要有两个原因:</p>
 <ul class="simple">
-<li><p>我不再需要切换到另一个工具，因此阈值已降至非常低。请注意“另一个工具”表示Winword …</p></li>
+<li><p>我不再需要切换到另一个工具，因此阈值已降至非常低。请注意 “另一个工具” 表示Winword …</p></li>
 <li><p>尽管如此，我还是拥有一套功能强大的标记结构，让我能够比我能想到的任何其他工具更轻松地创建所需的文档。</p></li>
 </ul>
-<p>感谢reST / DPS [现在的Docutils –ed]，我很快就可以继续使用相同的工具从我的Python代码中提取文档。嘿，这是一个可打印和可浏览的版本*免费*！就个人而言，我认为这是一个很大的好处。</p>
+<p>感谢 reST/DPS [现在的 Docutils –ed]，我很快就可以继续使用相同的工具从我的Python代码中提取文档。嘿，这是一个可打印和可浏览的版本 <em>免费</em> ！就个人而言，我认为这是一个很大的好处。</p>
 <p>… 日常使用的所有基本构造都在那​​里，如果需要还有更多。 …</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id36">`Guido van Rossum，热衷于PEP 287，但有点仓促（参见后续内容）关于Python-Dev，2002-04-02`__</span></a>：</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-dev/2002-April/022131.html">Guido van Rossum，热衷于PEP 287，但有点仓促(参见后续内容)关于Python-Dev， 2002-04-02</a>:</p>
 <blockquote>
 <div><p>好的PEP，大卫！下一步是什么？处理代码应该包含在标准库中吗？我们应该开始将标准库文档转换为reStructuredText吗？</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id37">`Timothy Delaney on comp.lang.python, 2002-04-03`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-list/2002-April/096013.html">Timothy Delaney on comp.lang.python, 2002-04-03</a>:</p>
 <blockquote>
 <div><p>我阅读了所有reStructuredText文档，将文本版本与html版本进行了比较。我发现文本版本*非常容易阅读，而在大多数情况下，当某些内容是“特殊”时，它显而易见。</p>
 <p>我特别喜欢做超链接的系统……</p>
 <p>绝对+1我…我真的很喜欢标准，干净的文档字符串格式。可能会让我更容易在Python中完成我的下一个项目…</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id38">`Guido van Rossum on Python-Dev, 2002-04-03`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-dev/2002-April/022212.html">Guido van Rossum on Python-Dev, 2002-04-03</a>:</p>
 <blockquote>
-<div><p>我认为reStructuredText是一种用于标记文档字符串的良好格式;它可能与给定的要求一样好（一个相当复杂的功能集，但在原始中比HTML更可读）。</p>
+<div><p>我认为reStructuredText是一种用于标记文档字符串的良好格式;它可能与给定的要求一样好(一个相当复杂的功能集，但在原始中比HTML更可读)。</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id39">`Richard Jones on comp.lang.python, 2002-04-03`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-list/2002-April/096117.html">Richard Jones on comp.lang.python, 2002-04-03</a>:</p>
 <blockquote>
-<div><p>我如何看待ReST是标记和非标记之间的中间立场。它有标记，你可以使用它到极致。或者你可以遵循一些简单的约定（最基本的标记形式），而不用担心所有更精细的细节。和…之间的不同:</p>
+<div><p>我如何看待ReST是标记和非标记之间的中间立场。它有标记，你可以使用它到极致。或者你可以遵循一些简单的约定(最基本的标记形式)，而不用担心所有更精细的细节。和…之间的不同:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@section</span><span class="p">{</span><span class="n">The</span> <span class="n">Section</span> <span class="n">Title</span><span class="p">}</span>
 </pre></div>
 </div>
@@ -270,24 +271,24 @@
 </div>
 <p>对我来说很清楚的是，第二个看起来不像标记，即使它是。</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id40">`Guido van Rossum on Python-Dev, 2002-04-04`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-dev/2002-April/022247.html">Guido van Rossum on Python-Dev, 2002-04-04</a>:</p>
 <blockquote>
 <div><p>对于某些情况，结构化文本确实是个好主意;与以前见过的任何版本相比，reST是一个更好的实现。</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id41">`Max M on comp.lang.python, 2002-04-05`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-list/2002-April/096656.html">Max M on comp.lang.python, 2002-04-05</a>:</p>
 <blockquote>
 <div><p>任何程序员都可以在15分钟或更短的时间内学习基础知识。</p>
-<p>在其中编写文档真的非常容易。我确实相信，如果我曾经写过一本书（再次），我会用ReST写的。</p>
+<p>在其中编写文档真的非常容易。我确实相信，如果我曾经写过一本书(再次)，我会用ReST写的。</p>
 <p>据我所知，ReST解决了我在结构化文本中遇到的大部分问题。有些事情变得复杂一些，有些变得更简单。总而言之，讨价还价。</p>
 <p>我当然会用它。我也希望它融入Zope。</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id42">`David Abrahams on Python-Dev, 2002-04-06`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-dev/2002-April/022443.html">David Abrahams on Python-Dev, 2002-04-06</a>:</p>
 <blockquote>
 <div><p>顺便说一句，我对reST感到非常兴奋。我一直在寻找一个可容忍的C ++注释标记，而reST看起来可能符合要求。</p>
 </div></blockquote>
-<p><a href="#id25"><span class="problematic" id="id43">`Eric Jones on Python-Dev, 2002-08-01`__</span></a>:</p>
+<p><a class="reference external" href="http://mail.python.org/pipermail/python-dev/2002-August/027198.html">Eric Jones on Python-Dev, 2002-08-01</a>:</p>
 <blockquote>
-<div><p>我非常希望看到reStructuredText或其中的一些小变化，很快就会成为doc-strings的“标准”。我一直感叹没有规定的格式*和标准库中包含的相关处理工具套件。即使格式不完美（我觉得它看起来非常好），现在是时候挑选一个合理的候选人了。</p>
+<div><p>我非常希望看到reStructuredText或其中的一些小变化，很快就会成为doc-strings的“标准”。我一直感叹没有规定的格式*和标准库中包含的相关处理工具套件。即使格式不完美(我觉得它看起来非常好)，现在是时候挑选一个合理的候选人了。</p>
 </div></blockquote>
 <p>这是互联网，有很多人反对reStructuredText的想法，有些人强烈反对。发现*那些*宝石留给读者练习。</p>
 </div>

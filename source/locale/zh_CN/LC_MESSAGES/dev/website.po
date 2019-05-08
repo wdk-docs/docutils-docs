@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/dev/website.rst:3
 msgid "Docutils Web Site"
-msgstr ""
+msgstr "Docutils网站"
 
 #: ../../source/dev/website.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/website.rst:5
 msgid "David Goodger; open to all Docutils developers"
-msgstr ""
+msgstr "David Goodger; open to all Docutils developers"
 
 #: ../../source/dev/website.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/website.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/website.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/website.rst:7
 msgid "$Date: 2017-07-05 16:33:33 +0200 (Mi, 05. Jul 2017) $"
-msgstr ""
+msgstr "$Date: 2017-07-05 16:33:33 +0200 (Mi, 05. Jul 2017) $"
 
 #: ../../source/dev/website.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/website.rst:8
 msgid "$Revision: 8133 $"
-msgstr ""
+msgstr "$Revision: 8133 $"
 
 #: ../../source/dev/website.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/website.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/website.rst:11
 msgid ""
@@ -94,11 +94,11 @@ msgstr ""
 
 #: ../../source/dev/website.rst:47
 msgid "Setting Up"
-msgstr ""
+msgstr "Setting Up"
 
 #: ../../source/dev/website.rst:49
 msgid "(TBA)"
-msgstr ""
+msgstr "(TBA)"
 
 #: ../../source/dev/website.rst:52
 msgid ""
@@ -108,19 +108,19 @@ msgstr ""
 
 #: ../../source/dev/website.rst:55
 msgid "The procedure for that was on the docutils-devel list a while ago."
-msgstr ""
+msgstr "The procedure for that was on the docutils-devel list a while ago."
 
 #: ../../source/dev/website.rst:59
 msgid "Adding .txt Files"
-msgstr ""
+msgstr "Adding .txt Files"
 
 #: ../../source/dev/website.rst:62
 msgid "User/Contributor"
-msgstr ""
+msgstr "User/Contributor"
 
 #: ../../source/dev/website.rst:64
 msgid "When adding a new .txt file that should be converted to HTML:"
-msgstr ""
+msgstr "When adding a new .txt file that should be converted to HTML:"
 
 #: ../../source/dev/website.rst:66
 msgid ""
@@ -130,11 +130,11 @@ msgstr ""
 
 #: ../../source/dev/website.rst:69
 msgid "Commit the edited version to the SVN repository."
-msgstr ""
+msgstr "Commit the edited version to the SVN repository."
 
 #: ../../source/dev/website.rst:72
 msgid "Maintainer"
-msgstr ""
+msgstr "Maintainer"
 
 #: ../../source/dev/website.rst:74
 msgid ""
@@ -151,15 +151,15 @@ msgstr ""
 
 #: ../../source/dev/website.rst:85
 msgid "(Maybe this should become part of docutils-update.local.)"
-msgstr ""
+msgstr "(Maybe this should become part of docutils-update.local.)"
 
 #: ../../source/dev/website.rst:89
 msgid "Removing Files & Directories"
-msgstr ""
+msgstr "Removing Files & Directories"
 
 #: ../../source/dev/website.rst:91
 msgid "Remove from SVN"
-msgstr ""
+msgstr "Remove from SVN"
 
 #: ../../source/dev/website.rst:93
 msgid ""

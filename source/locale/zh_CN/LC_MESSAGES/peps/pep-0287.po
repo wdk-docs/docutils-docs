@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:16
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/peps/pep-0287.rst:18
 msgid ""
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:35
 msgid "Benefits"
-msgstr ""
+msgstr "Benefits"
 
 #: ../../source/peps/pep-0287.rst:37
 msgid ""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:90
 msgid "Goals"
-msgstr ""
+msgstr "Goals"
 
 #: ../../source/peps/pep-0287.rst:92
 msgid ""
@@ -134,11 +134,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:95
 msgid "It must be readable in source form by the casual observer."
-msgstr ""
+msgstr "It must be readable in source form by the casual observer."
 
 #: ../../source/peps/pep-0287.rst:97
 msgid "It must be easy to type with any standard text editor."
-msgstr ""
+msgstr "It must be easy to type with any standard text editor."
 
 #: ../../source/peps/pep-0287.rst:99
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:112
 msgid "The goals of this PEP are as follows:"
-msgstr ""
+msgstr "The goals of this PEP are as follows:"
 
 #: ../../source/peps/pep-0287.rst:114
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:153
 msgid "Strategy (b) is recommended, and its implementation is complete."
-msgstr ""
+msgstr "Strategy (b) is recommended, and its implementation is complete."
 
 #: ../../source/peps/pep-0287.rst:155
 msgid ""
@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:163
 msgid "Rationale"
-msgstr ""
+msgstr "Rationale"
 
 #: ../../source/peps/pep-0287.rst:165
 msgid ""
@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:199
 msgid "XML_, SGML_, DocBook_, HTML_, XHTML_"
-msgstr ""
+msgstr "XML_, SGML_, DocBook_, HTML_, XHTML_"
 
 #: ../../source/peps/pep-0287.rst:201
 msgid ""
@@ -321,7 +321,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:209
 msgid "TeX_"
-msgstr ""
+msgstr "TeX_"
 
 #: ../../source/peps/pep-0287.rst:211
 msgid ""
@@ -331,7 +331,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:214
 msgid "`Perl POD`_"
-msgstr ""
+msgstr "`Perl POD`_"
 
 #: ../../source/peps/pep-0287.rst:216
 msgid ""
@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:223
 msgid "JavaDoc_"
-msgstr ""
+msgstr "JavaDoc_"
 
 #: ../../source/peps/pep-0287.rst:225
 msgid ""
@@ -358,7 +358,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:232
 msgid "Setext_, StructuredText_"
-msgstr ""
+msgstr "Setext_, StructuredText_"
 
 #: ../../source/peps/pep-0287.rst:234
 msgid ""
@@ -392,7 +392,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:253
 msgid "SText implementations have been buggy."
-msgstr ""
+msgstr "SText implementations have been buggy."
 
 #: ../../source/peps/pep-0287.rst:255
 msgid ""
@@ -423,7 +423,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:272
 msgid "Specification"
-msgstr ""
+msgstr "Specification"
 
 #: ../../source/peps/pep-0287.rst:274
 msgid ""
@@ -442,15 +442,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:283
 msgid "`An Introduction to reStructuredText`_"
-msgstr ""
+msgstr "`An Introduction to reStructuredText`_"
 
 #: ../../source/peps/pep-0287.rst:285
 msgid "`reStructuredText Markup Specification`_"
-msgstr ""
+msgstr "`reStructuredText Markup Specification`_"
 
 #: ../../source/peps/pep-0287.rst:287
 msgid "`reStructuredText Directives`_"
-msgstr ""
+msgstr "`reStructuredText Directives`_"
 
 #: ../../source/peps/pep-0287.rst:289
 msgid ""
@@ -462,11 +462,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:296
 msgid "Docstring-Significant Features"
-msgstr ""
+msgstr "Docstring-Significant Features"
 
 #: ../../source/peps/pep-0287.rst:298
 msgid "A markup escaping mechanism."
-msgstr ""
+msgstr "A markup escaping mechanism."
 
 #: ../../source/peps/pep-0287.rst:300
 msgid ""
@@ -508,7 +508,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:337
 msgid "Markup that isolates a Python identifier: interpreted text."
-msgstr ""
+msgstr "Markup that isolates a Python identifier: interpreted text."
 
 #: ../../source/peps/pep-0287.rst:339
 msgid ""
@@ -553,7 +553,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:399
 msgid "Markup for \"tagged lists\" or \"label lists\": field lists."
-msgstr ""
+msgstr "Markup for \"tagged lists\" or \"label lists\": field lists."
 
 #: ../../source/peps/pep-0287.rst:401
 msgid ""
@@ -583,7 +583,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:425
 msgid "Markup extensibility: directives and substitutions."
-msgstr ""
+msgstr "Markup extensibility: directives and substitutions."
 
 #: ../../source/peps/pep-0287.rst:427
 msgid ""
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:443
 msgid "Section structure markup."
-msgstr ""
+msgstr "Section structure markup."
 
 #: ../../source/peps/pep-0287.rst:445
 msgid ""
@@ -612,11 +612,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:463
 msgid "Questions & Answers"
-msgstr ""
+msgstr "Questions & Answers"
 
 #: ../../source/peps/pep-0287.rst:465
 msgid "Is reStructuredText rich enough?"
-msgstr ""
+msgstr "Is reStructuredText rich enough?"
 
 #: ../../source/peps/pep-0287.rst:467
 msgid ""
@@ -629,11 +629,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:473
 msgid "Is reStructuredText *too* rich?"
-msgstr ""
+msgstr "Is reStructuredText *too* rich?"
 
 #: ../../source/peps/pep-0287.rst:475
 msgid "For specific applications or individuals, perhaps.  In general, no."
-msgstr ""
+msgstr "For specific applications or individuals, perhaps.  In general, no."
 
 #: ../../source/peps/pep-0287.rst:477
 msgid ""
@@ -663,7 +663,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:496
 msgid "Guido van Rossum wrote the following in a 2001-06-13 Doc-SIG post:"
-msgstr ""
+msgstr "Guido van Rossum wrote the following in a 2001-06-13 Doc-SIG post:"
 
 #: ../../source/peps/pep-0287.rst:498
 msgid ""
@@ -779,11 +779,11 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:619
 msgid "Footnotes are numbered, whereas citations use text for their references."
-msgstr ""
+msgstr "Footnotes are numbered, whereas citations use text for their references."
 
 #: ../../source/peps/pep-0287.rst:622
 msgid "Wouldn't it be better to keep the docstring and PEP proposals separate?"
-msgstr ""
+msgstr "Wouldn't it be better to keep the docstring and PEP proposals separate?"
 
 #: ../../source/peps/pep-0287.rst:625
 msgid ""
@@ -816,7 +816,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:643
 msgid "Who's going to convert the existing PEPs to reStructuredText?"
-msgstr ""
+msgstr "Who's going to convert the existing PEPs to reStructuredText?"
 
 #: ../../source/peps/pep-0287.rst:645
 msgid ""
@@ -828,7 +828,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:650
 msgid "Why use reStructuredText for README and other ancillary files?"
-msgstr ""
+msgstr "Why use reStructuredText for README and other ancillary files?"
 
 #: ../../source/peps/pep-0287.rst:652
 msgid ""
@@ -908,7 +908,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:704
 msgid "I want to write all my strings in Unicode.  Will anything break?"
-msgstr ""
+msgstr "I want to write all my strings in Unicode.  Will anything break?"
 
 #: ../../source/peps/pep-0287.rst:707
 msgid ""
@@ -918,7 +918,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:710
 msgid "Why does the community need a new structured text design?"
-msgstr ""
+msgstr "Why does the community need a new structured text design?"
 
 #: ../../source/peps/pep-0287.rst:712
 msgid ""
@@ -929,7 +929,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:717
 msgid "What is wrong with existing documentation methodologies?"
-msgstr ""
+msgstr "What is wrong with existing documentation methodologies?"
 
 #: ../../source/peps/pep-0287.rst:719
 msgid ""
@@ -943,7 +943,7 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:728
 msgid "References & Footnotes"
-msgstr ""
+msgstr "References & Footnotes"
 
 #: ../../source/peps/pep-0287.rst:730
 msgid ""
@@ -971,15 +971,15 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:794
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/peps/pep-0287.rst:796
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/peps/pep-0287.rst:800
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Acknowledgements"
 
 #: ../../source/peps/pep-0287.rst:802
 msgid ""
@@ -989,5 +989,5 @@ msgstr ""
 
 #: ../../source/peps/pep-0287.rst:805
 msgid "Special thanks to all members past & present of the Python Doc-SIG_."
-msgstr ""
+msgstr "Special thanks to all members past & present of the Python Doc-SIG_."
 

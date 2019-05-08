@@ -20,55 +20,55 @@ msgstr ""
 
 #: ../../source/howto/security.rst:3
 msgid "Deploying Docutils Securely"
-msgstr ""
+msgstr "安全地部署Docutils"
 
 #: ../../source/howto/security.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/howto/security.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/howto/security.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/howto/security.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/howto/security.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/howto/security.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/howto/security.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/howto/security.rst:8
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/howto/security.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/howto/security.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/howto/security.rst:11
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/howto/security.rst:14
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/howto/security.rst:16
 msgid ""
@@ -90,11 +90,11 @@ msgstr ""
 
 #: ../../source/howto/security.rst:33
 msgid "The Issues"
-msgstr ""
+msgstr "The Issues"
 
 #: ../../source/howto/security.rst:36
 msgid "External Data Insertion"
-msgstr ""
+msgstr "External Data Insertion"
 
 #: ../../source/howto/security.rst:38
 msgid ""
@@ -105,15 +105,15 @@ msgstr ""
 
 #: ../../source/howto/security.rst:42
 msgid "\"include_\", by its very nature"
-msgstr ""
+msgstr "\"include_\", by its very nature"
 
 #: ../../source/howto/security.rst:43
 msgid "\"raw_\", through its ``:file:`` and ``:url:`` options"
-msgstr ""
+msgstr "\"raw_\", through its ``:file:`` and ``:url:`` options"
 
 #: ../../source/howto/security.rst:44
 msgid "\"csv-table_\", through its ``:file:`` and ``:url:`` options"
-msgstr ""
+msgstr "\"csv-table_\", through its ``:file:`` and ``:url:`` options"
 
 #: ../../source/howto/security.rst:46
 msgid ""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../source/howto/security.rst:58
 msgid "Raw HTML Insertion"
-msgstr ""
+msgstr "Raw HTML Insertion"
 
 #: ../../source/howto/security.rst:60
 msgid ""
@@ -137,11 +137,11 @@ msgstr ""
 
 #: ../../source/howto/security.rst:70
 msgid "Securing Docutils"
-msgstr ""
+msgstr "Securing Docutils"
 
 #: ../../source/howto/security.rst:73
 msgid "Programmatically Via Application Default Settings"
-msgstr ""
+msgstr "Programmatically Via Application Default Settings"
 
 #: ../../source/howto/security.rst:75
 msgid ""
@@ -160,11 +160,11 @@ msgstr ""
 
 #: ../../source/howto/security.rst:99
 msgid "Via a Configuration File"
-msgstr ""
+msgstr "Via a Configuration File"
 
 #: ../../source/howto/security.rst:101
 msgid "You should secure Docutils via a configuration file:"
-msgstr ""
+msgstr "You should secure Docutils via a configuration file:"
 
 #: ../../source/howto/security.rst:103
 msgid ""
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../source/howto/security.rst:107
 msgid "if you want to secure all Docutils deployments system-wide."
-msgstr ""
+msgstr "if you want to secure all Docutils deployments system-wide."
 
 #: ../../source/howto/security.rst:109
 msgid ""
@@ -190,11 +190,11 @@ msgstr ""
 
 #: ../../source/howto/security.rst:112
 msgid "Docutils automatically looks in three places for a configuration file:"
-msgstr ""
+msgstr "Docutils automatically looks in three places for a configuration file:"
 
 #: ../../source/howto/security.rst:114
 msgid "``/etc/docutils.conf``, for system-wide configuration,"
-msgstr ""
+msgstr "``/etc/docutils.conf``, for system-wide configuration,"
 
 #: ../../source/howto/security.rst:115
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../source/howto/security.rst:148
 msgid "Version Applicability"
-msgstr ""
+msgstr "Version Applicability"
 
 #: ../../source/howto/security.rst:150
 msgid ""
@@ -245,7 +245,7 @@ msgstr ""
 
 #: ../../source/howto/security.rst:158
 msgid "Related Documents"
-msgstr ""
+msgstr "Related Documents"
 
 #: ../../source/howto/security.rst:160
 msgid ""

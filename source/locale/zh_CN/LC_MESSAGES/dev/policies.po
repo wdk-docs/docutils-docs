@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:3
 msgid "Docutils Project Policies"
-msgstr ""
+msgstr "Docutils项目政策"
 
 #: ../../source/dev/policies.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/policies.rst:5
 msgid "David Goodger; open to all Docutils developers"
-msgstr ""
+msgstr "David Goodger; open to all Docutils developers"
 
 #: ../../source/dev/policies.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/policies.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/policies.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/policies.rst:7
 msgid "$Date: 2017-08-18 18:44:27 +0200 (Fr, 18. Aug 2017) $"
-msgstr ""
+msgstr "$Date: 2017-08-18 18:44:27 +0200 (Fr, 18. Aug 2017) $"
 
 #: ../../source/dev/policies.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/policies.rst:8
 msgid "$Revision: 8173 $"
-msgstr ""
+msgstr "$Revision: 8173 $"
 
 #: ../../source/dev/policies.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/policies.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/policies.rst:11
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/policies.rst:13
 msgid ""
@@ -129,11 +129,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:52
 msgid "How to get a new feature into Docutils"
-msgstr ""
+msgstr "How to get a new feature into Docutils"
 
 #: ../../source/dev/policies.rst:56
 msgid "Question:"
-msgstr ""
+msgstr "Question:"
 
 #: ../../source/dev/policies.rst:55
 msgid ""
@@ -143,27 +143,27 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:58
 msgid "Present your idea at the Docutils-develop_ mailing list,"
-msgstr ""
+msgstr "Present your idea at the Docutils-develop_ mailing list,"
 
 #: ../../source/dev/policies.rst:60
 msgid "usually triggers a fast response,"
-msgstr ""
+msgstr "usually triggers a fast response,"
 
 #: ../../source/dev/policies.rst:61
 msgid "may be forgotten later,"
-msgstr ""
+msgstr "may be forgotten later,"
 
 #: ../../source/dev/policies.rst:63
 msgid "and/or file a ticket at Docutils' `feature request tracker`_."
-msgstr ""
+msgstr "and/or file a ticket at Docutils' `feature request tracker`_."
 
 #: ../../source/dev/policies.rst:65
 msgid "there is a permanent record,"
-msgstr ""
+msgstr "there is a permanent record,"
 
 #: ../../source/dev/policies.rst:66
 msgid "it may stay forgotten among all the other feature requests."
-msgstr ""
+msgstr "it may stay forgotten among all the other feature requests."
 
 #: ../../source/dev/policies.rst:68
 msgid ""
@@ -188,7 +188,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:80
 msgid "How to make code contributions that are easily accepted:"
-msgstr ""
+msgstr "How to make code contributions that are easily accepted:"
 
 #: ../../source/dev/policies.rst:82
 msgid ""
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:89
 msgid "Ensure the addition works with all `supported Python versions`__."
-msgstr ""
+msgstr "Ensure the addition works with all `supported Python versions`__."
 
 #: ../../source/dev/policies.rst:93
 msgid ""
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:113
 msgid "Python Coding Conventions"
-msgstr ""
+msgstr "Python Coding Conventions"
 
 #: ../../source/dev/policies.rst:115
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:125
 msgid "4 spaces per indentation level.  No hard tabs."
-msgstr ""
+msgstr "4 spaces per indentation level.  No hard tabs."
 
 #: ../../source/dev/policies.rst:127
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:134
 msgid "Lines should be no more than 78 characters long."
-msgstr ""
+msgstr "Lines should be no more than 78 characters long."
 
 #: ../../source/dev/policies.rst:136
 msgid ""
@@ -312,11 +312,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:168
 msgid "Documentation Conventions"
-msgstr ""
+msgstr "Documentation Conventions"
 
 #: ../../source/dev/policies.rst:170
 msgid "Docutils documentation is written using reStructuredText, of course."
-msgstr ""
+msgstr "Docutils documentation is written using reStructuredText, of course."
 
 #: ../../source/dev/policies.rst:172
 msgid ""
@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:175
 msgid "Use the following section title adornment styles::"
-msgstr ""
+msgstr "Use the following section title adornment styles::"
 
 #: ../../source/dev/policies.rst:197
 msgid ""
@@ -348,7 +348,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:208
 msgid "Copyrights and Licensing"
-msgstr ""
+msgstr "Copyrights and Licensing"
 
 #: ../../source/dev/policies.rst:210
 msgid ""
@@ -387,11 +387,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:233
 msgid "2-Clause BSD license"
-msgstr ""
+msgstr "2-Clause BSD license"
 
 #: ../../source/dev/policies.rst:235
 msgid "(also known as \"Simplified\" or `FreeBSD license`)"
-msgstr ""
+msgstr "(also known as \"Simplified\" or `FreeBSD license`)"
 
 #: ../../source/dev/policies.rst:237
 msgid ""
@@ -403,19 +403,19 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:248
 msgid "`Various Licenses and Comments about Them`_"
-msgstr ""
+msgstr "`Various Licenses and Comments about Them`_"
 
 #: ../../source/dev/policies.rst:248
 msgid "Pros:"
-msgstr ""
+msgstr "Pros:"
 
 #: ../../source/dev/policies.rst:245
 msgid "clear wording, structured text"
-msgstr ""
+msgstr "clear wording, structured text"
 
 #: ../../source/dev/policies.rst:246
 msgid "license used by the closely related Sphinx project"
-msgstr ""
+msgstr "license used by the closely related Sphinx project"
 
 #: ../../source/dev/policies.rst:247
 msgid ""
@@ -425,23 +425,23 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:253
 msgid "References:"
-msgstr ""
+msgstr "References:"
 
 #: ../../source/dev/policies.rst:251
 msgid "http://www.freebsd.org/copyright/freebsd-license.html"
-msgstr ""
+msgstr "http://www.freebsd.org/copyright/freebsd-license.html"
 
 #: ../../source/dev/policies.rst:252
 msgid "http://www.opensource.org/licenses/BSD-2-Clause"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/BSD-2-Clause"
 
 #: ../../source/dev/policies.rst:253
 msgid "http://www.spdx.org/licenses/BSD-2-Clause"
-msgstr ""
+msgstr "http://www.spdx.org/licenses/BSD-2-Clause"
 
 #: ../../source/dev/policies.rst:264
 msgid "Repository"
-msgstr ""
+msgstr "Repository"
 
 #: ../../source/dev/policies.rst:266
 msgid ""
@@ -461,11 +461,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:280
 msgid "Branches"
-msgstr ""
+msgstr "Branches"
 
 #: ../../source/dev/policies.rst:282
 msgid "(These branch policies go into effect with Docutils 0.4.)"
-msgstr ""
+msgstr "(These branch policies go into effect with Docutils 0.4.)"
 
 #: ../../source/dev/policies.rst:284
 msgid ""
@@ -505,7 +505,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:316
 msgid "Review Criteria"
-msgstr ""
+msgstr "Review Criteria"
 
 #: ../../source/dev/policies.rst:318
 msgid ""
@@ -516,7 +516,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:322
 msgid "The branch must be complete, and include full documentation and tests."
-msgstr ""
+msgstr "The branch must be complete, and include full documentation and tests."
 
 #: ../../source/dev/policies.rst:325
 msgid ""
@@ -545,7 +545,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:341
 msgid "Check-ins"
-msgstr ""
+msgstr "Check-ins"
 
 #: ../../source/dev/policies.rst:343
 msgid ""
@@ -635,7 +635,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:409
 msgid "Version Identification"
-msgstr ""
+msgstr "Version Identification"
 
 #: ../../source/dev/policies.rst:411
 msgid ""
@@ -652,7 +652,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:423
 msgid "``docutils.__version_info__``"
-msgstr ""
+msgstr "``docutils.__version_info__``"
 
 #: ../../source/dev/policies.rst:425
 msgid ""
@@ -664,12 +664,12 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:437
 msgid "major"
-msgstr ""
+msgstr "major"
 
 #: ../../source/dev/policies.rst:436 ../../source/dev/policies.rst:441
 #: ../../source/dev/policies.rst:447 ../../source/dev/policies.rst:480
 msgid "non-negative integer"
-msgstr ""
+msgstr "non-negative integer"
 
 #: ../../source/dev/policies.rst:431
 msgid ""
@@ -683,7 +683,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:442
 msgid "minor"
-msgstr ""
+msgstr "minor"
 
 #: ../../source/dev/policies.rst:440
 msgid ""
@@ -693,7 +693,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:448
 msgid "micro"
-msgstr ""
+msgstr "micro"
 
 #: ../../source/dev/policies.rst:445
 msgid ""
@@ -705,11 +705,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:477
 msgid "releaselevel"
-msgstr ""
+msgstr "releaselevel"
 
 #: ../../source/dev/policies.rst:476
 msgid "text string"
-msgstr ""
+msgstr "text string"
 
 #: ../../source/dev/policies.rst:451
 msgid ""
@@ -719,23 +719,23 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:455 ../../source/dev/policies.rst:554
 msgid "Release Level"
-msgstr ""
+msgstr "Release Level"
 
 #: ../../source/dev/policies.rst:455
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #: ../../source/dev/policies.rst:455
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/dev/policies.rst:457
 msgid "alpha"
-msgstr ""
+msgstr "alpha"
 
 #: ../../source/dev/policies.rst:457
 msgid "``a``"
-msgstr ""
+msgstr "``a``"
 
 #: ../../source/dev/policies.rst:457
 msgid ""
@@ -745,23 +745,23 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:460
 msgid "beta"
-msgstr ""
+msgstr "beta"
 
 #: ../../source/dev/policies.rst:460
 msgid "``b``"
-msgstr ""
+msgstr "``b``"
 
 #: ../../source/dev/policies.rst:460
 msgid "Indicates active development, between releases. Used with serial = 0."
-msgstr ""
+msgstr "Indicates active development, between releases. Used with serial = 0."
 
 #: ../../source/dev/policies.rst:463
 msgid "candidate"
-msgstr ""
+msgstr "candidate"
 
 #: ../../source/dev/policies.rst:463
 msgid "``rcN``"
-msgstr ""
+msgstr "``rcN``"
 
 #: ../../source/dev/policies.rst:463
 msgid ""
@@ -771,7 +771,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:468
 msgid "final"
-msgstr ""
+msgstr "final"
 
 #: ../../source/dev/policies.rst:468
 msgid ""
@@ -787,23 +787,23 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:481
 msgid "serial"
-msgstr ""
+msgstr "serial"
 
 #: ../../source/dev/policies.rst:480
 msgid "The serial number is incremented whenever a new pre-release is begun."
-msgstr ""
+msgstr "The serial number is incremented whenever a new pre-release is begun."
 
 #: ../../source/dev/policies.rst:485
 msgid "release"
-msgstr ""
+msgstr "release"
 
 #: ../../source/dev/policies.rst:484
 msgid "boolean"
-msgstr ""
+msgstr "boolean"
 
 #: ../../source/dev/policies.rst:484
 msgid "True for official releases and pre-releases, False during development."
-msgstr ""
+msgstr "True for official releases and pre-releases, False during development."
 
 #: ../../source/dev/policies.rst:487
 msgid ""
@@ -831,11 +831,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:508
 msgid "is True for all versions \"larger\" than ``\"0.13\"``."
-msgstr ""
+msgstr "is True for all versions \"larger\" than ``\"0.13\"``."
 
 #: ../../source/dev/policies.rst:510
 msgid "Mind, however, that a test like ::"
-msgstr ""
+msgstr "Mind, however, that a test like ::"
 
 #: ../../source/dev/policies.rst:514
 msgid ""
@@ -845,7 +845,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:522
 msgid "``docutils.__version__``"
-msgstr ""
+msgstr "``docutils.__version__``"
 
 #: ../../source/dev/policies.rst:524
 msgid ""
@@ -862,7 +862,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:531
 msgid "``docutils.__version__`` takes the following form::"
-msgstr ""
+msgstr "``docutils.__version__`` takes the following form::"
 
 #: ../../source/dev/policies.rst:538
 msgid ""
@@ -873,7 +873,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:542
 msgid "When the serial number is 0, it is omitted from the pre-release segment."
-msgstr ""
+msgstr "When the serial number is 0, it is omitted from the pre-release segment."
 
 #: ../../source/dev/policies.rst:545
 msgid ""
@@ -891,95 +891,95 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:554
 msgid "Version Identifier"
-msgstr ""
+msgstr "Version Identifier"
 
 #: ../../source/dev/policies.rst:556 ../../source/dev/policies.rst:564
 msgid "final (release)"
-msgstr ""
+msgstr "final (release)"
 
 #: ../../source/dev/policies.rst:556
 msgid "0.14"
-msgstr ""
+msgstr "0.14"
 
 #: ../../source/dev/policies.rst:557
 msgid "beta (development)"
-msgstr ""
+msgstr "beta (development)"
 
 #: ../../source/dev/policies.rst:557
 msgid "0.15b.dev [2]_"
-msgstr ""
+msgstr "0.15b.dev [2]_"
 
 #: ../../source/dev/policies.rst:558
 msgid "beta (release)"
-msgstr ""
+msgstr "beta (release)"
 
 #: ../../source/dev/policies.rst:558
 msgid "0.15b [1]_"
-msgstr ""
+msgstr "0.15b [1]_"
 
 #: ../../source/dev/policies.rst:559
 msgid "candidate 1 (dev.)"
-msgstr ""
+msgstr "candidate 1 (dev.)"
 
 #: ../../source/dev/policies.rst:559
 msgid "0.15rc1.dev"
-msgstr ""
+msgstr "0.15rc1.dev"
 
 #: ../../source/dev/policies.rst:560
 msgid "candidate 1 (release)"
-msgstr ""
+msgstr "candidate 1 (release)"
 
 #: ../../source/dev/policies.rst:560
 msgid "0.15rc1"
-msgstr ""
+msgstr "0.15rc1"
 
 #: ../../source/dev/policies.rst:561
 msgid "candidate 2 (dev.)"
-msgstr ""
+msgstr "candidate 2 (dev.)"
 
 #: ../../source/dev/policies.rst:561
 msgid "0.15rc2.dev [1]_"
-msgstr ""
+msgstr "0.15rc2.dev [1]_"
 
 #: ../../source/dev/policies.rst:562
 msgid "candidate 2 (release)"
-msgstr ""
+msgstr "candidate 2 (release)"
 
 #: ../../source/dev/policies.rst:562
 msgid "0.15rc2 [1]_"
-msgstr ""
+msgstr "0.15rc2 [1]_"
 
 #: ../../source/dev/policies.rst:563
 msgid "... candidate N"
-msgstr ""
+msgstr "... candidate N"
 
 #: ../../source/dev/policies.rst:563
 msgid "0.15rcN.dev [1]_, 0.15rcN [1]_"
-msgstr ""
+msgstr "0.15rcN.dev [1]_, 0.15rcN [1]_"
 
 #: ../../source/dev/policies.rst:564
 msgid "0.15"
-msgstr ""
+msgstr "0.15"
 
 #: ../../source/dev/policies.rst:565
 msgid "beta (dev.)"
-msgstr ""
+msgstr "beta (dev.)"
 
 #: ../../source/dev/policies.rst:565
 msgid "0.16b.dev [2]_"
-msgstr ""
+msgstr "0.16b.dev [2]_"
 
 #: ../../source/dev/policies.rst:568
 msgid "These steps may be skipped."
-msgstr ""
+msgstr "These steps may be skipped."
 
 #: ../../source/dev/policies.rst:570
 msgid "Default active development state between releases."
-msgstr ""
+msgstr "Default active development state between releases."
 
 #: ../../source/dev/policies.rst:574
 msgid "Policy History"
-msgstr ""
+msgstr "Policy History"
 
 #: ../../source/dev/policies.rst:576
 msgid ""
@@ -1002,7 +1002,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:593
 msgid "Snapshots"
-msgstr ""
+msgstr "Snapshots"
 
 #: ../../source/dev/policies.rst:595
 msgid ""
@@ -1030,7 +1030,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:620
 msgid "Setting Up For Docutils Development"
-msgstr ""
+msgstr "Setting Up For Docutils Development"
 
 #: ../../source/dev/policies.rst:622
 msgid ""
@@ -1055,7 +1055,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:638
 msgid "For the bash shell, add this to your ``~/.profile``::"
-msgstr ""
+msgstr "For the bash shell, add this to your ``~/.profile``::"
 
 #: ../../source/dev/policies.rst:644
 msgid ""
@@ -1100,15 +1100,15 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:685
 msgid "Mailing Lists"
-msgstr ""
+msgstr "Mailing Lists"
 
 #: ../../source/dev/policies.rst:687
 msgid "Developers are recommended to subscribe to all `Docutils mailing lists`_."
-msgstr ""
+msgstr "Developers are recommended to subscribe to all `Docutils mailing lists`_."
 
 #: ../../source/dev/policies.rst:694
 msgid "The Wiki"
-msgstr ""
+msgstr "The Wiki"
 
 #: ../../source/dev/policies.rst:696
 msgid ""
@@ -1119,11 +1119,11 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:701
 msgid "Extensions and Related Projects"
-msgstr ""
+msgstr "Extensions and Related Projects"
 
 #: ../../source/dev/policies.rst:704
 msgid "The Sandbox"
-msgstr ""
+msgstr "The Sandbox"
 
 #: ../../source/dev/policies.rst:706
 #, python-format
@@ -1162,7 +1162,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:758
 msgid "Parallel Projects"
-msgstr ""
+msgstr "Parallel Projects"
 
 #: ../../source/dev/policies.rst:760
 msgid ""
@@ -1191,23 +1191,23 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:777
 msgid "Answer questions from users and developers."
-msgstr ""
+msgstr "Answer questions from users and developers."
 
 #: ../../source/dev/policies.rst:778
 msgid "Review suggestions, bug reports, and patches."
-msgstr ""
+msgstr "Review suggestions, bug reports, and patches."
 
 #: ../../source/dev/policies.rst:779
 msgid "Monitor changes and ensure the quality of the code and documentation."
-msgstr ""
+msgstr "Monitor changes and ensure the quality of the code and documentation."
 
 #: ../../source/dev/policies.rst:781
 msgid "Coordinate with Docutils to ensure interoperability."
-msgstr ""
+msgstr "Coordinate with Docutils to ensure interoperability."
 
 #: ../../source/dev/policies.rst:782
 msgid "Put together official project releases."
-msgstr ""
+msgstr "Put together official project releases."
 
 #: ../../source/dev/policies.rst:784
 msgid ""
@@ -1221,7 +1221,7 @@ msgstr ""
 
 #: ../../source/dev/policies.rst:793
 msgid "Other related projects"
-msgstr ""
+msgstr "Other related projects"
 
 #: ../../source/dev/policies.rst:795
 msgid ""

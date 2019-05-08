@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:3
 msgid "Docutils_ Hacker's Guide"
-msgstr ""
+msgstr "Docutils_ 黑客指南"
 
 #: ../../source/dev/hacking.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/hacking.rst:5
 msgid "Lea Wiemann"
-msgstr ""
+msgstr "Lea Wiemann"
 
 #: ../../source/dev/hacking.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/hacking.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/hacking.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/hacking.rst:7
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/dev/hacking.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/hacking.rst:8
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/dev/hacking.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/hacking.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/hacking.rst
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/dev/hacking.rst:11
 msgid ""
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prerequisites"
 
 #: ../../source/dev/hacking.rst:13
 msgid ""
@@ -85,11 +85,11 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:23
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/hacking.rst:26
 msgid "Overview of the Docutils Architecture"
-msgstr ""
+msgstr "Overview of the Docutils Architecture"
 
 #: ../../source/dev/hacking.rst:28
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:31
 msgid "Consider the following reStructuredText file::"
-msgstr ""
+msgstr "Consider the following reStructuredText file::"
 
 #: ../../source/dev/hacking.rst:37
 msgid ""
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:54
 msgid "Reading the Document"
-msgstr ""
+msgstr "Reading the Document"
 
 #: ../../source/dev/hacking.rst:56
 msgid ""
@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:67
 msgid "Parsing the Document"
-msgstr ""
+msgstr "Parsing the Document"
 
 #: ../../source/dev/hacking.rst:69
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:89
 msgid "Let us now examine the node tree:"
-msgstr ""
+msgstr "Let us now examine the node tree:"
 
 #: ../../source/dev/hacking.rst:91
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:106
 msgid "Transforming the Document"
-msgstr ""
+msgstr "Transforming the Document"
 
 #: ../../source/dev/hacking.rst:108
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:153
 msgid "Writing the Document"
-msgstr ""
+msgstr "Writing the Document"
 
 #: ../../source/dev/hacking.rst:155
 msgid ""
@@ -254,11 +254,11 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:185
 msgid "Extending Docutils"
-msgstr ""
+msgstr "Extending Docutils"
 
 #: ../../source/dev/hacking.rst:187
 msgid "Now you'll ask, \"how do I actually extend Docutils?\""
-msgstr ""
+msgstr "Now you'll ask, \"how do I actually extend Docutils?\""
 
 #: ../../source/dev/hacking.rst:189
 msgid ""
@@ -281,7 +281,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:204
 msgid "Modifying the Document Tree Before It Is Written"
-msgstr ""
+msgstr "Modifying the Document Tree Before It Is Written"
 
 #: ../../source/dev/hacking.rst:206
 msgid ""
@@ -292,11 +292,11 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:210
 msgid "To retrieve the document tree, call::"
-msgstr ""
+msgstr "To retrieve the document tree, call::"
 
 #: ../../source/dev/hacking.rst:214
 msgid "Please see the docstring of publish_doctree for a list of parameters."
-msgstr ""
+msgstr "Please see the docstring of publish_doctree for a list of parameters."
 
 #: ../../source/dev/hacking.rst:219
 msgid ""
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:233
 msgid "The Node Interface"
-msgstr ""
+msgstr "The Node Interface"
 
 #: ../../source/dev/hacking.rst:235
 msgid ""
@@ -324,11 +324,11 @@ msgstr ""
 
 #: ../../source/dev/hacking.rst:239
 msgid "(To be completed.)"
-msgstr ""
+msgstr "(To be completed.)"
 
 #: ../../source/dev/hacking.rst:243
 msgid "What Now?"
-msgstr ""
+msgstr "What Now?"
 
 #: ../../source/dev/hacking.rst:245
 msgid ""

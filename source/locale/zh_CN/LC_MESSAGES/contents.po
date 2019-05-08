@@ -20,25 +20,25 @@ msgstr ""
 
 #: ../../source/contents.rst:9
 msgid "Contents:"
-msgstr ""
+msgstr "Contents:"
 
 #: ../../source/contents.rst:7
 msgid "Welcome to docutils-docs's documentation!"
-msgstr ""
+msgstr "欢迎来到docutils-docs的文档！"
 
 #: ../../source/contents.rst:24
 msgid "Indices and tables"
-msgstr ""
+msgstr "指数和表格"
 
 #: ../../source/contents.rst:26
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../source/contents.rst:27
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../source/contents.rst:28
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
 

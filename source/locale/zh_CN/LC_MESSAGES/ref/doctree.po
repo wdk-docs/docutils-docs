@@ -20,55 +20,55 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3
 msgid "The Docutils Document Tree"
-msgstr ""
+msgstr "Docutils文档树"
 
 #: ../../source/ref/doctree.rst:6
 msgid "A Guide to the Docutils DTD"
-msgstr ""
+msgstr "Docutils DTD指南"
 
 #: ../../source/ref/doctree.rst
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: ../../source/ref/doctree.rst:8
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/doctree.rst
 msgid "Contact"
-msgstr ""
+msgstr "联系"
 
 #: ../../source/ref/doctree.rst:9
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/doctree.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/ref/doctree.rst:10
 msgid "$Revision: 7882 $"
-msgstr ""
+msgstr "$Revision: 7882 $"
 
 #: ../../source/ref/doctree.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/doctree.rst:11
 msgid "$Date: 2015-04-20 12:55:19 +0200 (Mo, 20. Apr 2015) $"
-msgstr ""
+msgstr "$Date: 2015-04-20 12:55:19 +0200 (Mo, 20. Apr 2015) $"
 
 #: ../../source/ref/doctree.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/ref/doctree.rst:12
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "本文档已置于公共领域。"
 
 #: ../../source/ref/doctree.rst:16
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/doctree.rst:18
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:53
 msgid "Element Hierarchy"
-msgstr ""
+msgstr "元素层次结构"
 
 #: ../../source/ref/doctree.rst:57
 msgid ""
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:98
 msgid "Structural Elements"
-msgstr ""
+msgstr "结构要素"
 
 #: ../../source/ref/doctree.rst:100
 msgid ""
@@ -153,11 +153,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:105
 msgid "Category members: document_, section_, topic_, sidebar_"
-msgstr ""
+msgstr "Category members: document_, section_, topic_, sidebar_"
 
 #: ../../source/ref/doctree.rst:109
 msgid "Structural Subelements"
-msgstr ""
+msgstr "结构子弹"
 
 #: ../../source/ref/doctree.rst:111
 msgid ""
@@ -168,11 +168,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:115
 msgid "Category members: title_, subtitle_, decoration_, docinfo_, transition_"
-msgstr ""
+msgstr "类别成员: title_, subtitle_, decoration_, docinfo_, transition_"
 
 #: ../../source/ref/doctree.rst:120
 msgid "Bibliographic Elements"
-msgstr ""
+msgstr "Bibliographic Elements"
 
 #: ../../source/ref/doctree.rst:122
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:133
 msgid "Decorative Elements"
-msgstr ""
+msgstr "装饰元素"
 
 #: ../../source/ref/doctree.rst:135
 msgid ""
@@ -201,11 +201,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:138
 msgid "Category members: footer_, header_"
-msgstr ""
+msgstr "类别成员: footer_, header_"
 
 #: ../../source/ref/doctree.rst:142
 msgid "Body Elements"
-msgstr ""
+msgstr "主体元素"
 
 #: ../../source/ref/doctree.rst:144
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:158
 msgid "Simple Body Elements"
-msgstr ""
+msgstr "简体元素"
 
 #: ../../source/ref/doctree.rst:160
 msgid ""
@@ -245,7 +245,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:170
 msgid "Compound Body Elements"
-msgstr ""
+msgstr "复合体元素"
 
 #: ../../source/ref/doctree.rst:172
 msgid ""
@@ -264,7 +264,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:183
 msgid "Body Subelements"
-msgstr ""
+msgstr "主体子元素"
 
 #: ../../source/ref/doctree.rst:185
 msgid ""
@@ -291,7 +291,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:203
 msgid "Inline Elements"
-msgstr ""
+msgstr "内联元素"
 
 #: ../../source/ref/doctree.rst:205
 msgid ""
@@ -310,7 +310,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:222
 msgid "Element Reference"
-msgstr ""
+msgstr "元素参考"
 
 #: ../../source/ref/doctree.rst:227
 msgid ""
@@ -321,7 +321,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:231
 msgid "Details (of element relationships and semantics):"
-msgstr ""
+msgstr "细节（元素关系和语义）:"
 
 #: ../../source/ref/doctree.rst:233
 msgid ""
@@ -331,11 +331,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:237
 msgid "Parents: A list of elements which may contain the element."
-msgstr ""
+msgstr "父母：可能包含元素的元素列表。"
 
 #: ../../source/ref/doctree.rst:239
 msgid "Children: A list of elements which may occur within the element."
-msgstr ""
+msgstr "子元素：元素中可能出现的元素列表。"
 
 #: ../../source/ref/doctree.rst:241
 msgid ""
@@ -345,15 +345,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:245
 msgid "Processing: Lists formatting or rendering recommendations for the element."
-msgstr ""
+msgstr "处理：列出元素的格式或呈现建议。"
 
 #: ../../source/ref/doctree.rst:248
 msgid "Content Model:"
-msgstr ""
+msgstr "Content Model:"
 
 #: ../../source/ref/doctree.rst:250
 msgid "The formal XML content model from the `Docutils DTD`_, followed by:"
-msgstr ""
+msgstr "来自 `Docutils DTD`_ 的正式XML内容模型，接着是:"
 
 #: ../../source/ref/doctree.rst:252
 msgid ""
@@ -379,11 +379,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:266
 msgid "Real XML::"
-msgstr ""
+msgstr "实XML::"
 
 #: ../../source/ref/doctree.rst:275
 msgid "Pseudo-XML::"
-msgstr ""
+msgstr "伪XML::"
 
 #: ../../source/ref/doctree.rst:286
 msgid ""
@@ -394,7 +394,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:292
 msgid "``abbreviation``"
-msgstr ""
+msgstr "``缩写``"
 
 #: ../../source/ref/doctree.rst:294
 msgid ""
@@ -434,19 +434,19 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4286 ../../source/ref/doctree.rst:4356
 #: ../../source/ref/doctree.rst:4426
 msgid "Details"
-msgstr ""
+msgstr "细节"
 
 #: ../../source/ref/doctree.rst
 msgid "Category"
-msgstr ""
+msgstr "类别"
 
 #: ../../source/ref/doctree.rst:302 ../../source/ref/doctree.rst:2920
 msgid "`Inline Elements`_"
-msgstr ""
+msgstr "`Inline Elements`_"
 
 #: ../../source/ref/doctree.rst
 msgid "Parents"
-msgstr ""
+msgstr "父母"
 
 #: ../../source/ref/doctree.rst:305
 #, python-format
@@ -457,19 +457,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst
 msgid "Children"
-msgstr ""
+msgstr "孩子"
 
 #: ../../source/ref/doctree.rst:309
 msgid "``abbreviation`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``abbreviation`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst
 msgid "Analogues"
-msgstr ""
+msgstr "类似物"
 
 #: ../../source/ref/doctree.rst:312
 msgid "``abbreviation`` is analogous to the HTML \"abbr\" element."
-msgstr ""
+msgstr "``abbreviation`` is analogous to the HTML \"abbr\" element."
 
 #: ../../source/ref/doctree.rst:315 ../../source/ref/doctree.rst:379
 #: ../../source/ref/doctree.rst:451 ../../source/ref/doctree.rst:518
@@ -502,11 +502,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4310 ../../source/ref/doctree.rst:4378
 #: ../../source/ref/doctree.rst:4448
 msgid "Content Model"
-msgstr ""
+msgstr "内容模型"
 
 #: ../../source/ref/doctree.rst
 msgid "Attributes"
-msgstr ""
+msgstr "属性"
 
 #: ../../source/ref/doctree.rst:322
 msgid ""
@@ -544,7 +544,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4328 ../../source/ref/doctree.rst:4394
 #: ../../source/ref/doctree.rst:4465
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../source/ref/doctree.rst:328
 msgid ""
@@ -554,11 +554,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:331
 msgid "Pseudo-XML_ example from a custom `:abbr:` role::"
-msgstr ""
+msgstr "Pseudo-XML_ 来自自定义的 `:abbr:` role 示例::"
 
 #: ../../source/ref/doctree.rst:340
 msgid "``acronym``"
-msgstr ""
+msgstr "``acronym``"
 
 #: ../../source/ref/doctree.rst:342 ../../source/ref/doctree.rst:551
 #: ../../source/ref/doctree.rst:847 ../../source/ref/doctree.rst:915
@@ -580,11 +580,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4001 ../../source/ref/doctree.rst:4053
 #: ../../source/ref/doctree.rst:4059 ../../source/ref/doctree.rst:4190
 msgid "`To be completed`_."
-msgstr ""
+msgstr "`To be completed`_."
 
 #: ../../source/ref/doctree.rst:346
 msgid "``address``"
-msgstr ""
+msgstr "``address``"
 
 #: ../../source/ref/doctree.rst:348
 msgid ""
@@ -600,23 +600,23 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3404 ../../source/ref/doctree.rst:3552
 #: ../../source/ref/doctree.rst:3823 ../../source/ref/doctree.rst:4359
 msgid "`Bibliographic Elements`_"
-msgstr ""
+msgstr "`Bibliographic Elements`_"
 
 #: ../../source/ref/doctree.rst:362
 msgid "The following elements may contain ``address``: docinfo_, authors_"
-msgstr ""
+msgstr "以下元素可能包含 ``address``: docinfo_, authors_"
 
 #: ../../source/ref/doctree.rst:365
 msgid "``address`` elements contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``address`` elements contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:368
 msgid "``address`` is analogous to the DocBook \"address\" element."
-msgstr ""
+msgstr "``address`` 类似于DocBook \"address\" 元素。"
 
 #: ../../source/ref/doctree.rst
 msgid "Processing"
-msgstr ""
+msgstr "处理"
 
 #: ../../source/ref/doctree.rst:371
 msgid ""
@@ -627,7 +627,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:375
 msgid "See also docinfo_."
-msgstr ""
+msgstr "也可以看看 docinfo_."
 
 #: ../../source/ref/doctree.rst:386
 msgid ""
@@ -637,7 +637,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst
 msgid "Parameter Entities"
-msgstr ""
+msgstr "参数实体"
 
 #: ../../source/ref/doctree.rst:390
 msgid ""
@@ -659,7 +659,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4171 ../../source/ref/doctree.rst:4330
 #: ../../source/ref/doctree.rst:4396
 msgid "reStructuredText_ source::"
-msgstr ""
+msgstr "reStructuredText_ 资源::"
 
 #: ../../source/ref/doctree.rst:405 ../../source/ref/doctree.rst:605
 #: ../../source/ref/doctree.rst:671 ../../source/ref/doctree.rst:1068
@@ -668,7 +668,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3597 ../../source/ref/doctree.rst:3864
 #: ../../source/ref/doctree.rst:3954 ../../source/ref/doctree.rst:4403
 msgid "Complete pseudo-XML_ result after parsing and applying transforms::"
-msgstr ""
+msgstr "解析并应用转换后完成 pseudo-XML_ 结果::"
 
 #: ../../source/ref/doctree.rst:415 ../../source/ref/doctree.rst:614
 #: ../../source/ref/doctree.rst:688 ../../source/ref/doctree.rst:1078
@@ -676,11 +676,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3456 ../../source/ref/doctree.rst:3608
 #: ../../source/ref/doctree.rst:3873 ../../source/ref/doctree.rst:4412
 msgid "See docinfo_ for a more complete example, including processing context."
-msgstr ""
+msgstr "有关更完整的示例，请参阅 docinfo_ ，包括处理上下文。"
 
 #: ../../source/ref/doctree.rst:420
 msgid "``admonition``"
-msgstr ""
+msgstr "``admonition``"
 
 #: ../../source/ref/doctree.rst:422
 msgid ""
@@ -699,7 +699,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3223 ../../source/ref/doctree.rst:4075
 #: ../../source/ref/doctree.rst:4429
 msgid "`Compound Body Elements`_"
-msgstr ""
+msgstr "`Compound Body Elements`_"
 
 #: ../../source/ref/doctree.rst:434
 #, python-format
@@ -722,7 +722,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:447
 msgid "Rendered distinctly (inset and/or in a box, etc.)."
-msgstr ""
+msgstr "清晰呈现（插入和/或在框中等）。"
 
 #: ../../source/ref/doctree.rst:458
 msgid ""
@@ -746,7 +746,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3050 ../../source/ref/doctree.rst:4113
 #: ../../source/ref/doctree.rst:4467
 msgid "reStructuredText source::"
-msgstr ""
+msgstr "reStructuredText 资源::"
 
 #: ../../source/ref/doctree.rst:476 ../../source/ref/doctree.rst:541
 #: ../../source/ref/doctree.rst:751 ../../source/ref/doctree.rst:829
@@ -763,11 +763,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4178 ../../source/ref/doctree.rst:4252
 #: ../../source/ref/doctree.rst:4471
 msgid "Pseudo-XML_ fragment from simple parsing::"
-msgstr ""
+msgstr "Pseudo-XML_ 简单解析的片段::"
 
 #: ../../source/ref/doctree.rst:486
 msgid "``attention``"
-msgstr ""
+msgstr "``attention``"
 
 #: ../../source/ref/doctree.rst:488
 msgid ""
@@ -786,7 +786,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:506
 msgid "``attention`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``attention`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:509
 msgid ""
@@ -816,33 +816,33 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:549
 msgid "``attribution``"
-msgstr ""
+msgstr "``attribution``"
 
 #: ../../source/ref/doctree.rst:555
 msgid "``author``"
-msgstr ""
+msgstr "``author``"
 
 #: ../../source/ref/doctree.rst:557
 msgid "The ``author`` element holds the name of the author of the document."
-msgstr ""
+msgstr "``author`` 元素保存文档作者的姓名。"
 
 #: ../../source/ref/doctree.rst:567
 msgid "The following elements may contain ``author``: docinfo_, authors_"
-msgstr ""
+msgstr "以下元素可能包含 ``author``: docinfo_, authors_"
 
 #: ../../source/ref/doctree.rst:570
 msgid "``author`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``author`` 元素可能包含文本数据和 `inline elements`_。"
 
 #: ../../source/ref/doctree.rst:573
 msgid "``author`` is analogous to the DocBook \"author\" element."
-msgstr ""
+msgstr "``author`` 类似于DocBook  \"author\" 元素。"
 
 #: ../../source/ref/doctree.rst:576 ../../source/ref/doctree.rst:642
 #: ../../source/ref/doctree.rst:1039 ../../source/ref/doctree.rst:1111
 #: ../../source/ref/doctree.rst:3418 ../../source/ref/doctree.rst:3835
 msgid "See docinfo_."
-msgstr ""
+msgstr "查看 docinfo_."
 
 #: ../../source/ref/doctree.rst:587
 msgid ""
@@ -858,7 +858,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:619
 msgid "``authors``"
-msgstr ""
+msgstr "``authors``"
 
 #: ../../source/ref/doctree.rst:621
 msgid ""
@@ -868,7 +868,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:632
 msgid "Only the docinfo_ element contains ``authors``."
-msgstr ""
+msgstr "只有 docinfo_ 元素包含 ``authors`` 。"
 
 #: ../../source/ref/doctree.rst:635
 msgid ""
@@ -878,7 +878,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:639
 msgid "``authors`` is analogous to the DocBook \"authors\" element."
-msgstr ""
+msgstr "``authors`` is analogous to the DocBook \"authors\" element."
 
 #: ../../source/ref/doctree.rst:653
 msgid ""
@@ -902,7 +902,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:693
 msgid "``block_quote``"
-msgstr ""
+msgstr "``block_quote``"
 
 #: ../../source/ref/doctree.rst:695
 msgid ""
@@ -951,7 +951,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:763
 msgid "``bullet_list``"
-msgstr ""
+msgstr "``bullet_list``"
 
 #: ../../source/ref/doctree.rst:765
 msgid ""
@@ -969,7 +969,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:782
 msgid "``bullet_list`` elements contain one or more list_item_ elements."
-msgstr ""
+msgstr "``bullet_list`` elements contain one or more list_item_ elements."
 
 #: ../../source/ref/doctree.rst:785
 msgid ""
@@ -1010,15 +1010,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:841 ../../source/ref/doctree.rst:1988
 msgid "See list_item_ for another example."
-msgstr ""
+msgstr "See list_item_ for another example."
 
 #: ../../source/ref/doctree.rst:845
 msgid "``caption``"
-msgstr ""
+msgstr "``caption``"
 
 #: ../../source/ref/doctree.rst:851
 msgid "``caution``"
-msgstr ""
+msgstr "``caution``"
 
 #: ../../source/ref/doctree.rst:853
 msgid ""
@@ -1037,11 +1037,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:871
 msgid "``caution`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``caution`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:874
 msgid "``caution`` is analogous to the DocBook \"caution\" element."
-msgstr ""
+msgstr "``caution`` is analogous to the DocBook \"caution\" element."
 
 #: ../../source/ref/doctree.rst:877
 msgid ""
@@ -1065,15 +1065,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:913
 msgid "``citation``"
-msgstr ""
+msgstr "``citation``"
 
 #: ../../source/ref/doctree.rst:919
 msgid "``citation_reference``"
-msgstr ""
+msgstr "``citation_reference``"
 
 #: ../../source/ref/doctree.rst:925
 msgid "``classifier``"
-msgstr ""
+msgstr "``classifier``"
 
 #: ../../source/ref/doctree.rst:927
 msgid ""
@@ -1085,15 +1085,15 @@ msgstr ""
 #: ../../source/ref/doctree.rst:936 ../../source/ref/doctree.rst:2252
 #: ../../source/ref/doctree.rst:2605 ../../source/ref/doctree.rst:4015
 msgid "`Body Subelements`_ (simple)"
-msgstr ""
+msgstr "`Body Subelements`_ (simple)"
 
 #: ../../source/ref/doctree.rst:939
 msgid "Only the definition_list_item_ element contains ``classifier``."
-msgstr ""
+msgstr "Only the definition_list_item_ element contains ``classifier``."
 
 #: ../../source/ref/doctree.rst:942
 msgid "``classifier`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``classifier`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:945
 msgid ""
@@ -1104,7 +1104,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:949 ../../source/ref/doctree.rst:1369
 #: ../../source/ref/doctree.rst:1420 ../../source/ref/doctree.rst:4028
 msgid "See definition_list_item_."
-msgstr ""
+msgstr "See definition_list_item_."
 
 #: ../../source/ref/doctree.rst:960
 msgid ""
@@ -1114,23 +1114,23 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:967
 msgid "Here is a hypothetical data dictionary.  reStructuredText_ source::"
-msgstr ""
+msgstr "Here is a hypothetical data dictionary.  reStructuredText_ source::"
 
 #: ../../source/ref/doctree.rst:996
 msgid "``colspec``"
-msgstr ""
+msgstr "``colspec``"
 
 #: ../../source/ref/doctree.rst:1002
 msgid "``comment``"
-msgstr ""
+msgstr "``comment``"
 
 #: ../../source/ref/doctree.rst:1008
 msgid "``compound``"
-msgstr ""
+msgstr "``compound``"
 
 #: ../../source/ref/doctree.rst:1014
 msgid "``contact``"
-msgstr ""
+msgstr "``contact``"
 
 #: ../../source/ref/doctree.rst:1016
 msgid ""
@@ -1141,11 +1141,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1028
 msgid "The following elements may contain ``contact``: docinfo_, authors_"
-msgstr ""
+msgstr "The following elements may contain ``contact``: docinfo_, authors_"
 
 #: ../../source/ref/doctree.rst:1031
 msgid "``contact`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``contact`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:1035
 msgid ""
@@ -1167,27 +1167,27 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1083
 msgid "``container``"
-msgstr ""
+msgstr "``container``"
 
 #: ../../source/ref/doctree.rst:1089
 msgid "``copyright``"
-msgstr ""
+msgstr "``copyright``"
 
 #: ../../source/ref/doctree.rst:1091
 msgid "The ``copyright`` element contains the document's copyright statement."
-msgstr ""
+msgstr "The ``copyright`` element contains the document's copyright statement."
 
 #: ../../source/ref/doctree.rst:1101
 msgid "Only the docinfo_ element contains ``copyright``."
-msgstr ""
+msgstr "Only the docinfo_ element contains ``copyright``."
 
 #: ../../source/ref/doctree.rst:1104
 msgid "``copyright`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``copyright`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:1108
 msgid "``copyright`` is analogous to the DocBook \"copyright\" element."
-msgstr ""
+msgstr "``copyright`` is analogous to the DocBook \"copyright\" element."
 
 #: ../../source/ref/doctree.rst:1122
 msgid ""
@@ -1203,7 +1203,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1154
 msgid "``danger``"
-msgstr ""
+msgstr "``danger``"
 
 #: ../../source/ref/doctree.rst:1156
 msgid ""
@@ -1222,7 +1222,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1174
 msgid "``danger`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``danger`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:1177
 msgid ""
@@ -1251,7 +1251,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1217
 msgid "``date``"
-msgstr ""
+msgstr "``date``"
 
 #: ../../source/ref/doctree.rst:1219
 msgid ""
@@ -1261,19 +1261,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1230
 msgid "Only the docinfo_ element contains ``date``."
-msgstr ""
+msgstr "Only the docinfo_ element contains ``date``."
 
 #: ../../source/ref/doctree.rst:1233
 msgid "``date`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``date`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:1236
 msgid "``date`` is analogous to the DocBook \"date\" element."
-msgstr ""
+msgstr "``date`` is analogous to the DocBook \"date\" element."
 
 #: ../../source/ref/doctree.rst:1239
 msgid "Often used with the RCS/CVS keyword \"Date\".  See docinfo_."
-msgstr ""
+msgstr "Often used with the RCS/CVS keyword \"Date\".  See docinfo_."
 
 #: ../../source/ref/doctree.rst:1250
 msgid ""
@@ -1289,7 +1289,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1282
 msgid "``decoration``"
-msgstr ""
+msgstr "``decoration``"
 
 #: ../../source/ref/doctree.rst:1284
 msgid ""
@@ -1302,15 +1302,15 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3911 ../../source/ref/doctree.rst:4137
 #: ../../source/ref/doctree.rst:4289
 msgid "`Structural Subelements`_"
-msgstr ""
+msgstr "`Structural Subelements`_"
 
 #: ../../source/ref/doctree.rst:1296
 msgid "Only the document_ element contains ``decoration``."
-msgstr ""
+msgstr "Only the document_ element contains ``decoration``."
 
 #: ../../source/ref/doctree.rst:1299
 msgid "``decoration`` elements may contain `decorative elements`_."
-msgstr ""
+msgstr "``decoration`` elements may contain `decorative elements`_."
 
 #: ../../source/ref/doctree.rst:1302
 msgid ""
@@ -1321,7 +1321,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1307
 msgid "See the individual `decorative elements`_."
-msgstr ""
+msgstr "See the individual `decorative elements`_."
 
 #: ../../source/ref/doctree.rst:1317
 msgid ""
@@ -1344,7 +1344,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1346
 msgid "``definition``"
-msgstr ""
+msgstr "``definition``"
 
 #: ../../source/ref/doctree.rst:1348
 msgid ""
@@ -1355,15 +1355,15 @@ msgstr ""
 #: ../../source/ref/doctree.rst:1356 ../../source/ref/doctree.rst:1485
 #: ../../source/ref/doctree.rst:2766
 msgid "`Body Subelements`_ (compound)"
-msgstr ""
+msgstr "`Body Subelements`_ (compound)"
 
 #: ../../source/ref/doctree.rst:1359
 msgid "Only definition_list_item_ elements contain ``definition``."
-msgstr ""
+msgstr "Only definition_list_item_ elements contain ``definition``."
 
 #: ../../source/ref/doctree.rst:1362
 msgid "``definition`` elements may contain `body elements`_."
-msgstr ""
+msgstr "``definition`` elements may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:1365
 msgid ""
@@ -1385,7 +1385,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1392
 msgid "``definition_list``"
-msgstr ""
+msgstr "``definition_list``"
 
 #: ../../source/ref/doctree.rst:1394
 msgid ""
@@ -1431,11 +1431,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1471
 msgid "See definition_list_item_ and classifier_ for further examples."
-msgstr ""
+msgstr "See definition_list_item_ and classifier_ for further examples."
 
 #: ../../source/ref/doctree.rst:1475
 msgid "``definition_list_item``"
-msgstr ""
+msgstr "``definition_list_item``"
 
 #: ../../source/ref/doctree.rst:1477
 msgid ""
@@ -1445,7 +1445,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1488
 msgid "Only the definition_list_ element contains ``definition_list_item``."
-msgstr ""
+msgstr "Only the definition_list_ element contains ``definition_list_item``."
 
 #: ../../source/ref/doctree.rst:1492
 msgid ""
@@ -1474,11 +1474,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1556
 msgid "See definition_list_ and classifier_ for further examples."
-msgstr ""
+msgstr "See definition_list_ and classifier_ for further examples."
 
 #: ../../source/ref/doctree.rst:1560
 msgid "``description``"
-msgstr ""
+msgstr "``description``"
 
 #: ../../source/ref/doctree.rst:1562
 msgid ""
@@ -1491,24 +1491,24 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3119 ../../source/ref/doctree.rst:3172
 #: ../../source/ref/doctree.rst:3314 ../../source/ref/doctree.rst:3359
 msgid "`Body Subelements`_"
-msgstr ""
+msgstr "`Body Subelements`_"
 
 #: ../../source/ref/doctree.rst:1573
 msgid "Only the option_list_item_ element contains ``description``."
-msgstr ""
+msgstr "Only the option_list_item_ element contains ``description``."
 
 #: ../../source/ref/doctree.rst:1576
 msgid "``description`` elements may contain `body elements`_."
-msgstr ""
+msgstr "``description`` elements may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:1579
 msgid "``description`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``description`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:1582 ../../source/ref/doctree.rst:3087
 #: ../../source/ref/doctree.rst:3327
 msgid "See option_list_."
-msgstr ""
+msgstr "See option_list_."
 
 #: ../../source/ref/doctree.rst:1593
 msgid ""
@@ -1520,11 +1520,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3158 ../../source/ref/doctree.rst:3208
 #: ../../source/ref/doctree.rst:3345 ../../source/ref/doctree.rst:3390
 msgid "See the examples for the option_list_ element."
-msgstr ""
+msgstr "See the examples for the option_list_ element."
 
 #: ../../source/ref/doctree.rst:1604
 msgid "``docinfo``"
-msgstr ""
+msgstr "``docinfo``"
 
 #: ../../source/ref/doctree.rst:1606
 msgid ""
@@ -1535,11 +1535,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1618
 msgid "Only the document_ element contains ``docinfo``."
-msgstr ""
+msgstr "Only the document_ element contains ``docinfo``."
 
 #: ../../source/ref/doctree.rst:1621
 msgid "``docinfo`` elements contain `bibliographic elements`_."
-msgstr ""
+msgstr "``docinfo`` elements contain `bibliographic elements`_."
 
 #: ../../source/ref/doctree.rst:1624
 msgid ""
@@ -1594,7 +1594,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1709
 msgid "``doctest_block``"
-msgstr ""
+msgstr "``doctest_block``"
 
 #: ../../source/ref/doctree.rst:1711
 msgid ""
@@ -1610,7 +1610,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:1728 ../../source/ref/doctree.rst:2847
 #: ../../source/ref/doctree.rst:2968 ../../source/ref/doctree.rst:3471
 msgid "`Simple Body Elements`_"
-msgstr ""
+msgstr "`Simple Body Elements`_"
 
 #: ../../source/ref/doctree.rst:1731
 #, python-format
@@ -1621,7 +1621,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1736
 msgid "``doctest_block`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``doctest_block`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:1740
 msgid ""
@@ -1652,7 +1652,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1786
 msgid "``document``"
-msgstr ""
+msgstr "``document``"
 
 #: ../../source/ref/doctree.rst:1788
 msgid ""
@@ -1665,11 +1665,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:1798 ../../source/ref/doctree.rst:3647
 #: ../../source/ref/doctree.rst:3751 ../../source/ref/doctree.rst:4207
 msgid "`Structural Elements`_"
-msgstr ""
+msgstr "`Structural Elements`_"
 
 #: ../../source/ref/doctree.rst:1801
 msgid "The ``document`` element has no parents."
-msgstr ""
+msgstr "The ``document`` element has no parents."
 
 #: ../../source/ref/doctree.rst:1804
 msgid ""
@@ -1716,7 +1716,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1854
 msgid "Complete pseudo-XML_ result from simple parsing::"
-msgstr ""
+msgstr "Complete pseudo-XML_ result from simple parsing::"
 
 #: ../../source/ref/doctree.rst:1863
 msgid ""
@@ -1726,15 +1726,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1874
 msgid "``emphasis``"
-msgstr ""
+msgstr "``emphasis``"
 
 #: ../../source/ref/doctree.rst:1880
 msgid "``entry``"
-msgstr ""
+msgstr "``entry``"
 
 #: ../../source/ref/doctree.rst:1886
 msgid "``enumerated_list``"
-msgstr ""
+msgstr "``enumerated_list``"
 
 #: ../../source/ref/doctree.rst:1888
 msgid ""
@@ -1752,7 +1752,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1904
 msgid "``enumerated_list`` elements contain one or more list_item_ elements."
-msgstr ""
+msgstr "``enumerated_list`` elements contain one or more list_item_ elements."
 
 #: ../../source/ref/doctree.rst:1908
 msgid ""
@@ -1816,7 +1816,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:1992
 msgid "``error``"
-msgstr ""
+msgstr "``error``"
 
 #: ../../source/ref/doctree.rst:1994
 msgid ""
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2013
 msgid "``error`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``error`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:2016
 msgid ""
@@ -1864,7 +1864,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2056
 msgid "``field``"
-msgstr ""
+msgstr "``field``"
 
 #: ../../source/ref/doctree.rst:2058
 msgid ""
@@ -1874,7 +1874,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2069
 msgid "The following elements may contain ``field``: docinfo_, field_list_"
-msgstr ""
+msgstr "The following elements may contain ``field``: docinfo_, field_list_"
 
 #: ../../source/ref/doctree.rst:2073
 msgid ""
@@ -1884,12 +1884,12 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2077
 msgid "``field`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``field`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:2080 ../../source/ref/doctree.rst:2128
 #: ../../source/ref/doctree.rst:2264
 msgid "See field_list_."
-msgstr ""
+msgstr "See field_list_."
 
 #: ../../source/ref/doctree.rst:2091
 msgid ""
@@ -1906,11 +1906,11 @@ msgstr ""
 #: ../../source/ref/doctree.rst:2102 ../../source/ref/doctree.rst:2146
 #: ../../source/ref/doctree.rst:2282
 msgid "See the examples for the field_list_ and docinfo_ elements."
-msgstr ""
+msgstr "See the examples for the field_list_ and docinfo_ elements."
 
 #: ../../source/ref/doctree.rst:2106
 msgid "``field_body``"
-msgstr ""
+msgstr "``field_body``"
 
 #: ../../source/ref/doctree.rst:2108
 msgid ""
@@ -1920,15 +1920,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2119
 msgid "Only the field_ element contains ``field_body``."
-msgstr ""
+msgstr "Only the field_ element contains ``field_body``."
 
 #: ../../source/ref/doctree.rst:2122
 msgid "``field_body`` elements may contain `body elements`_."
-msgstr ""
+msgstr "``field_body`` elements may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:2125
 msgid "``field_body`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``field_body`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:2139
 msgid ""
@@ -1938,7 +1938,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2150
 msgid "``field_list``"
-msgstr ""
+msgstr "``field_list``"
 
 #: ../../source/ref/doctree.rst:2152
 msgid ""
@@ -1958,7 +1958,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2171
 msgid "``field_list`` elements contain one or more field_ elements."
-msgstr ""
+msgstr "``field_list`` elements contain one or more field_ elements."
 
 #: ../../source/ref/doctree.rst:2174
 msgid ""
@@ -1990,7 +1990,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2242
 msgid "``field_name``"
-msgstr ""
+msgstr "``field_name``"
 
 #: ../../source/ref/doctree.rst:2244
 msgid ""
@@ -2000,15 +2000,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2255
 msgid "Only the field_ element contains ``field_name``."
-msgstr ""
+msgstr "Only the field_ element contains ``field_name``."
 
 #: ../../source/ref/doctree.rst:2258
 msgid "``field_name`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``field_name`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:2261
 msgid "``field_name`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``field_name`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:2275
 msgid ""
@@ -2018,11 +2018,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2286
 msgid "``figure``"
-msgstr ""
+msgstr "``figure``"
 
 #: ../../source/ref/doctree.rst:2292
 msgid "``footer``"
-msgstr ""
+msgstr "``footer``"
 
 #: ../../source/ref/doctree.rst:2294
 msgid ""
@@ -2034,15 +2034,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2305 ../../source/ref/doctree.rst:2385
 msgid "`Decorative Elements`_"
-msgstr ""
+msgstr "`Decorative Elements`_"
 
 #: ../../source/ref/doctree.rst:2308
 msgid "Only the decoration_ element contains ``footer``."
-msgstr ""
+msgstr "Only the decoration_ element contains ``footer``."
 
 #: ../../source/ref/doctree.rst:2311
 msgid "``footer`` elements may contain `body elements`_."
-msgstr ""
+msgstr "``footer`` elements may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:2314
 msgid ""
@@ -2059,15 +2059,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2352
 msgid "``footnote``"
-msgstr ""
+msgstr "``footnote``"
 
 #: ../../source/ref/doctree.rst:2358
 msgid "``footnote_reference``"
-msgstr ""
+msgstr "``footnote_reference``"
 
 #: ../../source/ref/doctree.rst:2364
 msgid "``generated``"
-msgstr ""
+msgstr "``generated``"
 
 #: ../../source/ref/doctree.rst:2366
 msgid ""
@@ -2078,7 +2078,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2374
 msgid "``header``"
-msgstr ""
+msgstr "``header``"
 
 #: ../../source/ref/doctree.rst:2376
 msgid ""
@@ -2088,11 +2088,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2388
 msgid "Only the decoration_ element contains ``header``."
-msgstr ""
+msgstr "Only the decoration_ element contains ``header``."
 
 #: ../../source/ref/doctree.rst:2391
 msgid "``header`` elements may contain `body elements`_."
-msgstr ""
+msgstr "``header`` elements may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:2394
 msgid ""
@@ -2109,11 +2109,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2414
 msgid "reStructuredText source fragment::"
-msgstr ""
+msgstr "reStructuredText source fragment::"
 
 #: ../../source/ref/doctree.rst:2428
 msgid "``hint``"
-msgstr ""
+msgstr "``hint``"
 
 #: ../../source/ref/doctree.rst:2430
 msgid ""
@@ -2132,7 +2132,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2449
 msgid "``hint`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``hint`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:2452
 msgid ""
@@ -2161,11 +2161,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2492
 msgid "``image``"
-msgstr ""
+msgstr "``image``"
 
 #: ../../source/ref/doctree.rst:2498
 msgid "``important``"
-msgstr ""
+msgstr "``important``"
 
 #: ../../source/ref/doctree.rst:2500
 msgid ""
@@ -2184,11 +2184,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2519
 msgid "``important`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``important`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:2522
 msgid "``important`` is analogous to the DocBook \"important\" element."
-msgstr ""
+msgstr "``important`` is analogous to the DocBook \"important\" element."
 
 #: ../../source/ref/doctree.rst:2525
 msgid ""
@@ -2212,19 +2212,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2577
 msgid "``inline``"
-msgstr ""
+msgstr "``inline``"
 
 #: ../../source/ref/doctree.rst:2583
 msgid "``label``"
-msgstr ""
+msgstr "``label``"
 
 #: ../../source/ref/doctree.rst:2589
 msgid "``legend``"
-msgstr ""
+msgstr "``legend``"
 
 #: ../../source/ref/doctree.rst:2595
 msgid "``line``"
-msgstr ""
+msgstr "``line``"
 
 #: ../../source/ref/doctree.rst:2597
 msgid ""
@@ -2234,11 +2234,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2608
 msgid "Only the `line_block`_ element contains ``line``."
-msgstr ""
+msgstr "Only the `line_block`_ element contains ``line``."
 
 #: ../../source/ref/doctree.rst:2611
 msgid "``line`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``line`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:2614
 msgid ""
@@ -2248,7 +2248,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2618 ../../source/ref/doctree.rst:2636
 msgid "See `line_block`_."
-msgstr ""
+msgstr "See `line_block`_."
 
 #: ../../source/ref/doctree.rst:2629
 msgid ""
@@ -2258,7 +2258,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2640
 msgid "``line_block``"
-msgstr ""
+msgstr "``line_block``"
 
 #: ../../source/ref/doctree.rst:2642
 msgid ""
@@ -2318,19 +2318,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2756
 msgid "``list_item``"
-msgstr ""
+msgstr "``list_item``"
 
 #: ../../source/ref/doctree.rst:2758
 msgid "The ``list_item`` element is a container for the elements of a list item."
-msgstr ""
+msgstr "The ``list_item`` element is a container for the elements of a list item."
 
 #: ../../source/ref/doctree.rst:2769
 msgid "The bullet_list_ and enumerated_list_ elements contain ``list_item``."
-msgstr ""
+msgstr "The bullet_list_ and enumerated_list_ elements contain ``list_item``."
 
 #: ../../source/ref/doctree.rst:2773
 msgid "``list_item`` elements may contain `body elements`_."
-msgstr ""
+msgstr "``list_item`` elements may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:2776
 msgid ""
@@ -2340,7 +2340,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2780
 msgid "See bullet_list_ or enumerated_list_."
-msgstr ""
+msgstr "See bullet_list_ or enumerated_list_."
 
 #: ../../source/ref/doctree.rst:2791
 msgid ""
@@ -2350,15 +2350,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2824
 msgid "See bullet_list_ or enumerated_list_ for further examples."
-msgstr ""
+msgstr "See bullet_list_ or enumerated_list_ for further examples."
 
 #: ../../source/ref/doctree.rst:2828
 msgid "``literal``"
-msgstr ""
+msgstr "``literal``"
 
 #: ../../source/ref/doctree.rst:2834
 msgid "``literal_block``"
-msgstr ""
+msgstr "``literal_block``"
 
 #: ../../source/ref/doctree.rst:2836
 msgid ""
@@ -2378,7 +2378,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2855
 msgid "``literal_block`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``literal_block`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:2859
 msgid ""
@@ -2409,7 +2409,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2908
 msgid "``math``"
-msgstr ""
+msgstr "``math``"
 
 #: ../../source/ref/doctree.rst:2910
 msgid ""
@@ -2432,7 +2432,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2927
 msgid "``math`` elements may contain text data."
-msgstr ""
+msgstr "``math`` elements may contain text data."
 
 #: ../../source/ref/doctree.rst:2930
 msgid ""
@@ -2442,7 +2442,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2934
 msgid "Rendered as mathematical notation."
-msgstr ""
+msgstr "Rendered as mathematical notation."
 
 #: ../../source/ref/doctree.rst:2944 ../../source/ref/doctree.rst:2994
 msgid ""
@@ -2458,7 +2458,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2954
 msgid "``math_block``"
-msgstr ""
+msgstr "``math_block``"
 
 #: ../../source/ref/doctree.rst:2956
 msgid ""
@@ -2477,7 +2477,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2976
 msgid "``math_block`` elements may contain text data."
-msgstr ""
+msgstr "``math_block`` elements may contain text data."
 
 #: ../../source/ref/doctree.rst:2979
 msgid ""
@@ -2493,7 +2493,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:2999
 msgid "``note``"
-msgstr ""
+msgstr "``note``"
 
 #: ../../source/ref/doctree.rst:3001
 msgid ""
@@ -2512,11 +2512,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3020
 msgid "``note`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``note`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:3023
 msgid "``note`` is analogous to the DocBook \"note\" element."
-msgstr ""
+msgstr "``note`` is analogous to the DocBook \"note\" element."
 
 #: ../../source/ref/doctree.rst:3026
 msgid ""
@@ -2539,7 +2539,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3063
 msgid "``option``"
-msgstr ""
+msgstr "``option``"
 
 #: ../../source/ref/doctree.rst:3065
 msgid ""
@@ -2550,7 +2550,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3077
 msgid "Only the option_group_ element contains ``option``."
-msgstr ""
+msgstr "Only the option_group_ element contains ``option``."
 
 #: ../../source/ref/doctree.rst:3080
 msgid ""
@@ -2560,7 +2560,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3084
 msgid "``option`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``option`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:3098
 msgid ""
@@ -2570,7 +2570,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3109
 msgid "``option_argument``"
-msgstr ""
+msgstr "``option_argument``"
 
 #: ../../source/ref/doctree.rst:3111
 msgid ""
@@ -2580,15 +2580,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3122
 msgid "Only the option_ element contains ``option_argument``."
-msgstr ""
+msgstr "Only the option_ element contains ``option_argument``."
 
 #: ../../source/ref/doctree.rst:3125
 msgid "``option_argument`` elements contain text data only."
-msgstr ""
+msgstr "``option_argument`` elements contain text data only."
 
 #: ../../source/ref/doctree.rst:3128
 msgid "``option_argument`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``option_argument`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:3131
 msgid ""
@@ -2615,7 +2615,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3162
 msgid "``option_group``"
-msgstr ""
+msgstr "``option_group``"
 
 #: ../../source/ref/doctree.rst:3164
 msgid ""
@@ -2625,23 +2625,23 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3175
 msgid "Only the option_list_item_ element contains ``option_group``."
-msgstr ""
+msgstr "Only the option_list_item_ element contains ``option_group``."
 
 #: ../../source/ref/doctree.rst:3178
 msgid "``option_group`` elements contain one or more option_ elements."
-msgstr ""
+msgstr "``option_group`` elements contain one or more option_ elements."
 
 #: ../../source/ref/doctree.rst:3180
 msgid "``option_group`` is an empty element and has no children."
-msgstr ""
+msgstr "``option_group`` is an empty element and has no children."
 
 #: ../../source/ref/doctree.rst:3182
 msgid "Each ``option_group`` element contains one _ and one _ element."
-msgstr ""
+msgstr "Each ``option_group`` element contains one _ and one _ element."
 
 #: ../../source/ref/doctree.rst:3186
 msgid "``option_group`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``option_group`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:3189
 msgid ""
@@ -2657,7 +2657,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3212
 msgid "``option_list``"
-msgstr ""
+msgstr "``option_list``"
 
 #: ../../source/ref/doctree.rst:3214
 msgid ""
@@ -2674,7 +2674,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3231
 msgid "``option_list`` elements contain one or more option_list_item_ elements."
-msgstr ""
+msgstr "``option_list`` elements contain one or more option_list_item_ elements."
 
 #: ../../source/ref/doctree.rst:3235
 msgid ""
@@ -2705,7 +2705,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3304
 msgid "``option_list_item``"
-msgstr ""
+msgstr "``option_list_item``"
 
 #: ../../source/ref/doctree.rst:3306
 msgid ""
@@ -2715,7 +2715,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3317
 msgid "Only the option_list_ element contains ``option_list_item``."
-msgstr ""
+msgstr "Only the option_list_ element contains ``option_list_item``."
 
 #: ../../source/ref/doctree.rst:3320
 msgid ""
@@ -2725,7 +2725,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3324
 msgid "``option_list_item`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``option_list_item`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:3338
 msgid ""
@@ -2735,27 +2735,27 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3349
 msgid "``option_string``"
-msgstr ""
+msgstr "``option_string``"
 
 #: ../../source/ref/doctree.rst:3351
 msgid "The ``option_string`` element contains the text of a command-line option."
-msgstr ""
+msgstr "The ``option_string`` element contains the text of a command-line option."
 
 #: ../../source/ref/doctree.rst:3362
 msgid "Only the option_ element contains ``option_string``."
-msgstr ""
+msgstr "Only the option_ element contains ``option_string``."
 
 #: ../../source/ref/doctree.rst:3365
 msgid "``option_string`` elements contain text data only."
-msgstr ""
+msgstr "``option_string`` elements contain text data only."
 
 #: ../../source/ref/doctree.rst:3368
 msgid "``option_string`` has no direct analogues in common DTDs."
-msgstr ""
+msgstr "``option_string`` has no direct analogues in common DTDs."
 
 #: ../../source/ref/doctree.rst:3371
 msgid "The ``option_string`` text is typically rendered in a monospaced typeface."
-msgstr ""
+msgstr "The ``option_string`` text is typically rendered in a monospaced typeface."
 
 #: ../../source/ref/doctree.rst:3383
 msgid ""
@@ -2765,7 +2765,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3394
 msgid "``organization``"
-msgstr ""
+msgstr "``organization``"
 
 #: ../../source/ref/doctree.rst:3396
 msgid ""
@@ -2775,11 +2775,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3407
 msgid "Only the docinfo_ element contains ``organization``."
-msgstr ""
+msgstr "Only the docinfo_ element contains ``organization``."
 
 #: ../../source/ref/doctree.rst:3410
 msgid "``organization`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``organization`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:3414
 msgid ""
@@ -2801,7 +2801,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3461
 msgid "``paragraph``"
-msgstr ""
+msgstr "``paragraph``"
 
 #: ../../source/ref/doctree.rst:3463
 msgid ""
@@ -2818,7 +2818,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3479
 msgid "``paragraph`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``paragraph`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:3483
 msgid ""
@@ -2842,23 +2842,23 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3518
 msgid "``pending``"
-msgstr ""
+msgstr "``pending``"
 
 #: ../../source/ref/doctree.rst:3524
 msgid "``problematic``"
-msgstr ""
+msgstr "``problematic``"
 
 #: ../../source/ref/doctree.rst:3530
 msgid "``raw``"
-msgstr ""
+msgstr "``raw``"
 
 #: ../../source/ref/doctree.rst:3536
 msgid "``reference``"
-msgstr ""
+msgstr "``reference``"
 
 #: ../../source/ref/doctree.rst:3542
 msgid "``revision``"
-msgstr ""
+msgstr "``revision``"
 
 #: ../../source/ref/doctree.rst:3544
 msgid ""
@@ -2868,11 +2868,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3555
 msgid "Only the docinfo_ element contains ``revision``."
-msgstr ""
+msgstr "Only the docinfo_ element contains ``revision``."
 
 #: ../../source/ref/doctree.rst:3558
 msgid "``revision`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``revision`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:3562
 msgid ""
@@ -2883,7 +2883,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3567
 msgid "Often used with the RCS/CVS keyword \"Revision\".  See docinfo_."
-msgstr ""
+msgstr "Often used with the RCS/CVS keyword \"Revision\".  See docinfo_."
 
 #: ../../source/ref/doctree.rst:3578
 msgid ""
@@ -2899,11 +2899,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3613
 msgid "``row``"
-msgstr ""
+msgstr "``row``"
 
 #: ../../source/ref/doctree.rst:3619
 msgid "``rubric``"
-msgstr ""
+msgstr "``rubric``"
 
 #: ../../source/ref/doctree.rst:3621
 msgid ""
@@ -2914,7 +2914,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3630
 msgid "Random House Webster's College Dictionary, 1991"
-msgstr ""
+msgstr "Random House Webster's College Dictionary, 1991"
 
 #: ../../source/ref/doctree.rst:3627
 msgid ""
@@ -2924,7 +2924,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3634
 msgid "``section``"
-msgstr ""
+msgstr "``section``"
 
 #: ../../source/ref/doctree.rst:3636
 msgid ""
@@ -2937,7 +2937,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3650
 msgid "The following elements may contain ``section``: document_, section_"
-msgstr ""
+msgstr "The following elements may contain ``section``: document_, section_"
 
 #: ../../source/ref/doctree.rst:3654
 msgid ""
@@ -2974,11 +2974,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3704 ../../source/ref/doctree.rst:4338
 msgid "Complete pseudo-XML_ result after parsing::"
-msgstr ""
+msgstr "Complete pseudo-XML_ result after parsing::"
 
 #: ../../source/ref/doctree.rst:3730
 msgid "``sidebar``"
-msgstr ""
+msgstr "``sidebar``"
 
 #: ../../source/ref/doctree.rst:3732
 msgid ""
@@ -3001,7 +3001,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3754
 msgid "The following elements may contain ``sidebar``: document_, section_"
-msgstr ""
+msgstr "The following elements may contain ``sidebar``: document_, section_"
 
 #: ../../source/ref/doctree.rst:3758
 msgid ""
@@ -3011,7 +3011,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3762
 msgid "``sidebar`` is analogous to the DocBook \"sidebar\" element."
-msgstr ""
+msgstr "``sidebar`` is analogous to the DocBook \"sidebar\" element."
 
 #: ../../source/ref/doctree.rst:3765
 msgid ""
@@ -3029,7 +3029,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:3784
 #, python-format
 msgid "The `%structure.model;`_ parameter entity directly includes ``sidebar``."
-msgstr ""
+msgstr "The `%structure.model;`_ parameter entity directly includes ``sidebar``."
 
 #: ../../source/ref/doctree.rst:3791
 msgid ""
@@ -3039,7 +3039,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3813
 msgid "``status``"
-msgstr ""
+msgstr "``status``"
 
 #: ../../source/ref/doctree.rst:3815
 msgid ""
@@ -3049,15 +3049,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3826
 msgid "Only the docinfo_ element contains ``status``."
-msgstr ""
+msgstr "Only the docinfo_ element contains ``status``."
 
 #: ../../source/ref/doctree.rst:3829
 msgid "``status`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``status`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:3832
 msgid "``status`` is analogous to the DocBook \"status\" element."
-msgstr ""
+msgstr "``status`` is analogous to the DocBook \"status\" element."
 
 #: ../../source/ref/doctree.rst:3846
 msgid ""
@@ -3073,35 +3073,35 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3878
 msgid "``strong``"
-msgstr ""
+msgstr "``strong``"
 
 #: ../../source/ref/doctree.rst:3884
 msgid "``subscript``"
-msgstr ""
+msgstr "``subscript``"
 
 #: ../../source/ref/doctree.rst:3890
 msgid "``substitution_definition``"
-msgstr ""
+msgstr "``substitution_definition``"
 
 #: ../../source/ref/doctree.rst:3896
 msgid "``substitution_reference``"
-msgstr ""
+msgstr "``substitution_reference``"
 
 #: ../../source/ref/doctree.rst:3902
 msgid "``subtitle``"
-msgstr ""
+msgstr "``subtitle``"
 
 #: ../../source/ref/doctree.rst:3904
 msgid "The ``subtitle`` element stores the subtitle of a document_."
-msgstr ""
+msgstr "The ``subtitle`` element stores the subtitle of a document_."
 
 #: ../../source/ref/doctree.rst:3914
 msgid "The document_ and sidebar_ elements may contain ``subtitle``."
-msgstr ""
+msgstr "The document_ and sidebar_ elements may contain ``subtitle``."
 
 #: ../../source/ref/doctree.rst:3917
 msgid "``subtitle`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``subtitle`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:3921
 msgid ""
@@ -3111,7 +3111,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3925
 msgid "A document's subtitle is usually rendered smaller than its title_."
-msgstr ""
+msgstr "A document's subtitle is usually rendered smaller than its title_."
 
 #: ../../source/ref/doctree.rst:3936
 msgid ""
@@ -3129,15 +3129,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3971
 msgid "``superscript``"
-msgstr ""
+msgstr "``superscript``"
 
 #: ../../source/ref/doctree.rst:3977
 msgid "``system_message``"
-msgstr ""
+msgstr "``system_message``"
 
 #: ../../source/ref/doctree.rst:3983
 msgid "``table``"
-msgstr ""
+msgstr "``表格``"
 
 #: ../../source/ref/doctree.rst:3985
 msgid ""
@@ -3148,15 +3148,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:3993
 msgid "``target``"
-msgstr ""
+msgstr "``target``"
 
 #: ../../source/ref/doctree.rst:3999
 msgid "``tbody``"
-msgstr ""
+msgstr "``tbody``"
 
 #: ../../source/ref/doctree.rst:4005
 msgid "``term``"
-msgstr ""
+msgstr "``term``"
 
 #: ../../source/ref/doctree.rst:4007
 msgid ""
@@ -3166,11 +3166,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4018
 msgid "Only the definition_list_item_ element contains ``term``."
-msgstr ""
+msgstr "只有 definition_list_item_ 元素包含 ``term`` 。"
 
 #: ../../source/ref/doctree.rst:4021
 msgid "``term`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``term`` 元素可能包含文本数据和 `inline elements`_ 。"
 
 #: ../../source/ref/doctree.rst:4024
 msgid ""
@@ -3186,15 +3186,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4051
 msgid "``tgroup``"
-msgstr ""
+msgstr "``tgroup``"
 
 #: ../../source/ref/doctree.rst:4057
 msgid "``thead``"
-msgstr ""
+msgstr "``thead``"
 
 #: ../../source/ref/doctree.rst:4063
 msgid "``tip``"
-msgstr ""
+msgstr "``tip``"
 
 #: ../../source/ref/doctree.rst:4065
 msgid ""
@@ -3213,11 +3213,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4083
 msgid "``tip`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``tip`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:4086
 msgid "``tip`` is analogous to the DocBook \"tip\" element."
-msgstr ""
+msgstr "``tip`` is analogous to the DocBook \"tip\" element."
 
 #: ../../source/ref/doctree.rst:4089
 msgid ""
@@ -3240,7 +3240,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4127 ../../source/ref/doctree.rst:4739
 msgid "``title``"
-msgstr ""
+msgstr "``title``"
 
 #: ../../source/ref/doctree.rst:4129
 msgid ""
@@ -3256,7 +3256,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4144
 msgid "``title`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``title`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:4147
 msgid ""
@@ -3272,7 +3272,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4162
 msgid "``refid`` is used as a backlink to a table of contents entry."
-msgstr ""
+msgstr "``refid`` is used as a backlink to a table of contents entry."
 
 #: ../../source/ref/doctree.rst:4164
 msgid ""
@@ -3282,11 +3282,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4188
 msgid "``title_reference``"
-msgstr ""
+msgstr "``title_reference``"
 
 #: ../../source/ref/doctree.rst:4194
 msgid "``topic``"
-msgstr ""
+msgstr "``topic``"
 
 #: ../../source/ref/doctree.rst:4196
 msgid ""
@@ -3305,11 +3305,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4214
 msgid "``topic`` elements begin with a title_ and may contain `body elements`_."
-msgstr ""
+msgstr "``topic`` elements begin with a title_ and may contain `body elements`_."
 
 #: ../../source/ref/doctree.rst:4218
 msgid "``topic`` is analogous to the DocBook \"simplesect\" element."
-msgstr ""
+msgstr "``topic`` is analogous to the DocBook \"simplesect\" element."
 
 #: ../../source/ref/doctree.rst:4221
 msgid ""
@@ -3326,7 +3326,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4238
 #, python-format
 msgid "The `%structure.model;`_ parameter entity directly includes ``topic``."
-msgstr ""
+msgstr "The `%structure.model;`_ parameter entity directly includes ``topic``."
 
 #: ../../source/ref/doctree.rst:4245
 msgid ""
@@ -3336,7 +3336,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4264
 msgid "``transition``"
-msgstr ""
+msgstr "``transition``"
 
 #: ../../source/ref/doctree.rst:4266
 msgid ""
@@ -3363,15 +3363,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4292
 msgid "The following elements may contain ``transition``: document_, section_"
-msgstr ""
+msgstr "The following elements may contain ``transition``: document_, section_"
 
 #: ../../source/ref/doctree.rst:4296
 msgid "``transition`` is an empty element and has no children."
-msgstr ""
+msgstr "``transition`` is an empty element and has no children."
 
 #: ../../source/ref/doctree.rst:4299
 msgid "``transition`` is analogous to the HTML \"hr\" element."
-msgstr ""
+msgstr "``transition`` is analogous to the HTML \"hr\" element."
 
 #: ../../source/ref/doctree.rst:4302
 msgid ""
@@ -3383,7 +3383,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4316
 msgid "The ``transition`` element has no content; it is a \"point element\"."
-msgstr ""
+msgstr "The ``transition`` element has no content; it is a \"point element\"."
 
 #: ../../source/ref/doctree.rst:4319
 msgid ""
@@ -3400,7 +3400,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4349
 msgid "``version``"
-msgstr ""
+msgstr "``version``"
 
 #: ../../source/ref/doctree.rst:4351
 msgid ""
@@ -3410,11 +3410,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4362
 msgid "Only the docinfo_ element contains ``version``."
-msgstr ""
+msgstr "Only the docinfo_ element contains ``version``."
 
 #: ../../source/ref/doctree.rst:4365
 msgid "``version`` elements may contain text data plus `inline elements`_."
-msgstr ""
+msgstr "``version`` elements may contain text data plus `inline elements`_."
 
 #: ../../source/ref/doctree.rst:4369
 msgid ""
@@ -3442,7 +3442,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4417
 msgid "``warning``"
-msgstr ""
+msgstr "``warning``"
 
 #: ../../source/ref/doctree.rst:4419
 msgid ""
@@ -3461,11 +3461,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4437
 msgid "``warning`` elements contain one or more `body elements`_."
-msgstr ""
+msgstr "``warning`` elements contain one or more `body elements`_."
 
 #: ../../source/ref/doctree.rst:4440
 msgid "``warning`` is analogous to the DocBook \"warning\" element."
-msgstr ""
+msgstr "``warning`` is analogous to the DocBook \"warning\" element."
 
 #: ../../source/ref/doctree.rst:4443
 msgid ""
@@ -3489,7 +3489,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4480
 msgid "Attribute Reference"
-msgstr ""
+msgstr "Attribute Reference"
 
 #: ../../source/ref/doctree.rst:4485
 msgid ""
@@ -3500,19 +3500,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4491
 msgid "Attribute types:"
-msgstr ""
+msgstr "Attribute types:"
 
 #: ../../source/ref/doctree.rst:4494
 msgid "``CDATA``"
-msgstr ""
+msgstr "``CDATA``"
 
 #: ../../source/ref/doctree.rst:4494
 msgid "Character data.  ``CDATA`` attributes may contain arbitrary text."
-msgstr ""
+msgstr "Character data.  ``CDATA`` attributes may contain arbitrary text."
 
 #: ../../source/ref/doctree.rst:4500
 msgid "``ID``"
-msgstr ""
+msgstr "``ID``"
 
 #: ../../source/ref/doctree.rst:4497
 msgid ""
@@ -3523,23 +3523,23 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4504
 msgid "``IDREF``"
-msgstr ""
+msgstr "``IDREF``"
 
 #: ../../source/ref/doctree.rst:4503
 msgid "A reference to an ``ID`` value (a name production) of another element."
-msgstr ""
+msgstr "A reference to an ``ID`` value (a name production) of another element."
 
 #: ../../source/ref/doctree.rst:4507
 msgid "``IDREFS``"
-msgstr ""
+msgstr "``IDREFS``"
 
 #: ../../source/ref/doctree.rst:4507
 msgid "One or more space-separated ``ID`` references (name productions)."
-msgstr ""
+msgstr "One or more space-separated ``ID`` references (name productions)."
 
 #: ../../source/ref/doctree.rst:4511
 msgid "``NMTOKEN``"
-msgstr ""
+msgstr "``NMTOKEN``"
 
 #: ../../source/ref/doctree.rst:4510
 msgid ""
@@ -3549,15 +3549,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4514
 msgid "``NMTOKENS``"
-msgstr ""
+msgstr "``NMTOKENS``"
 
 #: ../../source/ref/doctree.rst:4514
 msgid "One or more space-separated ``NMTOKEN`` names."
-msgstr ""
+msgstr "One or more space-separated ``NMTOKEN`` names."
 
 #: ../../source/ref/doctree.rst:4518
 msgid "``%yesorno;``"
-msgstr ""
+msgstr "``%yesorno;``"
 
 #: ../../source/ref/doctree.rst:4517
 msgid ""
@@ -3567,7 +3567,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4523
 msgid "``%number;``"
-msgstr ""
+msgstr "``%number;``"
 
 #: ../../source/ref/doctree.rst:4521
 msgid ""
@@ -3577,19 +3577,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4527
 msgid "enumeration"
-msgstr ""
+msgstr "enumeration"
 
 #: ../../source/ref/doctree.rst:4526
 msgid "The attribute value may be one of a specified list of values."
-msgstr ""
+msgstr "The attribute value may be one of a specified list of values."
 
 #: ../../source/ref/doctree.rst:4530
 msgid "``anonymous``"
-msgstr ""
+msgstr "``anonymous``"
 
 #: ../../source/ref/doctree.rst:4532
 msgid "`Attribute type`_: ``%yesorno;``.  Default value: none (implies no)."
-msgstr ""
+msgstr "`Attribute type`_: ``%yesorno;``.  Default value: none (implies no)."
 
 #: ../../source/ref/doctree.rst:4534
 msgid ""
@@ -3599,7 +3599,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4540
 msgid "``auto``"
-msgstr ""
+msgstr "``auto``"
 
 #: ../../source/ref/doctree.rst:4542 ../../source/ref/doctree.rst:4562
 #: ../../source/ref/doctree.rst:4598 ../../source/ref/doctree.rst:4606
@@ -3607,7 +3607,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4687 ../../source/ref/doctree.rst:4698
 #: ../../source/ref/doctree.rst:4716 ../../source/ref/doctree.rst:4741
 msgid "`Attribute type`_: ``CDATA``.  Default value: none."
-msgstr ""
+msgstr "`Attribute type`_: ``CDATA``.  Default value: none."
 
 #: ../../source/ref/doctree.rst:4544
 msgid ""
@@ -3618,11 +3618,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4550
 msgid "``backrefs``"
-msgstr ""
+msgstr "``backrefs``"
 
 #: ../../source/ref/doctree.rst:4552
 msgid "`Attribute type`_: ``IDREFS``.  Default value: none."
-msgstr ""
+msgstr "`Attribute type`_: ``IDREFS``.  Default value: none."
 
 #: ../../source/ref/doctree.rst:4554
 msgid ""
@@ -3633,20 +3633,20 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4560
 msgid "``bullet``"
-msgstr ""
+msgstr "``bullet``"
 
 #: ../../source/ref/doctree.rst:4564
 msgid "The ``bullet`` attribute is used in the bullet_list_ element."
-msgstr ""
+msgstr "The ``bullet`` attribute is used in the bullet_list_ element."
 
 #: ../../source/ref/doctree.rst:4568
 msgid "``classes``"
-msgstr ""
+msgstr "``classes``"
 
 #: ../../source/ref/doctree.rst:4570 ../../source/ref/doctree.rst:4628
 #: ../../source/ref/doctree.rst:4673
 msgid "`Attribute type`_: ``NMTOKENS``.  Default value: none."
-msgstr ""
+msgstr "`Attribute type`_: ``NMTOKENS``.  Default value: none."
 
 #: ../../source/ref/doctree.rst:4572
 msgid ""
@@ -3682,15 +3682,15 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4596
 msgid "``delimiter``"
-msgstr ""
+msgstr "``delimiter``"
 
 #: ../../source/ref/doctree.rst:4600
 msgid "The ``delimiter`` attribute is used in the option_argument_ element."
-msgstr ""
+msgstr "The ``delimiter`` attribute is used in the option_argument_ element."
 
 #: ../../source/ref/doctree.rst:4604
 msgid "``dupnames``"
-msgstr ""
+msgstr "``dupnames``"
 
 #: ../../source/ref/doctree.rst:4608
 msgid ""
@@ -3704,7 +3704,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4617
 msgid "``enumtype``"
-msgstr ""
+msgstr "``enumtype``"
 
 #: ../../source/ref/doctree.rst:4619
 msgid ""
@@ -3714,11 +3714,11 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4622
 msgid "The ``enumtype`` attribute is used in the enumerated_list_ element."
-msgstr ""
+msgstr "The ``enumtype`` attribute is used in the enumerated_list_ element."
 
 #: ../../source/ref/doctree.rst:4626
 msgid "``ids``"
-msgstr ""
+msgstr "``ids``"
 
 #: ../../source/ref/doctree.rst:4630
 msgid ""
@@ -3729,7 +3729,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4636
 msgid "``names``"
-msgstr ""
+msgstr "``names``"
 
 #: ../../source/ref/doctree.rst:4640
 msgid ""
@@ -3745,19 +3745,19 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4651
 msgid "``prefix``"
-msgstr ""
+msgstr "``prefix``"
 
 #: ../../source/ref/doctree.rst:4655
 msgid "The ``prefix`` attribute is used in the enumerated_list_ element."
-msgstr ""
+msgstr "The ``prefix`` attribute is used in the enumerated_list_ element."
 
 #: ../../source/ref/doctree.rst:4659
 msgid "``refid``"
-msgstr ""
+msgstr "``refid``"
 
 #: ../../source/ref/doctree.rst:4661
 msgid "`Attribute type`_: ``IDREF``.  Default value: none."
-msgstr ""
+msgstr "`Attribute type`_: ``IDREF``.  Default value: none."
 
 #: ../../source/ref/doctree.rst:4663
 #, python-format
@@ -3770,7 +3770,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4671
 msgid "``refname``"
-msgstr ""
+msgstr "``refname``"
 
 #: ../../source/ref/doctree.rst:4675
 #, python-format
@@ -3786,7 +3786,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4685
 msgid "``refuri``"
-msgstr ""
+msgstr "``refuri``"
 
 #: ../../source/ref/doctree.rst:4689
 #, python-format
@@ -3799,7 +3799,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4696
 msgid "``source``"
-msgstr ""
+msgstr "``source``"
 
 #: ../../source/ref/doctree.rst:4700
 msgid ""
@@ -3810,27 +3810,27 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4706
 msgid "``start``"
-msgstr ""
+msgstr "``start``"
 
 #: ../../source/ref/doctree.rst:4708
 msgid "`Attribute type`_: ``%number;``.  Default value: none."
-msgstr ""
+msgstr "`Attribute type`_: ``%number;``.  Default value: none."
 
 #: ../../source/ref/doctree.rst:4710
 msgid "The ``start`` attribute is used in the enumerated_list_ element."
-msgstr ""
+msgstr "The ``start`` attribute is used in the enumerated_list_ element."
 
 #: ../../source/ref/doctree.rst:4714
 msgid "``suffix``"
-msgstr ""
+msgstr "``suffix``"
 
 #: ../../source/ref/doctree.rst:4718
 msgid "The ``suffix`` attribute is used in the enumerated_list_ element."
-msgstr ""
+msgstr "The ``suffix`` attribute is used in the enumerated_list_ element."
 
 #: ../../source/ref/doctree.rst:4722
 msgid "``xml:space``"
-msgstr ""
+msgstr "``xml:space``"
 
 #: ../../source/ref/doctree.rst:4724
 msgid ""
@@ -3858,7 +3858,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4750
 msgid "Parameter Entity Reference"
-msgstr ""
+msgstr "Parameter Entity Reference"
 
 #: ../../source/ref/doctree.rst:4755
 msgid ""
@@ -3873,7 +3873,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4765
 msgid "``%anonymous.att;``"
-msgstr ""
+msgstr "``%anonymous.att;``"
 
 #: ../../source/ref/doctree.rst:4767
 msgid ""
@@ -3890,7 +3890,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:5029 ../../source/ref/doctree.rst:5051
 #: ../../source/ref/doctree.rst:5088
 msgid "Entity definition:"
-msgstr ""
+msgstr "Entity definition:"
 
 #: ../../source/ref/doctree.rst:4776
 msgid ""
@@ -3900,7 +3900,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4781
 msgid "``%auto.att;``"
-msgstr ""
+msgstr "``%auto.att;``"
 
 #: ../../source/ref/doctree.rst:4783
 msgid ""
@@ -3916,7 +3916,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4797
 msgid "``%backrefs.att;``"
-msgstr ""
+msgstr "``%backrefs.att;``"
 
 #: ../../source/ref/doctree.rst:4799
 msgid ""
@@ -3932,7 +3932,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4813
 msgid "``%basic.atts;``"
-msgstr ""
+msgstr "``%basic.atts;``"
 
 #: ../../source/ref/doctree.rst:4815
 msgid ""
@@ -3948,7 +3948,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4834
 msgid "``%bibliographic.elements;``"
-msgstr ""
+msgstr "``%bibliographic.elements;``"
 
 #: ../../source/ref/doctree.rst:4836
 msgid ""
@@ -3970,7 +3970,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:4856
 msgid "``%body.elements;``"
-msgstr ""
+msgstr "``%body.elements;``"
 
 #: ../../source/ref/doctree.rst:4858
 #, python-format
@@ -4007,7 +4007,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4891
 #, python-format
 msgid "``%fixedspace.att;``"
-msgstr ""
+msgstr "``%fixedspace.att;``"
 
 #: ../../source/ref/doctree.rst:4893
 #, python-format
@@ -4027,7 +4027,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4909
 #, python-format
 msgid "``%inline.elements;``"
-msgstr ""
+msgstr "``%inline.elements;``"
 
 #: ../../source/ref/doctree.rst:4911
 #, python-format
@@ -4060,7 +4060,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4940
 #, python-format
 msgid "``%reference.atts;``"
-msgstr ""
+msgstr "``%reference.atts;``"
 
 #: ../../source/ref/doctree.rst:4942
 #, python-format
@@ -4086,7 +4086,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4963
 #, python-format
 msgid "``%refid.att;``"
-msgstr ""
+msgstr "``%refid.att;``"
 
 #: ../../source/ref/doctree.rst:4965
 #, python-format
@@ -4113,7 +4113,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:4983
 #, python-format
 msgid "``%refname.att;``"
-msgstr ""
+msgstr "``%refname.att;``"
 
 #: ../../source/ref/doctree.rst:4985
 #, python-format
@@ -4142,7 +4142,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:5006
 #, python-format
 msgid "``%refuri.att;``"
-msgstr ""
+msgstr "``%refuri.att;``"
 
 #: ../../source/ref/doctree.rst:5008
 #, python-format
@@ -4162,7 +4162,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:5023
 #, python-format
 msgid "``%section.elements;``"
-msgstr ""
+msgstr "``%section.elements;``"
 
 #: ../../source/ref/doctree.rst:5025
 #, python-format
@@ -4190,7 +4190,7 @@ msgstr ""
 #: ../../source/ref/doctree.rst:5045
 #, python-format
 msgid "``%structure.model;``"
-msgstr ""
+msgstr "``%structure.model;``"
 
 #: ../../source/ref/doctree.rst:5047
 #, python-format
@@ -4210,7 +4210,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:5064
 msgid "The following restrictions are imposed by this model:"
-msgstr ""
+msgstr "The following restrictions are imposed by this model:"
 
 #: ../../source/ref/doctree.rst:5066
 msgid ""
@@ -4221,7 +4221,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:5070
 msgid "A transition may not occur at the beginning of a document or section."
-msgstr ""
+msgstr "A transition may not occur at the beginning of a document or section."
 
 #: ../../source/ref/doctree.rst:5073
 msgid ""
@@ -4231,7 +4231,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:5076
 msgid "A transition may not occur at the end of a document or section."
-msgstr ""
+msgstr "A transition may not occur at the end of a document or section."
 
 #: ../../source/ref/doctree.rst:5078
 #, python-format
@@ -4242,7 +4242,7 @@ msgstr ""
 
 #: ../../source/ref/doctree.rst:5083
 msgid "``%text.model;``"
-msgstr ""
+msgstr "``%text.model;``"
 
 #: ../../source/ref/doctree.rst:5085
 msgid ""

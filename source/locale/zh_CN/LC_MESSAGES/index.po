@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/index.rst:4
 msgid "Docutils_ Project Documentation Overview"
-msgstr "Docutils_ 项目文档概述"
+msgstr "项目文档概述"
 
 #: ../../source/index.rst
 msgid "Author"

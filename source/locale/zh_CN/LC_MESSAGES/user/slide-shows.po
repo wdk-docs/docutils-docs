@@ -20,27 +20,27 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:64
 msgid "Location |bullet| Date"
-msgstr ""
+msgstr "位置 |bullet| 日期"
 
 #: ../../source/user/slide-shows.rst:5
 msgid "Easy Slide Shows With reST & S5"
-msgstr ""
+msgstr "Easy Slide Shows With reST & S5"
 
 #: ../../source/user/slide-shows.rst
 msgid "Authors"
-msgstr ""
+msgstr "Authors"
 
 #: ../../source/user/slide-shows.rst:7
 msgid "David Goodger & Chris Liechti"
-msgstr ""
+msgstr "David Goodger & Chris Liechti"
 
 #: ../../source/user/slide-shows.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/slide-shows.rst:8
 msgid "$Date: 2006-03-30 16:29:59 +0200 (Do, 30. M盲r 2006) $"
-msgstr ""
+msgstr "$Date: 2006-03-30 16:29:59 +0200 (Do, 30. M盲r 2006) $"
 
 #: ../../source/user/slide-shows.rst:14
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:25
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/slide-shows.rst:29
 msgid ""
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:33
 msgid "Use the space bar to advance, Page Up/Down & arrow keys to navigate."
-msgstr ""
+msgstr "Use the space bar to advance, Page Up/Down & arrow keys to navigate."
 
 #: ../../source/user/slide-shows.rst:35
 msgid ""
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:43
 msgid "S5 works in Internet Explorer, but it may look ugly."
-msgstr ""
+msgstr "S5 works in Internet Explorer, but it may look ugly."
 
 #: ../../source/user/slide-shows.rst:47
 msgid ""
@@ -115,7 +115,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:68
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/user/slide-shows.rst:72
 msgid ""
@@ -131,23 +131,23 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:85
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../source/user/slide-shows.rst:89
 msgid "Uses normal reStructuredText as input."
-msgstr ""
+msgstr "Uses normal reStructuredText as input."
 
 #: ../../source/user/slide-shows.rst:91
 msgid "One section per slide"
-msgstr ""
+msgstr "One section per slide"
 
 #: ../../source/user/slide-shows.rst:95
 msgid "Each first-level section is converted into a single slide."
-msgstr ""
+msgstr "Each first-level section is converted into a single slide."
 
 #: ../../source/user/slide-shows.rst:97
 msgid "XHTML output"
-msgstr ""
+msgstr "XHTML output"
 
 #: ../../source/user/slide-shows.rst:101
 msgid ""
@@ -166,19 +166,19 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:112 ../../source/user/slide-shows.rst:469
 msgid "Themes"
-msgstr ""
+msgstr "Themes"
 
 #: ../../source/user/slide-shows.rst:116
 msgid "A variety of themes are available.  See `Example Themes`_, below."
-msgstr ""
+msgstr "A variety of themes are available.  See `Example Themes`_, below."
 
 #: ../../source/user/slide-shows.rst:118
 msgid "``rst2s5.py``"
-msgstr ""
+msgstr "``rst2s5.py``"
 
 #: ../../source/user/slide-shows.rst:122
 msgid "The front-end tool to generate S5 slide shows."
-msgstr ""
+msgstr "The front-end tool to generate S5 slide shows."
 
 #: ../../source/user/slide-shows.rst:127
 msgid ""
@@ -188,39 +188,39 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:133
 msgid "Action"
-msgstr ""
+msgstr "Action"
 
 #: ../../source/user/slide-shows.rst:134
 msgid "Key(s)"
-msgstr ""
+msgstr "Key(s)"
 
 #: ../../source/user/slide-shows.rst:135
 msgid "Go to the next slide"
-msgstr ""
+msgstr "Go to the next slide"
 
 #: ../../source/user/slide-shows.rst:136
 msgid "[Space bar]"
-msgstr ""
+msgstr "[Space bar]"
 
 #: ../../source/user/slide-shows.rst:137
 msgid "[Return]"
-msgstr ""
+msgstr "[Return]"
 
 #: ../../source/user/slide-shows.rst:138
 msgid "[Enter]"
-msgstr ""
+msgstr "[Enter]"
 
 #: ../../source/user/slide-shows.rst:139
 msgid "[Right arrow]"
-msgstr ""
+msgstr "[Right arrow]"
 
 #: ../../source/user/slide-shows.rst:140
 msgid "[Down arrow]"
-msgstr ""
+msgstr "[Down arrow]"
 
 #: ../../source/user/slide-shows.rst:141
 msgid "[Page down]"
-msgstr ""
+msgstr "[Page down]"
 
 #: ../../source/user/slide-shows.rst:142
 msgid ""
@@ -230,47 +230,47 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:144
 msgid "Go to the previous slide"
-msgstr ""
+msgstr "Go to the previous slide"
 
 #: ../../source/user/slide-shows.rst:145
 msgid "[Left arrow]"
-msgstr ""
+msgstr "[Left arrow]"
 
 #: ../../source/user/slide-shows.rst:146
 msgid "[Up arrow]"
-msgstr ""
+msgstr "[Up arrow]"
 
 #: ../../source/user/slide-shows.rst:147
 msgid "[Page up]"
-msgstr ""
+msgstr "[Page up]"
 
 #: ../../source/user/slide-shows.rst:148
 msgid "Go to the title (first) slide"
-msgstr ""
+msgstr "Go to the title (first) slide"
 
 #: ../../source/user/slide-shows.rst:149
 msgid "[Home]"
-msgstr ""
+msgstr "[Home]"
 
 #: ../../source/user/slide-shows.rst:150
 msgid "Go to the last slide"
-msgstr ""
+msgstr "Go to the last slide"
 
 #: ../../source/user/slide-shows.rst:151
 msgid "[End]"
-msgstr ""
+msgstr "[End]"
 
 #: ../../source/user/slide-shows.rst:152
 msgid "Jump directly to a slide"
-msgstr ""
+msgstr "Jump directly to a slide"
 
 #: ../../source/user/slide-shows.rst:153
 msgid "Type the slide number, then hit [Return] or [Enter]"
-msgstr ""
+msgstr "Type the slide number, then hit [Return] or [Enter]"
 
 #: ../../source/user/slide-shows.rst:154
 msgid "Skip forward *n* slides"
-msgstr ""
+msgstr "Skip forward *n* slides"
 
 #: ../../source/user/slide-shows.rst:155
 msgid ""
@@ -280,35 +280,35 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:157
 msgid "Skip backward *n* slides"
-msgstr ""
+msgstr "Skip backward *n* slides"
 
 #: ../../source/user/slide-shows.rst:158
 msgid "Type the number of slides to skip, then hit any \"go to previous\" key"
-msgstr ""
+msgstr "Type the number of slides to skip, then hit any \"go to previous\" key"
 
 #: ../../source/user/slide-shows.rst:160
 msgid "Switch between slideshow and outline view"
-msgstr ""
+msgstr "Switch between slideshow and outline view"
 
 #: ../../source/user/slide-shows.rst:161
 msgid "[T]"
-msgstr ""
+msgstr "[T]"
 
 #: ../../source/user/slide-shows.rst:162
 msgid "Click the |mode| button"
-msgstr ""
+msgstr "Click the |mode| button"
 
 #: ../../source/user/slide-shows.rst:163
 msgid "Show/hide slide controls"
-msgstr ""
+msgstr "Show/hide slide controls"
 
 #: ../../source/user/slide-shows.rst:164
 msgid "[C]"
-msgstr ""
+msgstr "[C]"
 
 #: ../../source/user/slide-shows.rst:165
 msgid "Move the mouse pointer over the control area"
-msgstr ""
+msgstr "Move the mouse pointer over the control area"
 
 #: ../../source/user/slide-shows.rst:167
 msgid ""
@@ -318,7 +318,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:174
 msgid "Features (1)"
-msgstr ""
+msgstr "Features (1)"
 
 #: ../../source/user/slide-shows.rst:178
 msgid ""
@@ -328,11 +328,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:181
 msgid "S5-specific features:"
-msgstr ""
+msgstr "S5-specific features:"
 
 #: ../../source/user/slide-shows.rst:185
 msgid "The document title is duplicated on each slide in the S5 footer."
-msgstr ""
+msgstr "The document title is duplicated on each slide in the S5 footer."
 
 #: ../../source/user/slide-shows.rst:187
 msgid ""
@@ -342,7 +342,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:192
 msgid "But it is limited to one line of text."
-msgstr ""
+msgstr "But it is limited to one line of text."
 
 #: ../../source/user/slide-shows.rst:194
 msgid ""
@@ -354,7 +354,7 @@ msgstr ""
 #: ../../source/user/slide-shows.rst:198 ../../source/user/slide-shows.rst:499
 #: ../../source/user/slide-shows.rst:856
 msgid "Example::"
-msgstr ""
+msgstr "Example::"
 
 #: ../../source/user/slide-shows.rst:202
 msgid ""
@@ -364,7 +364,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:205
 msgid "Incremental display."
-msgstr ""
+msgstr "Incremental display."
 
 #: ../../source/user/slide-shows.rst:209
 msgid ""
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:213
 msgid "Text auto-scaling."
-msgstr ""
+msgstr "Text auto-scaling."
 
 #: ../../source/user/slide-shows.rst:217
 msgid ""
@@ -387,7 +387,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:224
 msgid "Features (2): Handouts"
-msgstr ""
+msgstr "Features (2): Handouts"
 
 #: ../../source/user/slide-shows.rst:228
 msgid ""
@@ -408,7 +408,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:242
 msgid "Use the \"class\" directive::"
-msgstr ""
+msgstr "Use the \"class\" directive::"
 
 #: ../../source/user/slide-shows.rst:248
 msgid ""
@@ -419,11 +419,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:259
 msgid "It also applies to multiple elements in the directive content::"
-msgstr ""
+msgstr "It also applies to multiple elements in the directive content::"
 
 #: ../../source/user/slide-shows.rst:269
 msgid "Use the \"container\" directive::"
-msgstr ""
+msgstr "Use the \"container\" directive::"
 
 #: ../../source/user/slide-shows.rst:275
 msgid ""
@@ -433,55 +433,55 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:278
 msgid "Use the \"class\" option of directives that support it::"
-msgstr ""
+msgstr "Use the \"class\" option of directives that support it::"
 
 #: ../../source/user/slide-shows.rst:285
 msgid "The following directives support \"class\" options:"
-msgstr ""
+msgstr "The following directives support \"class\" options:"
 
 #: ../../source/user/slide-shows.rst:287
 msgid "all admonition directives (\"admonition\", \"note\", \"hint\", etc.)"
-msgstr ""
+msgstr "all admonition directives (\"admonition\", \"note\", \"hint\", etc.)"
 
 #: ../../source/user/slide-shows.rst:288
 msgid "\"image\" & \"figure\""
-msgstr ""
+msgstr "\"image\" & \"figure\""
 
 #: ../../source/user/slide-shows.rst:289
 msgid "\"topic\""
-msgstr ""
+msgstr "\"topic\""
 
 #: ../../source/user/slide-shows.rst:290
 msgid "\"sidebar\""
-msgstr ""
+msgstr "\"sidebar\""
 
 #: ../../source/user/slide-shows.rst:291
 msgid "\"line-block\""
-msgstr ""
+msgstr "\"line-block\""
 
 #: ../../source/user/slide-shows.rst:292
 msgid "\"parsed-literal\""
-msgstr ""
+msgstr "\"parsed-literal\""
 
 #: ../../source/user/slide-shows.rst:293
 msgid "\"rubric\""
-msgstr ""
+msgstr "\"rubric\""
 
 #: ../../source/user/slide-shows.rst:294
 msgid "\"compound\""
-msgstr ""
+msgstr "\"compound\""
 
 #: ../../source/user/slide-shows.rst:295
 msgid "\"table\", \"csv-table\", & \"list-table\""
-msgstr ""
+msgstr "\"table\", \"csv-table\", & \"list-table\""
 
 #: ../../source/user/slide-shows.rst:296
 msgid "\"target-notes\" (more about that below)"
-msgstr ""
+msgstr "\"target-notes\" (more about that below)"
 
 #: ../../source/user/slide-shows.rst:297
 msgid "\"role\" (pre-defined; more below)"
-msgstr ""
+msgstr "\"role\" (pre-defined; more below)"
 
 #: ../../source/user/slide-shows.rst:299
 msgid ""
@@ -491,11 +491,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:304
 msgid "Caveats"
-msgstr ""
+msgstr "Caveats"
 
 #: ../../source/user/slide-shows.rst:308
 msgid "Some Docutils features are not supported by some themes."
-msgstr ""
+msgstr "Some Docutils features are not supported by some themes."
 
 #: ../../source/user/slide-shows.rst:312
 msgid ""
@@ -513,7 +513,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:320
 msgid "Care must be taken with the \"contents\" directive."
-msgstr ""
+msgstr "Care must be taken with the \"contents\" directive."
 
 #: ../../source/user/slide-shows.rst:324
 msgid ""
@@ -531,11 +531,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:340
 msgid "3. Subsections ..."
-msgstr ""
+msgstr "3. Subsections ..."
 
 #: ../../source/user/slide-shows.rst:342
 msgid "... may be used, sparingly."
-msgstr ""
+msgstr "... may be used, sparingly."
 
 #: ../../source/user/slide-shows.rst:346
 msgid ""
@@ -552,7 +552,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:355
 msgid "Generating a Slide Show (1)"
-msgstr ""
+msgstr "Generating a Slide Show (1)"
 
 #: ../../source/user/slide-shows.rst:359
 msgid ""
@@ -562,11 +562,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:362
 msgid "Run the command::"
-msgstr ""
+msgstr "Run the command::"
 
 #: ../../source/user/slide-shows.rst:366
 msgid "Specify an S5 theme with the ``--theme`` option."
-msgstr ""
+msgstr "Specify an S5 theme with the ``--theme`` option."
 
 #: ../../source/user/slide-shows.rst:370
 msgid ""
@@ -577,11 +577,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:376
 msgid "Generating a Slide Show (2)"
-msgstr ""
+msgstr "Generating a Slide Show (2)"
 
 #: ../../source/user/slide-shows.rst:380
 msgid "Include a copy of any linked stylesheet."
-msgstr ""
+msgstr "Include a copy of any linked stylesheet."
 
 #: ../../source/user/slide-shows.rst:384
 msgid ""
@@ -593,11 +593,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:389
 msgid "Open ``slides.html`` in a web browser."
-msgstr ""
+msgstr "Open ``slides.html`` in a web browser."
 
 #: ../../source/user/slide-shows.rst:391
 msgid "Expand the browser window to full-screen mode, and speak."
-msgstr ""
+msgstr "Expand the browser window to full-screen mode, and speak."
 
 #: ../../source/user/slide-shows.rst:395
 msgid ""
@@ -609,11 +609,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:402
 msgid "Profit!"
-msgstr ""
+msgstr "Profit!"
 
 #: ../../source/user/slide-shows.rst:406
 msgid "Examples (1)"
-msgstr ""
+msgstr "Examples (1)"
 
 #: ../../source/user/slide-shows.rst:410
 msgid ""
@@ -623,37 +623,37 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:417
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/user/slide-shows.rst:417
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/user/slide-shows.rst:417
 msgid "A or B"
-msgstr ""
+msgstr "A or B"
 
 #: ../../source/user/slide-shows.rst:419 ../../source/user/slide-shows.rst:420
 #: ../../source/user/slide-shows.rst:421
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../source/user/slide-shows.rst:420 ../../source/user/slide-shows.rst:421
 #: ../../source/user/slide-shows.rst:422
 msgid "True"
-msgstr ""
+msgstr "True"
 
 #: ../../source/user/slide-shows.rst:427
 msgid "Examples (2): Incremental Text"
-msgstr ""
+msgstr "Examples (2): Incremental Text"
 
 #: ../../source/user/slide-shows.rst:431
 msgid "Paragraphs can be displayed one at a time..."
-msgstr ""
+msgstr "Paragraphs can be displayed one at a time..."
 
 #: ../../source/user/slide-shows.rst:435
 msgid "... or a bunch at a time."
-msgstr ""
+msgstr "... or a bunch at a time."
 
 #: ../../source/user/slide-shows.rst:437
 msgid ""
@@ -670,19 +670,19 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:444
 msgid "`(But the markup ain't pretty.)`"
-msgstr ""
+msgstr "`(But the markup ain't pretty.)`"
 
 #: ../../source/user/slide-shows.rst:448
 msgid "Examples (3): Incr. Graphics"
-msgstr ""
+msgstr "Examples (3): Incr. Graphics"
 
 #: ../../source/user/slide-shows.rst:450
 msgid "Let's play... Rock, Scissors, Paper"
-msgstr ""
+msgstr "Let's play... Rock, Scissors, Paper"
 
 #: ../../source/user/slide-shows.rst:473
 msgid "Several themes are available, and they're easy to adapt."
-msgstr ""
+msgstr "Several themes are available, and they're easy to adapt."
 
 #: ../../source/user/slide-shows.rst:477
 msgid ""
@@ -692,23 +692,23 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:482
 msgid "Sites with other S5 themes:"
-msgstr ""
+msgstr "Sites with other S5 themes:"
 
 #: ../../source/user/slide-shows.rst:484
 msgid "http://meyerweb.com/eric/tools/s5/themes/"
-msgstr ""
+msgstr "http://meyerweb.com/eric/tools/s5/themes/"
 
 #: ../../source/user/slide-shows.rst:485
 msgid "http://mozilla.wikicities.com/wiki/Firefox_S5:Designs"
-msgstr ""
+msgstr "http://mozilla.wikicities.com/wiki/Firefox_S5:Designs"
 
 #: ../../source/user/slide-shows.rst:486
 msgid "http://lachy.id.au/dev/mozilla/firefox/s5/"
-msgstr ""
+msgstr "http://lachy.id.au/dev/mozilla/firefox/s5/"
 
 #: ../../source/user/slide-shows.rst:487
 msgid "http://www.openlight.com/Python-S5-Theme.tar.gz"
-msgstr ""
+msgstr "http://www.openlight.com/Python-S5-Theme.tar.gz"
 
 #: ../../source/user/slide-shows.rst:489
 msgid ""
@@ -718,27 +718,27 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:492
 msgid "\"``--theme``\" option."
-msgstr ""
+msgstr "\"``--theme``\" option."
 
 #: ../../source/user/slide-shows.rst:496
 msgid "The theme can be specified with the \"``--theme``\" command-line option."
-msgstr ""
+msgstr "The theme can be specified with the \"``--theme``\" command-line option."
 
 #: ../../source/user/slide-shows.rst:503
 msgid "The default theme is \"default\"."
-msgstr ""
+msgstr "The default theme is \"default\"."
 
 #: ../../source/user/slide-shows.rst:505
 msgid "\"``theme``\" setting."
-msgstr ""
+msgstr "\"``theme``\" setting."
 
 #: ../../source/user/slide-shows.rst:509
 msgid "You can set the theme with the \"``theme``\" configuration file setting."
-msgstr ""
+msgstr "You can set the theme with the \"``theme``\" configuration file setting."
 
 #: ../../source/user/slide-shows.rst:512
 msgid "Copied to ``./ui/<theme>/``."
-msgstr ""
+msgstr "Copied to ``./ui/<theme>/``."
 
 #: ../../source/user/slide-shows.rst:516
 msgid ""
@@ -748,7 +748,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:519
 msgid "Link with \"``--theme-url``\" option."
-msgstr ""
+msgstr "Link with \"``--theme-url``\" option."
 
 #: ../../source/user/slide-shows.rst:523
 msgid ""
@@ -758,7 +758,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:529
 msgid "Example Themes"
-msgstr ""
+msgstr "Example Themes"
 
 #: ../../source/user/slide-shows.rst:533
 msgid ""
@@ -768,11 +768,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:538
 msgid "\"default\""
-msgstr ""
+msgstr "\"default\""
 
 #: ../../source/user/slide-shows.rst:545
 msgid "Example Themes: Small Text"
-msgstr ""
+msgstr "Example Themes: Small Text"
 
 #: ../../source/user/slide-shows.rst:549
 msgid ""
@@ -784,15 +784,15 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:557
 msgid "\"small-white\""
-msgstr ""
+msgstr "\"small-white\""
 
 #: ../../source/user/slide-shows.rst:561
 msgid "\"small-black\""
-msgstr ""
+msgstr "\"small-black\""
 
 #: ../../source/user/slide-shows.rst:567
 msgid "Example Themes: Large Text"
-msgstr ""
+msgstr "Example Themes: Large Text"
 
 #: ../../source/user/slide-shows.rst:571
 msgid ""
@@ -802,15 +802,15 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:577
 msgid "\"big-white\""
-msgstr ""
+msgstr "\"big-white\""
 
 #: ../../source/user/slide-shows.rst:581
 msgid "\"big-black\""
-msgstr ""
+msgstr "\"big-black\""
 
 #: ../../source/user/slide-shows.rst:587
 msgid "Example Themes: Medium Text"
-msgstr ""
+msgstr "Example Themes: Medium Text"
 
 #: ../../source/user/slide-shows.rst:591
 msgid ""
@@ -820,15 +820,15 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:597
 msgid "\"medium-white\""
-msgstr ""
+msgstr "\"medium-white\""
 
 #: ../../source/user/slide-shows.rst:601
 msgid "\"medium-black\""
-msgstr ""
+msgstr "\"medium-black\""
 
 #: ../../source/user/slide-shows.rst:607
 msgid "S5 Theme Files"
-msgstr ""
+msgstr "S5 Theme Files"
 
 #: ../../source/user/slide-shows.rst:609
 msgid ""
@@ -844,7 +844,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:620
 msgid "slides.css simply contains import links to:"
-msgstr ""
+msgstr "slides.css simply contains import links to:"
 
 #: ../../source/user/slide-shows.rst:622
 msgid ""
@@ -868,7 +868,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:633
 msgid "outline.css: Styles for outline mode."
-msgstr ""
+msgstr "outline.css: Styles for outline mode."
 
 #: ../../source/user/slide-shows.rst:635
 msgid ""
@@ -899,31 +899,31 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:651
 msgid "iepngfix.htc"
-msgstr ""
+msgstr "iepngfix.htc"
 
 #: ../../source/user/slide-shows.rst:652
 msgid "blank.gif"
-msgstr ""
+msgstr "blank.gif"
 
 #: ../../source/user/slide-shows.rst:656
 msgid "Making a Custom Theme"
-msgstr ""
+msgstr "Making a Custom Theme"
 
 #: ../../source/user/slide-shows.rst:660
 msgid "Run \"``rst2s5.py --theme <base-theme> <doc>.txt <doc>.html``\"."
-msgstr ""
+msgstr "Run \"``rst2s5.py --theme <base-theme> <doc>.txt <doc>.html``\"."
 
 #: ../../source/user/slide-shows.rst:664
 msgid "This initializes the ``ui`` directory with the base theme files."
-msgstr ""
+msgstr "This initializes the ``ui`` directory with the base theme files."
 
 #: ../../source/user/slide-shows.rst:666
 msgid "Copy ``ui/<base-theme>`` to ``ui/<new-theme>``."
-msgstr ""
+msgstr "Copy ``ui/<base-theme>`` to ``ui/<new-theme>``."
 
 #: ../../source/user/slide-shows.rst:668
 msgid "Edit the styles."
-msgstr ""
+msgstr "Edit the styles."
 
 #: ../../source/user/slide-shows.rst:672
 msgid ""
@@ -933,7 +933,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:675
 msgid "Run \"``rst2s5.py --theme-url ui/<new-theme> <doc>.txt <doc>.html``\"."
-msgstr ""
+msgstr "Run \"``rst2s5.py --theme-url ui/<new-theme> <doc>.txt <doc>.html``\"."
 
 #: ../../source/user/slide-shows.rst:679
 msgid ""
@@ -943,23 +943,23 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:682
 msgid "Rinse & repeat."
-msgstr ""
+msgstr "Rinse & repeat."
 
 #: ../../source/user/slide-shows.rst:686
 msgid "Repeat from step 3 until you're satisfied."
-msgstr ""
+msgstr "Repeat from step 3 until you're satisfied."
 
 #: ../../source/user/slide-shows.rst:698
 msgid "Resources:"
-msgstr ""
+msgstr "Resources:"
 
 #: ../../source/user/slide-shows.rst:700
 msgid "W3C's `Learning CSS <http://www.w3.org/Style/CSS/learning>`__"
-msgstr ""
+msgstr "W3C's `Learning CSS <http://www.w3.org/Style/CSS/learning>`__"
 
 #: ../../source/user/slide-shows.rst:702
 msgid "`Creating An S5 Theme <http://home.cogeco.ca/~ve3ll/s5themes.htm>`__"
-msgstr ""
+msgstr "`Creating An S5 Theme <http://home.cogeco.ca/~ve3ll/s5themes.htm>`__"
 
 #: ../../source/user/slide-shows.rst:704
 msgid ""
@@ -969,7 +969,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:709
 msgid "Classes: Incremental (1)"
-msgstr ""
+msgstr "Classes: Incremental (1)"
 
 #: ../../source/user/slide-shows.rst:713
 msgid ""
@@ -979,52 +979,52 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:718
 msgid "As described earlier,"
-msgstr ""
+msgstr "As described earlier,"
 
 #: ../../source/user/slide-shows.rst:720
 msgid "``.. class:: incremental``"
-msgstr ""
+msgstr "``.. class:: incremental``"
 
 #: ../../source/user/slide-shows.rst:722
 msgid "``.. container:: incremental``"
-msgstr ""
+msgstr "``.. container:: incremental``"
 
 #: ../../source/user/slide-shows.rst:731
 msgid "Classes: Incremental (2)"
-msgstr ""
+msgstr "Classes: Incremental (2)"
 
 #: ../../source/user/slide-shows.rst:733
 msgid "The \"incremental\" interpreted text role is also supported:"
-msgstr ""
+msgstr "The \"incremental\" interpreted text role is also supported:"
 
 #: ../../source/user/slide-shows.rst:742 ../../source/user/slide-shows.rst:829
 #: ../../source/user/slide-shows.rst:878
 msgid "Requires \"``.. include:: <s5defs.txt>``\"."
-msgstr ""
+msgstr "Requires \"``.. include:: <s5defs.txt>``\"."
 
 #: ../../source/user/slide-shows.rst:746
 msgid "As you can see, this markup is not very convenient."
-msgstr ""
+msgstr "As you can see, this markup is not very convenient."
 
 #: ../../source/user/slide-shows.rst:750
 msgid "But ``s5defs.txt`` includes this useful definition:"
-msgstr ""
+msgstr "But ``s5defs.txt`` includes this useful definition:"
 
 #: ../../source/user/slide-shows.rst:751
 msgid "\"``.. default-role:: incremental``\".  So:"
-msgstr ""
+msgstr "\"``.. default-role:: incremental``\".  So:"
 
 #: ../../source/user/slide-shows.rst:757
 msgid "`This` `is` `all` `we` `need` `to mark up incremental text.`"
-msgstr ""
+msgstr "`This` `is` `all` `we` `need` `to mark up incremental text.`"
 
 #: ../../source/user/slide-shows.rst:761
 msgid "Classes: Incremental (3)"
-msgstr ""
+msgstr "Classes: Incremental (3)"
 
 #: ../../source/user/slide-shows.rst:782
 msgid "This is how the example works."
-msgstr ""
+msgstr "This is how the example works."
 
 #: ../../source/user/slide-shows.rst:784
 msgid ""
@@ -1045,11 +1045,11 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:795
 msgid "These class values do the work:"
-msgstr ""
+msgstr "These class values do the work:"
 
 #: ../../source/user/slide-shows.rst:800
 msgid "animation"
-msgstr ""
+msgstr "animation"
 
 #: ../../source/user/slide-shows.rst:798
 msgid ""
@@ -1059,7 +1059,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:806
 msgid "hidden"
-msgstr ""
+msgstr "hidden"
 
 #: ../../source/user/slide-shows.rst:803
 msgid ""
@@ -1071,7 +1071,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:810
 msgid "slide-display"
-msgstr ""
+msgstr "slide-display"
 
 #: ../../source/user/slide-shows.rst:809
 msgid ""
@@ -1081,7 +1081,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:814
 msgid "incremental"
-msgstr ""
+msgstr "incremental"
 
 #: ../../source/user/slide-shows.rst:813
 msgid ""
@@ -1092,43 +1092,43 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:819
 msgid "Classes: Text Size"
-msgstr ""
+msgstr "Classes: Text Size"
 
 #: ../../source/user/slide-shows.rst:823
 msgid ":tiny:`tiny` (class & role name: \"tiny\", e.g. \"``:tiny:`text```\")"
-msgstr ""
+msgstr ":tiny:`tiny` (class & role name: \"tiny\", e.g. \"``:tiny:`text```\")"
 
 #: ../../source/user/slide-shows.rst:824
 msgid ":small:`small` (\"small\")"
-msgstr ""
+msgstr ":small:`small` (\"small\")"
 
 #: ../../source/user/slide-shows.rst:825
 msgid "normal (unstyled)"
-msgstr ""
+msgstr "normal (unstyled)"
 
 #: ../../source/user/slide-shows.rst:826
 msgid ":big:`big` (\"big\")"
-msgstr ""
+msgstr ":big:`big` (\"big\")"
 
 #: ../../source/user/slide-shows.rst:827
 msgid ":huge:`huge` (\"huge\")"
-msgstr ""
+msgstr ":huge:`huge` (\"huge\")"
 
 #: ../../source/user/slide-shows.rst:833
 msgid "Classes: Alignment"
-msgstr ""
+msgstr "Classes: Alignment"
 
 #: ../../source/user/slide-shows.rst:839
 msgid "Left (class name: \"left\")"
-msgstr ""
+msgstr "Left (class name: \"left\")"
 
 #: ../../source/user/slide-shows.rst:843
 msgid "Center (\"center\" & \"centre\")"
-msgstr ""
+msgstr "Center (\"center\" & \"centre\")"
 
 #: ../../source/user/slide-shows.rst:847
 msgid "Right (\"right\")"
-msgstr ""
+msgstr "Right (\"right\")"
 
 #: ../../source/user/slide-shows.rst:851
 msgid ""
@@ -1138,7 +1138,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:864
 msgid "Classes: Text Colours"
-msgstr ""
+msgstr "Classes: Text Colours"
 
 #: ../../source/user/slide-shows.rst:866
 msgid ""
@@ -1157,51 +1157,51 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:882
 msgid "Classes: Borderless Tables"
-msgstr ""
+msgstr "Classes: Borderless Tables"
 
 #: ../../source/user/slide-shows.rst:886
 msgid "Here's an ordinary, unstyled table:"
-msgstr ""
+msgstr "Here's an ordinary, unstyled table:"
 
 #: ../../source/user/slide-shows.rst:891
 msgid "Sometimes"
-msgstr ""
+msgstr "Sometimes"
 
 #: ../../source/user/slide-shows.rst:891 ../../source/user/slide-shows.rst:901
 msgid "borders"
-msgstr ""
+msgstr "borders"
 
 #: ../../source/user/slide-shows.rst:893 ../../source/user/slide-shows.rst:903
 msgid "are"
-msgstr ""
+msgstr "are"
 
 #: ../../source/user/slide-shows.rst:893
 msgid "useful."
-msgstr ""
+msgstr "useful."
 
 #: ../../source/user/slide-shows.rst:896
 msgid "And after applying \"``.. class:: borderless``\":"
-msgstr ""
+msgstr "And after applying \"``.. class:: borderless``\":"
 
 #: ../../source/user/slide-shows.rst:901
 msgid "But"
-msgstr ""
+msgstr "But"
 
 #: ../../source/user/slide-shows.rst:901
 msgid "sometimes,"
-msgstr ""
+msgstr "sometimes,"
 
 #: ../../source/user/slide-shows.rst:903
 msgid "**not**"
-msgstr ""
+msgstr "**not**"
 
 #: ../../source/user/slide-shows.rst:903
 msgid "wanted."
-msgstr ""
+msgstr "wanted."
 
 #: ../../source/user/slide-shows.rst:908
 msgid "Classes: Print-Only"
-msgstr ""
+msgstr "Classes: Print-Only"
 
 #: ../../source/user/slide-shows.rst:912
 msgid ""
@@ -1211,7 +1211,7 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:917
 msgid "Example: the \"target-notes\" directive::"
-msgstr ""
+msgstr "Example: the \"target-notes\" directive::"
 
 #: ../../source/user/slide-shows.rst:927
 msgid ""
@@ -1233,23 +1233,23 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:942
 msgid "Other uses may require \"``.. include:: <s5defs.txt>``\"."
-msgstr ""
+msgstr "Other uses may require \"``.. include:: <s5defs.txt>``\"."
 
 #: ../../source/user/slide-shows.rst:946
 msgid "Useful Extensions For Firefox"
-msgstr ""
+msgstr "Useful Extensions For Firefox"
 
 #: ../../source/user/slide-shows.rst:948
 msgid "`Autohide`__"
-msgstr ""
+msgstr "`Autohide`__"
 
 #: ../../source/user/slide-shows.rst:952
 msgid "Automatically hides toolbars in full-screen mode."
-msgstr ""
+msgstr "Automatically hides toolbars in full-screen mode."
 
 #: ../../source/user/slide-shows.rst:956
 msgid "`Web Developer`__"
-msgstr ""
+msgstr "`Web Developer`__"
 
 #: ../../source/user/slide-shows.rst:960
 msgid ""
@@ -1260,31 +1260,31 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:968
 msgid "To Do"
-msgstr ""
+msgstr "To Do"
 
 #: ../../source/user/slide-shows.rst:972
 msgid "Multi-display support:"
-msgstr ""
+msgstr "Multi-display support:"
 
 #: ../../source/user/slide-shows.rst:974
 msgid "speaker's notes on the laptop screen"
-msgstr ""
+msgstr "speaker's notes on the laptop screen"
 
 #: ../../source/user/slide-shows.rst:975
 msgid "slides on the projector"
-msgstr ""
+msgstr "slides on the projector"
 
 #: ../../source/user/slide-shows.rst:976
 msgid "two views stay in sync"
-msgstr ""
+msgstr "two views stay in sync"
 
 #: ../../source/user/slide-shows.rst:977
 msgid "presentation controlled from either display"
-msgstr ""
+msgstr "presentation controlled from either display"
 
 #: ../../source/user/slide-shows.rst:979
 msgid "Add timeout to incremental style."
-msgstr ""
+msgstr "Add timeout to incremental style."
 
 #: ../../source/user/slide-shows.rst:983
 msgid ""
@@ -1294,23 +1294,23 @@ msgstr ""
 
 #: ../../source/user/slide-shows.rst:986
 msgid "These will require some serious JavaScript-fu!"
-msgstr ""
+msgstr "These will require some serious JavaScript-fu!"
 
 #: ../../source/user/slide-shows.rst:990
 msgid "That's All, Folks!"
-msgstr ""
+msgstr "That's All, Folks!"
 
 #: ../../source/user/slide-shows.rst:994
 msgid "Further information: http://docutils.sf.net"
-msgstr ""
+msgstr "Further information: http://docutils.sf.net"
 
 #: ../../source/user/slide-shows.rst:997
 msgid "Docutils users' mailing list: docutils-users@lists.sf.net"
-msgstr ""
+msgstr "Docutils users' mailing list: docutils-users@lists.sf.net"
 
 #: ../../source/user/slide-shows.rst:1000
 msgid "`Any questions?`"
-msgstr ""
+msgstr "`Any questions?`"
 
 #~ msgid "slide shows"
 #~ msgstr ""

@@ -20,55 +20,55 @@ msgstr ""
 
 #: ../../source/api/runtime-settings.rst:3
 msgid "Docutils Runtime Settings"
-msgstr ""
+msgstr "Docutils运行时设置"
 
 #: ../../source/api/runtime-settings.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/api/runtime-settings.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/api/runtime-settings.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/api/runtime-settings.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/api/runtime-settings.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/api/runtime-settings.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/api/runtime-settings.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/api/runtime-settings.rst:8
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/api/runtime-settings.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/api/runtime-settings.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/api/runtime-settings.rst:12
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/api/runtime-settings.rst:15
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/api/runtime-settings.rst:17
 msgid ""
@@ -90,28 +90,28 @@ msgstr ""
 #: ../../source/api/runtime-settings.rst:29
 #: ../../source/api/runtime-settings.rst:83
 msgid "``settings_spec``"
-msgstr ""
+msgstr "``settings_spec``"
 
 #: ../../source/api/runtime-settings.rst:30
 msgid "``settings_defaults``"
-msgstr ""
+msgstr "``settings_defaults``"
 
 #: ../../source/api/runtime-settings.rst:31
 msgid "``settings_default_overrides``"
-msgstr ""
+msgstr "``settings_default_overrides``"
 
 #: ../../source/api/runtime-settings.rst:32
 msgid "``relative_path_settings``"
-msgstr ""
+msgstr "``relative_path_settings``"
 
 #: ../../source/api/runtime-settings.rst:33
 #: ../../source/api/runtime-settings.rst:84
 msgid "``config_section``"
-msgstr ""
+msgstr "``config_section``"
 
 #: ../../source/api/runtime-settings.rst:34
 msgid "``config_section_dependencies``"
-msgstr ""
+msgstr "``config_section_dependencies``"
 
 #: ../../source/api/runtime-settings.rst:36
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../source/api/runtime-settings.rst:62
 msgid "Runtime Settings Processing for Command-Line Tools"
-msgstr ""
+msgstr "Runtime Settings Processing for Command-Line Tools"
 
 #: ../../source/api/runtime-settings.rst:64
 msgid ""
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../source/api/runtime-settings.rst:101
 msgid "``defaults`` (originally from ``settings_overrides``)"
-msgstr ""
+msgstr "``defaults`` (originally from ``settings_overrides``)"
 
 #: ../../source/api/runtime-settings.rst:103
 msgid ""
@@ -308,7 +308,7 @@ msgstr ""
 
 #: ../../source/api/runtime-settings.rst:170
 msgid "Runtime Settings Processing From Applications"
-msgstr ""
+msgstr "Runtime Settings Processing From Applications"
 
 #: ../../source/api/runtime-settings.rst:172
 msgid ""

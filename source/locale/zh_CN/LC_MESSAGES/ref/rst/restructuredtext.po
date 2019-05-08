@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docutils-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 23:29+0800\n"
+"POT-Creation-Date: 2019-04-13 09:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,59 +18,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/ref/rst/restructuredtext.rst:5
+#: ../../source/ref/restructuredtext.rst:5
 msgid "reStructuredText Markup Specification"
-msgstr ""
+msgstr "reStructuredText标记规范"
 
-#: ../../source/ref/rst/restructuredtext.rst
+#: ../../source/ref/restructuredtext.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
-#: ../../source/ref/rst/restructuredtext.rst:7
+#: ../../source/ref/restructuredtext.rst:7
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
-#: ../../source/ref/rst/restructuredtext.rst
+#: ../../source/ref/restructuredtext.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
-#: ../../source/ref/rst/restructuredtext.rst:8
+#: ../../source/ref/restructuredtext.rst:8
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
-#: ../../source/ref/rst/restructuredtext.rst
+#: ../../source/ref/restructuredtext.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
-#: ../../source/ref/rst/restructuredtext.rst:9
+#: ../../source/ref/restructuredtext.rst:9
 msgid "$Revision: 8205 $"
-msgstr ""
+msgstr "$Revision: 8205 $"
 
-#: ../../source/ref/rst/restructuredtext.rst
+#: ../../source/ref/restructuredtext.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
-#: ../../source/ref/rst/restructuredtext.rst:10
+#: ../../source/ref/restructuredtext.rst:10
 msgid "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
-msgstr ""
+msgstr "$Date: 2017-11-27 12:07:28 +0100 (Mo, 27. Nov 2017) $"
 
-#: ../../source/ref/rst/restructuredtext.rst
+#: ../../source/ref/restructuredtext.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
-#: ../../source/ref/rst/restructuredtext.rst:11
+#: ../../source/ref/restructuredtext.rst:11
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "本文档已置于公共领域. "
 
-#: ../../source/ref/rst/restructuredtext.rst:15
+#: ../../source/ref/restructuredtext.rst:15
 msgid ""
 "This document is a detailed technical specification; it is not a tutorial"
 " or a primer.  If this is your first exposure to reStructuredText, please"
 " read `A ReStructuredText Primer`_ and the `Quick reStructuredText`_ user"
 " reference first."
-msgstr ""
+msgstr "本文档是详细的技术规范;它不是教程或入门. 如果这是您第一次接触reStructuredText, 请首先阅读 `A ReStructuredText Primer`_ 和 `Quick reStructuredText`_ 用户参考. "
 
-#: ../../source/ref/rst/restructuredtext.rst:24
+#: ../../source/ref/restructuredtext.rst:24
 msgid ""
 "reStructuredText_ is plaintext that uses simple and intuitive constructs "
 "to indicate the structure of a document.  These constructs are equally "
@@ -78,46 +78,46 @@ msgid ""
 "example of reStructuredText (raw, if you are reading the text file, or "
 "processed, if you are reading an HTML document, for example).  The "
 "reStructuredText parser is a component of Docutils_."
-msgstr ""
+msgstr "reStructuredText_ 是纯文本, 它使用简单直观的结构来指示文档的结构.  这些结构同样易于以原始和处理形式阅读. 本文档本身就是reStructuredText的一个示例 (如果您正在阅读文本文件, 则为raw, 如果您正在阅读HTML文档, 则进行处理) .  reStructuredText解析器是 Docutils_ 的一个组件. "
 
-#: ../../source/ref/rst/restructuredtext.rst:31
+#: ../../source/ref/restructuredtext.rst:31
 msgid ""
 "Simple, implicit markup is used to indicate special constructs, such as "
 "section headings, bullet lists, and emphasis.  The markup used is as "
 "minimal and unobtrusive as possible.  Less often-used constructs and "
 "extensions to the basic reStructuredText syntax may have more elaborate "
 "or explicit markup."
-msgstr ""
+msgstr "简单的隐式标记用于指示特殊构造, 例如章节标题, 项目符号列表和重点.  使用的标记尽可能小且不引人注目.  较少使用的构造和对基本reStructuredText语法的扩展可能具有更复杂或明确的标记. "
 
-#: ../../source/ref/rst/restructuredtext.rst:37
+#: ../../source/ref/restructuredtext.rst:37
 msgid ""
 "reStructuredText is applicable to documents of any length, from the very "
 "small (such as inline program documentation fragments, e.g. Python "
 "docstrings) to the quite large (this document)."
-msgstr ""
+msgstr "reStructuredText适用于任何长度的文档, 从非常小的 (例如内联程序文档片段, 例如Python文档字符串) 到相当大的文档 (本文档) . "
 
-#: ../../source/ref/rst/restructuredtext.rst:41
+#: ../../source/ref/restructuredtext.rst:41
 msgid ""
 "The first section gives a quick overview of the syntax of the "
 "reStructuredText markup by example.  A complete specification is given in"
 " the `Syntax Details`_ section."
-msgstr ""
+msgstr "第一部分通过示例快速概述了reStructuredText标记的语法.  完整的规范在 `Syntax Details`_ 部分给出. "
 
-#: ../../source/ref/rst/restructuredtext.rst:45
+#: ../../source/ref/restructuredtext.rst:45
 msgid ""
 "`Literal blocks`_ (in which no markup processing is done) are used for "
 "examples throughout this document, to illustrate the plaintext markup."
-msgstr ""
+msgstr "在本文档中,  `Literal blocks`_  (其中没有进行标记处理) 用于示例, 以说明明文标记. "
 
-#: ../../source/ref/rst/restructuredtext.rst:50
+#: ../../source/ref/restructuredtext.rst:50
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
-#: ../../source/ref/rst/restructuredtext.rst:54
+#: ../../source/ref/restructuredtext.rst:54
 msgid "Quick Syntax Overview"
-msgstr ""
+msgstr "快速语法概述"
 
-#: ../../source/ref/rst/restructuredtext.rst:56
+#: ../../source/ref/restructuredtext.rst:56
 msgid ""
 "A reStructuredText document is made up of body or block-level elements, "
 "and may be structured into sections.  Sections_ are indicated through "
@@ -126,132 +126,132 @@ msgid ""
 "elements, such as lists containing list items, which in turn may contain "
 "paragraphs and other body elements.  Others, such as paragraphs, contain "
 "text and `inline markup`_ elements."
-msgstr ""
+msgstr "reStructuredText文档由正文或块级元素组成, 并且可以构造成部分.  Sections_ 通过标题样式 (下划线和可选的上划线) 表示. 部分包含主体元素和/或子部分.  一些body元素包含其他元素, 例如包含列表项的列表, 而列表项又包含段落和其他body元素.  其他的, 如段落, 包含文本和 `inline markup`_ 元素. "
 
-#: ../../source/ref/rst/restructuredtext.rst:64
+#: ../../source/ref/restructuredtext.rst:64
 msgid "Here are examples of `body elements`_:"
-msgstr ""
+msgstr "以下是 `body elements`_ 的示例:"
 
-#: ../../source/ref/rst/restructuredtext.rst:66
+#: ../../source/ref/restructuredtext.rst:66
 msgid "Paragraphs_ (and `inline markup`_)::"
-msgstr ""
+msgstr "Paragraphs_  (和 `inline markup`_) ::"
 
-#: ../../source/ref/rst/restructuredtext.rst:78
+#: ../../source/ref/restructuredtext.rst:78
 msgid "Five types of lists:"
-msgstr ""
+msgstr "五种类型的清单:"
 
-#: ../../source/ref/rst/restructuredtext.rst:80
+#: ../../source/ref/restructuredtext.rst:80
 msgid "`Bullet lists`_::"
-msgstr ""
+msgstr "`Bullet lists`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:86
+#: ../../source/ref/restructuredtext.rst:86
 msgid "`Enumerated lists`_::"
-msgstr ""
+msgstr "`Enumerated lists`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:93
+#: ../../source/ref/restructuredtext.rst:93
 msgid "`Definition lists`_::"
-msgstr ""
+msgstr "`Definition lists`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:103
+#: ../../source/ref/restructuredtext.rst:103
 msgid "`Field lists`_::"
-msgstr ""
+msgstr "`Field lists`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:115
+#: ../../source/ref/restructuredtext.rst:115
 msgid "`Option lists`_, for listing command-line options::"
-msgstr ""
+msgstr "`Option lists`_, 用于列出命令行选项::"
 
-#: ../../source/ref/rst/restructuredtext.rst:125
+#: ../../source/ref/restructuredtext.rst:125
 msgid "There must be at least two spaces between the option and the description."
-msgstr ""
+msgstr "选项和描述之间必须至少有两个空格. "
 
-#: ../../source/ref/rst/restructuredtext.rst:128
+#: ../../source/ref/restructuredtext.rst:128
 msgid "`Literal blocks`_::"
-msgstr ""
+msgstr "`Literal blocks`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:139
+#: ../../source/ref/restructuredtext.rst:139
 msgid "`Block quotes`_::"
-msgstr ""
+msgstr "`Block quotes`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:147
+#: ../../source/ref/restructuredtext.rst:147
 msgid "`Doctest blocks`_::"
-msgstr ""
+msgstr "`Doctest blocks`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:154
+#: ../../source/ref/restructuredtext.rst:154
 msgid "Two syntaxes for tables_:"
-msgstr ""
+msgstr "Two syntaxes for tables_:"
 
-#: ../../source/ref/rst/restructuredtext.rst:156
+#: ../../source/ref/restructuredtext.rst:156
 msgid "`Grid tables`_; complete, but complex and verbose::"
-msgstr ""
+msgstr "`Grid tables`_; 完整, 但复杂而冗长::"
 
-#: ../../source/ref/rst/restructuredtext.rst:166
+#: ../../source/ref/restructuredtext.rst:166
 msgid "`Simple tables`_; easy and compact, but limited::"
-msgstr ""
+msgstr "`Simple tables`_; 简单紧凑, 但有限::"
 
-#: ../../source/ref/rst/restructuredtext.rst:175
+#: ../../source/ref/restructuredtext.rst:175
 msgid ""
 "`Explicit markup blocks`_ all begin with an explicit block marker, two "
 "periods and a space:"
-msgstr ""
+msgstr "`Explicit markup blocks`_ 都以显式块标记, 两个句点和一个空格开头:"
 
-#: ../../source/ref/rst/restructuredtext.rst:178
+#: ../../source/ref/restructuredtext.rst:178
 msgid "Footnotes_::"
-msgstr ""
+msgstr "Footnotes_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:183
+#: ../../source/ref/restructuredtext.rst:183
 msgid "Citations_::"
-msgstr ""
+msgstr "Citations_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:188
+#: ../../source/ref/restructuredtext.rst:188
 msgid "`Hyperlink targets`_::"
-msgstr ""
+msgstr "`Hyperlink targets`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:196
+#: ../../source/ref/restructuredtext.rst:196
 msgid "Directives_::"
-msgstr ""
+msgstr "Directives_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:200
+#: ../../source/ref/restructuredtext.rst:200
 msgid "`Substitution definitions`_::"
-msgstr ""
+msgstr "`Substitution definitions`_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:204
+#: ../../source/ref/restructuredtext.rst:204
 msgid "Comments_::"
-msgstr ""
+msgstr "Comments_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:213
+#: ../../source/ref/restructuredtext.rst:213
 msgid "Syntax Details"
-msgstr ""
+msgstr "语法详细信息"
 
-#: ../../source/ref/rst/restructuredtext.rst:215
+#: ../../source/ref/restructuredtext.rst:215
 msgid ""
 "Descriptions below list \"doctree elements\" (document tree element "
 "names; XML DTD generic identifiers) corresponding to syntax constructs.  "
 "For details on the hierarchy of elements, please see `The Docutils "
 "Document Tree`_ and the `Docutils Generic DTD`_ XML document type "
 "definition."
-msgstr ""
+msgstr "下面的描述列出了与语法结构相对应的 \"doctree elements\"  (文档树元素名称; XML DTD通用标识符) .  有关元素层次结构的详细信息, 请参阅 `Docutils Document Tree`_ 和 `Docutils Generic DTD`_ XML文档类型定义. "
 
-#: ../../source/ref/rst/restructuredtext.rst:223
+#: ../../source/ref/restructuredtext.rst:223
 msgid "Whitespace"
-msgstr ""
+msgstr "空白"
 
-#: ../../source/ref/rst/restructuredtext.rst:225
+#: ../../source/ref/restructuredtext.rst:225
 msgid ""
 "Spaces are recommended for indentation_, but tabs may also be used. Tabs "
 "will be converted to spaces.  Tab stops are at every 8th column."
-msgstr ""
+msgstr "建议使用空格来缩进_, 但也可以使用制表符.  标签将转换为空格. 制表位在每第8列. "
 
-#: ../../source/ref/rst/restructuredtext.rst:228
+#: ../../source/ref/restructuredtext.rst:228
 msgid ""
 "Other whitespace characters (form feeds [chr(12)] and vertical tabs "
 "[chr(11)]) are converted to single spaces before processing."
-msgstr ""
+msgstr "其他空白字符 (换页符 [chr(12)] 和垂直制表符 [chr(11)]) 在处理之前转换为单个空格. "
 
-#: ../../source/ref/rst/restructuredtext.rst:233
+#: ../../source/ref/restructuredtext.rst:233
 msgid "Blank Lines"
-msgstr ""
+msgstr "空白行"
 
-#: ../../source/ref/rst/restructuredtext.rst:235
+#: ../../source/ref/restructuredtext.rst:235
 msgid ""
 "Blank lines are used to separate paragraphs and other elements. Multiple "
 "successive blank lines are equivalent to a single blank line, except "
@@ -260,59 +260,59 @@ msgid ""
 "conjunction with indentation.  The first line of a document is treated as"
 " if it is preceded by a blank line, and the last line of a document is "
 "treated as if it is followed by a blank line."
-msgstr ""
+msgstr "空行用于分隔段落和其他元素.  多个连续的空白行相当于一个空行, 但文字块 (保留所有空格) 除外.  当标记与缩进一起使元素分离明确时, 可以省略空行.  文档的第一行被视为前面有一个空行, 文档的最后一行被视为后跟一个空行. "
 
-#: ../../source/ref/rst/restructuredtext.rst:245
+#: ../../source/ref/restructuredtext.rst:245
 msgid "Indentation"
-msgstr ""
+msgstr "缩进"
 
-#: ../../source/ref/rst/restructuredtext.rst:247
+#: ../../source/ref/restructuredtext.rst:247
 msgid ""
 "Indentation is used to indicate -- and is only significant in indicating "
 "-- block quotes, definitions (in definition list items), and local nested"
 " content:"
-msgstr ""
+msgstr "缩进用于指示 -- 并且仅在指示中有意义 -- 块引号, 定义 (在定义列表项中) 和本地嵌套内容:"
 
-#: ../../source/ref/rst/restructuredtext.rst:251
+#: ../../source/ref/restructuredtext.rst:251
 msgid ""
 "list item content (multi-line contents of list items, and multiple body "
 "elements within a list item, including nested lists),"
-msgstr ""
+msgstr "列表项内容 (列表项的多行内容, 列表项中的多个主体元素, 包括嵌套列表) , "
 
-#: ../../source/ref/rst/restructuredtext.rst:253
+#: ../../source/ref/restructuredtext.rst:253
 msgid "the content of literal blocks, and"
-msgstr ""
+msgstr "文字块的内容, 和"
 
-#: ../../source/ref/rst/restructuredtext.rst:254
+#: ../../source/ref/restructuredtext.rst:254
 msgid "the content of explicit markup blocks."
-msgstr ""
+msgstr "显式标记块的内容. "
 
-#: ../../source/ref/rst/restructuredtext.rst:256
+#: ../../source/ref/restructuredtext.rst:256
 msgid ""
 "Any text whose indentation is less than that of the current level (i.e., "
 "unindented text or \"dedents\") ends the current level of indentation."
-msgstr ""
+msgstr "缩进小于当前级别的任何文本 (即, 未缩进的文本或 \"dedents\") 将结束当前缩进级别. "
 
-#: ../../source/ref/rst/restructuredtext.rst:260
+#: ../../source/ref/restructuredtext.rst:260
 msgid ""
 "Since all indentation is significant, the level of indentation must be "
 "consistent.  For example, indentation is the sole markup indicator for "
 "`block quotes`_::"
-msgstr ""
+msgstr "由于所有压痕都很重要, 压痕水平必须一致.  例如, 缩进是 `block quotes`_ 的唯一标记指示符::"
 
-#: ../../source/ref/rst/restructuredtext.rst:270
+#: ../../source/ref/restructuredtext.rst:270
 msgid ""
 "Multiple levels of indentation within a block quote will result in more "
 "complex structures::"
-msgstr ""
+msgstr "块引用中的多个缩进级别将导致更复杂的结构::"
 
-#: ../../source/ref/rst/restructuredtext.rst:287
+#: ../../source/ref/restructuredtext.rst:287
 msgid ""
 "When a paragraph or other construct consists of more than one line of "
 "text, the lines must be left-aligned::"
-msgstr ""
+msgstr "当段落或其他构造由多行文本组成时, 这些行必须左对齐::"
 
-#: ../../source/ref/rst/restructuredtext.rst:299
+#: ../../source/ref/restructuredtext.rst:299
 msgid ""
 "Several constructs begin with a marker, and the body of the construct "
 "must be indented relative to the marker.  For constructs using simple "
@@ -322,22 +322,26 @@ msgid ""
 "of text, which begins on the same line as the marker.  For example, "
 "bullet list bodies must be indented by at least two columns relative to "
 "the left edge of the bullet::"
-msgstr ""
+msgstr "几个构造以标记开头, 构造体必须相对于标记缩进.  对于使用简单标记(`bullet lists`_, `enumerated lists`_, footnotes_, citations_, `hyperlink targets`_, directives_和comments_) 的构造, body的缩进程度由第一行的位置决定文本的开头, 与标记在同一行.  例如, 项目符号列表主体必须相对于项目符号的左边缘至少缩进两列::"
 
-#: ../../source/ref/rst/restructuredtext.rst:323
+#: ../../source/ref/restructuredtext.rst:323
 msgid ""
 "For constructs using complex markers (`field lists`_ and `option "
 "lists`_), where the marker may contain arbitrary text, the indentation of"
 " the first line *after* the marker determines the left edge of the body."
 "  For example, field lists may have very long markers (containing the "
 "field names)::"
-msgstr ""
+msgstr "For constructs using complex markers (`field lists`_ and `option "
+"lists`_), where the marker may contain arbitrary text, the indentation of"
+" the first line *after* the marker determines the left edge of the body."
+"  For example, field lists may have very long markers (containing the "
+"field names)::"
 
-#: ../../source/ref/rst/restructuredtext.rst:339
+#: ../../source/ref/restructuredtext.rst:339
 msgid "Escaping Mechanism"
-msgstr ""
+msgstr "转意机制"
 
-#: ../../source/ref/rst/restructuredtext.rst:341
+#: ../../source/ref/restructuredtext.rst:341
 msgid ""
 "The character set universally available to plaintext documents, 7-bit "
 "ASCII, is limited.  No matter what characters are used for markup, they "
@@ -347,9 +351,9 @@ msgid ""
 "override the default meaning of the characters used for the markup.  In "
 "reStructuredText we use the backslash, commonly used as an escaping "
 "character in other domains."
-msgstr ""
+msgstr "普通文档 (7位ASCII)普遍可用的字符集是有限的.  无论用于标记的字符是什么, 它们在书面文本中已经具有多种含义.  因此, 标记字符 *将* 有时会出现在文本中, **而不是用作标记**.  任何严格的标记系统都需要一个转义机制来覆盖用于标记的字符的默认含义.  在reStructuredText中, 我们使用反斜杠, 通常用作其他域中的转义字符. "
 
-#: ../../source/ref/rst/restructuredtext.rst:350
+#: ../../source/ref/restructuredtext.rst:350
 msgid ""
 "A backslash followed by any character (except whitespace characters in "
 "non-URI contexts) escapes that character.  The escaped character "
@@ -358,26 +362,26 @@ msgid ""
 "literal backslash is represented by two backslashes in a row (the first "
 "backslash \"escapes\" the second, preventing it being interpreted in an "
 "\"escaping\" role)."
-msgstr ""
+msgstr "任何字符后跟一个反斜杠 (非URI上下文中的空格字符除外)都会转义该字符.  转义字符代表字符本身, 并且无法在任何标记解释中发挥作用.  从输出中删除反斜杠.  文字反斜杠由一行中的两个反斜杠表示 (第一个反斜杠 \"转义\" 第二个, 防止它被解释为 \"转义\" 角色). "
 
-#: ../../source/ref/rst/restructuredtext.rst:359
+#: ../../source/ref/restructuredtext.rst:359
 msgid ""
 "In non-URI contexts, backslash-escaped whitespace characters are removed "
 "from the document. This allows for character-level `inline markup`_."
-msgstr ""
+msgstr "在非URI上下文中, 从文档中删除反斜杠转义的空白字符. 这允许字符级 `inline markup`_. "
 
-#: ../../source/ref/rst/restructuredtext.rst:363
+#: ../../source/ref/restructuredtext.rst:363
 msgid "In URIs, backslash-escaped whitespace represents a single space."
-msgstr ""
+msgstr "在URI中, 反斜杠转义的空格表示单个空格. "
 
-#: ../../source/ref/rst/restructuredtext.rst:365
+#: ../../source/ref/restructuredtext.rst:365
 msgid ""
 "There are two contexts in which backslashes have no special meaning: "
 "literal blocks and inline literals.  In these contexts, a single "
 "backslash represents a literal backslash, without having to double up."
-msgstr ""
+msgstr "有两种情况, 反斜杠没有特殊含义:文字块和内联文字.  在这些上下文中, 单个反斜杠表示字面反斜杠, 而不必加倍. "
 
-#: ../../source/ref/rst/restructuredtext.rst:369
+#: ../../source/ref/restructuredtext.rst:369
 msgid ""
 "Please note that the reStructuredText specification and parser do not "
 "address the issue of the representation or extraction of text input (how "
@@ -387,13 +391,13 @@ msgid ""
 "backslashes in strings to escape certain characters, but not others.  The"
 " simplest solution when backslashes appear in Python docstrings is to use"
 " raw docstrings::"
-msgstr ""
+msgstr "请注意, reStructuredText规范和解析器不解决文本输入的表示或提取问题 (文本实际上如何以及以何种形式 **到达** 解析器).  反斜杠和其他角色可能在某些情况下起到转意角色的作用, 必须妥善处理.  例如, Python在字符串中使用反斜杠来转义某些字符, 而不是其他字符.  在Python文档字符串中出现反斜杠时最简单的解决方案是使用原始文档字符串::"
 
-#: ../../source/ref/rst/restructuredtext.rst:382
+#: ../../source/ref/restructuredtext.rst:382
 msgid "Reference Names"
-msgstr ""
+msgstr "参考名称"
 
-#: ../../source/ref/rst/restructuredtext.rst:384
+#: ../../source/ref/restructuredtext.rst:384
 msgid ""
 "Simple reference names are single words consisting of alphanumerics plus "
 "isolated (no two adjacent) internal hyphens, underscores, periods, colons"
@@ -401,42 +405,48 @@ msgid ""
 " labels (Footnotes_ & `Footnote References`_), citation labels "
 "(Citations_ & `Citation References`_), `interpreted text`_ roles, and "
 "some `hyperlink references`_ use the simple reference name syntax."
-msgstr ""
+msgstr "简单的参考名称是由字母数字加上孤立的 (没有两个相邻的)内部连字符, 下划线, 句号, 冒号和加号组成的单个单词;不允许有空格或其他字符.  脚注标签 (Footnotes_ ＆ `Footnote References`_), 引文标签 (Citations_ ＆ `Citation References`_), `解释文本`_角色和一些`超链接引用`_使用简单的引用名称语法. "
 
-#: ../../source/ref/rst/restructuredtext.rst:391
+#: ../../source/ref/restructuredtext.rst:391
 msgid ""
 "Reference names using punctuation or whose names are phrases (two or more"
 " space-separated words) are called \"phrase-references\". Phrase-"
 "references are expressed by enclosing the phrase in backquotes and "
 "treating the backquoted text as a reference name::"
-msgstr ""
+msgstr "Reference names using punctuation or whose names are phrases (two or more"
+" space-separated words) are called \"phrase-references\". Phrase-"
+"references are expressed by enclosing the phrase in backquotes and "
+"treating the backquoted text as a reference name::"
 
-#: ../../source/ref/rst/restructuredtext.rst:400
+#: ../../source/ref/restructuredtext.rst:400
 msgid "Simple reference names may also optionally use backquotes."
-msgstr ""
+msgstr "简单的引用名称也可以选择使用反引号. "
 
-#: ../../source/ref/rst/restructuredtext.rst:402
+#: ../../source/ref/restructuredtext.rst:402
 msgid ""
 "Reference names are whitespace-neutral and case-insensitive.  When "
 "resolving reference names internally:"
-msgstr ""
+msgstr "Reference names are whitespace-neutral and case-insensitive.  When "
+"resolving reference names internally:"
 
-#: ../../source/ref/rst/restructuredtext.rst:405
+#: ../../source/ref/restructuredtext.rst:405
 msgid ""
 "whitespace is normalized (one or more spaces, horizontal or vertical "
 "tabs, newlines, carriage returns, or form feeds, are interpreted as a "
 "single space), and"
-msgstr ""
+msgstr "whitespace is normalized (one or more spaces, horizontal or vertical "
+"tabs, newlines, carriage returns, or form feeds, are interpreted as a "
+"single space), and"
 
-#: ../../source/ref/rst/restructuredtext.rst:409
+#: ../../source/ref/restructuredtext.rst:409
 msgid "case is normalized (all alphabetic characters are converted to lowercase)."
-msgstr ""
+msgstr "case is normalized (all alphabetic characters are converted to lowercase)."
 
-#: ../../source/ref/rst/restructuredtext.rst:412
+#: ../../source/ref/restructuredtext.rst:412
 msgid "For example, the following `hyperlink references`_ are equivalent::"
-msgstr ""
+msgstr "例如, 以下 `hyperlink references`_ 是等效的::"
 
-#: ../../source/ref/rst/restructuredtext.rst:419
+#: ../../source/ref/restructuredtext.rst:419
 msgid ""
 "Hyperlinks_, footnotes_, and citations_ all share the same namespace for "
 "reference names.  The labels of citations (simple reference names) and "
@@ -447,21 +457,29 @@ msgid ""
 "each type of reference (hyperlink, footnote, citation) may be processed "
 "and rendered differently.  Some care should be taken to avoid reference "
 "name conflicts."
-msgstr ""
+msgstr "Hyperlinks_, footnotes_, and citations_ all share the same namespace for "
+"reference names.  The labels of citations (simple reference names) and "
+"manually-numbered footnotes (numbers) are entered into the same database "
+"as other hyperlink names.  This means that a footnote (defined as \"``.. "
+"[1]``\") which can be referred to by a footnote reference (``[1]_``), can"
+" also be referred to by a plain hyperlink reference (1_).  Of course, "
+"each type of reference (hyperlink, footnote, citation) may be processed "
+"and rendered differently.  Some care should be taken to avoid reference "
+"name conflicts."
 
-#: ../../source/ref/rst/restructuredtext.rst:431
+#: ../../source/ref/restructuredtext.rst:431
 msgid "Document Structure"
-msgstr ""
+msgstr "文件结构"
 
-#: ../../source/ref/rst/restructuredtext.rst:434
+#: ../../source/ref/restructuredtext.rst:434
 msgid "Document"
-msgstr ""
+msgstr "文献"
 
-#: ../../source/ref/rst/restructuredtext.rst:436
+#: ../../source/ref/restructuredtext.rst:436
 msgid "Doctree element: document."
-msgstr ""
+msgstr "Doctree元素:文档. "
 
-#: ../../source/ref/rst/restructuredtext.rst:438
+#: ../../source/ref/restructuredtext.rst:438
 msgid ""
 "The top-level element of a parsed reStructuredText document is the "
 "\"document\" element.  After initial parsing, the document element is a "
@@ -473,7 +491,7 @@ msgid ""
 "metadata elements (author, date, etc.; see `Bibliographic Fields`_)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:450
+#: ../../source/ref/restructuredtext.rst:450
 msgid ""
 "Specifically, there is no way to indicate a document title and subtitle "
 "explicitly in reStructuredText. [#]_ Instead, a lone top-level section "
@@ -484,21 +502,21 @@ msgid ""
 "transform`_ for details."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:458
+#: ../../source/ref/restructuredtext.rst:458
 msgid ""
 "The `title`_ configuration setting can set a document title that does not"
 " become part of the document body."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:465
+#: ../../source/ref/restructuredtext.rst:465
 msgid "Sections"
-msgstr ""
+msgstr "章节"
 
-#: ../../source/ref/rst/restructuredtext.rst:467
+#: ../../source/ref/restructuredtext.rst:467
 msgid "Doctree elements: section, title."
-msgstr ""
+msgstr "Doctree元素:章节, 标题. "
 
-#: ../../source/ref/rst/restructuredtext.rst:469
+#: ../../source/ref/restructuredtext.rst:469
 msgid ""
 "Sections are identified through their titles, which are marked up with "
 "adornment: \"underlines\" below the title text, or underlines and "
@@ -513,17 +531,17 @@ msgid ""
 "titles, although some output formats may have limits (HTML has 6 levels)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:482
+#: ../../source/ref/restructuredtext.rst:482
 msgid "The following are all valid section title adornment characters::"
-msgstr ""
+msgstr "The following are all valid section title adornment characters::"
 
-#: ../../source/ref/rst/restructuredtext.rst:487
+#: ../../source/ref/restructuredtext.rst:487
 msgid ""
 "Some characters are more suitable than others.  The following are "
 "recommended::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:492
+#: ../../source/ref/restructuredtext.rst:492
 msgid ""
 "Rather than imposing a fixed number and order of section title adornment "
 "styles, the order enforced will be the order as encountered. The first "
@@ -531,25 +549,25 @@ msgid ""
 "style will be a subtitle, the third will be a subsubtitle, and so on."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:498
+#: ../../source/ref/restructuredtext.rst:498
 msgid "Below are examples of section title styles::"
-msgstr ""
+msgstr "以下是节标题样式的示例::"
 
-#: ../../source/ref/rst/restructuredtext.rst:535
+#: ../../source/ref/restructuredtext.rst:535
 msgid ""
 "When a title has both an underline and an overline, the title text may be"
 " inset, as in the first two examples above.  This is merely aesthetic and"
 " not significant.  Underline-only title text may *not* be inset."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:540
+#: ../../source/ref/restructuredtext.rst:540
 msgid ""
 "A blank line after a title is optional.  All text blocks up to the next "
 "title of the same or higher level are included in a section (or "
 "subsection, etc.)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:544
+#: ../../source/ref/restructuredtext.rst:544
 msgid ""
 "All section title styles need not be used, nor need any specific section "
 "title style be used.  However, a document must be consistent in its use "
@@ -557,7 +575,7 @@ msgid ""
 "sections must use that hierarchy."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:549
+#: ../../source/ref/restructuredtext.rst:549
 msgid ""
 "Each section title automatically generates a hyperlink target pointing to"
 " the section.  The text of the hyperlink target (the \"reference name\") "
@@ -565,30 +583,30 @@ msgid ""
 "Targets`_ for a complete description."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:554
+#: ../../source/ref/restructuredtext.rst:554
 msgid "Sections may contain `body elements`_, transitions_, and nested sections."
-msgstr ""
+msgstr "Sections may contain `body elements`_, transitions_, and nested sections."
 
-#: ../../source/ref/rst/restructuredtext.rst:559
+#: ../../source/ref/restructuredtext.rst:559
 msgid "Transitions"
-msgstr ""
+msgstr "翻译"
 
-#: ../../source/ref/rst/restructuredtext.rst:561
+#: ../../source/ref/restructuredtext.rst:561
 msgid "Doctree element: transition."
-msgstr ""
+msgstr "Doctree元素: transition."
 
-#: ../../source/ref/rst/restructuredtext.rst:563
+#: ../../source/ref/restructuredtext.rst:563
 msgid ""
 "Instead of subheads, extra space or a type ornament between paragraphs "
 "may be used to mark text divisions or to signal changes in subject or "
 "emphasis."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:567
+#: ../../source/ref/restructuredtext.rst:567
 msgid "(The Chicago Manual of Style, 14th edition, section 1.80)"
-msgstr ""
+msgstr "(芝加哥风格手册, 第14版, 第1.80节)"
 
-#: ../../source/ref/rst/restructuredtext.rst:569
+#: ../../source/ref/restructuredtext.rst:569
 msgid ""
 "Transitions are commonly seen in novels and short fiction, as a gap "
 "spanning one or more lines, with or without a type ornament such as a row"
@@ -597,7 +615,7 @@ msgid ""
 " be immediately adjacent."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:575
+#: ../../source/ref/restructuredtext.rst:575
 msgid ""
 "The syntax for a transition marker is a horizontal line of 4 or more "
 "repeated punctuation characters.  The syntax is the same as section title"
@@ -605,33 +623,33 @@ msgid ""
 "before and after::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:586
+#: ../../source/ref/restructuredtext.rst:586
 msgid ""
 "Unlike section title underlines, no hierarchy of transition markers is "
 "enforced, nor do differences in transition markers accomplish anything.  "
 "It is recommended that a single consistent style be used."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:590
+#: ../../source/ref/restructuredtext.rst:590
 msgid ""
 "The processing system is free to render transitions in output in any way "
 "it likes.  For example, horizontal rules (``<hr>``) in HTML output would "
 "be an obvious choice."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:596
+#: ../../source/ref/restructuredtext.rst:596
 msgid "Body Elements"
-msgstr ""
+msgstr "主体元素"
 
-#: ../../source/ref/rst/restructuredtext.rst:599
+#: ../../source/ref/restructuredtext.rst:599
 msgid "Paragraphs"
-msgstr ""
+msgstr "段落"
 
-#: ../../source/ref/rst/restructuredtext.rst:601
+#: ../../source/ref/restructuredtext.rst:601
 msgid "Doctree element: paragraph."
-msgstr ""
+msgstr "Doctree 元件: 段."
 
-#: ../../source/ref/rst/restructuredtext.rst:603
+#: ../../source/ref/restructuredtext.rst:603
 msgid ""
 "Paragraphs consist of blocks of left-aligned text with no markup "
 "indicating any other body element.  Blank lines separate paragraphs from "
@@ -639,30 +657,30 @@ msgid ""
 "markup`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:608
-#: ../../source/ref/rst/restructuredtext.rst:662
-#: ../../source/ref/rst/restructuredtext.rst:805
-#: ../../source/ref/rst/restructuredtext.rst:1135
-#: ../../source/ref/rst/restructuredtext.rst:1173
-#: ../../source/ref/rst/restructuredtext.rst:1228
-#: ../../source/ref/rst/restructuredtext.rst:1288
-#: ../../source/ref/rst/restructuredtext.rst:1623
-#: ../../source/ref/rst/restructuredtext.rst:1969
-#: ../../source/ref/rst/restructuredtext.rst:2114
-#: ../../source/ref/rst/restructuredtext.rst:2160
-#: ../../source/ref/rst/restructuredtext.rst:2358
+#: ../../source/ref/restructuredtext.rst:608
+#: ../../source/ref/restructuredtext.rst:662
+#: ../../source/ref/restructuredtext.rst:805
+#: ../../source/ref/restructuredtext.rst:1135
+#: ../../source/ref/restructuredtext.rst:1173
+#: ../../source/ref/restructuredtext.rst:1228
+#: ../../source/ref/restructuredtext.rst:1288
+#: ../../source/ref/restructuredtext.rst:1623
+#: ../../source/ref/restructuredtext.rst:1969
+#: ../../source/ref/restructuredtext.rst:2114
+#: ../../source/ref/restructuredtext.rst:2160
+#: ../../source/ref/restructuredtext.rst:2358
 msgid "Syntax diagram::"
-msgstr ""
+msgstr "语法图::"
 
-#: ../../source/ref/rst/restructuredtext.rst:622
+#: ../../source/ref/restructuredtext.rst:622
 msgid "Bullet Lists"
-msgstr ""
+msgstr "子弹列表"
 
-#: ../../source/ref/rst/restructuredtext.rst:624
+#: ../../source/ref/restructuredtext.rst:624
 msgid "Doctree elements: bullet_list, list_item."
-msgstr ""
+msgstr "Doctree元素: bullet_list, list_item."
 
-#: ../../source/ref/rst/restructuredtext.rst:626
+#: ../../source/ref/restructuredtext.rst:626
 msgid ""
 "A text block which begins with a \"*\", \"+\", \"-\", \"â€¢\", \"â€£\", "
 "or \"âƒ\", followed by whitespace, is a bullet list item (a.k.a. "
@@ -671,19 +689,19 @@ msgid ""
 "determines the indentation.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:651
+#: ../../source/ref/restructuredtext.rst:651
 msgid "Here are examples of **incorrectly** formatted bullet lists::"
-msgstr ""
+msgstr "以下是 **错误** 格式的项目符号列表的示例::"
 
-#: ../../source/ref/rst/restructuredtext.rst:671
+#: ../../source/ref/restructuredtext.rst:671
 msgid "Enumerated Lists"
-msgstr ""
+msgstr "枚举列表"
 
-#: ../../source/ref/rst/restructuredtext.rst:673
+#: ../../source/ref/restructuredtext.rst:673
 msgid "Doctree elements: enumerated_list, list_item."
-msgstr ""
+msgstr "Doctree 元素: enumerated_list, list_item."
 
-#: ../../source/ref/rst/restructuredtext.rst:675
+#: ../../source/ref/restructuredtext.rst:675
 msgid ""
 "Enumerated lists (a.k.a. \"ordered\" lists) are similar to bullet lists, "
 "but use enumerators instead of bullets.  An enumerator consists of an "
@@ -691,27 +709,27 @@ msgid ""
 "following enumeration sequences are recognized:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:680
+#: ../../source/ref/restructuredtext.rst:680
 msgid "arabic numerals: 1, 2, 3, ... (no upper limit)."
-msgstr ""
+msgstr "阿拉伯数字:1,2,3 ......(无上限). "
 
-#: ../../source/ref/rst/restructuredtext.rst:681
+#: ../../source/ref/restructuredtext.rst:681
 msgid "uppercase alphabet characters: A, B, C, ..., Z."
-msgstr ""
+msgstr "大写字母字符:A, B, C, ..., Z. "
 
-#: ../../source/ref/rst/restructuredtext.rst:682
+#: ../../source/ref/restructuredtext.rst:682
 msgid "lower-case alphabet characters: a, b, c, ..., z."
-msgstr ""
+msgstr "小写字母字符:a, b, c, ..., z. "
 
-#: ../../source/ref/rst/restructuredtext.rst:683
+#: ../../source/ref/restructuredtext.rst:683
 msgid "uppercase Roman numerals: I, II, III, IV, ..., MMMMCMXCIX (4999)."
-msgstr ""
+msgstr "大写罗马数字:I, II, III, IV, ..., MMMMCMXCIX(4999). "
 
-#: ../../source/ref/rst/restructuredtext.rst:684
+#: ../../source/ref/restructuredtext.rst:684
 msgid "lowercase Roman numerals: i, ii, iii, iv, ..., mmmmcmxcix (4999)."
-msgstr ""
+msgstr "小写罗马数字:i, ii, iii, iv, ..., mmmmcmxcix(4999). "
 
-#: ../../source/ref/rst/restructuredtext.rst:686
+#: ../../source/ref/restructuredtext.rst:686
 msgid ""
 "In addition, the auto-enumerator, \"#\", may be used to automatically "
 "enumerate a list.  Auto-enumerated lists may begin with explicit "
@@ -720,40 +738,40 @@ msgid ""
 "Docutils 0.3.8.)"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:692
+#: ../../source/ref/restructuredtext.rst:692
 msgid "The following formatting types are recognized:"
-msgstr ""
+msgstr "识别以下格式类型:"
 
-#: ../../source/ref/rst/restructuredtext.rst:694
+#: ../../source/ref/restructuredtext.rst:694
 msgid "suffixed with a period: \"1.\", \"A.\", \"a.\", \"I.\", \"i.\"."
-msgstr ""
+msgstr "以句号结尾: \"1.\", \"A.\", \"a.\", \"I.\", \"i.\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:695
+#: ../../source/ref/restructuredtext.rst:695
 msgid "surrounded by parentheses: \"(1)\", \"(A)\", \"(a)\", \"(I)\", \"(i)\"."
-msgstr ""
+msgstr "被括号括起来: \"(1)\", \"(A)\", \"(a)\", \"(I)\", \"(i)\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:696
+#: ../../source/ref/restructuredtext.rst:696
 msgid "suffixed with a right-parenthesis: \"1)\", \"A)\", \"a)\", \"I)\", \"i)\"."
-msgstr ""
+msgstr "后缀右括号: \"1)\", \"A)\", \"a)\", \"I)\", \"i)\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:698
+#: ../../source/ref/restructuredtext.rst:698
 msgid "While parsing an enumerated list, a new list will be started whenever:"
-msgstr ""
+msgstr "在解析枚举列表时, 每当启动一个新列表时:"
 
-#: ../../source/ref/rst/restructuredtext.rst:700
+#: ../../source/ref/restructuredtext.rst:700
 msgid ""
 "An enumerator is encountered which does not have the same format and "
 "sequence type as the current list (e.g. \"1.\", \"(a)\" produces two "
 "separate lists)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:704
+#: ../../source/ref/restructuredtext.rst:704
 msgid ""
 "The enumerators are not in sequence (e.g., \"1.\", \"3.\" produces two "
 "separate lists)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:707
+#: ../../source/ref/restructuredtext.rst:707
 msgid ""
 "It is recommended that the enumerator of the first list item be ordinal-1"
 " (\"1\", \"A\", \"a\", \"I\", or \"i\").  Although other start-values "
@@ -762,7 +780,7 @@ msgid ""
 "with a non-ordinal-1 enumerator."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:713
+#: ../../source/ref/restructuredtext.rst:713
 msgid ""
 "Lists using Roman numerals must begin with \"I\"/\"i\" or a multi-"
 "character value, such as \"II\" or \"XV\".  Any other single-character "
@@ -772,7 +790,7 @@ msgid ""
 "\"I\"/\"i\", since these are recognized as Roman numeral 1."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:720
+#: ../../source/ref/restructuredtext.rst:720
 msgid ""
 "The second line of each enumerated list item is checked for validity. "
 "This is to prevent ordinary paragraphs from being mistakenly interpreted "
@@ -780,38 +798,38 @@ msgid ""
 "enumerators.  For example, this text is parsed as an ordinary paragraph::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:729
+#: ../../source/ref/restructuredtext.rst:729
 msgid ""
 "However, ambiguity cannot be avoided if the paragraph consists of only "
 "one line.  This text is parsed as an enumerated list item::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:734
+#: ../../source/ref/restructuredtext.rst:734
 msgid ""
 "If a single-line paragraph begins with text identical to an enumerator "
 "(\"A.\", \"1.\", \"(b)\", \"I)\", etc.), the first character will have to"
 " be escaped in order to have the line parsed as an ordinary paragraph::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:740
+#: ../../source/ref/restructuredtext.rst:740
 msgid "Examples of nested enumerated lists::"
-msgstr ""
+msgstr "嵌套枚举列表的示例::"
 
-#: ../../source/ref/rst/restructuredtext.rst:750
+#: ../../source/ref/restructuredtext.rst:750
 msgid "Example syntax diagram::"
-msgstr ""
+msgstr "示例语法图::"
 
-#: ../../source/ref/rst/restructuredtext.rst:759
+#: ../../source/ref/restructuredtext.rst:759
 msgid "Definition Lists"
-msgstr ""
+msgstr "定义列表"
 
-#: ../../source/ref/rst/restructuredtext.rst:761
+#: ../../source/ref/restructuredtext.rst:761
 msgid ""
 "Doctree elements: definition_list, definition_list_item, term, "
 "classifier, definition."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:764
+#: ../../source/ref/restructuredtext.rst:764
 msgid ""
 "Each definition list item contains a term, optional classifiers, and a "
 "definition.  A term is a simple one-line word or phrase.  Optional "
@@ -824,25 +842,25 @@ msgid ""
 "but are optional in-between.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:788
+#: ../../source/ref/restructuredtext.rst:788
 msgid ""
 "Inline markup is parsed in the term line before the classifier delimiter "
 "(\" : \") is recognized.  The delimiter will only be recognized if it "
 "appears outside of any inline markup."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:792
+#: ../../source/ref/restructuredtext.rst:792
 msgid "A definition list may be used in various ways, including:"
-msgstr ""
+msgstr "定义列表可以以各种方式使用, 包括:"
 
-#: ../../source/ref/rst/restructuredtext.rst:794
+#: ../../source/ref/restructuredtext.rst:794
 msgid ""
 "As a dictionary or glossary.  The term is the word itself, a classifier "
 "may be used to indicate the usage of the term (noun, verb, etc.), and the"
 " definition follows."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:798
+#: ../../source/ref/restructuredtext.rst:798
 msgid ""
 "To describe program variables.  The term is the variable name, a "
 "classifier may be used to indicate the type of the variable (string, "
@@ -851,15 +869,15 @@ msgid ""
 "of Grouch_, a system for describing and enforcing a Python object schema."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:816
+#: ../../source/ref/restructuredtext.rst:816
 msgid "Field Lists"
-msgstr ""
+msgstr "现场名单"
 
-#: ../../source/ref/rst/restructuredtext.rst:818
+#: ../../source/ref/restructuredtext.rst:818
 msgid "Doctree elements: field_list, field, field_name, field_body."
-msgstr ""
+msgstr "Doctree 元素: field_list, field, field_name, field_body."
 
-#: ../../source/ref/rst/restructuredtext.rst:820
+#: ../../source/ref/restructuredtext.rst:820
 msgid ""
 "Field lists are used as part of an extension syntax, such as options for "
 "directives_, or database-like records meant for further processing.  They"
@@ -870,7 +888,7 @@ msgid ""
 "\"image_\" and \"meta_\" directives in `reStructuredText Directives`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:831
+#: ../../source/ref/restructuredtext.rst:831
 msgid ""
 "Field lists are mappings from *field names* to *field bodies*, modeled on"
 " RFC822_ headers.  A field name may consist of any characters, but colons"
@@ -886,7 +904,7 @@ msgid ""
 " determines the indentation of the field body.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:857
+#: ../../source/ref/restructuredtext.rst:857
 msgid ""
 "The interpretation of individual words in a multi-word field name is up "
 "to the application.  The application may specify a syntax for the field "
@@ -895,7 +913,7 @@ msgid ""
 "direct support for the \"name=value\" syntax may be added."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:863
+#: ../../source/ref/restructuredtext.rst:863
 msgid ""
 "Standard RFC822_ headers cannot be used for this construct because they "
 "are ambiguous.  A word followed by a colon at the beginning of a line is "
@@ -904,28 +922,28 @@ msgid ""
 "email messages), standard RFC822 headers could be used."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:870
-#: ../../source/ref/rst/restructuredtext.rst:1053
+#: ../../source/ref/restructuredtext.rst:870
+#: ../../source/ref/restructuredtext.rst:1053
 msgid "Syntax diagram (simplified)::"
-msgstr ""
+msgstr "语法图(简化)::"
 
-#: ../../source/ref/rst/restructuredtext.rst:878
+#: ../../source/ref/restructuredtext.rst:878
 msgid ""
 "Up to Docutils 0.14, field markers were not recognized when containing a "
 "colon."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:882
+#: ../../source/ref/restructuredtext.rst:882
 msgid "Bibliographic Fields"
-msgstr ""
+msgstr "书目领域"
 
-#: ../../source/ref/rst/restructuredtext.rst:884
+#: ../../source/ref/restructuredtext.rst:884
 msgid ""
 "Doctree elements: docinfo, author, authors, organization, contact, "
 "version, status, date, copyright, field, topic."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:887
+#: ../../source/ref/restructuredtext.rst:887
 msgid ""
 "When a field list is the first non-comment element in a document (after "
 "the document title, if there is one), it may have its fields transformed "
@@ -933,7 +951,7 @@ msgid ""
 "the front matter of a book, such as the title page and copyright page."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:893
+#: ../../source/ref/restructuredtext.rst:893
 msgid ""
 "Certain registered field names (listed below) are recognized and "
 "transformed to the corresponding doctree elements, most becoming child "
@@ -945,57 +963,57 @@ msgid ""
 "fields will remain as generic fields in the docinfo element."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:903
+#: ../../source/ref/restructuredtext.rst:903
 msgid ""
 "The registered bibliographic field names and their corresponding doctree "
 "elements are as follows:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:906
+#: ../../source/ref/restructuredtext.rst:906
 msgid "Field name \"Author\": author element."
-msgstr ""
+msgstr "Field name \"Author\": author element."
 
-#: ../../source/ref/rst/restructuredtext.rst:907
+#: ../../source/ref/restructuredtext.rst:907
 msgid "\"Authors\": authors."
-msgstr ""
+msgstr "\"Authors\": authors."
 
-#: ../../source/ref/rst/restructuredtext.rst:908
+#: ../../source/ref/restructuredtext.rst:908
 msgid "\"Organization\": organization."
-msgstr ""
+msgstr "\"Organization\": organization."
 
-#: ../../source/ref/rst/restructuredtext.rst:909
+#: ../../source/ref/restructuredtext.rst:909
 msgid "\"Contact\": contact."
-msgstr ""
+msgstr "\"Contact\": contact."
 
-#: ../../source/ref/rst/restructuredtext.rst:910
+#: ../../source/ref/restructuredtext.rst:910
 msgid "\"Address\": address."
-msgstr ""
+msgstr "\"Address\": address."
 
-#: ../../source/ref/rst/restructuredtext.rst:911
+#: ../../source/ref/restructuredtext.rst:911
 msgid "\"Version\": version."
-msgstr ""
+msgstr "\"Version\": version."
 
-#: ../../source/ref/rst/restructuredtext.rst:912
+#: ../../source/ref/restructuredtext.rst:912
 msgid "\"Status\": status."
-msgstr ""
+msgstr "\"Status\": status."
 
-#: ../../source/ref/rst/restructuredtext.rst:913
+#: ../../source/ref/restructuredtext.rst:913
 msgid "\"Date\": date."
-msgstr ""
+msgstr "\"Date\": date."
 
-#: ../../source/ref/rst/restructuredtext.rst:914
+#: ../../source/ref/restructuredtext.rst:914
 msgid "\"Copyright\": copyright."
-msgstr ""
+msgstr "\"Copyright\": copyright."
 
-#: ../../source/ref/rst/restructuredtext.rst:915
+#: ../../source/ref/restructuredtext.rst:915
 msgid "\"Dedication\": topic."
-msgstr ""
+msgstr "\"Dedication\": topic."
 
-#: ../../source/ref/rst/restructuredtext.rst:916
+#: ../../source/ref/restructuredtext.rst:916
 msgid "\"Abstract\": topic."
-msgstr ""
+msgstr "\"Abstract\": topic."
 
-#: ../../source/ref/rst/restructuredtext.rst:918
+#: ../../source/ref/restructuredtext.rst:918
 msgid ""
 "The \"Authors\" field may contain either: a single paragraph consisting "
 "of a list of authors, separated by \";\" or \",\" (\";\" is checked "
@@ -1008,13 +1026,13 @@ msgid ""
 "to disambiguate: \":Authors: Doe, Jane;\"."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:929
+#: ../../source/ref/restructuredtext.rst:929
 msgid ""
 "The \"Address\" field is for a multi-line surface mailing address. "
 "Newlines and whitespace will be preserved."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:932
+#: ../../source/ref/restructuredtext.rst:932
 msgid ""
 "The \"Dedication\" and \"Abstract\" fields may contain arbitrary body "
 "elements.  Only one of each is allowed.  They become topic elements with "
@@ -1022,24 +1040,24 @@ msgid ""
 "immediately following the docinfo element."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:937
+#: ../../source/ref/restructuredtext.rst:937
 msgid ""
 "This field-name-to-element mapping can be replaced for other languages.  "
 "See the `DocInfo transform`_ implementation documentation for details."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:941
+#: ../../source/ref/restructuredtext.rst:941
 msgid ""
 "Unregistered/generic fields may contain one or more paragraphs or "
 "arbitrary body elements. The field name is also used as a \"classes\" "
 "attribute value after being converted into a valid identifier form."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:948
+#: ../../source/ref/restructuredtext.rst:948
 msgid "RCS Keywords"
-msgstr ""
+msgstr "RCS 关键词"
 
-#: ../../source/ref/rst/restructuredtext.rst:950
+#: ../../source/ref/restructuredtext.rst:950
 msgid ""
 "`Bibliographic fields`_ recognized by the parser are normally checked for"
 " RCS [#]_ keywords and cleaned up [#]_.  RCS keywords may be entered into"
@@ -1048,73 +1066,73 @@ msgid ""
 "\"Status\" field will be transformed to a \"status\" element::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:958
+#: ../../source/ref/restructuredtext.rst:958
 msgid "Revision Control System."
-msgstr ""
+msgstr "修订控制系统. "
 
-#: ../../source/ref/rst/restructuredtext.rst:959
+#: ../../source/ref/restructuredtext.rst:959
 msgid "RCS keyword processing can be turned off (unimplemented)."
-msgstr ""
+msgstr "可以关闭RCS关键字处理(未实现). "
 
-#: ../../source/ref/rst/restructuredtext.rst:960
+#: ../../source/ref/restructuredtext.rst:960
 msgid "Concurrent Versions System.  CVS uses the same keywords as RCS."
-msgstr ""
+msgstr "并发版本系统.  CVS使用与RCS相同的关键字. "
 
-#: ../../source/ref/rst/restructuredtext.rst:962
+#: ../../source/ref/restructuredtext.rst:962
 msgid ""
 "Processed, the \"status\" element's text will become simply \"expansion "
 "text\".  The dollar sign delimiters and leading RCS keyword name are "
 "removed."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:966
+#: ../../source/ref/restructuredtext.rst:966
 msgid ""
 "The RCS keyword processing only kicks in when the field list is in "
 "bibliographic context (first non-comment construct in the document, after"
 " a document title if there is one)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:972
+#: ../../source/ref/restructuredtext.rst:972
 msgid "Option Lists"
-msgstr ""
+msgstr "选项列表"
 
-#: ../../source/ref/rst/restructuredtext.rst:974
+#: ../../source/ref/restructuredtext.rst:974
 msgid ""
 "Doctree elements: option_list, option_list_item, option_group, option, "
 "option_string, option_argument, description."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:977
+#: ../../source/ref/restructuredtext.rst:977
 msgid ""
 "Option lists are two-column lists of command-line options and "
 "descriptions, documenting a program's options.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1005
+#: ../../source/ref/restructuredtext.rst:1005
 msgid "There are several types of options recognized by reStructuredText:"
-msgstr ""
+msgstr "reStructuredText可识别几种类型的选项:"
 
-#: ../../source/ref/rst/restructuredtext.rst:1007
+#: ../../source/ref/restructuredtext.rst:1007
 msgid "Short POSIX options consist of one dash and an option letter."
-msgstr ""
+msgstr "短POSIX选项由一个破折号和一个选项字母组成."
 
-#: ../../source/ref/rst/restructuredtext.rst:1008
+#: ../../source/ref/restructuredtext.rst:1008
 msgid ""
 "Long POSIX options consist of two dashes and an option word; some systems"
 " use a single dash."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1010
+#: ../../source/ref/restructuredtext.rst:1010
 msgid ""
 "Old GNU-style \"plus\" options consist of one plus and an option letter "
 "(\"plus\" options are deprecated now, their use discouraged)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1012
+#: ../../source/ref/restructuredtext.rst:1012
 msgid "DOS/VMS options consist of a slash and an option letter or word."
-msgstr ""
+msgstr "DOS / VMS选项由斜杠和选项字母或单词组成. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1014
+#: ../../source/ref/restructuredtext.rst:1014
 msgid ""
 "Please note that both POSIX-style and DOS/VMS-style options may be used "
 "by DOS or Windows software.  These and other variations are sometimes "
@@ -1122,7 +1140,7 @@ msgid ""
 "only."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1019
+#: ../../source/ref/restructuredtext.rst:1019
 msgid ""
 "The syntax for short and long POSIX options is based on the syntax "
 "supported by Python's getopt.py_ module, which implements an option "
@@ -1131,7 +1149,7 @@ msgid ""
 "reStructuredText option lists do not support all of them."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1025
+#: ../../source/ref/restructuredtext.rst:1025
 msgid ""
 "Although long POSIX and DOS/VMS option words may be allowed to be "
 "truncated by the operating system or the application when used on the "
@@ -1140,7 +1158,7 @@ msgid ""
 "supported by notes about truncation if and when applicable."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1031
+#: ../../source/ref/restructuredtext.rst:1031
 msgid ""
 "Options may be followed by an argument placeholder, whose role and syntax"
 " should be explained in the description text.  Either a space or an "
@@ -1149,26 +1167,26 @@ msgid ""
 "omit the delimiter.  Option arguments may take one of two forms:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1037
+#: ../../source/ref/restructuredtext.rst:1037
 msgid ""
 "Begins with a letter (``[a-zA-Z]``) and subsequently consists of letters,"
 " numbers, underscores and hyphens (``[a-zA-Z0-9_-]``)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1039
+#: ../../source/ref/restructuredtext.rst:1039
 msgid ""
 "Begins with an open-angle-bracket (``<``) and ends with a close-angle-"
 "bracket (``>``); any characters except angle brackets are allowed "
 "internally."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1043
+#: ../../source/ref/restructuredtext.rst:1043
 msgid ""
 "Multiple option \"synonyms\" may be listed, sharing a single description."
 "  They must be separated by comma-space."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1046
+#: ../../source/ref/restructuredtext.rst:1046
 msgid ""
 "There must be at least two spaces between the option(s) and the "
 "description.  The description may contain multiple body elements.  The "
@@ -1178,15 +1196,15 @@ msgid ""
 "between option entries."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1063
+#: ../../source/ref/restructuredtext.rst:1063
 msgid "Literal Blocks"
-msgstr ""
+msgstr "文字块"
 
-#: ../../source/ref/rst/restructuredtext.rst:1065
+#: ../../source/ref/restructuredtext.rst:1065
 msgid "Doctree element: literal_block."
-msgstr ""
+msgstr "Doctree 元素: literal_block."
 
-#: ../../source/ref/rst/restructuredtext.rst:1067
+#: ../../source/ref/restructuredtext.rst:1067
 msgid ""
 "A paragraph consisting of two colons (\"::\") signifies that the "
 "following text block(s) comprise a literal block.  The literal block must"
@@ -1195,13 +1213,13 @@ msgid ""
 " monospaced typeface::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1086
+#: ../../source/ref/restructuredtext.rst:1086
 msgid ""
 "The paragraph containing only \"::\" will be completely removed from the "
 "output; no empty paragraph will remain."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1089
+#: ../../source/ref/restructuredtext.rst:1089
 msgid ""
 "As a convenience, the \"::\" is recognized at the end of any paragraph. "
 "If immediately preceded by whitespace, both colons will be removed from "
@@ -1211,25 +1229,25 @@ msgid ""
 "\":\"; this is the \"fully minimized\" form)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1096
+#: ../../source/ref/restructuredtext.rst:1096
 msgid ""
 "In other words, these are all equivalent (please pay attention to the "
 "colons after \"Paragraph\"):"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1099
+#: ../../source/ref/restructuredtext.rst:1099
 msgid "Expanded form::"
-msgstr ""
+msgstr "扩展形式::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1107
+#: ../../source/ref/restructuredtext.rst:1107
 msgid "Partially minimized form::"
-msgstr ""
+msgstr "部分最小化的形式::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1113
+#: ../../source/ref/restructuredtext.rst:1113
 msgid "Fully minimized form::"
-msgstr ""
+msgstr "完全最小化形式::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1119
+#: ../../source/ref/restructuredtext.rst:1119
 msgid ""
 "All whitespace (including line breaks, but excluding minimum indentation "
 "for indented literal blocks) is preserved.  Blank lines are required "
@@ -1237,11 +1255,11 @@ msgid ""
 "as part of the literal block."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1126
+#: ../../source/ref/restructuredtext.rst:1126
 msgid "Indented Literal Blocks"
-msgstr ""
+msgstr "缩进的文字块"
 
-#: ../../source/ref/rst/restructuredtext.rst:1128
+#: ../../source/ref/restructuredtext.rst:1128
 msgid ""
 "Indented literal blocks are indicated by indentation relative to the "
 "surrounding text (leading whitespace on each line).  The minimum "
@@ -1251,11 +1269,11 @@ msgid ""
 "of the indentation."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1147
+#: ../../source/ref/restructuredtext.rst:1147
 msgid "Quoted Literal Blocks"
-msgstr ""
+msgstr "引用的文字块"
 
-#: ../../source/ref/rst/restructuredtext.rst:1149
+#: ../../source/ref/restructuredtext.rst:1149
 msgid ""
 "Quoted literal blocks are unindented contiguous blocks of text where each"
 " line begins with the same non-alphanumeric printable 7-bit ASCII "
@@ -1263,29 +1281,29 @@ msgid ""
 "characters are preserved in the processed document."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1155
+#: ../../source/ref/restructuredtext.rst:1155
 msgid "The following are all valid quoting characters::"
-msgstr ""
+msgstr "以下是所有有效的引用字符::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1159
+#: ../../source/ref/restructuredtext.rst:1159
 msgid ""
 "Note that these are the same characters as are valid for title adornment "
 "of sections_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1162
+#: ../../source/ref/restructuredtext.rst:1162
 msgid "Possible uses include literate programming in Haskell and email quoting::"
-msgstr ""
+msgstr "可能的用途包括Haskell中的文字编程和电子邮件引用::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1186
+#: ../../source/ref/restructuredtext.rst:1186
 msgid "Line Blocks"
-msgstr ""
+msgstr "线块"
 
-#: ../../source/ref/rst/restructuredtext.rst:1188
+#: ../../source/ref/restructuredtext.rst:1188
 msgid "Doctree elements: line_block, line.  (New in Docutils 0.3.5.)"
-msgstr ""
+msgstr "Doctree 元素: line_block, line.  (Docutils 0.3.5中的新功能.)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1190
+#: ../../source/ref/restructuredtext.rst:1190
 msgid ""
 "Line blocks are useful for address blocks, verse (poetry, song lyrics), "
 "and unadorned lists, where the structure of lines is significant.  Line "
@@ -1299,25 +1317,25 @@ msgid ""
 "with a blank line."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1201
+#: ../../source/ref/restructuredtext.rst:1201
 msgid "This example illustrates continuation lines::"
-msgstr ""
+msgstr "此示例说明了延续行::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1209
+#: ../../source/ref/restructuredtext.rst:1209
 msgid ""
 "This example illustrates the nesting of line blocks, indicated by the "
 "initial indentation of new lines::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1237
+#: ../../source/ref/restructuredtext.rst:1237
 msgid "Block Quotes"
-msgstr ""
+msgstr "阻止行情"
 
-#: ../../source/ref/rst/restructuredtext.rst:1239
+#: ../../source/ref/restructuredtext.rst:1239
 msgid "Doctree element: block_quote, attribution."
-msgstr ""
+msgstr "Doctree 元素: block_quote, attribution."
 
-#: ../../source/ref/rst/restructuredtext.rst:1241
+#: ../../source/ref/restructuredtext.rst:1241
 msgid ""
 "A text block that is indented relative to the preceding text, without "
 "preceding markup indicating it to be a literal block or other content, is"
@@ -1325,7 +1343,7 @@ msgid ""
 "markup) continues within the block quote::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1252
+#: ../../source/ref/restructuredtext.rst:1252
 msgid ""
 "A block quote may end with an attribution: a text block beginning with "
 "\"--\", \"---\", or a true em-dash, flush left within the block quote.  "
@@ -1333,49 +1351,49 @@ msgid ""
 "second and subsequent lines must align."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1257
+#: ../../source/ref/restructuredtext.rst:1257
 msgid ""
 "Multiple block quotes may occur consecutively if terminated with "
 "attributions."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1260
+#: ../../source/ref/restructuredtext.rst:1260
 msgid "Unindented paragraph."
-msgstr ""
+msgstr "未缩进的段落. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1262
+#: ../../source/ref/restructuredtext.rst:1262
 msgid "Block quote 1."
-msgstr ""
+msgstr "阻止报价1. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1266
+#: ../../source/ref/restructuredtext.rst:1266
 msgid "Block quote 2."
-msgstr ""
+msgstr "阻止报价2. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1268
+#: ../../source/ref/restructuredtext.rst:1268
 msgid ""
 "`Empty comments`_ may be used to explicitly terminate preceding "
 "constructs that would otherwise consume a block quote::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1277
+#: ../../source/ref/restructuredtext.rst:1277
 msgid "Empty comments may also be used to separate block quotes::"
-msgstr ""
+msgstr "空注释也可用于分隔块引号::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1285
+#: ../../source/ref/restructuredtext.rst:1285
 msgid ""
 "Blank lines are required before and after a block quote, but these blank "
 "lines are not included as part of the block quote."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1304
+#: ../../source/ref/restructuredtext.rst:1304
 msgid "Doctest Blocks"
-msgstr ""
+msgstr "Doctest块"
 
-#: ../../source/ref/rst/restructuredtext.rst:1306
+#: ../../source/ref/restructuredtext.rst:1306
 msgid "Doctree element: doctest_block."
-msgstr ""
+msgstr "Doctree 元素: doctest_block."
 
-#: ../../source/ref/rst/restructuredtext.rst:1308
+#: ../../source/ref/restructuredtext.rst:1308
 msgid ""
 "Doctest blocks are interactive Python sessions cut-and-pasted into "
 "docstrings.  They are meant to illustrate usage by example, and provide "
@@ -1383,7 +1401,7 @@ msgid ""
 "the Python standard library."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1313
+#: ../../source/ref/restructuredtext.rst:1313
 msgid ""
 "Doctest blocks are text blocks which begin with ``\">>> \"``, the Python "
 "interactive interpreter main prompt, and end with a blank line. Doctest "
@@ -1392,45 +1410,45 @@ msgid ""
 " takes priority over Doctest block syntax::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1330
+#: ../../source/ref/restructuredtext.rst:1330
 msgid "Indentation is not required for doctest blocks."
-msgstr ""
+msgstr "doctest块不需要缩进. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1334
+#: ../../source/ref/restructuredtext.rst:1334
 msgid "Tables"
-msgstr ""
+msgstr "表"
 
-#: ../../source/ref/rst/restructuredtext.rst:1336
+#: ../../source/ref/restructuredtext.rst:1336
 msgid "Doctree elements: table, tgroup, colspec, thead, tbody, row, entry."
-msgstr ""
+msgstr "Doctree 元素: table, tgroup, colspec, thead, tbody, row, entry."
 
-#: ../../source/ref/rst/restructuredtext.rst:1338
+#: ../../source/ref/restructuredtext.rst:1338
 msgid ""
 "ReStructuredText provides two syntaxes for delineating table cells: `Grid"
 " Tables`_ and `Simple Tables`_."
-msgstr ""
+msgstr "ReStructuredText提供了两种用于描述表格单元格的语法: `Grid Tables`_ 和 `Simple Tables`_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1341
+#: ../../source/ref/restructuredtext.rst:1341
 msgid ""
 "As with other body elements, blank lines are required before and after "
 "tables.  Tables' left edges should align with the left edge of preceding "
 "text blocks; if indented, the table is considered to be part of a block "
 "quote."
-msgstr ""
+msgstr "与其他身体元素一样, 表格前后需要空白行. 表的左边缘应与前面文本块的左边缘对齐;如果缩进, 则该表被视为块引用的一部分. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1346
+#: ../../source/ref/restructuredtext.rst:1346
 msgid ""
 "Once isolated, each table cell is treated as a miniature document; the "
 "top and bottom cell boundaries act as delimiting blank lines.  Each cell "
 "contains zero or more body elements.  Cell contents may include left "
 "and/or right margins, which are removed before processing."
-msgstr ""
+msgstr "一旦被隔离, 每个表格单元被视为微型文件;顶部和底部单元格边界用作分隔空行. 每个单元格包含零个或多个主体元素. 单元格内容可以包括左边距和/或右边距, 其在处理之前被移除. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1353
+#: ../../source/ref/restructuredtext.rst:1353
 msgid "Grid Tables"
-msgstr ""
+msgstr "网格表"
 
-#: ../../source/ref/rst/restructuredtext.rst:1355
+#: ../../source/ref/restructuredtext.rst:1355
 msgid ""
 "Grid tables provide a complete table representation via grid-like \"ASCII"
 " art\".  Grid tables allow arbitrary cell contents (body elements), and "
@@ -1438,9 +1456,9 @@ msgid ""
 "produce, especially for simple data sets.  The `Emacs table mode`_ is a "
 "tool that allows easy editing of grid tables, in Emacs.  See `Simple "
 "Tables`_ for a simpler (but limited) representation."
-msgstr ""
+msgstr "网格表通过类似网格的 \"ASCII art\" 提供完整的表格表示. 网格表允许任意单元格内容(主体元素), 以及行和列跨度. 但是, 网格表生成起来很麻烦, 特别是对于简单的数据集.  `Emacs表模式`_是一个允许在Emacs中轻松编辑网格表的工具. 请参阅 `Simple Tables`_ 以获得更简单(但有限)的表示. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1363
+#: ../../source/ref/restructuredtext.rst:1363
 msgid ""
 "Grid tables are described with a visual grid made up of the characters "
 "\"-\", \"=\", \"|\", and \"+\".  The hyphen (\"-\") is used for "
@@ -1449,37 +1467,37 @@ msgid ""
 "the `Emacs table mode`_).  The vertical bar (\"|\") is used for vertical "
 "lines (column separators).  The plus sign (\"+\") is used for "
 "intersections of horizontal and vertical lines.  Example::"
-msgstr ""
+msgstr "网格表用可视网格描述, 网格由字符 \"-\" , \"=\" , \"|\" 和 \"+ \" 组成. 连字符(\"-\")用于水平线(行分隔符). 等号(\"=\")可用于将可选标题行与表体分开(不支持 `Emacs table mode`_). 垂直条(\"|\")用于垂直线(列分隔符). 加号(\"+ \")用于水平和垂直线的交叉. 例::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1384
+#: ../../source/ref/restructuredtext.rst:1384
 msgid ""
 "Some care must be taken with grid tables to avoid undesired interactions "
 "with cell text in rare cases.  For example, the following table contains "
 "a cell in row 2 spanning from column 2 to column 4::"
-msgstr ""
+msgstr "必须注意网格表, 以避免在极少数情况下与单元格文本发生意外交互. 例如, 下表包含第2行中从第2列到第4列的单元格::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1396
+#: ../../source/ref/restructuredtext.rst:1396
 msgid ""
 "If a vertical bar is used in the text of that cell, it could have "
 "unintended effects if accidentally aligned with column boundaries::"
-msgstr ""
+msgstr "如果在该单元格的文本中使用垂直条, 则如果意外地与列边界对齐, 则可能会产生意外影响::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1407
+#: ../../source/ref/restructuredtext.rst:1407
 msgid ""
 "Several solutions are possible.  All that is needed is to break the "
 "continuity of the cell outline rectangle.  One possibility is to shift "
 "the text by adding an extra space before::"
-msgstr ""
+msgstr "有几种解决方案可行. 所需要的只是打破单元格轮廓矩形的连续性. 一种可能性是通过在之前添加额外空间来移动文本::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1419
+#: ../../source/ref/restructuredtext.rst:1419
 msgid "Another possibility is to add an extra line to row 2::"
-msgstr ""
+msgstr "另一种可能性是在第2行添加额外的行::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1432
+#: ../../source/ref/restructuredtext.rst:1432
 msgid "Simple Tables"
-msgstr ""
+msgstr "简单的表格"
 
-#: ../../source/ref/rst/restructuredtext.rst:1434
+#: ../../source/ref/restructuredtext.rst:1434
 msgid ""
 "Simple tables provide a compact and easy to type but limited row-oriented"
 " table representation for simple data sets.  Cell contents are typically "
@@ -1487,9 +1505,9 @@ msgid ""
 " most cells.  Simple tables allow multi-line rows (in all but the first "
 "column) and column spans, but not row spans.  See `Grid Tables`_ above "
 "for a complete table representation."
-msgstr ""
+msgstr "简单表格为简单数据集提供了紧凑且易于键入但有限的面向行的表格表示. 单元格内容通常是单个段落, 但是在大多数单元格中可以表示任意的主体元素. 简单表允许多行行(除了第一列以外的所有行)和列跨度, 但不允许行跨度. 请参阅上面的 \"网格表格\" 以获得完整的表格表示. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1441
+#: ../../source/ref/restructuredtext.rst:1441
 msgid ""
 "Simple tables are described with horizontal borders made up of \"=\" and "
 "\"-\" characters.  The equals sign (\"=\") is used for top and bottom "
@@ -1497,9 +1515,9 @@ msgid ""
 "  The hyphen (\"-\") is used to indicate column spans in a single row by "
 "underlining the joined columns, and may optionally be used to explicitly "
 "and/or visually separate rows."
-msgstr ""
+msgstr "描述简单表格的水平边框由 \"=\" 和 \" -\" 字符组成. 等号(\"=\")用于顶部和底部表格边框, 并将可选的标题行与表格主体分开. 连字符(\"-\")用于通过为连接列加下划线来指示单行中的列跨度, 并且可以可选地用于显式地和/或可视地分隔行. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1448
+#: ../../source/ref/restructuredtext.rst:1448
 msgid ""
 "A simple table begins with a top border of equals signs with one or more "
 "spaces at each column boundary (two or more spaces recommended). "
@@ -1513,9 +1531,9 @@ msgid ""
 "of '=' underlines, also with spaces at column boundaries.  For example, "
 "here is a truth table, a three-column table with one header row and four "
 "body rows::"
-msgstr ""
+msgstr "一个简单的表格以等号的顶部边框开始, 每个列边界有一个或多个空格(建议使用两个或多个空格). 无论跨度如何, 顶部边框*必须*完全描述所有表格列. 表中必须至少有两列(以区别于节标题). 顶部边框后面可能是标题行, 最后一个可选标题行用'='加下划线, 同样在列边界有空格. 标题行分隔符下面可能没有空行;它将被解释为表格的底部边界. 表的底部边界由'='下划线组成, 在列边界处也有空格. 例如, 这是一个真值表, 一个包含一个标题行和四个主体行的三列表::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1470
+#: ../../source/ref/restructuredtext.rst:1470
 msgid ""
 "Underlines of '-' may be used to indicate column spans by \"filling in\" "
 "column margins to join adjacent columns.  Column span underlines must be "
@@ -1524,9 +1542,9 @@ msgid ""
 " any other text.  A column span underline applies only to one row "
 "immediately above it.  For example, here is a table with a column span in"
 " the header::"
-msgstr ""
+msgstr "'-' 的下划线可用于通过 \"填充\" 列边距来连接相邻列来指示列跨度. 列跨度下划线必须完整(它们必须覆盖所有列)并与已建立的列边界对齐. 包含列跨度下划线的文本行不能包含任何其他文本. 列跨度下划线仅适用于紧邻其上方的一行. 例如, 这是一个在标题中包含列跨度的表::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1489
+#: ../../source/ref/restructuredtext.rst:1489
 msgid ""
 "Each line of text must contain spaces at column boundaries, except where "
 "cells have been joined by column spans.  Each line of text starts a new "
@@ -1537,82 +1555,82 @@ msgid ""
 "(but see the tip below).  Also, this mechanism limits cells in the first "
 "column to only one line of text.  Use `grid tables`_ if this limitation "
 "is unacceptable."
-msgstr ""
+msgstr "每行文本必须在列边界处包含空格, 除非通过列跨度连接单元格. 每行文本都会开始一个新行, 除非第一列中有空白单元格. 在这种情况下, 该行文本被解析为延续行. 因此, 新行的第一列中的单元格(*不* 是延续线)*必须*包含一些文本;空白细胞会导致误解(但请参阅下面的提示). 此外, 此机制将第一列中的单元格限制为仅一行文本. 如果此限制是不可接受的, 请使用 `grid tables`_. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1501
+#: ../../source/ref/restructuredtext.rst:1501
 msgid ""
 "To start a new row in a simple table without text in the first column in "
 "the processed output, use one of these:"
-msgstr ""
+msgstr "要在已处理输出的第一列中没有文本的简单表中启动新行, 请使用其中一个:"
 
-#: ../../source/ref/rst/restructuredtext.rst:1504
+#: ../../source/ref/restructuredtext.rst:1504
 msgid ""
 "an empty comment (\"..\"), which may be omitted from the processed output"
 " (see Comments_ below)"
-msgstr ""
+msgstr "空注释(\"..\"), 可以从已处理的输出中省略(参见下面的 Comments_)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1507
+#: ../../source/ref/restructuredtext.rst:1507
 msgid ""
 "a backslash escape (\"``\\``\") followed by a space (see `Escaping "
 "Mechanism`_ above)"
-msgstr ""
+msgstr "一个反斜杠转义符(\"``\\``\")后跟一个空格(参见上面的'转义机制`)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1510
+#: ../../source/ref/restructuredtext.rst:1510
 msgid ""
 "Underlines of '-' may also be used to visually separate rows, even if "
 "there are no column spans.  This is especially useful in long tables, "
 "where rows are many lines long."
-msgstr ""
+msgstr "'-' 的下划线也可用于在视觉上分隔行, 即使没有列跨度. 这在长表中特别有用, 其中行的行数很多. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1514
+#: ../../source/ref/restructuredtext.rst:1514
 msgid ""
 "Blank lines are permitted within simple tables.  Their interpretation "
 "depends on the context.  Blank lines *between* rows are ignored. Blank "
 "lines *within* multi-line rows may separate paragraphs or other body "
 "elements within cells."
-msgstr ""
+msgstr "简单表中允许使用空行. 他们的解释取决于背景.  *行之间的空行*将被忽略.  *多行行内的空行*可以分隔单元格内的段落或其他正文元素. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1519
+#: ../../source/ref/restructuredtext.rst:1519
 msgid ""
 "The rightmost column is unbounded; text may continue past the edge of the"
 " table (as indicated by the table borders).  However, it is recommended "
 "that borders be made long enough to contain the entire text."
-msgstr ""
+msgstr "最右边的列是无界的;文本可能会继续超出表格的边缘(如表格边框所示). 但是, 建议将边框设置得足够长以包含整个文本. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1524
+#: ../../source/ref/restructuredtext.rst:1524
 msgid ""
 "The following example illustrates continuation lines (row 2 consists of "
 "two lines of text, and four lines for row 3), a blank line separating "
 "paragraphs (row 3, column 2), text extending past the right edge of the "
 "table, and a new row which will have no text in the first column in the "
 "processed output (row 4)::"
-msgstr ""
+msgstr "以下示例说明了连续行(第2行由两行文本组成, 第四行包含第3行), 空白行分隔段落(第3行, 第2列), 文本延伸超过表格的右边缘, 以及新的在处理的输出的第一列中没有文本的行(第4行)::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1545
+#: ../../source/ref/restructuredtext.rst:1545
 msgid "Explicit Markup Blocks"
-msgstr ""
+msgstr "显式标记块"
 
-#: ../../source/ref/rst/restructuredtext.rst:1547
+#: ../../source/ref/restructuredtext.rst:1547
 msgid "An explicit markup block is a text block:"
-msgstr ""
+msgstr "显式标记块是文本块:"
 
-#: ../../source/ref/rst/restructuredtext.rst:1549
+#: ../../source/ref/restructuredtext.rst:1549
 msgid ""
 "whose first line begins with \"..\" followed by whitespace (the "
 "\"explicit markup start\"),"
-msgstr ""
+msgstr "其第一行以 \"..\" 开头, 后跟空格(\"显式标记开始\"), "
 
-#: ../../source/ref/rst/restructuredtext.rst:1551
+#: ../../source/ref/restructuredtext.rst:1551
 msgid ""
 "whose second and subsequent lines (if any) are indented relative to the "
 "first, and"
-msgstr ""
+msgstr "其第二行和后续行(如果有的话)相对于第一行缩进, 并且"
 
-#: ../../source/ref/rst/restructuredtext.rst:1553
+#: ../../source/ref/restructuredtext.rst:1553
 msgid "which ends before an unindented line."
-msgstr ""
+msgstr "它在一条未缩进的线之前结束. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1555
+#: ../../source/ref/restructuredtext.rst:1555
 msgid ""
 "Explicit markup blocks are analogous to bullet list items, with \"..\" as"
 " the bullet.  The text on the lines immediately after the explicit markup"
@@ -1621,66 +1639,66 @@ msgid ""
 " block body.  Therefore if the first construct fits in one line, and the "
 "indentation of the first and second constructs should differ, the first "
 "construct should not begin on the same line as the explicit markup start."
-msgstr ""
+msgstr "显式标记块类似于项目符号列表项, 其中 \"..\" 作为项目符号. 显式标记开始之后的行上的文本确定块体的缩进. 始终从块体的第二行和后续行中移除最大公共缩进. 因此, 如果第一个构造适合一行, 并且第一个和第二个构造的缩进应该不同, 则第一个构造不应该与显式标记开始在同一行上开始. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1564
+#: ../../source/ref/restructuredtext.rst:1564
 msgid ""
 "Blank lines are required between explicit markup blocks and other "
 "elements, but are optional between explicit markup blocks where "
 "unambiguous."
-msgstr ""
+msgstr "显式标记块和其他元素之间需要空行, 但在显式标记块之间是明确的, 这是明确的. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1568
+#: ../../source/ref/restructuredtext.rst:1568
 msgid ""
 "The explicit markup syntax is used for footnotes, citations, hyperlink "
 "targets, directives, substitution definitions, and comments."
-msgstr ""
+msgstr "显式标记语法用于脚注, 引用, 超链接目标, 指令, 替换定义和注释. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1573
+#: ../../source/ref/restructuredtext.rst:1573
 msgid "Footnotes"
-msgstr ""
+msgstr "脚注"
 
-#: ../../source/ref/rst/restructuredtext.rst:1575
+#: ../../source/ref/restructuredtext.rst:1575
 msgid "See also: `Footnote References`_."
-msgstr ""
+msgstr "也可以看看: `Footnote References`_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1577
+#: ../../source/ref/restructuredtext.rst:1577
 msgid "Doctree elements: footnote_, label_."
-msgstr ""
+msgstr "Doctree 元素: footnote_, label_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1579
+#: ../../source/ref/restructuredtext.rst:1579
 msgid ""
 "Configuration settings: `footnote_references <footnote_references "
 "setting_>`_."
-msgstr ""
+msgstr "配置设置: `footnote_references <footnote_references setting_>`_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1587
+#: ../../source/ref/restructuredtext.rst:1587
 msgid ""
 "Each footnote consists of an explicit markup start (\".. \"), a left "
 "square bracket, the footnote label, a right square bracket, and "
 "whitespace, followed by indented body elements.  A footnote label can be:"
-msgstr ""
+msgstr "每个脚注包含一个显式标记开头(\".. \"), 一个左方括号, 脚注标签, 一个右方括号和空格, 后跟缩进的主体元素. 脚注标签可以是:"
 
-#: ../../source/ref/rst/restructuredtext.rst:1592
+#: ../../source/ref/restructuredtext.rst:1592
 msgid "a whole decimal number consisting of one or more digits,"
-msgstr ""
+msgstr "由一个或多个数字组成的整数十进制数, "
 
-#: ../../source/ref/rst/restructuredtext.rst:1594
-#: ../../source/ref/rst/restructuredtext.rst:2872
+#: ../../source/ref/restructuredtext.rst:1594
+#: ../../source/ref/restructuredtext.rst:2872
 msgid "a single \"#\" (denoting `auto-numbered footnotes`_),"
-msgstr ""
+msgstr "单个 \"＃\" (表示 `auto-numbered footnotes`_), "
 
-#: ../../source/ref/rst/restructuredtext.rst:1596
-#: ../../source/ref/rst/restructuredtext.rst:2874
+#: ../../source/ref/restructuredtext.rst:1596
+#: ../../source/ref/restructuredtext.rst:2874
 msgid "a \"#\" followed by a simple reference name (an `autonumber label`_), or"
-msgstr ""
+msgstr "a \"＃\" 后跟一个简单的引用名称(`autonumber label`_), 或"
 
-#: ../../source/ref/rst/restructuredtext.rst:1599
-#: ../../source/ref/rst/restructuredtext.rst:2877
+#: ../../source/ref/restructuredtext.rst:1599
+#: ../../source/ref/restructuredtext.rst:2877
 msgid "a single \"*\" (denoting `auto-symbol footnotes`_)."
-msgstr ""
+msgstr "单个 \"*\" (表示 `auto-symbol footnotes`_). "
 
-#: ../../source/ref/rst/restructuredtext.rst:1601
+#: ../../source/ref/restructuredtext.rst:1601
 msgid ""
 "The footnote content (body elements) must be consistently indented (by at"
 " least 3 spaces) and left-aligned.  The first body element within a "
@@ -1689,20 +1707,20 @@ msgid ""
 "remaining elements differ, the first element must begin on the line after"
 " the footnote label.  Otherwise, the difference in indentation will not "
 "be detected."
-msgstr ""
+msgstr "脚注内容(主体元素)必须始终缩进(至少3个空格)并左对齐. 脚注中的第一个body元素通常可以与脚注标签位于同一行. 但是, 如果第一个元素适合一行并且其余元素的缩进不同, 则第一个元素必须从脚注标签后的行开始. 否则, 将不会检测到缩进的差异. "
 
-#: ../../source/ref/rst/restructuredtext.rst:1609
+#: ../../source/ref/restructuredtext.rst:1609
 msgid ""
 "Footnotes may occur anywhere in the document, not only at the end. Where "
 "and how they appear in the processed output depends on the processing "
 "system."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1613
+#: ../../source/ref/restructuredtext.rst:1613
 msgid "Here is a manually numbered footnote::"
-msgstr ""
+msgstr "Here is a manually numbered footnote::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1617
+#: ../../source/ref/restructuredtext.rst:1617
 msgid ""
 "Each footnote automatically generates a hyperlink target pointing to "
 "itself.  The text of the hyperlink target name is the same as that of the"
@@ -1711,18 +1729,18 @@ msgid ""
 " a complete description of the mechanism."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1633
+#: ../../source/ref/restructuredtext.rst:1633
 msgid "Auto-Numbered Footnotes"
-msgstr ""
+msgstr "自动编号的脚注"
 
-#: ../../source/ref/rst/restructuredtext.rst:1635
+#: ../../source/ref/restructuredtext.rst:1635
 msgid ""
 "A number sign (\"#\") may be used as the first character of a footnote "
 "label to request automatic numbering of the footnote or footnote "
 "reference."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1639
+#: ../../source/ref/restructuredtext.rst:1639
 msgid ""
 "The first footnote to request automatic numbering is assigned the label "
 "\"1\", the second is assigned the label \"2\", and so on (assuming there "
@@ -1732,26 +1750,26 @@ msgid ""
 "just as if the label was explicitly specified."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1648
+#: ../../source/ref/restructuredtext.rst:1648
 msgid ""
 "A footnote may specify a label explicitly while at the same time "
 "requesting automatic numbering: ``[#label]``.  These labels are called "
 "_`autonumber labels`.  Autonumber labels do two things:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1652
+#: ../../source/ref/restructuredtext.rst:1652
 msgid ""
 "On the footnote itself, they generate a hyperlink target whose name is "
 "the autonumber label (doesn't include the \"#\")."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1655
+#: ../../source/ref/restructuredtext.rst:1655
 msgid ""
 "They allow an automatically numbered footnote to be referred to more than"
 " once, as a footnote reference or hyperlink reference.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1666
+#: ../../source/ref/restructuredtext.rst:1666
 msgid ""
 "The numbering is determined by the order of the footnotes, not by the "
 "order of the references.  For footnote references without autonumber "
@@ -1759,7 +1777,7 @@ msgid ""
 "same relative order but need not alternate in lock-step.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1681
+#: ../../source/ref/restructuredtext.rst:1681
 msgid ""
 "Special care must be taken if footnotes themselves contain auto-numbered "
 "footnote references, or if multiple references are made in close "
@@ -1768,18 +1786,18 @@ msgid ""
 "order in which a person would read them."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1689
+#: ../../source/ref/restructuredtext.rst:1689
 msgid "Auto-Symbol Footnotes"
-msgstr ""
+msgstr "自我符号叉车"
 
-#: ../../source/ref/rst/restructuredtext.rst:1691
+#: ../../source/ref/restructuredtext.rst:1691
 msgid ""
 "An asterisk (\"*\") may be used for footnote labels to request automatic "
 "symbol generation for footnotes and footnote references.  The asterisk "
 "may be the only character in the label.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1699
+#: ../../source/ref/restructuredtext.rst:1699
 msgid ""
 "A transform will insert symbols as labels into corresponding footnotes "
 "and footnote references.  The number of references must be equal to the "
@@ -1787,53 +1805,53 @@ msgid ""
 "references."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1704
+#: ../../source/ref/restructuredtext.rst:1704
 msgid ""
 "The standard Docutils system uses the following symbols for footnote "
 "marks [#]_:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1707
+#: ../../source/ref/restructuredtext.rst:1707
 msgid "asterisk/star (\"*\")"
-msgstr ""
+msgstr "asterisk/star (\"*\")"
 
-#: ../../source/ref/rst/restructuredtext.rst:1708
+#: ../../source/ref/restructuredtext.rst:1708
 msgid "dagger (HTML character entity \"&dagger;\", Unicode U+02020)"
-msgstr ""
+msgstr "dagger (HTML字符实体 \"&dagger;\", Unicode U+02020)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1709
+#: ../../source/ref/restructuredtext.rst:1709
 msgid "double dagger (\"&Dagger;\"/U+02021)"
-msgstr ""
+msgstr "double dagger (\"&Dagger;\"/U+02021)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1710
+#: ../../source/ref/restructuredtext.rst:1710
 msgid "section mark (\"&sect;\"/U+000A7)"
-msgstr ""
+msgstr "section mark (\"&sect;\"/U+000A7)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1711
+#: ../../source/ref/restructuredtext.rst:1711
 msgid "pilcrow or paragraph mark (\"&para;\"/U+000B6)"
-msgstr ""
+msgstr "pilcrow or paragraph mark (\"&para;\"/U+000B6)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1712
+#: ../../source/ref/restructuredtext.rst:1712
 msgid "number sign (\"#\")"
-msgstr ""
+msgstr "number sign (\"#\")"
 
-#: ../../source/ref/rst/restructuredtext.rst:1713
+#: ../../source/ref/restructuredtext.rst:1713
 msgid "spade suit (\"&spades;\"/U+02660)"
-msgstr ""
+msgstr "spade suit (\"&spades;\"/U+02660)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1714
+#: ../../source/ref/restructuredtext.rst:1714
 msgid "heart suit (\"&hearts;\"/U+02665)"
-msgstr ""
+msgstr "heart suit (\"&hearts;\"/U+02665)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1715
+#: ../../source/ref/restructuredtext.rst:1715
 msgid "diamond suit (\"&diams;\"/U+02666)"
-msgstr ""
+msgstr "diamond suit (\"&diams;\"/U+02666)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1716
+#: ../../source/ref/restructuredtext.rst:1716
 msgid "club suit (\"&clubs;\"/U+02663)"
-msgstr ""
+msgstr "club suit (\"&clubs;\"/U+02663)"
 
-#: ../../source/ref/rst/restructuredtext.rst:1718
+#: ../../source/ref/restructuredtext.rst:1718
 msgid ""
 "This list was inspired by the list of symbols for \"Note Reference "
 "Marks\" in The Chicago Manual of Style, 14th edition, section 12.51.  "
@@ -1841,13 +1859,13 @@ msgid ""
 "last four symbols (the card suits) were added arbitrarily."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1724
+#: ../../source/ref/restructuredtext.rst:1724
 msgid ""
 "If more than ten symbols are required, the same sequence will be reused, "
 "doubled and then tripled, and so on (\"**\" etc.)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1727
+#: ../../source/ref/restructuredtext.rst:1727
 msgid ""
 "When using auto-symbol footnotes, the choice of output encoding is "
 "important.  Many of the symbols used are not encodable in certain common "
@@ -1856,11 +1874,11 @@ msgid ""
 "is to use the \"xmlcharrefreplace\" `output encoding error handler`__."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1738
+#: ../../source/ref/restructuredtext.rst:1738
 msgid "Mixed Manual and Auto-Numbered Footnotes"
-msgstr ""
+msgstr "混合手动和自动编号脚注"
 
-#: ../../source/ref/rst/restructuredtext.rst:1740
+#: ../../source/ref/restructuredtext.rst:1740
 msgid ""
 "Manual and automatic footnote numbering may both be used within a single "
 "document, although the results may not be expected.  Manual numbering "
@@ -1868,19 +1886,19 @@ msgid ""
 "numbered footnotes.  The following example should be illustrative::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1762
+#: ../../source/ref/restructuredtext.rst:1762
 msgid "Citations"
-msgstr ""
+msgstr "引文"
 
-#: ../../source/ref/rst/restructuredtext.rst:1764
+#: ../../source/ref/restructuredtext.rst:1764
 msgid "See also: `Citation References`_."
-msgstr ""
+msgstr "另请参阅: `Citation References`_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1766
+#: ../../source/ref/restructuredtext.rst:1766
 msgid "Doctree element: citation_"
-msgstr ""
+msgstr "Doctree 元素: citation_"
 
-#: ../../source/ref/rst/restructuredtext.rst:1770
+#: ../../source/ref/restructuredtext.rst:1770
 msgid ""
 "Citations are identical to footnotes except that they use only non-"
 "numeric labels such as ``[note]`` or ``[GVR2001]``.  Citation labels are "
@@ -1890,27 +1908,27 @@ msgid ""
 "footnotes.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1786
+#: ../../source/ref/restructuredtext.rst:1786
 msgid "Hyperlink Targets"
-msgstr ""
+msgstr "超链接目标"
 
-#: ../../source/ref/rst/restructuredtext.rst:1788
+#: ../../source/ref/restructuredtext.rst:1788
 msgid "Doctree element: target_."
-msgstr ""
+msgstr "Doctree 元素: target_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1792
+#: ../../source/ref/restructuredtext.rst:1792
 msgid ""
 "These are also called _`explicit hyperlink targets`, to differentiate "
 "them from `implicit hyperlink targets`_ defined below."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1795
+#: ../../source/ref/restructuredtext.rst:1795
 msgid ""
 "Hyperlink targets identify a location within or outside of a document, "
 "which may be linked to by `hyperlink references`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1798
+#: ../../source/ref/restructuredtext.rst:1798
 msgid ""
 "Hyperlink targets may be named or anonymous.  Named hyperlink targets "
 "consist of an explicit markup start (\".. \"), an underscore, the "
@@ -1918,36 +1936,36 @@ msgid ""
 "block::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1805
+#: ../../source/ref/restructuredtext.rst:1805
 msgid ""
 "Reference names are whitespace-neutral and case-insensitive.  See "
 "`Reference Names`_ for details and examples."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1808
+#: ../../source/ref/restructuredtext.rst:1808
 msgid ""
 "Anonymous hyperlink targets consist of an explicit markup start (\".. "
 "\"), two underscores, a colon, whitespace, and a link block; there is no "
 "reference name::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1814
+#: ../../source/ref/restructuredtext.rst:1814
 msgid ""
 "An alternate syntax for anonymous hyperlinks consists of two underscores,"
 " a space, and a link block::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1819
+#: ../../source/ref/restructuredtext.rst:1819
 msgid "See `Anonymous Hyperlinks`_ below."
-msgstr ""
+msgstr "见下文 `Anonymous Hyperlinks`_."
 
-#: ../../source/ref/rst/restructuredtext.rst:1821
+#: ../../source/ref/restructuredtext.rst:1821
 msgid ""
 "There are three types of hyperlink targets: internal, external, and "
 "indirect."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1824
+#: ../../source/ref/restructuredtext.rst:1824
 msgid ""
 "_`Internal hyperlink targets` have empty link blocks.  They provide an "
 "end point allowing a hyperlink to connect one place to another within a "
@@ -1955,13 +1973,13 @@ msgid ""
 "the target. [#]_  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1836
+#: ../../source/ref/restructuredtext.rst:1836
 msgid ""
 "Internal hyperlink targets may be \"chained\".  Multiple adjacent "
 "internal hyperlink targets all point to the same element::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1845
+#: ../../source/ref/restructuredtext.rst:1845
 msgid ""
 "If the element \"pointed to\" is an external hyperlink target (with a URI"
 " in its link block; see #2 below) the URI from the external hyperlink "
@@ -1971,13 +1989,13 @@ msgid ""
 "URI::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1856
+#: ../../source/ref/restructuredtext.rst:1856
 msgid ""
 "An inline form of internal hyperlink target is available; see `Inline "
 "Internal Targets`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1859
+#: ../../source/ref/restructuredtext.rst:1859
 msgid ""
 "Works also, if the internal hyperlink target is \"nested\" at the end of "
 "an indented text block. This behaviour allows setting targets to "
@@ -1985,17 +2003,17 @@ msgid ""
 "applies to the list as a whole)::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1871
+#: ../../source/ref/restructuredtext.rst:1871
 msgid ""
 "_`External hyperlink targets` have an absolute or relative URI or email "
 "address in their link blocks.  For example, take the following input::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1882
+#: ../../source/ref/restructuredtext.rst:1882
 msgid "After processing into HTML, the hyperlinks might be expressed as::"
-msgstr ""
+msgstr "After processing into HTML, the hyperlinks might be expressed as::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1890
+#: ../../source/ref/restructuredtext.rst:1890
 msgid ""
 "An external hyperlink's URI may begin on the same line as the explicit "
 "markup start and target name, or it may begin in an indented text block "
@@ -2005,25 +2023,25 @@ msgid ""
 "wrapping).  The following external hyperlink targets are equivalent::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1907
+#: ../../source/ref/restructuredtext.rst:1907
 msgid "Escaped whitespace is preserved as intentional spaces, e.g.::"
-msgstr ""
+msgstr "Escaped whitespace is preserved as intentional spaces, e.g.::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1911
+#: ../../source/ref/restructuredtext.rst:1911
 msgid ""
 "If an external hyperlink target's URI contains an underscore as its last "
 "character, it must be escaped to avoid being mistaken for an indirect "
 "hyperlink target::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1919
+#: ../../source/ref/restructuredtext.rst:1919
 msgid ""
 "It is possible (although not generally recommended) to include URIs "
 "directly within hyperlink references.  See `Embedded URIs and Aliases`_ "
 "below."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1923
+#: ../../source/ref/restructuredtext.rst:1923
 msgid ""
 "_`Indirect hyperlink targets` have a hyperlink reference in their link "
 "blocks.  In the following example, target \"one\" indirectly references "
@@ -2032,7 +2050,7 @@ msgid ""
 "the same thing::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1933
+#: ../../source/ref/restructuredtext.rst:1933
 msgid ""
 "Just as with `hyperlink references`_ anywhere else in a document, if a "
 "phrase-reference is used in the link block it must be enclosed in "
@@ -2043,39 +2061,39 @@ msgid ""
 "normalized."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1941
+#: ../../source/ref/restructuredtext.rst:1941
 msgid "For example, the following indirect hyperlink targets are equivalent::"
-msgstr ""
+msgstr "例如，以下间接超链接目标是等效的::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1950
+#: ../../source/ref/restructuredtext.rst:1950
 msgid ""
 "It is possible to include an alias directly within hyperlink references. "
 "See `Embedded URIs and Aliases`_ below."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1953
+#: ../../source/ref/restructuredtext.rst:1953
 msgid "If the reference name contains any colons, either:"
-msgstr ""
+msgstr "如果引用名称包含任何冒号:"
 
-#: ../../source/ref/rst/restructuredtext.rst:1955
+#: ../../source/ref/restructuredtext.rst:1955
 msgid "the phrase must be enclosed in backquotes::"
-msgstr ""
+msgstr "这个短语必须用反引号括起来::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1960
+#: ../../source/ref/restructuredtext.rst:1960
 msgid "or the colon(s) must be backslash-escaped in the link target::"
-msgstr ""
+msgstr "或者冒号必须在链接目标中进行反斜杠转义::"
 
-#: ../../source/ref/rst/restructuredtext.rst:1966
+#: ../../source/ref/restructuredtext.rst:1966
 msgid ""
 "See `Implicit Hyperlink Targets`_ below for the resolution of duplicate "
 "reference names."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1979
+#: ../../source/ref/restructuredtext.rst:1979
 msgid "Anonymous Hyperlinks"
-msgstr ""
+msgstr "匿名超链接"
 
-#: ../../source/ref/rst/restructuredtext.rst:1981
+#: ../../source/ref/restructuredtext.rst:1981
 msgid ""
 "The `World Wide Web Consortium`_ recommends in its `HTML Techniques for "
 "Web Content Accessibility Guidelines`_ that authors should \"clearly "
@@ -2089,25 +2107,25 @@ msgid ""
 "advised."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1992
+#: ../../source/ref/restructuredtext.rst:1992
 msgid ""
 "Anonymous `hyperlink references`_ are specified with two underscores "
 "instead of one::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:1997
+#: ../../source/ref/restructuredtext.rst:1997
 msgid ""
 "Anonymous targets begin with \".. __:\"; no reference name is required or"
 " allowed::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2002
+#: ../../source/ref/restructuredtext.rst:2002
 msgid ""
 "As a convenient alternative, anonymous targets may begin with \"__\" "
 "only::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2007
+#: ../../source/ref/restructuredtext.rst:2007
 msgid ""
 "The reference name of the reference is not used to match the reference to"
 " its target.  Instead, the order of anonymous hyperlink references and "
@@ -2120,15 +2138,15 @@ msgid ""
 "attention to the order of corresponding targets."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2019
+#: ../../source/ref/restructuredtext.rst:2019
 msgid "Directives"
-msgstr ""
+msgstr "指令"
 
-#: ../../source/ref/rst/restructuredtext.rst:2021
+#: ../../source/ref/restructuredtext.rst:2021
 msgid "Doctree elements: depend on the directive."
-msgstr ""
+msgstr "Doctree 元素: 取决于指令."
 
-#: ../../source/ref/rst/restructuredtext.rst:2023
+#: ../../source/ref/restructuredtext.rst:2023
 msgid ""
 "Directives are an extension mechanism for reStructuredText, a way of "
 "adding support for new constructs without adding new primary syntax "
@@ -2140,19 +2158,19 @@ msgid ""
 "available when processing the document."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2032
+#: ../../source/ref/restructuredtext.rst:2032
 msgid "For example, here's how an image_ may be placed::"
-msgstr ""
+msgstr "例如，这里是如何放置image_::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2036
+#: ../../source/ref/restructuredtext.rst:2036
 msgid "A figure_ (a graphic with a caption) may placed like this::"
-msgstr ""
+msgstr "figure_（带有标题的图形）可以像这样放置::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2042
+#: ../../source/ref/restructuredtext.rst:2042
 msgid "An admonition_ (note, caution, etc.) contains other body elements::"
-msgstr ""
+msgstr "admonition_ （注意，警告等）包含其他身体元素::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2048
+#: ../../source/ref/restructuredtext.rst:2048
 msgid ""
 "Directives are indicated by an explicit markup start (\".. \") followed "
 "by the directive type, two colons, and whitespace (together called the "
@@ -2162,15 +2180,15 @@ msgid ""
 "directive type for these reasons:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2055
+#: ../../source/ref/restructuredtext.rst:2055
 msgid "Two colons are distinctive, and unlikely to be used in common text."
-msgstr ""
+msgstr "两个冒号是独特的，不太可能在普通文本中使用。"
 
-#: ../../source/ref/rst/restructuredtext.rst:2057
+#: ../../source/ref/restructuredtext.rst:2057
 msgid "Two colons avoids clashes with common comment text like::"
-msgstr ""
+msgstr "两个冒号避免与常见的评论文本冲突::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2061
+#: ../../source/ref/restructuredtext.rst:2061
 msgid ""
 "If an implementation of reStructuredText does not recognize a directive "
 "(i.e., the directive-handler is not installed), a level-3 (error) system "
@@ -2179,7 +2197,7 @@ msgid ""
 "natural choice."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2067
+#: ../../source/ref/restructuredtext.rst:2067
 msgid ""
 "The directive block is consists of any text on the first line of the "
 "directive after the directive marker, and any subsequent indented text.  "
@@ -2187,19 +2205,19 @@ msgid ""
 "There are three logical parts to the directive block:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2072
+#: ../../source/ref/restructuredtext.rst:2072
 msgid "Directive arguments."
-msgstr ""
+msgstr "指令论点。"
 
-#: ../../source/ref/rst/restructuredtext.rst:2073
+#: ../../source/ref/restructuredtext.rst:2073
 msgid "Directive options."
-msgstr ""
+msgstr "指令选项。"
 
-#: ../../source/ref/rst/restructuredtext.rst:2074
+#: ../../source/ref/restructuredtext.rst:2074
 msgid "Directive content."
-msgstr ""
+msgstr "指令内容。"
 
-#: ../../source/ref/rst/restructuredtext.rst:2076
+#: ../../source/ref/restructuredtext.rst:2076
 msgid ""
 "Individual directives can employ any combination of these parts. "
 "Directive arguments can be filesystem paths, URLs, title text, etc. "
@@ -2212,7 +2230,7 @@ msgid ""
 "directive employs all three parts::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2091
+#: ../../source/ref/restructuredtext.rst:2091
 msgid ""
 "Simple directives may not require any content.  If a directive that does "
 "not employ a content block is followed by indented text anyway, it is an "
@@ -2220,14 +2238,14 @@ msgid ""
 "empty comment in-between (see Comments_ below)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2096
+#: ../../source/ref/restructuredtext.rst:2096
 msgid ""
 "Actions taken in response to directives and the interpretation of text in"
 " the directive content block or subsequent text block(s) are directive-"
 "dependent.  See `reStructuredText Directives`_ for details."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2100
+#: ../../source/ref/restructuredtext.rst:2100
 msgid ""
 "Directives are meant for the arbitrary processing of their contents, "
 "which can be transformed into something possibly unrelated to the "
@@ -2238,7 +2256,7 @@ msgid ""
 " supported."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2108
+#: ../../source/ref/restructuredtext.rst:2108
 msgid ""
 "Directives do not generate \"directive\" elements; they are a *parser "
 "construct* only, and have no intrinsic meaning outside of "
@@ -2247,15 +2265,15 @@ msgid ""
 "directives will trigger level-3 (error) system messages."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2124
+#: ../../source/ref/restructuredtext.rst:2124
 msgid "Substitution Definitions"
-msgstr ""
+msgstr "替代定义"
 
-#: ../../source/ref/rst/restructuredtext.rst:2126
+#: ../../source/ref/restructuredtext.rst:2126
 msgid "Doctree element: substitution_definition."
-msgstr ""
+msgstr "Doctree 元素: substitution_definition."
 
-#: ../../source/ref/rst/restructuredtext.rst:2128
+#: ../../source/ref/restructuredtext.rst:2128
 msgid ""
 "Substitution definitions are indicated by an explicit markup start (\".. "
 "\") followed by a vertical bar, the substitution text, another vertical "
@@ -2265,13 +2283,13 @@ msgid ""
 "such as \"image_\" or \"replace_\".  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2140
+#: ../../source/ref/restructuredtext.rst:2140
 msgid ""
 "It is an error for a substitution definition block to directly or "
 "indirectly contain a circular substitution reference."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2143
+#: ../../source/ref/restructuredtext.rst:2143
 msgid ""
 "`Substitution references`_ are replaced in-line by the processed contents"
 " of the corresponding definition (linked by matching substitution text)."
@@ -2279,7 +2297,7 @@ msgid ""
 " case-insensitive comparison is attempted."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2148
+#: ../../source/ref/restructuredtext.rst:2148
 msgid ""
 "Substitution definitions allow the power and flexibility of block-level "
 "directives_ to be shared by inline text.  They are a way to include "
@@ -2288,7 +2306,7 @@ msgid ""
 "named entities or programming language macros."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2154
+#: ../../source/ref/restructuredtext.rst:2154
 msgid ""
 "Without the substitution mechanism, every time someone wants an "
 "application-specific new inline structure, they would have to petition "
@@ -2297,30 +2315,30 @@ msgid ""
 "directive)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2168
+#: ../../source/ref/restructuredtext.rst:2168
 msgid ""
 "Following are some use cases for the substitution mechanism.  Please note"
 " that most of the embedded directives shown are examples only and have "
 "not been implemented."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2210
+#: ../../source/ref/restructuredtext.rst:2210
 msgid "Objects"
-msgstr ""
+msgstr "对象"
 
-#: ../../source/ref/rst/restructuredtext.rst:2173
+#: ../../source/ref/restructuredtext.rst:2173
 msgid ""
 "Substitution references may be used to associate ambiguous text with a "
 "unique object identifier."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2176
+#: ../../source/ref/restructuredtext.rst:2176
 msgid ""
 "For example, many sites may wish to implement an inline \"user\" "
 "directive::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2184
+#: ../../source/ref/restructuredtext.rst:2184
 msgid ""
 "Depending on the needs of the site, this may be used to index the "
 "document for later searching, to hyperlink the inline text in various "
@@ -2330,7 +2348,7 @@ msgid ""
 "the text, make the text bold or a different color, etc.)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2192
+#: ../../source/ref/restructuredtext.rst:2192
 msgid ""
 "The same approach can be used in documents which frequently refer to a "
 "particular type of objects with unique identifiers but ambiguous common "
@@ -2338,73 +2356,73 @@ msgid ""
 "possible.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2202
+#: ../../source/ref/restructuredtext.rst:2202
 msgid ""
 "Classes or functions, in contexts where the module or class names are "
 "unclear and/or interpreted text cannot be used, are another possibility::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2238
+#: ../../source/ref/restructuredtext.rst:2238
 msgid "Images"
-msgstr ""
+msgstr "图片"
 
-#: ../../source/ref/rst/restructuredtext.rst:2213
+#: ../../source/ref/restructuredtext.rst:2213
 msgid "Images are a common use for substitution references::"
-msgstr ""
+msgstr "Images are a common use for substitution references::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2238
+#: ../../source/ref/restructuredtext.rst:2238
 msgid "The \"image_\" directive has been implemented."
-msgstr ""
+msgstr "The \"image_\" directive has been implemented."
 
-#: ../../source/ref/rst/restructuredtext.rst:2272
+#: ../../source/ref/restructuredtext.rst:2272
 msgid "Styles [#]_"
-msgstr ""
+msgstr "样式 [#]_"
 
-#: ../../source/ref/rst/restructuredtext.rst:2241
+#: ../../source/ref/restructuredtext.rst:2241
 msgid ""
 "Substitution references may be used to associate inline text with an "
 "externally defined presentation style::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2248
+#: ../../source/ref/restructuredtext.rst:2248
 msgid ""
 "The style name may be meaningful in the context of some particular output"
 " format (CSS class name for HTML output, LaTeX style name for LaTeX, "
 "etc), or may be ignored for other output formats (such as plaintext)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2269
+#: ../../source/ref/restructuredtext.rst:2269
 msgid ""
 "There may be sufficient need for a \"style\" mechanism to warrant simpler"
 " syntax such as an extension to the interpreted text role syntax.  The "
 "substitution mechanism is cumbersome for simple text styling."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2288
+#: ../../source/ref/restructuredtext.rst:2288
 msgid "Templates"
-msgstr ""
+msgstr "模板"
 
-#: ../../source/ref/rst/restructuredtext.rst:2275
+#: ../../source/ref/restructuredtext.rst:2275
 msgid ""
 "Inline markup may be used for later processing by a template engine.  For"
 " example, a Zope_ author might write::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2282
+#: ../../source/ref/restructuredtext.rst:2282
 msgid "After processing, this ZPT output would result::"
-msgstr ""
+msgstr "处理后，将产生此ZPT输出::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2287
+#: ../../source/ref/restructuredtext.rst:2287
 msgid ""
 "Zope would then transform this to something like \"Welcome back, David!\""
 " during a session with an actual user."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2323
+#: ../../source/ref/restructuredtext.rst:2323
 msgid "Replacement text"
-msgstr ""
+msgstr "替换文字"
 
-#: ../../source/ref/rst/restructuredtext.rst:2291
+#: ../../source/ref/restructuredtext.rst:2291
 msgid ""
 "The substitution mechanism may be used for simple macro substitution.  "
 "This may be appropriate when the replacement text is repeated many times "
@@ -2412,32 +2430,32 @@ msgid ""
 "later.  A short example is unavoidably contrived::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2305
+#: ../../source/ref/restructuredtext.rst:2305
 msgid ""
 "Note the trailing underscore in the first use of a substitution "
 "reference.  This indicates a reference to the corresponding hyperlink "
 "target."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2309
+#: ../../source/ref/restructuredtext.rst:2309
 msgid ""
 "Substitution is also appropriate when the replacement text cannot be "
 "represented using other inline constructs, or is obtrusively long::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2322
+#: ../../source/ref/restructuredtext.rst:2322
 msgid "The \"replace_\" directive has been implemented."
-msgstr ""
+msgstr "The \"replace_\" directive has been implemented."
 
-#: ../../source/ref/rst/restructuredtext.rst:2326
+#: ../../source/ref/restructuredtext.rst:2326
 msgid "Comments"
-msgstr ""
+msgstr "评论"
 
-#: ../../source/ref/rst/restructuredtext.rst:2328
+#: ../../source/ref/restructuredtext.rst:2328
 msgid "Doctree element: comment."
-msgstr ""
+msgstr "Doctree 元素: comment."
 
-#: ../../source/ref/rst/restructuredtext.rst:2330
+#: ../../source/ref/restructuredtext.rst:2330
 msgid ""
 "Arbitrary indented text may follow the explicit markup start and will be "
 "processed as a comment element.  No further processing is done on the "
@@ -2450,7 +2468,7 @@ msgid ""
 "leave the \"..\" on a line by itself::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2352
+#: ../../source/ref/restructuredtext.rst:2352
 msgid ""
 "An explicit markup start followed by a blank line and nothing else (apart"
 " from whitespace) is an \"_`empty comment`\".  It serves to terminate a "
@@ -2459,11 +2477,11 @@ msgid ""
 "construct, insert an unindented empty comment in-between."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2368
+#: ../../source/ref/restructuredtext.rst:2368
 msgid "Implicit Hyperlink Targets"
-msgstr ""
+msgstr "隐式超链接目标"
 
-#: ../../source/ref/rst/restructuredtext.rst:2370
+#: ../../source/ref/restructuredtext.rst:2370
 msgid ""
 "Implicit hyperlink targets are generated by section titles, footnotes, "
 "and citations, and may also be generated by extension constructs. "
@@ -2471,20 +2489,20 @@ msgid ""
 "`hyperlink targets`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2375
+#: ../../source/ref/restructuredtext.rst:2375
 msgid ""
 "Problems of ambiguity due to conflicting duplicate implicit and explicit "
 "reference names are avoided by following this procedure:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2378
+#: ../../source/ref/restructuredtext.rst:2378
 msgid ""
 "`Explicit hyperlink targets`_ override any implicit targets having the "
 "same reference name.  The implicit hyperlink targets are removed, and "
 "level-1 (info) system messages are inserted."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2382
+#: ../../source/ref/restructuredtext.rst:2382
 msgid ""
 "Duplicate implicit hyperlink targets are removed, and level-1 (info) "
 "system messages inserted.  For example, if two or more sections have the "
@@ -2492,7 +2510,7 @@ msgid ""
 "document), there will be duplicate implicit hyperlink targets."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2388
+#: ../../source/ref/restructuredtext.rst:2388
 msgid ""
 "Duplicate explicit hyperlink targets are removed, and level-2 (warning) "
 "system messages are inserted.  Exception: duplicate `external hyperlink "
@@ -2500,24 +2518,24 @@ msgid ""
 "conflict, and are not removed."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2393
+#: ../../source/ref/restructuredtext.rst:2393
 msgid ""
 "System messages are inserted where target links have been removed. See "
 "\"Error Handling\" in `PEP 258`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2396
+#: ../../source/ref/restructuredtext.rst:2396
 msgid ""
 "The parser must return a set of *unique* hyperlink targets.  The calling "
 "software (such as the Docutils_) can warn of unresolvable links, giving "
 "reasons for the messages."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2402
+#: ../../source/ref/restructuredtext.rst:2402
 msgid "Inline Markup"
-msgstr ""
+msgstr "内联标记"
 
-#: ../../source/ref/rst/restructuredtext.rst:2404
+#: ../../source/ref/restructuredtext.rst:2404
 msgid ""
 "In reStructuredText, inline markup applies to words or phrases within a "
 "text block.  The same whitespace and punctuation that serves to delimit "
@@ -2528,170 +2546,170 @@ msgid ""
 "encouraged.  Inline markup cannot be nested."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2412
+#: ../../source/ref/restructuredtext.rst:2412
 msgid ""
 "There are nine inline markup constructs.  Five of the constructs use "
 "identical start-strings and end-strings to indicate the markup:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2415
+#: ../../source/ref/restructuredtext.rst:2415
 msgid "emphasis_: \"*\""
-msgstr ""
+msgstr "emphasis_: \"*\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2416
+#: ../../source/ref/restructuredtext.rst:2416
 msgid "`strong emphasis`_: \"**\""
-msgstr ""
+msgstr "`strong emphasis`_: \"**\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2417
+#: ../../source/ref/restructuredtext.rst:2417
 msgid "`interpreted text`_: \"`\""
-msgstr ""
+msgstr "`interpreted text`_: \"`\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2418
+#: ../../source/ref/restructuredtext.rst:2418
 msgid "`inline literals`_: \"``\""
-msgstr ""
+msgstr "`inline literals`_: \"``\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2419
+#: ../../source/ref/restructuredtext.rst:2419
 msgid "`substitution references`_: \"|\""
-msgstr ""
+msgstr "`substitution references`_: \"|\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2421
+#: ../../source/ref/restructuredtext.rst:2421
 msgid "Three constructs use different start-strings and end-strings:"
-msgstr ""
+msgstr "Three constructs use different start-strings and end-strings:"
 
-#: ../../source/ref/rst/restructuredtext.rst:2423
+#: ../../source/ref/restructuredtext.rst:2423
 msgid "`inline internal targets`_: \"_`\" and \"`\""
-msgstr ""
+msgstr "`inline internal targets`_: \"_`\" and \"`\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2424
+#: ../../source/ref/restructuredtext.rst:2424
 msgid "`footnote references`_: \"[\" and \"]_\""
-msgstr ""
+msgstr "`footnote references`_: \"[\" and \"]_\""
 
-#: ../../source/ref/rst/restructuredtext.rst:2425
+#: ../../source/ref/restructuredtext.rst:2425
 msgid ""
 "`hyperlink references`_: \"`\" and \"\\`_\" (phrases), or just a trailing"
 " \"_\" (single words)"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2428
+#: ../../source/ref/restructuredtext.rst:2428
 msgid ""
 "`Standalone hyperlinks`_ are recognized implicitly, and use no extra "
 "markup."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2432
+#: ../../source/ref/restructuredtext.rst:2432
 msgid "Inline markup recognition rules"
-msgstr ""
+msgstr "内联标记识别规则"
 
-#: ../../source/ref/rst/restructuredtext.rst:2434
+#: ../../source/ref/restructuredtext.rst:2434
 msgid ""
 "Inline markup start-strings and end-strings are only recognized if the "
 "following conditions are met:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2437
+#: ../../source/ref/restructuredtext.rst:2437
 msgid ""
 "Inline markup start-strings must be immediately followed by non-"
 "whitespace."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2440
+#: ../../source/ref/restructuredtext.rst:2440
 msgid "Inline markup end-strings must be immediately preceded by non-whitespace."
-msgstr ""
+msgstr "内联标记结束字符串必须紧跟非空白字符串。"
 
-#: ../../source/ref/rst/restructuredtext.rst:2443
+#: ../../source/ref/restructuredtext.rst:2443
 msgid ""
 "The inline markup end-string must be separated by at least one character "
 "from the start-string."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2446
+#: ../../source/ref/restructuredtext.rst:2446
 msgid ""
 "Both, inline markup start-string and end-string must not be preceded by "
 "an unescaped backslash (except for the end-string of `inline literals`_)."
 " See `Escaping Mechanism`_ above for details."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2450
+#: ../../source/ref/restructuredtext.rst:2450
 msgid ""
 "If an inline markup start-string is immediately preceded by one of the "
 "ASCII characters ``' \" < ( [ {`` or a similar non-ASCII character "
 "[#openers]_, it must not be followed by the corresponding closing "
-"character from ``' \" ) ] } >`` or a similar non-ASCII character "
+"character from ``' \") ] } >`` or a similar non-ASCII character "
 "[#closers]_. (For quotes, matching characters can be any of the "
 "`quotation marks in international usage`_.)"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2457
+#: ../../source/ref/restructuredtext.rst:2457
 msgid ""
 "If the configuration setting `simple-inline-markup`_ is False (default), "
 "additional conditions apply to the characters \"around\" the inline "
 "markup:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2461
+#: ../../source/ref/restructuredtext.rst:2461
 msgid ""
 "Inline markup start-strings must start a text block or be immediately "
 "preceded by"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2464
-#: ../../source/ref/rst/restructuredtext.rst:2471
+#: ../../source/ref/restructuredtext.rst:2464
+#: ../../source/ref/restructuredtext.rst:2471
 msgid "whitespace,"
-msgstr ""
+msgstr "空白，"
 
-#: ../../source/ref/rst/restructuredtext.rst:2465
+#: ../../source/ref/restructuredtext.rst:2465
 msgid "one of the ASCII characters ``- : / ' \" < ( [ {``"
-msgstr ""
+msgstr "其中一个ASCII字符 ``- : / ' \" < ( [ {``"
 
-#: ../../source/ref/rst/restructuredtext.rst:2466
+#: ../../source/ref/restructuredtext.rst:2466
 msgid "or a similar non-ASCII punctuation character. [#pre-chars]_"
-msgstr ""
+msgstr "或类似的非ASCII标点字符。 [#pre-chars]_"
 
-#: ../../source/ref/rst/restructuredtext.rst:2468
+#: ../../source/ref/restructuredtext.rst:2468
 msgid ""
 "Inline markup end-strings must end a text block or be immediately "
 "followed by"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2472
-msgid "one of the ASCII characters ``- . , : ; ! ? \\ / ' \" ) ] } >``"
-msgstr ""
+#: ../../source/ref/restructuredtext.rst:2472
+msgid "one of the ASCII characters ``- . , : ; ! ? \\ / ' \") ] } >``"
+msgstr "其中一个ASCII字符 ``- . , : ; ! ? \\ / ' \") ] } >``"
 
-#: ../../source/ref/rst/restructuredtext.rst:2473
+#: ../../source/ref/restructuredtext.rst:2473
 msgid "or a similar non-ASCII punctuation character. [#post-chars]_"
-msgstr ""
+msgstr "或类似的非ASCII标点字符。 [#post-chars]_"
 
-#: ../../source/ref/rst/restructuredtext.rst:2475
+#: ../../source/ref/restructuredtext.rst:2475
 msgid ""
 "`Unicode categories`_ `Ps` (Open), `Pi` (Initial quote), or `Pf` (Final "
 "quote). [#uni-version]_"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2477
+#: ../../source/ref/restructuredtext.rst:2477
 msgid ""
 "Unicode categories `Pe` (Close), `Pi` (Initial quote), or `Pf` (Final "
 "quote). [#uni-version]_"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2479
+#: ../../source/ref/restructuredtext.rst:2479
 msgid ""
 "Unicode categories `Ps` (Open), `Pi` (Initial quote), `Pf` (Final quote),"
 " `Pd` (Dash), or `Po` (Other). [#uni-version]_"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2481
+#: ../../source/ref/restructuredtext.rst:2481
 msgid ""
 "Unicode categories  `Pe` (Close), `Pi` (Initial quote), `Pf` (Final "
 "quote), `Pd` (Dash), or `Po` (Other). [#uni-version]_"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2484
+#: ../../source/ref/restructuredtext.rst:2484
 msgid ""
 "The category of some characters changed with the development of the "
 "Unicode standard. Docutils 0.13 uses `Unicode version 5.2.0`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2494
+#: ../../source/ref/restructuredtext.rst:2494
 #, python-format
 msgid ""
 "The inline markup recognition rules were devised to allow 90% of non-"
@@ -2700,63 +2718,63 @@ msgid ""
 "markup strings:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2498
+#: ../../source/ref/restructuredtext.rst:2498
 msgid "2 * x  a ** b  (* BOM32_* ` `` _ __ | (breaks rule 1)"
-msgstr ""
+msgstr "2 * x  a ** b  (* BOM32_* ` `` _ __ | (breaks rule 1)"
 
-#: ../../source/ref/rst/restructuredtext.rst:2499
+#: ../../source/ref/restructuredtext.rst:2499
 msgid "|| (breaks rule 3)"
-msgstr ""
+msgstr "|| (breaks rule 3)"
 
-#: ../../source/ref/rst/restructuredtext.rst:2500
+#: ../../source/ref/restructuredtext.rst:2500
 msgid ""
 "\"*\" '|' (*) [*] {*} <*> â€˜*â€™ â€š*â€˜ â€˜*â€š â€™*â€™ â€š*â€™ â€œ*â€"
 " â€ž*â€œ â€œ*â€ž â€*â€ â€ž*â€ Â»*Â« â€º*â€¹ Â«*Â» Â»*Â» â€º*â€º "
 "(breaks rule 5)"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2504
+#: ../../source/ref/restructuredtext.rst:2504
 msgid ""
 "2*x a**b O(N**2) e**(x*y) f(x)*f(y) a|b file*.* __init__ __init__()  "
 "(breaks rule 6)"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2507
+#: ../../source/ref/restructuredtext.rst:2507
 msgid "No escaping is required inside the following inline markup examples:"
-msgstr ""
+msgstr "以下内联标记示例中不需要转义:"
 
-#: ../../source/ref/rst/restructuredtext.rst:2509
+#: ../../source/ref/restructuredtext.rst:2509
 msgid ""
 "``*2 * x  *a **b *.txt*`` (breaks rule 2; renders as \"*2 * x  *a **b "
 "*.txt*\")"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2510
+#: ../../source/ref/restructuredtext.rst:2510
 msgid ""
 "``*2*x a**b O(N**2) e**(x*y) f(x)*f(y) a*(1+2)*`` (breaks rule 7; renders"
 " as \"*2*x a**b O(N**2) e**(x*y) f(x)*f(y) a*(1+2)*\")"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2513
+#: ../../source/ref/restructuredtext.rst:2513
 msgid ""
 "It may be desirable to use `inline literals`_ for some of these anyhow, "
 "especially if they represent code snippets.  It's a judgment call."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2516
+#: ../../source/ref/restructuredtext.rst:2516
 msgid ""
 "The following terms *do* require either literal-quoting or escaping to "
 "avoid misinterpretation::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2521
+#: ../../source/ref/restructuredtext.rst:2521
 msgid ""
 "In most use cases, `inline literals`_ or `literal blocks`_ are the best "
 "choice (by default, this also selects a monospaced font). Alternatively, "
 "the inline markup characters can be escaped::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2528
+#: ../../source/ref/restructuredtext.rst:2528
 msgid ""
 "For languages that don't use whitespace between words (e.g. Japanese or "
 "Chinese) it is recommended to set `simple-inline-markup`_ to True and "
@@ -2764,24 +2782,24 @@ msgid ""
 " and 7 above show which constructs may need special attention."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2539
+#: ../../source/ref/restructuredtext.rst:2539
 msgid "Recognition order"
-msgstr ""
+msgstr "认可令"
 
-#: ../../source/ref/rst/restructuredtext.rst:2541
+#: ../../source/ref/restructuredtext.rst:2541
 msgid ""
 "Inline markup delimiter characters are used for multiple constructs, so "
 "to avoid ambiguity there must be a specific recognition order for each "
 "character.  The inline markup recognition order is as follows:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2545
+#: ../../source/ref/restructuredtext.rst:2545
 msgid ""
 "Asterisks: `Strong emphasis`_ (\"**\") is recognized before emphasis_ "
 "(\"*\")."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2548
+#: ../../source/ref/restructuredtext.rst:2548
 msgid ""
 "Backquotes: `Inline literals`_ (\"``\"), `inline internal targets`_ "
 "(leading \"_`\", trailing \"`\"), are mutually independent, and are "
@@ -2789,54 +2807,54 @@ msgid ""
 " \"\\`_\") and `interpreted text`_ (\"`\")."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2553
+#: ../../source/ref/restructuredtext.rst:2553
 msgid ""
 "Trailing underscores: Footnote references (\"[\" + label + \"]_\") and "
 "simple `hyperlink references`_ (name + trailing \"_\") are mutually "
 "independent."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2557
+#: ../../source/ref/restructuredtext.rst:2557
 msgid ""
 "Vertical bars: `Substitution references`_ (\"|\") are independently "
 "recognized."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2560
+#: ../../source/ref/restructuredtext.rst:2560
 msgid "`Standalone hyperlinks`_ are the last to be recognized."
-msgstr ""
+msgstr "`Standalone hyperlinks`_ are the last to be recognized."
 
-#: ../../source/ref/rst/restructuredtext.rst:2564
+#: ../../source/ref/restructuredtext.rst:2564
 msgid "Character-Level Inline Markup"
-msgstr ""
+msgstr "字符级内联标记"
 
-#: ../../source/ref/rst/restructuredtext.rst:2566
+#: ../../source/ref/restructuredtext.rst:2566
 msgid ""
 "It is possible to mark up individual characters within a word with "
 "backslash escapes (see `Escaping Mechanism`_ above).  Backslash escapes "
 "can be used to allow arbitrary text to immediately follow inline markup::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2573
+#: ../../source/ref/restructuredtext.rst:2573
 msgid ""
 "The backslash will disappear from the processed document.  The word "
 "\"list\" will appear as inline literal text, and the letter \"s\" will "
 "immediately follow it as normal text, with no space in-between."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2577
+#: ../../source/ref/restructuredtext.rst:2577
 msgid ""
 "Arbitrary text may immediately precede inline markup using backslash-"
 "escaped whitespace::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2582
+#: ../../source/ref/restructuredtext.rst:2582
 msgid ""
 "The backslashes and spaces separating \"re\", \"Structured\", and "
 "\"Text\" above will disappear from the processed document."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2587
+#: ../../source/ref/restructuredtext.rst:2587
 msgid ""
 "The use of backslash-escapes for character-level inline markup is not "
 "encouraged.  Such use is ugly and detrimental to the unprocessed "
@@ -2844,66 +2862,66 @@ msgid ""
 " absolutely necessary."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2594
+#: ../../source/ref/restructuredtext.rst:2594
 msgid "Emphasis"
-msgstr ""
+msgstr "重点"
 
-#: ../../source/ref/rst/restructuredtext.rst:2596
+#: ../../source/ref/restructuredtext.rst:2596
 msgid "Doctree element: emphasis."
-msgstr ""
+msgstr "Doctree 元素: emphasis."
 
-#: ../../source/ref/rst/restructuredtext.rst:2598
+#: ../../source/ref/restructuredtext.rst:2598
 msgid "Start-string = end-string = \"*\"."
-msgstr ""
+msgstr "Start-string = end-string = \"*\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2600
+#: ../../source/ref/restructuredtext.rst:2600
 msgid "Text enclosed by single asterisk characters is emphasized::"
-msgstr ""
+msgstr "Text enclosed by single asterisk characters is emphasized::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2604
+#: ../../source/ref/restructuredtext.rst:2604
 msgid "Emphasized text is typically displayed in italics."
-msgstr ""
+msgstr "Emphasized text is typically displayed in italics."
 
-#: ../../source/ref/rst/restructuredtext.rst:2608
+#: ../../source/ref/restructuredtext.rst:2608
 msgid "Strong Emphasis"
-msgstr ""
+msgstr "强烈的重点"
 
-#: ../../source/ref/rst/restructuredtext.rst:2610
+#: ../../source/ref/restructuredtext.rst:2610
 msgid "Doctree element: strong."
-msgstr ""
+msgstr "Doctree 元素: strong."
 
-#: ../../source/ref/rst/restructuredtext.rst:2612
+#: ../../source/ref/restructuredtext.rst:2612
 msgid "Start-string = end-string = \"**\"."
-msgstr ""
+msgstr "Start-string = end-string = \"**\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2614
+#: ../../source/ref/restructuredtext.rst:2614
 msgid "Text enclosed by double-asterisks is emphasized strongly::"
-msgstr ""
+msgstr "Text enclosed by double-asterisks is emphasized strongly::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2618
+#: ../../source/ref/restructuredtext.rst:2618
 msgid "Strongly emphasized text is typically displayed in boldface."
-msgstr ""
+msgstr "Strongly emphasized text is typically displayed in boldface."
 
-#: ../../source/ref/rst/restructuredtext.rst:2622
+#: ../../source/ref/restructuredtext.rst:2622
 msgid "Interpreted Text"
-msgstr ""
+msgstr "口译文本"
 
-#: ../../source/ref/rst/restructuredtext.rst:2624
+#: ../../source/ref/restructuredtext.rst:2624
 msgid "Doctree element: depends on the explicit or implicit role and processing."
-msgstr ""
+msgstr "Doctree 元素: depends on the explicit or implicit role and processing."
 
-#: ../../source/ref/rst/restructuredtext.rst:2627
+#: ../../source/ref/restructuredtext.rst:2627
 msgid "Start-string = end-string = \"`\"."
-msgstr ""
+msgstr "Start-string = end-string = \"`\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2629
+#: ../../source/ref/restructuredtext.rst:2629
 msgid ""
 "Interpreted text is text that is meant to be related, indexed, linked, "
 "summarized, or otherwise processed, but the text itself is typically left"
 " alone.  Interpreted text is enclosed by single backquote characters::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2636
+#: ../../source/ref/restructuredtext.rst:2636
 msgid ""
 "The \"role\" of the interpreted text determines how the text is "
 "interpreted.  The role may be inferred implicitly (as above; the "
@@ -2916,7 +2934,7 @@ msgid ""
 "up to the author::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2650
+#: ../../source/ref/restructuredtext.rst:2650
 msgid ""
 "Interpreted text allows extensions to the available inline descriptive "
 "markup constructs.  To emphasis_, `strong emphasis`_, `inline literals`_,"
@@ -2930,38 +2948,38 @@ msgid ""
 "specialized roles."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2661
+#: ../../source/ref/restructuredtext.rst:2661
 msgid ""
 "In `field lists`_, care must be taken when using interpreted text with "
 "explicit roles in field names: the role must be a suffix to the "
 "interpreted text. The following are recognized as field list items::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2670
+#: ../../source/ref/restructuredtext.rst:2670
 msgid "The following are **not** recognized as field list items::"
-msgstr ""
+msgstr "The following are **not** recognized as field list items::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2676
+#: ../../source/ref/restructuredtext.rst:2676
 msgid "Edge cases::"
-msgstr ""
+msgstr "边缘情况::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2685
+#: ../../source/ref/restructuredtext.rst:2685
 msgid "Inline Literals"
-msgstr ""
+msgstr "内联文字"
 
-#: ../../source/ref/rst/restructuredtext.rst:2687
+#: ../../source/ref/restructuredtext.rst:2687
 msgid "Doctree element: literal."
-msgstr ""
+msgstr "Doctree 元素: literal."
 
-#: ../../source/ref/rst/restructuredtext.rst:2689
+#: ../../source/ref/restructuredtext.rst:2689
 msgid "Start-string = end-string = \"``\"."
-msgstr ""
+msgstr "Start-string = end-string = \"``\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2691
+#: ../../source/ref/restructuredtext.rst:2691
 msgid "Text enclosed by double-backquotes is treated as inline literals::"
-msgstr ""
+msgstr "双引号括起来的文本被视为内联文字::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2695
+#: ../../source/ref/restructuredtext.rst:2695
 msgid ""
 "Inline literals may contain any characters except two adjacent backquotes"
 " in an end-string context (according to the recognition rules above).  No"
@@ -2969,7 +2987,7 @@ msgid ""
 "done within inline literals."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2700
+#: ../../source/ref/restructuredtext.rst:2700
 msgid ""
 "Line breaks are *not* preserved in inline literals.  Although a "
 "reStructuredText parser will preserve runs of spaces in its output, the "
@@ -2979,44 +2997,44 @@ msgid ""
 "`literal blocks`_ should be used."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2707
+#: ../../source/ref/restructuredtext.rst:2707
 msgid "Inline literals are useful for short code snippets.  For example::"
-msgstr ""
+msgstr "Inline literals are useful for short code snippets.  For example::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2714
+#: ../../source/ref/restructuredtext.rst:2714
 msgid "Hyperlink References"
-msgstr ""
+msgstr "超链接参考"
 
-#: ../../source/ref/rst/restructuredtext.rst:2716
-#: ../../source/ref/rst/restructuredtext.rst:2946
+#: ../../source/ref/restructuredtext.rst:2716
+#: ../../source/ref/restructuredtext.rst:2946
 msgid "Doctree element: reference."
-msgstr ""
+msgstr "Doctree 元素: reference."
 
-#: ../../source/ref/rst/restructuredtext.rst:2718
+#: ../../source/ref/restructuredtext.rst:2718
 msgid "Named hyperlink references:"
-msgstr ""
+msgstr "命名超链接引用:"
 
-#: ../../source/ref/rst/restructuredtext.rst:2720
+#: ../../source/ref/restructuredtext.rst:2720
 msgid "No start-string, end-string = \"_\"."
-msgstr ""
+msgstr "No start-string, end-string = \"_\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2721
+#: ../../source/ref/restructuredtext.rst:2721
 msgid "Start-string = \"`\", end-string = \"\\`_\".  (Phrase references.)"
-msgstr ""
+msgstr "Start-string = \"`\", end-string = \"\\`_\".  (Phrase references.)"
 
-#: ../../source/ref/rst/restructuredtext.rst:2723
+#: ../../source/ref/restructuredtext.rst:2723
 msgid "Anonymous hyperlink references:"
-msgstr ""
+msgstr "匿名超链接引用:"
 
-#: ../../source/ref/rst/restructuredtext.rst:2725
+#: ../../source/ref/restructuredtext.rst:2725
 msgid "No start-string, end-string = \"__\"."
-msgstr ""
+msgstr "No start-string, end-string = \"__\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2726
+#: ../../source/ref/restructuredtext.rst:2726
 msgid "Start-string = \"`\", end-string = \"\\`__\".  (Phrase references.)"
-msgstr ""
+msgstr "Start-string = \"`\", end-string = \"\\`__\".  (Phrase references.)"
 
-#: ../../source/ref/rst/restructuredtext.rst:2728
+#: ../../source/ref/restructuredtext.rst:2728
 msgid ""
 "Hyperlink references are indicated by a trailing underscore, \"_\", "
 "except for `standalone hyperlinks`_ which are recognized independently.  "
@@ -3025,48 +3043,48 @@ msgid ""
 "underscores point toward `hyperlink targets`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2734
+#: ../../source/ref/restructuredtext.rst:2734
 msgid ""
 "Hyperlinks consist of two parts.  In the text body, there is a source "
 "link, a reference name with a trailing underscore (or two underscores for"
 " `anonymous hyperlinks`_)::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2740
+#: ../../source/ref/restructuredtext.rst:2740
 msgid ""
 "A target link with a matching reference name must exist somewhere else in"
 " the document.  See `Hyperlink Targets`_ for a full description)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2743
+#: ../../source/ref/restructuredtext.rst:2743
 msgid ""
 "`Anonymous hyperlinks`_ (which see) do not use reference names to match "
 "references to targets, but otherwise behave similarly to named "
 "hyperlinks."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2749
+#: ../../source/ref/restructuredtext.rst:2749
 msgid "Embedded URIs and Aliases"
-msgstr ""
+msgstr "嵌入式URI和别名"
 
-#: ../../source/ref/rst/restructuredtext.rst:2751
+#: ../../source/ref/restructuredtext.rst:2751
 msgid ""
 "A hyperlink reference may directly embed a target URI or (since DocutilsÂ"
 " 0.11) a hyperlink reference within angle brackets (\"<...>\") as "
 "follows::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2759
+#: ../../source/ref/restructuredtext.rst:2759
 msgid "This is exactly equivalent to::"
-msgstr ""
+msgstr "这完全等同于::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2768
+#: ../../source/ref/restructuredtext.rst:2768
 msgid ""
 "The bracketed URI must be preceded by whitespace and be the last text "
 "before the end string."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2771
+#: ../../source/ref/restructuredtext.rst:2771
 msgid ""
 "With a single trailing underscore, the reference is named and the same "
 "target URI may be referred to again. With two trailing underscores, the "
@@ -3074,28 +3092,28 @@ msgid ""
 "referred to again.  These are \"one-off\" hyperlinks.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2781
+#: ../../source/ref/restructuredtext.rst:2781
 msgid "Equivalent to::"
-msgstr ""
+msgstr "相当于::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2788
+#: ../../source/ref/restructuredtext.rst:2788
 msgid ""
 "`Standalone hyperlinks`_ are treated as URIs, even if they end with an "
 "underscore like in the example of a Python function documentation::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2793
+#: ../../source/ref/restructuredtext.rst:2793
 msgid ""
 "If a target URI that is not recognized as `standalone hyperlink`_ happens"
 " to end with an underscore, this needs to be backslash-escaped to avoid "
 "being parsed as hyperlink reference. For example ::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2799
+#: ../../source/ref/restructuredtext.rst:2799
 msgid "creates an anonymous reference to the file ``parrots.txt_``."
-msgstr ""
+msgstr "创建对文件 ``parrots.txt_`` 的匿名引用."
 
-#: ../../source/ref/rst/restructuredtext.rst:2801
+#: ../../source/ref/restructuredtext.rst:2801
 msgid ""
 "If the reference text happens to end with angle-bracketed text that is "
 "*not* a URI or hyperlink reference, at least one angle-bracket needs to "
@@ -3103,14 +3121,14 @@ msgid ""
 " are three references to titles describing a tag::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2809
+#: ../../source/ref/restructuredtext.rst:2809
 msgid ""
 "The reference text may also be omitted, in which case the URI will be "
 "duplicated for use as the reference text.  This is useful for relative "
 "URIs where the address or file name is also the desired reference text::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2819
+#: ../../source/ref/restructuredtext.rst:2819
 msgid ""
 "This construct offers easy authoring and maintenance of hyperlinks at the"
 " expense of general readability.  Inline URIs, especially long ones, "
@@ -3120,19 +3138,19 @@ msgid ""
 "most suited to documents intended *only* to be read in processed form."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2829
+#: ../../source/ref/restructuredtext.rst:2829
 msgid "Inline Internal Targets"
-msgstr ""
+msgstr "内联内部目标"
 
-#: ../../source/ref/rst/restructuredtext.rst:2831
+#: ../../source/ref/restructuredtext.rst:2831
 msgid "Doctree element: target."
-msgstr ""
+msgstr "Doctree 元素: target."
 
-#: ../../source/ref/rst/restructuredtext.rst:2833
+#: ../../source/ref/restructuredtext.rst:2833
 msgid "Start-string = \"_`\", end-string = \"`\"."
-msgstr ""
+msgstr "Start-string = \"_`\", end-string = \"`\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2835
+#: ../../source/ref/restructuredtext.rst:2835
 msgid ""
 "Inline internal targets are the equivalent of explicit `internal "
 "hyperlink targets`_, but may appear within running text.  The syntax "
@@ -3141,57 +3159,57 @@ msgid ""
 "not be anonymous."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2841
+#: ../../source/ref/restructuredtext.rst:2841
 msgid ""
 "For example, the following paragraph contains a hyperlink target named "
 "\"Norwegian Blue\"::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2846
+#: ../../source/ref/restructuredtext.rst:2846
 msgid ""
 "See `Implicit Hyperlink Targets`_ for the resolution of duplicate "
 "reference names."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2851
+#: ../../source/ref/restructuredtext.rst:2851
 msgid "Footnote References"
-msgstr ""
+msgstr "脚注参考"
 
-#: ../../source/ref/rst/restructuredtext.rst:2853
+#: ../../source/ref/restructuredtext.rst:2853
 msgid "See also: Footnotes_"
-msgstr ""
+msgstr "另请参阅: Footnotes_"
 
-#: ../../source/ref/rst/restructuredtext.rst:2855
+#: ../../source/ref/restructuredtext.rst:2855
 msgid "Doctree element: footnote_reference_."
-msgstr ""
+msgstr "Doctree 元素: footnote_reference_."
 
-#: ../../source/ref/rst/restructuredtext.rst:2857
+#: ../../source/ref/restructuredtext.rst:2857
 msgid ""
 "Configuration settings: `footnote_references <footnote_references "
 "setting_>`_, trim_footnote_reference_space_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2865
-#: ../../source/ref/rst/restructuredtext.rst:2902
+#: ../../source/ref/restructuredtext.rst:2865
+#: ../../source/ref/restructuredtext.rst:2902
 msgid "Start-string = \"[\", end-string = \"]_\"."
-msgstr ""
+msgstr "Start-string = \"[\", end-string = \"]_\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:2867
+#: ../../source/ref/restructuredtext.rst:2867
 msgid ""
 "Each footnote reference consists of a square-bracketed label followed by "
 "a trailing underscore.  Footnote labels are one of:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2870
+#: ../../source/ref/restructuredtext.rst:2870
 msgid "one or more digits (i.e., a number),"
-msgstr ""
+msgstr "one or more digits (i.e., a number),"
 
-#: ../../source/ref/rst/restructuredtext.rst:2879
-#: ../../source/ref/rst/restructuredtext.rst:2909
+#: ../../source/ref/restructuredtext.rst:2879
+#: ../../source/ref/restructuredtext.rst:2909
 msgid "For example::"
-msgstr ""
+msgstr "例如::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2885
+#: ../../source/ref/restructuredtext.rst:2885
 msgid ""
 "`Inline markup recognition rules`_ may require whitespace in front of the"
 " footnote reference. To remove the whitespace from the output, use an "
@@ -3201,19 +3219,19 @@ msgid ""
 "\"superscript\"."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2894
+#: ../../source/ref/restructuredtext.rst:2894
 msgid "Citation References"
-msgstr ""
+msgstr "引文参考文献"
 
-#: ../../source/ref/rst/restructuredtext.rst:2896
+#: ../../source/ref/restructuredtext.rst:2896
 msgid "See also: Citations_"
-msgstr ""
+msgstr "另请参阅: Citations_"
 
-#: ../../source/ref/rst/restructuredtext.rst:2898
+#: ../../source/ref/restructuredtext.rst:2898
 msgid "Doctree element: citation_reference_."
-msgstr ""
+msgstr "Doctree 元素: citation_reference_."
 
-#: ../../source/ref/rst/restructuredtext.rst:2904
+#: ../../source/ref/restructuredtext.rst:2904
 msgid ""
 "Each citation reference consists of a square-bracketed label followed by "
 "a trailing underscore.  Citation labels are simple `reference names`_ "
@@ -3221,21 +3239,21 @@ msgid ""
 " hyphens, underscores, and periods; no whitespace)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2915
+#: ../../source/ref/restructuredtext.rst:2915
 msgid "Substitution References"
-msgstr ""
+msgstr "替代参考文献"
 
-#: ../../source/ref/rst/restructuredtext.rst:2917
+#: ../../source/ref/restructuredtext.rst:2917
 msgid "Doctree element: substitution_reference, reference."
-msgstr ""
+msgstr "Doctree 元素: substitution_reference, reference."
 
-#: ../../source/ref/rst/restructuredtext.rst:2919
+#: ../../source/ref/restructuredtext.rst:2919
 msgid ""
 "Start-string = \"|\", end-string = \"|\" (optionally followed by \"_\" or"
 " \"__\")."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2922
+#: ../../source/ref/restructuredtext.rst:2922
 msgid ""
 "Vertical bars are used to bracket the substitution reference text.  A "
 "substitution reference may also be a hyperlink reference by appending a "
@@ -3243,7 +3261,7 @@ msgid ""
 " for the reference text in the named case."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2927
+#: ../../source/ref/restructuredtext.rst:2927
 msgid ""
 "The processing system replaces substitution references with the processed"
 " contents of the corresponding `substitution definitions`_ (which see for"
@@ -3251,40 +3269,40 @@ msgid ""
 "inline-compatible elements."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2932
+#: ../../source/ref/restructuredtext.rst:2932
 msgid "Examples::"
-msgstr ""
+msgstr "例子::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2944
+#: ../../source/ref/restructuredtext.rst:2944
 msgid "Standalone Hyperlinks"
-msgstr ""
+msgstr "独立超链接"
 
-#: ../../source/ref/rst/restructuredtext.rst:2948
+#: ../../source/ref/restructuredtext.rst:2948
 msgid "No start-string or end-string."
-msgstr ""
+msgstr "No start-string or end-string."
 
-#: ../../source/ref/rst/restructuredtext.rst:2950
+#: ../../source/ref/restructuredtext.rst:2950
 msgid ""
 "A URI (absolute URI [#URI]_ or standalone email address) within a text "
 "block is treated as a general external hyperlink with the URI itself as "
 "the link's text.  For example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2956
+#: ../../source/ref/restructuredtext.rst:2956
 msgid "would be marked up in HTML as::"
-msgstr ""
+msgstr "将在HTML中标记为::"
 
-#: ../../source/ref/rst/restructuredtext.rst:2961
+#: ../../source/ref/restructuredtext.rst:2961
 msgid "Two forms of URI are recognized:"
-msgstr ""
+msgstr "识别两种形式的URI:"
 
-#: ../../source/ref/rst/restructuredtext.rst:2963
+#: ../../source/ref/restructuredtext.rst:2963
 msgid ""
 "Absolute URIs.  These consist of a scheme, a colon (\":\"), and a scheme-"
 "specific part whose interpretation depends on the scheme."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2966
+#: ../../source/ref/restructuredtext.rst:2966
 msgid ""
 "The scheme is the name of the protocol, such as \"http\", \"ftp\", "
 "\"mailto\", or \"telnet\".  The scheme consists of an initial letter, "
@@ -3293,26 +3311,26 @@ msgid ""
 "Schemes`_ and the W3C's `Retired Index of WWW Addressing Schemes`_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2972
+#: ../../source/ref/restructuredtext.rst:2972
 msgid ""
 "The scheme-specific part of the resource identifier may be either "
 "hierarchical or opaque:"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2975
+#: ../../source/ref/restructuredtext.rst:2975
 msgid ""
 "Hierarchical identifiers begin with one or two slashes and may use "
 "slashes to separate hierarchical components of the path. Examples are web"
 " pages and FTP sites::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2983
+#: ../../source/ref/restructuredtext.rst:2983
 msgid ""
 "Opaque identifiers do not begin with slashes.  Examples are email "
 "addresses and newsgroups::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2990
+#: ../../source/ref/restructuredtext.rst:2990
 #, python-format
 msgid ""
 "With queries, fragments, and %-escape sequences, URIs can become quite "
@@ -3320,13 +3338,13 @@ msgid ""
 "absolute URI, as defined in RFC2396_ and RFC2732_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2994
+#: ../../source/ref/restructuredtext.rst:2994
 msgid ""
 "Standalone email addresses, which are treated as if they were absolute "
 "URIs with a \"mailto:\" scheme.  Example::"
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:2999
+#: ../../source/ref/restructuredtext.rst:2999
 msgid ""
 "Punctuation at the end of a URI is not considered part of the URI, unless"
 " the URI is terminated by a closing angle bracket (\">\"). Backslashes "
@@ -3335,116 +3353,116 @@ msgid ""
 "`Escaping Mechanism`_ above)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3005
+#: ../../source/ref/restructuredtext.rst:3005
 msgid ""
 "Uniform Resource Identifier.  URIs are a general form of URLs (Uniform "
 "Resource Locators).  For the syntax of URIs see RFC2396_ and RFC2732_."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3011
+#: ../../source/ref/restructuredtext.rst:3011
 msgid "Units"
-msgstr ""
+msgstr "单位"
 
-#: ../../source/ref/rst/restructuredtext.rst:3013
+#: ../../source/ref/restructuredtext.rst:3013
 msgid "(New in Docutils 0.3.10.)"
-msgstr ""
+msgstr "(Docutils 0.3.10中的新功能。)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3015
+#: ../../source/ref/restructuredtext.rst:3015
 msgid ""
 "All measures consist of a positive floating point number in standard "
 "(non-scientific) notation and a unit, possibly separated by one or more "
 "spaces."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3019
+#: ../../source/ref/restructuredtext.rst:3019
 msgid ""
 "Units are only supported where explicitly mentioned in the reference "
 "manuals."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3024
+#: ../../source/ref/restructuredtext.rst:3024
 msgid "Length Units"
-msgstr ""
+msgstr "长度单位"
 
-#: ../../source/ref/rst/restructuredtext.rst:3026
+#: ../../source/ref/restructuredtext.rst:3026
 msgid "The following length units are supported by the reStructuredText parser:"
-msgstr ""
+msgstr "reStructuredText解析器支持以下长度单位:"
 
-#: ../../source/ref/rst/restructuredtext.rst:3029
+#: ../../source/ref/restructuredtext.rst:3029
 msgid "em (em unit, the element's font size)"
-msgstr ""
+msgstr "em (em unit, the element's font size)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3030
+#: ../../source/ref/restructuredtext.rst:3030
 msgid "ex (ex unit, x-height of the elementâ€™s font)"
-msgstr ""
+msgstr "ex (ex unit, x-height of the elementâ€™s font)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3031
+#: ../../source/ref/restructuredtext.rst:3031
 msgid "mm (millimeters; 1Â mm = 1/1000Â m)"
-msgstr ""
+msgstr "mm (millimeters; 1Â mm = 1/1000Â m)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3032
+#: ../../source/ref/restructuredtext.rst:3032
 msgid "cm (centimeters; 1Â cm = 10Â mm)"
-msgstr ""
+msgstr "cm (centimeters; 1Â cm = 10Â mm)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3033
+#: ../../source/ref/restructuredtext.rst:3033
 msgid "in (inches; 1Â in = 2.54Â cm = 96Â px)"
-msgstr ""
+msgstr "in (inches; 1Â in = 2.54Â cm = 96Â px)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3034
+#: ../../source/ref/restructuredtext.rst:3034
 msgid "px (pixels, 1Â px = 1/96Â in) [#]_"
-msgstr ""
+msgstr "px (pixels, 1Â px = 1/96Â in) [#]_"
 
-#: ../../source/ref/rst/restructuredtext.rst:3035
+#: ../../source/ref/restructuredtext.rst:3035
 msgid "pt (points; 1Â pt = 1/72Â in)"
-msgstr ""
+msgstr "pt (points; 1Â pt = 1/72Â in)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3036
+#: ../../source/ref/restructuredtext.rst:3036
 msgid "pc (picas; 1Â pc = 1/6Â in = 12Â pt)"
-msgstr ""
+msgstr "pc (picas; 1Â pc = 1/6Â in = 12Â pt)"
 
-#: ../../source/ref/rst/restructuredtext.rst:3038
+#: ../../source/ref/restructuredtext.rst:3038
 msgid ""
 "This set corresponds to the `length units in CSS2`_ (a subset of `length "
 "units in CSS3`_)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3041
+#: ../../source/ref/restructuredtext.rst:3041
 msgid ""
 "In LaTeX, the default definition is 1Â px = 1/72Â in (cf. `How to "
 "configure the size of a pixel`_ in the LaTeX writer documentation)."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3044
+#: ../../source/ref/restructuredtext.rst:3044
 msgid "The following are all valid length values: \"1.5em\", \"20 mm\", \".5in\"."
-msgstr ""
+msgstr "以下是所有有效长度值: \"1.5em\", \"20 mm\", \".5in\"."
 
-#: ../../source/ref/rst/restructuredtext.rst:3046
+#: ../../source/ref/restructuredtext.rst:3046
 msgid ""
 "Length values without unit are completed with a writer-dependent default "
 "(e.g. \"px\" with HTML, \"pt\" with `latex2e`). See the writer specific "
 "documentation in the `user doc`__ for details."
 msgstr ""
 
-#: ../../source/ref/rst/restructuredtext.rst:3060
+#: ../../source/ref/restructuredtext.rst:3060
 msgid "Percentage Units"
-msgstr ""
+msgstr "百分比单位"
 
-#: ../../source/ref/rst/restructuredtext.rst:3062
+#: ../../source/ref/restructuredtext.rst:3062
 msgid ""
 "Percentage values have a percent sign (\"%\") as unit.  Percentage values"
 " are relative to other values, depending on the context in which they "
 "occur."
-msgstr ""
+msgstr "百分比值使用百分号 (\"%\") 作为单位。 百分比值相对于其他值，具体取决于它们出现的上下文。"
 
-#: ../../source/ref/rst/restructuredtext.rst:3069
+#: ../../source/ref/restructuredtext.rst:3069
 msgid "Error Handling"
-msgstr ""
+msgstr "错误处理"
 
-#: ../../source/ref/rst/restructuredtext.rst:3071
+#: ../../source/ref/restructuredtext.rst:3071
 msgid "Doctree element: system_message, problematic."
-msgstr ""
+msgstr "Doctree 元素: system_message, problematic."
 
-#: ../../source/ref/rst/restructuredtext.rst:3073
+#: ../../source/ref/restructuredtext.rst:3073
 msgid "Markup errors are handled according to the specification in `PEP 258`_."
-msgstr ""
+msgstr "标记错误根据  `PEP 258`_ 中的规范进行处理。"
 

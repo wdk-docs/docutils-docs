@@ -20,50 +20,50 @@ msgstr ""
 
 #: ../../source/user/config.rst:3
 msgid "Docutils Configuration"
-msgstr ""
+msgstr "Docutils配置"
 
 #: ../../source/user/config.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/config.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/user/config.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/user/config.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/user/config.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/user/config.rst:7
 msgid "$Revision: 8202 $"
-msgstr ""
+msgstr "$Revision: 8202 $"
 
 #: ../../source/user/config.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/config.rst:8
 msgid "$Date: 2017-11-08 12:25:10 +0100 (Mi, 08. Nov 2017) $"
-msgstr ""
+msgstr "$Date: 2017-11-08 12:25:10 +0100 (Mi, 08. Nov 2017) $"
 
 #: ../../source/user/config.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/user/config.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 msgid "Docutils Security for Web Applications"
-msgstr ""
+msgstr "Docutils Security for Web Applications"
 
 #: ../../source/user/config.rst:13
 msgid ""
@@ -73,11 +73,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:17
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/config.rst:21
 msgid "Configuration Files"
-msgstr ""
+msgstr "Configuration Files"
 
 #: ../../source/user/config.rst:23
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:69
 msgid "Configuration File Syntax"
-msgstr ""
+msgstr "Configuration File Syntax"
 
 #: ../../source/user/config.rst:71
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:82
 msgid "No format string interpolation is done."
-msgstr ""
+msgstr "No format string interpolation is done."
 
 #: ../../source/user/config.rst:84
 msgid ""
@@ -184,23 +184,23 @@ msgstr ""
 
 #: ../../source/user/config.rst
 msgid "On"
-msgstr ""
+msgstr "On"
 
 #: ../../source/user/config.rst:92
 msgid "\"true\", \"yes\", \"on\", \"1\""
-msgstr ""
+msgstr "\"true\", \"yes\", \"on\", \"1\""
 
 #: ../../source/user/config.rst
 msgid "Off"
-msgstr ""
+msgstr "Off"
 
 #: ../../source/user/config.rst:93
 msgid "\"false\", \"no\", \"off\", \"0\", \"\" (no value)"
-msgstr ""
+msgstr "\"false\", \"no\", \"off\", \"0\", \"\" (no value)"
 
 #: ../../source/user/config.rst:97
 msgid "List values can be comma- or colon-delimited."
-msgstr ""
+msgstr "List values can be comma- or colon-delimited."
 
 #: ../../source/user/config.rst:99
 msgid ""
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:117
 msgid "Example"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/user/config.rst:119
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:141
 msgid "Configuration File Sections & Entries"
-msgstr ""
+msgstr "Configuration File Sections & Entries"
 
 #: ../../source/user/config.rst:143
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:152
 msgid "`[general]`_"
-msgstr ""
+msgstr "`[general]`_"
 
 #: ../../source/user/config.rst:154
 msgid ""
@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:168
 msgid "`[applications]`_, application dependencies, and the section"
-msgstr ""
+msgstr "`[applications]`_, application dependencies, and the section"
 
 #: ../../source/user/config.rst:167
 msgid ""
@@ -302,19 +302,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:183
 msgid "Some knowledge of Python_ is assumed for some attributes."
-msgstr ""
+msgstr "Some knowledge of Python_ is assumed for some attributes."
 
 #: ../../source/user/config.rst:193
 msgid "[general]"
-msgstr ""
+msgstr "[general]"
 
 #: ../../source/user/config.rst:195
 msgid "Settings in the \"[general]\" section are always applied."
-msgstr ""
+msgstr "Settings in the \"[general]\" section are always applied."
 
 #: ../../source/user/config.rst:198
 msgid "auto_id_prefix"
-msgstr ""
+msgstr "auto_id_prefix"
 
 #: ../../source/user/config.rst:200
 msgid ""
@@ -330,7 +330,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:207
 msgid "datestamp"
-msgstr ""
+msgstr "datestamp"
 
 #: ../../source/user/config.rst:209
 msgid ""
@@ -341,27 +341,27 @@ msgstr ""
 
 #: ../../source/user/config.rst:213
 msgid "Default: None. Options: ``--date, -d, --time, -t, --no-datestamp``."
-msgstr ""
+msgstr "Default: None. Options: ``--date, -d, --time, -t, --no-datestamp``."
 
 #: ../../source/user/config.rst:216
 msgid "Configuration file entry examples::"
-msgstr ""
+msgstr "Configuration file entry examples::"
 
 #: ../../source/user/config.rst:232
 msgid "debug"
-msgstr ""
+msgstr "debug"
 
 #: ../../source/user/config.rst:234
 msgid "Report debug-level system messages."
-msgstr ""
+msgstr "Report debug-level system messages."
 
 #: ../../source/user/config.rst:236
 msgid "Default: don't (None).  Options: ``--debug, --no-debug``."
-msgstr ""
+msgstr "Default: don't (None).  Options: ``--debug, --no-debug``."
 
 #: ../../source/user/config.rst:239
 msgid "dump_internals"
-msgstr ""
+msgstr "dump_internals"
 
 #: ../../source/user/config.rst:241
 msgid ""
@@ -377,7 +377,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:248
 msgid "dump_pseudo_xml"
-msgstr ""
+msgstr "dump_pseudo_xml"
 
 #: ../../source/user/config.rst:250
 msgid ""
@@ -393,11 +393,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:257
 msgid "dump_settings"
-msgstr ""
+msgstr "dump_settings"
 
 #: ../../source/user/config.rst:259
 msgid "At the end of processing, write all Docutils settings to stderr."
-msgstr ""
+msgstr "At the end of processing, write all Docutils settings to stderr."
 
 #: ../../source/user/config.rst:261
 msgid ""
@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:265
 msgid "dump_transforms"
-msgstr ""
+msgstr "dump_transforms"
 
 #: ../../source/user/config.rst:267
 msgid ""
@@ -423,19 +423,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:274
 msgid "error_encoding"
-msgstr ""
+msgstr "error_encoding"
 
 #: ../../source/user/config.rst:276
 msgid "The text encoding for error output."
-msgstr ""
+msgstr "The text encoding for error output."
 
 #: ../../source/user/config.rst:278
 msgid "Default: \"ascii\".  Options: ``--error-encoding, -e``."
-msgstr ""
+msgstr "Default: \"ascii\".  Options: ``--error-encoding, -e``."
 
 #: ../../source/user/config.rst:281
 msgid "error_encoding_error_handler"
-msgstr ""
+msgstr "error_encoding_error_handler"
 
 #: ../../source/user/config.rst:283
 msgid ""
@@ -451,7 +451,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:290
 msgid "exit_status_level"
-msgstr ""
+msgstr "exit_status_level"
 
 #: ../../source/user/config.rst:292
 msgid ""
@@ -462,11 +462,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:297
 msgid "Default: disabled (5).  Options: ``--exit-status``."
-msgstr ""
+msgstr "Default: disabled (5).  Options: ``--exit-status``."
 
 #: ../../source/user/config.rst:300
 msgid "expose_internals"
-msgstr ""
+msgstr "expose_internals"
 
 #: ../../source/user/config.rst:302
 msgid ""
@@ -484,7 +484,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:311
 msgid "footnote_backlinks"
-msgstr ""
+msgstr "footnote_backlinks"
 
 #: ../../source/user/config.rst:313
 msgid ""
@@ -500,7 +500,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:320
 msgid "generator"
-msgstr ""
+msgstr "generator"
 
 #: ../../source/user/config.rst:322
 msgid ""
@@ -510,11 +510,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:324
 msgid "Default: off (None).  Options: ``--generator, -g, --no-generator``."
-msgstr ""
+msgstr "Default: off (None).  Options: ``--generator, -g, --no-generator``."
 
 #: ../../source/user/config.rst:327
 msgid "halt_level"
-msgstr ""
+msgstr "halt_level"
 
 #: ../../source/user/config.rst:329
 msgid ""
@@ -525,11 +525,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:333
 msgid "Default: severe (4).  Options: ``--halt, --strict``."
-msgstr ""
+msgstr "Default: severe (4).  Options: ``--halt, --strict``."
 
 #: ../../source/user/config.rst:336
 msgid "id_prefix"
-msgstr ""
+msgstr "id_prefix"
 
 #: ../../source/user/config.rst:338
 msgid ""
@@ -545,19 +545,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:345
 msgid "input_encoding"
-msgstr ""
+msgstr "input_encoding"
 
 #: ../../source/user/config.rst:347
 msgid "The text encoding for input."
-msgstr ""
+msgstr "The text encoding for input."
 
 #: ../../source/user/config.rst:349
 msgid "Default: auto-detect (None).  Options: ``--input-encoding, -i``."
-msgstr ""
+msgstr "Default: auto-detect (None).  Options: ``--input-encoding, -i``."
 
 #: ../../source/user/config.rst:352
 msgid "input_encoding_error_handler"
-msgstr ""
+msgstr "input_encoding_error_handler"
 
 #: ../../source/user/config.rst:354
 msgid ""
@@ -567,15 +567,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:357 ../../source/user/config.rst:410
 msgid "strict"
-msgstr ""
+msgstr "strict"
 
 #: ../../source/user/config.rst:358 ../../source/user/config.rst:411
 msgid "Raise an exception in case of an encoding error."
-msgstr ""
+msgstr "Raise an exception in case of an encoding error."
 
 #: ../../source/user/config.rst:360 ../../source/user/config.rst:413
 msgid "replace"
-msgstr ""
+msgstr "replace"
 
 #: ../../source/user/config.rst:360
 msgid ""
@@ -586,11 +586,11 @@ msgstr ""
 #: ../../source/user/config.rst:363 ../../source/user/config.rst:415
 #: ../../source/user/config.rst:1835
 msgid "ignore"
-msgstr ""
+msgstr "ignore"
 
 #: ../../source/user/config.rst:363 ../../source/user/config.rst:416
 msgid "Ignore malformed data and continue without further notice."
-msgstr ""
+msgstr "Ignore malformed data and continue without further notice."
 
 #: ../../source/user/config.rst:365
 msgid ""
@@ -607,11 +607,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:373
 msgid "language_code"
-msgstr ""
+msgstr "language_code"
 
 #: ../../source/user/config.rst:375
 msgid "Case-insensitive `language tag`_ as defined in `BCP 47`_."
-msgstr ""
+msgstr "Case-insensitive `language tag`_ as defined in `BCP 47`_."
 
 #: ../../source/user/config.rst:377
 msgid ""
@@ -639,23 +639,23 @@ msgstr ""
 
 #: ../../source/user/config.rst:393
 msgid "Default: English (\"en\").  Options: ``--language, -l``."
-msgstr ""
+msgstr "Default: English (\"en\").  Options: ``--language, -l``."
 
 #: ../../source/user/config.rst:398
 msgid "output_encoding"
-msgstr ""
+msgstr "output_encoding"
 
 #: ../../source/user/config.rst:400
 msgid "The text encoding for output."
-msgstr ""
+msgstr "The text encoding for output."
 
 #: ../../source/user/config.rst:402
 msgid "Default: \"UTF-8\".  Options: ``--output-encoding, -o``."
-msgstr ""
+msgstr "Default: \"UTF-8\".  Options: ``--output-encoding, -o``."
 
 #: ../../source/user/config.rst:405
 msgid "output_encoding_error_handler"
-msgstr ""
+msgstr "output_encoding_error_handler"
 
 #: ../../source/user/config.rst:407
 msgid ""
@@ -665,11 +665,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:413
 msgid "Replace malformed data with a suitable replacement marker, such as \"?\"."
-msgstr ""
+msgstr "Replace malformed data with a suitable replacement marker, such as \"?\"."
 
 #: ../../source/user/config.rst:418
 msgid "xmlcharrefreplace"
-msgstr ""
+msgstr "xmlcharrefreplace"
 
 #: ../../source/user/config.rst:418
 msgid ""
@@ -679,11 +679,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:421
 msgid "backslashreplace"
-msgstr ""
+msgstr "backslashreplace"
 
 #: ../../source/user/config.rst:421
 msgid "Replace with backslashed escape sequences, such as \"``\\u2020``\"."
-msgstr ""
+msgstr "Replace with backslashed escape sequences, such as \"``\\u2020``\"."
 
 #: ../../source/user/config.rst:423
 msgid ""
@@ -700,7 +700,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:431
 msgid "record_dependencies"
-msgstr ""
+msgstr "record_dependencies"
 
 #: ../../source/user/config.rst:433
 msgid ""
@@ -712,7 +712,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:438
 msgid "Set to ``-`` in order to write dependencies to stdout."
-msgstr ""
+msgstr "Set to ``-`` in order to write dependencies to stdout."
 
 #: ../../source/user/config.rst:440
 msgid ""
@@ -728,19 +728,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:451
 msgid "Default: None.  Option: ``--record-dependencies``."
-msgstr ""
+msgstr "Default: None.  Option: ``--record-dependencies``."
 
 #: ../../source/user/config.rst:454
 msgid "report_level"
-msgstr ""
+msgstr "report_level"
 
 #: ../../source/user/config.rst:456
 msgid "Report system messages at or higher than <level>:"
-msgstr ""
+msgstr "Report system messages at or higher than <level>:"
 
 #: ../../source/user/config.rst:458
 msgid "1  info 2  warning 3  error 4  severe 5  none"
-msgstr ""
+msgstr "1  info 2  warning 3  error 4  severe 5  none"
 
 #: ../../source/user/config.rst:464
 msgid ""
@@ -750,7 +750,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:468
 msgid "sectnum_xform"
-msgstr ""
+msgstr "sectnum_xform"
 
 #: ../../source/user/config.rst:470
 msgid ""
@@ -773,7 +773,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:483
 msgid "source_link"
-msgstr ""
+msgstr "source_link"
 
 #: ../../source/user/config.rst:485
 msgid ""
@@ -783,15 +783,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:488
 msgid "Default: don't (None). Options: ``--source-link, -s, --no-source-link``."
-msgstr ""
+msgstr "Default: don't (None). Options: ``--source-link, -s, --no-source-link``."
 
 #: ../../source/user/config.rst:492
 msgid "source_url"
-msgstr ""
+msgstr "source_url"
 
 #: ../../source/user/config.rst:494
 msgid "An explicit URL for a \"View document source\" link, used verbatim."
-msgstr ""
+msgstr "An explicit URL for a \"View document source\" link, used verbatim."
 
 #: ../../source/user/config.rst:496
 msgid ""
@@ -801,7 +801,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:500
 msgid "strict_visitor"
-msgstr ""
+msgstr "strict_visitor"
 
 #: ../../source/user/config.rst:502
 msgid ""
@@ -818,7 +818,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:510
 msgid "strip_classes"
-msgstr ""
+msgstr "strip_classes"
 
 #: ../../source/user/config.rst:512
 msgid ""
@@ -830,19 +830,19 @@ msgstr ""
 #: ../../source/user/config.rst:516 ../../source/user/config.rst:535
 #: ../../source/user/config.rst:601
 msgid "Potentially dangerous; use with caution."
-msgstr ""
+msgstr "Potentially dangerous; use with caution."
 
 #: ../../source/user/config.rst:518
 msgid "Default: disabled (None).  Option: ``--strip-class``."
-msgstr ""
+msgstr "Default: disabled (None).  Option: ``--strip-class``."
 
 #: ../../source/user/config.rst:521
 msgid "strip_comments"
-msgstr ""
+msgstr "strip_comments"
 
 #: ../../source/user/config.rst:523
 msgid "Enable the removal of comment elements from the document tree."
-msgstr ""
+msgstr "Enable the removal of comment elements from the document tree."
 
 #: ../../source/user/config.rst:525
 msgid ""
@@ -852,7 +852,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:529
 msgid "strip_elements_with_classes"
-msgstr ""
+msgstr "strip_elements_with_classes"
 
 #: ../../source/user/config.rst:531
 msgid ""
@@ -863,11 +863,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:537
 msgid "Default: disabled (None).  Option: ``--strip-element-with-class``."
-msgstr ""
+msgstr "Default: disabled (None).  Option: ``--strip-element-with-class``."
 
 #: ../../source/user/config.rst:540
 msgid "title"
-msgstr ""
+msgstr "title"
 
 #: ../../source/user/config.rst:542
 msgid ""
@@ -879,11 +879,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:547
 msgid "Default: none.  Option: ``--title``."
-msgstr ""
+msgstr "Default: none.  Option: ``--title``."
 
 #: ../../source/user/config.rst:552
 msgid "toc_backlinks"
-msgstr ""
+msgstr "toc_backlinks"
 
 #: ../../source/user/config.rst:554
 msgid ""
@@ -899,7 +899,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:561
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 #: ../../source/user/config.rst:563
 msgid ""
@@ -917,31 +917,31 @@ msgstr ""
 
 #: ../../source/user/config.rst:575
 msgid "warning_stream"
-msgstr ""
+msgstr "warning_stream"
 
 #: ../../source/user/config.rst:577
 msgid "Path to a file for the output of system messages (warnings). [#pwd]_"
-msgstr ""
+msgstr "Path to a file for the output of system messages (warnings). [#pwd]_"
 
 #: ../../source/user/config.rst:579
 msgid "Default: stderr (None).  Options: ``--warnings``."
-msgstr ""
+msgstr "Default: stderr (None).  Options: ``--warnings``."
 
 #: ../../source/user/config.rst:583
 msgid "[parsers]"
-msgstr ""
+msgstr "[parsers]"
 
 #: ../../source/user/config.rst:585
 msgid "Docutils currently supports only one parser, for reStructuredText."
-msgstr ""
+msgstr "Docutils currently supports only one parser, for reStructuredText."
 
 #: ../../source/user/config.rst:589
 msgid "[restructuredtext parser]"
-msgstr ""
+msgstr "[restructuredtext parser]"
 
 #: ../../source/user/config.rst:592
 msgid "character_level_inline_markup"
-msgstr ""
+msgstr "character_level_inline_markup"
 
 #: ../../source/user/config.rst:594
 msgid ""
@@ -971,11 +971,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:615 ../../source/user/config.rst:1348
 msgid "New in Docutils 0.13."
-msgstr ""
+msgstr "New in Docutils 0.13."
 
 #: ../../source/user/config.rst:618
 msgid "file_insertion_enabled"
-msgstr ""
+msgstr "file_insertion_enabled"
 
 #: ../../source/user/config.rst:620
 msgid ""
@@ -993,11 +993,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:632
 msgid "pep_references"
-msgstr ""
+msgstr "pep_references"
 
 #: ../../source/user/config.rst:634
 msgid "Recognize and link to standalone PEP references (like \"PEP 258\")."
-msgstr ""
+msgstr "Recognize and link to standalone PEP references (like \"PEP 258\")."
 
 #: ../../source/user/config.rst:636
 msgid ""
@@ -1007,19 +1007,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:640
 msgid "pep_base_url"
-msgstr ""
+msgstr "pep_base_url"
 
 #: ../../source/user/config.rst:641
 msgid "Base URL for PEP references."
-msgstr ""
+msgstr "Base URL for PEP references."
 
 #: ../../source/user/config.rst:643
 msgid "Default: \"http://www.python.org/peps/\". Option: ``--pep-base-url``."
-msgstr ""
+msgstr "Default: \"http://www.python.org/peps/\". Option: ``--pep-base-url``."
 
 #: ../../source/user/config.rst:647
 msgid "pep_file_url_template"
-msgstr ""
+msgstr "pep_file_url_template"
 
 #: ../../source/user/config.rst:649
 msgid ""
@@ -1030,11 +1030,11 @@ msgstr ""
 #: ../../source/user/config.rst:652
 #, python-format
 msgid "Default: \"pep-%04d\".  Option: ``--pep-file-url``."
-msgstr ""
+msgstr "Default: \"pep-%04d\".  Option: ``--pep-file-url``."
 
 #: ../../source/user/config.rst:655
 msgid "raw_enabled"
-msgstr ""
+msgstr "raw_enabled"
 
 #: ../../source/user/config.rst:657
 msgid ""
@@ -1045,15 +1045,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:661
 msgid "Default: enabled (True).  Options: ``--raw-enabled, --no-raw``."
-msgstr ""
+msgstr "Default: enabled (True).  Options: ``--raw-enabled, --no-raw``."
 
 #: ../../source/user/config.rst:664
 msgid "rfc_references"
-msgstr ""
+msgstr "rfc_references"
 
 #: ../../source/user/config.rst:666
 msgid "Recognize and link to standalone RFC references (like \"RFC 822\")."
-msgstr ""
+msgstr "Recognize and link to standalone RFC references (like \"RFC 822\")."
 
 #: ../../source/user/config.rst:668
 msgid ""
@@ -1063,19 +1063,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:672
 msgid "rfc_base_url"
-msgstr ""
+msgstr "rfc_base_url"
 
 #: ../../source/user/config.rst:674
 msgid "Base URL for RFC references."
-msgstr ""
+msgstr "Base URL for RFC references."
 
 #: ../../source/user/config.rst:676
 msgid "Default: \"http://www.faqs.org/rfcs/\".  Option: ``--rfc-base-url``."
-msgstr ""
+msgstr "Default: \"http://www.faqs.org/rfcs/\".  Option: ``--rfc-base-url``."
 
 #: ../../source/user/config.rst:679
 msgid "smart_quotes"
-msgstr ""
+msgstr "smart_quotes"
 
 #: ../../source/user/config.rst:681
 msgid ""
@@ -1096,39 +1096,39 @@ msgstr ""
 #: ../../source/user/config.rst:690 ../../source/user/config.rst:736
 #: ../../source/user/config.rst:1632
 msgid "Supported values:"
-msgstr ""
+msgstr "Supported values:"
 
 #: ../../source/user/config.rst:693
 msgid "booleans_ (yes/no)"
-msgstr ""
+msgstr "booleans_ (yes/no)"
 
 #: ../../source/user/config.rst:693
 msgid "Use smart quotes?"
-msgstr ""
+msgstr "Use smart quotes?"
 
 #: ../../source/user/config.rst:696
 msgid "alt (or \"alternative\")"
-msgstr ""
+msgstr "alt (or \"alternative\")"
 
 #: ../../source/user/config.rst:696
 msgid "Use alternative quote set (if defined for the language)."
-msgstr ""
+msgstr "Use alternative quote set (if defined for the language)."
 
 #: ../../source/user/config.rst:698
 msgid "Default: \"no\". Option: ``--smart-quotes``."
-msgstr ""
+msgstr "Default: \"no\". Option: ``--smart-quotes``."
 
 #: ../../source/user/config.rst:700
 msgid "New in Docutils 0.10."
-msgstr ""
+msgstr "New in Docutils 0.10."
 
 #: ../../source/user/config.rst:709
 msgid "smartquotes_locales"
-msgstr ""
+msgstr "smartquotes_locales"
 
 #: ../../source/user/config.rst:711
 msgid "Typographical quotes used by the SmartQuotes_ transform."
-msgstr ""
+msgstr "Typographical quotes used by the SmartQuotes_ transform."
 
 #: ../../source/user/config.rst:713
 msgid ""
@@ -1140,7 +1140,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:724
 msgid "Example:"
-msgstr ""
+msgstr "Example:"
 
 #: ../../source/user/config.rst:719
 msgid ""
@@ -1151,15 +1151,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:726
 msgid "Default: None. Option: ``--smartquotes-locales``."
-msgstr ""
+msgstr "Default: None. Option: ``--smartquotes-locales``."
 
 #: ../../source/user/config.rst:728
 msgid "New in Docutils 0.14."
-msgstr ""
+msgstr "New in Docutils 0.14."
 
 #: ../../source/user/config.rst:731
 msgid "syntax_highlight"
-msgstr ""
+msgstr "syntax_highlight"
 
 #: ../../source/user/config.rst:733
 msgid ""
@@ -1169,15 +1169,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:738
 msgid "long"
-msgstr ""
+msgstr "long"
 
 #: ../../source/user/config.rst:739
 msgid "Use hierarchy of long token type names."
-msgstr ""
+msgstr "Use hierarchy of long token type names."
 
 #: ../../source/user/config.rst:741
 msgid "short"
-msgstr ""
+msgstr "short"
 
 #: ../../source/user/config.rst:741
 msgid ""
@@ -1187,7 +1187,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:745
 msgid "none"
-msgstr ""
+msgstr "none"
 
 #: ../../source/user/config.rst:744
 msgid ""
@@ -1197,31 +1197,31 @@ msgstr ""
 
 #: ../../source/user/config.rst:747
 msgid "Default: \"long\".  Option: ``--syntax-highlight``."
-msgstr ""
+msgstr "Default: \"long\".  Option: ``--syntax-highlight``."
 
 #: ../../source/user/config.rst:749
 msgid "New in Docutils 0.9."
-msgstr ""
+msgstr "New in Docutils 0.9."
 
 #: ../../source/user/config.rst:757
 msgid "tab_width"
-msgstr ""
+msgstr "tab_width"
 
 #: ../../source/user/config.rst:759
 msgid "Number of spaces for hard tab expansion."
-msgstr ""
+msgstr "Number of spaces for hard tab expansion."
 
 #: ../../source/user/config.rst:761
 msgid "Default: 8.  Options: ``--tab-width``."
-msgstr ""
+msgstr "Default: 8.  Options: ``--tab-width``."
 
 #: ../../source/user/config.rst:764
 msgid "trim_footnote_reference_space"
-msgstr ""
+msgstr "trim_footnote_reference_space"
 
 #: ../../source/user/config.rst:766
 msgid "Remove spaces before `footnote references`_."
-msgstr ""
+msgstr "Remove spaces before `footnote references`_."
 
 #: ../../source/user/config.rst:768
 msgid ""
@@ -1237,15 +1237,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:777
 msgid "[readers]"
-msgstr ""
+msgstr "[readers]"
 
 #: ../../source/user/config.rst:781
 msgid "[standalone reader]"
-msgstr ""
+msgstr "[standalone reader]"
 
 #: ../../source/user/config.rst:784
 msgid "docinfo_xform"
-msgstr ""
+msgstr "docinfo_xform"
 
 #: ../../source/user/config.rst:786
 msgid ""
@@ -1255,11 +1255,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:789
 msgid "Default: enabled (True).  Options: ``--no-doc-info``."
-msgstr ""
+msgstr "Default: enabled (True).  Options: ``--no-doc-info``."
 
 #: ../../source/user/config.rst:792
 msgid "doctitle_xform"
-msgstr ""
+msgstr "doctitle_xform"
 
 #: ../../source/user/config.rst:794
 msgid ""
@@ -1270,11 +1270,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:798
 msgid "Default: enabled (True).  Options: ``--no-doc-title``."
-msgstr ""
+msgstr "Default: enabled (True).  Options: ``--no-doc-title``."
 
 #: ../../source/user/config.rst:801
 msgid "sectsubtitle_xform"
-msgstr ""
+msgstr "sectsubtitle_xform"
 
 #: ../../source/user/config.rst:803
 msgid ""
@@ -1290,7 +1290,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:811
 msgid "[pep reader]"
-msgstr ""
+msgstr "[pep reader]"
 
 #: ../../source/user/config.rst:813
 msgid ""
@@ -1300,11 +1300,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:824
 msgid "[writers]"
-msgstr ""
+msgstr "[writers]"
 
 #: ../../source/user/config.rst:827
 msgid "[docutils_xml writer]"
-msgstr ""
+msgstr "[docutils_xml writer]"
 
 #: ../../source/user/config.rst:831
 msgid ""
@@ -1322,43 +1322,43 @@ msgstr ""
 
 #: ../../source/user/config.rst:840
 msgid "doctype_declaration"
-msgstr ""
+msgstr "doctype_declaration"
 
 #: ../../source/user/config.rst:842
 msgid "Generate XML with a DOCTYPE declaration."
-msgstr ""
+msgstr "Generate XML with a DOCTYPE declaration."
 
 #: ../../source/user/config.rst:844
 msgid "Default: do (1).  Options: ``--no-doctype``."
-msgstr ""
+msgstr "Default: do (1).  Options: ``--no-doctype``."
 
 #: ../../source/user/config.rst:847
 msgid "indents"
-msgstr ""
+msgstr "indents"
 
 #: ../../source/user/config.rst:849
 msgid "Generate XML with indents and newlines."
-msgstr ""
+msgstr "Generate XML with indents and newlines."
 
 #: ../../source/user/config.rst:851
 msgid "Default: don't (None).  Options: ``--indents``."
-msgstr ""
+msgstr "Default: don't (None).  Options: ``--indents``."
 
 #: ../../source/user/config.rst:854
 msgid "newlines"
-msgstr ""
+msgstr "newlines"
 
 #: ../../source/user/config.rst:856
 msgid "Generate XML with newlines before and after tags."
-msgstr ""
+msgstr "Generate XML with newlines before and after tags."
 
 #: ../../source/user/config.rst:858
 msgid "Default: don't (None).  Options: ``--newlines``."
-msgstr ""
+msgstr "Default: don't (None).  Options: ``--newlines``."
 
 #: ../../source/user/config.rst:863 ../../source/user/config.rst:1199
 msgid "xml_declaration"
-msgstr ""
+msgstr "xml_declaration"
 
 #: ../../source/user/config.rst:865
 msgid ""
@@ -1368,15 +1368,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:868 ../../source/user/config.rst:1208
 msgid "Default: do (1).  Options: ``--no-xml-declaration``."
-msgstr ""
+msgstr "Default: do (1).  Options: ``--no-xml-declaration``."
 
 #: ../../source/user/config.rst:874
 msgid "[html4css1 writer]"
-msgstr ""
+msgstr "[html4css1 writer]"
 
 #: ../../source/user/config.rst:879 ../../source/user/config.rst:1568
 msgid "attribution"
-msgstr ""
+msgstr "attribution"
 
 #: ../../source/user/config.rst:881
 msgid ""
@@ -1387,11 +1387,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:885
 msgid "Default: \"dash\".  Options: ``--attribution``."
-msgstr ""
+msgstr "Default: \"dash\".  Options: ``--attribution``."
 
 #: ../../source/user/config.rst:888
 msgid "cloak_email_addresses"
-msgstr ""
+msgstr "cloak_email_addresses"
 
 #: ../../source/user/config.rst:890
 #, python-format
@@ -1415,11 +1415,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:906
 msgid "Default: don't cloak (None).  Option: ``--cloak-email-addresses``."
-msgstr ""
+msgstr "Default: don't cloak (None).  Option: ``--cloak-email-addresses``."
 
 #: ../../source/user/config.rst:909
 msgid "compact_lists"
-msgstr ""
+msgstr "compact_lists"
 
 #: ../../source/user/config.rst:911
 msgid ""
@@ -1432,11 +1432,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:917
 msgid "Default: enabled (True). Options: ``--compact-lists, --no-compact-lists``."
-msgstr ""
+msgstr "Default: enabled (True). Options: ``--compact-lists, --no-compact-lists``."
 
 #: ../../source/user/config.rst:921
 msgid "compact_field_lists"
-msgstr ""
+msgstr "compact_field_lists"
 
 #: ../../source/user/config.rst:923
 msgid ""
@@ -1454,7 +1454,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:934 ../../source/user/config.rst:1451
 msgid "embed_stylesheet"
-msgstr ""
+msgstr "embed_stylesheet"
 
 #: ../../source/user/config.rst:936
 msgid ""
@@ -1466,11 +1466,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:941
 msgid "Default: enabled.  Options: ``--embed-stylesheet, --link-stylesheet``."
-msgstr ""
+msgstr "Default: enabled.  Options: ``--embed-stylesheet, --link-stylesheet``."
 
 #: ../../source/user/config.rst:947
 msgid "field_name_limit"
-msgstr ""
+msgstr "field_name_limit"
 
 #: ../../source/user/config.rst:949
 msgid ""
@@ -1481,11 +1481,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:953
 msgid "Default: 14 (i.e. 14 characters).  Option: ``--field-name-limit``."
-msgstr ""
+msgstr "Default: 14 (i.e. 14 characters).  Option: ``--field-name-limit``."
 
 #: ../../source/user/config.rst:958 ../../source/user/config.rst:1553
 msgid "footnote_references"
-msgstr ""
+msgstr "footnote_references"
 
 #: ../../source/user/config.rst:960
 msgid ""
@@ -1502,11 +1502,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:966
 msgid "Default: \"brackets\".  Option: ``--footnote-references``."
-msgstr ""
+msgstr "Default: \"brackets\".  Option: ``--footnote-references``."
 
 #: ../../source/user/config.rst:969
 msgid "initial_header_level"
-msgstr ""
+msgstr "initial_header_level"
 
 #: ../../source/user/config.rst:971
 msgid ""
@@ -1516,11 +1516,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:974
 msgid "Default: 1 (for \"<h1>\").  Option: ``--initial-header-level``."
-msgstr ""
+msgstr "Default: 1 (for \"<h1>\").  Option: ``--initial-header-level``."
 
 #: ../../source/user/config.rst:977
 msgid "math_output"
-msgstr ""
+msgstr "math_output"
 
 #: ../../source/user/config.rst:979
 msgid ""
@@ -1530,7 +1530,7 @@ msgstr ""
 
 #: ../../source/user/config.rst
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: ../../source/user/config.rst:983
 msgid ""
@@ -1549,7 +1549,7 @@ msgstr ""
 
 #: ../../source/user/config.rst
 msgid "MathJax"
-msgstr ""
+msgstr "MathJax"
 
 #: ../../source/user/config.rst:993
 msgid ""
@@ -1559,19 +1559,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:1001 ../../source/user/config.rst:1046
 msgid "Pro:"
-msgstr ""
+msgstr "Pro:"
 
 #: ../../source/user/config.rst:997
 msgid "Works across multiple browsers and platforms."
-msgstr ""
+msgstr "Works across multiple browsers and platforms."
 
 #: ../../source/user/config.rst:999
 msgid "Large set of `supported LaTeX math commands and constructs`__"
-msgstr ""
+msgstr "Large set of `supported LaTeX math commands and constructs`__"
 
 #: ../../source/user/config.rst:1005 ../../source/user/config.rst:1054
 msgid "Con:"
-msgstr ""
+msgstr "Con:"
 
 #: ../../source/user/config.rst:1004
 msgid ""
@@ -1611,7 +1611,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1026
 msgid "Example: MathJax.org recommends ``cdnjs.cloudflare.com``::"
-msgstr ""
+msgstr "Example: MathJax.org recommends ``cdnjs.cloudflare.com``::"
 
 #: ../../source/user/config.rst:1031
 msgid ""
@@ -1621,27 +1621,27 @@ msgstr ""
 
 #: ../../source/user/config.rst:1034
 msgid "Use a local MathJax installation on the *client* machine, e.g.::"
-msgstr ""
+msgstr "Use a local MathJax installation on the *client* machine, e.g.::"
 
 #: ../../source/user/config.rst:1038
 msgid "This is the fallback if no URL is specified."
-msgstr ""
+msgstr "This is the fallback if no URL is specified."
 
 #: ../../source/user/config.rst
 msgid "MathML"
-msgstr ""
+msgstr "MathML"
 
 #: ../../source/user/config.rst:1041
 msgid "Embed math content as presentational MathML_."
-msgstr ""
+msgstr "Embed math content as presentational MathML_."
 
 #: ../../source/user/config.rst:1044
 msgid "The W3C recommendation for math on the web."
-msgstr ""
+msgstr "The W3C recommendation for math on the web."
 
 #: ../../source/user/config.rst:1046
 msgid "Self-contained documents (no JavaScript, no external downloads)."
-msgstr ""
+msgstr "Self-contained documents (no JavaScript, no external downloads)."
 
 #: ../../source/user/config.rst:1049
 msgid ""
@@ -1664,7 +1664,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1061
 msgid "blahtexml_"
-msgstr ""
+msgstr "blahtexml_"
 
 #: ../../source/user/config.rst:1060
 msgid ""
@@ -1674,15 +1674,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1064
 msgid "LaTeXML_"
-msgstr ""
+msgstr "LaTeXML_"
 
 #: ../../source/user/config.rst:1064
 msgid "Comprehensive macro support but very slow. (Perl)"
-msgstr ""
+msgstr "Comprehensive macro support but very slow. (Perl)"
 
 #: ../../source/user/config.rst:1067
 msgid "TtM_"
-msgstr ""
+msgstr "TtM_"
 
 #: ../../source/user/config.rst:1067
 msgid ""
@@ -1692,15 +1692,15 @@ msgstr ""
 
 #: ../../source/user/config.rst
 msgid "LaTeX"
-msgstr ""
+msgstr "LaTeX"
 
 #: ../../source/user/config.rst:1070
 msgid "Include literal LaTeX code."
-msgstr ""
+msgstr "Include literal LaTeX code."
 
 #: ../../source/user/config.rst:1072
 msgid "The failsave fallback."
-msgstr ""
+msgstr "The failsave fallback."
 
 #: ../../source/user/config.rst:1074
 msgid ""
@@ -1710,11 +1710,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1077
 msgid "New in Docutils 0.8."
-msgstr ""
+msgstr "New in Docutils 0.8."
 
 #: ../../source/user/config.rst:1088
 msgid "option_limit"
-msgstr ""
+msgstr "option_limit"
 
 #: ../../source/user/config.rst:1090
 msgid ""
@@ -1725,12 +1725,12 @@ msgstr ""
 
 #: ../../source/user/config.rst:1095
 msgid "Default: 14 (i.e. 14 characters).  Option: ``--option-limit``."
-msgstr ""
+msgstr "Default: 14 (i.e. 14 characters).  Option: ``--option-limit``."
 
 #: ../../source/user/config.rst:1100 ../../source/user/config.rst:1466
 #: ../../source/user/config.rst:1713
 msgid "stylesheet"
-msgstr ""
+msgstr "stylesheet"
 
 #: ../../source/user/config.rst:1102
 msgid ""
@@ -1740,15 +1740,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1105
 msgid "Overrides also stylesheet-path__. [#override]_"
-msgstr ""
+msgstr "Overrides also stylesheet-path__. [#override]_"
 
 #: ../../source/user/config.rst:1107
 msgid "Default: None.  Options: ``--stylesheet``."
-msgstr ""
+msgstr "Default: None.  Options: ``--stylesheet``."
 
 #: ../../source/user/config.rst:1114 ../../source/user/config.rst:1491
 msgid "stylesheet_dirs"
-msgstr ""
+msgstr "stylesheet_dirs"
 
 #: ../../source/user/config.rst:1116
 msgid ""
@@ -1774,7 +1774,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1134 ../../source/user/config.rst:1511
 msgid "stylesheet_path"
-msgstr ""
+msgstr "stylesheet_path"
 
 #: ../../source/user/config.rst:1136
 msgid ""
@@ -1793,11 +1793,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1145
 msgid "Default: \"html4css1.css\". Options: ``--stylesheet-path``."
-msgstr ""
+msgstr "Default: \"html4css1.css\". Options: ``--stylesheet-path``."
 
 #: ../../source/user/config.rst:1155 ../../source/user/config.rst:1627
 msgid "table_style"
-msgstr ""
+msgstr "table_style"
 
 #: ../../source/user/config.rst:1157
 msgid ""
@@ -1807,35 +1807,35 @@ msgstr ""
 
 #: ../../source/user/config.rst:1160
 msgid "The default CSS sylesheet defines:"
-msgstr ""
+msgstr "The default CSS sylesheet defines:"
 
 #: ../../source/user/config.rst:1163 ../../source/user/config.rst:1639
 msgid "borderless"
-msgstr ""
+msgstr "borderless"
 
 #: ../../source/user/config.rst:1163
 msgid "No borders around the table."
-msgstr ""
+msgstr "No borders around the table."
 
 #: ../../source/user/config.rst:1166 ../../source/user/config.rst:1636
 msgid "booktabs"
-msgstr ""
+msgstr "booktabs"
 
 #: ../../source/user/config.rst:1166
 msgid "Lines above and below the table and a thin line after the head."
-msgstr ""
+msgstr "Lines above and below the table and a thin line after the head."
 
 #: ../../source/user/config.rst:1169 ../../source/user/config.rst:1642
 msgid "align-left, align-center, align-right"
-msgstr ""
+msgstr "align-left, align-center, align-right"
 
 #: ../../source/user/config.rst:1169
 msgid "Align the tables"
-msgstr ""
+msgstr "Align the tables"
 
 #: ../../source/user/config.rst:1175
 msgid "colwidths-auto"
-msgstr ""
+msgstr "colwidths-auto"
 
 #: ../../source/user/config.rst:1172
 msgid ""
@@ -1845,15 +1845,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1175
 msgid "Cf. the `table directive`_."
-msgstr ""
+msgstr "Cf. the `table directive`_."
 
 #: ../../source/user/config.rst:1177
 msgid "Default: \"\".  Option: ``--table-style``."
-msgstr ""
+msgstr "Default: \"\".  Option: ``--table-style``."
 
 #: ../../source/user/config.rst:1185 ../../source/user/config.rst:1664
 msgid "template"
-msgstr ""
+msgstr "template"
 
 #: ../../source/user/config.rst:1187
 msgid ""
@@ -1883,7 +1883,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1214
 msgid "[pep_html writer]"
-msgstr ""
+msgstr "[pep_html writer]"
 
 #: ../../source/user/config.rst:1216
 msgid ""
@@ -1901,15 +1901,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1225 ../../source/user/config.rst:1342
 msgid "`stylesheet_path <stylesheet_path [html4css1 writer]_>`_:"
-msgstr ""
+msgstr "`stylesheet_path <stylesheet_path [html4css1 writer]_>`_:"
 
 #: ../../source/user/config.rst:1225
 msgid "Default: \"pep.css\""
-msgstr ""
+msgstr "Default: \"pep.css\""
 
 #: ../../source/user/config.rst:1230
 msgid "`template <template [html4css1 writer]_>`_:"
-msgstr ""
+msgstr "`template <template [html4css1 writer]_>`_:"
 
 #: ../../source/user/config.rst:1228
 msgid ""
@@ -1920,7 +1920,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1233
 msgid "no_random"
-msgstr ""
+msgstr "no_random"
 
 #: ../../source/user/config.rst:1234
 msgid ""
@@ -1930,35 +1930,35 @@ msgstr ""
 
 #: ../../source/user/config.rst:1237
 msgid "Default: random enabled (None).  Options: ``--no-random`` (hidden)."
-msgstr ""
+msgstr "Default: random enabled (None).  Options: ``--no-random`` (hidden)."
 
 #: ../../source/user/config.rst:1240
 msgid "pep_home"
-msgstr ""
+msgstr "pep_home"
 
 #: ../../source/user/config.rst:1242
 msgid "Home URL prefix for PEPs."
-msgstr ""
+msgstr "Home URL prefix for PEPs."
 
 #: ../../source/user/config.rst:1244
 msgid "Default: current directory (\".\").  Options: ``--pep-home``."
-msgstr ""
+msgstr "Default: current directory (\".\").  Options: ``--pep-home``."
 
 #: ../../source/user/config.rst:1247
 msgid "python_home"
-msgstr ""
+msgstr "python_home"
 
 #: ../../source/user/config.rst:1248
 msgid "Python's home URL."
-msgstr ""
+msgstr "Python's home URL."
 
 #: ../../source/user/config.rst:1250
 msgid "Default: parent directory (\"..\").  Options: ``--python-home``."
-msgstr ""
+msgstr "Default: parent directory (\"..\").  Options: ``--python-home``."
 
 #: ../../source/user/config.rst:1254
 msgid "[s5_html writer]"
-msgstr ""
+msgstr "[s5_html writer]"
 
 #: ../../source/user/config.rst:1256
 msgid ""
@@ -1976,15 +1976,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1265
 msgid "compact_lists_:"
-msgstr ""
+msgstr "compact_lists_:"
 
 #: ../../source/user/config.rst:1265
 msgid "Default: disable compact lists."
-msgstr ""
+msgstr "Default: disable compact lists."
 
 #: ../../source/user/config.rst:1271
 msgid "template_:"
-msgstr ""
+msgstr "template_:"
 
 #: ../../source/user/config.rst:1268
 msgid ""
@@ -1995,7 +1995,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1274
 msgid "hidden_controls"
-msgstr ""
+msgstr "hidden_controls"
 
 #: ../../source/user/config.rst:1276
 msgid ""
@@ -2011,11 +2011,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1283
 msgid "current_slide"
-msgstr ""
+msgstr "current_slide"
 
 #: ../../source/user/config.rst:1285
 msgid "Enable or disable the current slide indicator (\"1/15\")."
-msgstr ""
+msgstr "Enable or disable the current slide indicator (\"1/15\")."
 
 #: ../../source/user/config.rst:1287
 msgid ""
@@ -2025,7 +2025,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1291
 msgid "overwrite_theme_files"
-msgstr ""
+msgstr "overwrite_theme_files"
 
 #: ../../source/user/config.rst:1293
 msgid ""
@@ -2041,7 +2041,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1301
 msgid "theme"
-msgstr ""
+msgstr "theme"
 
 #: ../../source/user/config.rst:1303
 msgid ""
@@ -2054,11 +2054,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1309
 msgid "Default: \"default\".  Option: ``--theme``."
-msgstr ""
+msgstr "Default: \"default\".  Option: ``--theme``."
 
 #: ../../source/user/config.rst:1312
 msgid "theme_url"
-msgstr ""
+msgstr "theme_url"
 
 #: ../../source/user/config.rst:1313
 msgid ""
@@ -2069,23 +2069,23 @@ msgstr ""
 
 #: ../../source/user/config.rst:1317
 msgid "Default: None.  Option: ``--theme-url``."
-msgstr ""
+msgstr "Default: None.  Option: ``--theme-url``."
 
 #: ../../source/user/config.rst:1320
 msgid "view_mode"
-msgstr ""
+msgstr "view_mode"
 
 #: ../../source/user/config.rst:1322
 msgid "The initial view mode, either \"slideshow\" or \"outline\"."
-msgstr ""
+msgstr "The initial view mode, either \"slideshow\" or \"outline\"."
 
 #: ../../source/user/config.rst:1324
 msgid "Default: \"slidewhow\".  Option: ``--view-mode``."
-msgstr ""
+msgstr "Default: \"slidewhow\".  Option: ``--view-mode``."
 
 #: ../../source/user/config.rst:1328
 msgid "[html5 writer]"
-msgstr ""
+msgstr "[html5 writer]"
 
 #: ../../source/user/config.rst:1330
 msgid ""
@@ -2095,31 +2095,31 @@ msgstr ""
 
 #: ../../source/user/config.rst:1334
 msgid "Removed options:"
-msgstr ""
+msgstr "Removed options:"
 
 #: ../../source/user/config.rst:1334
 msgid "`field_name_limit`_, `option_limit`_."
-msgstr ""
+msgstr "`field_name_limit`_, `option_limit`_."
 
 #: ../../source/user/config.rst:1336
 msgid "Different default for:"
-msgstr ""
+msgstr "Different default for:"
 
 #: ../../source/user/config.rst:1339
 msgid "`math_output`_"
-msgstr ""
+msgstr "`math_output`_"
 
 #: ../../source/user/config.rst:1339
 msgid "Default: \"MathML\""
-msgstr ""
+msgstr "Default: \"MathML\""
 
 #: ../../source/user/config.rst:1342
 msgid "Default: \"minimal.css,plain.css\""
-msgstr ""
+msgstr "Default: \"minimal.css,plain.css\""
 
 #: ../../source/user/config.rst:1346
 msgid "`stylesheet_dirs <stylesheet_dirs [html4css1 writer]_>`_:"
-msgstr ""
+msgstr "`stylesheet_dirs <stylesheet_dirs [html4css1 writer]_>`_:"
 
 #: ../../source/user/config.rst:1345
 msgid ""
@@ -2129,11 +2129,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1352
 msgid "[latex2e writer]"
-msgstr ""
+msgstr "[latex2e writer]"
 
 #: ../../source/user/config.rst:1355
 msgid "use_latex_toc"
-msgstr ""
+msgstr "use_latex_toc"
 
 #: ../../source/user/config.rst:1357
 msgid ""
@@ -2143,11 +2143,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1361
 msgid "Default: on.  Options: ``--use-latex-toc, --use-docutils-toc``."
-msgstr ""
+msgstr "Default: on.  Options: ``--use-latex-toc, --use-docutils-toc``."
 
 #: ../../source/user/config.rst:1364
 msgid "use_latex_docinfo"
-msgstr ""
+msgstr "use_latex_docinfo"
 
 #: ../../source/user/config.rst:1366
 msgid ""
@@ -2157,11 +2157,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1369
 msgid "Default: off.  Options: ``--use-latex-docinfo, --use-docutils-docinfo``."
-msgstr ""
+msgstr "Default: off.  Options: ``--use-latex-docinfo, --use-docutils-docinfo``."
 
 #: ../../source/user/config.rst:1372
 msgid "docutils_footnotes"
-msgstr ""
+msgstr "docutils_footnotes"
 
 #: ../../source/user/config.rst:1373
 msgid ""
@@ -2171,39 +2171,39 @@ msgstr ""
 
 #: ../../source/user/config.rst:1376
 msgid "Default: on.  Option: ``--docutils-footnotes``."
-msgstr ""
+msgstr "Default: on.  Option: ``--docutils-footnotes``."
 
 #: ../../source/user/config.rst:1379
 msgid "use_latex_citations"
-msgstr ""
+msgstr "use_latex_citations"
 
 #: ../../source/user/config.rst:1381
 msgid "Use \\cite for citations_ instead of a simulation with figure-floats."
-msgstr ""
+msgstr "Use \\cite for citations_ instead of a simulation with figure-floats."
 
 #: ../../source/user/config.rst:1383
 msgid "Default: off.  Options: ``--use-latex-citations, --figure-citations``."
-msgstr ""
+msgstr "Default: off.  Options: ``--use-latex-citations, --figure-citations``."
 
 #: ../../source/user/config.rst:1386
 msgid "use_latex_abstract"
-msgstr ""
+msgstr "use_latex_abstract"
 
 #: ../../source/user/config.rst:1388
 msgid "Use LaTeX abstract environment for the document's abstract_."
-msgstr ""
+msgstr "Use LaTeX abstract environment for the document's abstract_."
 
 #: ../../source/user/config.rst:1390
 msgid "Default: off.  Options: ``--use-latex-abstract, --topic-abstract``."
-msgstr ""
+msgstr "Default: off.  Options: ``--use-latex-abstract, --topic-abstract``."
 
 #: ../../source/user/config.rst:1393
 msgid "hyperlink_color"
-msgstr ""
+msgstr "hyperlink_color"
 
 #: ../../source/user/config.rst:1395
 msgid "Color of any hyperlinks embedded in text."
-msgstr ""
+msgstr "Color of any hyperlinks embedded in text."
 
 #: ../../source/user/config.rst:1397
 msgid ""
@@ -2213,19 +2213,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:1399
 msgid "\"black\" results in â€œinvisibleâ€œ links,"
-msgstr ""
+msgstr "\"black\" results in â€œinvisibleâ€œ links,"
 
 #: ../../source/user/config.rst:1401
 msgid "Set hyperref_options_ to \"draft\" to completely disable hyperlinking."
-msgstr ""
+msgstr "Set hyperref_options_ to \"draft\" to completely disable hyperlinking."
 
 #: ../../source/user/config.rst:1403
 msgid "Default: \"blue\".  Option: ``--hyperlink-color``."
-msgstr ""
+msgstr "Default: \"blue\".  Option: ``--hyperlink-color``."
 
 #: ../../source/user/config.rst:1406
 msgid "hyperref_options"
-msgstr ""
+msgstr "hyperref_options"
 
 #: ../../source/user/config.rst:1408
 msgid ""
@@ -2235,27 +2235,27 @@ msgstr ""
 
 #: ../../source/user/config.rst:1414
 msgid "is prepended."
-msgstr ""
+msgstr "is prepended."
 
 #: ../../source/user/config.rst:1416
 msgid "Default: \"\".   Option: ``--hyperref-options``."
-msgstr ""
+msgstr "Default: \"\".   Option: ``--hyperref-options``."
 
 #: ../../source/user/config.rst:1421
 msgid "documentclass"
-msgstr ""
+msgstr "documentclass"
 
 #: ../../source/user/config.rst:1423
 msgid "Specify LaTeX documentclass."
-msgstr ""
+msgstr "Specify LaTeX documentclass."
 
 #: ../../source/user/config.rst:1425
 msgid "Default: \"article\".  Option: ``--documentclass``."
-msgstr ""
+msgstr "Default: \"article\".  Option: ``--documentclass``."
 
 #: ../../source/user/config.rst:1428
 msgid "documentoptions"
-msgstr ""
+msgstr "documentoptions"
 
 #: ../../source/user/config.rst:1430
 msgid ""
@@ -2265,11 +2265,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1433
 msgid "Default: \"a4paper\".  Option: ``--documentoptions``."
-msgstr ""
+msgstr "Default: \"a4paper\".  Option: ``--documentoptions``."
 
 #: ../../source/user/config.rst:1436
 msgid "font_encoding"
-msgstr ""
+msgstr "font_encoding"
 
 #: ../../source/user/config.rst:1438
 msgid ""
@@ -2281,7 +2281,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1443
 msgid "Default: \"T1\".  Option: ``--font-encoding``."
-msgstr ""
+msgstr "Default: \"T1\".  Option: ``--font-encoding``."
 
 #: ../../source/user/config.rst:1453
 msgid ""
@@ -2294,7 +2294,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1459
 msgid "Default: off.  Options: ``--embed-stylesheet, --link-stylesheet``."
-msgstr ""
+msgstr "Default: off.  Options: ``--embed-stylesheet, --link-stylesheet``."
 
 #: ../../source/user/config.rst:1468
 msgid ""
@@ -2304,7 +2304,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1471
 msgid "Overrides also stylesheet_path__. [#override]_"
-msgstr ""
+msgstr "Overrides also stylesheet_path__. [#override]_"
 
 #: ../../source/user/config.rst:1473
 msgid ""
@@ -2315,11 +2315,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1477
 msgid "LaTeX will search the specified files in the `TeX input path`_."
-msgstr ""
+msgstr "LaTeX will search the specified files in the `TeX input path`_."
 
 #: ../../source/user/config.rst:1479
 msgid "Default: no stylesheet (\"\").  Option: ``--stylesheet``."
-msgstr ""
+msgstr "Default: no stylesheet (\"\").  Option: ``--stylesheet``."
 
 #: ../../source/user/config.rst:1493
 msgid ""
@@ -2337,7 +2337,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1519
 msgid "The stylesheet__  option is preferred for files in the `TeX input path`_."
-msgstr ""
+msgstr "The stylesheet__  option is preferred for files in the `TeX input path`_."
 
 #: ../../source/user/config.rst:1521
 msgid ""
@@ -2347,15 +2347,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1524
 msgid "Also overrides stylesheet__. [#override]_"
-msgstr ""
+msgstr "Also overrides stylesheet__. [#override]_"
 
 #: ../../source/user/config.rst:1526
 msgid "Default: no stylesheet (\"\").  Option: ``--stylesheet-path``."
-msgstr ""
+msgstr "Default: no stylesheet (\"\").  Option: ``--stylesheet-path``."
 
 #: ../../source/user/config.rst:1535
 msgid "latex_preamble"
-msgstr ""
+msgstr "latex_preamble"
 
 #: ../../source/user/config.rst:1537
 msgid ""
@@ -2366,11 +2366,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1541
 msgid "Default: Load the \"PDF standard fonts\" (Times, Helvetica, Courier)::"
-msgstr ""
+msgstr "Default: Load the \"PDF standard fonts\" (Times, Helvetica, Courier)::"
 
 #: ../../source/user/config.rst:1548
 msgid "Option: ``--latex-preamble``."
-msgstr ""
+msgstr "Option: ``--latex-preamble``."
 
 #: ../../source/user/config.rst:1555
 msgid ""
@@ -2386,15 +2386,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1561
 msgid "Default: \"superscript\".  Option: ``--footnote-references``."
-msgstr ""
+msgstr "Default: \"superscript\".  Option: ``--footnote-references``."
 
 #: ../../source/user/config.rst:1570
 msgid "See `attribution [html4css1 writer]`_."
-msgstr ""
+msgstr "See `attribution [html4css1 writer]`_."
 
 #: ../../source/user/config.rst:1573
 msgid "compound_enumerators"
-msgstr ""
+msgstr "compound_enumerators"
 
 #: ../../source/user/config.rst:1575
 msgid ""
@@ -2410,7 +2410,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1582
 msgid "literal_block_env"
-msgstr ""
+msgstr "literal_block_env"
 
 #: ../../source/user/config.rst:1584
 msgid ""
@@ -2439,7 +2439,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1598
 msgid "section_prefix_for_enumerators"
-msgstr ""
+msgstr "section_prefix_for_enumerators"
 
 #: ../../source/user/config.rst:1600
 msgid ""
@@ -2456,7 +2456,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1609
 msgid "section_enumerator_separator"
-msgstr ""
+msgstr "section_enumerator_separator"
 
 #: ../../source/user/config.rst:1611
 msgid ""
@@ -2477,7 +2477,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1622
 msgid "Default: \"-\".  Option: ``--section-enumerator-separator``."
-msgstr ""
+msgstr "Default: \"-\".  Option: ``--section-enumerator-separator``."
 
 #: ../../source/user/config.rst:1629
 msgid ""
@@ -2487,27 +2487,27 @@ msgstr ""
 
 #: ../../source/user/config.rst:1634
 msgid "standard"
-msgstr ""
+msgstr "standard"
 
 #: ../../source/user/config.rst:1635
 msgid "Borders around all cells."
-msgstr ""
+msgstr "Borders around all cells."
 
 #: ../../source/user/config.rst:1637
 msgid "A line above and below the table and one after the head."
-msgstr ""
+msgstr "A line above and below the table and one after the head."
 
 #: ../../source/user/config.rst:1639
 msgid "No borders."
-msgstr ""
+msgstr "No borders."
 
 #: ../../source/user/config.rst:1642
 msgid "Align tables."
-msgstr ""
+msgstr "Align tables."
 
 #: ../../source/user/config.rst:1654
 msgid "colwidths-auto, colwidths-given"
-msgstr ""
+msgstr "colwidths-auto, colwidths-given"
 
 #: ../../source/user/config.rst:1645
 msgid ""
@@ -2517,7 +2517,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1651
 msgid "``colwidths-auto`` is only suited for tables with simple cell content."
-msgstr ""
+msgstr "``colwidths-auto`` is only suited for tables with simple cell content."
 
 #: ../../source/user/config.rst:1653
 msgid ""
@@ -2527,7 +2527,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1656
 msgid "Default: \"standard\".  Option: ``--table-style``."
-msgstr ""
+msgstr "Default: \"standard\".  Option: ``--table-style``."
 
 #: ../../source/user/config.rst:1666
 msgid ""
@@ -2544,7 +2544,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1677
 msgid "[xetex writer]"
-msgstr ""
+msgstr "[xetex writer]"
 
 #: ../../source/user/config.rst:1679
 msgid ""
@@ -2556,23 +2556,23 @@ msgstr ""
 
 #: ../../source/user/config.rst:1684
 msgid "The following settings differ from those of the latex2e writer:"
-msgstr ""
+msgstr "The following settings differ from those of the latex2e writer:"
 
 #: ../../source/user/config.rst:1687
 msgid "font_encoding_"
-msgstr ""
+msgstr "font_encoding_"
 
 #: ../../source/user/config.rst:1687
 msgid "Disabled  (Use Unicode-encoded fonts)."
-msgstr ""
+msgstr "Disabled  (Use Unicode-encoded fonts)."
 
 #: ../../source/user/config.rst:1698
 msgid "latex_preamble_"
-msgstr ""
+msgstr "latex_preamble_"
 
 #: ../../source/user/config.rst:1690
 msgid "Default: Font setup for `Linux Libertine`_,::"
-msgstr ""
+msgstr "Default: Font setup for `Linux Libertine`_,::"
 
 #: ../../source/user/config.rst:1697
 msgid ""
@@ -2582,31 +2582,31 @@ msgstr ""
 
 #: ../../source/user/config.rst:1701
 msgid "template__"
-msgstr ""
+msgstr "template__"
 
 #: ../../source/user/config.rst:1701
 msgid "Default: \"xelatex.tex\""
-msgstr ""
+msgstr "Default: \"xelatex.tex\""
 
 #: ../../source/user/config.rst:1708
 msgid "[odf_odt writer]"
-msgstr ""
+msgstr "[odf_odt writer]"
 
 #: ../../source/user/config.rst:1710
 msgid "The following command line options are specific to ``odtwriter``:"
-msgstr ""
+msgstr "The following command line options are specific to ``odtwriter``:"
 
 #: ../../source/user/config.rst:1715
 msgid "Specify a stylesheet URL, used verbatim."
-msgstr ""
+msgstr "Specify a stylesheet URL, used verbatim."
 
 #: ../../source/user/config.rst:1717
 msgid "Default: writers/odf_odt/styles.odt in the installation directory."
-msgstr ""
+msgstr "Default: writers/odf_odt/styles.odt in the installation directory."
 
 #: ../../source/user/config.rst:1720
 msgid "odf-config-file"
-msgstr ""
+msgstr "odf-config-file"
 
 #: ../../source/user/config.rst:1722
 msgid ""
@@ -2620,7 +2620,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1730
 msgid "cloak-email-addresses"
-msgstr ""
+msgstr "cloak-email-addresses"
 
 #: ../../source/user/config.rst:1732
 msgid ""
@@ -2630,15 +2630,15 @@ msgstr ""
 
 #: ../../source/user/config.rst:1736
 msgid "no-cloak-email-addresses"
-msgstr ""
+msgstr "no-cloak-email-addresses"
 
 #: ../../source/user/config.rst:1737
 msgid "Do not obfuscate email addresses."
-msgstr ""
+msgstr "Do not obfuscate email addresses."
 
 #: ../../source/user/config.rst:1740
 msgid "table-border-thickness"
-msgstr ""
+msgstr "table-border-thickness"
 
 #: ../../source/user/config.rst:1742
 msgid ""
@@ -2648,63 +2648,63 @@ msgstr ""
 
 #: ../../source/user/config.rst:1746
 msgid "add-syntax-highlighting"
-msgstr ""
+msgstr "add-syntax-highlighting"
 
 #: ../../source/user/config.rst:1748
 msgid "Add syntax highlighting in literal code blocks."
-msgstr ""
+msgstr "Add syntax highlighting in literal code blocks."
 
 #: ../../source/user/config.rst:1751
 msgid "no-syntax-highlighting"
-msgstr ""
+msgstr "no-syntax-highlighting"
 
 #: ../../source/user/config.rst:1753
 msgid "Do not add syntax highlighting in literal code blocks. (default)"
-msgstr ""
+msgstr "Do not add syntax highlighting in literal code blocks. (default)"
 
 #: ../../source/user/config.rst:1757
 msgid "create-sections"
-msgstr ""
+msgstr "create-sections"
 
 #: ../../source/user/config.rst:1759
 msgid "Create sections for headers.  (default)"
-msgstr ""
+msgstr "Create sections for headers.  (default)"
 
 #: ../../source/user/config.rst:1762
 msgid "no-sections"
-msgstr ""
+msgstr "no-sections"
 
 #: ../../source/user/config.rst:1764
 msgid "Do not create sections for headers."
-msgstr ""
+msgstr "Do not create sections for headers."
 
 #: ../../source/user/config.rst:1767
 msgid "create-links"
-msgstr ""
+msgstr "create-links"
 
 #: ../../source/user/config.rst:1768
 msgid "Create links."
-msgstr ""
+msgstr "Create links."
 
 #: ../../source/user/config.rst:1771
 msgid "no-links"
-msgstr ""
+msgstr "no-links"
 
 #: ../../source/user/config.rst:1773
 msgid "Do not create links.  (default)"
-msgstr ""
+msgstr "Do not create links.  (default)"
 
 #: ../../source/user/config.rst:1776
 msgid "endnotes-end-doc"
-msgstr ""
+msgstr "endnotes-end-doc"
 
 #: ../../source/user/config.rst:1778
 msgid "Generate endnotes at end of document, not footnotes at bottom of page."
-msgstr ""
+msgstr "Generate endnotes at end of document, not footnotes at bottom of page."
 
 #: ../../source/user/config.rst:1781
 msgid "no-endnotes-end-doc"
-msgstr ""
+msgstr "no-endnotes-end-doc"
 
 #: ../../source/user/config.rst:1783
 msgid ""
@@ -2714,7 +2714,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1787
 msgid "generate-list-toc"
-msgstr ""
+msgstr "generate-list-toc"
 
 #: ../../source/user/config.rst:1789
 msgid ""
@@ -2724,7 +2724,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1793
 msgid "generate-oowriter-toc"
-msgstr ""
+msgstr "generate-oowriter-toc"
 
 #: ../../source/user/config.rst:1795
 msgid ""
@@ -2737,7 +2737,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1802
 msgid "custom-odt-header"
-msgstr ""
+msgstr "custom-odt-header"
 
 #: ../../source/user/config.rst:1804
 msgid ""
@@ -2749,7 +2749,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1811
 msgid "custom-odt-footer"
-msgstr ""
+msgstr "custom-odt-footer"
 
 #: ../../source/user/config.rst:1813
 msgid ""
@@ -2761,19 +2761,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:1823
 msgid "[pseudoxml writer]"
-msgstr ""
+msgstr "[pseudoxml writer]"
 
 #: ../../source/user/config.rst:1825
 msgid "This writer does not define specific settings."
-msgstr ""
+msgstr "This writer does not define specific settings."
 
 #: ../../source/user/config.rst:1829
 msgid "[applications]"
-msgstr ""
+msgstr "[applications]"
 
 #: ../../source/user/config.rst:1832
 msgid "[buildhtml application]"
-msgstr ""
+msgstr "[buildhtml application]"
 
 #: ../../source/user/config.rst:1837
 msgid ""
@@ -2785,11 +2785,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1842
 msgid "Default: none.  Options: ``--ignore``."
-msgstr ""
+msgstr "Default: none.  Options: ``--ignore``."
 
 #: ../../source/user/config.rst:1845
 msgid "prune"
-msgstr ""
+msgstr "prune"
 
 #: ../../source/user/config.rst:1847
 msgid ""
@@ -2800,47 +2800,47 @@ msgstr ""
 
 #: ../../source/user/config.rst:1852
 msgid "Default: ['.hg', '.bzr', '.git', '.svn', 'CVS'].  Options: ``--prune``."
-msgstr ""
+msgstr "Default: ['.hg', '.bzr', '.git', '.svn', 'CVS'].  Options: ``--prune``."
 
 #: ../../source/user/config.rst:1856
 msgid "recurse"
-msgstr ""
+msgstr "recurse"
 
 #: ../../source/user/config.rst:1858
 msgid "Recursively scan subdirectories, or ignore subdirectories."
-msgstr ""
+msgstr "Recursively scan subdirectories, or ignore subdirectories."
 
 #: ../../source/user/config.rst:1860
 msgid "Default: recurse (1).  Options: ``--recurse, --local``."
-msgstr ""
+msgstr "Default: recurse (1).  Options: ``--recurse, --local``."
 
 #: ../../source/user/config.rst:1863
 msgid "silent"
-msgstr ""
+msgstr "silent"
 
 #: ../../source/user/config.rst:1865
 msgid "Work silently (no progress messages).  Independent of \"report_level\"."
-msgstr ""
+msgstr "Work silently (no progress messages).  Independent of \"report_level\"."
 
 #: ../../source/user/config.rst:1868
 msgid "Default: show progress (None).  Options: ``--silent``."
-msgstr ""
+msgstr "Default: show progress (None).  Options: ``--silent``."
 
 #: ../../source/user/config.rst:1872
 msgid "[docfactory application]"
-msgstr ""
+msgstr "[docfactory application]"
 
 #: ../../source/user/config.rst:1874
 msgid "(To be completed.)"
-msgstr ""
+msgstr "(To be completed.)"
 
 #: ../../source/user/config.rst:1878
 msgid "Other Settings"
-msgstr ""
+msgstr "Other Settings"
 
 #: ../../source/user/config.rst:1881
 msgid "Command-Line Only"
-msgstr ""
+msgstr "Command-Line Only"
 
 #: ../../source/user/config.rst:1883
 msgid ""
@@ -2850,7 +2850,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1887
 msgid "config"
-msgstr ""
+msgstr "config"
 
 #: ../../source/user/config.rst:1889
 msgid ""
@@ -2869,11 +2869,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1898
 msgid "Default: None.  Options: ``--config``."
-msgstr ""
+msgstr "Default: None.  Options: ``--config``."
 
 #: ../../source/user/config.rst:1902
 msgid "Internal Settings"
-msgstr ""
+msgstr "Internal Settings"
 
 #: ../../source/user/config.rst:1904
 msgid ""
@@ -2883,19 +2883,19 @@ msgstr ""
 
 #: ../../source/user/config.rst:1909
 msgid "_config_files"
-msgstr ""
+msgstr "_config_files"
 
 #: ../../source/user/config.rst:1911
 msgid "List of paths of applied configuration files."
-msgstr ""
+msgstr "List of paths of applied configuration files."
 
 #: ../../source/user/config.rst:1913
 msgid "Default: None.  No command-line options."
-msgstr ""
+msgstr "Default: None.  No command-line options."
 
 #: ../../source/user/config.rst:1916
 msgid "_directories"
-msgstr ""
+msgstr "_directories"
 
 #: ../../source/user/config.rst:1918
 msgid ""
@@ -2905,11 +2905,11 @@ msgstr ""
 
 #: ../../source/user/config.rst:1921
 msgid "Default: current working directory (None).  No command-line options."
-msgstr ""
+msgstr "Default: current working directory (None).  No command-line options."
 
 #: ../../source/user/config.rst:1925
 msgid "_disable_config"
-msgstr ""
+msgstr "_disable_config"
 
 #: ../../source/user/config.rst:1927
 msgid ""
@@ -2919,35 +2919,35 @@ msgstr ""
 
 #: ../../source/user/config.rst:1930
 msgid "Default: config files enabled (None).  No command-line options."
-msgstr ""
+msgstr "Default: config files enabled (None).  No command-line options."
 
 #: ../../source/user/config.rst:1933
 msgid "_destination"
-msgstr ""
+msgstr "_destination"
 
 #: ../../source/user/config.rst:1935
 msgid "Path to output destination, set from positional arguments."
-msgstr ""
+msgstr "Path to output destination, set from positional arguments."
 
 #: ../../source/user/config.rst:1937
 msgid "Default: stdout (None).  No command-line options."
-msgstr ""
+msgstr "Default: stdout (None).  No command-line options."
 
 #: ../../source/user/config.rst:1940
 msgid "_source"
-msgstr ""
+msgstr "_source"
 
 #: ../../source/user/config.rst:1942
 msgid "Path to input source, set from positional arguments."
-msgstr ""
+msgstr "Path to input source, set from positional arguments."
 
 #: ../../source/user/config.rst:1944
 msgid "Default: stdin (None).  No command-line options."
-msgstr ""
+msgstr "Default: stdin (None).  No command-line options."
 
 #: ../../source/user/config.rst:1953
 msgid "Path relative to the working directory of the process at launch."
-msgstr ""
+msgstr "Path relative to the working directory of the process at launch."
 
 #: ../../source/user/config.rst:1956
 msgid ""
@@ -2977,7 +2977,7 @@ msgstr ""
 
 #: ../../source/user/config.rst:1975
 msgid "Old-Format Configuration Files"
-msgstr ""
+msgstr "Old-Format Configuration Files"
 
 #: ../../source/user/config.rst:1977
 msgid ""
@@ -2997,33 +2997,33 @@ msgstr ""
 
 #: ../../source/user/config.rst:1988
 msgid "Old-Format Setting"
-msgstr ""
+msgstr "Old-Format Setting"
 
 #: ../../source/user/config.rst:1988
 msgid "New Section & Setting"
-msgstr ""
+msgstr "New Section & Setting"
 
 #: ../../source/user/config.rst:1990
 msgid "pep_stylesheet"
-msgstr ""
+msgstr "pep_stylesheet"
 
 #: ../../source/user/config.rst:1990
 msgid "[pep_html writer] stylesheet"
-msgstr ""
+msgstr "[pep_html writer] stylesheet"
 
 #: ../../source/user/config.rst:1991
 msgid "pep_stylesheet_path"
-msgstr ""
+msgstr "pep_stylesheet_path"
 
 #: ../../source/user/config.rst:1991
 msgid "[pep_html writer] stylesheet_path"
-msgstr ""
+msgstr "[pep_html writer] stylesheet_path"
 
 #: ../../source/user/config.rst:1992
 msgid "pep_template"
-msgstr ""
+msgstr "pep_template"
 
 #: ../../source/user/config.rst:1992
 msgid "[pep_html writer] template"
-msgstr ""
+msgstr "[pep_html writer] template"
 

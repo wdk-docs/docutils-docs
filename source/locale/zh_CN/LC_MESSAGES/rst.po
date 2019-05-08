@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/rst.rst:3
 msgid "Markup Syntax and Parser Component of Docutils_"
-msgstr "Docutils_ 的标记语法和解析器组件"
+msgstr "标记语法和解析器组件"
 
 #: ../../source/rst.rst:5
 msgid "|reStructuredText|"
@@ -28,7 +28,7 @@ msgstr "|reStructuredText|"
 
 #: ../../source/rst.rst:7
 msgid "\"reStructuredText\" is **ONE** word, *not two!*"
-msgstr "\"reStructuredText\" 是**一个**字，*不* 是两个！"
+msgstr "\"reStructuredText\" 是 **一个** 字，*不* 是两个！"
 
 #: ../../source/rst.rst:9
 msgid "目录"
@@ -44,7 +44,7 @@ msgid ""
 "reStructuredText parser is a component of Docutils_.  reStructuredText is"
 " a revision and reinterpretation of the StructuredText_ and Setext_ "
 "lightweight markup systems."
-msgstr "reStructuredText是一个易于阅读，你所看到的纯文本标记语法和解析器系统。它对于内联程序文档（例如Python文档字符串），快速创建简单的Web页面以及独立文档非常有用。 reStructuredText旨在用于特定应用程序域的可扩展性。 reStructuredText解析器是Docutils_的一个组件。 reStructuredText是对StructuredText_和Setext_轻量级标记系统的修订和重新解释。"
+msgstr "reStructuredText是一个易于阅读，你所看到的纯文本标记语法和解析器系统。它对于内联程序文档(例如Python文档字符串)，快速创建简单的Web页面以及独立文档非常有用。 reStructuredText旨在用于特定应用程序域的可扩展性。 reStructuredText解析器是 Docutils_ 的一个组件。 reStructuredText是对 StructuredText_ 和 Setext_ 轻量级标记系统的修订和重新解释。"
 
 #: ../../source/rst.rst:20
 msgid ""
@@ -67,24 +67,24 @@ msgstr "用户文档"
 
 #: ../../source/rst.rst:33
 msgid "`A ReStructuredText Primer`__ (HTML file, or `text source`__)."
-msgstr "`ReStructuredText Primer`__（HTML文件，或`text source`__）。"
+msgstr "`A ReStructuredText Primer`__ (HTML文件，或 `text source`__)。"
 
 #: ../../source/rst.rst:34
 msgid "`Quick reStructuredText`__ (user reference)"
-msgstr "`快速reStructuredText`__ (用户参考)"
+msgstr "`Quick reStructuredText`__ (用户参考)"
 
 #: ../../source/rst.rst:35
 msgid ""
 "`reStructuredText Cheat Sheet`__ (text only; 1 page for syntax, 1 page "
 "directive & role reference)"
-msgstr "`reStructuredText Cheat Sheet`__（仅限文本; 1页用于语法，1页指令和角色参考）"
+msgstr "`reStructuredText Cheat Sheet`__ (仅限文本; 1页用于语法，1页指令和角色参考)"
 
 #: ../../source/rst.rst:38
 msgid ""
 "Users who have questions or need assistance with Docutils or "
 "reStructuredText should post a message to the Docutils-users_ mailing "
 "list."
-msgstr "对Docutils或reStructuredText有疑问或需要帮助的用户应向Docutils-users_邮件列表发送消息。"
+msgstr "对Docutils或reStructuredText有疑问或需要帮助的用户应向 Docutils-users_ 邮件列表发送消息。"
 
 #: ../../source/rst.rst:50
 msgid "Reference Documentation"
@@ -94,19 +94,19 @@ msgstr "参考文档"
 msgid ""
 "`An Introduction to reStructuredText`__ (includes the Goals__ and "
 "History__ of reStructuredText)"
-msgstr "`reStructuredText`__简介（包括reStructuredText的Goals__和History__）"
+msgstr "`An Introduction to reStructuredText`__ (包括reStructuredText的 Goals__ 和 History__)"
 
 #: ../../source/rst.rst:54
 msgid "`reStructuredText Markup Specification`__"
-msgstr "`reStructuredText 标记规范`__"
+msgstr "`reStructuredText Markup Specification`__"
 
 #: ../../source/rst.rst:55
 msgid "`reStructuredText Directives`__"
-msgstr "`reStructuredText 指令`__"
+msgstr "`reStructuredText Directives`__"
 
 #: ../../source/rst.rst:56
 msgid "`reStructuredText Interpreted Text Roles`__"
-msgstr "`reStructuredText解释文本角色`__"
+msgstr "`reStructuredText Interpreted Text Roles`__"
 
 #: ../../source/rst.rst:67
 msgid "Developer Documentation"
@@ -114,11 +114,11 @@ msgstr "开发者文档"
 
 #: ../../source/rst.rst:69
 msgid "`A Record of reStructuredText Syntax Alternatives`__"
-msgstr "`reStructuredText语法替代的记录`__"
+msgstr "`A Record of reStructuredText Syntax Alternatives`__"
 
 #: ../../source/rst.rst:70
 msgid "`Problems With StructuredText`__"
-msgstr "`StructuredText的问题`__"
+msgstr "`Problems With StructuredText`__"
 
 #: ../../source/rst.rst:77
 msgid "How-To's"
@@ -126,11 +126,11 @@ msgstr "基本知识"
 
 #: ../../source/rst.rst:79
 msgid "`Creating reStructuredText Directives`__"
-msgstr "`创建reStructuredText指令`__"
+msgstr "`Creating reStructuredText Directives`__"
 
 #: ../../source/rst.rst:80
 msgid "`Creating reStructuredText Interpreted Text Roles`__"
-msgstr "`创建reStructuredText解释的文本角色`__"
+msgstr "`Creating reStructuredText Interpreted Text Roles`__"
 
 #: ../../source/rst.rst:87
 msgid "Try it Online"
@@ -163,13 +163,13 @@ msgid ""
 "I have adopted reST as my tool of choice for producing notes while doing "
 "lab work (mostly in a matlab environment).  Since then, the quality of "
 "such documentation has increased noticeably, mostly for two reasons:"
-msgstr "我已经采用reST作为我在做实验室工作时制作笔记的首选工具（主要是在matlab环境中）。从那以后，这些文件的质量明显增加，主要有两个原因:"
+msgstr "我已经采用reST作为我在做实验室工作时制作笔记的首选工具(主要是在matlab环境中)。从那以后，这些文件的质量明显增加，主要有两个原因:"
 
 #: ../../source/rst.rst:110
 msgid ""
 "I no longer need to switch to another tool, so the threshold has fallen "
 "to very low.  Note that \"another tool\" means Winword..."
-msgstr "我不再需要切换到另一个工具，因此阈值已降至非常低。请注意\“另一个工具\”表示Winword ..."
+msgstr "我不再需要切换到另一个工具，因此阈值已降至非常低。请注意 \"另一个工具\" 表示Winword ..."
 
 #: ../../source/rst.rst:112
 msgid ""
@@ -184,7 +184,7 @@ msgid ""
 " apply the same tools for extracting documentation out of my Python code."
 "  Hey, that's a printable and a browsable version *for free*!  "
 "Personally, I consider this a large benefit."
-msgstr "感谢reST / DPS [现在的Docutils --ed]，我很快就可以继续使用相同的工具从我的Python代码中提取文档。嘿，这是一个可打印和可浏览的版本*免费*！就个人而言，我认为这是一个很大的好处。"
+msgstr "感谢 reST/DPS [现在的 Docutils --ed]，我很快就可以继续使用相同的工具从我的Python代码中提取文档。嘿，这是一个可打印和可浏览的版本 *免费* ！就个人而言，我认为这是一个很大的好处。"
 
 #: ../../source/rst.rst:121
 msgid ""
@@ -196,7 +196,7 @@ msgstr "... 日常使用的所有基本构造都在那​​里，如果需要�
 msgid ""
 "`Guido van Rossum, enthusiastic about PEP 287 but a bit hasty (see the "
 "follow-ups) on Python-Dev, 2002-04-02`__:"
-msgstr "`Guido van Rossum，热衷于PEP 287，但有点仓促（参见后续内容）关于Python-Dev，2002-04-02`__："
+msgstr "`Guido van Rossum，热衷于PEP 287，但有点仓促(参见后续内容)关于Python-Dev， 2002-04-02`__:"
 
 #: ../../source/rst.rst:129
 msgid ""
@@ -236,7 +236,7 @@ msgid ""
 "I think that reStructuredText is a good format for marking up docstrings;"
 " it's probably as good as it gets given the requirements (a fairly "
 "elaborate feature set, yet more readable \"in the raw\" than HTML)."
-msgstr "我认为reStructuredText是一种用于标记文档字符串的良好格式;它可能与给定的要求一样好（一个相当复杂的功能集，但在原始\中比HTML更可读）。"
+msgstr "我认为reStructuredText是一种用于标记文档字符串的良好格式;它可能与给定的要求一样好(一个相当复杂的功能集，但在原始\中比HTML更可读)。"
 
 #: ../../source/rst.rst:157
 msgid "`Richard Jones on comp.lang.python, 2002-04-03`__:"
@@ -248,7 +248,7 @@ msgid ""
 " has markup, and you can use it to the extreme.  Or you can follow some "
 "simple conventions (the most basic form of markup) and not worry about "
 "all the finer detail stuff. The difference between::"
-msgstr "我如何看待ReST是标记和非标记之间的中间立场。它有标记，你可以使用它到极致。或者你可以遵循一些简单的约定（最基本的标记形式），而不用担心所有更精细的细节。和...之间的不同::"
+msgstr "我如何看待ReST是标记和非标记之间的中间立场。它有标记，你可以使用它到极致。或者你可以遵循一些简单的约定(最基本的标记形式)，而不用担心所有更精细的细节。和...之间的不同::"
 
 #: ../../source/rst.rst:169
 msgid "and::"
@@ -283,7 +283,7 @@ msgstr "任何程序员都可以在15分钟或更短的时间内学习基础知�
 msgid ""
 "And it really is very very easy to write documents in it.  I do belive "
 "that if I were ever to write a book (again) I would write it in ReST."
-msgstr "在其中编写文档真的非常容易。我确实相信，如果我曾经写过一本书（再次），我会用ReST写的。"
+msgstr "在其中编写文档真的非常容易。我确实相信，如果我曾经写过一本书(再次)，我会用ReST写的。"
 
 #: ../../source/rst.rst:195
 msgid ""
@@ -319,7 +319,7 @@ msgid ""
 "processing tool suite included in the standard library.  Even if the "
 "format isn't perfect (I think it looks very good), it is time to pick a "
 "reasonable candidate and go."
-msgstr "我非常希望看到reStructuredText或其中的一些小变化，很快就会成为doc-strings的“标准”。我一直感叹没有规定的格式*和标准库中包含的相关处理工具套件。即使格式不完美（我觉得它看起来非常好），现在是时候挑选一个合理的候选人了。"
+msgstr "我非常希望看到reStructuredText或其中的一些小变化，很快就会成为doc-strings的“标准”。我一直感叹没有规定的格式*和标准库中包含的相关处理工具套件。即使格式不完美(我觉得它看起来非常好)，现在是时候挑选一个合理的候选人了。"
 
 #: ../../source/rst.rst:222
 msgid ""

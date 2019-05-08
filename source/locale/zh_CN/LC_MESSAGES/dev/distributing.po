@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:3
 msgid "Docutils_ Distributor's Guide"
-msgstr ""
+msgstr "Docutils_ 经销商指南"
 
 #: ../../source/dev/distributing.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/distributing.rst:5
 msgid "Lea Wiemann"
-msgstr ""
+msgstr "Lea Wiemann"
 
 #: ../../source/dev/distributing.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/distributing.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/distributing.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/distributing.rst:7
 msgid "$Revision: 8162 $"
-msgstr ""
+msgstr "$Revision: 8162 $"
 
 #: ../../source/dev/distributing.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/distributing.rst:8
 msgid "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
-msgstr ""
+msgstr "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
 
 #: ../../source/dev/distributing.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/distributing.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/distributing.rst:13
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/distributing.rst:15
 msgid ""
@@ -75,15 +75,15 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:19
 msgid "First, please download the most current `release tarball`_ and unpack it."
-msgstr ""
+msgstr "First, please download the most current `release tarball`_ and unpack it."
 
 #: ../../source/dev/distributing.rst:27
 msgid "Dependencies"
-msgstr ""
+msgstr "Dependencies"
 
 #: ../../source/dev/distributing.rst:29
 msgid "Docutils has the following dependencies:"
-msgstr ""
+msgstr "Docutils has the following dependencies:"
 
 #: ../../source/dev/distributing.rst:31
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:50
 msgid "Python Files"
-msgstr ""
+msgstr "Python Files"
 
 #: ../../source/dev/distributing.rst:52
 msgid ""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:63
 msgid "Executables"
-msgstr ""
+msgstr "Executables"
 
 #: ../../source/dev/distributing.rst:65
 msgid ""
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:75
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../source/dev/distributing.rst:77
 msgid ""
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:88
 msgid "All ``.html`` and ``.txt`` files in the base directory."
-msgstr ""
+msgstr "All ``.html`` and ``.txt`` files in the base directory."
 
 #: ../../source/dev/distributing.rst:90
 msgid "The ``docs/`` directory."
-msgstr ""
+msgstr "The ``docs/`` directory."
 
 #: ../../source/dev/distributing.rst:92
 msgid ""
@@ -172,15 +172,15 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:96
 msgid "The ``licenses/`` directory."
-msgstr ""
+msgstr "The ``licenses/`` directory."
 
 #: ../../source/dev/distributing.rst:98
 msgid "``html4css1.css`` in the base directory."
-msgstr ""
+msgstr "``html4css1.css`` in the base directory."
 
 #: ../../source/dev/distributing.rst:102
 msgid "Removing the ``.txt`` Files"
-msgstr ""
+msgstr "Removing the ``.txt`` Files"
 
 #: ../../source/dev/distributing.rst:104
 msgid ""
@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:119
 msgid "Other Files"
-msgstr ""
+msgstr "Other Files"
 
 #: ../../source/dev/distributing.rst:121
 msgid ""
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:126
 msgid "Configuration File"
-msgstr ""
+msgstr "Configuration File"
 
 #: ../../source/dev/distributing.rst:128
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:134
 msgid "Tests"
-msgstr ""
+msgstr "Tests"
 
 #: ../../source/dev/distributing.rst:136
 msgid ""
@@ -241,5 +241,5 @@ msgstr ""
 
 #: ../../source/dev/distributing.rst:141
 msgid "For more information on testing, view the `Docutils Testing`_ page."
-msgstr ""
+msgstr "For more information on testing, view the `Docutils Testing`_ page."
 

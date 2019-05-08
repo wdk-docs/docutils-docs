@@ -20,87 +20,87 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:6
 msgid "reStructuredText Demonstration"
-msgstr ""
+msgstr "reStructuredText演示"
 
 #: ../../source/user/rst/demo.rst:13
 msgid "Examples of Syntax Constructs"
-msgstr ""
+msgstr "Examples of Syntax Constructs"
 
 #: ../../source/user/rst/demo.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/rst/demo.rst:17
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/user/rst/demo.rst
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #: ../../source/user/rst/demo.rst:18
 msgid "123 Example Street Example, EX  Canada A1B 2C3"
-msgstr ""
+msgstr "123 Example Street Example, EX  Canada A1B 2C3"
 
 #: ../../source/user/rst/demo.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/user/rst/demo.rst:21
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/user/rst/demo.rst
 msgid "Authors"
-msgstr ""
+msgstr "Authors"
 
 #: ../../source/user/rst/demo.rst:22
 msgid "Me; Myself; I"
-msgstr ""
+msgstr "Me; Myself; I"
 
 #: ../../source/user/rst/demo.rst
 msgid "organization"
-msgstr ""
+msgstr "organization"
 
 #: ../../source/user/rst/demo.rst:23
 msgid "humankind"
-msgstr ""
+msgstr "humankind"
 
 #: ../../source/user/rst/demo.rst
 msgid "date"
-msgstr ""
+msgstr "date"
 
 #: ../../source/user/rst/demo.rst:24
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/user/rst/demo.rst
 msgid "status"
-msgstr ""
+msgstr "status"
 
 #: ../../source/user/rst/demo.rst:25
 msgid "This is a \"work in progress\""
-msgstr ""
+msgstr "This is a \"work in progress\""
 
 #: ../../source/user/rst/demo.rst
 msgid "revision"
-msgstr ""
+msgstr "revision"
 
 #: ../../source/user/rst/demo.rst:26
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/user/rst/demo.rst
 msgid "version"
-msgstr ""
+msgstr "version"
 
 #: ../../source/user/rst/demo.rst:27
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../source/user/rst/demo.rst
 msgid "copyright"
-msgstr ""
+msgstr "copyright"
 
 #: ../../source/user/rst/demo.rst:28
 msgid ""
@@ -113,35 +113,35 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst
 msgid "field name"
-msgstr ""
+msgstr "field name"
 
 #: ../../source/user/rst/demo.rst:35
 msgid "This is a generic bibliographic field."
-msgstr ""
+msgstr "This is a generic bibliographic field."
 
 #: ../../source/user/rst/demo.rst
 msgid "field name 2"
-msgstr ""
+msgstr "field name 2"
 
 #: ../../source/user/rst/demo.rst:37
 msgid "Generic bibliographic fields may contain multiple body elements."
-msgstr ""
+msgstr "Generic bibliographic fields may contain multiple body elements."
 
 #: ../../source/user/rst/demo.rst:39
 msgid "Like this."
-msgstr ""
+msgstr "Like this."
 
 #: ../../source/user/rst/demo.rst
 msgid "Dedication"
-msgstr ""
+msgstr "Dedication"
 
 #: ../../source/user/rst/demo.rst:43
 msgid "For Docutils users & co-developers."
-msgstr ""
+msgstr "For Docutils users & co-developers."
 
 #: ../../source/user/rst/demo.rst
 msgid "abstract"
-msgstr ""
+msgstr "abstract"
 
 #: ../../source/user/rst/demo.rst:47
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:51
 msgid "reStructuredText, demonstration, demo, parser"
-msgstr ""
+msgstr "reStructuredText, demonstration, demo, parser"
 
 #: ../../source/user/rst/demo.rst:51
 msgid ""
@@ -162,47 +162,47 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:56
 msgid "Table of Contents"
-msgstr ""
+msgstr "Table of Contents"
 
 #: ../../source/user/rst/demo.rst:62
 msgid "Structural Elements"
-msgstr ""
+msgstr "Structural Elements"
 
 #: ../../source/user/rst/demo.rst:65
 msgid "Section Title"
-msgstr ""
+msgstr "Section Title"
 
 #: ../../source/user/rst/demo.rst:67
 msgid "That's it, the text just above this line."
-msgstr ""
+msgstr "That's it, the text just above this line."
 
 #: ../../source/user/rst/demo.rst:70
 msgid "Transitions"
-msgstr ""
+msgstr "Transitions"
 
 #: ../../source/user/rst/demo.rst:72
 msgid "Here's a transition:"
-msgstr ""
+msgstr "Here's a transition:"
 
 #: ../../source/user/rst/demo.rst:76
 msgid "It divides the section."
-msgstr ""
+msgstr "It divides the section."
 
 #: ../../source/user/rst/demo.rst:79
 msgid "Body Elements"
-msgstr ""
+msgstr "Body Elements"
 
 #: ../../source/user/rst/demo.rst:82
 msgid "Paragraphs"
-msgstr ""
+msgstr "Paragraphs"
 
 #: ../../source/user/rst/demo.rst:84
 msgid "A paragraph."
-msgstr ""
+msgstr "A paragraph."
 
 #: ../../source/user/rst/demo.rst:87
 msgid "Inline Markup"
-msgstr ""
+msgstr "Inline Markup"
 
 #: ../../source/user/rst/demo.rst:89
 msgid ""
@@ -247,124 +247,124 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:122
 msgid "Bullet Lists"
-msgstr ""
+msgstr "Bullet Lists"
 
 #: ../../source/user/rst/demo.rst:124
 msgid "A bullet list"
-msgstr ""
+msgstr "A bullet list"
 
 #: ../../source/user/rst/demo.rst:126 ../../source/user/rst/demo.rst:133
 msgid "Nested bullet list."
-msgstr ""
+msgstr "Nested bullet list."
 
 #: ../../source/user/rst/demo.rst:127 ../../source/user/rst/demo.rst:134
 msgid "Nested item 2."
-msgstr ""
+msgstr "Nested item 2."
 
 #: ../../source/user/rst/demo.rst:129 ../../source/user/rst/demo.rst:137
 msgid "Item 2."
-msgstr ""
+msgstr "Item 2."
 
 #: ../../source/user/rst/demo.rst:131
 msgid "Paragraph 2 of item 2."
-msgstr ""
+msgstr "Paragraph 2 of item 2."
 
 #: ../../source/user/rst/demo.rst:136
 msgid "Third level."
-msgstr ""
+msgstr "Third level."
 
 #: ../../source/user/rst/demo.rst:139
 msgid "Nested item 3."
-msgstr ""
+msgstr "Nested item 3."
 
 #: ../../source/user/rst/demo.rst:142
 msgid "Enumerated Lists"
-msgstr ""
+msgstr "Enumerated Lists"
 
 #: ../../source/user/rst/demo.rst:144
 msgid "Arabic numerals."
-msgstr ""
+msgstr "Arabic numerals."
 
 #: ../../source/user/rst/demo.rst:146
 msgid "lower alpha)"
-msgstr ""
+msgstr "lower alpha)"
 
 #: ../../source/user/rst/demo.rst:148
 msgid "(lower roman)"
-msgstr ""
+msgstr "(lower roman)"
 
 #: ../../source/user/rst/demo.rst:150
 msgid "upper alpha."
-msgstr ""
+msgstr "upper alpha."
 
 #: ../../source/user/rst/demo.rst:152
 msgid "upper roman)"
-msgstr ""
+msgstr "upper roman)"
 
 #: ../../source/user/rst/demo.rst:154
 msgid "Lists that don't start at 1:"
-msgstr ""
+msgstr "Lists that don't start at 1:"
 
 #: ../../source/user/rst/demo.rst:156
 msgid "Three"
-msgstr ""
+msgstr "Three"
 
 #: ../../source/user/rst/demo.rst:158
 msgid "Four"
-msgstr ""
+msgstr "Four"
 
 #: ../../source/user/rst/demo.rst:160
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../source/user/rst/demo.rst:162
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../source/user/rst/demo.rst:164
 msgid "iii"
-msgstr ""
+msgstr "iii"
 
 #: ../../source/user/rst/demo.rst:166
 msgid "iv"
-msgstr ""
+msgstr "iv"
 
 #: ../../source/user/rst/demo.rst:168
 msgid "List items may also be auto-enumerated."
-msgstr ""
+msgstr "List items may also be auto-enumerated."
 
 #: ../../source/user/rst/demo.rst:171
 msgid "Definition Lists"
-msgstr ""
+msgstr "Definition Lists"
 
 #: ../../source/user/rst/demo.rst:173 ../../source/user/rst/demo.rst:177
 #: ../../source/user/rst/demo.rst:180
 msgid "Term"
-msgstr ""
+msgstr "Term"
 
 #: ../../source/user/rst/demo.rst:174 ../../source/user/rst/demo.rst:180
 msgid "Definition"
-msgstr ""
+msgstr "Definition"
 
 #: ../../source/user/rst/demo.rst:176
 msgid "classifier"
-msgstr ""
+msgstr "classifier"
 
 #: ../../source/user/rst/demo.rst:176
 msgid "Definition paragraph 1."
-msgstr ""
+msgstr "Definition paragraph 1."
 
 #: ../../source/user/rst/demo.rst:178
 msgid "Definition paragraph 2."
-msgstr ""
+msgstr "Definition paragraph 2."
 
 #: ../../source/user/rst/demo.rst:183
 msgid "Field Lists"
-msgstr ""
+msgstr "Field Lists"
 
 #: ../../source/user/rst/demo.rst
 msgid "what"
-msgstr ""
+msgstr "what"
 
 #: ../../source/user/rst/demo.rst:185
 msgid ""
@@ -375,11 +375,11 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst
 msgid "how arg1 arg2"
-msgstr ""
+msgstr "how arg1 arg2"
 
 #: ../../source/user/rst/demo.rst:191
 msgid "The field marker is a colon, the field name, and a colon."
-msgstr ""
+msgstr "The field marker is a colon, the field name, and a colon."
 
 #: ../../source/user/rst/demo.rst:193
 msgid ""
@@ -389,31 +389,31 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:197
 msgid "Option Lists"
-msgstr ""
+msgstr "Option Lists"
 
 #: ../../source/user/rst/demo.rst:199
 msgid "For listing command-line options:"
-msgstr ""
+msgstr "For listing command-line options:"
 
 #: ../../source/user/rst/demo.rst:201
 msgid "command-line option \"a\""
-msgstr ""
+msgstr "command-line option \"a\""
 
 #: ../../source/user/rst/demo.rst:202
 msgid "options can have arguments and long descriptions"
-msgstr ""
+msgstr "options can have arguments and long descriptions"
 
 #: ../../source/user/rst/demo.rst:204
 msgid "options can be long also"
-msgstr ""
+msgstr "options can be long also"
 
 #: ../../source/user/rst/demo.rst:205
 msgid "long options can also have arguments"
-msgstr ""
+msgstr "long options can also have arguments"
 
 #: ../../source/user/rst/demo.rst:209
 msgid "The description can also start on the next line."
-msgstr ""
+msgstr "The description can also start on the next line."
 
 #: ../../source/user/rst/demo.rst:211
 msgid ""
@@ -423,27 +423,27 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:214
 msgid "Multiple options are an \"option group\"."
-msgstr ""
+msgstr "Multiple options are an \"option group\"."
 
 #: ../../source/user/rst/demo.rst:215
 msgid "Commonly-seen: short & long options."
-msgstr ""
+msgstr "Commonly-seen: short & long options."
 
 #: ../../source/user/rst/demo.rst:217
 msgid "Multiple options with arguments."
-msgstr ""
+msgstr "Multiple options with arguments."
 
 #: ../../source/user/rst/demo.rst:218
 msgid "DOS/VMS-style options too"
-msgstr ""
+msgstr "DOS/VMS-style options too"
 
 #: ../../source/user/rst/demo.rst:220
 msgid "There must be at least two spaces between the option and the description."
-msgstr ""
+msgstr "There must be at least two spaces between the option and the description."
 
 #: ../../source/user/rst/demo.rst:224
 msgid "Literal Blocks"
-msgstr ""
+msgstr "Literal Blocks"
 
 #: ../../source/user/rst/demo.rst:226
 msgid ""
@@ -453,23 +453,23 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:234
 msgid "Or they can be quoted without indentation::"
-msgstr ""
+msgstr "Or they can be quoted without indentation::"
 
 #: ../../source/user/rst/demo.rst:241
 msgid "Line Blocks"
-msgstr ""
+msgstr "Line Blocks"
 
 #: ../../source/user/rst/demo.rst:243
 msgid "This is a line block.  It ends with a blank line."
-msgstr ""
+msgstr "This is a line block.  It ends with a blank line."
 
 #: ../../source/user/rst/demo.rst:244
 msgid "Each new line begins with a vertical bar (\"|\")."
-msgstr ""
+msgstr "Each new line begins with a vertical bar (\"|\")."
 
 #: ../../source/user/rst/demo.rst:245
 msgid "Line breaks and initial indents are preserved."
-msgstr ""
+msgstr "Line breaks and initial indents are preserved."
 
 #: ../../source/user/rst/demo.rst:247
 msgid ""
@@ -485,63 +485,63 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:251
 msgid "This is a second line block."
-msgstr ""
+msgstr "This is a second line block."
 
 #: ../../source/user/rst/demo.rst:253
 msgid "Blank lines are permitted internally, but they must begin with a \"|\"."
-msgstr ""
+msgstr "Blank lines are permitted internally, but they must begin with a \"|\"."
 
 #: ../../source/user/rst/demo.rst:255
 msgid "Take it away, Eric the Orchestra Leader!"
-msgstr ""
+msgstr "Take it away, Eric the Orchestra Leader!"
 
 #: ../../source/user/rst/demo.rst
 msgid "A one, two, a one two three four"
-msgstr ""
+msgstr "A one, two, a one two three four"
 
 #: ../../source/user/rst/demo.rst
 msgid "Half a bee, philosophically,"
-msgstr ""
+msgstr "Half a bee, philosophically,"
 
 #: ../../source/user/rst/demo.rst
 msgid "must, *ipso facto*, half not be."
-msgstr ""
+msgstr "must, *ipso facto*, half not be."
 
 #: ../../source/user/rst/demo.rst
 msgid "But half the bee has got to be,"
-msgstr ""
+msgstr "But half the bee has got to be,"
 
 #: ../../source/user/rst/demo.rst
 msgid "*vis a vis* its entity.  D'you see?"
-msgstr ""
+msgstr "*vis a vis* its entity.  D'you see?"
 
 #: ../../source/user/rst/demo.rst
 msgid "But can a bee be said to be"
-msgstr ""
+msgstr "But can a bee be said to be"
 
 #: ../../source/user/rst/demo.rst
 msgid "or not to be an entire bee,"
-msgstr ""
+msgstr "or not to be an entire bee,"
 
 #: ../../source/user/rst/demo.rst
 msgid "when half the bee is not a bee,"
-msgstr ""
+msgstr "when half the bee is not a bee,"
 
 #: ../../source/user/rst/demo.rst
 msgid "due to some ancient injury?"
-msgstr ""
+msgstr "due to some ancient injury?"
 
 #: ../../source/user/rst/demo.rst
 msgid "Singing..."
-msgstr ""
+msgstr "Singing..."
 
 #: ../../source/user/rst/demo.rst:272
 msgid "Block Quotes"
-msgstr ""
+msgstr "Block Quotes"
 
 #: ../../source/user/rst/demo.rst:274
 msgid "Block quotes consist of indented body elements:"
-msgstr ""
+msgstr "Block quotes consist of indented body elements:"
 
 #: ../../source/user/rst/demo.rst:276
 msgid ""
@@ -554,125 +554,125 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:289
 msgid "Anne Elk (Miss)"
-msgstr ""
+msgstr "Anne Elk (Miss)"
 
 #: ../../source/user/rst/demo.rst:285
 msgid "Doctest Blocks"
-msgstr ""
+msgstr "Doctest Blocks"
 
 #: ../../source/user/rst/demo.rst:293
 msgid "Tables"
-msgstr ""
+msgstr "Tables"
 
 #: ../../source/user/rst/demo.rst:295
 msgid "Here's a grid table followed by a simple table:"
-msgstr ""
+msgstr "Here's a grid table followed by a simple table:"
 
 #: ../../source/user/rst/demo.rst:298
 msgid "Header row, column 1 (header rows optional)"
-msgstr ""
+msgstr "Header row, column 1 (header rows optional)"
 
 #: ../../source/user/rst/demo.rst:298
 msgid "Header 2"
-msgstr ""
+msgstr "Header 2"
 
 #: ../../source/user/rst/demo.rst:298
 msgid "Header 3"
-msgstr ""
+msgstr "Header 3"
 
 #: ../../source/user/rst/demo.rst:298
 msgid "Header 4"
-msgstr ""
+msgstr "Header 4"
 
 #: ../../source/user/rst/demo.rst:301
 msgid "body row 1, column 1"
-msgstr ""
+msgstr "body row 1, column 1"
 
 #: ../../source/user/rst/demo.rst:301
 msgid "column 2"
-msgstr ""
+msgstr "column 2"
 
 #: ../../source/user/rst/demo.rst:301
 msgid "column 3"
-msgstr ""
+msgstr "column 3"
 
 #: ../../source/user/rst/demo.rst:301
 msgid "column 4"
-msgstr ""
+msgstr "column 4"
 
 #: ../../source/user/rst/demo.rst:303
 msgid "body row 2"
-msgstr ""
+msgstr "body row 2"
 
 #: ../../source/user/rst/demo.rst:303
 msgid "Cells may span columns."
-msgstr ""
+msgstr "Cells may span columns."
 
 #: ../../source/user/rst/demo.rst:305
 msgid "body row 3"
-msgstr ""
+msgstr "body row 3"
 
 #: ../../source/user/rst/demo.rst:305
 msgid "Cells may span rows."
-msgstr ""
+msgstr "Cells may span rows."
 
 #: ../../source/user/rst/demo.rst:305
 msgid "Table cells"
-msgstr ""
+msgstr "Table cells"
 
 #: ../../source/user/rst/demo.rst:306
 msgid "contain"
-msgstr ""
+msgstr "contain"
 
 #: ../../source/user/rst/demo.rst:307
 msgid "body elements."
-msgstr ""
+msgstr "body elements."
 
 #: ../../source/user/rst/demo.rst:307
 msgid "body row 4"
-msgstr ""
+msgstr "body row 4"
 
 #: ../../source/user/rst/demo.rst:309
 msgid "body row 5"
-msgstr ""
+msgstr "body row 5"
 
 #: ../../source/user/rst/demo.rst:309
 msgid "Cells may also be empty: ``-->``"
-msgstr ""
+msgstr "Cells may also be empty: ``-->``"
 
 #: ../../source/user/rst/demo.rst:314
 msgid "Inputs"
-msgstr ""
+msgstr "Inputs"
 
 #: ../../source/user/rst/demo.rst:314
 msgid "Output"
-msgstr ""
+msgstr "Output"
 
 #: ../../source/user/rst/demo.rst:316
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/user/rst/demo.rst:316
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/user/rst/demo.rst:316
 msgid "A or B"
-msgstr ""
+msgstr "A or B"
 
 #: ../../source/user/rst/demo.rst:318 ../../source/user/rst/demo.rst:319
 #: ../../source/user/rst/demo.rst:320
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../source/user/rst/demo.rst:319 ../../source/user/rst/demo.rst:320
 #: ../../source/user/rst/demo.rst:321
 msgid "True"
-msgstr ""
+msgstr "True"
 
 #: ../../source/user/rst/demo.rst:325
 msgid "Footnotes"
-msgstr ""
+msgstr "Footnotes"
 
 #: ../../source/user/rst/demo.rst:327
 msgid ""
@@ -682,7 +682,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:330
 msgid "This is the footnote's second paragraph."
-msgstr ""
+msgstr "This is the footnote's second paragraph."
 
 #: ../../source/user/rst/demo.rst:332
 msgid ""
@@ -706,7 +706,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:344
 msgid "This footnote shows the next symbol in the sequence."
-msgstr ""
+msgstr "This footnote shows the next symbol in the sequence."
 
 #: ../../source/user/rst/demo.rst:346
 msgid ""
@@ -716,7 +716,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:350
 msgid "Citations"
-msgstr ""
+msgstr "Citations"
 
 #: ../../source/user/rst/demo.rst:352
 msgid ""
@@ -732,7 +732,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:359
 msgid "Targets"
-msgstr ""
+msgstr "Targets"
 
 #: ../../source/user/rst/demo.rst:363
 msgid ""
@@ -767,7 +767,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:384 ../../source/user/rst/demo.rst:391
 msgid "Duplicate Target Names"
-msgstr ""
+msgstr "Duplicate Target Names"
 
 #: ../../source/user/rst/demo.rst:386
 msgid ""
@@ -785,7 +785,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:398
 msgid "Directives"
-msgstr ""
+msgstr "Directives"
 
 #: ../../source/user/rst/demo.rst:402
 msgid ""
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:407
 msgid "Document Parts"
-msgstr ""
+msgstr "Document Parts"
 
 #: ../../source/user/rst/demo.rst:409
 msgid ""
@@ -807,96 +807,96 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:414
 msgid "Images"
-msgstr ""
+msgstr "Images"
 
 #: ../../source/user/rst/demo.rst:416
 msgid "An image directive (also clickable -- a hyperlink reference):"
-msgstr ""
+msgstr "An image directive (also clickable -- a hyperlink reference):"
 
 #: ../../source/user/rst/demo.rst:421
 msgid "A figure directive:"
-msgstr ""
+msgstr "A figure directive:"
 
 #: ../../source/user/rst/demo.rst:426
 msgid "A figure is an image with a caption and/or a legend:"
-msgstr ""
+msgstr "A figure is an image with a caption and/or a legend:"
 
 #: ../../source/user/rst/demo.rst:429
 msgid "re"
-msgstr ""
+msgstr "re"
 
 #: ../../source/user/rst/demo.rst:429
 msgid "Revised, revisited, based on 're' module."
-msgstr ""
+msgstr "Revised, revisited, based on 're' module."
 
 #: ../../source/user/rst/demo.rst:431
 msgid "Structured"
-msgstr ""
+msgstr "Structured"
 
 #: ../../source/user/rst/demo.rst:431
 msgid "Structure-enhanced text, structuredtext."
-msgstr ""
+msgstr "Structure-enhanced text, structuredtext."
 
 #: ../../source/user/rst/demo.rst:433
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../../source/user/rst/demo.rst:433
 msgid "Well it is, isn't it?"
-msgstr ""
+msgstr "Well it is, isn't it?"
 
 #: ../../source/user/rst/demo.rst:436
 msgid "This paragraph is also part of the legend."
-msgstr ""
+msgstr "This paragraph is also part of the legend."
 
 #: ../../source/user/rst/demo.rst:439
 msgid "Admonitions"
-msgstr ""
+msgstr "Admonitions"
 
 #: ../../source/user/rst/demo.rst:441
 msgid "Directives at large."
-msgstr ""
+msgstr "Directives at large."
 
 #: ../../source/user/rst/demo.rst:445
 msgid "Don't take any wooden nickels."
-msgstr ""
+msgstr "Don't take any wooden nickels."
 
 #: ../../source/user/rst/demo.rst:447
 msgid "Mad scientist at work!"
-msgstr ""
+msgstr "Mad scientist at work!"
 
 #: ../../source/user/rst/demo.rst:449
 msgid "Does not compute."
-msgstr ""
+msgstr "Does not compute."
 
 #: ../../source/user/rst/demo.rst:451
 msgid "It's bigger than a bread box."
-msgstr ""
+msgstr "It's bigger than a bread box."
 
 #: ../../source/user/rst/demo.rst:454
 msgid "Wash behind your ears."
-msgstr ""
+msgstr "Wash behind your ears."
 
 #: ../../source/user/rst/demo.rst:455
 msgid "Clean up your room."
-msgstr ""
+msgstr "Clean up your room."
 
 #: ../../source/user/rst/demo.rst:456
 msgid "Call your mother."
-msgstr ""
+msgstr "Call your mother."
 
 #: ../../source/user/rst/demo.rst:457
 msgid "Back up your data."
-msgstr ""
+msgstr "Back up your data."
 
 #: ../../source/user/rst/demo.rst:459
 msgid "This is a note."
-msgstr ""
+msgstr "This is a note."
 
 #: ../../source/user/rst/demo.rst:461
 #, python-format
 msgid "15% if the service is good."
-msgstr ""
+msgstr "15% if the service is good."
 
 #: ../../source/user/rst/demo.rst:463
 msgid ""
@@ -906,26 +906,26 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:466
 msgid "And, by the way..."
-msgstr ""
+msgstr "And, by the way..."
 
 #: ../../source/user/rst/demo.rst:468
 msgid "You can make up your own admonition too."
-msgstr ""
+msgstr "You can make up your own admonition too."
 
 #: ../../source/user/rst/demo.rst:471
 msgid "Topics, Sidebars, and Rubrics"
-msgstr ""
+msgstr "Topics, Sidebars, and Rubrics"
 
 msgid "Sidebar Title"
-msgstr ""
+msgstr "Sidebar Title"
 
 #: ../../source/user/rst/demo.rst:476
 msgid "This is a sidebar.  It is for text outside the flow of the main text."
-msgstr ""
+msgstr "This is a sidebar.  It is for text outside the flow of the main text."
 
 #: ../../source/user/rst/demo.rst
 msgid "This is a rubric inside a sidebar"
-msgstr ""
+msgstr "This is a rubric inside a sidebar"
 
 #: ../../source/user/rst/demo.rst:481
 msgid ""
@@ -934,35 +934,35 @@ msgid ""
 msgstr ""
 
 msgid "Topic Title"
-msgstr ""
+msgstr "Topic Title"
 
 #: ../../source/user/rst/demo.rst:486
 msgid "This is a topic."
-msgstr ""
+msgstr "This is a topic."
 
 #: ../../source/user/rst/demo.rst:489
 msgid "This is a rubric"
-msgstr ""
+msgstr "This is a rubric"
 
 #: ../../source/user/rst/demo.rst:491
 msgid "Target Footnotes"
-msgstr ""
+msgstr "Target Footnotes"
 
 #: ../../source/user/rst/demo.rst:496
 msgid "Replacement Text"
-msgstr ""
+msgstr "Replacement Text"
 
 #: ../../source/user/rst/demo.rst:498
 msgid "I recommend you try |Python|_."
-msgstr ""
+msgstr "I recommend you try |Python|_."
 
 #: ../../source/user/rst/demo.rst:503
 msgid "Compound Paragraph"
-msgstr ""
+msgstr "Compound Paragraph"
 
 #: ../../source/user/rst/demo.rst:507
 msgid "This paragraph contains a literal block::"
-msgstr ""
+msgstr "This paragraph contains a literal block::"
 
 #: ../../source/user/rst/demo.rst:513
 msgid ""
@@ -978,39 +978,39 @@ msgstr ""
 
 #: ../../source/user/rst/demo.rst:521
 msgid "Substitution Definitions"
-msgstr ""
+msgstr "Substitution Definitions"
 
 #: ../../source/user/rst/demo.rst:523
 msgid "An inline image (|example|) example:"
-msgstr ""
+msgstr "An inline image (|example|) example:"
 
 #: ../../source/user/rst/demo.rst:527
 msgid "(Substitution definitions are not visible in the HTML source.)"
-msgstr ""
+msgstr "(Substitution definitions are not visible in the HTML source.)"
 
 #: ../../source/user/rst/demo.rst:530
 msgid "Comments"
-msgstr ""
+msgstr "Comments"
 
 #: ../../source/user/rst/demo.rst:532
 msgid "Here's one:"
-msgstr ""
+msgstr "Here's one:"
 
 #: ../../source/user/rst/demo.rst:540
 msgid "(View the HTML source to see the comment.)"
-msgstr ""
+msgstr "(View the HTML source to see the comment.)"
 
 #: ../../source/user/rst/demo.rst:543
 msgid "Error Handling"
-msgstr ""
+msgstr "Error Handling"
 
 #: ../../source/user/rst/demo.rst:545
 msgid "Any errors caught during processing will generate system messages."
-msgstr ""
+msgstr "Any errors caught during processing will generate system messages."
 
 #: ../../source/user/rst/demo.rst:547
 msgid "|*** Expect 6 errors (including this one). ***|"
-msgstr ""
+msgstr "|*** Expect 6 errors (including this one). ***|"
 
 #: ../../source/user/rst/demo.rst:549
 msgid ""

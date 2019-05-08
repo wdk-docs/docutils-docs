@@ -20,63 +20,63 @@ msgstr ""
 
 #: ../../source/user/odt.rst:3
 msgid "Odt Writer for Docutils"
-msgstr ""
+msgstr "Docutils 的 Odt Writer"
 
 #: ../../source/user/odt.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/odt.rst:5
 msgid "Dave Kuhlman"
-msgstr ""
+msgstr "Dave Kuhlman"
 
 #: ../../source/user/odt.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/user/odt.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/user/odt.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/user/odt.rst:7
 msgid "$Revision: 8162 $"
-msgstr ""
+msgstr "$Revision: 8162 $"
 
 #: ../../source/user/odt.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/odt.rst:8
 msgid "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
-msgstr ""
+msgstr "$Date: 2017-08-10 19:51:01 +0200 (Do, 10. Aug 2017) $"
 
 #: ../../source/user/odt.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/user/odt.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/user/odt.rst
 msgid "abstract"
-msgstr ""
+msgstr "abstract"
 
 #: ../../source/user/odt.rst:11
 msgid "This document describes the Docutils odtwriter (rst2odt.py)."
-msgstr ""
+msgstr "This document describes the Docutils odtwriter (rst2odt.py)."
 
 #: ../../source/user/odt.rst:18
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/odt.rst:21
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/user/odt.rst:23
 msgid ""
@@ -87,11 +87,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:27
 msgid "`OASIS Open Document Format for Office Applications (OpenDocument) TC`_"
-msgstr ""
+msgstr "`OASIS Open Document Format for Office Applications (OpenDocument) TC`_"
 
 #: ../../source/user/odt.rst:30
 msgid "`Open Document at Wikipedia`_"
-msgstr ""
+msgstr "`Open Document at Wikipedia`_"
 
 #: ../../source/user/odt.rst:32
 msgid ""
@@ -101,15 +101,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:35
 msgid "You can learn more about Docutils and reST here: `Docutils`_"
-msgstr ""
+msgstr "You can learn more about Docutils and reST here: `Docutils`_"
 
 #: ../../source/user/odt.rst:39
 msgid "Requirements"
-msgstr ""
+msgstr "Requirements"
 
 #: ../../source/user/odt.rst:41
 msgid "In addition to the Docutils standard requirements, ``odtwriter`` requires:"
-msgstr ""
+msgstr "In addition to the Docutils standard requirements, ``odtwriter`` requires:"
 
 #: ../../source/user/odt.rst:44
 msgid ""
@@ -126,11 +126,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:55
 msgid "How to Use It"
-msgstr ""
+msgstr "How to Use It"
 
 #: ../../source/user/odt.rst:57
 msgid "Run it from the command line as follows::"
-msgstr ""
+msgstr "Run it from the command line as follows::"
 
 #: ../../source/user/odt.rst:61
 msgid ""
@@ -140,11 +140,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:66
 msgid "Examples::"
-msgstr ""
+msgstr "Examples::"
 
 #: ../../source/user/odt.rst:74
 msgid "Configuration file"
-msgstr ""
+msgstr "Configuration file"
 
 #: ../../source/user/odt.rst:76
 msgid ""
@@ -161,11 +161,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:89
 msgid "Command line options"
-msgstr ""
+msgstr "Command line options"
 
 #: ../../source/user/odt.rst:91
 msgid "The following command line options are specific to ``odtwriter``:"
-msgstr ""
+msgstr "The following command line options are specific to ``odtwriter``:"
 
 #: ../../source/user/odt.rst:93
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:110
 msgid "Do not obfuscate email addresses."
-msgstr ""
+msgstr "Do not obfuscate email addresses."
 
 #: ../../source/user/odt.rst:112
 msgid ""
@@ -201,31 +201,31 @@ msgstr ""
 
 #: ../../source/user/odt.rst:115
 msgid "Add syntax highlighting in literal code blocks."
-msgstr ""
+msgstr "Add syntax highlighting in literal code blocks."
 
 #: ../../source/user/odt.rst:117
 msgid "Do not add syntax highlighting in literal code blocks. (default)"
-msgstr ""
+msgstr "Do not add syntax highlighting in literal code blocks. (default)"
 
 #: ../../source/user/odt.rst:119
 msgid "Create sections for headers.  (default)"
-msgstr ""
+msgstr "Create sections for headers.  (default)"
 
 #: ../../source/user/odt.rst:120
 msgid "Do not create sections for headers."
-msgstr ""
+msgstr "Do not create sections for headers."
 
 #: ../../source/user/odt.rst:121
 msgid "Create links."
-msgstr ""
+msgstr "Create links."
 
 #: ../../source/user/odt.rst:122
 msgid "Do not create links.  (default)"
-msgstr ""
+msgstr "Do not create links.  (default)"
 
 #: ../../source/user/odt.rst:123
 msgid "Generate endnotes at end of document, not footnotes at bottom of page."
-msgstr ""
+msgstr "Generate endnotes at end of document, not footnotes at bottom of page."
 
 #: ../../source/user/odt.rst:125
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:153
 msgid "Styles and Classes"
-msgstr ""
+msgstr "Styles and Classes"
 
 #: ../../source/user/odt.rst:155
 msgid ""
@@ -334,15 +334,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:198
 msgid "Some combination of the above."
-msgstr ""
+msgstr "Some combination of the above."
 
 #: ../../source/user/odt.rst:202
 msgid "Styles used by odtwriter"
-msgstr ""
+msgstr "Styles used by odtwriter"
 
 #: ../../source/user/odt.rst:204
 msgid "This section describes the styles used by ``odtwriter``."
-msgstr ""
+msgstr "This section describes the styles used by ``odtwriter``."
 
 #: ../../source/user/odt.rst:206
 msgid ""
@@ -376,11 +376,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:231
 msgid "Paragraph styles"
-msgstr ""
+msgstr "Paragraph styles"
 
 #: ../../source/user/odt.rst:236
 msgid "rststyle-attribution"
-msgstr ""
+msgstr "rststyle-attribution"
 
 #: ../../source/user/odt.rst:234
 msgid ""
@@ -390,59 +390,59 @@ msgstr ""
 
 #: ../../source/user/odt.rst:239
 msgid "rststyle-blockindent"
-msgstr ""
+msgstr "rststyle-blockindent"
 
 #: ../../source/user/odt.rst:239 ../../source/user/odt.rst:251
 msgid "An indented block."
-msgstr ""
+msgstr "An indented block."
 
 #: ../../source/user/odt.rst:242
 msgid "rststyle-blockquote"
-msgstr ""
+msgstr "rststyle-blockquote"
 
 #: ../../source/user/odt.rst:242
 msgid "A block quote."
-msgstr ""
+msgstr "A block quote."
 
 #: ../../source/user/odt.rst:245
 msgid "rststyle-blockquote-bulletitem"
-msgstr ""
+msgstr "rststyle-blockquote-bulletitem"
 
 #: ../../source/user/odt.rst:245
 msgid "The style for bullet list items inside block quote."
-msgstr ""
+msgstr "The style for bullet list items inside block quote."
 
 #: ../../source/user/odt.rst:248
 msgid "rststyle-blockquote-enumitem"
-msgstr ""
+msgstr "rststyle-blockquote-enumitem"
 
 #: ../../source/user/odt.rst:248
 msgid "The style for enumerated list items inside block quote."
-msgstr ""
+msgstr "The style for enumerated list items inside block quote."
 
 #: ../../source/user/odt.rst:251
 msgid "rststyle-bodyindent"
-msgstr ""
+msgstr "rststyle-bodyindent"
 
 #: ../../source/user/odt.rst:254
 msgid "rststyle-bulletitem"
-msgstr ""
+msgstr "rststyle-bulletitem"
 
 #: ../../source/user/odt.rst:254
 msgid "An item in an bullet list."
-msgstr ""
+msgstr "An item in an bullet list."
 
 #: ../../source/user/odt.rst:258
 msgid "rststyle-caption"
-msgstr ""
+msgstr "rststyle-caption"
 
 #: ../../source/user/odt.rst:257
 msgid "The caption in a figure or image.  Also see ``rststyle-legend``."
-msgstr ""
+msgstr "The caption in a figure or image.  Also see ``rststyle-legend``."
 
 #: ../../source/user/odt.rst:264
 msgid "rststyle-codeblock"
-msgstr ""
+msgstr "rststyle-codeblock"
 
 #: ../../source/user/odt.rst:261
 msgid ""
@@ -454,15 +454,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:267
 msgid "rststyle-enumitem"
-msgstr ""
+msgstr "rststyle-enumitem"
 
 #: ../../source/user/odt.rst:267
 msgid "An item in an enumerated list."
-msgstr ""
+msgstr "An item in an enumerated list."
 
 #: ../../source/user/odt.rst:272
 msgid "rststyle-epigraph"
-msgstr ""
+msgstr "rststyle-epigraph"
 
 #: ../../source/user/odt.rst:270
 msgid ""
@@ -472,23 +472,23 @@ msgstr ""
 
 #: ../../source/user/odt.rst:275
 msgid "rststyle-epigraph-bulletitem"
-msgstr ""
+msgstr "rststyle-epigraph-bulletitem"
 
 #: ../../source/user/odt.rst:275
 msgid "The style for bullet list items inside epigraphs."
-msgstr ""
+msgstr "The style for bullet list items inside epigraphs."
 
 #: ../../source/user/odt.rst:278
 msgid "rststyle-epigraph-enumitem"
-msgstr ""
+msgstr "rststyle-epigraph-enumitem"
 
 #: ../../source/user/odt.rst:278
 msgid "The style for enumerated list items inside epigraphs."
-msgstr ""
+msgstr "The style for enumerated list items inside epigraphs."
 
 #: ../../source/user/odt.rst:285
 msgid "rststyle-footer"
-msgstr ""
+msgstr "rststyle-footer"
 
 #: ../../source/user/odt.rst:281
 msgid ""
@@ -501,7 +501,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:289
 msgid "rststyle-header"
-msgstr ""
+msgstr "rststyle-header"
 
 #: ../../source/user/odt.rst:288
 msgid ""
@@ -511,7 +511,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:294
 msgid "rststyle-highlights"
-msgstr ""
+msgstr "rststyle-highlights"
 
 #: ../../source/user/odt.rst:292
 msgid ""
@@ -521,31 +521,31 @@ msgstr ""
 
 #: ../../source/user/odt.rst:297
 msgid "rststyle-highlights-bulletitem"
-msgstr ""
+msgstr "rststyle-highlights-bulletitem"
 
 #: ../../source/user/odt.rst:297
 msgid "The style for bullet list items inside highlights."
-msgstr ""
+msgstr "The style for bullet list items inside highlights."
 
 #: ../../source/user/odt.rst:300
 msgid "rststyle-highlights-enumitem"
-msgstr ""
+msgstr "rststyle-highlights-enumitem"
 
 #: ../../source/user/odt.rst:300
 msgid "The style for enumerated list items inside highlights."
-msgstr ""
+msgstr "The style for enumerated list items inside highlights."
 
 #: ../../source/user/odt.rst:303
 msgid "rststyle-horizontalline"
-msgstr ""
+msgstr "rststyle-horizontalline"
 
 #: ../../source/user/odt.rst:303
 msgid "A horizontal line, e.g. used for transitions."
-msgstr ""
+msgstr "A horizontal line, e.g. used for transitions."
 
 #: ../../source/user/odt.rst:307
 msgid "rststyle-legend"
-msgstr ""
+msgstr "rststyle-legend"
 
 #: ../../source/user/odt.rst:306
 msgid ""
@@ -555,15 +555,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:311
 msgid "rststyle-table-title"
-msgstr ""
+msgstr "rststyle-table-title"
 
 #: ../../source/user/odt.rst:310
 msgid "The style for titles of tables.  See section `The table directive`_."
-msgstr ""
+msgstr "The style for titles of tables.  See section `The table directive`_."
 
 #: ../../source/user/odt.rst:316
 msgid "rststyle-textbody"
-msgstr ""
+msgstr "rststyle-textbody"
 
 #: ../../source/user/odt.rst:314
 msgid ""
@@ -573,75 +573,75 @@ msgstr ""
 
 #: ../../source/user/odt.rst:319
 msgid "Character styles"
-msgstr ""
+msgstr "Character styles"
 
 #: ../../source/user/odt.rst:322
 msgid "rststyle-emphasis"
-msgstr ""
+msgstr "rststyle-emphasis"
 
 #: ../../source/user/odt.rst:322
 msgid "Emphasis.  Normally rendered as italics."
-msgstr ""
+msgstr "Emphasis.  Normally rendered as italics."
 
 #: ../../source/user/odt.rst:325
 msgid "rststyle-inlineliteral"
-msgstr ""
+msgstr "rststyle-inlineliteral"
 
 #: ../../source/user/odt.rst:325
 msgid "An inline literal."
-msgstr ""
+msgstr "An inline literal."
 
 #: ../../source/user/odt.rst:328
 msgid "rststyle-strong"
-msgstr ""
+msgstr "rststyle-strong"
 
 #: ../../source/user/odt.rst:328
 msgid "Strong emphasis.  Normally rendered as boldface."
-msgstr ""
+msgstr "Strong emphasis.  Normally rendered as boldface."
 
 #: ../../source/user/odt.rst:331
 msgid "rststyle-quotation"
-msgstr ""
+msgstr "rststyle-quotation"
 
 #: ../../source/user/odt.rst:331
 msgid "In-line quoted material."
-msgstr ""
+msgstr "In-line quoted material."
 
 #: ../../source/user/odt.rst:334
 msgid "rststyle-codeblock-classname"
-msgstr ""
+msgstr "rststyle-codeblock-classname"
 
 #: ../../source/user/odt.rst:334
 msgid "Syntax highlighting in literal code blocks -- class names."
-msgstr ""
+msgstr "Syntax highlighting in literal code blocks -- class names."
 
 #: ../../source/user/odt.rst:337
 msgid "rststyle-codeblock-comment"
-msgstr ""
+msgstr "rststyle-codeblock-comment"
 
 #: ../../source/user/odt.rst:337
 msgid "Syntax highlighting in literal code blocks -- comments."
-msgstr ""
+msgstr "Syntax highlighting in literal code blocks -- comments."
 
 #: ../../source/user/odt.rst:340
 msgid "rststyle-codeblock-functionname"
-msgstr ""
+msgstr "rststyle-codeblock-functionname"
 
 #: ../../source/user/odt.rst:340
 msgid "Syntax highlighting in literal code blocks -- function names."
-msgstr ""
+msgstr "Syntax highlighting in literal code blocks -- function names."
 
 #: ../../source/user/odt.rst:344
 msgid "rststyle-codeblock-keyword"
-msgstr ""
+msgstr "rststyle-codeblock-keyword"
 
 #: ../../source/user/odt.rst:343
 msgid "Syntax highlighting in literal code blocks -- Python language keywords."
-msgstr ""
+msgstr "Syntax highlighting in literal code blocks -- Python language keywords."
 
 #: ../../source/user/odt.rst:348
 msgid "rststyle-codeblock-name"
-msgstr ""
+msgstr "rststyle-codeblock-name"
 
 #: ../../source/user/odt.rst:347
 msgid ""
@@ -651,7 +651,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:352
 msgid "rststyle-codeblock-number"
-msgstr ""
+msgstr "rststyle-codeblock-number"
 
 #: ../../source/user/odt.rst:351
 msgid ""
@@ -661,115 +661,115 @@ msgstr ""
 
 #: ../../source/user/odt.rst:355
 msgid "rststyle-codeblock-operator"
-msgstr ""
+msgstr "rststyle-codeblock-operator"
 
 #: ../../source/user/odt.rst:355
 msgid "Syntax highlighting in literal code blocks -- Python operators."
-msgstr ""
+msgstr "Syntax highlighting in literal code blocks -- Python operators."
 
 #: ../../source/user/odt.rst:359
 msgid "rststyle-codeblock-string"
-msgstr ""
+msgstr "rststyle-codeblock-string"
 
 #: ../../source/user/odt.rst:358
 msgid "Syntax highlighting in literal code blocks -- literal strings."
-msgstr ""
+msgstr "Syntax highlighting in literal code blocks -- literal strings."
 
 #: ../../source/user/odt.rst:362
 msgid "List styles"
-msgstr ""
+msgstr "List styles"
 
 #: ../../source/user/odt.rst:365
 msgid "rststyle-bulletlist"
-msgstr ""
+msgstr "rststyle-bulletlist"
 
 #: ../../source/user/odt.rst:365
 msgid "Bullet lists (but not in the table of contents)"
-msgstr ""
+msgstr "Bullet lists (but not in the table of contents)"
 
 #: ../../source/user/odt.rst:368
 msgid "rststyle-blockquote-bulletlist"
-msgstr ""
+msgstr "rststyle-blockquote-bulletlist"
 
 #: ../../source/user/odt.rst:368
 msgid "Bullet lists in block quotes."
-msgstr ""
+msgstr "Bullet lists in block quotes."
 
 #: ../../source/user/odt.rst:371
 msgid "rststyle-blockquote-enumlist"
-msgstr ""
+msgstr "rststyle-blockquote-enumlist"
 
 #: ../../source/user/odt.rst:371
 msgid "Enumerated lists in block quotes."
-msgstr ""
+msgstr "Enumerated lists in block quotes."
 
 #: ../../source/user/odt.rst:374
 msgid "rststyle-enumlist-arabic"
-msgstr ""
+msgstr "rststyle-enumlist-arabic"
 
 #: ../../source/user/odt.rst:374
 msgid "Enumerated lists, arabic (but not in the table of contents)"
-msgstr ""
+msgstr "Enumerated lists, arabic (but not in the table of contents)"
 
 #: ../../source/user/odt.rst:377
 msgid "rststyle-enumlist-loweralpha"
-msgstr ""
+msgstr "rststyle-enumlist-loweralpha"
 
 #: ../../source/user/odt.rst:377
 msgid "Enumerated lists, lower alpha (but not in the table of contents)"
-msgstr ""
+msgstr "Enumerated lists, lower alpha (but not in the table of contents)"
 
 #: ../../source/user/odt.rst:380
 msgid "rststyle-enumlist-lowerroman"
-msgstr ""
+msgstr "rststyle-enumlist-lowerroman"
 
 #: ../../source/user/odt.rst:380
 msgid "Enumerated lists, lower roman (but not in the table of contents)"
-msgstr ""
+msgstr "Enumerated lists, lower roman (but not in the table of contents)"
 
 #: ../../source/user/odt.rst:383
 msgid "rststyle-enumlist-upperalpha"
-msgstr ""
+msgstr "rststyle-enumlist-upperalpha"
 
 #: ../../source/user/odt.rst:383
 msgid "Enumerated lists, upper alpha (but not in the table of contents)"
-msgstr ""
+msgstr "Enumerated lists, upper alpha (but not in the table of contents)"
 
 #: ../../source/user/odt.rst:386
 msgid "rststyle-enumlist-upperroman"
-msgstr ""
+msgstr "rststyle-enumlist-upperroman"
 
 #: ../../source/user/odt.rst:386
 msgid "Enumerated lists, upper roman (but not in the table of contents)"
-msgstr ""
+msgstr "Enumerated lists, upper roman (but not in the table of contents)"
 
 #: ../../source/user/odt.rst:390
 msgid "rststyle-epigraph-bulletlist"
-msgstr ""
+msgstr "rststyle-epigraph-bulletlist"
 
 #: ../../source/user/odt.rst:389
 msgid "Bullet lists in epigraphs.  See the ``.. epigraph::`` directive."
-msgstr ""
+msgstr "Bullet lists in epigraphs.  See the ``.. epigraph::`` directive."
 
 #: ../../source/user/odt.rst:394
 msgid "rststyle-epigraph-enumlist"
-msgstr ""
+msgstr "rststyle-epigraph-enumlist"
 
 #: ../../source/user/odt.rst:393
 msgid "Enumerated lists in epigraphs.  See the ``.. epigraph::`` directive."
-msgstr ""
+msgstr "Enumerated lists in epigraphs.  See the ``.. epigraph::`` directive."
 
 #: ../../source/user/odt.rst:398
 msgid "rststyle-highlights-bulletlist"
-msgstr ""
+msgstr "rststyle-highlights-bulletlist"
 
 #: ../../source/user/odt.rst:397
 msgid "Bullet lists in highlights blocks.  See the ``.. highlights::`` directive."
-msgstr ""
+msgstr "Bullet lists in highlights blocks.  See the ``.. highlights::`` directive."
 
 #: ../../source/user/odt.rst:402
 msgid "rststyle-highlights-enumlist"
-msgstr ""
+msgstr "rststyle-highlights-enumlist"
 
 #: ../../source/user/odt.rst:401
 msgid ""
@@ -779,187 +779,187 @@ msgstr ""
 
 #: ../../source/user/odt.rst:405
 msgid "rststyle-tocbulletlist"
-msgstr ""
+msgstr "rststyle-tocbulletlist"
 
 #: ../../source/user/odt.rst:405
 msgid "Lists in the table of contents when section numbering is off."
-msgstr ""
+msgstr "Lists in the table of contents when section numbering is off."
 
 #: ../../source/user/odt.rst:409
 msgid "rststyle-tocenumlist"
-msgstr ""
+msgstr "rststyle-tocenumlist"
 
 #: ../../source/user/odt.rst:408
 msgid "Lists in the table of contents when section numbering is on."
-msgstr ""
+msgstr "Lists in the table of contents when section numbering is on."
 
 #: ../../source/user/odt.rst:412
 msgid "Admonition styles"
-msgstr ""
+msgstr "Admonition styles"
 
 #: ../../source/user/odt.rst:415
 msgid "rststyle-admon-attention-hdr"
-msgstr ""
+msgstr "rststyle-admon-attention-hdr"
 
 #: ../../source/user/odt.rst:415
 msgid "The style for the attention admonition header/title."
-msgstr ""
+msgstr "The style for the attention admonition header/title."
 
 #: ../../source/user/odt.rst:418
 msgid "rststyle-admon-attention-body"
-msgstr ""
+msgstr "rststyle-admon-attention-body"
 
 #: ../../source/user/odt.rst:418
 msgid "The style for the attention admonition body/paragraph."
-msgstr ""
+msgstr "The style for the attention admonition body/paragraph."
 
 #: ../../source/user/odt.rst:421
 msgid "rststyle-admon-caution-hdr"
-msgstr ""
+msgstr "rststyle-admon-caution-hdr"
 
 #: ../../source/user/odt.rst:421
 msgid "The style for the caution admonition header/title."
-msgstr ""
+msgstr "The style for the caution admonition header/title."
 
 #: ../../source/user/odt.rst:424
 msgid "rststyle-admon-caution-body"
-msgstr ""
+msgstr "rststyle-admon-caution-body"
 
 #: ../../source/user/odt.rst:424
 msgid "The style for the caution admonition body/paragraph."
-msgstr ""
+msgstr "The style for the caution admonition body/paragraph."
 
 #: ../../source/user/odt.rst:427
 msgid "rststyle-admon-danger-hdr"
-msgstr ""
+msgstr "rststyle-admon-danger-hdr"
 
 #: ../../source/user/odt.rst:427
 msgid "The style for the  admonition header/title."
-msgstr ""
+msgstr "The style for the  admonition header/title."
 
 #: ../../source/user/odt.rst:430
 msgid "rststyle-admon-danger-body"
-msgstr ""
+msgstr "rststyle-admon-danger-body"
 
 #: ../../source/user/odt.rst:430
 msgid "The style for the danger admonition body/paragraph."
-msgstr ""
+msgstr "The style for the danger admonition body/paragraph."
 
 #: ../../source/user/odt.rst:433
 msgid "rststyle-admon-error-hdr"
-msgstr ""
+msgstr "rststyle-admon-error-hdr"
 
 #: ../../source/user/odt.rst:433
 msgid "The style for the error admonition header/title."
-msgstr ""
+msgstr "The style for the error admonition header/title."
 
 #: ../../source/user/odt.rst:436
 msgid "rststyle-admon-error-body"
-msgstr ""
+msgstr "rststyle-admon-error-body"
 
 #: ../../source/user/odt.rst:436
 msgid "The style for the error admonition body/paragraph."
-msgstr ""
+msgstr "The style for the error admonition body/paragraph."
 
 #: ../../source/user/odt.rst:439 ../../source/user/odt.rst:445
 msgid "rststyle-admon-hint-hdr"
-msgstr ""
+msgstr "rststyle-admon-hint-hdr"
 
 #: ../../source/user/odt.rst:439 ../../source/user/odt.rst:445
 msgid "The style for the hint admonition header/title."
-msgstr ""
+msgstr "The style for the hint admonition header/title."
 
 #: ../../source/user/odt.rst:442 ../../source/user/odt.rst:448
 msgid "rststyle-admon-hint-body"
-msgstr ""
+msgstr "rststyle-admon-hint-body"
 
 #: ../../source/user/odt.rst:442 ../../source/user/odt.rst:448
 msgid "The style for the hint admonition body/paragraph."
-msgstr ""
+msgstr "The style for the hint admonition body/paragraph."
 
 #: ../../source/user/odt.rst:451
 msgid "rststyle-admon-important-hdr"
-msgstr ""
+msgstr "rststyle-admon-important-hdr"
 
 #: ../../source/user/odt.rst:451
 msgid "The style for the important admonition header/title."
-msgstr ""
+msgstr "The style for the important admonition header/title."
 
 #: ../../source/user/odt.rst:454
 msgid "rststyle-admon-important-body"
-msgstr ""
+msgstr "rststyle-admon-important-body"
 
 #: ../../source/user/odt.rst:454
 msgid "The style for the important admonition body/paragraph."
-msgstr ""
+msgstr "The style for the important admonition body/paragraph."
 
 #: ../../source/user/odt.rst:457 ../../source/user/odt.rst:460
 msgid "rststyle-admon-note-hdr"
-msgstr ""
+msgstr "rststyle-admon-note-hdr"
 
 #: ../../source/user/odt.rst:457 ../../source/user/odt.rst:460
 msgid "The style for the note admonition header/title."
-msgstr ""
+msgstr "The style for the note admonition header/title."
 
 #: ../../source/user/odt.rst:463
 msgid "rststyle-admon-tip-body"
-msgstr ""
+msgstr "rststyle-admon-tip-body"
 
 #: ../../source/user/odt.rst:463
 msgid "The style for the tip admonition body/paragraph."
-msgstr ""
+msgstr "The style for the tip admonition body/paragraph."
 
 #: ../../source/user/odt.rst:466
 msgid "rststyle-admon-tip-hdr"
-msgstr ""
+msgstr "rststyle-admon-tip-hdr"
 
 #: ../../source/user/odt.rst:466
 msgid "The style for the tip admonition header/title."
-msgstr ""
+msgstr "The style for the tip admonition header/title."
 
 #: ../../source/user/odt.rst:469
 msgid "rststyle-admon-warning-body"
-msgstr ""
+msgstr "rststyle-admon-warning-body"
 
 #: ../../source/user/odt.rst:469
 msgid "The style for the warning admonition body/paragraph."
-msgstr ""
+msgstr "The style for the warning admonition body/paragraph."
 
 #: ../../source/user/odt.rst:472
 msgid "rststyle-admon-warning-hdr"
-msgstr ""
+msgstr "rststyle-admon-warning-hdr"
 
 #: ../../source/user/odt.rst:472
 msgid "The style for the warning admonition header/title."
-msgstr ""
+msgstr "The style for the warning admonition header/title."
 
 #: ../../source/user/odt.rst:475
 msgid "rststyle-admon-generic-body"
-msgstr ""
+msgstr "rststyle-admon-generic-body"
 
 #: ../../source/user/odt.rst:475
 msgid "The style for the generic admonition body/paragraph."
-msgstr ""
+msgstr "The style for the generic admonition body/paragraph."
 
 #: ../../source/user/odt.rst:479
 msgid "rststyle-admon-generic-hdr"
-msgstr ""
+msgstr "rststyle-admon-generic-hdr"
 
 #: ../../source/user/odt.rst:478
 msgid "The style for the generic admonition header/title."
-msgstr ""
+msgstr "The style for the generic admonition header/title."
 
 #: ../../source/user/odt.rst:482
 msgid "Rubric style"
-msgstr ""
+msgstr "Rubric style"
 
 #: ../../source/user/odt.rst:485
 msgid "rststyle-rubric"
-msgstr ""
+msgstr "rststyle-rubric"
 
 #: ../../source/user/odt.rst:485
 msgid "The style for the text in a rubric directive."
-msgstr ""
+msgstr "The style for the text in a rubric directive."
 
 #: ../../source/user/odt.rst:487
 msgid ""
@@ -971,7 +971,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:497
 msgid "Table styles"
-msgstr ""
+msgstr "Table styles"
 
 #: ../../source/user/odt.rst:499
 msgid ""
@@ -1060,7 +1060,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:552
 msgid "Border thickness and border color."
-msgstr ""
+msgstr "Border thickness and border color."
 
 #: ../../source/user/odt.rst:554
 msgid ""
@@ -1073,7 +1073,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:563
 msgid "Line block styles"
-msgstr ""
+msgstr "Line block styles"
 
 #: ../../source/user/odt.rst:565
 msgid ""
@@ -1083,55 +1083,55 @@ msgstr ""
 
 #: ../../source/user/odt.rst:569
 msgid "rststyle-lineblock1"
-msgstr ""
+msgstr "rststyle-lineblock1"
 
 #: ../../source/user/odt.rst:569
 msgid "Line block style for line block with no indent."
-msgstr ""
+msgstr "Line block style for line block with no indent."
 
 #: ../../source/user/odt.rst:572
 msgid "rststyle-lineblock2"
-msgstr ""
+msgstr "rststyle-lineblock2"
 
 #: ../../source/user/odt.rst:572
 msgid "Line block style for line block indented 1 level."
-msgstr ""
+msgstr "Line block style for line block indented 1 level."
 
 #: ../../source/user/odt.rst:575
 msgid "rststyle-lineblock3"
-msgstr ""
+msgstr "rststyle-lineblock3"
 
 #: ../../source/user/odt.rst:575
 msgid "Line block style for line block indented 2 levels."
-msgstr ""
+msgstr "Line block style for line block indented 2 levels."
 
 #: ../../source/user/odt.rst:578
 msgid "rststyle-lineblock4"
-msgstr ""
+msgstr "rststyle-lineblock4"
 
 #: ../../source/user/odt.rst:578
 msgid "Line block style for line block indented 3 levels."
-msgstr ""
+msgstr "Line block style for line block indented 3 levels."
 
 #: ../../source/user/odt.rst:581
 msgid "rststyle-lineblock5"
-msgstr ""
+msgstr "rststyle-lineblock5"
 
 #: ../../source/user/odt.rst:581
 msgid "Line block style for line block indented 4 levels."
-msgstr ""
+msgstr "Line block style for line block indented 4 levels."
 
 #: ../../source/user/odt.rst:584
 msgid "rststyle-lineblock6"
-msgstr ""
+msgstr "rststyle-lineblock6"
 
 #: ../../source/user/odt.rst:584
 msgid "Line block style for line block indented 5 levels."
-msgstr ""
+msgstr "Line block style for line block indented 5 levels."
 
 #: ../../source/user/odt.rst:586
 msgid "Notes:"
-msgstr ""
+msgstr "Notes:"
 
 #: ../../source/user/odt.rst:588
 msgid ""
@@ -1150,11 +1150,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:600
 msgid "Footnote and citation styles"
-msgstr ""
+msgstr "Footnote and citation styles"
 
 #: ../../source/user/odt.rst:604
 msgid "rststyle-footnote"
-msgstr ""
+msgstr "rststyle-footnote"
 
 #: ../../source/user/odt.rst:603
 msgid ""
@@ -1164,7 +1164,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:611
 msgid "rststyle-citation"
-msgstr ""
+msgstr "rststyle-citation"
 
 #: ../../source/user/odt.rst:607
 msgid ""
@@ -1176,11 +1176,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:614
 msgid "Heading and title styles"
-msgstr ""
+msgstr "Heading and title styles"
 
 #: ../../source/user/odt.rst:619
 msgid "rststyle-heading{1|2|3|4|5}"
-msgstr ""
+msgstr "rststyle-heading{1|2|3|4|5}"
 
 #: ../../source/user/odt.rst:617
 msgid ""
@@ -1190,27 +1190,27 @@ msgstr ""
 
 #: ../../source/user/odt.rst:622
 msgid "rststyle-title"
-msgstr ""
+msgstr "rststyle-title"
 
 #: ../../source/user/odt.rst:622
 msgid "The style for the document title."
-msgstr ""
+msgstr "The style for the document title."
 
 #: ../../source/user/odt.rst:626
 msgid "rststyle-subtitle"
-msgstr ""
+msgstr "rststyle-subtitle"
 
 #: ../../source/user/odt.rst:625
 msgid "The style for the document sub-title."
-msgstr ""
+msgstr "The style for the document sub-title."
 
 #: ../../source/user/odt.rst:629
 msgid "Image and figure styles"
-msgstr ""
+msgstr "Image and figure styles"
 
 #: ../../source/user/odt.rst:633
 msgid "rststyle-image"
-msgstr ""
+msgstr "rststyle-image"
 
 #: ../../source/user/odt.rst:632
 msgid ""
@@ -1220,7 +1220,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:639
 msgid "rststyle-figureframe"
-msgstr ""
+msgstr "rststyle-figureframe"
 
 #: ../../source/user/odt.rst:636
 msgid ""
@@ -1230,15 +1230,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:642
 msgid "Defining and using a custom stylesheet"
-msgstr ""
+msgstr "Defining and using a custom stylesheet"
 
 #: ../../source/user/odt.rst:644
 msgid "You can create your own custom stylesheet.  Here is how:"
-msgstr ""
+msgstr "You can create your own custom stylesheet.  Here is how:"
 
 #: ../../source/user/odt.rst:646
 msgid "Make a copy of ``styles.odt``, which is in the distribution."
-msgstr ""
+msgstr "Make a copy of ``styles.odt``, which is in the distribution."
 
 #: ../../source/user/odt.rst:648
 msgid ""
@@ -1255,11 +1255,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:657
 msgid "Why custom stylesheets"
-msgstr ""
+msgstr "Why custom stylesheets"
 
 #: ../../source/user/odt.rst:659 ../../source/user/odt.rst:682
 msgid "Here are a few reasons and ideas:"
-msgstr ""
+msgstr "Here are a few reasons and ideas:"
 
 #: ../../source/user/odt.rst:661
 msgid ""
@@ -1271,7 +1271,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:670
 msgid "Defining and using custom style names"
-msgstr ""
+msgstr "Defining and using custom style names"
 
 #: ../../source/user/odt.rst:672
 msgid ""
@@ -1281,11 +1281,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:675
 msgid "You can also instruct ``odtwriter`` to use style names of your own choice."
-msgstr ""
+msgstr "You can also instruct ``odtwriter`` to use style names of your own choice."
 
 #: ../../source/user/odt.rst:680
 msgid "Why custom style names"
-msgstr ""
+msgstr "Why custom style names"
 
 #: ../../source/user/odt.rst:684
 msgid ""
@@ -1322,7 +1322,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:709
 msgid "How to use custom style names"
-msgstr ""
+msgstr "How to use custom style names"
 
 #: ../../source/user/odt.rst:711
 msgid ""
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:751
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 #: ../../source/user/odt.rst:753
 msgid ""
@@ -1382,7 +1382,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:768
 msgid "Roles"
-msgstr ""
+msgstr "Roles"
 
 #: ../../source/user/odt.rst:770
 msgid ""
@@ -1396,7 +1396,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:778
 msgid "In order to use this capability, do the following:"
-msgstr ""
+msgstr "In order to use this capability, do the following:"
 
 #: ../../source/user/odt.rst:780
 msgid ""
@@ -1415,11 +1415,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:792
 msgid "Use inline markup to apply your role to text.  Example::"
-msgstr ""
+msgstr "Use inline markup to apply your role to text.  Example::"
 
 #: ../../source/user/odt.rst:796
 msgid "Here is another example::"
-msgstr ""
+msgstr "Here is another example::"
 
 #: ../../source/user/odt.rst:802
 msgid ""
@@ -1438,15 +1438,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:812
 msgid "Hints and Suggestions and Features"
-msgstr ""
+msgstr "Hints and Suggestions and Features"
 
 #: ../../source/user/odt.rst:815
 msgid "Table of contents"
-msgstr ""
+msgstr "Table of contents"
 
 #: ../../source/user/odt.rst:817
 msgid "The ``..contents::`` directive causes ``odtwriter`` to generate either:"
-msgstr ""
+msgstr "The ``..contents::`` directive causes ``odtwriter`` to generate either:"
 
 #: ../../source/user/odt.rst:820
 msgid ""
@@ -1467,7 +1467,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:834
 msgid "Syntax highlighting"
-msgstr ""
+msgstr "Syntax highlighting"
 
 #: ../../source/user/odt.rst:836
 msgid ""
@@ -1477,11 +1477,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:839
 msgid "Install `Pygments`_ and ..."
-msgstr ""
+msgstr "Install `Pygments`_ and ..."
 
 #: ../../source/user/odt.rst:841
 msgid "Use the command line option ``--add-syntax-highlighting``. Example::"
-msgstr ""
+msgstr "Use the command line option ``--add-syntax-highlighting``. Example::"
 
 #: ../../source/user/odt.rst:846
 msgid ""
@@ -1491,35 +1491,35 @@ msgstr ""
 
 #: ../../source/user/odt.rst:849
 msgid "Paragraph styles:"
-msgstr ""
+msgstr "Paragraph styles:"
 
 #: ../../source/user/odt.rst:851
 msgid "rststyle-codeblock -- The style for the code block as a whole."
-msgstr ""
+msgstr "rststyle-codeblock -- The style for the code block as a whole."
 
 #: ../../source/user/odt.rst:853
 msgid "Character styles:"
-msgstr ""
+msgstr "Character styles:"
 
 #: ../../source/user/odt.rst:855
 msgid "rststyle-codeblock-classname -- class names."
-msgstr ""
+msgstr "rststyle-codeblock-classname -- class names."
 
 #: ../../source/user/odt.rst:857
 msgid "rststyle-codeblock-comment -- comments."
-msgstr ""
+msgstr "rststyle-codeblock-comment -- comments."
 
 #: ../../source/user/odt.rst:859
 msgid "rststyle-codeblock-functionname -- function names."
-msgstr ""
+msgstr "rststyle-codeblock-functionname -- function names."
 
 #: ../../source/user/odt.rst:861
 msgid "rststyle-codeblock-keyword -- Python language keywords."
-msgstr ""
+msgstr "rststyle-codeblock-keyword -- Python language keywords."
 
 #: ../../source/user/odt.rst:863
 msgid "rststyle-codeblock-name -- other names, for example, variables."
-msgstr ""
+msgstr "rststyle-codeblock-name -- other names, for example, variables."
 
 #: ../../source/user/odt.rst:866
 msgid ""
@@ -1529,11 +1529,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:869
 msgid "rststyle-codeblock-operator -- Python operators."
-msgstr ""
+msgstr "rststyle-codeblock-operator -- Python operators."
 
 #: ../../source/user/odt.rst:871
 msgid "rststyle-codeblock-string -- literal strings."
-msgstr ""
+msgstr "rststyle-codeblock-string -- literal strings."
 
 #: ../../source/user/odt.rst:873
 msgid ""
@@ -1552,7 +1552,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:887
 msgid "The container directive"
-msgstr ""
+msgstr "The container directive"
 
 #: ../../source/user/odt.rst:889
 msgid ""
@@ -1562,7 +1562,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:892
 msgid "Only the first class in the list of classes (arguments) is used."
-msgstr ""
+msgstr "Only the first class in the list of classes (arguments) is used."
 
 #: ../../source/user/odt.rst:894
 msgid ""
@@ -1578,11 +1578,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:900
 msgid "So, for example::"
-msgstr ""
+msgstr "So, for example::"
 
 #: ../../source/user/odt.rst:906
 msgid "Only ``style-1`` is used; ``style-2`` and ``style-3`` are ignored."
-msgstr ""
+msgstr "Only ``style-1`` is used; ``style-2`` and ``style-3`` are ignored."
 
 #: ../../source/user/odt.rst:908
 msgid ""
@@ -1594,15 +1594,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:913
 msgid "``rststyle-style-1`` must be a paragraph style."
-msgstr ""
+msgstr "``rststyle-style-1`` must be a paragraph style."
 
 #: ../../source/user/odt.rst:915
 msgid "To define a paragraph style, use the following menu item in ``oowriter``::"
-msgstr ""
+msgstr "To define a paragraph style, use the following menu item in ``oowriter``::"
 
 #: ../../source/user/odt.rst:920
 msgid "Then, click on the Paragraph Styles button."
-msgstr ""
+msgstr "Then, click on the Paragraph Styles button."
 
 #: ../../source/user/odt.rst:922
 msgid ""
@@ -1619,11 +1619,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:938
 msgid "The table directive"
-msgstr ""
+msgstr "The table directive"
 
 #: ../../source/user/odt.rst:940
 msgid "The ``table`` directive can be used to add a title to a table. Example::"
-msgstr ""
+msgstr "The ``table`` directive can be used to add a title to a table. Example::"
 
 #: ../../source/user/odt.rst:952
 msgid ""
@@ -1634,11 +1634,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:958
 msgid "Footnotes and citations"
-msgstr ""
+msgstr "Footnotes and citations"
 
 #: ../../source/user/odt.rst:960
 msgid "Footnotes and citations are supported."
-msgstr ""
+msgstr "Footnotes and citations are supported."
 
 #: ../../source/user/odt.rst:962
 msgid ""
@@ -1664,7 +1664,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:977
 msgid "Images and figures"
-msgstr ""
+msgstr "Images and figures"
 
 #: ../../source/user/odt.rst:979
 msgid ""
@@ -1678,15 +1678,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:986
 msgid "Install the Python Imaging Library or"
-msgstr ""
+msgstr "Install the Python Imaging Library or"
 
 #: ../../source/user/odt.rst:988
 msgid "Remove the ``scale`` option or"
-msgstr ""
+msgstr "Remove the ``scale`` option or"
 
 #: ../../source/user/odt.rst:990
 msgid "Add both the ``width`` and the ``height`` options."
-msgstr ""
+msgstr "Add both the ``width`` and the ``height`` options."
 
 #: ../../source/user/odt.rst:992
 msgid ""
@@ -1697,15 +1697,15 @@ msgstr ""
 
 #: ../../source/user/odt.rst:996
 msgid "For more information about PIL, see: `Python Imaging Library`_."
-msgstr ""
+msgstr "For more information about PIL, see: `Python Imaging Library`_."
 
 #: ../../source/user/odt.rst:1000
 msgid "The raw directive"
-msgstr ""
+msgstr "The raw directive"
 
 #: ../../source/user/odt.rst:1002
 msgid "The ``raw`` directive is supported.  Use output format type \"odt\"."
-msgstr ""
+msgstr "The ``raw`` directive is supported.  Use output format type \"odt\"."
 
 #: ../../source/user/odt.rst:1004
 msgid ""
@@ -1723,11 +1723,11 @@ msgstr ""
 
 #: ../../source/user/odt.rst:1012
 msgid "Here is an example::"
-msgstr ""
+msgstr "Here is an example::"
 
 #: ../../source/user/odt.rst:1028
 msgid "The meta directive"
-msgstr ""
+msgstr "The meta directive"
 
 #: ../../source/user/odt.rst:1030
 msgid ""
@@ -1743,27 +1743,27 @@ msgstr ""
 
 #: ../../source/user/odt.rst:1044
 msgid "Footnote references inside footnotes"
-msgstr ""
+msgstr "Footnote references inside footnotes"
 
 #: ../../source/user/odt.rst:1046
 msgid "Not supported."
-msgstr ""
+msgstr "Not supported."
 
 #: ../../source/user/odt.rst:1048
 msgid "Get a grip.  Be serious.  Try a dose of reality."
-msgstr ""
+msgstr "Get a grip.  Be serious.  Try a dose of reality."
 
 #: ../../source/user/odt.rst:1050
 msgid "``odtwriter`` ignores them."
-msgstr ""
+msgstr "``odtwriter`` ignores them."
 
 #: ../../source/user/odt.rst:1052
 msgid "They cause ``oowriter`` to croak."
-msgstr ""
+msgstr "They cause ``oowriter`` to croak."
 
 #: ../../source/user/odt.rst:1056
 msgid "Page size"
-msgstr ""
+msgstr "Page size"
 
 #: ../../source/user/odt.rst:1058
 msgid ""
@@ -1808,7 +1808,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:1090
 msgid "Custom header/footers: inserting page numbers, date, time, etc"
-msgstr ""
+msgstr "Custom header/footers: inserting page numbers, date, time, etc"
 
 #: ../../source/user/odt.rst:1092
 msgid ""
@@ -1827,7 +1827,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:1106
 msgid "Field specifiers"
-msgstr ""
+msgstr "Field specifiers"
 
 #: ../../source/user/odt.rst:1108
 msgid ""
@@ -1837,121 +1837,121 @@ msgstr ""
 
 #: ../../source/user/odt.rst:1112
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: ../../source/user/odt.rst:1112
 msgid "The current page number."
-msgstr ""
+msgstr "The current page number."
 
 #: ../../source/user/odt.rst:1115
 msgid "%P%"
-msgstr ""
+msgstr "%P%"
 
 #: ../../source/user/odt.rst:1115
 msgid "The number of pages in the document."
-msgstr ""
+msgstr "The number of pages in the document."
 
 #: ../../source/user/odt.rst:1118
 #, python-format
 msgid "%d1%"
-msgstr ""
+msgstr "%d1%"
 
 #: ../../source/user/odt.rst:1118
 msgid "The current date in format 12/31/99."
-msgstr ""
+msgstr "The current date in format 12/31/99."
 
 #: ../../source/user/odt.rst:1121
 #, python-format
 msgid "%d2%"
-msgstr ""
+msgstr "%d2%"
 
 #: ../../source/user/odt.rst:1121
 msgid "The current date in format 12/31/1999."
-msgstr ""
+msgstr "The current date in format 12/31/1999."
 
 #: ../../source/user/odt.rst:1124
 #, python-format
 msgid "%d3%"
-msgstr ""
+msgstr "%d3%"
 
 #: ../../source/user/odt.rst:1124
 msgid "The current date in format Dec 31, 1999."
-msgstr ""
+msgstr "The current date in format Dec 31, 1999."
 
 #: ../../source/user/odt.rst:1127
 #, python-format
 msgid "%d4%"
-msgstr ""
+msgstr "%d4%"
 
 #: ../../source/user/odt.rst:1127
 msgid "The current date in format December 31, 1999."
-msgstr ""
+msgstr "The current date in format December 31, 1999."
 
 #: ../../source/user/odt.rst:1130
 #, python-format
 msgid "%d5%"
-msgstr ""
+msgstr "%d5%"
 
 #: ../../source/user/odt.rst:1130
 msgid "The current date in format 1999-12-31."
-msgstr ""
+msgstr "The current date in format 1999-12-31."
 
 #: ../../source/user/odt.rst:1133
 msgid "%t1%"
-msgstr ""
+msgstr "%t1%"
 
 #: ../../source/user/odt.rst:1133
 msgid "The current time in format 14:22."
-msgstr ""
+msgstr "The current time in format 14:22."
 
 #: ../../source/user/odt.rst:1136
 msgid "%t2%"
-msgstr ""
+msgstr "%t2%"
 
 #: ../../source/user/odt.rst:1136
 msgid "The current time in format 14:22:33."
-msgstr ""
+msgstr "The current time in format 14:22:33."
 
 #: ../../source/user/odt.rst:1139
 msgid "%t3%"
-msgstr ""
+msgstr "%t3%"
 
 #: ../../source/user/odt.rst:1139
 msgid "The current time in format 02:22 PM."
-msgstr ""
+msgstr "The current time in format 02:22 PM."
 
 #: ../../source/user/odt.rst:1142
 msgid "%t4%"
-msgstr ""
+msgstr "%t4%"
 
 #: ../../source/user/odt.rst:1142
 msgid "The current time in format 02:22:33 PM."
-msgstr ""
+msgstr "The current time in format 02:22:33 PM."
 
 #: ../../source/user/odt.rst:1145
 msgid "%a%"
-msgstr ""
+msgstr "%a%"
 
 #: ../../source/user/odt.rst:1145
 msgid "The author of the document (actually the initial creator)."
-msgstr ""
+msgstr "The author of the document (actually the initial creator)."
 
 #: ../../source/user/odt.rst:1148
 msgid "%t%"
-msgstr ""
+msgstr "%t%"
 
 #: ../../source/user/odt.rst:1148
 msgid "The document title."
-msgstr ""
+msgstr "The document title."
 
 #: ../../source/user/odt.rst:1152
 #, python-format
 msgid "%s%"
-msgstr ""
+msgstr "%s%"
 
 #: ../../source/user/odt.rst:1151
 msgid "The document subject."
-msgstr ""
+msgstr "The document subject."
 
 #: ../../source/user/odt.rst:1154
 msgid ""
@@ -1962,7 +1962,7 @@ msgstr ""
 
 #: ../../source/user/odt.rst:1161
 msgid "Credits"
-msgstr ""
+msgstr "Credits"
 
 #: ../../source/user/odt.rst:1163
 msgid ""

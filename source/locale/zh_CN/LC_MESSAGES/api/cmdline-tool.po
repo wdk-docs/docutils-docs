@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/api/cmdline-tool.rst:3
 msgid "Inside A Docutils Command-Line Front-End Tool"
-msgstr ""
+msgstr "在Docutils命令行前端工具中"
 
 #: ../../source/api/cmdline-tool.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/api/cmdline-tool.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/api/cmdline-tool.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/api/cmdline-tool.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/api/cmdline-tool.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/api/cmdline-tool.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/api/cmdline-tool.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/api/cmdline-tool.rst:8
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/api/cmdline-tool.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/api/cmdline-tool.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/api/cmdline-tool.rst:11
 msgid ""
@@ -85,11 +85,11 @@ msgstr ""
 
 #: ../../source/api/cmdline-tool.rst:26
 msgid "Next are some comments providing metadata::"
-msgstr ""
+msgstr "Next are some comments providing metadata::"
 
 #: ../../source/api/cmdline-tool.rst:32
 msgid "The module docstring describes the purpose of the tool::"
-msgstr ""
+msgstr "The module docstring describes the purpose of the tool::"
 
 #: ../../source/api/cmdline-tool.rst:38
 msgid ""
@@ -100,11 +100,11 @@ msgstr ""
 
 #: ../../source/api/cmdline-tool.rst:48
 msgid "The real work will be done by the code that's imported here::"
-msgstr ""
+msgstr "The real work will be done by the code that's imported here::"
 
 #: ../../source/api/cmdline-tool.rst:52
 msgid "We construct a description of the tool, for command-line help::"
-msgstr ""
+msgstr "We construct a description of the tool, for command-line help::"
 
 #: ../../source/api/cmdline-tool.rst:57
 msgid ""
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../source/api/cmdline-tool.rst:64
 msgid "That's it!  `The Docutils Publisher`_ takes care of the rest."
-msgstr ""
+msgstr "That's it!  `The Docutils Publisher`_ takes care of the rest."
 
 #~ msgid "cmdline tool"
 #~ msgstr ""

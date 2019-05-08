@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:3
 msgid "Docutils_ Internationalization"
-msgstr ""
+msgstr "Docutils_ 国际化"
 
 #: ../../source/howto/i18n.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/howto/i18n.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/howto/i18n.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/howto/i18n.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/howto/i18n.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/howto/i18n.rst:7
 msgid "$Date: 2014-07-07 05:12:02 +0200 (Mo, 07. Jul 2014) $"
-msgstr ""
+msgstr "$Date: 2014-07-07 05:12:02 +0200 (Mo, 07. Jul 2014) $"
 
 #: ../../source/howto/i18n.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/howto/i18n.rst:8
 msgid "$Revision: 7769 $"
-msgstr ""
+msgstr "$Revision: 7769 $"
 
 #: ../../source/howto/i18n.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/howto/i18n.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/howto/i18n.rst:13
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/howto/i18n.rst:15
 msgid ""
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:45
 msgid "Language Module Names"
-msgstr ""
+msgstr "Language Module Names"
 
 #: ../../source/howto/i18n.rst:47
 msgid ""
@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:75
 msgid "Python Code"
-msgstr ""
+msgstr "Python Code"
 
 #: ../../source/howto/i18n.rst:77
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:94
 msgid "Docutils Language Module"
-msgstr ""
+msgstr "Docutils Language Module"
 
 #: ../../source/howto/i18n.rst:96
 msgid ""
@@ -172,11 +172,11 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:102
 msgid "Each Docutils language module contains three module attributes:"
-msgstr ""
+msgstr "Each Docutils language module contains three module attributes:"
 
 #: ../../source/howto/i18n.rst:111
 msgid "``labels``"
-msgstr ""
+msgstr "``labels``"
 
 #: ../../source/howto/i18n.rst:105
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:119
 msgid "``bibliographic_fields``"
-msgstr ""
+msgstr "``bibliographic_fields``"
 
 #: ../../source/howto/i18n.rst:114
 msgid ""
@@ -205,11 +205,11 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:119
 msgid "The keys should be translated to the target language."
-msgstr ""
+msgstr "The keys should be translated to the target language."
 
 #: ../../source/howto/i18n.rst:130
 msgid "``author_separators``"
-msgstr ""
+msgstr "``author_separators``"
 
 #: ../../source/howto/i18n.rst:122
 msgid ""
@@ -222,11 +222,11 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:129
 msgid "Most languages won't have to \"translate\" this list."
-msgstr ""
+msgstr "Most languages won't have to \"translate\" this list."
 
 #: ../../source/howto/i18n.rst:133
 msgid "reStructuredText Language Module"
-msgstr ""
+msgstr "reStructuredText Language Module"
 
 #: ../../source/howto/i18n.rst:135
 msgid ""
@@ -239,11 +239,11 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:141
 msgid "Each reStructuredText language module contains two module attributes:"
-msgstr ""
+msgstr "Each reStructuredText language module contains two module attributes:"
 
 #: ../../source/howto/i18n.rst:151
 msgid "``directives``"
-msgstr ""
+msgstr "``directives``"
 
 #: ../../source/howto/i18n.rst:144
 msgid ""
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:162
 msgid "``roles``"
-msgstr ""
+msgstr "``roles``"
 
 #: ../../source/howto/i18n.rst:154
 msgid ""
@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:165
 msgid "Testing the Language Modules"
-msgstr ""
+msgstr "Testing the Language Modules"
 
 #: ../../source/howto/i18n.rst:167
 msgid ""
@@ -298,7 +298,7 @@ msgstr ""
 
 #: ../../source/howto/i18n.rst:190
 msgid "Submitting the Language Modules"
-msgstr ""
+msgstr "Submitting the Language Modules"
 
 #: ../../source/howto/i18n.rst:192
 msgid ""

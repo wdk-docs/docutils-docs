@@ -20,47 +20,47 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:3
 msgid "Python Source Reader"
-msgstr ""
+msgstr "Python源代码阅读器"
 
 #: ../../source/dev/pysource.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/pysource.rst:4
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/dev/pysource.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/pysource.rst:5
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/pysource.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/pysource.rst:6
 msgid "$Revision: 7302 $"
-msgstr ""
+msgstr "$Revision: 7302 $"
 
 #: ../../source/dev/pysource.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/pysource.rst:7
 msgid "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
-msgstr ""
+msgstr "$Date: 2012-01-03 20:23:53 +0100 (Di, 03. J盲n 2012) $"
 
 #: ../../source/dev/pysource.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/pysource.rst:8
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/pysource.rst:10
 msgid ""
@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:21
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/pysource.rst:24
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: ../../source/dev/pysource.rst:26
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:32
 msgid "See `Docstring Extractor`_ below."
-msgstr ""
+msgstr "See `Docstring Extractor`_ below."
 
 #: ../../source/dev/pysource.rst:34
 msgid ""
@@ -109,15 +109,15 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:37
 msgid "Join the docstring trees together into a single tree, running transforms:"
-msgstr ""
+msgstr "Join the docstring trees together into a single tree, running transforms:"
 
 #: ../../source/dev/pysource.rst:40
 msgid "merge hyperlinks"
-msgstr ""
+msgstr "merge hyperlinks"
 
 #: ../../source/dev/pysource.rst:41
 msgid "merge namespaces"
-msgstr ""
+msgstr "merge namespaces"
 
 #: ../../source/dev/pysource.rst:42
 msgid ""
@@ -127,7 +127,7 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:44
 msgid "convert the above special sections to ordinary doctree nodes"
-msgstr ""
+msgstr "convert the above special sections to ordinary doctree nodes"
 
 #: ../../source/dev/pysource.rst:46
 msgid ""
@@ -138,11 +138,11 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:51
 msgid "(Or should step 4's transforms come before step 3?)"
-msgstr ""
+msgstr "(Or should step 4's transforms come before step 3?)"
 
 #: ../../source/dev/pysource.rst:53
 msgid "Pass the resulting unified tree to the writer/builder."
-msgstr ""
+msgstr "Pass the resulting unified tree to the writer/builder."
 
 #: ../../source/dev/pysource.rst:55
 msgid ""
@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:76
 msgid "Docstring Extractor"
-msgstr ""
+msgstr "Docstring Extractor"
 
 #: ../../source/dev/pysource.rst:78
 msgid ""
@@ -186,35 +186,35 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:83
 msgid "packages"
-msgstr ""
+msgstr "packages"
 
 #: ../../source/dev/pysource.rst:84
 msgid "modules"
-msgstr ""
+msgstr "modules"
 
 #: ../../source/dev/pysource.rst:85
 msgid "module attributes (+ values)"
-msgstr ""
+msgstr "module attributes (+ values)"
 
 #: ../../source/dev/pysource.rst:86
 msgid "classes (+ inheritance)"
-msgstr ""
+msgstr "classes (+ inheritance)"
 
 #: ../../source/dev/pysource.rst:87
 msgid "class attributes (+ values)"
-msgstr ""
+msgstr "class attributes (+ values)"
 
 #: ../../source/dev/pysource.rst:88
 msgid "instance attributes (+ values)"
-msgstr ""
+msgstr "instance attributes (+ values)"
 
 #: ../../source/dev/pysource.rst:89
 msgid "methods (+ formal parameters & defaults)"
-msgstr ""
+msgstr "methods (+ formal parameters & defaults)"
 
 #: ../../source/dev/pysource.rst:90
 msgid "functions (+ formal parameters & defaults)"
-msgstr ""
+msgstr "functions (+ formal parameters & defaults)"
 
 #: ../../source/dev/pysource.rst:92
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 
 #: ../../source/dev/pysource.rst:103
 msgid "Interpreted Text"
-msgstr ""
+msgstr "Interpreted Text"
 
 #: ../../source/dev/pysource.rst:105
 msgid ""

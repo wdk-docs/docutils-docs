@@ -20,55 +20,55 @@ msgstr ""
 
 #: ../../source/user/tools.rst:3
 msgid "Docutils Front-End Tools"
-msgstr ""
+msgstr "Docutils前端工具"
 
 #: ../../source/user/tools.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/user/tools.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/user/tools.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/user/tools.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/user/tools.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/user/tools.rst:7
 msgid "$Revision: 8012 $"
-msgstr ""
+msgstr "$Revision: 8012 $"
 
 #: ../../source/user/tools.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/user/tools.rst:8
 msgid "$Date: 2017-01-04 00:08:19 +0100 (Mi, 04. J盲n 2017) $"
-msgstr ""
+msgstr "$Date: 2017-01-04 00:08:19 +0100 (Mi, 04. J盲n 2017) $"
 
 #: ../../source/user/tools.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/user/tools.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/user/tools.rst:12
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/user/tools.rst:16
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/user/tools.rst:18
 msgid ""
@@ -105,11 +105,11 @@ msgstr ""
 
 #: ../../source/user/tools.rst:44
 msgid "Getting Help"
-msgstr ""
+msgstr "Getting Help"
 
 #: ../../source/user/tools.rst:46
 msgid "First, try the \"``--help``\" option each front-end tool has."
-msgstr ""
+msgstr "First, try the \"``--help``\" option each front-end tool has."
 
 #: ../../source/user/tools.rst:48
 msgid ""
@@ -120,27 +120,27 @@ msgstr ""
 
 #: ../../source/user/tools.rst:57
 msgid "The Tools"
-msgstr ""
+msgstr "The Tools"
 
 #: ../../source/user/tools.rst:60
 msgid "HTML-Generating Tools"
-msgstr ""
+msgstr "HTML-Generating Tools"
 
 #: ../../source/user/tools.rst:63
 msgid "buildhtml.py"
-msgstr ""
+msgstr "buildhtml.py"
 
 #: ../../source/user/tools.rst
 msgid "Readers"
-msgstr ""
+msgstr "Readers"
 
 #: ../../source/user/tools.rst:65
 msgid "Standalone, PEP"
-msgstr ""
+msgstr "Standalone, PEP"
 
 #: ../../source/user/tools.rst
 msgid "Parser"
-msgstr ""
+msgstr "Parser"
 
 #: ../../source/user/tools.rst:66 ../../source/user/tools.rst:103
 #: ../../source/user/tools.rst:121 ../../source/user/tools.rst:166
@@ -149,15 +149,15 @@ msgstr ""
 #: ../../source/user/tools.rst:365 ../../source/user/tools.rst:383
 #: ../../source/user/tools.rst:413 ../../source/user/tools.rst:427
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../source/user/tools.rst
 msgid "Writers"
-msgstr ""
+msgstr "Writers"
 
 #: ../../source/user/tools.rst:67
 msgid "html_, pep_html_"
-msgstr ""
+msgstr "html_, pep_html_"
 
 #: ../../source/user/tools.rst:69
 msgid ""
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:73
 msgid "Usage::"
-msgstr ""
+msgstr "Usage::"
 
 #: ../../source/user/tools.rst:77
 msgid ""
@@ -196,11 +196,11 @@ msgstr ""
 
 #: ../../source/user/tools.rst:100
 msgid "rst2html.py"
-msgstr ""
+msgstr "rst2html.py"
 
 #: ../../source/user/tools.rst
 msgid "Reader"
-msgstr ""
+msgstr "Reader"
 
 #: ../../source/user/tools.rst:102 ../../source/user/tools.rst:120
 #: ../../source/user/tools.rst:165 ../../source/user/tools.rst:201
@@ -208,15 +208,15 @@ msgstr ""
 #: ../../source/user/tools.rst:364 ../../source/user/tools.rst:382
 #: ../../source/user/tools.rst:412
 msgid "Standalone"
-msgstr ""
+msgstr "Standalone"
 
 #: ../../source/user/tools.rst
 msgid "Writer"
-msgstr ""
+msgstr "Writer"
 
 #: ../../source/user/tools.rst:104
 msgid "html_"
-msgstr ""
+msgstr "html_"
 
 #: ../../source/user/tools.rst:106
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:110
 msgid "Use `rst2html.py`, if you want the output to be up-to-date automatically."
-msgstr ""
+msgstr "Use `rst2html.py`, if you want the output to be up-to-date automatically."
 
 #: ../../source/user/tools.rst:112
 msgid ""
@@ -238,11 +238,11 @@ msgstr ""
 
 #: ../../source/user/tools.rst:118
 msgid "rst2html4.py"
-msgstr ""
+msgstr "rst2html4.py"
 
 #: ../../source/user/tools.rst:122
 msgid "html4css1_"
-msgstr ""
+msgstr "html4css1_"
 
 #: ../../source/user/tools.rst:124
 msgid ""
@@ -267,7 +267,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:143
 msgid "Stylesheets"
-msgstr ""
+msgstr "Stylesheets"
 
 #: ../../source/user/tools.rst:145
 msgid ""
@@ -286,11 +286,11 @@ msgstr ""
 
 #: ../../source/user/tools.rst:163
 msgid "rst2html5.py"
-msgstr ""
+msgstr "rst2html5.py"
 
 #: ../../source/user/tools.rst:167
 msgid "html5 (html5_polyglot_)"
-msgstr ""
+msgstr "html5 (html5_polyglot_)"
 
 #: ../../source/user/tools.rst:169
 msgid ""
@@ -303,15 +303,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:178
 msgid "rstpep2html.py"
-msgstr ""
+msgstr "rstpep2html.py"
 
 #: ../../source/user/tools.rst:180
 msgid "PEP"
-msgstr ""
+msgstr "PEP"
 
 #: ../../source/user/tools.rst:182
 msgid "pep_html_"
-msgstr ""
+msgstr "pep_html_"
 
 #: ../../source/user/tools.rst:184
 msgid ""
@@ -325,15 +325,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:191
 msgid "For example, to process a PEP into HTML::"
-msgstr ""
+msgstr "For example, to process a PEP into HTML::"
 
 #: ../../source/user/tools.rst:199
 msgid "rst2s5.py"
-msgstr ""
+msgstr "rst2s5.py"
 
 #: ../../source/user/tools.rst:203
 msgid "s5_html_"
-msgstr ""
+msgstr "s5_html_"
 
 #: ../../source/user/tools.rst:205
 msgid ""
@@ -358,7 +358,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:223
 msgid "Themes"
-msgstr ""
+msgstr "Themes"
 
 #: ../../source/user/tools.rst:225
 msgid ""
@@ -372,40 +372,40 @@ msgstr ""
 
 #: ../../source/user/tools.rst:234
 msgid "The theme will be copied to the ``ui/medium-black`` directory."
-msgstr ""
+msgstr "The theme will be copied to the ``ui/medium-black`` directory."
 
 #: ../../source/user/tools.rst:236
 msgid "Several themes are included with Docutils:"
-msgstr ""
+msgstr "Several themes are included with Docutils:"
 
 #: ../../source/user/tools.rst:246
 msgid "``default``"
-msgstr ""
+msgstr "``default``"
 
 #: ../../source/user/tools.rst:239
 msgid "This is a simplified version of S5's default theme."
-msgstr ""
+msgstr "This is a simplified version of S5's default theme."
 
 #: ../../source/user/tools.rst
 msgid "Main content"
-msgstr ""
+msgstr "Main content"
 
 #: ../../source/user/tools.rst:241 ../../source/user/tools.rst:251
 #: ../../source/user/tools.rst:267
 msgid "black serif text on a white background"
-msgstr ""
+msgstr "black serif text on a white background"
 
 #: ../../source/user/tools.rst
 msgid "Text capacity"
-msgstr ""
+msgstr "Text capacity"
 
 #: ../../source/user/tools.rst:242
 msgid "about 13 lines"
-msgstr ""
+msgstr "about 13 lines"
 
 #: ../../source/user/tools.rst
 msgid "Headers"
-msgstr ""
+msgstr "Headers"
 
 #: ../../source/user/tools.rst:243
 msgid ""
@@ -415,85 +415,85 @@ msgstr ""
 
 #: ../../source/user/tools.rst
 msgid "Footers"
-msgstr ""
+msgstr "Footers"
 
 #: ../../source/user/tools.rst:245
 msgid "small, gray, bold sans-serif text on a dark blue background"
-msgstr ""
+msgstr "small, gray, bold sans-serif text on a dark blue background"
 
 #: ../../source/user/tools.rst:256
 msgid "``small-white``"
-msgstr ""
+msgstr "``small-white``"
 
 #: ../../source/user/tools.rst:249
 msgid "(Small text on a white background.)"
-msgstr ""
+msgstr "(Small text on a white background.)"
 
 #: ../../source/user/tools.rst:252 ../../source/user/tools.rst:260
 msgid "about 15 lines"
-msgstr ""
+msgstr "about 15 lines"
 
 #: ../../source/user/tools.rst:253 ../../source/user/tools.rst:269
 #: ../../source/user/tools.rst:285
 msgid "black, bold sans-serif text on a white background; titles wrap"
-msgstr ""
+msgstr "black, bold sans-serif text on a white background; titles wrap"
 
 #: ../../source/user/tools.rst:255 ../../source/user/tools.rst:271
 msgid "small, dark gray, bold sans-serif text on a white background"
-msgstr ""
+msgstr "small, dark gray, bold sans-serif text on a white background"
 
 #: ../../source/user/tools.rst:264
 msgid "``small-black``"
-msgstr ""
+msgstr "``small-black``"
 
 #: ../../source/user/tools.rst:259 ../../source/user/tools.rst:275
 msgid "white serif text on a black background"
-msgstr ""
+msgstr "white serif text on a black background"
 
 #: ../../source/user/tools.rst:261 ../../source/user/tools.rst:277
 #: ../../source/user/tools.rst:292
 msgid "white, bold sans-serif text on a black background; titles wrap"
-msgstr ""
+msgstr "white, bold sans-serif text on a black background; titles wrap"
 
 #: ../../source/user/tools.rst:263 ../../source/user/tools.rst:279
 msgid "small, light gray, bold sans-serif text on a black background"
-msgstr ""
+msgstr "small, light gray, bold sans-serif text on a black background"
 
 #: ../../source/user/tools.rst:272
 msgid "``medium-white``"
-msgstr ""
+msgstr "``medium-white``"
 
 #: ../../source/user/tools.rst:268 ../../source/user/tools.rst:276
 msgid "about 9 lines"
-msgstr ""
+msgstr "about 9 lines"
 
 #: ../../source/user/tools.rst:280
 msgid "``medium-black``"
-msgstr ""
+msgstr "``medium-black``"
 
 #: ../../source/user/tools.rst:287
 msgid "``big-white``"
-msgstr ""
+msgstr "``big-white``"
 
 #: ../../source/user/tools.rst:283
 msgid "black, bold sans-serif text on a white background"
-msgstr ""
+msgstr "black, bold sans-serif text on a white background"
 
 #: ../../source/user/tools.rst:284 ../../source/user/tools.rst:291
 msgid "about 5 lines"
-msgstr ""
+msgstr "about 5 lines"
 
 #: ../../source/user/tools.rst:287 ../../source/user/tools.rst:294
 msgid "not displayed"
-msgstr ""
+msgstr "not displayed"
 
 #: ../../source/user/tools.rst:294
 msgid "``big-black``"
-msgstr ""
+msgstr "``big-black``"
 
 #: ../../source/user/tools.rst:290
 msgid "white, bold sans-serif text on a black background"
-msgstr ""
+msgstr "white, bold sans-serif text on a black background"
 
 #: ../../source/user/tools.rst:296
 msgid ""
@@ -511,15 +511,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:312
 msgid "LaTeX-Generating Tools"
-msgstr ""
+msgstr "LaTeX-Generating Tools"
 
 #: ../../source/user/tools.rst:315
 msgid "rst2latex.py"
-msgstr ""
+msgstr "rst2latex.py"
 
 #: ../../source/user/tools.rst:319
 msgid "latex2e"
-msgstr ""
+msgstr "latex2e"
 
 #: ../../source/user/tools.rst:321
 msgid ""
@@ -537,15 +537,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:331 ../../source/user/tools.rst:351
 msgid "For details see `Generating LaTeX with Docutils`_."
-msgstr ""
+msgstr "For details see `Generating LaTeX with Docutils`_."
 
 #: ../../source/user/tools.rst:334
 msgid "rst2xetex.py"
-msgstr ""
+msgstr "rst2xetex.py"
 
 #: ../../source/user/tools.rst:338
 msgid "xetex"
-msgstr ""
+msgstr "xetex"
 
 #: ../../source/user/tools.rst:340
 msgid ""
@@ -564,15 +564,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:359
 msgid "XML-Generating Tools"
-msgstr ""
+msgstr "XML-Generating Tools"
 
 #: ../../source/user/tools.rst:362
 msgid "rst2xml.py"
-msgstr ""
+msgstr "rst2xml.py"
 
 #: ../../source/user/tools.rst:366
 msgid "XML (Docutils native)"
-msgstr ""
+msgstr "XML (Docutils native)"
 
 #: ../../source/user/tools.rst:368
 msgid ""
@@ -584,15 +584,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:377
 msgid "ODF/OpenOffice-Generating Tools"
-msgstr ""
+msgstr "ODF/OpenOffice-Generating Tools"
 
 #: ../../source/user/tools.rst:380
 msgid "rst2odt.py"
-msgstr ""
+msgstr "rst2odt.py"
 
 #: ../../source/user/tools.rst:384
 msgid "ODF/.odt"
-msgstr ""
+msgstr "ODF/.odt"
 
 #: ../../source/user/tools.rst:386
 msgid ""
@@ -607,7 +607,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:397
 msgid "reStructuredText-Generating Tools"
-msgstr ""
+msgstr "reStructuredText-Generating Tools"
 
 #: ../../source/user/tools.rst:399
 msgid ""
@@ -623,15 +623,15 @@ msgstr ""
 
 #: ../../source/user/tools.rst:407
 msgid "Testing/Debugging Tools"
-msgstr ""
+msgstr "Testing/Debugging Tools"
 
 #: ../../source/user/tools.rst:410
 msgid "rst2pseudoxml.py"
-msgstr ""
+msgstr "rst2pseudoxml.py"
 
 #: ../../source/user/tools.rst:414
 msgid "Pseudo-XML"
-msgstr ""
+msgstr "Pseudo-XML"
 
 #: ../../source/user/tools.rst:416
 msgid ""
@@ -644,11 +644,11 @@ msgstr ""
 
 #: ../../source/user/tools.rst:424
 msgid "quicktest.py"
-msgstr ""
+msgstr "quicktest.py"
 
 #: ../../source/user/tools.rst:426 ../../source/user/tools.rst:428
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../../source/user/tools.rst:430
 msgid ""
@@ -661,7 +661,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:436
 msgid "Pretty-printed pseudo-XML (default)"
-msgstr ""
+msgstr "Pretty-printed pseudo-XML (default)"
 
 #: ../../source/user/tools.rst:437
 msgid ""
@@ -671,19 +671,19 @@ msgstr ""
 
 #: ../../source/user/tools.rst:439
 msgid "Pretty-printed native XML"
-msgstr ""
+msgstr "Pretty-printed native XML"
 
 #: ../../source/user/tools.rst:440
 msgid "Raw native XML (with or without a stylesheet reference)"
-msgstr ""
+msgstr "Raw native XML (with or without a stylesheet reference)"
 
 #: ../../source/user/tools.rst:446
 msgid "Customization"
-msgstr ""
+msgstr "Customization"
 
 #: ../../source/user/tools.rst:449
 msgid "Command-Line Options"
-msgstr ""
+msgstr "Command-Line Options"
 
 #: ../../source/user/tools.rst:451
 msgid ""
@@ -702,7 +702,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:465
 msgid "Configuration Files"
-msgstr ""
+msgstr "Configuration Files"
 
 #: ../../source/user/tools.rst:467
 msgid ""
@@ -712,7 +712,7 @@ msgstr ""
 
 #: ../../source/user/tools.rst:470
 msgid "For details, see `Docutils Configuration Files`_."
-msgstr ""
+msgstr "For details, see `Docutils Configuration Files`_."
 
 #~ msgid "tools"
 #~ msgstr ""

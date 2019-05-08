@@ -448,14 +448,14 @@ msgstr ""
 #: ../../source/ref/rst/directives.rst:874
 #: ../../source/ref/rst/directives.rst:984
 msgid "``width`` : `length`_ or `percentage`_ of the current line width"
-msgstr "``width`` : `length`_ or `percentage`_ of the current line width"
+msgstr "``width`` : 当前行宽的 `length`_ 或 `percentage`_ "
 
 #: ../../source/ref/rst/directives.rst:221
 #: ../../source/ref/rst/directives.rst:797
 #: ../../source/ref/rst/directives.rst:873
 #: ../../source/ref/rst/directives.rst:983
 msgid "length or percentage of the current line width"
-msgstr "当前线宽的长度或百分比"
+msgstr "当前行宽的长度或百分比"
 
 #: ../../source/ref/rst/directives.rst:220
 msgid ""
@@ -658,14 +658,14 @@ msgid ""
 "contained idea that is separate from the flow of the document. Topics may"
 " occur anywhere a section or transition may occur.  Body elements and "
 "topics may not contain nested topics."
-msgstr ""
+msgstr "主题就像带有标题的块引用，或者没有子部分的自包含部分。 使用 \"topic\" 指令指示独立于文档流的独立构思。 主题可能出现在可能发生部分或转换的任何地方。 正文元素和主题可能不包含嵌套主题。"
 
 #: ../../source/ref/rst/directives.rst:359
 msgid ""
 "The directive's sole argument is interpreted as the topic title; the next"
 " line must be blank.  All subsequent lines make up the topic body, "
 "interpreted as body elements.  For example::"
-msgstr ""
+msgstr "该指令的唯一参数被解释为主题标题;下一行必须为空白。 所有后续行构成主题主体，解释为主体元素。 例如::"
 
 #: ../../source/ref/rst/directives.rst:371
 msgid "Sidebar"
@@ -702,13 +702,13 @@ msgid ""
 "document's main text may flow around it.  Sidebars can also be likened to"
 " super-footnotes; their content is outside of the flow of the document's "
 "main text."
-msgstr ""
+msgstr "侧边栏就像在其他文档中出现的微型并行文档，提供相关或参考材料。 侧边栏通常由边框偏移，并且 \"floats\" 到页面的侧面;文档的主要文本可能会围绕它流动。 侧边栏也可以比作超级脚注;它们的内容超出了文档主要文本的流程。"
 
 #: ../../source/ref/rst/directives.rst:386
 msgid ""
 "Sidebars may occur anywhere a section or transition may occur.  Body "
 "elements (including sidebars) may not contain nested sidebars."
-msgstr ""
+msgstr "边栏可能出现在某个部分或转换可能发生的任何地方。 主体元素（包括侧边栏）可能不包含嵌套的侧边栏。"
 
 #: ../../source/ref/rst/directives.rst:389
 msgid ""
@@ -716,7 +716,7 @@ msgid ""
 "may be followed by a subtitle option (see below); the next line must be "
 "blank.  All subsequent lines make up the sidebar body, interpreted as "
 "body elements.  For example::"
-msgstr ""
+msgstr "该指令的唯一参数被解释为侧边栏标题，后面可能跟有字幕选项（见下文）;下一行必须为空白。 所有后续线条组成侧边栏主体，解释为主体元素。 例如::"
 
 #: ../../source/ref/rst/directives.rst:404
 msgid "``subtitle``"
@@ -738,7 +738,7 @@ msgstr "弃用"
 msgid ""
 "The \"line-block\" directive is deprecated.  Use the `line block syntax`_"
 " instead."
-msgstr ""
+msgstr "不推荐使用 \"line-block\" 指令。请改用 `line block syntax`_ 。"
 
 #: ../../source/ref/rst/directives.rst:419
 msgid "\"line-block\""
@@ -763,11 +763,11 @@ msgid ""
 "  Line blocks are useful for address blocks and verse (poetry, song "
 "lyrics), where the structure of lines is significant.  For example, "
 "here's a classic::"
-msgstr ""
+msgstr "\“line-block \”指令构造一个元素，其中换行符和初始缩进很重要，并且支持内联标记。 它相当于具有不同渲染的`解析文字​​块`_：通常在普通的衬线字体而不是打字机/等宽字体，而不是自动缩进。 (让行块指令开始一个块引用以获得一个缩进的行块。) 行块对于地址块和诗歌（诗歌，歌词）很有用，其中行的结构很重要。 例如，这是一个经典之作::"
 
 #: ../../source/ref/rst/directives.rst:451
 msgid "Parsed Literal Block"
-msgstr "Parsed Literal Block"
+msgstr "解析文字块"
 
 #: ../../source/ref/rst/directives.rst:453
 msgid "\"parsed-literal\""
@@ -780,7 +780,7 @@ msgstr "literal_block_"
 #: ../../source/ref/rst/directives.rst:457
 #: ../../source/ref/rst/directives.rst:489
 msgid "Becomes the body of the literal block."
-msgstr "Becomes the body of the literal block."
+msgstr "成为字面块的主体。"
 
 #: ../../source/ref/rst/directives.rst:459
 msgid ""
@@ -789,7 +789,7 @@ msgid ""
 " is equivalent to a `line block`_ with different rendering: typically in "
 "a typewriter/monospaced typeface, like an ordinary literal block.  Parsed"
 " literal blocks are useful for adding hyperlinks to code examples."
-msgstr ""
+msgstr "与普通的文字块不同， \"parsed-literal\" 指令构造一个文字块，其中文本被解析为内联标记。 它相当于具有不同渲染的`line block`_：通常在打字机/等宽字体中，就像普通的文字块一样。 解析的文字块对于向代码示例添加超链接非常有用。"
 
 #: ../../source/ref/rst/directives.rst:466
 msgid ""
@@ -799,7 +799,7 @@ msgid ""
 "characters are removed by the parser, care must also be taken with "
 "vertical alignment.  Parsed \"ASCII art\" is tricky, and extra whitespace"
 " may be necessary."
-msgstr ""
+msgstr "但是，必须注意文本，因为内联标记已被识别，并且没有解析保护。 可能需要使用反斜杠转义来防止意外解析。 并且因为解析器删除了标记字符，所以还必须注意垂直对齐。 解析 \"ASCII art\" 是棘手的，可能需要额外的空格。"
 
 #: ../../source/ref/rst/directives.rst:473
 msgid "For example, all the element names in this content model are links::"
@@ -807,7 +807,7 @@ msgstr "例如，此内容模型中的所有元素名称都是链接::"
 
 #: ../../source/ref/rst/directives.rst:483
 msgid "Code"
-msgstr "Code"
+msgstr "码"
 
 #: ../../source/ref/rst/directives.rst:485
 msgid "\"code\""
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:664
 msgid "Compound Paragraph"
-msgstr "Compound Paragraph"
+msgstr "复合段落"
 
 #: ../../source/ref/rst/directives.rst:666
 msgid "\"compound\""
@@ -1069,7 +1069,7 @@ msgstr "compound_"
 
 #: ../../source/ref/rst/directives.rst:672
 msgid "(New in Docutils 0.3.6)"
-msgstr "(New in Docutils 0.3.6)"
+msgstr "(Docutils 0.3.6中的新功能)"
 
 #: ../../source/ref/rst/directives.rst:674
 msgid ""
@@ -1118,7 +1118,7 @@ msgstr "vertical spacing between physical elements may be reduced;"
 
 #: ../../source/ref/rst/directives.rst:710
 msgid "and so on."
-msgstr "and so on."
+msgstr "等等。"
 
 #: ../../source/ref/rst/directives.rst:714
 msgid "Container"
@@ -1134,7 +1134,7 @@ msgstr "container_"
 
 #: ../../source/ref/rst/directives.rst:718
 msgid "One or more, optional (class names)."
-msgstr "One or more, optional (class names)."
+msgstr "一个或多个，可选（类名）。"
 
 #: ../../source/ref/rst/directives.rst:719
 msgid "`:name:`_"
@@ -1143,7 +1143,7 @@ msgstr "`:name:`_"
 #: ../../source/ref/rst/directives.rst:722
 #: ../../source/ref/rst/directives.rst:1859
 msgid "(New in Docutils 0.3.10)"
-msgstr "(New in Docutils 0.3.10)"
+msgstr "(Docutils 0.3.10中的新功能)"
 
 #: ../../source/ref/rst/directives.rst:724
 msgid ""
@@ -1155,7 +1155,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:733
 msgid "Parsing the above results in the following pseudo-XML::"
-msgstr "Parsing the above results in the following pseudo-XML::"
+msgstr "解析上述结果会产生以下 pseudo-XML::"
 
 #: ../../source/ref/rst/directives.rst:739
 msgid ""
@@ -1166,7 +1166,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:747
 msgid "Tables"
-msgstr "表"
+msgstr "表格"
 
 #: ../../source/ref/rst/directives.rst:749
 msgid ""
@@ -1179,7 +1179,7 @@ msgstr "正式表需要比 reStructuredText 语法提供的结构更多的结构
 
 #: ../../source/ref/rst/directives.rst:757
 msgid "Table"
-msgstr "表"
+msgstr "表格"
 
 #: ../../source/ref/rst/directives.rst:759
 msgid "\"table\""
@@ -1456,7 +1456,7 @@ msgid ""
 " the delimiter or which start with the quote character.  Defaults to "
 "``\"`` (quote).  May be specified as a Unicode code point; see the "
 "unicode_ directive for syntax details."
-msgstr "单字符串\\ [#ASCII-char] _用于引用包含分隔符或以引号字符开头的元素。  默认为`` \"``(引用)。 可以指定为Unicode代码点;有关语法详细信息, 请参阅unicode_指令。"
+msgstr "单字符串\\ [#ASCII-char]_ 用于引用包含分隔符或以引号字符开头的元素。  默认为 ``\"`` (引用)。 可以指定为Unicode代码点;有关语法详细信息, 请参阅 unicode_ 指令。"
 
 #: ../../source/ref/rst/directives.rst:913
 msgid "``keepspace``"
@@ -1467,7 +1467,7 @@ msgstr "``keepspace``"
 #: ../../source/ref/rst/directives.rst:1390
 #: ../../source/ref/rst/directives.rst:1395
 msgid "flag"
-msgstr "flag"
+msgstr "旗"
 
 #: ../../source/ref/rst/directives.rst:912
 msgid ""
@@ -1486,7 +1486,7 @@ msgid ""
 "unicode_ directive for syntax details.  Used when the delimiter is used "
 "in an unquoted field, or when quote characters are used within a field.  "
 "The default is to double-up the character, e.g. \"He said, \"\"Hi!\"\"\""
-msgstr "用于转义分隔符或引用字符的单字符\\ [#ASCII-char] _字符串。  可以指定为Unicode代码点;有关语法详细信息, 请参阅unicode_指令。  在分隔符用于不带引号的字段时, 或者在字段中使用引号字符时使用。  默认设置是将字符加倍, 例如“他说, ”“嗨！\”\“\”"
+msgstr "用于转义分隔符或引用字符的单字符\\ [#ASCII-char]_ 字符串。  可以指定为Unicode代码点;有关语法详细信息, 请参阅 unicode_ 指令。  在分隔符用于不带引号的字段时, 或者在字段中使用引号字符时使用。  默认设置是将字符加倍, 例如 \"He said, \"\"Hi!\"\"\""
 
 #: ../../source/ref/rst/directives.rst:934
 msgid "List Table"
@@ -1567,11 +1567,11 @@ msgstr "An explicit title may be specified::"
 
 #: ../../source/ref/rst/directives.rst:1032
 msgid "The title may span lines, although it is not recommended::"
-msgstr "The title may span lines, although it is not recommended::"
+msgstr "标题可能跨越线，但不建议使用::"
 
 #: ../../source/ref/rst/directives.rst:1037
 msgid "Options may be specified for the directive, using a field list::"
-msgstr "Options may be specified for the directive, using a field list::"
+msgstr "可以使用字段列表为指令指定选项::"
 
 #: ../../source/ref/rst/directives.rst:1042
 msgid ""
@@ -1597,7 +1597,7 @@ msgstr "``local``"
 #: ../../source/ref/rst/directives.rst:1055
 #: ../../source/ref/rst/directives.rst:1503
 msgid "flag (empty)"
-msgstr "flag (empty)"
+msgstr "旗（空）"
 
 #: ../../source/ref/rst/directives.rst:1054
 msgid ""
@@ -1628,7 +1628,7 @@ msgstr ""
 
 #: ../../source/ref/rst/directives.rst:1071
 msgid "Automatic Section Numbering"
-msgstr "Automatic Section Numbering"
+msgstr "自动章节编号"
 
 #: ../../source/ref/rst/directives.rst:1073
 msgid "\"sectnum\" or \"section-numbering\" (synonyms)"

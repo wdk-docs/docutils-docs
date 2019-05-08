@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:3
 msgid "Docutils_ To Do List"
-msgstr ""
+msgstr "Docutils_ 待办事项清单"
 
 #: ../../source/dev/todo.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/todo.rst:5
 msgid "David Goodger (with input from many); open to all Docutils developers"
-msgstr ""
+msgstr "David Goodger (with input from many); open to all Docutils developers"
 
 #: ../../source/dev/todo.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/dev/todo.rst:7
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/dev/todo.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/dev/todo.rst:8
 msgid "$Date: 2017-08-16 23:30:43 +0200 (Mi, 16. Aug 2017) $"
-msgstr ""
+msgstr "$Date: 2017-08-16 23:30:43 +0200 (Mi, 16. Aug 2017) $"
 
 #: ../../source/dev/todo.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/dev/todo.rst:9
 msgid "$Revision: 8168 $"
-msgstr ""
+msgstr "$Revision: 8168 $"
 
 #: ../../source/dev/todo.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/todo.rst:10
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/dev/todo.rst:15
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/todo.rst:17
 msgid ""
@@ -83,11 +83,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:33
 msgid "Please see also the Bugs_ document for a list of bugs in Docutils."
-msgstr ""
+msgstr "Please see also the Bugs_ document for a list of bugs in Docutils."
 
 #: ../../source/dev/todo.rst:39
 msgid "Minimum Requirements for Python Standard Library Candidacy"
-msgstr ""
+msgstr "Minimum Requirements for Python Standard Library Candidacy"
 
 #: ../../source/dev/todo.rst:41
 msgid ""
@@ -98,27 +98,27 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:45
 msgid "Many of these are now handled by Sphinx_"
-msgstr ""
+msgstr "Many of these are now handled by Sphinx_"
 
 #: ../../source/dev/todo.rst:47
 msgid "Support for `document splitting`_.  May require some major code rework."
-msgstr ""
+msgstr "Support for `document splitting`_.  May require some major code rework."
 
 #: ../../source/dev/todo.rst:50
 msgid "Support for subdocuments (see `large documents`_)."
-msgstr ""
+msgstr "Support for subdocuments (see `large documents`_)."
 
 #: ../../source/dev/todo.rst:52
 msgid "`Object numbering and object references`_."
-msgstr ""
+msgstr "`Object numbering and object references`_."
 
 #: ../../source/dev/todo.rst:54
 msgid "`Nested inline markup`_."
-msgstr ""
+msgstr "`Nested inline markup`_."
 
 #: ../../source/dev/todo.rst:56
 msgid "`Python Source Reader`_."
-msgstr ""
+msgstr "`Python Source Reader`_."
 
 #: ../../source/dev/todo.rst:58
 msgid ""
@@ -128,11 +128,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:62
 msgid "Documentation_ of the architecture.  Other docs too."
-msgstr ""
+msgstr "Documentation_ of the architecture.  Other docs too."
 
 #: ../../source/dev/todo.rst:64
 msgid "Plugin support."
-msgstr ""
+msgstr "Plugin support."
 
 #: ../../source/dev/todo.rst:66
 msgid ""
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:72
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../../source/dev/todo.rst:74
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:83
 msgid "Encoding of command line arguments can only be guessed:"
-msgstr ""
+msgstr "Encoding of command line arguments can only be guessed:"
 
 #: ../../source/dev/todo.rst:85
 msgid ""
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:94
 msgid "Do not decode argv before option parsing but individual string values?"
-msgstr ""
+msgstr "Do not decode argv before option parsing but individual string values?"
 
 #: ../../source/dev/todo.rst:97
 msgid ""
@@ -181,27 +181,27 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:99
 msgid "Allows to configure command-line encoding in a config file,"
-msgstr ""
+msgstr "Allows to configure command-line encoding in a config file,"
 
 #: ../../source/dev/todo.rst:100
 msgid "More complicated."
-msgstr ""
+msgstr "More complicated."
 
 #: ../../source/dev/todo.rst:102
 msgid "Cf. <http://thread.gmane.org/gmane.text.docutils.user/2890/focus=2957>."
-msgstr ""
+msgstr "Cf. <http://thread.gmane.org/gmane.text.docutils.user/2890/focus=2957>."
 
 #: ../../source/dev/todo.rst:104
 msgid "Improve handling on Windows:"
-msgstr ""
+msgstr "Improve handling on Windows:"
 
 #: ../../source/dev/todo.rst:106
 msgid "Get graphical installer."
-msgstr ""
+msgstr "Get graphical installer."
 
 #: ../../source/dev/todo.rst:107
 msgid "Make rst2html.py an .exe file using py2exe."
-msgstr ""
+msgstr "Make rst2html.py an .exe file using py2exe."
 
 #: ../../source/dev/todo.rst:111
 msgid ""
@@ -298,7 +298,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:168
 msgid "Configuration file handling needs discussion:"
-msgstr ""
+msgstr "Configuration file handling needs discussion:"
 
 #: ../../source/dev/todo.rst:170
 msgid ""
@@ -316,7 +316,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:178
 msgid "Internationalization:"
-msgstr ""
+msgstr "Internationalization:"
 
 #: ../../source/dev/todo.rst:180
 msgid ""
@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:183
 msgid "(This would make a nice Google Summer of Code project)"
-msgstr ""
+msgstr "(This would make a nice Google Summer of Code project)"
 
 #: ../../source/dev/todo.rst:185
 msgid ""
@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:198
 msgid "or"
-msgstr ""
+msgstr "or"
 
 #: ../../source/dev/todo.rst:200
 #, python-format
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:208
 msgid "Add validation?  See http://pytrex.sourceforge.net, RELAX NG, pyRXP."
-msgstr ""
+msgstr "Add validation?  See http://pytrex.sourceforge.net, RELAX NG, pyRXP."
 
 #: ../../source/dev/todo.rst:210
 msgid ""
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:252
 msgid "(The \"inrefid\" attribute stood for \"insertion reference ID\".)"
-msgstr ""
+msgstr "(The \"inrefid\" attribute stood for \"insertion reference ID\".)"
 
 #: ../../source/dev/todo.rst:254
 msgid ""
@@ -442,19 +442,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:262
 msgid "Aahz's idea:"
-msgstr ""
+msgstr "Aahz's idea:"
 
 #: ../../source/dev/todo.rst:264
 msgid "First the ToC::"
-msgstr ""
+msgstr "First the ToC::"
 
 #: ../../source/dev/todo.rst:272
 msgid "Then a sample use::"
-msgstr ""
+msgstr "Then a sample use::"
 
 #: ../../source/dev/todo.rst:279
 msgid "Which produces::"
-msgstr ""
+msgstr "Which produces::"
 
 #: ../../source/dev/todo.rst:284
 msgid ""
@@ -473,11 +473,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:300
 msgid "Then the sample becomes::"
-msgstr ""
+msgstr "Then the sample becomes::"
 
 #: ../../source/dev/todo.rst:307
 msgid "Add support for _`multiple output files` and _`generic data handling`:"
-msgstr ""
+msgstr "Add support for _`multiple output files` and _`generic data handling`:"
 
 #: ../../source/dev/todo.rst:310
 msgid ""
@@ -515,11 +515,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:329
 msgid "See <http://article.gmane.org/gmane.text.docutils.devel/3631>."
-msgstr ""
+msgstr "See <http://article.gmane.org/gmane.text.docutils.devel/3631>."
 
 #: ../../source/dev/todo.rst:331
 msgid "Add testing for Docutils' front end tools?"
-msgstr ""
+msgstr "Add testing for Docutils' front end tools?"
 
 #: ../../source/dev/todo.rst:333
 msgid ""
@@ -584,7 +584,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:370
 msgid "Rationalize Writer settings (HTML/LaTeX/PEP) -- share settings."
-msgstr ""
+msgstr "Rationalize Writer settings (HTML/LaTeX/PEP) -- share settings."
 
 #: ../../source/dev/todo.rst:372
 msgid ""
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:384 ../../source/dev/todo.rst:413
 msgid "(cf. Grzegorz Adam Hankiewicz's post from 2014-10-01 in docutils-devel)"
-msgstr ""
+msgstr "(cf. Grzegorz Adam Hankiewicz's post from 2014-10-01 in docutils-devel)"
 
 #: ../../source/dev/todo.rst:386
 msgid ""
@@ -615,23 +615,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:392
 msgid "Use cases:"
-msgstr ""
+msgstr "Use cases:"
 
 #: ../../source/dev/todo.rst:394
 msgid "Standard rST syntax to replace Sphinx's \"literalinclude\"::"
-msgstr ""
+msgstr "Standard rST syntax to replace Sphinx's \"literalinclude\"::"
 
 #: ../../source/dev/todo.rst:400
 msgid "Variable content taken from a file, e.g."
-msgstr ""
+msgstr "Variable content taken from a file, e.g."
 
 #: ../../source/dev/todo.rst:402
 msgid "version.txt::"
-msgstr ""
+msgstr "version.txt::"
 
 #: ../../source/dev/todo.rst:406
 msgid "optionally used as::"
-msgstr ""
+msgstr "optionally used as::"
 
 #: ../../source/dev/todo.rst:415
 msgid ""
@@ -679,7 +679,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:450
 msgid "How should it be implemented?"
-msgstr ""
+msgstr "How should it be implemented?"
 
 #: ../../source/dev/todo.rst:452
 msgid ""
@@ -704,59 +704,59 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:464
 msgid "See also the `table_styling Sphinx extension`_ which defines"
-msgstr ""
+msgstr "See also the `table_styling Sphinx extension`_ which defines"
 
 #: ../../source/dev/todo.rst
 msgid "widths"
-msgstr ""
+msgstr "widths"
 
 #: ../../source/dev/todo.rst:466
 msgid "also in Docutils core (but different implementation)"
-msgstr ""
+msgstr "also in Docutils core (but different implementation)"
 
 #: ../../source/dev/todo.rst
 msgid "column-alignment"
-msgstr ""
+msgstr "column-alignment"
 
 #: ../../source/dev/todo.rst:467
 msgid "Sets per-column text alignment"
-msgstr ""
+msgstr "Sets per-column text alignment"
 
 #: ../../source/dev/todo.rst
 msgid "column-wrapping"
-msgstr ""
+msgstr "column-wrapping"
 
 #: ../../source/dev/todo.rst:468
 msgid "Sets per-column text wrapping"
-msgstr ""
+msgstr "Sets per-column text wrapping"
 
 #: ../../source/dev/todo.rst
 msgid "column-dividers"
-msgstr ""
+msgstr "column-dividers"
 
 #: ../../source/dev/todo.rst:469
 msgid "Add dividers between columns"
-msgstr ""
+msgstr "Add dividers between columns"
 
 #: ../../source/dev/todo.rst
 msgid "column-classes"
-msgstr ""
+msgstr "column-classes"
 
 #: ../../source/dev/todo.rst:470
 msgid "Add per-column css classes."
-msgstr ""
+msgstr "Add per-column css classes."
 
 #: ../../source/dev/todo.rst
 msgid "header-columns"
-msgstr ""
+msgstr "header-columns"
 
 #: ../../source/dev/todo.rst:471
 msgid "Specify number of â€œstubâ€ columns"
-msgstr ""
+msgstr "Specify number of â€œstubâ€ columns"
 
 #: ../../source/dev/todo.rst:476
 msgid "Add file-specific settings support to config files, like::"
-msgstr ""
+msgstr "Add file-specific settings support to config files, like::"
 
 #: ../../source/dev/todo.rst:481
 msgid ""
@@ -788,7 +788,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:506
 msgid "Add support for _`plugins`."
-msgstr ""
+msgstr "Add support for _`plugins`."
 
 #: ../../source/dev/todo.rst:508
 msgid ""
@@ -841,7 +841,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:543
 msgid "`Easy Slide Shows With reStructuredText & S5 <../user/slide-shows.html>`_"
-msgstr ""
+msgstr "`Easy Slide Shows With reStructuredText & S5 <../user/slide-shows.html>`_"
 
 #: ../../source/dev/todo.rst:540
 msgid ""
@@ -852,15 +852,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:545
 msgid "object numbering and object references"
-msgstr ""
+msgstr "object numbering and object references"
 
 #: ../../source/dev/todo.rst:547
 msgid "For equations, tables & figures."
-msgstr ""
+msgstr "For equations, tables & figures."
 
 #: ../../source/dev/todo.rst:549
 msgid "These would be the equivalent of DocBook's \"formal\" elements."
-msgstr ""
+msgstr "These would be the equivalent of DocBook's \"formal\" elements."
 
 #: ../../source/dev/todo.rst:551
 msgid ""
@@ -873,7 +873,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:557
 msgid "No such mechanism exists in HTML."
-msgstr ""
+msgstr "No such mechanism exists in HTML."
 
 #: ../../source/dev/todo.rst:559
 msgid ""
@@ -883,7 +883,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:562
 msgid "Should the sequences be automatic or manual (user-specifyable)?"
-msgstr ""
+msgstr "Should the sequences be automatic or manual (user-specifyable)?"
 
 #: ../../source/dev/todo.rst:564
 msgid ""
@@ -893,7 +893,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:571
 msgid "or ::"
-msgstr ""
+msgstr "or ::"
 
 #: ../../source/dev/todo.rst:576
 msgid ""
@@ -905,11 +905,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:581
 msgid "A \"table\" directive has been implemented, supporting table titles."
-msgstr ""
+msgstr "A \"table\" directive has been implemented, supporting table titles."
 
 #: ../../source/dev/todo.rst:583
 msgid "Perhaps the name could derive from the title/caption?"
-msgstr ""
+msgstr "Perhaps the name could derive from the title/caption?"
 
 #: ../../source/dev/todo.rst:587
 msgid ""
@@ -925,7 +925,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:593
 msgid "An interpreted text approach is simpler and better::"
-msgstr ""
+msgstr "An interpreted text approach is simpler and better::"
 
 #: ../../source/dev/todo.rst:597
 msgid ""
@@ -935,7 +935,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:602
 msgid "See `Interpreted Text`_ below."
-msgstr ""
+msgstr "See `Interpreted Text`_ below."
 
 #: ../../source/dev/todo.rst:604
 msgid ""
@@ -945,7 +945,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:612
 msgid "The position of the role (prefix or suffix) could also be utilized"
-msgstr ""
+msgstr "The position of the role (prefix or suffix) could also be utilized"
 
 #: ../../source/dev/todo.rst:617
 msgid ""
@@ -956,11 +956,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:623
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../source/dev/todo.rst:626
 msgid "User Docs"
-msgstr ""
+msgstr "User Docs"
 
 #: ../../source/dev/todo.rst:628
 msgid ""
@@ -977,15 +977,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:635
 msgid "Improve index in docs/user/config.txt."
-msgstr ""
+msgstr "Improve index in docs/user/config.txt."
 
 #: ../../source/dev/todo.rst:639
 msgid "Developer Docs"
-msgstr ""
+msgstr "Developer Docs"
 
 #: ../../source/dev/todo.rst:641
 msgid "Complete `Docutils Runtime Settings <../api/runtime-settings.html>`_."
-msgstr ""
+msgstr "Complete `Docutils Runtime Settings <../api/runtime-settings.html>`_."
 
 #: ../../source/dev/todo.rst:643
 msgid ""
@@ -1013,7 +1013,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:656
 msgid "Document the ``pending`` elements, how they're generated and what they do."
-msgstr ""
+msgstr "Document the ``pending`` elements, how they're generated and what they do."
 
 #: ../../source/dev/todo.rst:659
 msgid ""
@@ -1023,7 +1023,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:662
 msgid "Document the HTML classes used by html4css1.py."
-msgstr ""
+msgstr "Document the HTML classes used by html4css1.py."
 
 #: ../../source/dev/todo.rst:664
 msgid ""
@@ -1034,55 +1034,55 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:668
 msgid "Give information about unit tests.  Maybe as a howto?"
-msgstr ""
+msgstr "Give information about unit tests.  Maybe as a howto?"
 
 #: ../../source/dev/todo.rst:670
 msgid "Document the docutils.nodes APIs."
-msgstr ""
+msgstr "Document the docutils.nodes APIs."
 
 #: ../../source/dev/todo.rst:672
 msgid "Complete the docs/api/publisher.txt docs."
-msgstr ""
+msgstr "Complete the docs/api/publisher.txt docs."
 
 #: ../../source/dev/todo.rst:676
 msgid "How-Tos"
-msgstr ""
+msgstr "How-Tos"
 
 #: ../../source/dev/todo.rst:678
 msgid "Creating Docutils Writers"
-msgstr ""
+msgstr "Creating Docutils Writers"
 
 #: ../../source/dev/todo.rst:680
 msgid "Creating Docutils Readers"
-msgstr ""
+msgstr "Creating Docutils Readers"
 
 #: ../../source/dev/todo.rst:682
 msgid "Creating Docutils Transforms"
-msgstr ""
+msgstr "Creating Docutils Transforms"
 
 #: ../../source/dev/todo.rst:684
 msgid "Creating Docutils Parsers"
-msgstr ""
+msgstr "Creating Docutils Parsers"
 
 #: ../../source/dev/todo.rst:686
 msgid "Using Docutils as a Library"
-msgstr ""
+msgstr "Using Docutils as a Library"
 
 #: ../../source/dev/todo.rst:690
 msgid "PEPs"
-msgstr ""
+msgstr "PEPs"
 
 #: ../../source/dev/todo.rst:692
 msgid "Complete PEP 258 Docutils Design Specification."
-msgstr ""
+msgstr "Complete PEP 258 Docutils Design Specification."
 
 #: ../../source/dev/todo.rst:694
 msgid "Fill in the blanks in API details."
-msgstr ""
+msgstr "Fill in the blanks in API details."
 
 #: ../../source/dev/todo.rst:696
 msgid "Specify the nodes.py internal data structure implementation?"
-msgstr ""
+msgstr "Specify the nodes.py internal data structure implementation?"
 
 #: ../../source/dev/todo.rst:698
 msgid ""
@@ -1099,31 +1099,31 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:708
 msgid "Python Source Reader"
-msgstr ""
+msgstr "Python Source Reader"
 
 #: ../../source/dev/todo.rst:710
 msgid "General:"
-msgstr ""
+msgstr "General:"
 
 #: ../../source/dev/todo.rst:712
 msgid "Analyze Tony Ibbs' PySource code."
-msgstr ""
+msgstr "Analyze Tony Ibbs' PySource code."
 
 #: ../../source/dev/todo.rst:714
 msgid "Analyze Doug Hellmann's HappyDoc project."
-msgstr ""
+msgstr "Analyze Doug Hellmann's HappyDoc project."
 
 #: ../../source/dev/todo.rst:716
 msgid "Investigate how POD handles literate programming."
-msgstr ""
+msgstr "Investigate how POD handles literate programming."
 
 #: ../../source/dev/todo.rst:718
 msgid "Take the best ideas and integrate them into Docutils."
-msgstr ""
+msgstr "Take the best ideas and integrate them into Docutils."
 
 #: ../../source/dev/todo.rst:720
 msgid "Miscellaneous ideas:"
-msgstr ""
+msgstr "Miscellaneous ideas:"
 
 #: ../../source/dev/todo.rst:722
 msgid ""
@@ -1185,23 +1185,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:794
 msgid "Multi-file output should be divisible at arbitrary level."
-msgstr ""
+msgstr "Multi-file output should be divisible at arbitrary level."
 
 #: ../../source/dev/todo.rst:796
 msgid "Support all forms of ``import`` statements:"
-msgstr ""
+msgstr "Support all forms of ``import`` statements:"
 
 #: ../../source/dev/todo.rst:798
 msgid "``import module``: listed as \"module\""
-msgstr ""
+msgstr "``import module``: listed as \"module\""
 
 #: ../../source/dev/todo.rst:799
 msgid "``import module as alias``: \"alias (module)\""
-msgstr ""
+msgstr "``import module as alias``: \"alias (module)\""
 
 #: ../../source/dev/todo.rst:800
 msgid "``from module import identifier``: \"identifier (from module)\""
-msgstr ""
+msgstr "``from module import identifier``: \"identifier (from module)\""
 
 #: ../../source/dev/todo.rst:801
 msgid ""
@@ -1211,7 +1211,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:803
 msgid "``from module import *``: \"all identifiers (``*``) from module\""
-msgstr ""
+msgstr "``from module import *``: \"all identifiers (``*``) from module\""
 
 #: ../../source/dev/todo.rst:805
 msgid ""
@@ -1227,23 +1227,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:814
 msgid "reStructuredText Parser"
-msgstr ""
+msgstr "reStructuredText Parser"
 
 #: ../../source/dev/todo.rst:816
 msgid "Also see the `... Or Not To Do?`__ list."
-msgstr ""
+msgstr "Also see the `... Or Not To Do?`__ list."
 
 #: ../../source/dev/todo.rst:821
 msgid "Misc"
-msgstr ""
+msgstr "Misc"
 
 #: ../../source/dev/todo.rst:823
 msgid "Another list problem::"
-msgstr ""
+msgstr "Another list problem::"
 
 #: ../../source/dev/todo.rst:829
 msgid "This ends up as a definition list.  This is more of a usability issue."
-msgstr ""
+msgstr "This ends up as a definition list.  This is more of a usability issue."
 
 #: ../../source/dev/todo.rst:832
 msgid ""
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:839
 msgid "It should probably just be an error."
-msgstr ""
+msgstr "It should probably just be an error."
 
 #: ../../source/dev/todo.rst:841
 msgid ""
@@ -1288,7 +1288,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:863
 msgid "The current list-recognition logic has too many false positives, as in ::"
-msgstr ""
+msgstr "The current list-recognition logic has too many false positives, as in ::"
 
 #: ../../source/dev/todo.rst:870
 msgid ""
@@ -1299,7 +1299,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:874
 msgid "See <http://thread.gmane.org/gmane.text.docutils.user/2524>."
-msgstr ""
+msgstr "See <http://thread.gmane.org/gmane.text.docutils.user/2524>."
 
 #: ../../source/dev/todo.rst:876
 msgid ""
@@ -1309,7 +1309,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:884
 msgid "See <http://thread.gmane.org/gmane.text.docutils.user/2499>."
-msgstr ""
+msgstr "See <http://thread.gmane.org/gmane.text.docutils.user/2499>."
 
 #: ../../source/dev/todo.rst:886
 msgid ""
@@ -1328,7 +1328,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:896
 msgid "Add (functional) tests for untested roles."
-msgstr ""
+msgstr "Add (functional) tests for untested roles."
 
 #: ../../source/dev/todo.rst:898
 msgid ""
@@ -1344,7 +1344,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:904
 msgid "Add motivation sections for constructs in spec."
-msgstr ""
+msgstr "Add motivation sections for constructs in spec."
 
 #: ../../source/dev/todo.rst:906
 msgid ""
@@ -1378,11 +1378,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:930
 msgid "Should the system check for existing files?  No, not practical."
-msgstr ""
+msgstr "Should the system check for existing files?  No, not practical."
 
 #: ../../source/dev/todo.rst:932
 msgid "Handle documents only, or objects (images, etc.) also?"
-msgstr ""
+msgstr "Handle documents only, or objects (images, etc.) also?"
 
 #: ../../source/dev/todo.rst:934
 msgid ""
@@ -1394,7 +1394,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:939
 msgid "This may not be just a parser issue; it may need framework support."
-msgstr ""
+msgstr "This may not be just a parser issue; it may need framework support."
 
 #: ../../source/dev/todo.rst:941
 msgid ""
@@ -1405,7 +1405,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:950
 msgid "Idea from Jim Fulton: an external lookup table of targets:"
-msgstr ""
+msgstr "Idea from Jim Fulton: an external lookup table of targets:"
 
 #: ../../source/dev/todo.rst:952
 msgid ""
@@ -1416,11 +1416,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:957
 msgid "For example::"
-msgstr ""
+msgstr "For example::"
 
 #: ../../source/dev/todo.rst:963
 msgid "That is, name the files for which extensions should be converted."
-msgstr ""
+msgstr "That is, name the files for which extensions should be converted."
 
 #: ../../source/dev/todo.rst:965
 msgid ""
@@ -1431,15 +1431,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:969
 msgid "Note that in most cases, people will be able to use globs::"
-msgstr ""
+msgstr "Note that in most cases, people will be able to use globs::"
 
 #: ../../source/dev/todo.rst:973
 msgid "It might be nice to be able to use multiple arguments, as in::"
-msgstr ""
+msgstr "It might be nice to be able to use multiple arguments, as in::"
 
 #: ../../source/dev/todo.rst:982
 msgid "Don't convert the links."
-msgstr ""
+msgstr "Don't convert the links."
 
 #: ../../source/dev/todo.rst:989
 msgid ""
@@ -1490,11 +1490,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1020
 msgid "Shell sessions::"
-msgstr ""
+msgstr "Shell sessions::"
 
 #: ../../source/dev/todo.rst:1028
 msgid "Root shell sessions::"
-msgstr ""
+msgstr "Root shell sessions::"
 
 #: ../../source/dev/todo.rst:1035
 msgid ""
@@ -1510,7 +1510,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1041
 msgid "Add support for pragma (syntax-altering) directives."
-msgstr ""
+msgstr "Add support for pragma (syntax-altering) directives."
 
 #: ../../source/dev/todo.rst:1043
 msgid ""
@@ -1551,7 +1551,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1063
 msgid "Center justification."
-msgstr ""
+msgstr "Center justification."
 
 #: ../../source/dev/todo.rst:1065
 msgid ""
@@ -1562,7 +1562,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1069
 msgid "Decimal justification?"
-msgstr ""
+msgstr "Decimal justification?"
 
 #: ../../source/dev/todo.rst:1071
 msgid ""
@@ -1572,7 +1572,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1079
 msgid "Otherwise it will break existing documents."
-msgstr ""
+msgstr "Otherwise it will break existing documents."
 
 #: ../../source/dev/todo.rst:1081
 msgid ""
@@ -1617,7 +1617,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1117
 msgid "Probably not worth the trouble."
-msgstr ""
+msgstr "Probably not worth the trouble."
 
 #: ../../source/dev/todo.rst:1119
 msgid ""
@@ -1640,19 +1640,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1133
 msgid "Add an option to add URI schemes at runtime."
-msgstr ""
+msgstr "Add an option to add URI schemes at runtime."
 
 #: ../../source/dev/todo.rst:1135
 msgid "_`Segmented lists`::"
-msgstr ""
+msgstr "_`Segmented lists`::"
 
 #: ../../source/dev/todo.rst:1142
 msgid "The initial colon (\":\") can be thought of as a type of bullet"
-msgstr ""
+msgstr "The initial colon (\":\") can be thought of as a type of bullet"
 
 #: ../../source/dev/todo.rst:1144
 msgid "We could even have segment titles::"
-msgstr ""
+msgstr "We could even have segment titles::"
 
 #: ../../source/dev/todo.rst:1150
 msgid ""
@@ -1662,11 +1662,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1153
 msgid "Enable grid _`tables inside XML comments`, where \"``--``\" ends comments."
-msgstr ""
+msgstr "Enable grid _`tables inside XML comments`, where \"``--``\" ends comments."
 
 #: ../../source/dev/todo.rst:1155
 msgid "Implementation possibilities:"
-msgstr ""
+msgstr "Implementation possibilities:"
 
 #: ../../source/dev/todo.rst:1157
 msgid ""
@@ -1690,7 +1690,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1168
 msgid "Allow Unicode box characters for table markup (`feature request [6]`_)"
-msgstr ""
+msgstr "Allow Unicode box characters for table markup (`feature request [6]`_)"
 
 #: ../../source/dev/todo.rst:1171
 msgid ""
@@ -1701,7 +1701,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1175
 msgid "Unicode box character markup would kill two birds with one stone."
-msgstr ""
+msgstr "Unicode box character markup would kill two birds with one stone."
 
 #: ../../source/dev/todo.rst:1177
 msgid ""
@@ -1717,7 +1717,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1188
 msgid "_`Line numbers` and \"source\" in system messages:"
-msgstr ""
+msgstr "_`Line numbers` and \"source\" in system messages:"
 
 #: ../../source/dev/todo.rst:1190
 msgid ""
@@ -1728,7 +1728,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1194
 msgid "Or rather specify \"line\" only if actually needed?"
-msgstr ""
+msgstr "Or rather specify \"line\" only if actually needed?"
 
 #: ../../source/dev/todo.rst:1196
 msgid ""
@@ -1768,7 +1768,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1217
 msgid "The line numbers of definition list items are wrong::"
-msgstr ""
+msgstr "The line numbers of definition list items are wrong::"
 
 #: ../../source/dev/todo.rst:1247
 msgid ""
@@ -1778,7 +1778,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1253
 msgid "Math Markup"
-msgstr ""
+msgstr "Math Markup"
 
 #: ../../source/dev/todo.rst:1255
 msgid ""
@@ -1788,7 +1788,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1258
 msgid "Open issues:"
-msgstr ""
+msgstr "Open issues:"
 
 #: ../../source/dev/todo.rst:1260
 msgid ""
@@ -1805,7 +1805,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1267
 msgid "Try to be compatible with `Math support in Sphinx`_?"
-msgstr ""
+msgstr "Try to be compatible with `Math support in Sphinx`_?"
 
 #: ../../source/dev/todo.rst:1269
 msgid ""
@@ -1829,7 +1829,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1288
 msgid "alternative input formats"
-msgstr ""
+msgstr "alternative input formats"
 
 #: ../../source/dev/todo.rst:1290
 msgid ""
@@ -1839,7 +1839,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1306 ../../source/dev/todo.rst:1423
 msgid "MathML_"
-msgstr ""
+msgstr "MathML_"
 
 #: ../../source/dev/todo.rst:1294
 msgid ""
@@ -1861,11 +1861,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1335
 msgid "ASCIIMath_"
-msgstr ""
+msgstr "ASCIIMath_"
 
 #: ../../source/dev/todo.rst:1309
 msgid "Simple, ASCII based math input language (see also `ASCIIMath tutorial`_)."
-msgstr ""
+msgstr "Simple, ASCII based math input language (see also `ASCIIMath tutorial`_)."
 
 #: ../../source/dev/todo.rst:1311
 msgid ""
@@ -1881,7 +1881,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1317
 msgid "For conversion to LaTeX, there is"
-msgstr ""
+msgstr "For conversion to LaTeX, there is"
 
 #: ../../source/dev/todo.rst:1319
 msgid ""
@@ -1904,7 +1904,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1346
 msgid "`Unicode Nearly Plain Text Encoding of Mathematics`_"
-msgstr ""
+msgstr "`Unicode Nearly Plain Text Encoding of Mathematics`_"
 
 #: ../../source/dev/todo.rst:1338
 msgid ""
@@ -1921,7 +1921,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1352
 msgid "itex"
-msgstr ""
+msgstr "itex"
 
 #: ../../source/dev/todo.rst:1349
 msgid ""
@@ -1931,23 +1931,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1355
 msgid "LaTeX output"
-msgstr ""
+msgstr "LaTeX output"
 
 #: ../../source/dev/todo.rst:1357
 msgid "Which equation environments should be supported by the math directive?"
-msgstr ""
+msgstr "Which equation environments should be supported by the math directive?"
 
 #: ../../source/dev/todo.rst:1359
 msgid "one line:"
-msgstr ""
+msgstr "one line:"
 
 #: ../../source/dev/todo.rst:1361
 msgid "numbered: `equation`"
-msgstr ""
+msgstr "numbered: `equation`"
 
 #: ../../source/dev/todo.rst:1362
 msgid "unnumbered: `equation*`"
-msgstr ""
+msgstr "unnumbered: `equation*`"
 
 #: ../../source/dev/todo.rst:1364
 msgid ""
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1367
 msgid "numbered: `align` (number every line)"
-msgstr ""
+msgstr "numbered: `align` (number every line)"
 
 #: ../../source/dev/todo.rst:1369
 msgid ""
@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1372
 msgid "unnumbered: `align*`"
-msgstr ""
+msgstr "unnumbered: `align*`"
 
 #: ../../source/dev/todo.rst:1374
 msgid ""
@@ -1980,11 +1980,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1380
 msgid "See http://www.math.uiuc.edu/~hildebr/tex/displays.html."
-msgstr ""
+msgstr "See http://www.math.uiuc.edu/~hildebr/tex/displays.html."
 
 #: ../../source/dev/todo.rst:1384
 msgid "HTML output"
-msgstr ""
+msgstr "HTML output"
 
 #: ../../source/dev/todo.rst:1386
 msgid ""
@@ -1994,27 +1994,27 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1391
 msgid "Converters from LaTeX to MathML include"
-msgstr ""
+msgstr "Converters from LaTeX to MathML include"
 
 #: ../../source/dev/todo.rst:1393
 msgid "TtM_ (C), ``--math-output=MathML ttm``, undocumented, may be removed."
-msgstr ""
+msgstr "TtM_ (C), ``--math-output=MathML ttm``, undocumented, may be removed."
 
 #: ../../source/dev/todo.rst:1395
 msgid "No \"matrix\", \"align\" and  \"cases\" environments."
-msgstr ""
+msgstr "No \"matrix\", \"align\" and  \"cases\" environments."
 
 #: ../../source/dev/todo.rst:1397
 msgid "MathToWeb_ (Java)"
-msgstr ""
+msgstr "MathToWeb_ (Java)"
 
 #: ../../source/dev/todo.rst:1398
 msgid "TeX4ht_ (TeX based)"
-msgstr ""
+msgstr "TeX4ht_ (TeX based)"
 
 #: ../../source/dev/todo.rst:1399
 msgid "itex_ (also `used in Abiword`__)"
-msgstr ""
+msgstr "itex_ (also `used in Abiword`__)"
 
 #: ../../source/dev/todo.rst:1400
 msgid ""
@@ -2025,11 +2025,11 @@ msgstr ""
 #: ../../source/dev/todo.rst:1402 ../../source/dev/todo.rst:1439
 #: ../../source/dev/todo.rst:1452
 msgid "`MathJax for Node`_"
-msgstr ""
+msgstr "`MathJax for Node`_"
 
 #: ../../source/dev/todo.rst:1404
 msgid "Write a new converter? E.g. based on:"
-msgstr ""
+msgstr "Write a new converter? E.g. based on:"
 
 #: ../../source/dev/todo.rst:1406
 msgid ""
@@ -2039,11 +2039,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1408
 msgid "the Unicode-Char <-> LaTeX mappings database unimathsymbols_"
-msgstr ""
+msgstr "the Unicode-Char <-> LaTeX mappings database unimathsymbols_"
 
 #: ../../source/dev/todo.rst:1445
 msgid "HTML/CSS"
-msgstr ""
+msgstr "HTML/CSS"
 
 #: ../../source/dev/todo.rst:1430
 msgid ""
@@ -2054,35 +2054,35 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1435
 msgid "Alternatives: LaTeX-math to HTML/CSS converters include"
-msgstr ""
+msgstr "Alternatives: LaTeX-math to HTML/CSS converters include"
 
 #: ../../source/dev/todo.rst:1437
 msgid "TtH_ (C)"
-msgstr ""
+msgstr "TtH_ (C)"
 
 #: ../../source/dev/todo.rst:1438
 msgid "Hevea_ (Objective Caml)"
-msgstr ""
+msgstr "Hevea_ (Objective Caml)"
 
 #: ../../source/dev/todo.rst:1456
 msgid "images"
-msgstr ""
+msgstr "images"
 
 #: ../../source/dev/todo.rst:1448
 msgid "(PNG or SVG) like e.g. Wikipedia."
-msgstr ""
+msgstr "(PNG or SVG) like e.g. Wikipedia."
 
 #: ../../source/dev/todo.rst:1450
 msgid "dvisvgm_"
-msgstr ""
+msgstr "dvisvgm_"
 
 #: ../../source/dev/todo.rst:1451
 msgid "the pure-python MathML->SVG converter SVGMath_)"
-msgstr ""
+msgstr "the pure-python MathML->SVG converter SVGMath_)"
 
 #: ../../source/dev/todo.rst:1465
 msgid "client side JavaScript conversion"
-msgstr ""
+msgstr "client side JavaScript conversion"
 
 #: ../../source/dev/todo.rst:1459
 msgid ""
@@ -2092,19 +2092,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1462
 msgid "jqMath_ (faster and lighter than MathJax_)"
-msgstr ""
+msgstr "jqMath_ (faster and lighter than MathJax_)"
 
 #: ../../source/dev/todo.rst:1468
 msgid "OpenOffice output"
-msgstr ""
+msgstr "OpenOffice output"
 
 #: ../../source/dev/todo.rst:1470
 msgid "The `OpenDocument standard`_ version 1.1 says:"
-msgstr ""
+msgstr "The `OpenDocument standard`_ version 1.1 says:"
 
 #: ../../source/dev/todo.rst:1472
 msgid "Mathematical content is represented by MathML 2.0"
-msgstr ""
+msgstr "Mathematical content is represented by MathML 2.0"
 
 #: ../../source/dev/todo.rst:1474
 msgid ""
@@ -2122,7 +2122,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1489
 msgid "Directives"
-msgstr ""
+msgstr "Directives"
 
 #: ../../source/dev/todo.rst:1491
 msgid ""
@@ -2145,11 +2145,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1503
 msgid "Allow directives to be added at run-time?"
-msgstr ""
+msgstr "Allow directives to be added at run-time?"
 
 #: ../../source/dev/todo.rst:1505
 msgid "Use the language module for directive option names?"
-msgstr ""
+msgstr "Use the language module for directive option names?"
 
 #: ../../source/dev/todo.rst:1507
 msgid ""
@@ -2159,7 +2159,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1510
 msgid "Implement options or features on existing directives:"
-msgstr ""
+msgstr "Implement options or features on existing directives:"
 
 #: ../../source/dev/todo.rst:1512
 msgid ""
@@ -2181,11 +2181,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1523
 msgid "_`images.figure`: \"title\" and \"number\", to indicate a formal figure?"
-msgstr ""
+msgstr "_`images.figure`: \"title\" and \"number\", to indicate a formal figure?"
 
 #: ../../source/dev/todo.rst:1526
 msgid "_`parts.sectnum`: \"local\"?, \"refnum\""
-msgstr ""
+msgstr "_`parts.sectnum`: \"local\"?, \"refnum\""
 
 #: ../../source/dev/todo.rst:1528
 msgid ""
@@ -2246,7 +2246,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1565
 msgid "_`misc.class`:"
-msgstr ""
+msgstr "_`misc.class`:"
 
 #: ../../source/dev/todo.rst:1567
 msgid ""
@@ -2256,11 +2256,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1570
 msgid "_`misc.include`:"
-msgstr ""
+msgstr "_`misc.include`:"
 
 #: ../../source/dev/todo.rst:1572
 msgid "Option to label lines?"
-msgstr ""
+msgstr "Option to label lines?"
 
 #: ../../source/dev/todo.rst:1574
 msgid ""
@@ -2271,7 +2271,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1579
 msgid "Add support for inclusion by URL? ::"
-msgstr ""
+msgstr "Add support for inclusion by URL? ::"
 
 #: ../../source/dev/todo.rst:1584
 msgid ""
@@ -2287,7 +2287,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1591
 msgid "_`misc.raw`: add a \"destination\" option to the \"raw\" directive? ::"
-msgstr ""
+msgstr "_`misc.raw`: add a \"destination\" option to the \"raw\" directive? ::"
 
 #: ../../source/dev/todo.rst:1598
 msgid ""
@@ -2323,7 +2323,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1615
 msgid "_`html.imagemap`"
-msgstr ""
+msgstr "_`html.imagemap`"
 
 #: ../../source/dev/todo.rst:1617
 msgid ""
@@ -2345,7 +2345,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1625
 msgid "_`parts.citations`: See `Footnote & Citation Gathering`_."
-msgstr ""
+msgstr "_`parts.citations`: See `Footnote & Citation Gathering`_."
 
 #: ../../source/dev/todo.rst:1627
 msgid ""
@@ -2403,7 +2403,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1669
 msgid "Another example::"
-msgstr ""
+msgstr "Another example::"
 
 #: ../../source/dev/todo.rst:1679
 msgid ""
@@ -2413,7 +2413,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1682
 msgid "Needs a better name?  \"Macro\", \"substitution\"?"
-msgstr ""
+msgstr "Needs a better name?  \"Macro\", \"substitution\"?"
 
 #: ../../source/dev/todo.rst:1683
 msgid ""
@@ -2429,11 +2429,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1689
 msgid "_`conditional directives`:"
-msgstr ""
+msgstr "_`conditional directives`:"
 
 #: ../../source/dev/todo.rst:1691
 msgid "See also the implementation in Sphinx_."
-msgstr ""
+msgstr "See also the implementation in Sphinx_."
 
 #: ../../source/dev/todo.rst:1693
 msgid ""
@@ -2466,7 +2466,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1734
 msgid "SVG's \"switch\" statement may provide inspiration."
-msgstr ""
+msgstr "SVG's \"switch\" statement may provide inspiration."
 
 #: ../../source/dev/todo.rst:1736
 msgid ""
@@ -2484,7 +2484,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1755
 msgid "_`body.index`: Index targets."
-msgstr ""
+msgstr "_`body.index`: Index targets."
 
 #: ../../source/dev/todo.rst:1757
 msgid ""
@@ -2500,11 +2500,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1763
 msgid "\"highlight\" a range of lines"
-msgstr ""
+msgstr "\"highlight\" a range of lines"
 
 #: ../../source/dev/todo.rst:1765
 msgid "include only a specified range of lines"
-msgstr ""
+msgstr "include only a specified range of lines"
 
 #: ../../source/dev/todo.rst:1767
 msgid ""
@@ -2527,7 +2527,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1777
 msgid "See docutils-users 2003-03-03."
-msgstr ""
+msgstr "See docutils-users 2003-03-03."
 
 #: ../../source/dev/todo.rst:1779
 msgid ""
@@ -2562,11 +2562,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1798
 msgid "https://github.com/sphinx-doc/sphinx/pull/1858"
-msgstr ""
+msgstr "https://github.com/sphinx-doc/sphinx/pull/1858"
 
 #: ../../source/dev/todo.rst:1802
 msgid "Interpreted Text"
-msgstr ""
+msgstr "Interpreted Text"
 
 #: ../../source/dev/todo.rst:1804
 msgid ""
@@ -2623,7 +2623,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1845
 msgid "Implement roles:"
-msgstr ""
+msgstr "Implement roles:"
 
 #: ../../source/dev/todo.rst:1847
 msgid ""
@@ -2633,15 +2633,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1850
 msgid "For example, the following reStructuredText source ... ::"
-msgstr ""
+msgstr "For example, the following reStructuredText source ... ::"
 
 #: ../../source/dev/todo.rst:1862
 msgid "... will yield the following document fragment::"
-msgstr ""
+msgstr "... will yield the following document fragment::"
 
 #: ../../source/dev/todo.rst:1878
 msgid "Possibly without the intermediate \"inline\" node."
-msgstr ""
+msgstr "Possibly without the intermediate \"inline\" node."
 
 #: ../../source/dev/todo.rst:1880
 msgid ""
@@ -2661,7 +2661,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1890
 msgid "Should Docutils complain about undefined acronyms or abbreviations?"
-msgstr ""
+msgstr "Should Docutils complain about undefined acronyms or abbreviations?"
 
 #: ../../source/dev/todo.rst:1893
 msgid ""
@@ -2682,11 +2682,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1908
 msgid "How to define the full text?  Possibilities:"
-msgstr ""
+msgstr "How to define the full text?  Possibilities:"
 
 #: ../../source/dev/todo.rst:1910
 msgid "With a directive and a definition list? ::"
-msgstr ""
+msgstr "With a directive and a definition list? ::"
 
 #: ../../source/dev/todo.rst:1919
 msgid ""
@@ -2704,11 +2704,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1927
 msgid "Some kind of `inline parameter syntax`_? ::"
-msgstr ""
+msgstr "Some kind of `inline parameter syntax`_? ::"
 
 #: ../../source/dev/todo.rst:1935
 msgid "A combination of 1 & 2?"
-msgstr ""
+msgstr "A combination of 1 & 2?"
 
 #: ../../source/dev/todo.rst:1937
 msgid ""
@@ -2721,7 +2721,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1946
 msgid "Using substitutions? ::"
-msgstr ""
+msgstr "Using substitutions? ::"
 
 #: ../../source/dev/todo.rst:1951
 msgid ""
@@ -2750,7 +2750,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1973
 msgid "Doctree pruning"
-msgstr ""
+msgstr "Doctree pruning"
 
 #: ../../source/dev/todo.rst:1975
 msgid ""
@@ -2775,15 +2775,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:1986
 msgid "[DG 2017-01-02:] +0."
-msgstr ""
+msgstr "[DG 2017-01-02:] +0."
 
 #: ../../source/dev/todo.rst:1995
 msgid "Discussion"
-msgstr ""
+msgstr "Discussion"
 
 #: ../../source/dev/todo.rst:1989
 msgid "The syntax could be left in reST (for a set period of time?)."
-msgstr ""
+msgstr "The syntax could be left in reST (for a set period of time?)."
 
 #: ../../source/dev/todo.rst:1991
 msgid ""
@@ -2809,27 +2809,27 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2005
 msgid "[GM 2017-02-04]:"
-msgstr ""
+msgstr "[GM 2017-02-04]:"
 
 #: ../../source/dev/todo.rst:2008
 msgid "-0 for <admonition class=note><title>Note</>... instead of <note>:"
-msgstr ""
+msgstr "-0 for <admonition class=note><title>Note</>... instead of <note>:"
 
 #: ../../source/dev/todo.rst:2008
 msgid "a document is rarely printed/used as doctree or XML."
-msgstr ""
+msgstr "a document is rarely printed/used as doctree or XML."
 
 #: ../../source/dev/todo.rst:2011
 msgid "+1 reduce the complexity of the doctree"
-msgstr ""
+msgstr "+1 reduce the complexity of the doctree"
 
 #: ../../source/dev/todo.rst:2011
 msgid "(there is no 1:1 rST syntax element <-> doctree node mapping anyway)."
-msgstr ""
+msgstr "(there is no 1:1 rST syntax element <-> doctree node mapping anyway)."
 
 #: ../../source/dev/todo.rst:2015
 msgid "+2 every writer needs 9 visit_*/depart_* method pairs to handle the 9"
-msgstr ""
+msgstr "+2 every writer needs 9 visit_*/depart_* method pairs to handle the 9"
 
 #: ../../source/dev/todo.rst:2014
 msgid ""
@@ -2839,27 +2839,27 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2017
 msgid "-1 the most unfortunately named of these directives will survive. [#]_"
-msgstr ""
+msgstr "-1 the most unfortunately named of these directives will survive. [#]_"
 
 #: ../../source/dev/todo.rst:2019
 msgid "with \"biblical touch\" and hard to translate:"
-msgstr ""
+msgstr "with \"biblical touch\" and hard to translate:"
 
 #: ../../source/dev/todo.rst
 msgid "admonition"
-msgstr ""
+msgstr "admonition"
 
 #: ../../source/dev/todo.rst
 msgid "Ermahnung; Verweis; Warnung; RÃ¼ge"
-msgstr ""
+msgstr "Ermahnung; Verweis; Warnung; RÃ¼ge"
 
 #: ../../source/dev/todo.rst
 msgid "(exhortation; censure; warning; reprimand, rebuke)"
-msgstr ""
+msgstr "(exhortation; censure; warning; reprimand, rebuke)"
 
 #: ../../source/dev/todo.rst:2025
 msgid "Keep the special admonition directives in reStructuredText syntax."
-msgstr ""
+msgstr "Keep the special admonition directives in reStructuredText syntax."
 
 #: ../../source/dev/todo.rst:2027
 msgid ""
@@ -2869,11 +2869,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2032
 msgid "Unimplemented Transforms"
-msgstr ""
+msgstr "Unimplemented Transforms"
 
 #: ../../source/dev/todo.rst:2034
 msgid "_`Footnote & Citation Gathering`"
-msgstr ""
+msgstr "_`Footnote & Citation Gathering`"
 
 #: ../../source/dev/todo.rst:2036
 msgid ""
@@ -2884,7 +2884,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2045
 msgid "Footnotes:"
-msgstr ""
+msgstr "Footnotes:"
 
 #: ../../source/dev/todo.rst:2041
 msgid ""
@@ -2895,35 +2895,35 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2045
 msgid "Allows \"endnotes\" at a configurable place."
-msgstr ""
+msgstr "Allows \"endnotes\" at a configurable place."
 
 #: ../../source/dev/todo.rst:2082
 msgid "Citations:"
-msgstr ""
+msgstr "Citations:"
 
 #: ../../source/dev/todo.rst:2048
 msgid "Collect citations that are referenced ..."
-msgstr ""
+msgstr "Collect citations that are referenced ..."
 
 #: ../../source/dev/todo.rst:2050
 msgid "Citations can be:"
-msgstr ""
+msgstr "Citations can be:"
 
 #: ../../source/dev/todo.rst:2052
 msgid "defined in the document as citation elements"
-msgstr ""
+msgstr "defined in the document as citation elements"
 
 #: ../../source/dev/todo.rst:2054
 msgid "auto-generated from entries in a bibliographic database."
-msgstr ""
+msgstr "auto-generated from entries in a bibliographic database."
 
 #: ../../source/dev/todo.rst:2056
 msgid "based on bibstuff_?"
-msgstr ""
+msgstr "based on bibstuff_?"
 
 #: ../../source/dev/todo.rst:2057
 msgid "also have a look at"
-msgstr ""
+msgstr "also have a look at"
 
 #: ../../source/dev/todo.rst:2059
 msgid ""
@@ -2933,23 +2933,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2063
 msgid "Pybtex_,a drop-in replacement for BibTeX written in Python."
-msgstr ""
+msgstr "Pybtex_,a drop-in replacement for BibTeX written in Python."
 
 #: ../../source/dev/todo.rst:2065
 msgid "BibTeX styles & (experimental) pythonic style API."
-msgstr ""
+msgstr "BibTeX styles & (experimental) pythonic style API."
 
 #: ../../source/dev/todo.rst:2066
 msgid "Database in BibTeX, BibTeXML and YAML formats."
-msgstr ""
+msgstr "Database in BibTeX, BibTeXML and YAML formats."
 
 #: ../../source/dev/todo.rst:2067
 msgid "full Unicode support."
-msgstr ""
+msgstr "full Unicode support."
 
 #: ../../source/dev/todo.rst:2068
 msgid "Write to TeX, HTML and plain text."
-msgstr ""
+msgstr "Write to TeX, HTML and plain text."
 
 #: ../../source/dev/todo.rst:2070
 #, python-format
@@ -2973,11 +2973,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2082
 msgid "Automatically insert a \"References\" heading?"
-msgstr ""
+msgstr "Automatically insert a \"References\" heading?"
 
 #: ../../source/dev/todo.rst:2089
 msgid "_`Reference Merging`"
-msgstr ""
+msgstr "_`Reference Merging`"
 
 #: ../../source/dev/todo.rst:2091
 msgid ""
@@ -2993,7 +2993,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2096
 msgid "duplicate footnote numbers that need to be renumbered."
-msgstr ""
+msgstr "duplicate footnote numbers that need to be renumbered."
 
 #: ../../source/dev/todo.rst:2098
 msgid ""
@@ -3004,7 +3004,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2102
 msgid "_`Document Splitting`"
-msgstr ""
+msgstr "_`Document Splitting`"
 
 #: ../../source/dev/todo.rst:2104
 msgid ""
@@ -3015,11 +3015,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2108
 msgid "(HTML only?  Initially, yes.  Eventually, anything should be splittable.)"
-msgstr ""
+msgstr "(HTML only?  Initially, yes.  Eventually, anything should be splittable.)"
 
 #: ../../source/dev/todo.rst:2111 ../../source/dev/todo.rst:2689
 msgid "Ideas:"
-msgstr ""
+msgstr "Ideas:"
 
 #: ../../source/dev/todo.rst:2113
 msgid ""
@@ -3038,7 +3038,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2130
 msgid "(I.e., add the last line -- 0 or more document elements.)"
-msgstr ""
+msgstr "(I.e., add the last line -- 0 or more document elements.)"
 
 #: ../../source/dev/todo.rst:2132
 msgid ""
@@ -3058,7 +3058,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2142
 msgid "_`Navigation`"
-msgstr ""
+msgstr "_`Navigation`"
 
 #: ../../source/dev/todo.rst:2144
 msgid ""
@@ -3069,7 +3069,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2148
 msgid "_`List of System Messages`"
-msgstr ""
+msgstr "_`List of System Messages`"
 
 #: ../../source/dev/todo.rst:2150
 msgid ""
@@ -3088,7 +3088,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2160
 msgid "Fred L. Drake, Jr. wrote:"
-msgstr ""
+msgstr "Fred L. Drake, Jr. wrote:"
 
 #: ../../source/dev/todo.rst:2162
 msgid ""
@@ -3110,11 +3110,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2175
 msgid "_`Index Generation`"
-msgstr ""
+msgstr "_`Index Generation`"
 
 #: ../../source/dev/todo.rst:2179
 msgid "HTML Writer"
-msgstr ""
+msgstr "HTML Writer"
 
 #: ../../source/dev/todo.rst:2181
 msgid ""
@@ -3135,11 +3135,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2192
 msgid "Either way it should be optional and deactivated by default."
-msgstr ""
+msgstr "Either way it should be optional and deactivated by default."
 
 #: ../../source/dev/todo.rst:2194
 msgid "This would be useful for documents like Docutils' bug list or to-do list."
-msgstr ""
+msgstr "This would be useful for documents like Docutils' bug list or to-do list."
 
 #: ../../source/dev/todo.rst:2197
 msgid ""
@@ -3156,7 +3156,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst
 msgid "2015-04-02"
-msgstr ""
+msgstr "2015-04-02"
 
 #: ../../source/dev/todo.rst:2204
 msgid ""
@@ -3173,7 +3173,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2212
 msgid "Idea for field-list rendering: hanging indent::"
-msgstr ""
+msgstr "Idea for field-list rendering: hanging indent::"
 
 #: ../../source/dev/todo.rst:2220
 msgid ""
@@ -3185,7 +3185,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2226
 msgid "Add more support for <link> elements, especially for navigation bars."
-msgstr ""
+msgstr "Add more support for <link> elements, especially for navigation bars."
 
 #: ../../source/dev/todo.rst:2229
 msgid ""
@@ -3214,7 +3214,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2246
 msgid "PEP/HTML Writer"
-msgstr ""
+msgstr "PEP/HTML Writer"
 
 #: ../../source/dev/todo.rst:2248
 msgid ""
@@ -3230,11 +3230,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2257
 msgid "S5/HTML Writer"
-msgstr ""
+msgstr "S5/HTML Writer"
 
 #: ../../source/dev/todo.rst:2259
 msgid "Add a way to begin an untitled slide."
-msgstr ""
+msgstr "Add a way to begin an untitled slide."
 
 #: ../../source/dev/todo.rst:2261
 msgid ""
@@ -3264,7 +3264,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2276
 msgid "Add a command-line option to disable advance-on-click."
-msgstr ""
+msgstr "Add a command-line option to disable advance-on-click."
 
 #: ../../source/dev/todo.rst:2278
 msgid ""
@@ -3292,7 +3292,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2293
 msgid "The speaker's notes could (should?) be separate from S5's handout content."
-msgstr ""
+msgstr "The speaker's notes could (should?) be separate from S5's handout content."
 
 #: ../../source/dev/todo.rst:2296
 msgid ""
@@ -3309,7 +3309,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2303
 msgid "TOC would have to be tightly formatted -- minimal indentation."
-msgstr ""
+msgstr "TOC would have to be tightly formatted -- minimal indentation."
 
 #: ../../source/dev/todo.rst:2305
 msgid ""
@@ -3328,11 +3328,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2315
 msgid "Epub/HTML Writer"
-msgstr ""
+msgstr "Epub/HTML Writer"
 
 #: ../../source/dev/todo.rst:2317
 msgid "Add epub as an output format."
-msgstr ""
+msgstr "Add epub as an output format."
 
 #: ../../source/dev/todo.rst:2319
 msgid ""
@@ -3355,35 +3355,35 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2336
 msgid "LaTeX writer"
-msgstr ""
+msgstr "LaTeX writer"
 
 #: ../../source/dev/todo.rst:2338
 msgid "Also see the Problems__ section in the `latex writer documentation`_."
-msgstr ""
+msgstr "Also see the Problems__ section in the `latex writer documentation`_."
 
 #: ../../source/dev/todo.rst:2348
 msgid "Bug fixes"
-msgstr ""
+msgstr "Bug fixes"
 
 #: ../../source/dev/todo.rst:2350
 msgid "Too deeply nested lists fail: generate a warning and provide a workaround."
-msgstr ""
+msgstr "Too deeply nested lists fail: generate a warning and provide a workaround."
 
 #: ../../source/dev/todo.rst:2353
 msgid "2017-02-09 this is fixed for enumeration in 0.13.1"
-msgstr ""
+msgstr "2017-02-09 this is fixed for enumeration in 0.13.1"
 
 #: ../../source/dev/todo.rst:2355
 msgid "for others, cf. sandbox/latex-variants/tests/rst-levels.txt"
-msgstr ""
+msgstr "for others, cf. sandbox/latex-variants/tests/rst-levels.txt"
 
 #: ../../source/dev/todo.rst:2357
 msgid "File names of included graphics (see also `grffile` package)."
-msgstr ""
+msgstr "File names of included graphics (see also `grffile` package)."
 
 #: ../../source/dev/todo.rst:2359
 msgid "Paragraph following field-list or table in compound is indented."
-msgstr ""
+msgstr "Paragraph following field-list or table in compound is indented."
 
 #: ../../source/dev/todo.rst:2361
 msgid ""
@@ -3394,95 +3394,95 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2368
 msgid "Generate clean and configurable LaTeX source"
-msgstr ""
+msgstr "Generate clean and configurable LaTeX source"
 
 #: ../../source/dev/todo.rst:2370
 msgid "Check the generated source with package `nag`."
-msgstr ""
+msgstr "Check the generated source with package `nag`."
 
 #: ../../source/dev/todo.rst:2373
 msgid "Configurable placement of figure and table floats"
-msgstr ""
+msgstr "Configurable placement of figure and table floats"
 
 #: ../../source/dev/todo.rst:2375
 msgid "Special class argument to individually place figures?"
-msgstr ""
+msgstr "Special class argument to individually place figures?"
 
 #: ../../source/dev/todo.rst:2377
 msgid "Either:"
-msgstr ""
+msgstr "Either:"
 
 #: ../../source/dev/todo.rst:2379
 msgid "placement-<optional arg>  -> \\figure[<optional arg>]{...}"
-msgstr ""
+msgstr "placement-<optional arg>  -> \\figure[<optional arg>]{...}"
 
 #: ../../source/dev/todo.rst:2381
 msgid "e.g. ``.. class::  placement-htb``,"
-msgstr ""
+msgstr "e.g. ``.. class::  placement-htb``,"
 
 #: ../../source/dev/todo.rst:2383
 msgid "or more verbose:"
-msgstr ""
+msgstr "or more verbose:"
 
 #: ../../source/dev/todo.rst
 msgid "H"
-msgstr ""
+msgstr "H"
 
 #: ../../source/dev/todo.rst:2385
 msgid "place-here"
-msgstr ""
+msgstr "place-here"
 
 #: ../../source/dev/todo.rst
 msgid "h"
-msgstr ""
+msgstr "h"
 
 #: ../../source/dev/todo.rst:2386
 msgid "place-here-if-possible"
-msgstr ""
+msgstr "place-here-if-possible"
 
 #: ../../source/dev/todo.rst
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: ../../source/dev/todo.rst:2387
 msgid "place-top"
-msgstr ""
+msgstr "place-top"
 
 #: ../../source/dev/todo.rst
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #: ../../source/dev/todo.rst:2388
 msgid "place-bottom"
-msgstr ""
+msgstr "place-bottom"
 
 #: ../../source/dev/todo.rst
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #: ../../source/dev/todo.rst:2389
 msgid "place-on-extra-page"
-msgstr ""
+msgstr "place-on-extra-page"
 
 #: ../../source/dev/todo.rst:2391
 msgid "e.g.: ``.. class:: place-here-if-possible place-top place-bottom``"
-msgstr ""
+msgstr "e.g.: ``.. class:: place-here-if-possible place-top place-bottom``"
 
 #: ../../source/dev/todo.rst:2393
 msgid "Maybe support both variants?"
-msgstr ""
+msgstr "Maybe support both variants?"
 
 #: ../../source/dev/todo.rst:2397
 msgid "LaTeX constructs and packages instead of re-implementations"
-msgstr ""
+msgstr "LaTeX constructs and packages instead of re-implementations"
 
 #: ../../source/dev/todo.rst:2399
 msgid "Which packages do we want to use?"
-msgstr ""
+msgstr "Which packages do we want to use?"
 
 #: ../../source/dev/todo.rst:2401
 msgid "base and \"recommended\" packages"
-msgstr ""
+msgstr "base and \"recommended\" packages"
 
 #: ../../source/dev/todo.rst:2403
 msgid ""
@@ -3493,7 +3493,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2407
 msgid "No \"fancy\" or \"exotic\" requirements."
-msgstr ""
+msgstr "No \"fancy\" or \"exotic\" requirements."
 
 #: ../../source/dev/todo.rst:2409
 msgid ""
@@ -3503,7 +3503,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2412
 msgid "footnotes"
-msgstr ""
+msgstr "footnotes"
 
 #: ../../source/dev/todo.rst:2414
 msgid ""
@@ -3513,11 +3513,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2417
 msgid "attach footnote text to footnote-symobol node"
-msgstr ""
+msgstr "attach footnote text to footnote-symobol node"
 
 #: ../../source/dev/todo.rst:2418
 msgid "write \\footnote{<footnote text>}"
-msgstr ""
+msgstr "write \\footnote{<footnote text>}"
 
 #: ../../source/dev/todo.rst:2419
 msgid ""
@@ -3527,15 +3527,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2421
 msgid "consider multiple footnote refs to common footnote text."
-msgstr ""
+msgstr "consider multiple footnote refs to common footnote text."
 
 #: ../../source/dev/todo.rst:2435
 msgid "document customization (links to how-to and packages):"
-msgstr ""
+msgstr "document customization (links to how-to and packages):"
 
 #: ../../source/dev/todo.rst:2491
 msgid "use `eqlist` or `enumitem` (texlive-latex-extra) for field-lists?"
-msgstr ""
+msgstr "use `eqlist` or `enumitem` (texlive-latex-extra) for field-lists?"
 
 #: ../../source/dev/todo.rst:2493
 msgid ""
@@ -3545,11 +3545,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2507
 msgid "Default layout"
-msgstr ""
+msgstr "Default layout"
 
 #: ../../source/dev/todo.rst:2509
 msgid "Use italic instead of slanted for titlereference?"
-msgstr ""
+msgstr "Use italic instead of slanted for titlereference?"
 
 #: ../../source/dev/todo.rst:2511
 msgid ""
@@ -3559,15 +3559,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2514
 msgid "Overriding:"
-msgstr ""
+msgstr "Overriding:"
 
 #: ../../source/dev/todo.rst:2516
 msgid "continue if the `compound paragraph`_ directive is used (as currently), or"
-msgstr ""
+msgstr "continue if the `compound paragraph`_ directive is used (as currently), or"
 
 #: ../../source/dev/todo.rst:2518
 msgid "force a new paragraph with an empty comment."
-msgstr ""
+msgstr "force a new paragraph with an empty comment."
 
 #: ../../source/dev/todo.rst:2520
 msgid ""
@@ -3577,11 +3577,11 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2523
 msgid "Use optionlist for docinfo?"
-msgstr ""
+msgstr "Use optionlist for docinfo?"
 
 #: ../../source/dev/todo.rst:2525
 msgid "Keep literal-blocks together on a page, avoid pagebreaks."
-msgstr ""
+msgstr "Keep literal-blocks together on a page, avoid pagebreaks."
 
 #: ../../source/dev/todo.rst:2527
 msgid ""
@@ -3597,19 +3597,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2533
 msgid "More space between title and subtitle? ::"
-msgstr ""
+msgstr "More space between title and subtitle? ::"
 
 #: ../../source/dev/todo.rst:2546
 msgid "Tables"
-msgstr ""
+msgstr "Tables"
 
 #: ../../source/dev/todo.rst:2548
 msgid "Improve/simplify logic to set the column width in the output."
-msgstr ""
+msgstr "Improve/simplify logic to set the column width in the output."
 
 #: ../../source/dev/todo.rst:2550
 msgid "Assumed reST line length for table width setting configurable, or"
-msgstr ""
+msgstr "Assumed reST line length for table width setting configurable, or"
 
 #: ../../source/dev/todo.rst:2551
 msgid ""
@@ -3619,15 +3619,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2553
 msgid "use tabularx column type ``X`` and let LaTeX decide width, or"
-msgstr ""
+msgstr "use tabularx column type ``X`` and let LaTeX decide width, or"
 
 #: ../../source/dev/todo.rst:2554
 msgid "use tabulary_?"
-msgstr ""
+msgstr "use tabulary_?"
 
 #: ../../source/dev/todo.rst:2559
 msgid "From comp.text.tex (13. 4. 2011):"
-msgstr ""
+msgstr "From comp.text.tex (13. 4. 2011):"
 
 #: ../../source/dev/todo.rst:2561
 msgid ""
@@ -3640,19 +3640,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2567
 msgid "csv-tables do not have a colwidth."
-msgstr ""
+msgstr "csv-tables do not have a colwidth."
 
 #: ../../source/dev/todo.rst:2569
 msgid "Add more classes or options, e.g. for"
-msgstr ""
+msgstr "Add more classes or options, e.g. for"
 
 #: ../../source/dev/todo.rst:2571
 msgid "horizontal alignment and rules."
-msgstr ""
+msgstr "horizontal alignment and rules."
 
 #: ../../source/dev/todo.rst:2572
 msgid "long table vs. tabular (see next item)."
-msgstr ""
+msgstr "long table vs. tabular (see next item)."
 
 #: ../../source/dev/todo.rst:2574
 msgid ""
@@ -3668,7 +3668,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2580
 msgid "Table heads and footer for longtable (firstpage lastpage ..)?"
-msgstr ""
+msgstr "Table heads and footer for longtable (firstpage lastpage ..)?"
 
 #: ../../source/dev/todo.rst:2582
 msgid ""
@@ -3684,7 +3684,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2588
 msgid "The strut solution did not work."
-msgstr ""
+msgstr "The strut solution did not work."
 
 #: ../../source/dev/todo.rst:2589
 msgid ""
@@ -3694,15 +3694,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2591
 msgid "baselineskip/stretch does not help."
-msgstr ""
+msgstr "baselineskip/stretch does not help."
 
 #: ../../source/dev/todo.rst:2593
 msgid "Should there be two hlines after table head and on table end?"
-msgstr ""
+msgstr "Should there be two hlines after table head and on table end?"
 
 #: ../../source/dev/todo.rst:2595
 msgid "Place titled tables in a float ('table' environment)?"
-msgstr ""
+msgstr "Place titled tables in a float ('table' environment)?"
 
 #: ../../source/dev/todo.rst:2597
 msgid ""
@@ -3713,23 +3713,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2602
 msgid "Image and figure directives"
-msgstr ""
+msgstr "Image and figure directives"
 
 #: ../../source/dev/todo.rst:2604
 msgid "compare the test case in:"
-msgstr ""
+msgstr "compare the test case in:"
 
 #: ../../source/dev/todo.rst:2606
 msgid "`<../../test/functional/input/data/standard.txt>`__"
-msgstr ""
+msgstr "`<../../test/functional/input/data/standard.txt>`__"
 
 #: ../../source/dev/todo.rst:2607
 msgid "`<../../test/functional/expected/standalone_rst_html4css1.html>`__"
-msgstr ""
+msgstr "`<../../test/functional/expected/standalone_rst_html4css1.html>`__"
 
 #: ../../source/dev/todo.rst:2608
 msgid "`<../../test/functional/expected/standalone_rst_latex.tex>`__"
-msgstr ""
+msgstr "`<../../test/functional/expected/standalone_rst_latex.tex>`__"
 
 #: ../../source/dev/todo.rst:2610
 msgid ""
@@ -3740,7 +3740,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2614
 msgid "Use this default also for LaTeX?"
-msgstr ""
+msgstr "Use this default also for LaTeX?"
 
 #: ../../source/dev/todo.rst:2616
 msgid ""
@@ -3750,7 +3750,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2619
 msgid "Use `wrapfig` (or other recommended) package."
-msgstr ""
+msgstr "Use `wrapfig` (or other recommended) package."
 
 #: ../../source/dev/todo.rst:2621
 msgid ""
@@ -3760,15 +3760,15 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2624
 msgid "There is a `SWF package`_ at CTAN."
-msgstr ""
+msgstr "There is a `SWF package`_ at CTAN."
 
 #: ../../source/dev/todo.rst:2631
 msgid "Missing features"
-msgstr ""
+msgstr "Missing features"
 
 #: ../../source/dev/todo.rst:2633
 msgid "support \"figwidth\" argument for figures."
-msgstr ""
+msgstr "support \"figwidth\" argument for figures."
 
 #: ../../source/dev/todo.rst:2635
 #, python-format
@@ -3780,7 +3780,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2640
 msgid "Let `meta` directive insert PDF-keywords into header?"
-msgstr ""
+msgstr "Let `meta` directive insert PDF-keywords into header?"
 
 #: ../../source/dev/todo.rst:2642
 msgid ""
@@ -3796,7 +3796,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2648
 msgid "Better citation support (see `Footnote & Citation Gathering`_)."
-msgstr ""
+msgstr "Better citation support (see `Footnote & Citation Gathering`_)."
 
 #: ../../source/dev/todo.rst:2651
 msgid ""
@@ -3812,7 +3812,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2659
 msgid "Unicode to LaTeX"
-msgstr ""
+msgstr "Unicode to LaTeX"
 
 #: ../../source/dev/todo.rst:2661
 msgid ""
@@ -3823,19 +3823,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2665
 msgid "Use this in the LaTeXTranslator? Think of copyright issues!"
-msgstr ""
+msgstr "Use this in the LaTeXTranslator? Think of copyright issues!"
 
 #: ../../source/dev/todo.rst:2668
 msgid "The \"ucs\" package has many translations in ...doc/latex/ucs/config/"
-msgstr ""
+msgstr "The \"ucs\" package has many translations in ...doc/latex/ucs/config/"
 
 #: ../../source/dev/todo.rst:2670
 msgid "The bibstuff_ tool ships a `latex_codec` Python module!"
-msgstr ""
+msgstr "The bibstuff_ tool ships a `latex_codec` Python module!"
 
 #: ../../source/dev/todo.rst:2675
 msgid "Allow choice between utf8 (standard) and utf8x (extended) encodings"
-msgstr ""
+msgstr "Allow choice between utf8 (standard) and utf8x (extended) encodings"
 
 #: ../../source/dev/todo.rst:2677
 msgid ""
@@ -3864,7 +3864,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2692
 msgid "XeTeX writer"
-msgstr ""
+msgstr "XeTeX writer"
 
 #: ../../source/dev/todo.rst:2694
 msgid ""
@@ -3880,7 +3880,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2702
 msgid "problematic URLs"
-msgstr ""
+msgstr "problematic URLs"
 
 #: ../../source/dev/todo.rst:2704
 msgid ""
@@ -3890,52 +3890,52 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2707
 msgid "`file with ^^ <../strange^^name>`__: `<../strange^^name>`__"
-msgstr ""
+msgstr "`file with ^^ <../strange^^name>`__: `<../strange^^name>`__"
 
 #: ../../source/dev/todo.rst:2710
 msgid "Unbalanced braces, { or }, will fail (both with \\href and \\url)::"
-msgstr ""
+msgstr "Unbalanced braces, { or }, will fail (both with \\href and \\url)::"
 
 #: ../../source/dev/todo.rst:2715
 msgid "Currently, a warning is written to the error output stream."
-msgstr ""
+msgstr "Currently, a warning is written to the error output stream."
 
 #: ../../source/dev/todo.rst:2717
 msgid "For correct printing, we can"
-msgstr ""
+msgstr "For correct printing, we can"
 
 #: ../../source/dev/todo.rst:2719
 msgid "use the \\href command with \"normal\" escaped name argument, or"
-msgstr ""
+msgstr "use the \\href command with \"normal\" escaped name argument, or"
 
 #: ../../source/dev/todo.rst:2720
 msgid "define a url-command in the preamble ::"
-msgstr ""
+msgstr "define a url-command in the preamble ::"
 
 #: ../../source/dev/todo.rst:2724
 msgid "but need to find a way to insert it as href argument."
-msgstr ""
+msgstr "but need to find a way to insert it as href argument."
 
 #: ../../source/dev/todo.rst:2726
 msgid "The following fails::"
-msgstr ""
+msgstr "The following fails::"
 
 #: ../../source/dev/todo.rst:2730
 #, python-format
 msgid "Use %-replacement like http://nowhere/url_with%28parens%29 ?"
-msgstr ""
+msgstr "Use %-replacement like http://nowhere/url_with%28parens%29 ?"
 
 #: ../../source/dev/todo.rst:2732
 msgid "-> does not work for file paths (with pdflatex and xpdf)."
-msgstr ""
+msgstr "-> does not work for file paths (with pdflatex and xpdf)."
 
 #: ../../source/dev/todo.rst:2736
 msgid "add-stylesheet option"
-msgstr ""
+msgstr "add-stylesheet option"
 
 #: ../../source/dev/todo.rst:2738
 msgid "From http://article.gmane.org/gmane.text.docutils.devel/3429/"
-msgstr ""
+msgstr "From http://article.gmane.org/gmane.text.docutils.devel/3429/"
 
 #: ../../source/dev/todo.rst:2740
 msgid ""
@@ -3952,19 +3952,19 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2750
 msgid "For example, this run will have only one custom stylesheet:"
-msgstr ""
+msgstr "For example, this run will have only one custom stylesheet:"
 
 #: ../../source/dev/todo.rst:2752
 msgid "rstpep2html.py --stylesheet-path custom.css ..."
-msgstr ""
+msgstr "rstpep2html.py --stylesheet-path custom.css ..."
 
 #: ../../source/dev/todo.rst:2754
 msgid "This run will use the default stylesheet, and the custom one:"
-msgstr ""
+msgstr "This run will use the default stylesheet, and the custom one:"
 
 #: ../../source/dev/todo.rst:2756
 msgid "rstpep2html.py --add-stylesheet-path custom.css ..."
-msgstr ""
+msgstr "rstpep2html.py --add-stylesheet-path custom.css ..."
 
 #: ../../source/dev/todo.rst:2758
 msgid ""
@@ -3974,23 +3974,23 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2762 ../../source/dev/todo.rst:2770
 msgid "rstpep2html.py --add-stylesheet-path custom.css \\"
-msgstr ""
+msgstr "rstpep2html.py --add-stylesheet-path custom.css \\"
 
 #: ../../source/dev/todo.rst:2762
 msgid "--add-stylesheet http://www.example.org/external.css ..."
-msgstr ""
+msgstr "--add-stylesheet http://www.example.org/external.css ..."
 
 #: ../../source/dev/todo.rst:2764
 msgid "This run will use only the second custom stylesheet:"
-msgstr ""
+msgstr "This run will use only the second custom stylesheet:"
 
 #: ../../source/dev/todo.rst:2767
 msgid "--stylesheet-path second.css ..."
-msgstr ""
+msgstr "--stylesheet-path second.css ..."
 
 #: ../../source/dev/todo.rst:2773
 msgid "Front-End Tools"
-msgstr ""
+msgstr "Front-End Tools"
 
 #: ../../source/dev/todo.rst:2775
 msgid ""
@@ -4001,7 +4001,7 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2779
 msgid "Perhaps have different types of front ends:"
-msgstr ""
+msgstr "Perhaps have different types of front ends:"
 
 #: ../../source/dev/todo.rst:2781
 msgid ""
@@ -4066,5 +4066,5 @@ msgstr ""
 
 #: ../../source/dev/todo.rst:2822
 msgid "Create a single dynamic_ or unqualified_ front end that can be installed?"
-msgstr ""
+msgstr "Create a single dynamic_ or unqualified_ front end that can be installed?"
 

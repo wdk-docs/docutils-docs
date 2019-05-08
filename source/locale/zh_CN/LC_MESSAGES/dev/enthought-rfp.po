@@ -20,43 +20,43 @@ msgstr ""
 
 #: ../../source/dev/enthought-rfp.rst:3
 msgid "Enthought API Documentation Tool"
-msgstr ""
+msgstr "Enthought API文档工具"
 
 #: ../../source/dev/enthought-rfp.rst:6
 msgid "Request for Proposals"
-msgstr ""
+msgstr "Request for Proposals"
 
 #: ../../source/dev/enthought-rfp.rst ../../source/dev/enthought-rfp.rst:122
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/dev/enthought-rfp.rst:8
 msgid "Janet Swisher, Senior Technical Writer"
-msgstr ""
+msgstr "Janet Swisher, Senior Technical Writer"
 
 #: ../../source/dev/enthought-rfp.rst
 msgid "Organization"
-msgstr ""
+msgstr "Organization"
 
 #: ../../source/dev/enthought-rfp.rst:9
 msgid "`Enthought, Inc. <http://www.enthought.com>`_"
-msgstr ""
+msgstr "`Enthought, Inc. <http://www.enthought.com>`_"
 
 #: ../../source/dev/enthought-rfp.rst ../../source/dev/enthought-rfp.rst:123
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/dev/enthought-rfp.rst:10
 msgid "2004 by Enthought, Inc."
-msgstr ""
+msgstr "2004 by Enthought, Inc."
 
 #: ../../source/dev/enthought-rfp.rst ../../source/dev/enthought-rfp.rst:143
 msgid "License"
-msgstr ""
+msgstr "License"
 
 #: ../../source/dev/enthought-rfp.rst:11
 msgid "`Enthought License`_ (BSD Style)"
-msgstr ""
+msgstr "`Enthought License`_ (BSD Style)"
 
 #: ../../source/dev/enthought-rfp.rst:15
 msgid ""
@@ -67,19 +67,19 @@ msgstr ""
 
 #: ../../source/dev/enthought-rfp.rst:20
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/dev/enthought-rfp.rst:26
 msgid "Requirements"
-msgstr ""
+msgstr "Requirements"
 
 #: ../../source/dev/enthought-rfp.rst:28
 msgid "The documentation tool will address the following high-level goals:"
-msgstr ""
+msgstr "The documentation tool will address the following high-level goals:"
 
 #: ../../source/dev/enthought-rfp.rst:32
 msgid "Documentation Extraction"
-msgstr ""
+msgstr "Documentation Extraction"
 
 #: ../../source/dev/enthought-rfp.rst:34
 msgid ""
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../source/dev/enthought-rfp.rst:45
 msgid "Source Format"
-msgstr ""
+msgstr "Source Format"
 
 #: ../../source/dev/enthought-rfp.rst:47
 msgid ""
@@ -123,11 +123,11 @@ msgstr ""
 
 #: ../../source/dev/enthought-rfp.rst:79
 msgid "Output Format"
-msgstr ""
+msgstr "Output Format"
 
 #: ../../source/dev/enthought-rfp.rst:81
 msgid "Documentation will be output as a navigable suite of HTML files."
-msgstr ""
+msgstr "Documentation will be output as a navigable suite of HTML files."
 
 #: ../../source/dev/enthought-rfp.rst:84
 msgid ""
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../source/dev/enthought-rfp.rst:93
 msgid "Output Structure and Navigation"
-msgstr ""
+msgstr "Output Structure and Navigation"
 
 #: ../../source/dev/enthought-rfp.rst:95
 msgid ""
@@ -185,27 +185,27 @@ msgstr ""
 
 #: ../../source/dev/enthought-rfp.rst:120
 msgid "Bibliographic information"
-msgstr ""
+msgstr "Bibliographic information"
 
 #: ../../source/dev/enthought-rfp.rst:124
 msgid "Release date"
-msgstr ""
+msgstr "Release date"
 
 #: ../../source/dev/enthought-rfp.rst:125
 msgid "Version number"
-msgstr ""
+msgstr "Version number"
 
 #: ../../source/dev/enthought-rfp.rst:127
 msgid "Abstract"
-msgstr ""
+msgstr "Abstract"
 
 #: ../../source/dev/enthought-rfp.rst:129
 msgid "References"
-msgstr ""
+msgstr "References"
 
 #: ../../source/dev/enthought-rfp.rst:131
 msgid "Links to related internal docs (i.e., other docs for the same product)"
-msgstr ""
+msgstr "Links to related internal docs (i.e., other docs for the same product)"
 
 #: ../../source/dev/enthought-rfp.rst:134
 msgid ""

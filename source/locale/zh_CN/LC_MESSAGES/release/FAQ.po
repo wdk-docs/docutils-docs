@@ -20,43 +20,43 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:10
 msgid "Docutils FAQ (Frequently Asked Questions)"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/release/FAQ.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/release/FAQ.rst:12
 msgid "$Date: 2016-02-26 22:40:17 +0100 (Fr, 26. Feb 2016) $"
-msgstr ""
+msgstr "$Date: 2016-02-26 22:40:17 +0100 (Fr, 26. Feb 2016) $"
 
 #: ../../source/release/FAQ.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/release/FAQ.rst:13
 msgid "$Revision: 7934 $"
-msgstr ""
+msgstr "$Revision: 7934 $"
 
 #: ../../source/release/FAQ.rst
 msgid "Web site"
-msgstr ""
+msgstr "Web site"
 
 #: ../../source/release/FAQ.rst:14
 msgid "http://docutils.sourceforge.net/"
-msgstr ""
+msgstr "http://docutils.sourceforge.net/"
 
 #: ../../source/release/FAQ.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/release/FAQ.rst:15
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/release/FAQ.rst:16
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/release/FAQ.rst:21
 msgid ""
@@ -74,11 +74,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:36
 msgid "Docutils"
-msgstr ""
+msgstr "Docutils"
 
 #: ../../source/release/FAQ.rst:39
 msgid "What is Docutils?"
-msgstr ""
+msgstr "What is Docutils?"
 
 #: ../../source/release/FAQ.rst:41
 msgid ""
@@ -91,11 +91,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:48
 msgid "The Docutils distribution consists of:"
-msgstr ""
+msgstr "The Docutils distribution consists of:"
 
 #: ../../source/release/FAQ.rst:50
 msgid "a library (the \"docutils\" package), which `can be used by client code`_;"
-msgstr ""
+msgstr "a library (the \"docutils\" package), which `can be used by client code`_;"
 
 #: ../../source/release/FAQ.rst:52
 msgid ""
@@ -105,11 +105,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:54
 msgid "a `test suite`_; and"
-msgstr ""
+msgstr "a `test suite`_; and"
 
 #: ../../source/release/FAQ.rst:55
 msgid "extensive documentation_."
-msgstr ""
+msgstr "extensive documentation_."
 
 #: ../../source/release/FAQ.rst:57
 msgid ""
@@ -119,11 +119,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:60
 msgid "Docutils is implemented in Python_."
-msgstr ""
+msgstr "Docutils is implemented in Python_."
 
 #: ../../source/release/FAQ.rst:74
 msgid "Why is it called \"Docutils\"?"
-msgstr ""
+msgstr "Why is it called \"Docutils\"?"
 
 #: ../../source/release/FAQ.rst:76
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:109
 msgid "Is there a GUI authoring environment for Docutils?"
-msgstr ""
+msgstr "Is there a GUI authoring environment for Docutils?"
 
 #: ../../source/release/FAQ.rst:111
 msgid ""
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:119
 msgid "What is the status of the Docutils project?"
-msgstr ""
+msgstr "What is the status of the Docutils project?"
 
 #: ../../source/release/FAQ.rst:121
 msgid ""
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:130
 msgid "What is the Docutils project release policy?"
-msgstr ""
+msgstr "What is the Docutils project release policy?"
 
 #: ../../source/release/FAQ.rst:132
 msgid ""
@@ -206,11 +206,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:143
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../source/release/FAQ.rst:146
 msgid "What is reStructuredText?"
-msgstr ""
+msgstr "What is reStructuredText?"
 
 #: ../../source/release/FAQ.rst:148
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:173
 msgid "Why is it called \"reStructuredText\"?"
-msgstr ""
+msgstr "Why is it called \"reStructuredText\"?"
 
 #: ../../source/release/FAQ.rst:175
 msgid ""
@@ -250,11 +250,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:181
 msgid "\"reStructuredText\" is **ONE** word, *not two!*"
-msgstr ""
+msgstr "\"reStructuredText\" is **ONE** word, *not two!*"
 
 #: ../../source/release/FAQ.rst:185
 msgid "What's the standard abbreviation for \"reStructuredText\"?"
-msgstr ""
+msgstr "What's the standard abbreviation for \"reStructuredText\"?"
 
 #: ../../source/release/FAQ.rst:187
 msgid ""
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:199
 msgid "What's the standard filename extension for a reStructuredText file?"
-msgstr ""
+msgstr "What's the standard filename extension for a reStructuredText file?"
 
 #: ../../source/release/FAQ.rst:201
 msgid ""
@@ -286,19 +286,19 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:208
 msgid "Also see `What's the official MIME type for reStructuredText data?`_"
-msgstr ""
+msgstr "Also see `What's the official MIME type for reStructuredText data?`_"
 
 #: ../../source/release/FAQ.rst:212
 msgid "Are there any reStructuredText editor extensions?"
-msgstr ""
+msgstr "Are there any reStructuredText editor extensions?"
 
 #: ../../source/release/FAQ.rst:214
 msgid "See `Editor Support for reStructuredText`__."
-msgstr ""
+msgstr "See `Editor Support for reStructuredText`__."
 
 #: ../../source/release/FAQ.rst:220
 msgid "How can I indicate the document title?  Subtitle?"
-msgstr ""
+msgstr "How can I indicate the document title?  Subtitle?"
 
 #: ../../source/release/FAQ.rst:222
 msgid ""
@@ -310,11 +310,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:235
 msgid "Counterexample::"
-msgstr ""
+msgstr "Counterexample::"
 
 #: ../../source/release/FAQ.rst:245
 msgid "Another counterexample::"
-msgstr ""
+msgstr "Another counterexample::"
 
 #: ../../source/release/FAQ.rst:259
 msgid ""
@@ -393,7 +393,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:331
 msgid "How can I generate backticks using a Scandinavian keyboard?"
-msgstr ""
+msgstr "How can I generate backticks using a Scandinavian keyboard?"
 
 #: ../../source/release/FAQ.rst:333
 msgid ""
@@ -412,7 +412,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:342
 msgid "Possible solutions include"
-msgstr ""
+msgstr "Possible solutions include"
 
 #: ../../source/release/FAQ.rst:344
 msgid ""
@@ -423,7 +423,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:348
 msgid "Use keyboard macros."
-msgstr ""
+msgstr "Use keyboard macros."
 
 #: ../../source/release/FAQ.rst:350
 msgid ""
@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:354
 msgid "According to Axel Kollmorgen,"
-msgstr ""
+msgstr "According to Axel Kollmorgen,"
 
 #: ../../source/release/FAQ.rst:356
 msgid ""
@@ -451,7 +451,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:367
 msgid "Use a virtual/screen keyboard or character palette, such as:"
-msgstr ""
+msgstr "Use a virtual/screen keyboard or character palette, such as:"
 
 #: ../../source/release/FAQ.rst:369
 msgid ""
@@ -461,7 +461,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:371
 msgid "Windows: `Click-N-Type <http://www.lakefolks.org/cnt/>`__."
-msgstr ""
+msgstr "Windows: `Click-N-Type <http://www.lakefolks.org/cnt/>`__."
 
 #: ../../source/release/FAQ.rst:372
 msgid ""
@@ -473,11 +473,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:377
 msgid "If anyone knows of other/better solutions, please `let us know`_."
-msgstr ""
+msgstr "If anyone knows of other/better solutions, please `let us know`_."
 
 #: ../../source/release/FAQ.rst:381
 msgid "Are there any tools for HTML/XML-to-reStructuredText?  (Round-tripping)"
-msgstr ""
+msgstr "Are there any tools for HTML/XML-to-reStructuredText?  (Round-tripping)"
 
 #: ../../source/release/FAQ.rst:383
 msgid ""
@@ -509,7 +509,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:405
 msgid "Are there any Wikis that use reStructuredText syntax?"
-msgstr ""
+msgstr "Are there any Wikis that use reStructuredText syntax?"
 
 #: ../../source/release/FAQ.rst:407
 msgid ""
@@ -531,15 +531,15 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:416
 msgid "Zope-based `Zwiki <http://zwiki.org/>`__"
-msgstr ""
+msgstr "Zope-based `Zwiki <http://zwiki.org/>`__"
 
 #: ../../source/release/FAQ.rst:418
 msgid "Zope3-based Zwiki (in the Zope 3 source tree as ``zope.products.zwiki``)"
-msgstr ""
+msgstr "Zope3-based Zwiki (in the Zope 3 source tree as ``zope.products.zwiki``)"
 
 #: ../../source/release/FAQ.rst:421
 msgid "`StikiWiki <http://mithrandr.moria.org/code/stikiwiki/>`__"
-msgstr ""
+msgstr "`StikiWiki <http://mithrandr.moria.org/code/stikiwiki/>`__"
 
 #: ../../source/release/FAQ.rst:423
 msgid ""
@@ -553,27 +553,27 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:431
 msgid "Please `let us know`_ of any other reStructuredText Wikis."
-msgstr ""
+msgstr "Please `let us know`_ of any other reStructuredText Wikis."
 
 #: ../../source/release/FAQ.rst:440
 msgid "Are there any Weblog (Blog) projects that use reStructuredText syntax?"
-msgstr ""
+msgstr "Are there any Weblog (Blog) projects that use reStructuredText syntax?"
 
 #: ../../source/release/FAQ.rst:442
 msgid "With no implied endorsement or recommendation, and in no particular order:"
-msgstr ""
+msgstr "With no implied endorsement or recommendation, and in no particular order:"
 
 #: ../../source/release/FAQ.rst:445
 msgid "`Firedrop <http://www.voidspace.org.uk/python/firedrop2/>`__"
-msgstr ""
+msgstr "`Firedrop <http://www.voidspace.org.uk/python/firedrop2/>`__"
 
 #: ../../source/release/FAQ.rst:446
 msgid "`PyBloxsom <http://pyblosxom.sourceforge.net/>`__"
-msgstr ""
+msgstr "`PyBloxsom <http://pyblosxom.sourceforge.net/>`__"
 
 #: ../../source/release/FAQ.rst:447
 msgid "`Lino WebMan <http://lino.sourceforge.net/webman.html>`__"
-msgstr ""
+msgstr "`Lino WebMan <http://lino.sourceforge.net/webman.html>`__"
 
 #: ../../source/release/FAQ.rst:448
 msgid ""
@@ -583,11 +583,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:451
 msgid "Please `let us know`_ of any other reStructuredText Blogs."
-msgstr ""
+msgstr "Please `let us know`_ of any other reStructuredText Blogs."
 
 #: ../../source/release/FAQ.rst:457
 msgid "How should I mark up lists?"
-msgstr ""
+msgstr "How should I mark up lists?"
 
 #: ../../source/release/FAQ.rst:459
 msgid ""
@@ -597,11 +597,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:465
 msgid "Lists should **not** be indented.  This is correct::"
-msgstr ""
+msgstr "Lists should **not** be indented.  This is correct::"
 
 #: ../../source/release/FAQ.rst:476
 msgid "while this is probably incorrect::"
-msgstr ""
+msgstr "while this is probably incorrect::"
 
 #: ../../source/release/FAQ.rst:487
 msgid ""
@@ -627,7 +627,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:502
 msgid "Could lists be indented without generating block quotes?"
-msgstr ""
+msgstr "Could lists be indented without generating block quotes?"
 
 #: ../../source/release/FAQ.rst:504
 msgid ""
@@ -640,11 +640,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:514
 msgid "Could the requirement for blank lines around lists be relaxed?"
-msgstr ""
+msgstr "Could the requirement for blank lines around lists be relaxed?"
 
 #: ../../source/release/FAQ.rst:516
 msgid "Short answer: no."
-msgstr ""
+msgstr "Short answer: no."
 
 #: ../../source/release/FAQ.rst:518
 msgid ""
@@ -661,15 +661,15 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:530
 msgid "How can I include mathematical equations in documents?"
-msgstr ""
+msgstr "How can I include mathematical equations in documents?"
 
 #: ../../source/release/FAQ.rst:532
 msgid "Use the `math directive`_ and `math role`_, available since Docutils 0.8."
-msgstr ""
+msgstr "Use the `math directive`_ and `math role`_, available since Docutils 0.8."
 
 #: ../../source/release/FAQ.rst:539
 msgid "Is nested inline markup possible?"
-msgstr ""
+msgstr "Is nested inline markup possible?"
 
 #: ../../source/release/FAQ.rst:541
 msgid ""
@@ -705,11 +705,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:581
 msgid "Raw LaTeX is supported for LaTeX output, etc."
-msgstr ""
+msgstr "Raw LaTeX is supported for LaTeX output, etc."
 
 #: ../../source/release/FAQ.rst:587
 msgid "How to indicate a line break or a significant newline?"
-msgstr ""
+msgstr "How to indicate a line break or a significant newline?"
 
 #: ../../source/release/FAQ.rst:589
 msgid ""
@@ -727,7 +727,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:623
 msgid "A URL containing asterisks doesn't work.  What to do?"
-msgstr ""
+msgstr "A URL containing asterisks doesn't work.  What to do?"
 
 #: ../../source/release/FAQ.rst:625
 msgid ""
@@ -751,15 +751,15 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:645
 msgid "Escaping the second asterisk doesn't hurt, but it isn't necessary."
-msgstr ""
+msgstr "Escaping the second asterisk doesn't hurt, but it isn't necessary."
 
 #: ../../source/release/FAQ.rst:649
 msgid "How can I make a literal block with *some* formatting?"
-msgstr ""
+msgstr "How can I make a literal block with *some* formatting?"
 
 #: ../../source/release/FAQ.rst:651
 msgid "Use the `parsed-literal`_ directive."
-msgstr ""
+msgstr "Use the `parsed-literal`_ directive."
 
 #: ../../source/release/FAQ.rst:655
 msgid ""
@@ -777,7 +777,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:669
 msgid "Can reStructuredText be used for web or generic templating?"
-msgstr ""
+msgstr "Can reStructuredText be used for web or generic templating?"
 
 #: ../../source/release/FAQ.rst:671
 msgid ""
@@ -808,11 +808,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:699
 msgid "How can I mark up a FAQ or other list of questions & answers?"
-msgstr ""
+msgstr "How can I mark up a FAQ or other list of questions & answers?"
 
 #: ../../source/release/FAQ.rst:701
 msgid "There is no specific syntax for FAQs and Q&A lists.  Here are two options:"
-msgstr ""
+msgstr "There is no specific syntax for FAQs and Q&A lists.  Here are two options:"
 
 #: ../../source/release/FAQ.rst:704
 msgid ""
@@ -833,55 +833,55 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:716
 msgid "Field lists work well as Q&A lists::"
-msgstr ""
+msgstr "Field lists work well as Q&A lists::"
 
 #: ../../source/release/FAQ.rst:723
 msgid "In order to separate questions, lists can be used:"
-msgstr ""
+msgstr "In order to separate questions, lists can be used:"
 
 #: ../../source/release/FAQ.rst
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../../source/release/FAQ.rst:725
 msgid "What kind of question can we put here?"
-msgstr ""
+msgstr "What kind of question can we put here?"
 
 #: ../../source/release/FAQ.rst
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/release/FAQ.rst:727
 msgid "Any kind we like!"
-msgstr ""
+msgstr "Any kind we like!"
 
 #: ../../source/release/FAQ.rst:729
 msgid "How many answers can a question have?"
-msgstr ""
+msgstr "How many answers can a question have?"
 
 #: ../../source/release/FAQ.rst:730
 msgid "It can have one,"
-msgstr ""
+msgstr "It can have one,"
 
 #: ../../source/release/FAQ.rst:731
 msgid "or more."
-msgstr ""
+msgstr "or more."
 
 #: ../../source/release/FAQ.rst
 msgid "A3"
-msgstr ""
+msgstr "A3"
 
 #: ../../source/release/FAQ.rst:732
 msgid "Answers can be numbered like this."
-msgstr ""
+msgstr "Answers can be numbered like this."
 
 #: ../../source/release/FAQ.rst:733
 msgid "Or like this."
-msgstr ""
+msgstr "Or like this."
 
 #: ../../source/release/FAQ.rst:734
 msgid "We're flexible!"
-msgstr ""
+msgstr "We're flexible!"
 
 #: ../../source/release/FAQ.rst:736
 msgid ""
@@ -891,7 +891,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:752
 msgid "Can I produce documents in right-to-left languages?"
-msgstr ""
+msgstr "Can I produce documents in right-to-left languages?"
 
 #: ../../source/release/FAQ.rst:754
 msgid ""
@@ -933,7 +933,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:782
 msgid "Use ``rst2html_hibidi.py`` instead of ``rst2html.py``."
-msgstr ""
+msgstr "Use ``rst2html_hibidi.py`` instead of ``rst2html.py``."
 
 #: ../../source/release/FAQ.rst:784
 msgid ""
@@ -975,11 +975,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:826
 msgid "or::"
-msgstr ""
+msgstr "or::"
 
 #: ../../source/release/FAQ.rst:830
 msgid "before it (see the class_ directive for details)."
-msgstr ""
+msgstr "before it (see the class_ directive for details)."
 
 #: ../../source/release/FAQ.rst:832
 msgid ""
@@ -1004,7 +1004,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:855
 msgid "What's the official MIME type for reStructuredText data?"
-msgstr ""
+msgstr "What's the official MIME type for reStructuredText data?"
 
 #: ../../source/release/FAQ.rst:857
 msgid ""
@@ -1016,7 +1016,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:862
 msgid "(The \"x-\" prefix means it's an unregistered MIME type.)"
-msgstr ""
+msgstr "(The \"x-\" prefix means it's an unregistered MIME type.)"
 
 #: ../../source/release/FAQ.rst:864
 msgid ""
@@ -1026,11 +1026,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:869
 msgid "HTML Writer"
-msgstr ""
+msgstr "HTML Writer"
 
 #: ../../source/release/FAQ.rst:872
 msgid "What is the status of the HTML Writer?"
-msgstr ""
+msgstr "What is the status of the HTML Writer?"
 
 #: ../../source/release/FAQ.rst:874
 msgid ""
@@ -1043,7 +1043,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:882
 msgid "What kind of HTML does it produce?"
-msgstr ""
+msgstr "What kind of HTML does it produce?"
 
 #: ../../source/release/FAQ.rst:884
 msgid ""
@@ -1059,7 +1059,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:897
 msgid "What browsers are supported?"
-msgstr ""
+msgstr "What browsers are supported?"
 
 #: ../../source/release/FAQ.rst:899
 msgid ""
@@ -1073,15 +1073,15 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:908
 msgid "Unexpected results from tools/rst2html.py: H1, H1 instead of H1, H2.  Why?"
-msgstr ""
+msgstr "Unexpected results from tools/rst2html.py: H1, H1 instead of H1, H2.  Why?"
 
 #: ../../source/release/FAQ.rst:910
 msgid "Here's the question in full:"
-msgstr ""
+msgstr "Here's the question in full:"
 
 #: ../../source/release/FAQ.rst:912
 msgid "I have this text::"
-msgstr ""
+msgstr "I have this text::"
 
 #: ../../source/release/FAQ.rst:930
 msgid ""
@@ -1091,7 +1091,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:952
 msgid "What gives?"
-msgstr ""
+msgstr "What gives?"
 
 #: ../../source/release/FAQ.rst:954
 msgid ""
@@ -1138,11 +1138,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:996
 msgid "(Thanks to Mark McEahern for the question and much of the answer.)"
-msgstr ""
+msgstr "(Thanks to Mark McEahern for the question and much of the answer.)"
 
 #: ../../source/release/FAQ.rst:1000
 msgid "How are lists formatted in HTML?"
-msgstr ""
+msgstr "How are lists formatted in HTML?"
 
 #: ../../source/release/FAQ.rst:1002
 msgid ""
@@ -1174,24 +1174,24 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1021
 msgid "text"
-msgstr ""
+msgstr "text"
 
 #: ../../source/release/FAQ.rst:1023 ../../source/release/FAQ.rst:1025
 #: ../../source/release/FAQ.rst:1026 ../../source/release/FAQ.rst:1028
 msgid "simple"
-msgstr ""
+msgstr "simple"
 
 #: ../../source/release/FAQ.rst:1030
 msgid "text after a nested list"
-msgstr ""
+msgstr "text after a nested list"
 
 #: ../../source/release/FAQ.rst:1032
 msgid "multiple"
-msgstr ""
+msgstr "multiple"
 
 #: ../../source/release/FAQ.rst:1034
 msgid "paragraphs"
-msgstr ""
+msgstr "paragraphs"
 
 #: ../../source/release/FAQ.rst:1036
 msgid ""
@@ -1217,7 +1217,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1053
 msgid "Why do enumerated lists only use numbers (no letters or roman numerals)?"
-msgstr ""
+msgstr "Why do enumerated lists only use numbers (no letters or roman numerals)?"
 
 #: ../../source/release/FAQ.rst:1055
 msgid ""
@@ -1230,7 +1230,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1066
 msgid "There appear to be garbage characters in the HTML.  What's up?"
-msgstr ""
+msgstr "There appear to be garbage characters in the HTML.  What's up?"
 
 #: ../../source/release/FAQ.rst:1068
 msgid ""
@@ -1304,7 +1304,7 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1120
 msgid "How can I retrieve the body of the HTML document?"
-msgstr ""
+msgstr "How can I retrieve the body of the HTML document?"
 
 #: ../../source/release/FAQ.rst:1122
 msgid ""
@@ -1320,23 +1320,23 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1133
 msgid "Why is the Docutils XHTML served as \"Content-type: text/html\"?"
-msgstr ""
+msgstr "Why is the Docutils XHTML served as \"Content-type: text/html\"?"
 
 #: ../../source/release/FAQ.rst:1135
 msgid "Full question:"
-msgstr ""
+msgstr "Full question:"
 
 #: ../../source/release/FAQ.rst:1137
 msgid "Docutils' HTML output looks like XHTML and is advertised as such::"
-msgstr ""
+msgstr "Docutils' HTML output looks like XHTML and is advertised as such::"
 
 #: ../../source/release/FAQ.rst:1143
 msgid "But this is followed by::"
-msgstr ""
+msgstr "But this is followed by::"
 
 #: ../../source/release/FAQ.rst:1147
 msgid "Shouldn't this be \"application/xhtml+xml\" instead of \"text/html\"?"
-msgstr ""
+msgstr "Shouldn't this be \"application/xhtml+xml\" instead of \"text/html\"?"
 
 #: ../../source/release/FAQ.rst:1149
 #, python-format
@@ -1376,19 +1376,19 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1174
 msgid "Python Source Reader"
-msgstr ""
+msgstr "Python Source Reader"
 
 #: ../../source/release/FAQ.rst:1177
 msgid "Can I use Docutils for Python auto-documentation?"
-msgstr ""
+msgstr "Can I use Docutils for Python auto-documentation?"
 
 #: ../../source/release/FAQ.rst:1179
 msgid "Yes, in conjunction with other projects."
-msgstr ""
+msgstr "Yes, in conjunction with other projects."
 
 #: ../../source/release/FAQ.rst:1181
 msgid "The Sphinx_ documentation generator includes an autodoc module."
-msgstr ""
+msgstr "The Sphinx_ documentation generator includes an autodoc module."
 
 #: ../../source/release/FAQ.rst:1185
 msgid ""
@@ -1434,11 +1434,11 @@ msgstr ""
 
 #: ../../source/release/FAQ.rst:1209
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscellaneous"
 
 #: ../../source/release/FAQ.rst:1212
 msgid "Is the Docutils document model based on any existing XML models?"
-msgstr ""
+msgstr "Is the Docutils document model based on any existing XML models?"
 
 #: ../../source/release/FAQ.rst:1214
 msgid ""

@@ -20,51 +20,51 @@ msgstr ""
 
 #: ../../source/ref/transforms.rst:3
 msgid "Docutils Transforms"
-msgstr ""
+msgstr "Docutils变换"
 
 #: ../../source/ref/transforms.rst
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #: ../../source/ref/transforms.rst:5
 msgid "David Goodger"
-msgstr ""
+msgstr "David Goodger"
 
 #: ../../source/ref/transforms.rst
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/ref/transforms.rst:6
 msgid "docutils-develop@lists.sourceforge.net"
-msgstr ""
+msgstr "docutils-develop@lists.sourceforge.net"
 
 #: ../../source/ref/transforms.rst
 msgid "Revision"
-msgstr ""
+msgstr "Revision"
 
 #: ../../source/ref/transforms.rst:7
 msgid "$Revision: 7530 $"
-msgstr ""
+msgstr "$Revision: 7530 $"
 
 #: ../../source/ref/transforms.rst
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/ref/transforms.rst:8
 msgid "$Date: 2012-10-16 14:40:36 +0200 (Di, 16. Okt 2012) $"
-msgstr ""
+msgstr "$Date: 2012-10-16 14:40:36 +0200 (Di, 16. Okt 2012) $"
 
 #: ../../source/ref/transforms.rst
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../../source/ref/transforms.rst:9
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "This document has been placed in the public domain."
 
 #: ../../source/ref/transforms.rst:12
 msgid "目录"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ref/transforms.rst:14
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: ../../source/ref/transforms.rst:40
 msgid "Transforms Listed in Priority Order"
-msgstr ""
+msgstr "Transforms Listed in Priority Order"
 
 #: ../../source/ref/transforms.rst:42
 msgid ""
@@ -114,31 +114,31 @@ msgstr ""
 
 #: ../../source/ref/transforms.rst:48
 msgid "Transform: module.Class"
-msgstr ""
+msgstr "Transform: module.Class"
 
 #: ../../source/ref/transforms.rst:48
 msgid "Added By"
-msgstr ""
+msgstr "Added By"
 
 #: ../../source/ref/transforms.rst:48 ../../source/ref/transforms.rst:134
 msgid "Priority"
-msgstr ""
+msgstr "Priority"
 
 #: ../../source/ref/transforms.rst:50
 msgid "misc.class"
-msgstr ""
+msgstr "misc.class"
 
 #: ../../source/ref/transforms.rst:50
 msgid "\"class\" (d/p)"
-msgstr ""
+msgstr "\"class\" (d/p)"
 
 #: ../../source/ref/transforms.rst:50
 msgid "210"
-msgstr ""
+msgstr "210"
 
 #: ../../source/ref/transforms.rst:52
 msgid "references.Substitutions"
-msgstr ""
+msgstr "references.Substitutions"
 
 #: ../../source/ref/transforms.rst:52 ../../source/ref/transforms.rst:54
 #: ../../source/ref/transforms.rst:68 ../../source/ref/transforms.rst:70
@@ -146,580 +146,580 @@ msgstr ""
 #: ../../source/ref/transforms.rst:84 ../../source/ref/transforms.rst:99
 #: ../../source/ref/transforms.rst:103
 msgid "standalone (r), pep (r)"
-msgstr ""
+msgstr "standalone (r), pep (r)"
 
 #: ../../source/ref/transforms.rst:52
 msgid "220"
-msgstr ""
+msgstr "220"
 
 #: ../../source/ref/transforms.rst:54
 msgid "references.PropagateTargets"
-msgstr ""
+msgstr "references.PropagateTargets"
 
 #: ../../source/ref/transforms.rst:54
 msgid "260"
-msgstr ""
+msgstr "260"
 
 #: ../../source/ref/transforms.rst:56
 msgid "frontmatter.DocTitle"
-msgstr ""
+msgstr "frontmatter.DocTitle"
 
 #: ../../source/ref/transforms.rst:56 ../../source/ref/transforms.rst:58
 #: ../../source/ref/transforms.rst:60
 msgid "standalone (r)"
-msgstr ""
+msgstr "standalone (r)"
 
 #: ../../source/ref/transforms.rst:56
 msgid "320"
-msgstr ""
+msgstr "320"
 
 #: ../../source/ref/transforms.rst:58
 msgid "frontmatter.DocInfo"
-msgstr ""
+msgstr "frontmatter.DocInfo"
 
 #: ../../source/ref/transforms.rst:58
 msgid "340"
-msgstr ""
+msgstr "340"
 
 #: ../../source/ref/transforms.rst:60
 msgid "frontmatter.SectSubTitle"
-msgstr ""
+msgstr "frontmatter.SectSubTitle"
 
 #: ../../source/ref/transforms.rst:60
 msgid "350"
-msgstr ""
+msgstr "350"
 
 #: ../../source/ref/transforms.rst:62
 msgid "peps.Headers"
-msgstr ""
+msgstr "peps.Headers"
 
 #: ../../source/ref/transforms.rst:62 ../../source/ref/transforms.rst:64
 #: ../../source/ref/transforms.rst:72
 msgid "pep (r)"
-msgstr ""
+msgstr "pep (r)"
 
 #: ../../source/ref/transforms.rst:62
 msgid "360"
-msgstr ""
+msgstr "360"
 
 #: ../../source/ref/transforms.rst:64
 msgid "peps.Contents"
-msgstr ""
+msgstr "peps.Contents"
 
 #: ../../source/ref/transforms.rst:64
 msgid "380"
-msgstr ""
+msgstr "380"
 
 #: ../../source/ref/transforms.rst:66
 msgid "universal.StripClasses..."
-msgstr ""
+msgstr "universal.StripClasses..."
 
 #: ../../source/ref/transforms.rst:66 ../../source/ref/transforms.rst:105
 #: ../../source/ref/transforms.rst:107
 msgid "Writer (w)"
-msgstr ""
+msgstr "Writer (w)"
 
 #: ../../source/ref/transforms.rst:66
 msgid "420"
-msgstr ""
+msgstr "420"
 
 #: ../../source/ref/transforms.rst:68
 msgid "references.AnonymousHyperlinks"
-msgstr ""
+msgstr "references.AnonymousHyperlinks"
 
 #: ../../source/ref/transforms.rst:68
 msgid "440"
-msgstr ""
+msgstr "440"
 
 #: ../../source/ref/transforms.rst:70
 msgid "references.IndirectHyperlinks"
-msgstr ""
+msgstr "references.IndirectHyperlinks"
 
 #: ../../source/ref/transforms.rst:70
 msgid "460"
-msgstr ""
+msgstr "460"
 
 #: ../../source/ref/transforms.rst ../../source/ref/transforms.rst:72
 msgid "peps.TargetNotes"
-msgstr ""
+msgstr "peps.TargetNotes"
 
 #: ../../source/ref/transforms.rst:72
 msgid "520"
-msgstr ""
+msgstr "520"
 
 #: ../../source/ref/transforms.rst:74 ../../source/ref/transforms.rst:78
 msgid "references.TargetNotes"
-msgstr ""
+msgstr "references.TargetNotes"
 
 #: ../../source/ref/transforms.rst:74 ../../source/ref/transforms.rst:76
 msgid "peps.TargetNotes (t/p)"
-msgstr ""
+msgstr "peps.TargetNotes (t/p)"
 
 #: ../../source/ref/transforms.rst:74 ../../source/ref/transforms.rst:138
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../source/ref/transforms.rst:76 ../../source/ref/transforms.rst:118
 msgid "misc.CallBack"
-msgstr ""
+msgstr "misc.CallBack"
 
 #: ../../source/ref/transforms.rst:76
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../source/ref/transforms.rst:78
 msgid "\"target-notes\" (d/p)"
-msgstr ""
+msgstr "\"target-notes\" (d/p)"
 
 #: ../../source/ref/transforms.rst:78
 msgid "540"
-msgstr ""
+msgstr "540"
 
 #: ../../source/ref/transforms.rst:80
 msgid "references.Footnotes"
-msgstr ""
+msgstr "references.Footnotes"
 
 #: ../../source/ref/transforms.rst:80
 msgid "620"
-msgstr ""
+msgstr "620"
 
 #: ../../source/ref/transforms.rst:82
 msgid "references.ExternalTargets"
-msgstr ""
+msgstr "references.ExternalTargets"
 
 #: ../../source/ref/transforms.rst:82
 msgid "640"
-msgstr ""
+msgstr "640"
 
 #: ../../source/ref/transforms.rst:84
 msgid "references.InternalTargets"
-msgstr ""
+msgstr "references.InternalTargets"
 
 #: ../../source/ref/transforms.rst:84
 msgid "660"
-msgstr ""
+msgstr "660"
 
 #: ../../source/ref/transforms.rst:86
 msgid "parts.SectNum"
-msgstr ""
+msgstr "parts.SectNum"
 
 #: ../../source/ref/transforms.rst:86
 msgid "\"sectnum\" (d/p)"
-msgstr ""
+msgstr "\"sectnum\" (d/p)"
 
 #: ../../source/ref/transforms.rst:86
 msgid "710"
-msgstr ""
+msgstr "710"
 
 #: ../../source/ref/transforms.rst:88
 msgid "parts.Contents"
-msgstr ""
+msgstr "parts.Contents"
 
 #: ../../source/ref/transforms.rst:88
 msgid "\"contents\" (d/p), peps.Contents (t/p)"
-msgstr ""
+msgstr "\"contents\" (d/p), peps.Contents (t/p)"
 
 #: ../../source/ref/transforms.rst:88
 msgid "720"
-msgstr ""
+msgstr "720"
 
 #: ../../source/ref/transforms.rst ../../source/ref/transforms.rst:91
 msgid "universal.StripComments"
-msgstr ""
+msgstr "universal.StripComments"
 
 #: ../../source/ref/transforms.rst:91 ../../source/ref/transforms.rst:97
 #: ../../source/ref/transforms.rst:101
 msgid "Reader (r)"
-msgstr ""
+msgstr "Reader (r)"
 
 #: ../../source/ref/transforms.rst:91
 msgid "740"
-msgstr ""
+msgstr "740"
 
 #: ../../source/ref/transforms.rst:93
 msgid "peps.PEPZero"
-msgstr ""
+msgstr "peps.PEPZero"
 
 #: ../../source/ref/transforms.rst:93
 msgid "peps.Headers (t/p)"
-msgstr ""
+msgstr "peps.Headers (t/p)"
 
 #: ../../source/ref/transforms.rst:93
 msgid "760"
-msgstr ""
+msgstr "760"
 
 #: ../../source/ref/transforms.rst:95
 msgid "components.Filter"
-msgstr ""
+msgstr "components.Filter"
 
 #: ../../source/ref/transforms.rst:95
 msgid "\"meta\" (d/p)"
-msgstr ""
+msgstr "\"meta\" (d/p)"
 
 #: ../../source/ref/transforms.rst:95
 msgid "780"
-msgstr ""
+msgstr "780"
 
 #: ../../source/ref/transforms.rst:97
 msgid "universal.Decorations"
-msgstr ""
+msgstr "universal.Decorations"
 
 #: ../../source/ref/transforms.rst:97
 msgid "820"
-msgstr ""
+msgstr "820"
 
 #: ../../source/ref/transforms.rst ../../source/ref/transforms.rst:99
 msgid "misc.Transitions"
-msgstr ""
+msgstr "misc.Transitions"
 
 #: ../../source/ref/transforms.rst:99
 msgid "830"
-msgstr ""
+msgstr "830"
 
 #: ../../source/ref/transforms.rst:101
 msgid "universal.ExposeInternals"
-msgstr ""
+msgstr "universal.ExposeInternals"
 
 #: ../../source/ref/transforms.rst:101
 msgid "840"
-msgstr ""
+msgstr "840"
 
 #: ../../source/ref/transforms.rst:103
 msgid "references.DanglingReferences"
-msgstr ""
+msgstr "references.DanglingReferences"
 
 #: ../../source/ref/transforms.rst:103 ../../source/ref/transforms.rst:109
 msgid "850"
-msgstr ""
+msgstr "850"
 
 #: ../../source/ref/transforms.rst:105
 msgid "universal.Messages"
-msgstr ""
+msgstr "universal.Messages"
 
 #: ../../source/ref/transforms.rst:105
 msgid "860"
-msgstr ""
+msgstr "860"
 
 #: ../../source/ref/transforms.rst:107
 msgid "universal.FilterMessages"
-msgstr ""
+msgstr "universal.FilterMessages"
 
 #: ../../source/ref/transforms.rst:107
 msgid "870"
-msgstr ""
+msgstr "870"
 
 #: ../../source/ref/transforms.rst:109 ../../source/ref/transforms.rst:190
 msgid "universal.SmartQuotes"
-msgstr ""
+msgstr "universal.SmartQuotes"
 
 #: ../../source/ref/transforms.rst:109
 msgid "Parser"
-msgstr ""
+msgstr "Parser"
 
 #: ../../source/ref/transforms.rst:111
 msgid "universal.TestMessages"
-msgstr ""
+msgstr "universal.TestMessages"
 
 #: ../../source/ref/transforms.rst:111
 msgid "DocutilsTestSupport"
-msgstr ""
+msgstr "DocutilsTestSupport"
 
 #: ../../source/ref/transforms.rst:111
 msgid "880"
-msgstr ""
+msgstr "880"
 
 #: ../../source/ref/transforms.rst:113
 msgid "writer_aux.Compound"
-msgstr ""
+msgstr "writer_aux.Compound"
 
 #: ../../source/ref/transforms.rst:113
 msgid "newlatex2e (w)"
-msgstr ""
+msgstr "newlatex2e (w)"
 
 #: ../../source/ref/transforms.rst:113
 msgid "910"
-msgstr ""
+msgstr "910"
 
 #: ../../source/ref/transforms.rst:115 ../../source/ref/transforms.rst:201
 #: ../../source/ref/transforms.rst:204
 msgid "writer_aux.Admonitions"
-msgstr ""
+msgstr "writer_aux.Admonitions"
 
 #: ../../source/ref/transforms.rst:115
 msgid "html4css1 (w), latex2e (w)"
-msgstr ""
+msgstr "html4css1 (w), latex2e (w)"
 
 #: ../../source/ref/transforms.rst:115
 msgid "920"
-msgstr ""
+msgstr "920"
 
 #: ../../source/ref/transforms.rst:118
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 #: ../../source/ref/transforms.rst:118
 msgid "990"
-msgstr ""
+msgstr "990"
 
 #: ../../source/ref/transforms.rst:121
 msgid "Key:"
-msgstr ""
+msgstr "Key:"
 
 #: ../../source/ref/transforms.rst:123
 msgid "(r): Reader"
-msgstr ""
+msgstr "(r): Reader"
 
 #: ../../source/ref/transforms.rst:124
 msgid "(w): Writer"
-msgstr ""
+msgstr "(w): Writer"
 
 #: ../../source/ref/transforms.rst:125
 msgid "(d): Directive"
-msgstr ""
+msgstr "(d): Directive"
 
 #: ../../source/ref/transforms.rst:126
 msgid "(t): Transform"
-msgstr ""
+msgstr "(t): Transform"
 
 #: ../../source/ref/transforms.rst:127
 msgid "(/p): Via a \"pending\" node"
-msgstr ""
+msgstr "(/p): Via a \"pending\" node"
 
 #: ../../source/ref/transforms.rst:131
 msgid "Transform Priority Range Categories"
-msgstr ""
+msgstr "Transform Priority Range Categories"
 
 #: ../../source/ref/transforms.rst:136
 msgid "From"
-msgstr ""
+msgstr "From"
 
 #: ../../source/ref/transforms.rst:136
 msgid "To"
-msgstr ""
+msgstr "To"
 
 #: ../../source/ref/transforms.rst:136
 msgid "Category"
-msgstr ""
+msgstr "Category"
 
 #: ../../source/ref/transforms.rst:138
 msgid "99"
-msgstr ""
+msgstr "99"
 
 #: ../../source/ref/transforms.rst:138
 msgid "immediate execution (added by another transform)"
-msgstr ""
+msgstr "immediate execution (added by another transform)"
 
 #: ../../source/ref/transforms.rst:139
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: ../../source/ref/transforms.rst:139
 msgid "199"
-msgstr ""
+msgstr "199"
 
 #: ../../source/ref/transforms.rst:139
 msgid "very early (non-standard)"
-msgstr ""
+msgstr "very early (non-standard)"
 
 #: ../../source/ref/transforms.rst:140
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: ../../source/ref/transforms.rst:140
 msgid "299"
-msgstr ""
+msgstr "299"
 
 #: ../../source/ref/transforms.rst:140
 msgid "very early"
-msgstr ""
+msgstr "very early"
 
 #: ../../source/ref/transforms.rst:141
 msgid "300"
-msgstr ""
+msgstr "300"
 
 #: ../../source/ref/transforms.rst:141
 msgid "399"
-msgstr ""
+msgstr "399"
 
 #: ../../source/ref/transforms.rst:141
 msgid "early"
-msgstr ""
+msgstr "early"
 
 #: ../../source/ref/transforms.rst:142
 msgid "400"
-msgstr ""
+msgstr "400"
 
 #: ../../source/ref/transforms.rst:142
 msgid "699"
-msgstr ""
+msgstr "699"
 
 #: ../../source/ref/transforms.rst:142
 msgid "main"
-msgstr ""
+msgstr "main"
 
 #: ../../source/ref/transforms.rst:143
 msgid "700"
-msgstr ""
+msgstr "700"
 
 #: ../../source/ref/transforms.rst:143
 msgid "799"
-msgstr ""
+msgstr "799"
 
 #: ../../source/ref/transforms.rst:143
 msgid "late"
-msgstr ""
+msgstr "late"
 
 #: ../../source/ref/transforms.rst:144
 msgid "800"
-msgstr ""
+msgstr "800"
 
 #: ../../source/ref/transforms.rst:144
 msgid "899"
-msgstr ""
+msgstr "899"
 
 #: ../../source/ref/transforms.rst:144
 msgid "very late"
-msgstr ""
+msgstr "very late"
 
 #: ../../source/ref/transforms.rst:145
 msgid "900"
-msgstr ""
+msgstr "900"
 
 #: ../../source/ref/transforms.rst:145
 msgid "999"
-msgstr ""
+msgstr "999"
 
 #: ../../source/ref/transforms.rst:145
 msgid "very late (non-standard)"
-msgstr ""
+msgstr "very late (non-standard)"
 
 #: ../../source/ref/transforms.rst:150
 msgid "Transforms added by components"
-msgstr ""
+msgstr "Transforms added by components"
 
 #: ../../source/ref/transforms.rst:156
 msgid "readers.Reader:"
-msgstr ""
+msgstr "readers.Reader:"
 
 #: ../../source/ref/transforms.rst
 msgid "universal.Decorations,"
-msgstr ""
+msgstr "universal.Decorations,"
 
 #: ../../source/ref/transforms.rst
 msgid "universal.ExposeInternals,"
-msgstr ""
+msgstr "universal.ExposeInternals,"
 
 #: ../../source/ref/transforms.rst:159
 msgid "readers.ReReader:"
-msgstr ""
+msgstr "readers.ReReader:"
 
 #: ../../source/ref/transforms.rst:159 ../../source/ref/transforms.rst:198
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../../source/ref/transforms.rst:173
 msgid "readers.standalone.Reader:"
-msgstr ""
+msgstr "readers.standalone.Reader:"
 
 #: ../../source/ref/transforms.rst
 msgid "references.Substitutions,"
-msgstr ""
+msgstr "references.Substitutions,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.PropagateTargets,"
-msgstr ""
+msgstr "references.PropagateTargets,"
 
 #: ../../source/ref/transforms.rst
 msgid "frontmatter.DocTitle,"
-msgstr ""
+msgstr "frontmatter.DocTitle,"
 
 #: ../../source/ref/transforms.rst
 msgid "frontmatter.SectionSubTitle,"
-msgstr ""
+msgstr "frontmatter.SectionSubTitle,"
 
 #: ../../source/ref/transforms.rst
 msgid "frontmatter.DocInfo,"
-msgstr ""
+msgstr "frontmatter.DocInfo,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.AnonymousHyperlinks,"
-msgstr ""
+msgstr "references.AnonymousHyperlinks,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.IndirectHyperlinks,"
-msgstr ""
+msgstr "references.IndirectHyperlinks,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.Footnotes,"
-msgstr ""
+msgstr "references.Footnotes,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.ExternalTargets,"
-msgstr ""
+msgstr "references.ExternalTargets,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.InternalTargets,"
-msgstr ""
+msgstr "references.InternalTargets,"
 
 #: ../../source/ref/transforms.rst
 msgid "references.DanglingReferences,"
-msgstr ""
+msgstr "references.DanglingReferences,"
 
 #: ../../source/ref/transforms.rst:187
 msgid "readers.pep.Reader:"
-msgstr ""
+msgstr "readers.pep.Reader:"
 
 #: ../../source/ref/transforms.rst
 msgid "misc.Transitions,"
-msgstr ""
+msgstr "misc.Transitions,"
 
 #: ../../source/ref/transforms.rst
 msgid "peps.Headers,"
-msgstr ""
+msgstr "peps.Headers,"
 
 #: ../../source/ref/transforms.rst
 msgid "peps.Contents,"
-msgstr ""
+msgstr "peps.Contents,"
 
 #: ../../source/ref/transforms.rst:190
 msgid "parsers.rst.Parser"
-msgstr ""
+msgstr "parsers.rst.Parser"
 
 #: ../../source/ref/transforms.rst:195
 msgid "writers.Writer:"
-msgstr ""
+msgstr "writers.Writer:"
 
 #: ../../source/ref/transforms.rst
 msgid "universal.Messages,"
-msgstr ""
+msgstr "universal.Messages,"
 
 #: ../../source/ref/transforms.rst
 msgid "universal.FilterMessages,"
-msgstr ""
+msgstr "universal.FilterMessages,"
 
 #: ../../source/ref/transforms.rst
 msgid "universal.StripClassesAndElements"
-msgstr ""
+msgstr "universal.StripClassesAndElements"
 
 #: ../../source/ref/transforms.rst:198
 msgid "writers.UnfilteredWriter"
-msgstr ""
+msgstr "writers.UnfilteredWriter"
 
 #: ../../source/ref/transforms.rst:201
 msgid "writers.latex2e.Writer"
-msgstr ""
+msgstr "writers.latex2e.Writer"
 
 #: ../../source/ref/transforms.rst:204
 msgid "writers.html4css1.Writer:"
-msgstr ""
+msgstr "writers.html4css1.Writer:"
 
 #: ../../source/ref/transforms.rst:206
 msgid "writers.odf_odt.Writer:"
-msgstr ""
+msgstr "writers.odf_odt.Writer:"
 
 #: ../../source/ref/transforms.rst:207
 msgid "removes references.DanglingReferences"
-msgstr ""
+msgstr "removes references.DanglingReferences"
 
 #~ msgid "transforms"
 #~ msgstr ""
